@@ -1,0 +1,469 @@
+~MODERN COMPUTER STACK: Transistor - Web Browser
+~0: DIVIDE/SECURITY/UNCERTAINTY: Random variable 
+	: NOT:
+		Hide	| Block
+		Mute	| Deafen
+		Pause	| Detach
+		Choke	| Mask
+		Break	| Fast
+		Erase	| Forget
+		Keep	| Miss 
+	: Error/Flags     
+		Collision/Network Congestion= conflict with transfer in carrier
+			Routine Problem, Hop Limit
+			Scrambled Packets
+			Growing Wait-Time
+		Kernel Panic/Crash= 
+		Dirty Bit= Mismatch between Cache and RAM
+		Overflow= not enough memory bit 
+		Bugs, Worm, Malware 
+	
+~1: IN/FETCH:SEE/HEAR/FEEL/SMELL/TASTE() ~4: OUT/EXECUTE:BE(RIGHT), HARDWARES:
+	: IN-OUTPUT DEVICES/PERIPHERALS:
+		: See/Camera      = Show/Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3D Projection,
+		: Hear/Microphone = Speak/Speaker
+		: Feel/Keyb/Mouse = Move/Animation/Events
+		: Inhale/Cooler   = Exhale/Exhaust
+		: Eat/Power       = Create/Heat
+		: Read/Receive    = Write/Give
+	: HARDWARE: Transistorized Computers
+		: Computer (Physical) Network:: The signals are received and converted back into data bits.
+			: Router, NetworkAdapter/Chips
+			: Switch, CollisionDomain
+			: CopperWire/EthernetCable, RadioWaves/WiFi
+		: Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
+			Multi-bit Bus: a[n], number of bit, More Bits for more Instruction/Memory Length
+		: Central/Graphical Processing Unit (C/GPU): Microarchitecture 
+			: Registers:
+				: Clock Register/Sequential Logic: state[t] = function(state[t-1])
+				: Instruction Address = RandomAccessMemory (RAM):
+					: MUX: (a AND NOTsel) OR (sel AND b)
+						: NOT (in=sel, out=NOTsel)
+						: AND (in=a, in=NOTsel, out=aANDNOTsel)
+						: AND (in=sel, in=b, out=selANDb)
+						: OR (in=aANDNOTsel, in=selANDb, out=out)
+					: Matrix>Gate>AND-OR Latch: Memory Address
+						: AND (in=column, in=row, out=columnANDrow)
+							: AND (in=data, in=write-enable, out=set)
+							: NOT (in=data, out=NOTdata)
+							: AND (in=NOTdata, in=write-enable, out=reset)
+								: OR (in=set, in=outLOOP, out=setORoutLoop)
+								: NOT (in=reset, out=NOTreset)
+								: AND (in=setORoutLOOP, in=NOTreset, out=out)
+					: Memory Register/Bit: Flip Flops: out[t] = in[t-1]
+						: OR-LOOP (in=a, in=b, out=1)
+						: AND-LOOP (in=a, in=b, out=0) 
+				: Instruction = Arithmetic & Logic Unit (ALU)
+					: Arithmetic = Half>Full>Multi-bit Adder:
+						: XOR (in=a, in=b, out=abSUM)
+							: AND (in=a, in=b, out=aANDb); 
+							: NOT (in=aANDb, out=NOTaANDb); 
+							: OR (in=a, in=b, out=aORb); 
+							: AND (in=NOTaANDb, in=aORb, out=out);
+						: AND (in=a, in=b, out=abCARRY)	
+							: >XOR (in=abSUM, in=c, out=abcSUM)
+							: >AND (in=abSUM, in=c, out=abcCARRY)
+								; >OR (in=abCARRY, in=abcBARRY, out=out)
+						: Flags: Overflow, Zero, Negative...    
+					: Logic: Xor>Mux/DMux>And>Or>Nand/Not
+		: ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
+
+~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), Read-Only Memory (ROM) >>> ArithmeticLanguageVersion0 (A-0) >>> FormulaTranslation (ForTran) >>> CommonBusiness-OrientedLanguage:
+	: INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
+		: Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
+            : Domain Name System (DNS) + Web-Server
+			: Web-Browser/Search Engine: Hypertext Transfer Protocol (HTTP)
+                : Web-Address/Page: Universal Resource Locator (URL) + Hyperlinks
+                : Hypertext Markup Language (HTML)
+            	: Index: Frequency of Words + Backlinks
+		: Presentation: The data is decoded or decompressed if needed.
+		: Session: The session is maintained or closed as necessary.
+		: Transport: Segments are reassembled, and any lost data is retransmitted.
+        	: Transmission Control Protocol (TCP): Sequence Switching/Routing Packets, Acknowledging
+		: Network: The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
+            : Internet Protocol (IP) Header: InternetServiceProvider(ISP)>Wide>LocalAreaNetwork>MAC Address
+		: Data Link: The frames are reassembled and validated for any transmission errors.
+			: Data Payload: 
+				: TCP Header: Software Port + Checksum
+				: Data 
+	: OPERATING SYSTEM: Automation/ Learning, Optimization/Multi-Tasking, Device Driver
+		: MEMORY ADDRESS: Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
+            : File System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+            : List: A dynamic collection class for storing and managing objects. To handle collections with flexible size and additional features.
+			: Array: A fixed-size collection of items of the same type stored in contiguous memory. To efficiently store and access multiple values in a single variable.
+            : Pointer: Next Address Reference
+            : Indexes and References
+			: Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
+			: Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
+
+       : OPERATION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
+			: Search/Queries: a sequence of actions that leads from initial state to a goal state
+			: Initialization: Assignment Statement: A = 1
+				: Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
+				: Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
+				: Assignments: Initializes or updates the value of a variable. To give variables usable values.
+				: Logic: NOT, AND, OR
+				: Comparison: Less Than, Greater Than, Equal
+			: List: Queue/Stack, Create-Read-Update-Delete, Normalize
+			: Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+            : ControlFlow: Conditional Statement: If/While/For... function(input1, 2)
+				: Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
+  				: Console Input/Output: Reads from and writes to the console. To interact with the user.
+				: Conditionals: Enables decision-making in code. To perform actions based on conditions.
+					: If/Else If/Else: Executes code based on logical conditions. To handle multiple outcomes.
+					: Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+					: Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
+				: Loops: Repeats code execution based on conditions. To perform repetitive tasks.
+					: While: Repeats while a condition is true. To handle indefinite iteration.
+					: Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+					: For: Iterates a specific number of times. To handle definite iteration.
+					: Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
+					: Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
+			: Execute: Return Statement: Then/Else/Next... 
+				: Return: Exits a function and optionally returns a value. To end execution and provide a result.
+
+	: FILE TYPES: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix
+		: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+		: Wave/Audio: Amplitude, Spectogram
+		: Character/Text/List/String = ASCII>UNICODE
+		: Number/Integer/Float= 
+			: Scientific Notation; Negative Bit= 2^N-x
+			: Null Value
+	: MACHINE CODE:
+		: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+		: Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
+~3: WRITE(), COMPRESSION: 
+	: DEVELOPMENT LIFECYCLE:
+		: Planning
+		: Design
+		: Development
+		: Testing
+		: Deployment
+		: Maintenance/Warranty
+	: Engineering Collaboration:
+		: Source Control
+			: Quality Assurance
+			; Roll Back
+		: Repository:
+			: Check in vs out
+			: Committing
+
+######################################################################################################################################################################################
+    Database Creation: Creates a new database.
+    	Why: To systematically organize and store application data.
+    Table Creation: Defines a structured format for storing data in rows and columns.
+    	Why: To organize data with specific attributes.
+
+    Primary Key Constraint: Ensures unique identification for each table record.
+    	Why: To prevent duplicate records and establish a reliable reference point.
+    Foreign Key Constraint: Links two tables to maintain referential integrity.
+    	Why: To model relationships between tables.
+    Indexes: Improves the speed of data retrieval.
+    	Why: To optimize query performance.
+
+    Data Querying: Retrieves specific data from the database.
+    	Why: To access and analyze stored information.
+    Aggregate Functions: Performs calculations like sum, average, and count.
+    	Why: To derive summary statistics.
+    GROUP BY/HAVING: Groups data and filters results based on aggregate conditions.
+    	Why: To summarize and analyze grouped data.
+    Joins: Combines rows from multiple tables.
+    	Why: To retrieve related data from different tables.
+    Unions: Merges result sets of multiple SELECT queries.
+    	Why: To consolidate data into one result set.
+    Sub-Query: Uses the result of one query within another query.
+    	Why: To filter or derive conditions dynamically.
+    String and Date Functions: Manipulates string and date values.
+    	Why: To format and extract meaningful information.
+
+    Data Insertion: Adds new records to a table.
+    	Why: To populate the database.
+    Data Update: Modifies existing records in a table.
+    	Why: To correct or update information.
+    Data Deletion: Removes records from a table.
+    	Why: To delete obsolete or incorrect data.
+
+    Views: Creates virtual tables based on SQL queries.
+    	Why: To simplify complex queries and enhance security.
+    Stored Procedures: Encapsulates SQL statements for reuse.
+    	Why: To standardize and simplify repetitive tasks.
+    Transactions: Groups operations as a single unit of work.
+    	Why: To ensure data consistency and integrity.
+    Triggers: Automatically executes actions in response to table events.
+    	Why: To enforce rules and maintain data integrity.
+
+#############################################################################################################################################################################################################################################################	
+~TO-DO: How Computer Vision be?
+
+~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
+	Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
+    Preprocessing: The visual data is preprocessed to enhance quality or to simplify it for further analysis. This may involve resizing, normalizing colors, or applying filters to highlight features.
+    Feature Extraction: Key features, such as edges, textures, or patterns, are extracted from the image. In traditional computer vision, these might include corner detectors, histograms, or feature descriptors (e.g., SIFT, SURF).
+    Object Detection and Recognition: Using either traditional algorithms (like Haar Cascades) or deep learning methods (like convolutional neural networks or CNNs), the system detects and classifies objects within the image. Deep learning models are particularly effective, with networks pre-trained on large datasets such as ImageNet.
+    Image Segmentation: The process involves dividing the image into different parts, isolating objects, and understanding the spatial relationships within the scene. Techniques include region-based segmentation and semantic segmentation.
+    Post-Processing and Decision-Making: After analyzing the image, the system applies post-processing techniques to refine the results. Based on the findings, it may make decisions or provide output for a specific task, like identifying an object or triggering an alert.
+    Continuous Learning: Through machine learning, computer vision systems improve over time. With more data and feedback, these systems can refine their ability to interpret images and adapt to new situations.
+1. Geometric Layout
+    Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
+    Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
+    Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
+2. Detailed Proportions
+    Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, aligning elements to create a cohesive and visually pleasing composition.
+    Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
+    Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
+3. Use of the Golden Ratio
+    Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
+    Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye. For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
+    Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, as elements sized according to the golden ratio generally maintain a stable distribution of mass.
+4. Representation of Structural Elements
+    Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
+    Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
+    Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
+5. Step-by-Step Plan for Builders
+    Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
+    Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
+    Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
+    Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
+
+~1: Electromagnetic Waves: 
+	: Different Frequencies
+	: Visible Light: 280 nanomemeter and 750 nm
+~2: Interaction with Matter
+	: Absorption, Reflection, Transmission
+~3: Color Perception
+	: White light: All Color
+	: Photoreceptor cells in Retina, CONES
+		: Blue, Green, Red (RBG)
+~4: Light Sources and Color: Sunlight, incandescent, flourescent, LED/Modern 
+~5: Refraction and Dispersion: 
+~6: Reflection, Shadows, and Highlights
+~7: Color Temperature
+~8: Optics and Visual Processing
+
+~SEE-SHOW, xBLINK-HIDE: 	
+: EYES:		Camera, Optical/Ocular System
+	:VIEW:	1st Person, 2nd (Possession) Person, 3rd Person (God View)
+: DISPLAY	Wacom Tablet, Web, Letter, Media: Comics, Shows, Movies, Physique+Beauty,
+	: FORM: Geometry, MEDIA, Arrival, +GAMES: BattlesRealms, Pokemon, Counter-Strike, MegaMan, 
+	: LINE:
+	: SHAPE:
+	: SIZE:
+		DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
+		Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+		Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+		Portrait/Figure Art, Character Design, Concept/Sequential Art
+        Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+: SOURCE: 	Sun, Moon, Stars, Lamp, Lasers, Xrays... 
+: LIGHT: 	Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
+	: COLOR: red, orange, yellow, green, blue, indigo, violet, Red/Green/Blue, Cyan/Magenta/Yellow...
+		: Incandescent bulbs: Warm (yellow/orange)
+		: Flourescent lights: Cooler (blue/green)	
+		: LED/Modern lights: artificial color... 
+		: TEMPERATURE (Kelvin, K):
+			: Lower (2000-4000K): warm light (orange/red), cozy or dramatic mood
+			: Higher (5000-6500K): cool light (blue), clarity and attention to detail
+	: REFLECTIONS:
+		: Specular: shine
+		: Diffuse: matte
+: ANGLE:	Up-Down,  Right-Left, 
+: SHADE: 	Terminator, Core, Occlusion, Cast
+		Epilepsy, Autism, Void, Clear/Transparent, Blur
+
+#####################################################################################################################
+~HOW SOUND BE? Vibrations create waves that travel through different mediums, allowing us to hear and perceive sound. 
+    Sound Capture (Input): Sound is captured through microphones or audio interfaces, where analog sound waves are converted into digital data using an analog-to-digital converter (ADC).
+    Digitization and Sampling: The analog audio signal is digitized, typically by breaking it into discrete samples (sampling) at a specific rate (e.g., 44.1 kHz for CD-quality audio). The samples are represented as digital data, which computers can process and store.
+    Digital Sound Processing:
+        Filtering: Frequencies may be filtered or enhanced to modify the sound quality.
+        Effects and Modulation: Effects like reverb, echo, or distortion can be applied to transform sound. Techniques like FM synthesis (frequency modulation) generate sound by altering frequencies.
+        Compression and Encoding: Audio is often compressed (e.g., MP3, AAC) to reduce file size for storage or streaming without significant loss in quality.
+    Sound Generation (Output): Computers generate sound either by converting digital data back into an analog signal (using a digital-to-analog converter or DAC) for playback on speakers or headphones or through synthesis and processing to create new sounds.
+        Speech Synthesis: For virtual assistants, text-to-speech algorithms convert text data into spoken words, using synthetic voices.
+        Sound Effects and Music Synthesis: Computers can synthesize music and sound effects in real-time, used in video games, music production, and virtual environments.
+    Analysis and Interpretation:
+        Speech Recognition: Speech recognition algorithms use machine learning to interpret spoken language, allowing voice control and transcription.
+        Audio Analysis: Computers analyze sound for pitch, tone, rhythm, and other characteristics, useful for applications like music identification, environmental sound classification, and sentiment analysis.
+    Continuous Learning and Feedback: With AI, computers can continuously improve in sound recognition, synthesis, and processing, adapting to user preferences and improving the quality of generated and interpreted sound over time.
+
+1. Three Types of Music
+	Boethius categorizes music into three overarching types, reflecting his belief that music governs not only the audible world but also the universe and the human soul.
+	a. Musica Mundana ("Music of the Universe")
+		Description: This type of music represents the cosmic harmony of the universe. Boethius believed that celestial bodies, such as planets and stars, produce a form of inaudible music through their movements. This "music" reflects the order and proportions governing the cosmos.
+		Philosophical Basis: Drawing on Pythagorean thought, Boethius equates the motions of the heavens to mathematical ratios, asserting that the balance in nature mirrors musical harmony.
+	b. Musica Humana ("Human Music")
+		Description: Human music concerns the harmony within individuals, specifically the relationship between the body and soul. Boethius thought that the human being, as a microcosm of the universe, reflects the same principles of order and proportion found in musica mundana.
+		Philosophical Significance: This harmony was believed essential for maintaining balance in life, aligning the physical and spiritual aspects of a person.
+	c. Musica Instrumentalis ("Instrumental Music")
+		Description: This is the tangible music produced by instruments or voices, the only type of music that can be heard.
+		Philosophical Context: Boethius regarded this as the least significant form because it is tied to the sensory world, unlike the higher, abstract forms of music. However, it is still governed by the same mathematical ratios.
+2. Mathematical Ratios
+    Basis in Pythagorean Theory: Boethius draws on the mathematical principles of Pythagoras, who demonstrated that musical intervals correspond to simple numerical ratios.
+    Examples of Ratios:
+        Octave: Ratio of 2:1
+        Perfect Fifth: Ratio of 3:2
+        Perfect Fourth: Ratio of 4:3
+    Harmonic Relationships: Boethius emphasizes that these ratios not only define audible harmony but also underpin the harmony of the cosmos and human nature.
+    Philosophical Implication: Understanding these ratios is key to understanding the universal order, as mathematical harmony is seen as a fundamental aspect of existence.
+3. Music and Morality
+    Ethical Dimensions: Boethius believed music could shape character and influence emotions. For example, certain modes or scales were thought to evoke virtue or vice.
+    Moral Virtue through Harmony: The order in music, reflective of cosmic and human harmony, was seen as a model for moral and rational behavior. Listening to music could align the soul with universal order, promoting inner balance and ethical conduct.
+4. Theory over Practice
+    Distinction Between Theory and Practice: Boethius makes a sharp distinction between:
+        Theorists: Those who understand the abstract science and philosophy of music.
+        Practitioners: Musicians who perform music without grasping its deeper intellectual principles.
+    Superiority of Theory: He argues that theoretical knowledge is superior because it engages with the universal truths of music, rather than merely producing sound.
+    Enduring Influence: This hierarchical view deeply influenced medieval and Renaissance thought, where music theory was considered part of the liberal arts.
+5. Educational Structure
+	Boethius organizes his work into five books, systematically addressing the philosophical, mathematical, and practical aspects of music.
+	Books 1-2: Philosophical and Mathematical Foundations
+		Discuss the nature of music and its relationship to universal order.
+		Introduce the three types of music (mundana, humana, instrumentalis).
+		Explore mathematical ratios and their connection to harmony.
+	Book 3: Musical Intervals
+		Focuses on the structure of musical intervals (e.g., octaves, fifths, and fourths).
+		Explains how these intervals are derived mathematically and how they relate to the harmony of the universe.
+	Books 4-5: Practical Aspects
+		Address rhythm, notation, and the practical creation of music.
+		Maintain a theoretical perspective, focusing on the abstract principles underlying musical practice rather than specific techniques for performers.
+
+~1: Vibration
+~2: Propagation of Sound Waves
+~3: Medium
+~4: Frequency and Pitch
+~5: Amplitude and Loudness
+~6: Reflection, Refraction, and Diffraction
+~7: Interference
+~8: Perception of Sound
+~9: Resonance
+~10: Sound in Different Environments
+
+~HEAR-SPEAK, xDEAFEN-MUTE:
+: EARS: 	Rode Mic
+: INSTRUMENT:	Realtek Speakers, 
+	: Frequency, 
+	: Amp, 
+	: Length..
+	: GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
+			JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
+	: RHYTHM: 	Beat
+: NOISE:	Mumble, Stutter, Cry, Explode
+: SILENCE:	Whisper, Introversion
+
+#####################################################################################################################
+~TO-DO: How Robotics/Locomotion be?
+    Design and Hardware Development: The process begins with designing the robot’s physical structure, including its frame, sensors, motors, actuators, and any necessary tools or manipulators (like arms or grippers).
+        Sensors: Robots are equipped with sensors such as cameras, LIDAR, sonar, and touch sensors to gather information about their environment.
+        Actuators and Motors: These components allow robots to move and interact with the world, enabling functions like grasping, rotating, and navigating.
+    Programming and Software Development: This step involves writing code that enables the robot to process information, make decisions, and execute tasks.
+        Control Algorithms: Algorithms control the robot’s movements and actions based on sensory input and desired goals. These can include pathfinding, obstacle avoidance, and motion planning.
+        Artificial Intelligence and Machine Learning: AI allows robots to make autonomous decisions, adapt to new conditions, and learn from experiences. Machine learning models can be trained to recognize objects, respond to voice commands, and improve task efficiency over time.
+    Sensor Data Processing and Environment Mapping: Robots need to interpret data from their sensors to understand their surroundings.
+        Computer Vision: Using cameras and image processing, robots recognize objects, track movements, and interpret visual information.
+        Mapping and Localization: Techniques like Simultaneous Localization and Mapping (SLAM) help robots map their environment and track their position within it.
+    Motion Planning and Control: This stage involves creating a plan for the robot’s movements and ensuring precise control of its actions.
+        Kinematics and Dynamics: Mathematical models calculate the movements and forces needed to perform tasks, especially for robots with articulated arms or legs.
+        Path Planning: Algorithms determine the best route for the robot to reach a destination, avoiding obstacles along the way.
+    Testing and Iteration: Robots are rigorously tested in controlled environments to evaluate their performance and reliability.
+        Simulation: Many robotic systems are first tested in virtual simulations to refine algorithms and ensure safety before deploying in the real world.
+        Physical Testing: Robots are placed in real-world scenarios to see how well they perform their intended tasks, with engineers making adjustments as needed.
+    Deployment and Maintenance: Once ready, robots are deployed in their intended environment, where they are monitored and maintained.
+        Continuous Learning and Updates: For AI-driven robots, learning continues in deployment, with updates applied to improve performance or adapt to new tasks.
+
+~HOW MOTION BE?
+~1: First Law (Intertia)
+~2: Second Law (Force & Acceleration)
+~3: Third Law (Action & Reaction)
+~4: Kinematics Equations
+~6: Work & Energy
+~7: Momentum
+
+~FEEL: 			= SKINS:	Hands, Feet, Skin
+	: INPUT		= Mouse, Keyboard, Controller
+~MOVE: 	
+	: EMOTION:	= INERTIA, Love
+	: MOTION:	= Divide & Conquer
+				= Perception, Predication, Reasoning, Arrangement
+				= MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+				= Presentation: MILO Y, Wurze, RussellB
+				= Artists: Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
+    : MASS: 	= Light, Heavy
+	: SPEED:	= Slow, Fast, 
+	: DISTANCE: 	Fore-Backward, Close-Up, Medium, Wide
+	: TEMPERATURE:	Cold, Warm, Hot
+		: Weather: Humidity, Pressure
+	: TEXTURE: 	Rough, Smooth
+
+-xAVOID: : EVASION:	Clothes, Armour, Fear, Shyness, Rejection, 
+xPAUSE: : STILLNESS	Rest
+
+#####################################################################################################################
+Both phenomena involve diffusion, pressure changes, and molecular interactions. 
+We interact with our environment, from detecting dangers through smell to sustaining life through respiration.
+
+~HOW SMELL BE:
+~1: Emission
+~2: Diffusion & Transport
+~3: Detection
+~4: Signal Transmission
+~5: Perception
+
+~HOW BREATH BE:
+~1: Inhalation 
+~2: Gas Echange in the Lungs
+~3: Oxygen Transport
+~4: Cellular Respiration
+~5: Exhalation
+
+~SMELL-EXHALE, MASK-BLOW: 
+: NOSE: 	SMELLS:	Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet... Yawn, 
+: EXHAUST:	Sigh, Blow, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
+: FILTER:	Breath-Holding, 
+: CHOKE:	Suffocate, Hiccup, Cold, Asthma
+
+#####################################################################################################################
+Digestion and energy conversion involve both mechanical physics (chewing, muscle contraction) and chemical physics (energy transfer, chemical reactions). 
+The body takes in food, breaks it down into smaller molecules, and converts it into energy that powers all bodily functions. This energy conversion follows the laws of thermodynamics, ensuring that energy is conserved and utilized efficiently, with some energy lost as heat in the process.
+By breaking food down into nutrients, the body obtains the raw materials needed for growth, repair, and energy production—critical for sustaining life and maintaining homeostasis. The physics of digestion is an essential component of how we derive energy from the environment and convert it into a usable form for biological processes.
+The conversion of food into energy to support reproduction is a multifaceted process governed by the principles of energy transfer and biological regulation. Through cellular respiration, the energy stored in food is transformed into ATP, which fuels the development of reproductive cells, gametogenesis, and the overall reproductive system.
+This energy conversion process is intricately controlled by hormones, ensuring that the body can allocate the necessary resources to produce sperm and eggs, as well as support fertility. Reproduction, in essence, is not only a biological imperative but also an energy-intensive process, dependent on the availability and efficient conversion of energy from food. The physics of energy flow, mechanical processes, and biochemical regulation are fundamental to the continuation of life.
+
+~HOW ENERGY BE?
+~1: Ingestion (Chewing & Swallowing)
+~2: Peristalsis (Movement of Food)
+~3: Stomach Digestion
+~4: Enzyme Activity in the Small Intestine
+~5: Absorption of Nutrients
+~6: Cellular Respiration (Energy Conversion)
+~7: Waste Elimination
+
+How Does Energy Conversion Occur from Food to Reproduction (By What Steps)?
+~1: Energy Extraction from Food (Digestion and Cellular Respiration):
+    Food Breakdown
+    Cellular Respiration
+        Glycolysis
+        Krebs Cycle
+        Oxidative Phosphorylation
+~2: Hormonal Regulation and Energy Allocation:
+    Endocrine System
+        GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), which stimulate sperm and egg production.
+        Energy and Hormones
+~3: Spermatogenesis (Sperm Production in Males):
+    Testes
+        Sperm Development
+        Mitochondria in Sperm
+~4: Oogenesis (Egg Production in Females):
+    Ovaries
+        Energy in Egg Development
+        Ovulation Cycle
+~5: Energy and Fertility:
+    Adequate Energy Levels
+        Fat Reserves and Reproduction
+    Reproductive Investment
+
+~TASTE-CREATE, FAST-WASTE	
+: TONGUE, 	Stomach
+: TASTES: 	Bitter, Salty, Sour, Sweet, Savory... HautCuisin
+: BODY:		Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+: 		Hunger, Thirst, Starvation,
+: SOIL:		Spit, Shit, Piss, Poison/Pollution, Disease
+

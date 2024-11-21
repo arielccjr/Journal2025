@@ -1,0 +1,143 @@
+~MODELLING CPU: Fetch>>>Decode(Memory, Operation)>>>Execute = FOR THE LIGHT OF THE BULB IS WITH THE CONNECTION BY THE WIRE. FOR THE UNDERSTANDING OF THE MIND IS WITH THE LOGIC BY THE WORDS.
+~1: IN(IMAGE/PDF), TEXT:
+	: Optical Character Recognition (OCR): IMAGE FOR-BY DOCUMENT
+	: Image Convolution = applying a filter that add each pixel value of an image to its neighbors, weighted according to a kernel matrix
+	: Recurrent Network
+~2: CLASSIFY(TEXT), CODES:
+	0=CONJUNCTION= AND, OR, &, /, 
+	1=ADVERB = 
+		: suffix: -LY
+		: ADVERBS-GUIDE-LIST:
+			a, about, above, against, after, all, also, always, amid, among, an, anti, any, anywhere, apart, are, around, as, at, away,
+			back, bad, be, because, been, before, begin, behind, below, beneath, beside, best, between, beyond, by,
+			can, come, could,
+			dear, deep, don't, due, during,
+			each enough, ever, except,
+			family,
+			far, first, for, fore, forward, from free, full, further, 
+			go, good, great,
+			had, has, have, hence, her, here, him, his, home, how,
+			I, if, in, indeed, inside, instead, into, is, it, its,
+			just,
+			keep,
+			last, less, like, live, long, loud, 
+			make, many, may, meanwhile, minus, more, most, much, must, my,
+			near, never, new, next, no, not, nothing,
+			of, off, often, on, other, onto, opposite, our, ourselves, over, own,
+			past, per, please, plus,
+			quiet, quite,
+			regardless, round,
+			same, save, say, seldom, send, shall, she, short, should, since, so, some, sometimes, soon, such, still,
+			take, the, than, that, their, them, these, there, they, this, those, through, thus, to, too, toward, twice,
+			under, unless, unlike, until, up, upon, us, us, use,
+			very, via,
+			want, was, way, we, well, were, what, when, where, whether, which, while, who, whose, why, will, with, within, would, 
+			you, your, yes
+		: VOID-APPLY ON THESE WORDS = JULY, ITALY &: WORDS-ENDING WITH THE -PLY, SUFFIX=: APPLY, COMPLY, SUPPLY, MULTIPLY.	
+		: [NOT APPLY ON THESE WORDS = JULY, ITALY, AND WORDS-ENDING WITH THE -PLY: APPLY, COMPLY, SUPPLY, MULTIPLY]	
+	2=VERB = IS/ARE,
+	8=PAST-TENSE:
+		: SUFFIX: -ed, -en
+		: been, had, has, have, past, was, were, voted
+	9=FUTURE-TENSE:
+		: can, could, may, shall, should, to, will, would
+	NC=NEGATIVE-CONTEXT:
+		: PREFIX:
+			: VOWELS: A-/a-, E-/e-, I-/i-, O-/o-, U-/u-
+			: VOWEL+TWO CONSONANTS: Abb-, Acc-, Add-, Env-, Ill-, Itc...  
+			: DE- DIS-, IN, NO/NON
+			: PRE-, PRO-, PUR-, RE-. UN-
+			: ANTE-, CIRCUM-, COUNTER-, INTER-, INTRA-, SUB-, SUPER-, UNDER-, ULTRA-
+	DPV=DANGLING-PARTICIPLE-VERB.
+	BS=LAW OF THE BOXING/BRACKETS.
+	ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+	FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+	PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+	QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+	LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+	VC=VOID-CONTINUANCE = ".", ",", "?", "!",
+
+~3: WRITE(SYMBOLS, WORDS, SENTENCE), CORRECTNESS:
+	: SYNTAX-CHECKLIST:
+		~1: Look for a place to put your BASIC-SYNTAX-KEY-CODE, place it.
+		~2: Scan/check document for the following F.-S.-G. & add each one to BASIC-SYNTAX-KEY-CODE, that you find in the document.
+		~3: SYNTAX ONLY THE FIRST SENTENCE OF EVERY PARAGRAPH.
+
+		~12: Place FULL-SIZE FENCE at all places where there is PUNCTUATION of VOID-CONTINUANCE.
+		~13: Find & mark all ADVERBS=1, -ly=1, & mark all CONJUNCTIONS=0. 
+			Place FULL-SIZE-FENCE both sides of the CONJUNCTIONS 
+			: & HALF-FENCES/MARKS left of the THREE-ADVERBS in a row or TWO-ADVERBS in a row or ONE-SINGLE-ADVERB.
+		~14: Check for THREE-ADVERBS in a row? 
+			ANSWER=NO, GOTO STEP-15, 
+			ASNWER=YES, START-HERE>:
+				THREE-ADVERBS convert to 1 2 1
+				FOUR ADVERBS convert 1 1 2 1 OR 1 2 1 1
+		~15: Now SYNTAX what is left with>: 
+			PRONOUN=4
+			VERB=2
+			ADJECTIVE+PRONOUN=3>4
+			: NOTE: An ADVERB-WORD NOT ending in -ly(suffix)=THE or a WORD, isolated by itself, by punctuation or by void-continuance/spaces, converts to a PRONOUN=4, 
+				but not an ADVERB-WORD-ENDING in an -ly(suffix)=GRAMMARLY=1, stays an ADVERB=1 (ALWAYS).
+	
+	: ADVERB-SYNTAX-RULES:
+		: RULE-1: For the -ly-ADVERBS stay an ADVERB-ALWAYS.
+		: RULE-2: NO MORE THAN THREE-ADVERBS IN A ROW. 
+			SAMPLE= 1 1 1
+		: RULE-3: If there is only one word to the RIGHT of an ADVERB it will always be MODIFIED into a VERB=2. 
+			SAMPLE= 1 2.
+		: RULE-4: If there is only one word to the LEFT of an ADVERB it will always be MODIFIED into a PRONOUN=4.
+			SAMPLE= 4 1
+		: RULE-5: If there are TWO or more words to the LEFT of an ADVERB, 
+			it will always be MODIFIED into this ADJECTIVE>PRONOUN= 3 4 1
+			SAMPLE= 3 4 1
+		: RULE-6: If there are TWO or more words to the RIGHT of an ADVERB, 
+			it will always be  MODIFIED into this ADJECTIVE>PRONOUN= 3 4.
+			SAMPLE= 1 3 4
+		: RULE-7: An ADVERB farthest to the right, at the end of the sentence(full-fence, punctuation), will convert to a VERB=2, FIRST.
+			SAMPLE= 1 1 1 1. converts to 1 1 1 2.
+		: RULE-8: you would write if there was only one adverb and it was at the very end of the sentence you're going to convert it to a 4 with the exception or a note for yourself if that word the last word before the period or the question mark of the explanation mark if it was an l y suffix word like family or sincerely then it will not convert to a two or four i'm sorry a four because l y always stays a one oh it and that would be your rule eight.
+		: RULE-8: It there are two adverbs at the end of a sentence, the last adverb gets converted to a verb. 
+			( The rule only applies if the sentence ends with a (.), (?) or (!)
+			and doesn’t end with a (,), (:), (;), ([]) or (). 
+		: RULE-9: If the last word at the end of a sentence is an adverb, 
+			it’ll be converted into a pronoun, unless it ended in (-ly). 
+			A conjunction stays a conjunction. 
+			The word before the last (-ly) word would convert to a pronoun. 	
+		: RULE-10: An adverb before a conjunction remains an adverb, 
+			because it’s not the end of a sentence or punctuation. 
+
+		: SYNTAX-SEQUENCE-KEY:
+			: Fence =           |
+			: Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
+			: Punctuation=		|[Punctuation]|
+			: and, &, or, /=	|0|
+			: -ly word=		    |1(-ly)|
+			: Adverb-List word=	|1 1|
+								|1 1 1|
+								|1 1(-ly) 1|
+			Verb: =			    |1 2|
+								|1 2 1|
+								|1 1 2 1(-ly)|
+			Adjective-Pronoun=	|1| >>> |4|
+								|1 3 4|
+								|1 3... 3 4|
+								|3 4|
+								|3... 3 4|
+								|4|
+								|4 1|
+			End of Sentence=	|1(.?!)| >>> |4|
+								|1 1(.?!)| >>> |1 2DPV[End](.?!))|	
+	: RIGHT:
+		: SYMBOLS/ALPHABET:
+		: WORD:
+			5=POSITION,
+			6=LODIAL,
+			7=FACT,
+		: SENTENCE:
+			: CAUSE: FOR THE CLAIMANT'S KNOWLEDGE (CAUSE)
+			: CONSEQUENCE/[E]FFECT: OF THE FACTS (EFFECT)
+			: VERB: IS/ARE (THINKING/ACTION)
+			: POSSESSION/DUTY: WITH THE CLAIM-POSSESSIVE OF THE TERMS (+/-) WITH THE CONTRACT
+			: AUTHORITY/AUTHORIZATION: BY THE AUTHOR.
+~4: OUT:BE(WORD), BODY/I/HERE/NOW
+	: Show Augmented-Reality in Device Camera View
