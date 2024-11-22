@@ -26,60 +26,106 @@
         : SCHEDULE: DEATH, END
         : AWAKENING: REASON, DAYDREAM
 
-~GAME LOOP: DESIGN SOMETHING NEW! NOT INSPIRED BY OTHER GAMES, A RIP-OFF
-    ~1: HOOK/CUE(TRIGGER)/CHOOSE ULTIMATE AIM = BEING ONE WITH EVER(WHAT/WHO/WHERE/WHEN)
-        : PROBLEM:
-        : UNKNOWN+STRANGER+AWAY+SURPRISE
-        : SOILVOID+MOTHERBEAST+WILDWORLD+LIFECYCLE 
-    ~2: STORY/ROUTINE(ACTION)/WORK: FIGHT, COLLABORATE = SEE/HEAR/FEEL/SMELL/TASTE & BE(SEEN/HEARD/FELT/SMELLED/TASTED)
-        : QUANTUM GRAMMAR + CLASSICAL REASONING x ARTIFICIAL INTELLIGENCE
-    ~3: OFFER/AWARDS(SATISFACTIONS)/GAINS
-        : KNOWN+FAMILY+HOME+SCHEDULE
-        : SEEDWORD+FATHERGOD+KINGDOMHEAVEN+DEATHEND(FIN)
-~GENRE: Adventure, Collection, Lifestyle, Strategy, Card Game?
-    : Character: Main Motion/ ONE THING: See/Hear/Feel/Inhale/Eat >> BE
-    : Camera: Perspective
-        : Bird's Eye View, Isometric: like Battle Realms
-        ; First Person: like Counter-Strike
-    : Control
-    : Inspirations: Battle Realms, Counter Strike, Pokemon, CashFlow, REAL LIFE
-~MECHANICS: Controls & Complete Task, Gain Reward/Playable Character, Complete Harder Task
-    ~1: ACTION = Baseline
-        -Action: Physics
-        -Baseline: Reference, Update, 
-    ~2: RESOURCE = Finite/Scarcity
-        -Scarcity/Finity    
-    ~3: INTERACTION = 
-        -Single
-        -Multiplayer    
-    ~4: NAVIGATION = 
-        -Maps?    
-    ~5: GAME WORLD = Weather
-    ~6: PROGRESS = Tutorials, Saves, Updates
-            Journal?
-~DESIGNS: Sketching, Blocking, Polishing
-    ~LEVEL = Planning "Don't build your final level first" 
-        = Understanding the Dimensions(2/3D) Layout
-        = Available Assets
-        = Programmed mechanics
+~PROTOTYPES:
+    : WHY: MISSION = Utilizes existing game assets, prefabs, codes
+        = GENRE: Adventure, Collection, Lifestyle, Strategy, Card Game?
+            : Inspirations: Battle Realms, Counter Strike, Pokemon, CashFlow, REAL LIFE
         = Story & Concept "Where are we, what are we doing, and where are we going?"
-        = Balance scope budget, and schedule
-        = Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
-    ~MISSION = Utilizes existing game assets, prefabs, codes
-        = Story & Concept
         = Sidequests, minigames, or tasks for the player
         = Overall game pace, difficulty, and playtime
         = Brief overview: Objectives & Options, enemies, items, NPCS
-~PROTOTYPES:
-    ~1: ATMOSPHERE
-    ~2: SOUND EFFECTS
-    ~3: CHARACTERS
-    ~4: MECHANICS
-    ~5: ENEMY TYPES
-    ~6: AND MORE
+    : HOW: GAME MECHANICS & LOOP: DESIGN SOMETHING NEW! NOT INSPIRED BY OTHER GAMES, A RIP-OFF
+        ~1: HOOK/CUE/RISK/TASK(TRIGGER)/CHOOSE ULTIMATE AIM = BEING ONE WITH EVER(WHAT/WHO/WHERE/WHEN)
+            : PROBLEM:
+            : UNKNOWN+STRANGER+AWAY+SURPRISE
+            : SOILVOID+MOTHERBEAST+WILDWORLD+LIFECYCLE 
+        ~2: STORY/ROUTINE(ACTION)/WORK: FIGHT, COLLABORATE = SEE/HEAR/FEEL/SMELL/TASTE & BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+            : QUANTUM GRAMMAR + CLASSICAL REASONING x ARTIFICIAL INTELLIGENCE
+        ~3: OFFER/AWARDS/GOAL(SATISFACTIONS)/GAINS
+            : KNOWN+FAMILY+HOME+SCHEDULE
+            : SEEDWORD+FATHERGOD+KINGDOMHEAVEN+DEATHEND(FIN)
+    : WHEN: PROGRESS = Tutorials, Saves, Updates
+        : Journal?
+        : Timeline
+    : WHERE: ATMOSPHERE
+        = NAVIGATION, Maps
+        : GAME WORLD = Weather
+        = LEVEL = Planning "Don't build your final level first" 
+        = Balance scope budget, and schedule
+    : WHO:
+        : Character: Main Motion/ ONE THING: See/Hear/Feel/Inhale/Eat >> BE
+        : ENEMY TYPES
+    : WHAT = Available Assets
+        : DESIGNS: Sketching, Blocking, Polishing
+            = Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+            = Understanding the Dimensions(2/3D) Layout
+            : Camera: Perspective
+                : First Person: like Counter-Strike
+                : Bird's Eye View, Isometric: like Battle Realms
+        : SOUND EFFECTS
+        : ACTION = Baseline
+            : Action: Physics
+            : Baseline: Reference, Update, 
+            : INTERACTION: Single, Multiplayer
+            : Controls: 
+        : RESOURCE = Finite/Scarcity
+            -Scarcity/Finity
+
+CUE/RISK:
+    : Unknown words/meaning
+    : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+        : Bankruptcy, Resource Scarcity 
+    : Low Population 
+        : Requests/Puzzles, Opposition
+        : Wild Encounters + Enemy Raids/Ambush   
+    : Defuse or trigger the bomb.
+        : Best of 7 Rounds
+        : Round-Time: 3 minutes   
+ROUTINE/TRANSITION:
+    : Introduce the Word Group. Introduce a group of related words, typically based on common Latin or Greek roots.
+        : Explain the Words. Break down into its root and affixes, along with usage examples in sentences. Lewis also adds anecdotes or historical context to make the word more memorable.
+        : Practice with Exercises. Match words to their definitions, use them in sentences, or choose the correct word in a given context with Multiple-choice or fill-in-the-blank exercises reinforce learning.
+        : Immediate Feedback and Correction. Provides the correct answers and explanations. Readers can see where they went wrong and correct their understanding.
+        : Review and Recap (Long-Term Reinforcement). Include review sections that bring back words from earlier lessons to reinforce long-term retention. These reviews often come after a few chapters or at the end of a major section.
+    : Every time the player passes "Payday" on the board, they receive their paycheck.
+        : Earn Income: The paycheck is the foundation for covering living expenses and making investments. At the beginning, most players rely on this income to survive.
+        : Manage Expenses and Liabilities (Routine): Keeping expenses under control is essential for freeing up money to invest in assets.
+        : Make Investments (Action): Investments are the key to building passive income, which allows the player to eventually escape the Rat Race.
+            Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+    : Gather Resources
+        : Maintain Healthy Population
+        : Build Structures
+        : Train Units: Training specialized units is key to forming a balanced army capable of both defending your base and launching effective attacks on the enemy.
+        : Engage in Combat: Winning battles gives you control, weakens the enemy's position. 
+        : Destroy enemy units, disrupt their economy,
+        : Expand and Manage Karma (Reward)  
+        : Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
+    : Eliminate all oppositions
+        : Solve characters' requests/puzzles.
+        : Catch Pokémon: Catching Pokémon is essential to building a strong and varied team.
+        : Train and Battle Pokémon: Training Pokémon strengthens your team, making them more capable of defeating stronger opponents like Gym Leaders.
+        : Challenge Trainers, Gyms, Elite Four, and the Champion    
+REWARD/GOAL:
+    : Mental Dictionary/Library
+    : Passive Income: This is income generated from assets, like rental properties, dividends from stocks, or businesses. The goal is to increase passive income so that it exceeds living expenses.
+        : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
+        : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+        : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+    : more resources, allowing you to further build and strengthen your army, better positioning on the map, 
+        : healthy population
+        : more units' abilities, leading to more effective combat and better outcomes
+        : Karma
+        : All enemies eliminated
+    : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+    : Earn Money, Items, Experience Points, Medal/Status
+        : Earn ExperiencePoints, NewMoves, Money, Items
+        : Badges and unlocks new abilities (such as using certain moves outside of battle).
+        : Progressing the game storyline and accessing new areas.
+        : Ability to challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
+        : Become the new Pokémon Champion, completing the main storyline.
+
 
 ~TAOIST CULTIVATION OF MALE SEXUAL ENERGY:
-    Here’s an expanded guide on each practice based on Mantak Chia’s teachings in Taoist Secrets of Love: Cultivating Male Sexual Energy:
     1. Breathing Exercises
         Step 1: Sit or lie down comfortably with a straight spine.
         Step 2: Inhale deeply through the nose, filling the abdomen (not just the chest) with air.
@@ -116,94 +162,3 @@
         Step 3: Develop self-discipline by setting specific goals for practicing retention and energy cultivation.
         Step 4: Reflect on your progress weekly, noting how increased energy and control impact your well-being.
         Step 5: Use any frustration as motivation, allowing sexual energy to fuel personal, creative, or professional growth.
-
-~WORD POWER by Norman Lewis
-    1: Introduce the Word Group (Cue). This step helps readers recognize patterns in vocabulary, which can improve both memorization and application.
-        Lewis introduces a group of related words, typically based on common Latin or Greek roots. For example, words related to "phil" (love), such as "philanthropy" (love of humanity) or "bibliophile" (lover of books).
-    2: Explain the Words (Routine). This ensures that readers don’t just memorize definitions but understand the word in context, helping with long-term retention.
-        Each word is explained in detail, often broken down into its root and affixes, along with usage examples in sentences. Lewis also adds anecdotes or historical context to make the word more memorable.
-    3: Practice with Exercises (Action). The exercises strengthen recall and comprehension by forcing the reader to actively engage with the material.
-        After the explanations, the reader completes exercises where they must match words to their definitions, use them in sentences, or choose the correct word in a given context. For example:
-            "Choose the correct word: The bibliophile enjoys collecting rare books."
-            Multiple-choice or fill-in-the-blank exercises reinforce learning.
-    4: Immediate Feedback and Correction (Reward). The feedback reinforces correct learning and highlights areas for improvement, making the loop more effective.
-        After completing the exercises, Lewis provides the correct answers and explanations. Readers can see where they went wrong and correct their understanding.
-    5: Review and Recap (Long-Term Reinforcement). This spaced repetition ensures that words stay in the reader’s long-term memory by revisiting them at spaced intervals. 
-        Lewis frequently includes review sections that bring back words from earlier lessons to reinforce long-term retention. These reviews often come after a few chapters or at the end of a major section.
-
-~CASHFLOW:
-    1: Earn Income (Cue): The paycheck is the foundation for covering living expenses and making investments. At the beginning, most players rely on this income to survive.
-        Paychecks: Each player has a job and earns a regular paycheck, which is their primary source of income at the beginning of the game. This paycheck is fixed based on the profession assigned at the start (e.g., teacher, doctor).
-        Cue: Every time the player passes "Payday" on the board, they receive their paycheck.
-        Example: A teacher might earn $2,500 per paycheck, while a doctor earns $7,500. However, the doctor also has higher liabilities like student loans and taxes.
-    2: Manage Expenses and Liabilities (Routine): Keeping expenses under control is essential for freeing up money to invest in assets.
-        Expenses: These include basic living expenses like rent, utilities, and groceries, as well as taxes and liabilities (e.g., loans, credit card debt).
-        Routine: Each player must subtract their expenses from their paycheck and track their liabilities. High liabilities can drain income, preventing players from investing.
-        Example: A player might have monthly expenses of $1,500 for rent, $500 for a car loan, and $200 in taxes. These must be deducted from each paycheck.
-    3: Make Investments (Action): Investments are the key to building passive income, which allows the player to eventually escape the Rat Race.
-        Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.
-        Action: Players decide whether or not to invest based on their financial situation, and they calculate the potential returns from the investment.
-        Example: A player might land on an opportunity to buy a rental property for $20,000, which generates $400 in monthly passive income. If the player has enough cash, they can make the purchase, adding to their passive income.
-    4: Build Passive Income (Reward): Building passive income is essential for achieving financial freedom in the game (and real life), as it reduces dependence on a paycheck.
-        Passive Income: This is income generated from assets, like rental properties, dividends from stocks, or businesses. The goal is to increase passive income so that it exceeds living expenses.
-        Reward: When a player’s passive income surpasses their monthly expenses, they escape the Rat Race and move to the Fast Track.
-        Example: A player with $2,000 in monthly expenses might have built up $2,500 in passive income through investments in real estate and stocks, allowing them to escape the Rat Race.
-    5: Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
-        Example: A player might achieve their dream of starting a foundation by investing enough in businesses that generate massive cash flow, fulfilling their victory condition.
-        Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-        Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-
-~BATTLE REALMS:
-    1: Gather Resources (Cue): Gathering resources is essential for building structures and training units. Without a strong economy, you can't field a large or strong enough army to defeat the enemy.
-        Rice and Water are the two main resources in Battle Realms, and the loop begins with efficiently gathering these to support your economy and army.
-        Cue: The player starts by assigning peasants to harvest rice and collect water from natural sources.
-        Example: Place rice paddies near water sources and assign peasants to these locations early on to ensure a steady resource flow.
-    2: Train Units (Routine): Training specialized units is key to forming a balanced army capable of both defending your base and launching effective attacks on the enemy.
-        After gathering resources, players can train peasants into various unit classes by sending them to training buildings (like Dojos or Target Ranges).
-        Routine: Convert peasants into soldiers by sending them to training facilities, and then specialize them further by sending them through advanced buildings.
-        Example: A peasant can be trained into a swordsman at a Dojo, then further upgraded into an archer at a Target Range.
-    3: Engage in Combat (Action): Winning battles gives you control over more territory and weakens the enemy's position. Successful engagements also allow you to destroy enemy units, disrupt their economy, and eventually conquer their base.
-        Once a player has trained enough units, the next step is to engage the enemy, either in skirmishes or full-scale battles.
-        Action: Deploy your units strategically on the battlefield, using terrain to your advantage. Make tactical decisions about which units to send and when to attack or defend.
-        Example: Use stealth units like Ninjas to scout the enemy base before launching an attack, or use defensive units to hold key chokepoints.
-    4: Expand and Manage Karma (Reward): Expanding gives you access to more resources and better positioning on the map, while managing karma can enhance your units' abilities, leading to more effective combat and better outcomes in the long run.   
-        Expansion: Conquering new areas gives access to more resources, allowing you to further build and strengthen your army.
-        Karma Management: In Battle Realms, the player's moral alignment (karma) can influence the strength of units and clan abilities. The Dragon and Serpent clans, for example, have different philosophies, and maintaining your karma in line with your clan can give you bonuses.
-        Example: For the Dragon Clan, maintaining positive karma can give access to powerful heroes and special abilities, while negative karma might weaken your forces.
-
-~COUNTER-STRIKE:
-    1: Strategy and Planning (Cue): A well-thought-out strategy increases the chances of winning the round.
-        Pre-Round Planning: Each round starts with players deciding which strategies to use based on the map, the economy, and the opposing team’s playstyle.
-        Cue: Teams often discuss whether to rush, split, or hold defensive positions, and who will buy which equipment (weapons, grenades, defusal kits).
-        Example: A CT team may decide to split and cover both bomb sites (A and B), while the Terrorists might execute a coordinated push onto one bomb site.
-    2: Resource Management (Routine): Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.
-        Buy Phase: At the beginning of each round, players use money (earned based on performance in previous rounds) to buy weapons, armor, and utility (grenades, flashbangs).
-        Routine: Manage money carefully, deciding when to "save" (not buying much to save for future rounds) or "force buy" (buying whatever you can even if money is low).
-        Example: If your team loses a round, you might save money to buy better weapons in the next round. Winning consecutive rounds allows for full buys with rifles and armor.
-    3: Combat and Execution (Action): Winning firefights and successfully executing team strategies leads to round victories.
-        Engage the Enemy: After buying equipment, the team executes the plan—moving across the map, taking or defending bomb sites, and engaging in firefights with the enemy team.
-        Action: Use teamwork, aim, and positioning to outsmart or outgun the enemy. Terrorists try to plant the bomb, while CTs defend the bomb sites or attempt to defuse the bomb.
-        Example: A well-timed flashbang blinds the enemy, allowing your team to push and take control of a bomb site, or a skilled sniper holds an angle, picking off approaching opponents.
-    4: Round Victory (Reward): Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-        Winning the Round: Rounds are won by either eliminating the enemy team, completing the objective (bomb plant/defuse or hostage rescue), or running down the timer (for CTs).
-        Reward: Winning a round earns more money for the team, allowing for better equipment in the next round. Winning enough rounds leads to overall victory in the match.
-        Example: A CT team successfully defuses the bomb, or the Terrorist team eliminates all CTs and plants the bomb to secure the round.
-
-~POKEMON: Here’s a breakdown of the steps involved in winning the game:
-    1: Catch Pokémon (Cue): Catching Pokémon is essential to building a strong and varied team.
-        Wild Pokémon Encounters: When exploring the game world, the player encounters wild Pokémon.
-        Cue: The player uses Pokéballs to catch wild Pokémon after weakening them in battle.
-        Example: Encountering a Pikachu in the wild, weakening it with an attack, and then using a Pokéball to capture it.
-    2: Train and Battle Pokémon (Routine): Training Pokémon strengthens your team, making them more capable of defeating stronger opponents like Gym Leaders.
-        Battling Wild Pokémon and Trainers: You gain experience points (EXP) by battling, which allows your Pokémon to level up and grow stronger.
-        Routine: The player engages in regular battles to level up their Pokémon, improve stats, and teach them new moves.
-        Example: Using Charmander to battle wild Caterpie, gaining EXP, and evolving it into Charmeleon after leveling up.
-    3: Challenge Gyms and Collect Badges (Action): Collecting Gym Badges is essential for progressing in the game and accessing new areas.
-        Gym Battles: Players face Gym Leaders who specialize in specific types (e.g., Water, Fire, Electric) to earn Gym Badges.
-        Action: Defeating the Gym Leader rewards you with a badge and unlocks new abilities (such as using certain moves outside of battle).
-        Example: Battling Brock, the Rock-type Gym Leader, and winning the Boulder Badge by defeating his Onix.
-    4: Defeat the Elite Four and Become the Champion (Reward): Becoming the Pokémon Champion is the ultimate goal and the main "win" condition of the game.
-        Elite Four Battles: After collecting all badges, you can challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
-        Reward: Upon defeating the Champion, you become the new Pokémon Champion, completing the main storyline.
-        Example: After defeating the Elite Four, facing the current Champion, and winning the final battle to claim the title.
-
