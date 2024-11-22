@@ -1,42 +1,14 @@
 ~PRESENTATION SCENE: SERVICE/SPEECH/DEBATE/BATTLE:
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()
-    ~MIRROR: I see/hear/feel/smell/taste you. You seem/sound/move/smell/taste... 
-    ~SURRENDER: You're right.
-    : TITLE: Clearly state the central question or topic.
-		"Is Semen Retention Beneficial?"
-	: INTRODUCTION:
-		: GREETINGS:
-			“Good [morning/evening], fellow Toastmasters and guests.”
-		: HOOK: Begin with a strong question or statement to capture interest.
-			“Today, I’d like to tackle a fascinating, and perhaps unconventional question: is there any benefit to retaining semen?”
-		: INTRODUCTION OF THE QUESTION IN DIALECTICAL FORMAT: State the Question: Introduce the central question in a way that presents two opposing views.
-			“Is semen retention beneficial or not?” introduces diverse perspectives with significant implications.
-		: Explain the Significance. Explain why the topic is relevant or important.
-			“While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
-		: Thesis Statement: Clearly state your position or the answer to the question.
-			“This essay (or speech) will argue that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
-		: Transition to Body. Lead into the main points.
-			“Let’s explore both sides of this debate and see where the evidence leads us.”
-	
+    ~MIRROR/GREETINGS: I see/hear/feel/smell/taste you. You seem/sound/move/smell/taste... Good [morning/evening], fellow Toastmasters and guests.”
+    ~TITLE/HOOK: “Is semen retention beneficial or not?” 
+	~INTRODUCTION: 
+		: Explain why: “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
+		: Thesis Statement/answer: “This presentation argues that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
+	~TRANSITION: “Let’s explore both sides of this presentation and see where the evidence leads us.”
+
 ~2: SUMMARIZE(SEEN/HEARD/FELT/SMELLED/TASTED), "That's right!":
-    ~LABEL WHY/WHY NOT:  "It seems like... (IRONY:COMEDY/TRAGEDY), dissatisfaction/troubles/wrong
-        : FOR WHAT; Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
-                Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation.
-                    Game Demo, Portfolio
-                Content & Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training.
-                Technical Set-Up: SMTP, Domain & DNS, Payment Gateway, SEO.
-                Business Support: Cash Flow Reviews, Budgeting, Financial Statement
-        : FOR WHO: EMPATHIZE with Different Publishers/Investors' Mission
-            : Investors
-            : Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
-            : Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
-            : Ideal Client Profile: Men who are time-conscious, effective, and busy; young, ambitious individuals; and established professionals seeking efficiency and sophistication.
-        : FOR WHERE
-            : Local & Remote: Home-based, Remote from NAIT, North America-wide service.
-        : FOR WHEN: Turnaround: Production speed of 1-2 days per project
-	
-    : COUNTERARGUMENTS (ARGUMENTS AGAINST THE THESIS)
-		: INTRODUCE MAIN COUNTERARGUMENTS: “One common argument against semen retention is that ejaculation is a natural bodily function.”
+     ~INTRODUCE MAIN COUNTERARGUMENTS: “One common argument against semen retention is that ejaculation is a natural bodily function.”
 		: SUPPORT COUNTERARGUMENTS WITH EVIDENCE AND SUB-POINTS:
 			: SUB-POINT 1: Explain the natural process argument.
 				: Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
@@ -46,9 +18,8 @@
 				: Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
 		: TRANSITION TO SUPPORTING POINTS:
 			“Now, let’s look at the other side, where proponents of retention see distinct benefits.”
-
-	: REFUTATION OF COUNTERARGUMENTS:
-		: ADDRESS AND FEFURE MAIN COUNTERARGUMENTS:
+	~REFUTATION OF COUNTERARGUMENTS:
+		: ADDRESS AND FEFUTE MAIN COUNTERARGUMENTS:
 			: Refute First Counterargument: Address the natural function argument.
 				: Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
 			: Refute Additional Counterarguments:
@@ -60,6 +31,24 @@
 				: Support/Evidence: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
 			: Sub-Point 3: Emphasize periodic retention’s advantages.
 				: Support/Evidence: “Research highlights benefits, such as increased mental focus.”
+
+		: FOR WHAT; Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
+			Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation.
+				Game Demo, Portfolio
+			Content & Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training.
+			Technical Set-Up: SMTP, Domain & DNS, Payment Gateway, SEO.
+			Business Support: Cash Flow Reviews, Budgeting, Financial Statement
+		: FOR WHO: EMPATHIZE with Different Publishers/Investors' Mission
+			: Investors
+			: Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
+			: Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
+			: Ideal Client Profile: Men who are time-conscious, effective, and busy; young, ambitious individuals; and established professionals seeking efficiency and sophistication.
+		: FOR WHERE
+			: Local & Remote: Home-based, Remote from NAIT, North America-wide service.
+		: FOR WHEN: Turnaround: Production speed of 1-2 days per project
+   
+	~LABEL WHY/WHY NOT:  "It seems like... (IRONY:COMEDY/TRAGEDY), dissatisfaction/troubles/wrong
+    ~SURRENDER: You're right, if... 
 
 ~3: COMMIT(), CONTRACT/AGREEMENT "Yes! Let's do it!":
     ~SERVE HOW: How can you help me? How can I help you?
@@ -88,8 +77,7 @@
         : BY WHEN: Working Hours: 9am - 9pm, Monday through Friday
             : Incorporation: December 1, 2023 - December 1, 2024
 
-    : SUPPORTING ARGUMENTS (ARGUMENTS FOR THE THESIS)
-		: PRESENT MAIN PROOFS FOR THESIS. Begin with the main arguments supporting your thesis.
+	: PRESENT MAIN PROOFS FOR THESIS. Begin with the main arguments supporting your thesis.
 		: EXPAND EACH ARGUMENT WITH EVIDENCE AND LOGICAL REASONING:
 			: PROOF 1: Mental Clarity and Focus:
 				: Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
@@ -134,3 +122,30 @@
 		: CLOSE WITH A THOUGHTFUL STATEMENT: Offer a closing statement or call to action.
 			“Ultimately, the decision lies with each of us. If your goal is mental clarity and physical resilience, maybe it’s worth exploring this ancient practice for yourself. Thank you.”
 
+~ STORY:
+    ~INITIAL STATE: 
+        : UNKNOWN: VOID, DARKNESS, SOIL
+        : STRANGER: MOTHER, BEAST
+        : FOREIGN: WILDERNESS, WORLD
+        : SURPRISE: LIFE, CYCLE
+        : SLEEP: MADNESS, NIGHTMARE
+    ~TRANSITION STATE:
+        : BODY:     SPOIL   OR FRUIT
+        : I:        BAIT    OR CHILD
+        : HERE:     TRAP    OR WAY
+        : NOW:      WAIT    OR CHANCE
+        : CHOICE: GAME SCENES
+            : ADVENTURE:
+                : IN: SEE, HEAR, FEEL, SMELL, TASTE
+                : OUT: SHOW, SOUND, MOVE, EXHALE, CREATE
+                : NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST
+                : NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT
+            : BATTLE: 
+                : READ-WRITE
+                : OR FORGET-ERASE
+    ~GOAL STATE:
+        : KNOWN: WORD, LIGHT, SEED
+        : FAMILIAR: FATHER, GOD
+        : HOME: KINGDOM, HEAVEN
+        : SCHEDULE: DEATH, END
+        : AWAKENING: REASON, DAYDREAM

@@ -1,25 +1,5 @@
-FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), SENTENCES, WORDS, SYMBOLS:
-    : SYMBOLS: UNICODE, ENGLISH, LATIN, GREEK, HEBREW... 
-	: WORDS = ROOT + PREFIX/SUFFIX:
-		: ROOT:
-		: PREFIX: 
-        : SUFFIX:
-	: SENTENCES = SUBJECT/MEMORY + PREDICATE/OPERATION
-        : WHAT 
-        : WHY-HOW/FOR-BY IN:SEEING/HEARING/FEELING/SMELLING/TASTING-OUT:BEING, READING-WRITING... AND, OR, NOT- ~Action, Passion...
-			: FOR-BY BODY/SoilxSeed/SEEN/HEARD/FELT/SMELLED/TASTED, COMPARISON(=, <, >), DIFFERENCE, ~State, Quality, Quantity
-			: FOR-BY I/MotherxFather/Blood/Tribe/Ethnicity/Race/Specie? ~Relation, Authority
-			: FOR-BY HERE/Length*Width*Height/Position/Address/Continent/Sea/Climate? ~Position, Place
-			: FOR-BY NOW/DURATION: Start*Finish/ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year... ~Time 
-~3: WRITE(SYMBOLS, WORDS, SENTENCES), CORRECTNESS:
-    : QUANTUM: FLAG, STAMP, AUTOGRAPH... 
-    : FACT: POSITION-LODIAL-FACT
-    : SENTENCE:
-        : CAUSE:            FOR THE CLAIMANT'S KNOWLEDGE
-        : EFFECT:           OF THE FACTS
-        : VERB:             IS/ARE (THINKING/ACTION)
-        : POSSESSION/DUTY:  WITH THE CLAIM OF THE TERMS (+/-) WITH THE CONTRACT
-        : BY THE AUTHOR.
-~4: OUT:BE(CORRECTNESS), BODY/I/HERE/NOW
+In principio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. - Ioannes 1
+
+: NOTE-FOR-SELF: 
+[FORGET (1900-NOW) READINGS.]
+[READ-WRITE ANCIENT LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
