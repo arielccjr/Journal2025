@@ -1,5 +1,31 @@
-##############################################################################################################################################################################################################################################################
-~GAME DESIGN:
+~ STORY:
+    ~INITIAL STATE: 
+        : UNKNOWN: VOID, DARKNESS, SOIL
+        : STRANGER: MOTHER, BEAST
+        : FOREIGN: WILDERNESS, WORLD
+        : SURPRISE: LIFE, CYCLE
+        : SLEEP: MADNESS, NIGHTMARE
+    ~TRANSITION STATE:
+        : BODY:     SPOIL   OR FRUIT
+        : I:        BAIT    OR CHILD
+        : HERE:     TRAP    OR WAY
+        : NOW:      WAIT    OR CHANCE
+        : CHOICE: GAME SCENES
+            : ADVENTURE:
+                : IN: SEE, HEAR, FEEL, SMELL, TASTE
+                : OUT: SHOW, SOUND, MOVE, EXHALE, CREATE
+                : NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST
+                : NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT
+            : BATTLE: 
+                : READ-WRITE
+                : OR FORGET-ERASE
+    ~GOAL STATE:
+        : KNOWN: WORD, LIGHT, SEED
+        : FAMILIAR: FATHER, GOD
+        : HOME: KINGDOM, HEAVEN
+        : SCHEDULE: DEATH, END
+        : AWAKENING: REASON, DAYDREAM
+
 ~GAME LOOP: DESIGN SOMETHING NEW! NOT INSPIRED BY OTHER GAMES, A RIP-OFF
     ~1: HOOK/CUE(TRIGGER)/CHOOSE ULTIMATE AIM = BEING ONE WITH EVER(WHAT/WHO/WHERE/WHEN)
         : PROBLEM:
@@ -180,3 +206,4 @@
         Elite Four Battles: After collecting all badges, you can challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
         Reward: Upon defeating the Champion, you become the new Pokémon Champion, completing the main storyline.
         Example: After defeating the Elite Four, facing the current Champion, and winning the final battle to claim the title.
+
