@@ -1,130 +1,87 @@
-~ STORY:
-    ~INITIAL STATE: 
-        : UNKNOWN: VOID, DARKNESS, SOIL
-        : STRANGER: MOTHER, BEAST
-        : FOREIGN: WILDERNESS, WORLD
-        : SURPRISE: LIFE, CYCLE
-        : SLEEP: MADNESS, NIGHTMARE
-    ~TRANSITION STATE:
-        : BODY:     SPOIL   OR FRUIT
-        : I:        BAIT    OR CHILD
-        : HERE:     TRAP    OR WAY
-        : NOW:      WAIT    OR CHANCE
-        : CHOICE: GAME SCENES
-            : ADVENTURE:
-                : IN: SEE, HEAR, FEEL, SMELL, TASTE
-                : OUT: SHOW, SOUND, MOVE, EXHALE, CREATE
-                : NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST
-                : NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT
-            : BATTLE: 
-                : READ-WRITE
-                : OR FORGET-ERASE
-    ~GOAL STATE:
-        : KNOWN: WORD, LIGHT, SEED
-        : FAMILIAR: FATHER, GOD
-        : HOME: KINGDOM, HEAVEN
-        : SCHEDULE: DEATH, END
-        : AWAKENING: REASON, DAYDREAM
-
-~PROTOTYPES:
-    : WHY: MISSION = Utilizes existing game assets, prefabs, codes
-        = GENRE: Adventure, Collection, Lifestyle, Strategy, Card Game?
-            : Inspirations: Battle Realms, Counter Strike, Pokemon, CashFlow, REAL LIFE
-        = Story & Concept "Where are we, what are we doing, and where are we going?"
-        = Sidequests, minigames, or tasks for the player
-        = Overall game pace, difficulty, and playtime
-        = Brief overview: Objectives & Options, enemies, items, NPCS
-    : HOW: GAME MECHANICS & LOOP: DESIGN SOMETHING NEW! NOT INSPIRED BY OTHER GAMES, A RIP-OFF
-        ~1: HOOK/CUE/RISK/TASK(TRIGGER)/CHOOSE ULTIMATE AIM = BEING ONE WITH EVER(WHAT/WHO/WHERE/WHEN)
-            : PROBLEM:
-            : UNKNOWN+STRANGER+AWAY+SURPRISE
-            : SOILVOID+MOTHERBEAST+WILDWORLD+LIFECYCLE 
-        ~2: STORY/ROUTINE(ACTION)/WORK: FIGHT, COLLABORATE = SEE/HEAR/FEEL/SMELL/TASTE & BE(SEEN/HEARD/FELT/SMELLED/TASTED)
-            : QUANTUM GRAMMAR + CLASSICAL REASONING x ARTIFICIAL INTELLIGENCE
-        ~3: OFFER/AWARDS/GOAL(SATISFACTIONS)/GAINS
-            : KNOWN+FAMILY+HOME+SCHEDULE
-            : SEEDWORD+FATHERGOD+KINGDOMHEAVEN+DEATHEND(FIN)
-    : WHEN: PROGRESS = Tutorials, Saves, Updates
-        : Journal?
-        : Timeline
-    : WHERE: ATMOSPHERE
-        = NAVIGATION, Maps
-        : GAME WORLD = Weather
-        = LEVEL = Planning "Don't build your final level first" 
-        = Balance scope budget, and schedule
-    : WHO:
-        : Character: Main Motion/ ONE THING: See/Hear/Feel/Inhale/Eat >> BE
-        : ENEMY TYPES
-    : WHAT = Available Assets
-        : DESIGNS: Sketching, Blocking, Polishing
-            = Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
-            = Understanding the Dimensions(2/3D) Layout
-            : Camera: Perspective
-                : First Person: like Counter-Strike
-                : Bird's Eye View, Isometric: like Battle Realms
-        : SOUND EFFECTS
-        : ACTION = Baseline
-            : Action: Physics
-            : Baseline: Reference, Update, 
-            : INTERACTION: Single, Multiplayer
-            : Controls: 
-        : RESOURCE = Finite/Scarcity
-            -Scarcity/Finity
-
-CUE/RISK:
-    : Unknown words/meaning
-    : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
-        : Bankruptcy, Resource Scarcity 
-    : Low Population 
-        : Requests/Puzzles, Opposition
-        : Wild Encounters + Enemy Raids/Ambush   
-    : Defuse or trigger the bomb.
-        : Best of 7 Rounds
-        : Round-Time: 3 minutes   
-ROUTINE/TRANSITION:
-    : Introduce the Word Group. Introduce a group of related words, typically based on common Latin or Greek roots.
-        : Explain the Words. Break down into its root and affixes, along with usage examples in sentences. Lewis also adds anecdotes or historical context to make the word more memorable.
-        : Practice with Exercises. Match words to their definitions, use them in sentences, or choose the correct word in a given context with Multiple-choice or fill-in-the-blank exercises reinforce learning.
-        : Immediate Feedback and Correction. Provides the correct answers and explanations. Readers can see where they went wrong and correct their understanding.
-        : Review and Recap (Long-Term Reinforcement). Include review sections that bring back words from earlier lessons to reinforce long-term retention. These reviews often come after a few chapters or at the end of a major section.
-    : Every time the player passes "Payday" on the board, they receive their paycheck.
-        : Earn Income: The paycheck is the foundation for covering living expenses and making investments. At the beginning, most players rely on this income to survive.
-        : Manage Expenses and Liabilities (Routine): Keeping expenses under control is essential for freeing up money to invest in assets.
-        : Make Investments (Action): Investments are the key to building passive income, which allows the player to eventually escape the Rat Race.
-            Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
-    : Gather Resources
-        : Maintain Healthy Population
-        : Build Structures
-        : Train Units: Training specialized units is key to forming a balanced army capable of both defending your base and launching effective attacks on the enemy.
-        : Engage in Combat: Winning battles gives you control, weakens the enemy's position. 
-        : Destroy enemy units, disrupt their economy,
-        : Expand and Manage Karma (Reward)  
-        : Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
-    : Eliminate all oppositions
-        : Solve characters' requests/puzzles.
-        : Catch Pokémon: Catching Pokémon is essential to building a strong and varied team.
-        : Train and Battle Pokémon: Training Pokémon strengthens your team, making them more capable of defeating stronger opponents like Gym Leaders.
-        : Challenge Trainers, Gyms, Elite Four, and the Champion    
-REWARD/GOAL:
-    : Mental Dictionary/Library
-    : Passive Income: This is income generated from assets, like rental properties, dividends from stocks, or businesses. The goal is to increase passive income so that it exceeds living expenses.
-        : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
-        : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-        : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-    : more resources, allowing you to further build and strengthen your army, better positioning on the map, 
-        : healthy population
-        : more units' abilities, leading to more effective combat and better outcomes
-        : Karma
-        : All enemies eliminated
-    : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-    : Earn Money, Items, Experience Points, Medal/Status
-        : Earn ExperiencePoints, NewMoves, Money, Items
-        : Badges and unlocks new abilities (such as using certain moves outside of battle).
-        : Progressing the game storyline and accessing new areas.
-        : Ability to challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
-        : Become the new Pokémon Champion, completing the main storyline.
-
-
+~TRANSITION STATE: GAME MECHANICS & LOOP
+    : BODY:     SPOIL   OR FRUIT
+    : I:        BAIT    OR CHILD
+    : HERE:     TRAP    OR WAY
+    : NOW:      WAIT    OR CHANCE
+    : CHOICE/ROUTINE: INITIAL STATE OR GOAL STATE?
+        : READ-WRITE / FORGET-ERASE: WHAT/WHO/WHERE/WHEN
+            : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+            : Break down root and affixes, along with usage examples in sentences.
+            : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+            : Provides the correct answers and explanations.
+            : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+        : IN: SEE, HEAR, FEEL, SMELL, TASTE - OUT: SHOW, SOUND, MOVE, EXHALE, CREATE/PLANT, BE ONE WITH: Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
+            : KNOWN: WORD, LIGHT, SEED: Earn Income & Make Investments
+                : Mental Dictionary/Library
+                : Complete pokedex
+                : Passive Income: This is income generated from assets, like rental properties, dividends from stocks, or businesses. The goal is to increase passive income so that it exceeds living expenses.
+                : more resources, allowing you to further build and strengthen your army, better positioning on the map, 
+                : Karma
+                : Earn Money, Items, Experience Points
+                : Earn ExperiencePoints, NewMoves, Money, Items
+                : Badges and unlocks new abilities (such as using certain moves outside of battle).
+           : FAMILY: FATHERGOD: Maintain Healthy Population
+                : Train Units: Training specialized units is key to forming a balanced army capable of both defending your base and launching effective attacks on the enemy.
+                : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
+                : Train and Battle Pokémon: Training Pokémon strengthens your team, making them more capable of defeating stronger opponents like Gym Leaders.
+                : Climb the Status Ladder
+                : more units' abilities, leading to more effective combat and better outcomes
+                : Ability to challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
+                : Become the new Pokémon Champion, completing the main storyline.
+                : Unlock Privileges
+            : HOME: KINGDOMHEAVEN: Build Structures
+                : NAVIGATION, Maps, ATMOSPHERE
+                : GAME WORLD = Weather
+                : LEVEL = Planning "Don't build your final level first" 
+                : Balance scope budget, and schedule  
+                : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
+                : Progressing the game storyline and accessing new areas.
+                : Expand and Manage Karma
+            : SCHEDULE: DEATHEND
+                : PROGRESS = Tutorials, Saves, Updates
+                : Journal?
+                : Timeline
+                    : Every time the player passes "Payday" on the board, they receive their paycheck.
+                : DEADLINE: 
+                    : Best of 7 Rounds
+                    : Round-Time: 3 minutes   
+                : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+            : REASON: AWAKENING, DAYDREAM
+                : Defuse or trigger the bomb.
+                : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+                : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+                : DESIGNS: Sketching, Blocking, Polishing, Available Assets
+                    : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+                    = Understanding the Dimensions(2/3D) Layout
+                    : Camera: Perspective
+                        : First Person: like Counter-Strike
+                        : Bird's Eye View, Isometric: like Battle Realms
+                : SOUND EFFECTS
+                : ACTION = Baseline
+                    : Action: Physics
+                    : Baseline: Reference, Update, 
+                    : INTERACTION: Single, Multiplayer
+                    : Controls: 
+        
+        : NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST - NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT/KILL, : Eliminate all oppositions
+            : UNKNOWN: VOID, DARKNESS, SOIL: Eliminate Expenses and Liabilities
+                : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+                : Bankruptcy, Resource Scarcity/Finity
+            : STRANGER: MOTHERBEAST: ENEMY TYPES
+                : Low Population 
+                : NPCs
+                : Requests/Puzzles, Opposition
+                : Wild Encounters + Enemy Raids/Ambush               
+                : Challenge Trainers, Gyms, Elite Four, and the Champion    
+                : Engage in Combat: Winning battles gives you control, weakens the enemy's position. 
+                : Destroy enemy units, disrupt their economy,
+                : Solve characters' requests/puzzles.
+            : FOREIGN: WILDWORLD: Traps 
+            : SURPRISE: LIFECYCLE
+                : Beginning Again
+            : SLEEP: MADNESS, NIGHTMARE     
+               
 ~TAOIST CULTIVATION OF MALE SEXUAL ENERGY:
     1. Breathing Exercises
         Step 1: Sit or lie down comfortably with a straight spine.
