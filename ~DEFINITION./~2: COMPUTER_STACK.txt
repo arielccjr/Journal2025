@@ -68,7 +68,7 @@
 					: Logic: Xor>Mux/DMux>And>Or>Nand/Not
 		: ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
 
-~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), Read-Only Memory (ROM) >>> ArithmeticLanguageVersion0 (A-0) >>> FormulaTranslation (ForTran) >>> CommonBusiness-OrientedLanguage:
+~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), Programming-Language:
 	: INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
 		: Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
             : Domain Name System (DNS) + Web-Server
@@ -87,17 +87,35 @@
 				: TCP Header: Software Port + Checksum
 				: Data 
 	: OPERATING SYSTEM: Automation/ Learning, Optimization/Multi-Tasking, Device Driver
-		: MEMORY ADDRESS: Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
-            : File System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
-            : List: A dynamic collection class for storing and managing objects. To handle collections with flexible size and additional features.
-			: Array: A fixed-size collection of items of the same type stored in contiguous memory. To efficiently store and access multiple values in a single variable.
-            : Pointer: Next Address Reference
-            : Indexes and References
+		: MEMORY: Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
+			: Read-Only Memory (ROM) & Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
 			: Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
-			: Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
-
-       : OPERATION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
+				: Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
+    		: Transactions: Groups operations as a single unit of work. To ensure data consistency and integrity.
+				: Views: Creates virtual tables based on SQL queries. To simplify complex queries and enhance security.
+				: Stored Procedures: Encapsulates SQL statements for reuse. To standardize and simplify repetitive tasks.
+			: Database Creation: Creates a new database. To systematically organize and store application data.
+	    		: Table Creation: Defines a structured format for storing data in rows and columns. To organize data with specific attributes.
+			: File System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+				: FILE TYPES: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix: A fixed-size collection of items of the same type stored in contiguous memory. To efficiently store and access multiple values in a single variable.
+					: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+					: Wave/Audio: Amplitude, Spectogram
+					: Character/Text/List/String = ASCII>UNICODE
+					: Number/Integer/Float= 
+						: Scientific Notation; Negative Bit= 2^N-x
+						: Null Value			
+			: Pointer: Next Address Reference
+				: Primary Key Constraint: Ensures unique identification for each table record. To prevent duplicate records and establish a reliable reference point.
+				: Foreign Key Constraint: Links two tables to maintain referential integrity. To model relationships between tables.
+			: Indexes(References): Improves the speed of data retrieval. To optimize query performance.
+    	: OPERATION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
+  			: Console Input/Output: Reads from and writes to the console. To interact with the user.
 			: Search/Queries: a sequence of actions that leads from initial state to a goal state
+    			: Data Querying: Retrieves specific data from the database. To access and analyze stored information.
+				: Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
+				: GROUP BY/HAVING: Groups data and filters results based on aggregate conditions. To summarize and analyze grouped data.
+				: Joins: Combines rows from multiple tables. To retrieve related data from different tables.
+				: Unions: Merges result sets of multiple SELECT queries. To consolidate data into one result set.
 			: Initialization: Assignment Statement: A = 1
 				: Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
 				: Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
@@ -105,10 +123,14 @@
 				: Logic: NOT, AND, OR
 				: Comparison: Less Than, Greater Than, Equal
 			: List: Queue/Stack, Create-Read-Update-Delete, Normalize
+				: String and Date Functions: Manipulates string and date values. To format and extract meaningful information.
+				: Data Insertion: Adds new records to a table. To populate the database.
+				: Data Update: Modifies existing records in a table. To correct or update information.
+				: Data Deletion: Removes records from a table. To delete obsolete or incorrect data.
 			: Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+    			: Aggregate Functions: Performs calculations like sum, average, and count. To derive summary statistics.
             : ControlFlow: Conditional Statement: If/While/For... function(input1, 2)
-				: Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
-  				: Console Input/Output: Reads from and writes to the console. To interact with the user.
+    			: Triggers: Automatically executes actions in response to table events. To enforce rules and maintain data integrity.
 				: Conditionals: Enables decision-making in code. To perform actions based on conditions.
 					: If/Else If/Else: Executes code based on logical conditions. To handle multiple outcomes.
 					: Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
@@ -121,17 +143,10 @@
 					: Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
 			: Execute: Return Statement: Then/Else/Next... 
 				: Return: Exits a function and optionally returns a value. To end execution and provide a result.
+		: MACHINE CODE:
+			: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+			: Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
 
-	: FILE TYPES: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix
-		: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
-		: Wave/Audio: Amplitude, Spectogram
-		: Character/Text/List/String = ASCII>UNICODE
-		: Number/Integer/Float= 
-			: Scientific Notation; Negative Bit= 2^N-x
-			: Null Value
-	: MACHINE CODE:
-		: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
-		: Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
 ~3: WRITE(), COMPRESSION: 
 	: DEVELOPMENT LIFECYCLE:
 		: Planning
@@ -149,50 +164,6 @@
 			: Committing
 
 ######################################################################################################################################################################################
-    Database Creation: Creates a new database.
-    	Why: To systematically organize and store application data.
-    Table Creation: Defines a structured format for storing data in rows and columns.
-    	Why: To organize data with specific attributes.
-
-    Primary Key Constraint: Ensures unique identification for each table record.
-    	Why: To prevent duplicate records and establish a reliable reference point.
-    Foreign Key Constraint: Links two tables to maintain referential integrity.
-    	Why: To model relationships between tables.
-    Indexes: Improves the speed of data retrieval.
-    	Why: To optimize query performance.
-
-    Data Querying: Retrieves specific data from the database.
-    	Why: To access and analyze stored information.
-    Aggregate Functions: Performs calculations like sum, average, and count.
-    	Why: To derive summary statistics.
-    GROUP BY/HAVING: Groups data and filters results based on aggregate conditions.
-    	Why: To summarize and analyze grouped data.
-    Joins: Combines rows from multiple tables.
-    	Why: To retrieve related data from different tables.
-    Unions: Merges result sets of multiple SELECT queries.
-    	Why: To consolidate data into one result set.
-    Sub-Query: Uses the result of one query within another query.
-    	Why: To filter or derive conditions dynamically.
-    String and Date Functions: Manipulates string and date values.
-    	Why: To format and extract meaningful information.
-
-    Data Insertion: Adds new records to a table.
-    	Why: To populate the database.
-    Data Update: Modifies existing records in a table.
-    	Why: To correct or update information.
-    Data Deletion: Removes records from a table.
-    	Why: To delete obsolete or incorrect data.
-
-    Views: Creates virtual tables based on SQL queries.
-    	Why: To simplify complex queries and enhance security.
-    Stored Procedures: Encapsulates SQL statements for reuse.
-    	Why: To standardize and simplify repetitive tasks.
-    Transactions: Groups operations as a single unit of work.
-    	Why: To ensure data consistency and integrity.
-    Triggers: Automatically executes actions in response to table events.
-    	Why: To enforce rules and maintain data integrity.
-
-#############################################################################################################################################################################################################################################################	
 ~TO-DO: How Computer Vision be?
 
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
@@ -203,27 +174,27 @@
     Image Segmentation: The process involves dividing the image into different parts, isolating objects, and understanding the spatial relationships within the scene. Techniques include region-based segmentation and semantic segmentation.
     Post-Processing and Decision-Making: After analyzing the image, the system applies post-processing techniques to refine the results. Based on the findings, it may make decisions or provide output for a specific task, like identifying an object or triggering an alert.
     Continuous Learning: Through machine learning, computer vision systems improve over time. With more data and feedback, these systems can refine their ability to interpret images and adapt to new situations.
-1. Geometric Layout
-    Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
-    Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
-    Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
-2. Detailed Proportions
-    Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, aligning elements to create a cohesive and visually pleasing composition.
-    Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
-    Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
-3. Use of the Golden Ratio
-    Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
-    Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye. For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
-    Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, as elements sized according to the golden ratio generally maintain a stable distribution of mass.
-4. Representation of Structural Elements
-    Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
-    Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
-    Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
-5. Step-by-Step Plan for Builders
-    Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
-    Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
-    Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
-    Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
+	1. Geometric Layout
+		Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
+		Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
+		Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
+	2. Detailed Proportions
+		Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, aligning elements to create a cohesive and visually pleasing composition.
+		Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
+		Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
+	3. Use of the Golden Ratio
+		Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
+		Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye. For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
+		Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, as elements sized according to the golden ratio generally maintain a stable distribution of mass.
+	4. Representation of Structural Elements
+		Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
+		Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
+		Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
+	5. Step-by-Step Plan for Builders
+		Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
+		Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
+		Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
+		Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
 
 ~1: Electromagnetic Waves: 
 	: Different Frequencies

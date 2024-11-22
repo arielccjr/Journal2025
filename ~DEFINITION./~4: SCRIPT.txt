@@ -2,55 +2,82 @@
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()
     ~MIRROR/GREETINGS: I see/hear/feel/smell/taste you. You seem/sound/move/smell/taste... Good [morning/evening], fellow Toastmasters and guests.”
     ~TITLE/HOOK: “Is semen retention beneficial or not?” 
-	~INTRODUCTION: 
-		: Explain why: “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
-		: Thesis Statement/answer: “This presentation argues that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
-	~TRANSITION: “Let’s explore both sides of this presentation and see where the evidence leads us.”
-
-~2: SUMMARIZE(SEEN/HEARD/FELT/SMELLED/TASTED), "That's right!":
-     ~INTRODUCE MAIN COUNTERARGUMENTS: “One common argument against semen retention is that ejaculation is a natural bodily function.”
-		: SUPPORT COUNTERARGUMENTS WITH EVIDENCE AND SUB-POINTS:
-			: SUB-POINT 1: Explain the natural process argument.
-				: Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
-			: SUB-POINT 2: Explain the health and psychological effects.
-				: Support/Evidence: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
-			: SUB-POINT 3: Explain the physical health benefits of regular release.
-				: Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
-		: TRANSITION TO SUPPORTING POINTS:
-			“Now, let’s look at the other side, where proponents of retention see distinct benefits.”
-	~REFUTATION OF COUNTERARGUMENTS:
-		: ADDRESS AND FEFUTE MAIN COUNTERARGUMENTS:
-			: Refute First Counterargument: Address the natural function argument.
-				: Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
-			: Refute Additional Counterarguments:
-				: Response: “Although some studies suggest benefits of regular ejaculation, periodic retention has its own physiological advantages, including focus and stamina.”
-		: PROVIDE ADDITIONAL SUPPORT:
-			: Sub-Point 1: Address health concerns with practical examples.
-				: Support/Evidence: “Like with fasting, the body can adapt to abstention when practiced mindfully.”
-			: Sub-Point 2: Highlight choice and intention.
-				: Support/Evidence: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
-			: Sub-Point 3: Emphasize periodic retention’s advantages.
-				: Support/Evidence: “Research highlights benefits, such as increased mental focus.”
-
-		: FOR WHAT; Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
-			Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation.
-				Game Demo, Portfolio
-			Content & Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training.
-			Technical Set-Up: SMTP, Domain & DNS, Payment Gateway, SEO.
-			Business Support: Cash Flow Reviews, Budgeting, Financial Statement
-		: FOR WHO: EMPATHIZE with Different Publishers/Investors' Mission
+	~INTRODUCE WHY(GOAL STATE):  “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
+        : FOR KNOWN: WORD, LIGHT, SEED; Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
+			: Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation, Game Demo, Portfolio
+			: Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training, SMTP, Domain & DNS, Payment Gateway, SEO.
+			: Business Support: Cash Flow Reviews, Budgeting, Financial Statement
+        : FOR FAMILIAR: FATHER, GOD: EMPATHIZE with Different Publishers/Investors' Mission
 			: Investors
 			: Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
 			: Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
 			: Ideal Client Profile: Men who are time-conscious, effective, and busy; young, ambitious individuals; and established professionals seeking efficiency and sophistication.
-		: FOR WHERE
-			: Local & Remote: Home-based, Remote from NAIT, North America-wide service.
-		: FOR WHEN: Turnaround: Production speed of 1-2 days per project
-   
+        : FOR HOME: KINGDOM, HEAVEN: Local & Remote: Home-based, Remote from NAIT, North America-wide service.
+        : FOR SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
+        : FOR AWAKENING: REASON, DAYDREAM
+    ~THESIS STATEMENT/ANSWER: “This presentation argues that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
+	~TRANSITION: “Let’s explore both sides of this presentation and see where the evidence leads us.”
+
+~2: SUMMARIZE(SEEN/HEARD/FELT/SMELLED/TASTED), "That's right!":
+     ~INTRODUCE MAIN COUNTERARGUMENTS: “One common argument against semen retention is that ejaculation is a natural bodily function.”
+        : SUB-POINT 1: Explain the natural process argument.
+            : Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
+        : SUB-POINT 2: Explain the health and psychological effects.
+            : Support/Evidence: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
+        : SUB-POINT 3: Explain the physical health benefits of regular release.
+            : Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
+        : FOR UNKNOWN: VOID, DARKNESS, SOIL
+        : FOR STRANGER: MOTHER, BEAST
+        : FOR FOREIGN: WILDERNESS, WORLD
+        : FOR SURPRISE: LIFE, CYCLE
+        : FOR SLEEP: MADNESS, NIGHTMARE
+    ~COUNTER THE COUNTERARGUMENTS: SURRENDER: "You're right: IF ONLY... 
+	~TRANSITION TO REFUTATION: “Given these opposing views, how can we make sense of it all?”
+ 
+    ~ADDRESS AND FEFUTE MAIN COUNTERARGUMENTS:
+        : Refute First Counterargument: Address the natural function argument.
+        : Sub-Point 1: Address health concerns with practical examples.
+            : Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
+            : Support/Evidence: “Like with fasting, the body can adapt to abstention when practiced mindfully.”
+        : Refute Additional Counterarguments:
+        : Sub-Point 2: Highlight choice and intention.
+            : Response: “Although some studies suggest benefits of regular ejaculation, periodic retention has its own physiological advantages, including focus and stamina.”
+            : Support/Evidence: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
+        : Sub-Point 3: Emphasize periodic retention’s advantages.
+            : Support/Evidence: “Research highlights benefits, such as increased mental focus.”
+
+     ~TRANSITION STATE:
+        : BODY:     SPOIL   OR FRUIT
+        : I:        BAIT    OR CHILD
+        : HERE:     TRAP    OR WAY
+        : NOW:      WAIT    OR CHANCE
+        : CHOICE: GAME SCENES
+            : ADVENTURE:
+                : IN: SEE, HEAR, FEEL, SMELL, TASTE
+                : OUT: SHOW, SOUND, MOVE, EXHALE, CREATE
+                : NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST
+                : NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT
+            : BATTLE: 
+                : READ-WRITE
+                : OR FORGET-ERASE
+  
 	~LABEL WHY/WHY NOT:  "It seems like... (IRONY:COMEDY/TRAGEDY), dissatisfaction/troubles/wrong
-    ~SURRENDER: You're right, if... 
+    ~TRANSITION TO SUPPORTING POINTS: “Now, let’s look at the other side, where proponents of retention see distinct benefits.”
 
 ~3: COMMIT(), CONTRACT/AGREEMENT "Yes! Let's do it!":
+	~PRESENT MAIN PROOFS FOR THESIS. Begin with the main arguments supporting your thesis.
+        : PROOF 1: Mental Clarity and Focus:
+            : Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
+            : Premise 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
+            : Conclusion: “Therefore, semen retention is beneficial for mental clarity.”
+            : Evidence: “Many adherents report heightened focus and energy.”
+        : PROOF 2: Increased Vitality and Physical Endurance:
+            : Sub-Point: Discuss the concept of retaining essential nutrients.
+                : Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
+        : PROOF 3: Alignment with Traditional Practices:
+            : Sub-Point: Link to historical or cultural support for retention.
+                : Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
+
     ~SERVE HOW: How can you help me? How can I help you?
         : BY WHAT: creative control
             : Design: ChatGPT, MidJourney, Canva, WhatTheFont, FontArchive, Coolors, Color Hunt, Unsplash, Vista.
@@ -77,39 +104,7 @@
         : BY WHEN: Working Hours: 9am - 9pm, Monday through Friday
             : Incorporation: December 1, 2023 - December 1, 2024
 
-	: PRESENT MAIN PROOFS FOR THESIS. Begin with the main arguments supporting your thesis.
-		: EXPAND EACH ARGUMENT WITH EVIDENCE AND LOGICAL REASONING:
-			: PROOF 1: Mental Clarity and Focus:
-				: Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
-				: Premise 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
-				: Conclusion: “Therefore, semen retention is beneficial for mental clarity.”
-				: Evidence: “Many adherents report heightened focus and energy.”
-			: PROOF 2: Increased Vitality and Physical Endurance:
-				: Sub-Point: Discuss the concept of retaining essential nutrients.
-					: Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
-			: PROOF 3: Alignment with Traditional Practices:
-				: Sub-Point: Link to historical or cultural support for retention.
-					: Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
-		: TRANSITION TO REFUTATION:
-			: Speech Only: “Given these opposing views, how can we make sense of it all?”
-
 ~4: OUT:BE(RIGHT), BODY/I/HERE/NOW
-    ~PREPARATION SCENE: DAILY AGENDA: "ROBERT'S RULE OF ORDER"
-        ~1: CALL TO ORDER
-        ~2: ROLL CALL (Quorum Check)
-            : PRESENT = 
-            : ABSENT =
-        ~3: MINUTES REVIEW:
-            : MOTION TO APPROVE PRIOR MINUTES:
-            : SECOND BY:
-            : MOTION APPROVE
-        ~4: REPORTS OF OFFICERS, BOARDS, AND STANDING COMMITTEES
-        ~5: REPORTS OF SPECIAL (SELECT OR AD HOC) COMMITTEES
-        ~6: UNFINISHED BUSINESS (OLD BUSINESS)
-        ~7. NEW BUSINESS
-        ~8: ANNOUNCEMENTS
-        ~9: ADJOURNMENT                  
-
 	: CONCLUSION:
 		: RESTATE THE QUESTION AND THESIS: Reiterate the original question and your stance.
 			“So, is semen retention beneficial? This exploration suggests it can be a worthwhile approach for those seeking focus and vitality.”
@@ -121,31 +116,30 @@
 			: Main Point 3: Addressing objections, retention shows benefits if pursued thoughtfully.
 		: CLOSE WITH A THOUGHTFUL STATEMENT: Offer a closing statement or call to action.
 			“Ultimately, the decision lies with each of us. If your goal is mental clarity and physical resilience, maybe it’s worth exploring this ancient practice for yourself. Thank you.”
-
-~ STORY:
-    ~INITIAL STATE: 
-        : UNKNOWN: VOID, DARKNESS, SOIL
-        : STRANGER: MOTHER, BEAST
-        : FOREIGN: WILDERNESS, WORLD
-        : SURPRISE: LIFE, CYCLE
-        : SLEEP: MADNESS, NIGHTMARE
-    ~TRANSITION STATE:
-        : BODY:     SPOIL   OR FRUIT
-        : I:        BAIT    OR CHILD
-        : HERE:     TRAP    OR WAY
-        : NOW:      WAIT    OR CHANCE
-        : CHOICE: GAME SCENES
-            : ADVENTURE:
-                : IN: SEE, HEAR, FEEL, SMELL, TASTE
-                : OUT: SHOW, SOUND, MOVE, EXHALE, CREATE
-                : NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST
-                : NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT
-            : BATTLE: 
-                : READ-WRITE
-                : OR FORGET-ERASE
+    
     ~GOAL STATE:
         : KNOWN: WORD, LIGHT, SEED
         : FAMILIAR: FATHER, GOD
         : HOME: KINGDOM, HEAVEN
         : SCHEDULE: DEATH, END
         : AWAKENING: REASON, DAYDREAM
+            : BODY =
+            : I =
+            : HERE = 
+            : NOW = 
+            
+~PREPARATION SCENE: DAILY AGENDA: "ROBERT'S RULE OF ORDER"
+    ~1: CALL TO ORDER
+    ~2: ROLL CALL (Quorum Check)
+        : PRESENT = 
+        : ABSENT =
+    ~3: MINUTES REVIEW:
+        : MOTION TO APPROVE PRIOR MINUTES:
+        : SECOND BY:
+        : MOTION APPROVE
+    ~4: REPORTS OF OFFICERS, BOARDS, AND STANDING COMMITTEES
+    ~5: REPORTS OF SPECIAL (SELECT OR AD HOC) COMMITTEES
+    ~6: UNFINISHED BUSINESS (OLD BUSINESS)
+    ~7. NEW BUSINESS
+    ~8: ANNOUNCEMENTS
+    ~9: ADJOURNMENT                  
