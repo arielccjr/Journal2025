@@ -12,84 +12,74 @@ FOR THE WORK OF THE MIND.
 			: FOR-BY I/Mother*Father... Blood/Tribe/Ethnicity/Race/Specie? ~Relation, Authority
 			: FOR-BY HERE/Length*Width*Height... Position/Address/Continent/Sea/Climate? ~Position, Place
 			: FOR-BY NOW/Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year... ~Time 
-~2: READ(SYMBOLS, WORDS, SENTENCES), BELIEF-A:
-    : MIRROR/SUMMARIZE: I see/hear/feel/smell/taste your point: that ejaculation is a natural bodily function.”
-        : PROOF-1: UNKNOWN: VOID, DARKNESS, SOIL
-            : Explain the natural process argument.
-            : Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
-        : PROOF-2: STRANGER: MOTHER, BEAST
-            : Explain the health and psychological effects.
-            : Support/Evidence: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
-        : PROOF-3: FOREIGN: WILDERNESS, WORLD
-            : Explain the physical health benefits of regular release.
-            : Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
+~2: READ(SYMBOLS, WORDS, SENTENCES), BELIEF:
+    : MIRROR/LABEL/SUMMARIZE COUNTER'S POINT: I see/hear/feel/smell/taste your point: that ejaculation is a natural bodily function. It seems like... (IRONY:COMEDY/TRAGEDY)."
+        : PROOF-1: UNKNOWN: VOID, DARKNESS, SOIL: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
+        : PROOF-2: STRANGER: MOTHER, BEAST: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
+        : PROOF-3: FOREIGN: WILDERNESS, WORLD: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
         : PROOF-4: SURPRISE: LIFE, CYCLE
         : PROOF-5: SLEEP: UNCONSCIOUSNESS
-        : SURRENDER TO THE COUNTERARGUMENTS: "You're right/ You MAY BE right: IF ONLY... (WHY-HOW)
-    : REFUTE: IF ONLY...
-        : POINT-1: WASTE/SPOIL
-            : Address health concerns with practical examples.
-            : Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
-            : Support/Evidence: “Like with fasting, the body can adapt to abstention when practiced mindfully.”
-        : POINT-2: BAIT/PREY
-            : Highlight choice and intention.
-            : Response: “Although some studies suggest benefits of regular ejaculation, periodic retention has its own physiological advantages, including focus and stamina.”
-            : Support/Evidence: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
-        : POINT-3: LOSS/TRAP
-            : Emphasize periodic retention’s advantages.
-            : Support/Evidence: “Research highlights benefits, such as increased mental focus.”
-        : POINT-4: WAIT/MISS
-        : POINT-5: MADNESS, DREAM
-        : LABEL WHY/WHY NOT:  "It seems like... (IRONY:COMEDY/TRAGEDY), dissatisfaction/troubles/wrong
-        : TRANSITION TO SUPPORTING POINTS: “Now, let’s look at the other side, where proponents of retention see distinct benefits.”
-~3: WRITE(BELIEF-A), CORRECTNESS + RHETORIC?:
-   : RHETORIC:
-        : HOOK/TITLE: “Is semen retention beneficial or not, fellow ____?” 
-        : THESIS STATEMENT/ANSWER: “This presentation argues that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
-            : PROOF-1: KNOWN: WORD, LIGHT, SEED; Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
-                : Mental Clarity and Focus:
-                : Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
-                : Premise 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
-                : Conclusion: “Therefore, semen retention is beneficial for mental clarity.”
-                : Evidence: “Many adherents report heightened focus and energy.”
-            : PROOF-2: FAMILIAR: FATHER, GOD: 
-                : Increased Vitality and Physical Endurance:
-                : Sub-Point: Discuss the concept of retaining essential nutrients.
-                : Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
-            : PROOF-3: HOME: KINGDOM, HEAVEN: Local & Remote: Home-based, Remote, North America-wide service.
-                : Alignment with Traditional Practices:
-                : Sub-Point: Link to historical or cultural support for retention.
-                : Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
-            : PROOF-4: SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
-            : PROOF-5: AWAKENING: 
-        : INTRODUCE WHY(GOAL STATE):  “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
-            : POINT-1: FRUIT: Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation, Game Demo, Portfolio
-                : Design: ChatGPT, MidJourney, Canva, WhatTheFont, FontArchive, Coolors, Color Hunt, Unsplash, Vista.
-                : Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training, SMTP, Domain & DNS, Payment Gateway, SEO.
-                : Business Support: Cash Flow Reviews, Budgeting, Financial Statement, Payment Processing: Stripe, PayPal, QuickBooks.
-            : POINT-2: CHILD/HERO: My name is NAME.
-                : Investors / Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
-                : Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
-                : Lawyer: Draft contracts for your clients to outline project details, payment terms, and expectations.
-                : Accountant: Read/Write Financial Statements
-            : POINT-3: WAY: Creative Directing Studio: Incorporation 
-                : Web/Store: creativedirecting.studio
-                : Contact: Phone: 780-996-5088 | Email: arielccjr@creativedirecting.studio
-                : Social Channels: Zoom, Telegram, Google ONE for consultations and meetings.
-                : Kickstarter/Patreon
-            : POINT-4: CHANCE: Working Hours: 9am - 9pm, Monday through Friday
-                : Incorporation: December 1, 2024... 
-            : POINT-5: REASON, REALIZATION
-        : RESTATE THE QUESTION AND THESIS: “So, is semen retention beneficial? This exploration suggests it can be a worthwhile approach for those seeking focus and vitality.”
-            : SUMMARIZE SIGNIFICANCE: Reinforce why this question matters.
-            : REVIEW KEY POINTS: “Considering holistic health, semen retention encourages mental and physical resilience.”
-                : Main Point 1: There are physical and psychological arguments against retention.
-                : Main Point 2: Retention can enhance focus, vitality, and aligns with traditional practices.
-                : Main Point 3: Addressing objections, retention shows benefits if pursued thoughtfully.
-            : CLOSE WITH A THOUGHTFUL STATEMENT: Offer a closing statement or call to action.
-                “Ultimately, the decision lies with each of us. If your goal is mental clarity and physical resilience, maybe it’s worth exploring this ancient practice for yourself. Thank you.”
-            : COMMIT(), CONTRACT/AGREEMENT "Yes! Let's do it!":
-        : SERVE HOW: How can you help me? How can I help you?
+        : SURRENDER TO THE COUNTERARGUMENTS: "You're right/ You MAY BE right: semen retention is NOT beneficial, because ejaculation is a natural bodily function.
+~3: WRITE(BELIEF), CORRECTNESS:
+    : REFUTE COUNTER'S POINT: ... IF ONLY... “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
+        : PROOF-1: WASTE/SPOIL: “Like with fasting, the body can adapt to abstention when practiced mindfully.”
+        : PROOF-2: BAIT/PREY: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
+        : PROOF-3: LOSS/TRAP: “Research highlights benefits, such as increased mental focus.”
+        : PROOF-4: WAIT/MISS
+        : PROOF-5: MADNESS, DREAM
+        : TRANSITION TO SUPPORTING POINTS: “Now, let’s look at the other side, where proponents of retention see distinct benefits.”        
+    
+    : RHETORIC/HOOK/TITLE: “Is semen retention beneficial or not, fellow ____?”
+    
+    : GIVE OWN'S POINT: “The following presentation argues that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
+        : PROOF-1: KNOWN: WORD, LIGHT, SEED; Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
+            : Mental Clarity and Focus:
+            : Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
+            : Premise 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
+            : Conclusion: “Therefore, semen retention is beneficial for mental clarity.”
+            : Evidence: “Many adherents report heightened focus and energy.”
+            : Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation, Game Demo, Portfolio
+            : Design: ChatGPT, MidJourney, Canva, WhatTheFont, FontArchive, Coolors, Color Hunt, Unsplash, Vista.
+            : Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training, SMTP, Domain & DNS, Payment Gateway, SEO.
+            : Business Support: Cash Flow Reviews, Budgeting, Financial Statement, Payment Processing: Stripe, PayPal, QuickBooks.
+        : PROOF-2: FAMILIAR: FATHER, GOD: 
+            : Increased Vitality and Physical Endurance:
+            : Sub-Point: Discuss the concept of retaining essential nutrients.
+            : Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
+            : My name is NAME.
+            : Investors / Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
+            : Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
+            : Lawyer: Draft contracts for your clients to outline project details, payment terms, and expectations.
+            : Accountant: Read/Write Financial Statements
+        : PROOF-3: HOME: KINGDOM, HEAVEN: Local & Remote: Home-based, Remote, North America-wide service.
+            : Alignment with Traditional Practices:
+            : Sub-Point: Link to historical or cultural support for retention.
+            : Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
+        : PROOF-4: SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
+            : Creative Directing Studio: Incorporation 
+            : Web/Store: creativedirecting.studio
+            : Contact: Phone: 780-996-5088 | Email: arielccjr@creativedirecting.studio
+            : Social Channels: Zoom, Telegram, Google ONE for consultations and meetings.
+            : Kickstarter/Patreon        
+        : PROOF-5: AWAKENING: 
+            : Working Hours: 9am - 9pm, Monday through Friday
+            : Incorporation: December 1, 2024...     
+    : SUPPORT OWN'S POINT:  “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
+        : PROOF-1: FRUIT: 
+        : PROOF-2: CHILD/HERO
+        : PROOF-3: WAY
+        : PROOF-4: CHANCE
+        : PROOF-5: REASON, REALIZATION
+    
+    : RESTATE THE QUESTION AND THESIS: “So, is semen retention beneficial? 
+    : SUMMARIZE SIGNIFICANCE: “Considering holistic health, semen retention encourages mental and physical resilience. This exploration suggests it can be a worthwhile approach for those seeking focus and vitality.”
+        : POINT-1: There are physical and psychological arguments against retention.
+        : POINT-2: Retention can enhance focus, vitality, and aligns with traditional practices.
+        : POINT-3: Addressing objections, retention shows benefits if pursued thoughtfully.
+    : CLOSE WITH A THOUGHTFUL STATEMENT: “Ultimately, the decision lies with each of us. If your goal is mental clarity and physical resilience, maybe it’s worth exploring this ancient practice for yourself. Thank you.”
+     COMMIT(), CONTRACT/AGREEMENT "Yes! Let's do it!":
+    : SERVE HOW: How can you help me? How can I help you?
+        
     : CORRECTNESS: 
         : QUANTUM: FLAG, STAMP, AUTOGRAPH... 
         : FACT: POSITION-LODIAL-FACT
@@ -101,7 +91,7 @@ FOR THE WORK OF THE MIND.
             : BY THE AUTHOR.
         : CONTRACT:
             : 
- ~4: OUT:BE(CORRECTNESS), BODY/I/HERE/NOW
+ ~4: OUT:BE(RHETORIC, CORRECTNESS), BODY/I/HERE/NOW
     
 ###################################################################################################################################################################################
 ~GAME DEVELOPMENT:
