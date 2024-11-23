@@ -1,4 +1,4 @@
-FOR THE WORK OF THE MIND.
+: FOR THE WORK OF THE MIND.
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE(), SYMBOLS, WORDS, SENTENCES:
     : SYMBOLS: UNICODE, ENGLISH, LATIN, GREEK, HEBREW... 
 	: WORDS = ROOT + PREFIX/SUFFIX:
@@ -88,7 +88,7 @@ FOR THE WORK OF THE MIND.
             : BY THE AUTHOR.
         : CONTRACT:
             : 
- ~4: OUT:BE(RHETORIC, CORRECTNESS), BODY/I/HERE/NOW
+ ~4: OUT:BE(CORRECTNESS), SEEN/HEARD/FELT/SMELLED/TASTED.
     
 ###################################################################################################################################################################################
 ~GAME DEVELOPMENT:
