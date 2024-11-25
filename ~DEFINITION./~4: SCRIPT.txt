@@ -1,7 +1,20 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE(), SYMBOLS, WORDS, SENTENCES:
-~2: READ(SYMBOLS, WORDS, SENTENCES), BELIEF:
-    : MIRROR: ""
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE(), SEEN/HEARD/FELT/SMELLED/TASTED:
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), WHAT, WHO, WHERE, WHEN, WHY, HOW):
+    : MIRROR(SEEN/HEARD/FELT/SMELLED/TASTED), EYE-CONTACT, TONE-LEVEL, POSE, BREATHING, CONTENT
+    : LABEL POINTS: "I see/hear/feel/smell/taste your point that: Many adherents report heightened focus and energy.”
+        : POINT-1: UNKNOWN: VOID, DARKNESS, SOIL: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
+        : POINT-2: STRANGER: MOTHER, BEAST: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
+        : POINT-3: FOREIGN: WILDERNESS, WORLD: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
+        : POINT-4: SURPRISE: LIFE, CYCLE
+        : POINT-5: SLEEP: UNCONSCIOUSNESS
+    : SUMMARIZE COUNTER'S MAIN-POINT: SURRENDER TO IT: "You're right/ You MAY BE right... "
+        : PREMISE 1: “Nature is advantageous for personal growth.”
+        : PREMISE 2: “Ejaculation is a natural bodily function.”
+        : CONCLUSION: “Therefore, ejaculation is beneficial.”
+ 
+~3: WRITE(BELIEF), CORRECTNESS:
+    : CREATE DOUBT FOR COUNTER'S POINT: "But WHAT IF: ejaculation BEING beneficial is only HALF(NOT) TRUE?
         : SYMBOLS: UNICODE, ENGLISH, LATIN, GREEK, HEBREW...
         : WORDS = ROOT + PREFIX/SUFFIX:
             : ROOT:
@@ -14,30 +27,16 @@
                 : FOR-BY BODY/Soil*Seed... SEEN/HEARD/FELT/SMELLED/TASTED, COMPARISON(=, <, >), DIFFERENCE, ~State, Quality, Quantity
                 : FOR-BY I/Mother*Father... Blood/Tribe/Ethnicity/Race/Specie? ~Relation, Authority
                 : FOR-BY HERE/Length*Width*Height... Position/Address/Continent/Sea/Climate? ~Position, Place
-                : FOR-BY NOW/Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year... ~Time 
-    : LABEL POINTS: "I see/hear/feel/smell/taste your point that: Many adherents report heightened focus and energy.”
-        : POINT-1: UNKNOWN: VOID, DARKNESS, SOIL: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
-        : POINT-2: STRANGER: MOTHER, BEAST: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
-        : POINT-3: FOREIGN: WILDERNESS, WORLD: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
-        : POINT-4: SURPRISE: LIFE, CYCLE
-        : POINT-5: SLEEP: UNCONSCIOUSNESS
-    : SUMMARIZE COUNTER'S MAIN-POINT: SURRENDER TO IT: "You're right/ You MAY BE right... "
-        : PREMISE 1: “Ejaculation is advantageous for personal growth.”
-        : PREMISE 2: “Ejaculation is a natural bodily function.”
-        : CONCLUSION: “Therefore, ejaculation is beneficial.”
- 
-~3: WRITE(BELIEF), CORRECTNESS:
-    : CREATE DOUBT FOR COUNTER'S POINT: BUT WHAT IF: ejaculation BEING benecial is only HALF(NOT) TRUE?
-    : CULTIVATE POINTS: “”
-        : REFUTE POINT-1: KNOWN: WORD, LIGHT, SEED; Sexual, Psychological, Emotional, Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
+                : FOR-BY NOW/Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year... ~Time    
+    : CULTIVATE POINTS:
+        : REFUTE POINT-1: UNKNOWN: VOID, DARKNESS, SOIL >>> KNOWN: WORD, LIGHT, SEED; Sexual, Psychological, Emotional, Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
         : PROOF-1: SPOIL/WASTE - FRUIT
             : “Like with fasting, the body can adapt to abstention when practiced mindfully.”
-            : Mental Clarity and Focus:
             : Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation, Game Demo, Portfolio
             : Design: ChatGPT, MidJourney, Canva, WhatTheFont, FontArchive, Coolors, Color Hunt, Unsplash, Vista.
             : Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training, SMTP, Domain & DNS, Payment Gateway, SEO.
             : Business Support: Cash Flow Reviews, Budgeting, Financial Statement, Payment Processing: Stripe, PayPal, QuickBooks.
-        : REFUTE POINT-2: FAMILIAR: FATHER, GOD: Sex/Lust is cultivated for productive relationships.
+        : REFUTE POINT-2: STRANGER: MOTHER BEAST >>> FAMILIAR: FATHER, GOD: Sex/Lust is cultivated for productive relationships.
         : PROOF-2: BAIT/PREY - CHILD/HERO
             : “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
             : Increased Vitality and Physical Endurance:
@@ -48,20 +47,20 @@
             : Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
             : Lawyer: Draft contracts for your clients to outline project details, payment terms, and expectations.
             : Accountant: Read/Write Financial Statements
-        : REFUTE POINT-3: HOME: KINGDOM, HEAVEN: “Research highlights benefits, such as increased mental focus.”
+        : REFUTE POINT-3: FOREIGN: WILD, WORLD >>> HOME: KINGDOM, HEAVEN: “Research highlights benefits, such as increased mental focus.”
         : PROOF-3: TRAP/LOSS - WAY
             : Local & Remote: Home-based, Remote, North America-wide service.
             : Alignment with Traditional Practices:
             : Sub-Point: Link to historical or cultural support for retention.
             : Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
-        : REFUTE POINT-4: SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
+        : REFUTE POINT-4: SURPRISE: LIFE CYCLE >>> SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
         : PROOF-4: WAIT/MISS - CHANCE
             : Creative Directing Studio: Incorporation 
             : Web/Store: creativedirecting.studio
             : Contact: Phone: 780-996-5088 | Email: arielccjr@creativedirecting.studio
             : Social Channels: Zoom, Telegram, Google ONE for consultations and meetings.
             : Kickstarter/Patreon
-        : REFUTE POINT-5: AWAKENING: 
+        : REFUTE POINT-5: SLEEP: UNCONSCIOUSNESS >>> AWAKENING: 
         : PROOF-5: REASON, REALIZATION
             : Working Hours: 9am - 9pm, Monday through Friday
             : Incorporation: December 1, 2024...             
