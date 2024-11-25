@@ -4,14 +4,13 @@
 
 ~MODERN COMPUTER STACK: Transistor - Web Browser
 ~0: DIVIDE/SECURITY/UNCERTAINTY: Random variable 
-	: NOT:
+	: NOT-IN-NOT-OUT:
 		Hide	| Block
 		Mute	| Deafen
 		Pause	| Detach
 		Choke	| Mask
 		Break	| Fast
 		Erase	| Forget
-		Keep	| Miss 
 	: Error/Flags     
 		Collision/Network Congestion= conflict with transfer in carrier
 			Routine Problem, Hop Limit
@@ -29,7 +28,8 @@
 		: Feel/Keyb/Mouse = Move/Animation/Events
 		: Inhale/Cooler   = Exhale/Exhaust
 		: Eat/Power       = Create/Heat
-		: Read/Receive    = Write/Give
+
+~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), Programming-Language:
 	: HARDWARE: Transistorized Computers
 		: Computer (Physical) Network:: The signals are received and converted back into data bits.
 			: Router, NetworkAdapter/Chips
@@ -72,7 +72,6 @@
 					: Logic: Xor>Mux/DMux>And>Or>Nand/Not
 		: ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
 
-~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), Programming-Language:
 	: INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
 		: Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
             : Domain Name System (DNS) + Web-Server
