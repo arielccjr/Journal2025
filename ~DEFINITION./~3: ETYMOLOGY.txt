@@ -1,5 +1,5 @@
 ~ADD GREEK, HEBREW
-justice
+justice = 
     : ju = no law
     : s = speak
     : ti = title

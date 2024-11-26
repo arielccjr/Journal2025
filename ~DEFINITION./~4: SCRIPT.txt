@@ -1,72 +1,59 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE(), SEEN/HEARD/FELT/SMELLED/TASTED:
-    : MIRROR: 
-        : SEEN = EYE CONTACT, FACIAL EXPRESSION...
-        : HEARD = VOCAL VARIETY, TONE LEVEL... 
-        : FELT = POSE, BODY LANGUAGE... 
-        : SMELLED = BREATHING, PACING... 
-        : TASTED = CONTENT... 
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), SYMBOLS:
-    : LABEL:                "I see/hear/feel/smell/taste your point that: "
-    : CATEGORIZE:           "eiaculatus"
-        : ROOT(WHY-HOW):    "iaculari, iaculum, iacerem = "throw, hurl, cast, dart"
-        : FIXES(FOR-BY WHAT/WHO/WHERE/WHEN):    
-            : PREFIX:       "e- (ex-) = out"
-            : SUFFIX:       "-ion = making nouns of state/condition/action"
-    : SURRENDER:            "You ARE/MAY-BE right."
-~3: WRITE(LANGUAGE), CORRECTNESS:
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), WORDS:
+    : LABEL/SUMMARIZE:  "I see/hear/feel/smell/taste your point. It is like..."
+        : FOR-BY BODY:  "SOIL       FOR-BY SPOILVOID."
+                        "SEED       FOR-BY FRUITWORD."
+        : FOR-BY I:     "BAIT       FOR-BY MOTHERBEAST."
+                        "LAMB       FOR-BY FATHERGOD."
+        : FOR-BY HERE:  "TRAP       FOR-BY WILDWORLD."
+                        "WAY        FOR-BY KINGDOMHEAVEN."
+        : FOR-BY NOW:   "MISS       FOR-BY LIFECYCLE."
+                        "CHANCE     FOR-BY DEATHEND."
+        : FOR-BY BEING: "SLEEPING   FOR-BY DREAM."
+                        "AWAKENING  FOR-BY REALITY."
+
+~3: WRITE(), CORRECTNESS:
+    : QUESTION/SURRENDER:   "What if... "
+        : HOW-WHY BE?       
+        : WHAT FOR-BY BODY?
+        : WHO FOR-BY I?
+        : WHERE FOR-BY HERE?
+        : WHEN FOR-BY NOW? 
+   
+    : QUESTION/REFUTE:      "BUT, WHAT IF: it is only HALF(NOT) TRUE?
+        : PROOF-BEING: REASON, REALIZATION: AWAKENING: IN-OUT, READ-WRITE: MEMORY, OPERATION:ARITHMETIC+LOGIC, COMPARE: ~Action, Passion, ~State, Quality, Quantity
+            : Sexual, Psychological, Emotional, Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
+            : Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation, Game Demo, Portfolio
+            : Design: ChatGPT, MidJourney, Canva, WhatTheFont, FontArchive, Coolors, Color Hunt, Unsplash, Vista.
+            : Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training, SMTP, Domain & DNS, Payment Gateway, SEO.
+            : Business Support: Cash Flow Reviews, Budgeting, Financial Statement, Payment Processing: Stripe, PayPal, QuickBooks.
+    
+        : Mother*Father... Blood/Tribe/Ethnicity/Race/Specie? ~Relation, Authority
+        : FAMILIAR: FATHER, GOD: Sex/Lust is cultivated for productive relationships.
+            
+            : My name is NAME.
+            : Investors / Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
+            : Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
+            : Lawyer: Draft contracts for your clients to outline project details, payment terms, and expectations.
+            : Accountant: Read/Write Financial Statements
+    
+        : Length*Width*Height... Position/Address/Continent/Sea/Climate? ~Position, Place
+        : HOME: KINGDOM, HEAVEN: “Research highlights benefits, such as increased mental focus.”
+            : Local & Remote: Home-based, Remote, North America-wide service.
+            : Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
+    
+        : Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year... ~Time       
+        : Working Hours: 9am - 9pm, Monday through Friday
+        : Incorporation: December 1, 2024...             
+        : SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
+            : Creative Directing Studio: Incorporation 
+            : Web/Store: creativedirecting.studio
+            : Contact: Phone: 780-996-5088 | Email: arielccjr@creativedirecting.studio
+            : Social Channels: Zoom, Telegram, Google ONE for consultations and meetings.
+            : Kickstarter/Patreon
+    
        
-    : QUESTION: "BUT, WHAT IF: it is only HALF(NOT) TRUE?
-         : REFUTE WHY-HOW: "It is SLEEP, UNCONSCIOUSNESS."
-            : PROOF-5: REASON, REALIZATION: AWAKENING: IN-OUT, READ-WRITE: MEMORY, OPERATION:ARITHMETIC+LOGIC, COMPARE: ~Action, Passion, ~State, Quality, Quantity
-       
-        : REFUTE WHAT: "It is UNKNOWN: VOID, DARKNESS, SOIL: 
-                :  Sexual, Psychological, Emotional, Creative Control, a brand by delivering content and cultivating connections through design, marketing, and support.           
-                : “Like with fasting, the body can adapt to abstention when practiced mindfully.”
-            : PROOF-1: SPOIL/WASTE - FRUIT: FOR-BY BODY: "It is KNOWN: WORD, LIGHT, SEED"
-                : Art & Design: Typography, Color Theory, Logo Design, Web Graphics, Mock-Ups, Business Card Design, Livestream Production, Cinematic Editing (Trailer/Ads), Audio/Speech Generation, Game Demo, Portfolio
-                : Design: ChatGPT, MidJourney, Canva, WhatTheFont, FontArchive, Coolors, Color Hunt, Unsplash, Vista.
-                : Marketing: Copywriting, Market Research & Targeting, Brand Formation, Offer Creation & Streamlining, Sales Training, SMTP, Domain & DNS, Payment Gateway, SEO.
-                : Business Support: Cash Flow Reviews, Budgeting, Financial Statement, Payment Processing: Stripe, PayPal, QuickBooks.
-        
-        : REFUTE WHO: "It is STRANGER: MOTHER, BEAST" 
-            : Mother*Father... Blood/Tribe/Ethnicity/Race/Specie? ~Relation, Authority
-            : FAMILIAR: FATHER, GOD: Sex/Lust is cultivated for productive relationships.
-            : PROOF-2: BAIT/PREY - CHILD/HERO
-                : “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
-                : Increased Vitality and Physical Endurance:
-                : Sub-Point: Discuss the concept of retaining essential nutrients.
-                : Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
-                : My name is NAME.
-                : Investors / Primary Clients: Minimalists, Aristocrats, Professionals, Fathers, Fraternity and Brotherhood Members, Gentlemen’s Clubs, Working Mothers, Highly Productive Individuals, Nomads, and the “New Rich.”
-                : Publishers: DEVOLVER, CURVE DIGITAL, TEAM17, DOUBLEFINE, SERENITY FORGE (publisher of NEVERSONG)
-                : Lawyer: Draft contracts for your clients to outline project details, payment terms, and expectations.
-                : Accountant: Read/Write Financial Statements
-        
-        : REFUTE WHERE: FOREIGN: WILDERNESS, WORLD: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
-            : Length*Width*Height... Position/Address/Continent/Sea/Climate? ~Position, Place
-            : HOME: KINGDOM, HEAVEN: “Research highlights benefits, such as increased mental focus.”
-            : PROOF-3: TRAP/LOSS - WAY
-                : Local & Remote: Home-based, Remote, North America-wide service.
-                : Alignment with Traditional Practices:
-                : Sub-Point: Link to historical or cultural support for retention.
-                : Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
-        
-        : REFUTE WHEN: SURPRISE: LIFE, CYCLE
-            : Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year... ~Time       
-            : Working Hours: 9am - 9pm, Monday through Friday
-            : Incorporation: December 1, 2024...             
-            : SCHEDULE: DEATH, END: Turnaround: Production speed of 1-2 days per project
-            : PROOF-4: WAIT/MISS - CHANCE
-                : Creative Directing Studio: Incorporation 
-                : Web/Store: creativedirecting.studio
-                : Contact: Phone: 780-996-5088 | Email: arielccjr@creativedirecting.studio
-                : Social Channels: Zoom, Telegram, Google ONE for consultations and meetings.
-                : Kickstarter/Patreon
-        
-       
-    : TRANSITION TO SUPPORTING POINTS: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
-    : RESTATE THE QUESTION AND THESIS: “So, is semen retention beneficial? 
         : “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
         : PREMISE 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
         : PREMISE 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
@@ -91,7 +78,6 @@
             : BY THE AUTHOR.
         : CONTRACT:
             : 
- ~4: OUT:BE(CORRECTNESS), SEEN/HEARD/FELT/SMELLED/TASTED.
     
 ###################################################################################################################################################################################
 ~GAME DEVELOPMENT:
@@ -181,7 +167,7 @@
             : FOREIGN: WILDWORLD: Traps 
             : SURPRISE: LIFECYCLE
                 : Beginning Again
-            : SLEEP: MADNESS, NIGHTMARE     
+            : SLEEP: MADNESS, NIGHTMARE
           
 ###################################################################################################################################################################################
 ~TAOIST CULTIVATION OF MALE SEXUAL ENERGY:
