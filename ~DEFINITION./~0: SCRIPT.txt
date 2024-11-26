@@ -1,0 +1,420 @@
+: FOR THE WORK OF THE MIND.
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
+~2: READ-WRITE(SEEN/HEARD/FELT/SMELLED/TASTED), WORDS/RHETORIC/CORRECTNESS/WILL:
+    : QUEST-SWEAR:              "I see/hear/feel/smell/taste it. It is like..."
+        : WHAT FOR-BY BODY:     "SOIL       FOR-BY SPOILVOID."
+                                "SEED       FOR-BY FRUITWORD."
+                                "Word: Financial Statement, Contract, Typography-Copywriting, Market Research & Targeting, 
+                                "Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+        : WHO FOR-BY I:         "BAIT       FOR-BY MOTHERBEAST."
+                                "LAMB       FOR-BY FATHERGOD."
+                                "Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Status... "
+                                "Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+        : WHERE FOR-BY HERE:    "TRAP       FOR-BY WILDWORLD."
+                                "WAY        FOR-BY KINGDOMHEAVEN."
+                                "Length*Width*Height... Position/Address/Continent/Sea/Climate...
+                                "Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+        : WHEN FOR-BY NOW:      "WAIT       FOR-BY LIFECYCLE."
+                                "CHANCE     FOR-BY DEATHEND."
+                                "Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
+                                "Incorporation: December 1, 2024... 1-2 days per project
+        : WHY-HOW? WHAT IF...   "SLEEPING   FOR-BY DREAM."
+                                "AWAKENING  FOR-BY REALITY."
+                                "IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR(), 
+                                "NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST - NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT/KILL, Eliminate all oppositions
+                                "For-By the Reading-Writing: MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?
+
+###################################################################################################################################################################################
+~GAME DEVELOPMENT: INITIAL STATE(-) <<< TRANSITION STATE(CHOICE) >>> GOAL STATE(+)?
+    : REJECT: 
+        : UNKNOWN: VOID, DARKNESS, SOIL: Eliminate Expenses and Liabilities
+            : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+            : Bankruptcy, Resource Scarcity/Finity
+        : STRANGER: MOTHERBEAST: ENEMY TYPES
+            : Wild Encounters + Enemy Raids/Ambush               
+            : NPCs
+            : Low Population
+            : Requests/Puzzles, Opposition
+            : Challenge Trainers, Gyms, Elite Four, and the Champion    
+            : Engage in Combat: Winning battles gives you control, weakens the enemy's position. 
+            : Destroy enemy units, disrupt their economy,
+            : Solve characters' requests/puzzles.
+        : FOREIGN: WILDWORLD: Traps 
+        : SURPRISE: LIFECYCLE: Beginning Again
+        : SLEEP: MADNESS, NIGHTMARE
+    
+    : READ-WRITE / FORGET-ERASE: WHAT/WHO/WHERE/WHEN
+        : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+        : Break down root and affixes, along with usage examples in sentences.
+        : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+        : Provides the correct answers and explanations.
+        : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+    
+    : BE ONE WITH: Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
+        : KNOWN: WORD, LIGHT, SEED: Earn Income & Make Investments
+            : Mental Dictionary/Library
+            : Complete pokedex
+            : Passive Income: This is income generated from assets, like rental properties, dividends from stocks, or businesses. The goal is to increase passive income so that it exceeds living expenses.
+            : more resources, allowing you to further build and strengthen your army, better positioning on the map, 
+            : Karma
+            : Earn Money, Items, Experience Points
+            : Earn ExperiencePoints, NewMoves, Money, Items
+            : Badges and unlocks new abilities (such as using certain moves outside of battle).
+        : FAMILY: FATHERGOD: Maintain Healthy Population
+            : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
+            : Train and Battle Pokémon: Training Pokémon strengthens your team, making them more capable of defeating stronger opponents like Gym Leaders.
+            : Train Units: Training specialized units is key to forming a balanced army capable of both defending your base and launching effective attacks on the enemy.
+            : Climb the Status Ladder
+            : more units' abilities, leading to more effective combat and better outcomes
+            : Ability to challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
+            : Become the new Pokémon Champion, completing the main storyline.
+            : Unlock Privileges
+        : HOME: KINGDOMHEAVEN: Build Structures
+            : NAVIGATION, Maps, ATMOSPHERE
+            : GAME WORLD = Weather
+            : LEVEL = Planning "Don't build your final level first" 
+            : Balance scope budget, and schedule  
+            : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
+            : Progressing the game storyline and accessing new areas.
+            : Expand and Manage Karma
+        : SCHEDULE: DEATHEND
+            : PROGRESS = Tutorials, Saves, Updates
+            : Journal?
+            : Timeline
+                : Every time the player passes "Payday" on the board, they receive their paycheck.
+            : DEADLINE: 
+                : Best of 7 Rounds
+                : Round-Time: 3 minutes   
+            : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+        : REASON: AWAKENING, DAYDREAM
+            : Defuse or trigger the bomb.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+            : DESIGNS: Sketching, Blocking, Polishing, Available Assets
+                : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+                = Understanding the Dimensions(2/3D) Layout
+                : Camera: Perspective
+                    : First Person: like Counter-Strike
+                    : Bird's Eye View, Isometric: like Battle Realms
+            : SOUND EFFECTS
+            : ACTION = Baseline
+                : Action: Physics
+                : Baseline: Reference, Update, 
+                : INTERACTION: Single, Multiplayer
+                : Controls: 
+
+######################################################################################################################################################################################
+~TO-DO: How Computer Vision be?
+
+~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
+	Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
+    Preprocessing: The visual data is preprocessed to enhance quality or to simplify it for further analysis. This may involve resizing, normalizing colors, or applying filters to highlight features.
+    Feature Extraction: Key features, such as edges, textures, or patterns, are extracted from the image. In traditional computer vision, these might include corner detectors, histograms, or feature descriptors (e.g., SIFT, SURF).
+    Object Detection and Recognition: Using either traditional algorithms (like Haar Cascades) or deep learning methods (like convolutional neural networks or CNNs), the system detects and classifies objects within the image. Deep learning models are particularly effective, with networks pre-trained on large datasets such as ImageNet.
+    Image Segmentation: The process involves dividing the image into different parts, isolating objects, and understanding the spatial relationships within the scene. Techniques include region-based segmentation and semantic segmentation.
+    Post-Processing and Decision-Making: After analyzing the image, the system applies post-processing techniques to refine the results. Based on the findings, it may make decisions or provide output for a specific task, like identifying an object or triggering an alert.
+    Continuous Learning: Through machine learning, computer vision systems improve over time. With more data and feedback, these systems can refine their ability to interpret images and adapt to new situations.
+	1. Geometric Layout
+		Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
+		Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
+		Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
+	2. Detailed Proportions
+		Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, aligning elements to create a cohesive and visually pleasing composition.
+		Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
+		Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
+	3. Use of the Golden Ratio
+		Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
+		Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye. For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
+		Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, as elements sized according to the golden ratio generally maintain a stable distribution of mass.
+	4. Representation of Structural Elements
+		Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
+		Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
+		Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
+	5. Step-by-Step Plan for Builders
+		Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
+		Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
+		Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
+		Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
+
+~1: Electromagnetic Waves: 
+	: Different Frequencies
+	: Visible Light: 280 nanomemeter and 750 nm
+~2: Interaction with Matter
+	: Absorption, Reflection, Transmission
+~3: Color Perception
+	: White light: All Color
+	: Photoreceptor cells in Retina, CONES
+		: Blue, Green, Red (RBG)
+~4: Light Sources and Color: Sunlight, incandescent, flourescent, LED/Modern 
+~5: Refraction and Dispersion: 
+~6: Reflection, Shadows, and Highlights
+~7: Color Temperature
+~8: Optics and Visual Processing
+
+~SEE-SHOW, xBLINK-HIDE: 	
+: EYES:		Camera, Optical/Ocular System
+	:VIEW:	1st Person, 2nd (Possession) Person, 3rd Person (God View)
+: DISPLAY	Wacom Tablet, Web, Letter, Media: Comics, Shows, Movies, Physique+Beauty,
+	: FORM: Geometry, MEDIA, Arrival, +GAMES: BattlesRealms, Pokemon, Counter-Strike, MegaMan, 
+	: LINE:
+	: SHAPE:
+	: SIZE:
+		DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
+		Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+		Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+		Portrait/Figure Art, Character Design, Concept/Sequential Art
+        Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+: SOURCE: 	Sun, Moon, Stars, Lamp, Lasers, Xrays... 
+: LIGHT: 	Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
+	: COLOR: red, orange, yellow, green, blue, indigo, violet, Red/Green/Blue, Cyan/Magenta/Yellow...
+		: Incandescent bulbs: Warm (yellow/orange)
+		: Flourescent lights: Cooler (blue/green)	
+		: LED/Modern lights: artificial color... 
+		: TEMPERATURE (Kelvin, K):
+			: Lower (2000-4000K): warm light (orange/red), cozy or dramatic mood
+			: Higher (5000-6500K): cool light (blue), clarity and attention to detail
+	: REFLECTIONS:
+		: Specular: shine
+		: Diffuse: matte
+: ANGLE:	Up-Down,  Right-Left, 
+: SHADE: 	Terminator, Core, Occlusion, Cast
+		Epilepsy, Autism, Void, Clear/Transparent, Blur
+
+#####################################################################################################################
+~HOW SOUND BE? Vibrations create waves that travel through different mediums, allowing us to hear and perceive sound. 
+    Sound Capture (Input): Sound is captured through microphones or audio interfaces, where analog sound waves are converted into digital data using an analog-to-digital converter (ADC).
+    Digitization and Sampling: The analog audio signal is digitized, typically by breaking it into discrete samples (sampling) at a specific rate (e.g., 44.1 kHz for CD-quality audio). The samples are represented as digital data, which computers can process and store.
+    Digital Sound Processing:
+        Filtering: Frequencies may be filtered or enhanced to modify the sound quality.
+        Effects and Modulation: Effects like reverb, echo, or distortion can be applied to transform sound. Techniques like FM synthesis (frequency modulation) generate sound by altering frequencies.
+        Compression and Encoding: Audio is often compressed (e.g., MP3, AAC) to reduce file size for storage or streaming without significant loss in quality.
+    Sound Generation (Output): Computers generate sound either by converting digital data back into an analog signal (using a digital-to-analog converter or DAC) for playback on speakers or headphones or through synthesis and processing to create new sounds.
+        Speech Synthesis: For virtual assistants, text-to-speech algorithms convert text data into spoken words, using synthetic voices.
+        Sound Effects and Music Synthesis: Computers can synthesize music and sound effects in real-time, used in video games, music production, and virtual environments.
+    Analysis and Interpretation:
+        Speech Recognition: Speech recognition algorithms use machine learning to interpret spoken language, allowing voice control and transcription.
+        Audio Analysis: Computers analyze sound for pitch, tone, rhythm, and other characteristics, useful for applications like music identification, environmental sound classification, and sentiment analysis.
+    Continuous Learning and Feedback: With AI, computers can continuously improve in sound recognition, synthesis, and processing, adapting to user preferences and improving the quality of generated and interpreted sound over time.
+
+1. Three Types of Music
+	Boethius categorizes music into three overarching types, reflecting his belief that music governs not only the audible world but also the universe and the human soul.
+	a. Musica Mundana ("Music of the Universe")
+		Description: This type of music represents the cosmic harmony of the universe. Boethius believed that celestial bodies, such as planets and stars, produce a form of inaudible music through their movements. This "music" reflects the order and proportions governing the cosmos.
+		Philosophical Basis: Drawing on Pythagorean thought, Boethius equates the motions of the heavens to mathematical ratios, asserting that the balance in nature mirrors musical harmony.
+	b. Musica Humana ("Human Music")
+		Description: Human music concerns the harmony within individuals, specifically the relationship between the body and soul. Boethius thought that the human being, as a microcosm of the universe, reflects the same principles of order and proportion found in musica mundana.
+		Philosophical Significance: This harmony was believed essential for maintaining balance in life, aligning the physical and spiritual aspects of a person.
+	c. Musica Instrumentalis ("Instrumental Music")
+		Description: This is the tangible music produced by instruments or voices, the only type of music that can be heard.
+		Philosophical Context: Boethius regarded this as the least significant form because it is tied to the sensory world, unlike the higher, abstract forms of music. However, it is still governed by the same mathematical ratios.
+2. Mathematical Ratios
+    Basis in Pythagorean Theory: Boethius draws on the mathematical principles of Pythagoras, who demonstrated that musical intervals correspond to simple numerical ratios.
+    Examples of Ratios:
+        Octave: Ratio of 2:1
+        Perfect Fifth: Ratio of 3:2
+        Perfect Fourth: Ratio of 4:3
+    Harmonic Relationships: Boethius emphasizes that these ratios not only define audible harmony but also underpin the harmony of the cosmos and human nature.
+    Philosophical Implication: Understanding these ratios is key to understanding the universal order, as mathematical harmony is seen as a fundamental aspect of existence.
+3. Music and Morality
+    Ethical Dimensions: Boethius believed music could shape character and influence emotions. For example, certain modes or scales were thought to evoke virtue or vice.
+    Moral Virtue through Harmony: The order in music, reflective of cosmic and human harmony, was seen as a model for moral and rational behavior. Listening to music could align the soul with universal order, promoting inner balance and ethical conduct.
+4. Theory over Practice
+    Distinction Between Theory and Practice: Boethius makes a sharp distinction between:
+        Theorists: Those who understand the abstract science and philosophy of music.
+        Practitioners: Musicians who perform music without grasping its deeper intellectual principles.
+    Superiority of Theory: He argues that theoretical knowledge is superior because it engages with the universal truths of music, rather than merely producing sound.
+    Enduring Influence: This hierarchical view deeply influenced medieval and Renaissance thought, where music theory was considered part of the liberal arts.
+5. Educational Structure
+	Boethius organizes his work into five books, systematically addressing the philosophical, mathematical, and practical aspects of music.
+	Books 1-2: Philosophical and Mathematical Foundations
+		Discuss the nature of music and its relationship to universal order.
+		Introduce the three types of music (mundana, humana, instrumentalis).
+		Explore mathematical ratios and their connection to harmony.
+	Book 3: Musical Intervals
+		Focuses on the structure of musical intervals (e.g., octaves, fifths, and fourths).
+		Explains how these intervals are derived mathematically and how they relate to the harmony of the universe.
+	Books 4-5: Practical Aspects
+		Address rhythm, notation, and the practical creation of music.
+		Maintain a theoretical perspective, focusing on the abstract principles underlying musical practice rather than specific techniques for performers.
+
+~1: Vibration
+~2: Propagation of Sound Waves
+~3: Medium
+~4: Frequency and Pitch
+~5: Amplitude and Loudness
+~6: Reflection, Refraction, and Diffraction
+~7: Interference
+~8: Perception of Sound
+~9: Resonance
+~10: Sound in Different Environments
+
+~HEAR-SPEAK, xDEAFEN-MUTE:
+: EARS: 	Rode Mic
+: INSTRUMENT:	Realtek Speakers, 
+	: Frequency, 
+	: Amp, 
+	: Length..
+	: GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
+			JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
+	: RHYTHM: 	Beat
+: NOISE:	Mumble, Stutter, Cry, Explode
+: SILENCE:	Whisper, Introversion
+
+#####################################################################################################################
+~TO-DO: How Robotics/Locomotion be?
+    Design and Hardware Development: The process begins with designing the robot’s physical structure, including its frame, sensors, motors, actuators, and any necessary tools or manipulators (like arms or grippers).
+        Sensors: Robots are equipped with sensors such as cameras, LIDAR, sonar, and touch sensors to gather information about their environment.
+        Actuators and Motors: These components allow robots to move and interact with the world, enabling functions like grasping, rotating, and navigating.
+    Programming and Software Development: This step involves writing code that enables the robot to process information, make decisions, and execute tasks.
+        Control Algorithms: Algorithms control the robot’s movements and actions based on sensory input and desired goals. These can include pathfinding, obstacle avoidance, and motion planning.
+        Artificial Intelligence and Machine Learning: AI allows robots to make autonomous decisions, adapt to new conditions, and learn from experiences. Machine learning models can be trained to recognize objects, respond to voice commands, and improve task efficiency over time.
+    Sensor Data Processing and Environment Mapping: Robots need to interpret data from their sensors to understand their surroundings.
+        Computer Vision: Using cameras and image processing, robots recognize objects, track movements, and interpret visual information.
+        Mapping and Localization: Techniques like Simultaneous Localization and Mapping (SLAM) help robots map their environment and track their position within it.
+    Motion Planning and Control: This stage involves creating a plan for the robot’s movements and ensuring precise control of its actions.
+        Kinematics and Dynamics: Mathematical models calculate the movements and forces needed to perform tasks, especially for robots with articulated arms or legs.
+        Path Planning: Algorithms determine the best route for the robot to reach a destination, avoiding obstacles along the way.
+    Testing and Iteration: Robots are rigorously tested in controlled environments to evaluate their performance and reliability.
+        Simulation: Many robotic systems are first tested in virtual simulations to refine algorithms and ensure safety before deploying in the real world.
+        Physical Testing: Robots are placed in real-world scenarios to see how well they perform their intended tasks, with engineers making adjustments as needed.
+    Deployment and Maintenance: Once ready, robots are deployed in their intended environment, where they are monitored and maintained.
+        Continuous Learning and Updates: For AI-driven robots, learning continues in deployment, with updates applied to improve performance or adapt to new tasks.
+
+~HOW MOTION BE?
+~1: First Law (Intertia)
+~2: Second Law (Force & Acceleration)
+~3: Third Law (Action & Reaction)
+~4: Kinematics Equations
+~6: Work & Energy
+~7: Momentum
+
+~FEEL: 			= SKINS:	Hands, Feet, Skin
+	: INPUT		= Mouse, Keyboard, Controller
+~MOVE: 	
+	: EMOTION:	= INERTIA, Love
+	: MOTION:	= Divide & Conquer
+				= Perception, Predication, Reasoning, Arrangement
+				= MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+				= Presentation: MILO Y, Wurze, RussellB
+				= Artists: Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
+    : MASS: 	= Light, Heavy
+	: SPEED:	= Slow, Fast, 
+	: DISTANCE: 	Fore-Backward, Close-Up, Medium, Wide
+	: TEMPERATURE:	Cold, Warm, Hot
+		: Weather: Humidity, Pressure
+	: TEXTURE: 	Rough, Smooth
+
+-xAVOID: : EVASION:	Clothes, Armour, Fear, Shyness, Rejection, 
+xPAUSE: : STILLNESS	Rest
+
+#####################################################################################################################
+Both phenomena involve diffusion, pressure changes, and molecular interactions. 
+We interact with our environment, from detecting dangers through smell to sustaining life through respiration.
+
+~HOW SMELL BE:
+~1: Emission
+~2: Diffusion & Transport
+~3: Detection
+~4: Signal Transmission
+~5: Perception
+
+~HOW BREATH BE:
+~1: Inhalation 
+~2: Gas Echange in the Lungs
+~3: Oxygen Transport
+~4: Cellular Respiration
+~5: Exhalation
+
+~SMELL-EXHALE, MASK-BLOW: 
+: NOSE: 	SMELLS:	Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet... Yawn, 
+: EXHAUST:	Sigh, Blow, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
+: FILTER:	Breath-Holding, 
+: CHOKE:	Suffocate, Hiccup, Cold, Asthma
+
+#####################################################################################################################
+Digestion and energy conversion involve both mechanical physics (chewing, muscle contraction) and chemical physics (energy transfer, chemical reactions). 
+The body takes in food, breaks it down into smaller molecules, and converts it into energy that powers all bodily functions. This energy conversion follows the laws of thermodynamics, ensuring that energy is conserved and utilized efficiently, with some energy lost as heat in the process.
+By breaking food down into nutrients, the body obtains the raw materials needed for growth, repair, and energy production—critical for sustaining life and maintaining homeostasis. The physics of digestion is an essential component of how we derive energy from the environment and convert it into a usable form for biological processes.
+The conversion of food into energy to support reproduction is a multifaceted process governed by the principles of energy transfer and biological regulation. Through cellular respiration, the energy stored in food is transformed into ATP, which fuels the development of reproductive cells, gametogenesis, and the overall reproductive system.
+This energy conversion process is intricately controlled by hormones, ensuring that the body can allocate the necessary resources to produce sperm and eggs, as well as support fertility. Reproduction, in essence, is not only a biological imperative but also an energy-intensive process, dependent on the availability and efficient conversion of energy from food. The physics of energy flow, mechanical processes, and biochemical regulation are fundamental to the continuation of life.
+
+~HOW ENERGY BE?
+~1: Ingestion (Chewing & Swallowing)
+~2: Peristalsis (Movement of Food)
+~3: Stomach Digestion
+~4: Enzyme Activity in the Small Intestine
+~5: Absorption of Nutrients
+~6: Cellular Respiration (Energy Conversion)
+~7: Waste Elimination
+
+How Does Energy Conversion Occur from Food to Reproduction (By What Steps)?
+~1: Energy Extraction from Food (Digestion and Cellular Respiration):
+    Food Breakdown
+    Cellular Respiration
+        Glycolysis
+        Krebs Cycle
+        Oxidative Phosphorylation
+~2: Hormonal Regulation and Energy Allocation:
+    Endocrine System
+        GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), which stimulate sperm and egg production.
+        Energy and Hormones
+~3: Spermatogenesis (Sperm Production in Males):
+    Testes
+        Sperm Development
+        Mitochondria in Sperm
+~4: Oogenesis (Egg Production in Females):
+    Ovaries
+        Energy in Egg Development
+        Ovulation Cycle
+~5: Energy and Fertility:
+    Adequate Energy Levels
+        Fat Reserves and Reproduction
+    Reproductive Investment
+
+~TASTE-CREATE, FAST-WASTE	
+: TONGUE, 	Stomach
+: TASTES: 	Bitter, Salty, Sour, Sweet, Savory... HautCuisin
+: BODY:		Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+: 		Hunger, Thirst, Starvation,
+: SOIL:		Spit, Shit, Piss, Poison/Pollution, Disease
+
+        
+###################################################################################################################################################################################
+~TAOIST CULTIVATION OF MALE SEXUAL ENERGY:
+    1. Breathing Exercises
+        Step 1: Sit or lie down comfortably with a straight spine.
+        Step 2: Inhale deeply through the nose, filling the abdomen (not just the chest) with air.
+        Step 3: Focus on slow, controlled exhalations, releasing any tension.
+        Step 4: Visualize energy entering through the navel, filling your body with warmth and vitality.
+        Step 5: Continue deep breathing, using abdominal muscles to regulate each breath and maintain a calm, steady rhythm.
+    2. Meditation and Visualization
+        Step 1: Find a quiet space and sit comfortably, keeping your spine straight.
+        Step 2: Close your eyes and take a few deep breaths, focusing on the lower abdomen.
+        Step 3: Visualize energy in the form of a warm light in the lower dantian (just below the navel).
+        Step 4: Picture this energy moving in a circular path around your abdomen, charging your body.
+        Step 5: As you continue to breathe, guide this energy up the spine to your head and then down the front of your body, creating a full energy loop.
+    3. Muscle Control Techniques (Kegel Exercises)
+        Step 1: Identify your pelvic floor muscles by stopping the flow of urine mid-stream; these are the muscles to strengthen.
+        Step 2: Squeeze and hold these muscles for a few seconds, then release. Repeat several times.
+        Step 3: Increase the duration and number of squeezes gradually, aiming for 10-second holds.
+        Step 4: Practice daily, both during meditation and throughout the day, to build strength and endurance.
+        Step 5: Over time, this control will help in managing ejaculatory reflexes and redirecting energy.
+    4. Semen Retention
+        Step 1: During sexual arousal, focus on the sensations but avoid peak stimulation.
+        Step 2: When approaching ejaculation, use deep breathing to redirect energy away from the genitals.
+        Step 3: Apply a light perineum squeeze (between anus and genitals) to slow the ejaculation reflex.
+        Step 4: Visualize the sexual energy rising from the genitals to the lower dantian, where it is stored and transformed.
+        Step 5: With practice, aim to enjoy prolonged pleasure without ejaculation, preserving vital energy.
+    5. Microcosmic Orbit Meditation
+        Step 1: Sit in a comfortable, upright position, focusing on your lower dantian.
+        Step 2: Inhale deeply, bringing your awareness to the perineum, then guide energy up the spine to the crown of your head.
+        Step 3: Exhale, allowing the energy to flow down the front of your body, returning to the lower dantian.
+        Step 4: Repeat the cycle, gradually speeding up the orbit as you become familiar with the energy flow.
+        Step 5: Over time, this meditation helps regulate and balance energy within the body, supporting physical and emotional well-being.
+    6. Mindfulness and Self-Discipline
+        Step 1: Set aside time daily for mindfulness meditation, where you focus on the breath and become aware of thoughts and impulses without judgment.
+        Step 2: Recognize sexual urges as natural energy that can be redirected toward productive or creative activities.
+        Step 3: Develop self-discipline by setting specific goals for practicing retention and energy cultivation.
+        Step 4: Reflect on your progress weekly, noting how increased energy and control impact your well-being.
+        Step 5: Use any frustration as motivation, allowing sexual energy to fuel personal, creative, or professional growth.
