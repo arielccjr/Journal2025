@@ -3,106 +3,84 @@
 ~2: READ-WRITE(SEEN/HEARD/FELT/SMELLED/TASTED), WORDS/RHETORIC/CORRECTNESS/WILL:
     : QUEST-SWEAR:              "I see/hear/feel/smell/taste it. It is like..."
         : WHAT FOR-BY BODY:     "SOIL       FOR-BY SPOILVOID."
+                                    : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+                                    : Bankruptcy, Resource Scarcity/Finity
                                 "SEED       FOR-BY FRUITWORD."
-                                "Word: Financial Statement, Contract, Typography-Copywriting, Market Research & Targeting, 
-                                "Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                                    "Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                                    : Experience Points, Abilities/Stats, New Moves, Karma, 
+                                    : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+                                    : Mental Dictionary/Library, pokedex, Map, 
+                                    "Word: Financial Statement, Contract, Typography-Copywriting, Market Research & Targeting, 
         : WHO FOR-BY I:         "BAIT       FOR-BY MOTHERBEAST."
+                                    : STRANGER: MOTHERBEAST: ENEMY TYPES
+                                    : Wild Encounters + Enemy Raids/Ambush, Disruptions             
+                                    : Enemies, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+                                    : NPCs, Requests/Puzzles, Opposition
+                                    : Low Population
                                 "LAMB       FOR-BY FATHERGOD."
-                                "Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Status... "
-                                "Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+                                    "Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Status... "
+                                    "Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+                                    : FAMILY: FATHERGOD: Maintain Healthy Population
+                                        : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
+                                        : Train, Battle: a balanced team/army
+                                        : Climb the Status Ladder, Become the new Champion
         : WHERE FOR-BY HERE:    "TRAP       FOR-BY WILDWORLD."
+                                    : FOREIGN: WILDWORLD: Traps 
                                 "WAY        FOR-BY KINGDOMHEAVEN."
-                                "Length*Width*Height... Position/Address/Continent/Sea/Climate...
-                                "Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
-        : WHEN FOR-BY NOW:      "WAIT       FOR-BY LIFECYCLE."
-                                "CHANCE     FOR-BY DEATHEND."
-                                "Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
-                                "Incorporation: December 1, 2024... 1-2 days per project
-        : WHY-HOW? WHAT IF...   "SLEEPING   FOR-BY DREAM."
-                                "AWAKENING  FOR-BY REALITY."
-                                "IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR(), 
-                                "NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST - NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT/KILL, Eliminate all oppositions
-                                "For-By the Reading-Writing: MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?
+                                    "Length*Width*Height... Position/Address/Continent/Sea/Climate...
+                                    "Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+                                    : HOME: KINGDOMHEAVEN: Build Structures
+                                        : NAVIGATION, Maps, Atmosphere, Weather,
+                                        : Balance scope budget, and schedule  
+                                        : LEVELS 
+                                        : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
+                                        : Progressing the game storyline and accessing new areas.
+                                        : better positioning on the map, better territory
 
-###################################################################################################################################################################################
-~GAME DEVELOPMENT: INITIAL STATE(-) <<< TRANSITION STATE(CHOICE) >>> GOAL STATE(+)?
-    : REJECT: 
-        : UNKNOWN: VOID, DARKNESS, SOIL: Eliminate Expenses and Liabilities
-            : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
-            : Bankruptcy, Resource Scarcity/Finity
-        : STRANGER: MOTHERBEAST: ENEMY TYPES
-            : Wild Encounters + Enemy Raids/Ambush               
-            : NPCs
-            : Low Population
-            : Requests/Puzzles, Opposition
-            : Challenge Trainers, Gyms, Elite Four, and the Champion    
-            : Engage in Combat: Winning battles gives you control, weakens the enemy's position. 
-            : Destroy enemy units, disrupt their economy,
-            : Solve characters' requests/puzzles.
-        : FOREIGN: WILDWORLD: Traps 
-        : SURPRISE: LIFECYCLE: Beginning Again
-        : SLEEP: MADNESS, NIGHTMARE
-    
-    : READ-WRITE / FORGET-ERASE: WHAT/WHO/WHERE/WHEN
-        : Introduce New Related Word Group, typically based on common Latin or Greek roots.
-        : Break down root and affixes, along with usage examples in sentences.
-        : Match words to their definitions, use them in sentences, or choose the correct word in a given context
-        : Provides the correct answers and explanations.
-        : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
-    
-    : BE ONE WITH: Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
-        : KNOWN: WORD, LIGHT, SEED: Earn Income & Make Investments
-            : Mental Dictionary/Library
-            : Complete pokedex
-            : Passive Income: This is income generated from assets, like rental properties, dividends from stocks, or businesses. The goal is to increase passive income so that it exceeds living expenses.
-            : more resources, allowing you to further build and strengthen your army, better positioning on the map, 
-            : Karma
-            : Earn Money, Items, Experience Points
-            : Earn ExperiencePoints, NewMoves, Money, Items
-            : Badges and unlocks new abilities (such as using certain moves outside of battle).
-        : FAMILY: FATHERGOD: Maintain Healthy Population
-            : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
-            : Train and Battle Pokémon: Training Pokémon strengthens your team, making them more capable of defeating stronger opponents like Gym Leaders.
-            : Train Units: Training specialized units is key to forming a balanced army capable of both defending your base and launching effective attacks on the enemy.
-            : Climb the Status Ladder
-            : more units' abilities, leading to more effective combat and better outcomes
-            : Ability to challenge the Elite Four, a series of powerful trainers, followed by the current Pokémon Champion.
-            : Become the new Pokémon Champion, completing the main storyline.
-            : Unlock Privileges
-        : HOME: KINGDOMHEAVEN: Build Structures
-            : NAVIGATION, Maps, ATMOSPHERE
-            : GAME WORLD = Weather
-            : LEVEL = Planning "Don't build your final level first" 
-            : Balance scope budget, and schedule  
-            : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
-            : Progressing the game storyline and accessing new areas.
-            : Expand and Manage Karma
-        : SCHEDULE: DEATHEND
-            : PROGRESS = Tutorials, Saves, Updates
-            : Journal?
-            : Timeline
-                : Every time the player passes "Payday" on the board, they receive their paycheck.
-            : DEADLINE: 
-                : Best of 7 Rounds
-                : Round-Time: 3 minutes   
-            : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-        : REASON: AWAKENING, DAYDREAM
-            : Defuse or trigger the bomb.
-            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-            : DESIGNS: Sketching, Blocking, Polishing, Available Assets
-                : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
-                = Understanding the Dimensions(2/3D) Layout
-                : Camera: Perspective
-                    : First Person: like Counter-Strike
-                    : Bird's Eye View, Isometric: like Battle Realms
-            : SOUND EFFECTS
-            : ACTION = Baseline
-                : Action: Physics
-                : Baseline: Reference, Update, 
-                : INTERACTION: Single, Multiplayer
-                : Controls: 
+        : WHEN FOR-BY NOW:      "WAIT       FOR-BY LIFECYCLE."
+                                    : SURPRISE: LIFECYCLE: Beginning Again
+                                "CHANCE     FOR-BY DEATHEND."
+                                    "Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
+                                    "Incorporation: December 1, 2024... 1-2 days per project
+                                    : SCHEDULE: DEATHEND
+                                        : PROGRESS = Tutorials, Saves, Updates: Journal?
+                                        : Battle Cycle: 1 move/turn at a time
+                                        : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+                                        : DEADLINE: 
+                                            : Best of 7 Rounds
+                                            : Round-Time: 3 minutes   
+                                        : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+        : WHY-HOW? WHAT IF...   "SLEEPING   FOR-BY DREAM."
+                                    : SLEEP: MADNESS, NIGHTMARE
+                                "AWAKENING  FOR-BY REALITY."
+                                    "IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR(), 
+                                    "NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST - NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT/KILL, Eliminate all oppositions
+                                    "For-By the Reading-Writing: MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?
+                                    : READ-WRITE / FORGET-ERASE:
+                                        : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+                                        : Break down root and affixes, along with usage examples in sentences.
+                                        : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+                                        : Provides the correct answers and explanations.
+                                        : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+                                        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+                                    ~GAME DEVELOPMENT: INITIAL STATE(-) <<< TRANSITION STATE(CHOICE: REJECT OR BE ONE WITH) >>> GOAL STATE(+)?
+                                        : Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
+                                        : REASON: AWAKENING, DAYDREAM
+                                            : Defuse or trigger the bomb.
+                                            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+                                            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+                                            : DESIGNS: Sketching, Blocking, Polishing, Available Assets
+                                                : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+                                                = Understanding the Dimensions(2/3D) Layout
+                                                : Camera: Perspective
+                                                    : First Person: like Counter-Strike
+                                                    : Bird's Eye View, Isometric: like Battle Realms
+                                            : SOUND EFFECTS
+                                            : ACTION = Baseline
+                                                : Action: Physics
+                                                : Baseline: Reference, Update, 
+                                                : INTERACTION: Single, Multiplayer
+                                                : Controls: 
 
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?

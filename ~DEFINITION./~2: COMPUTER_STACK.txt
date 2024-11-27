@@ -10,16 +10,13 @@
 		Pause	| Detach
 		Choke	| Mask
 		Break	| Fast
-		Erase	| Forget
 	: Error/Flags     
 		Collision/Network Congestion= conflict with transfer in carrier
 			Routine Problem, Hop Limit
 			Scrambled Packets
 			Growing Wait-Time
-		Kernel Panic/Crash= 
-		Dirty Bit= Mismatch between Cache and RAM
-		Overflow= not enough memory bit 
-		Bugs, Worm, Malware 
+		Kernel Panic/Crash, Overflow= not enough memory bit 
+		Dirty Bit= Mismatch between Cache and RAM, Bugs, Worm, Malware 
 	
 ~1: IN/FETCH:SEE/HEAR/FEEL/SMELL/TASTE() ~4: OUT/EXECUTE:BE(RIGHT), HARDWARES:
 	: IN-OUTPUT DEVICES/PERIPHERALS:
@@ -150,13 +147,11 @@
 			: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
 			: Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
 
-~3: WRITE(), COMPRESSION: 
+~3: WRITE/ERASE(), REPOSITORY: 
 	: DEVELOPMENT LIFECYCLE:
-		: Planning
-		: Design
-		: Development
-		: Testing
-		: Deployment
+		: Planning + Design: Survey-Prove Investors
+		: Prototyping (Testing) Development: FAIL FAST!
+		: Deployment: Proven Product
 		: Maintenance/Warranty
 	: Engineering Collaboration:
 		: Source Control
