@@ -1,87 +1,77 @@
 : FOR THE WORK OF THE MIND.
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ-WRITE(SEEN/HEARD/FELT/SMELLED/TASTED), WORDS/RHETORIC/CORRECTNESS/WILL:
-    : QUEST-SWEAR:              "I see/hear/feel/smell/taste it. It is like..."
-        : WHAT FOR-BY BODY:     "SOIL       FOR-BY SPOILVOID."
-                                    : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
-                                    : Bankruptcy, Resource Scarcity/Finity
-                                "SEED       FOR-BY FRUITWORD."
-                                    "Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-                                    : Experience Points, Abilities/Stats, New Moves, Karma, 
-                                    : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-                                    : Mental Dictionary/Library, pokedex, Map, 
-                                    "Word: Financial Statement, Contract, Typography-Copywriting, Market Research & Targeting, 
-        : WHO FOR-BY I:         "BAIT       FOR-BY MOTHERBEAST."
-                                    : STRANGER: MOTHERBEAST: ENEMY TYPES
-                                    : Wild Encounters + Enemy Raids/Ambush, Disruptions             
-                                    : Enemies, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
-                                    : NPCs, Requests/Puzzles, Opposition
-                                    : Low Population
-                                "LAMB       FOR-BY FATHERGOD."
-                                    "Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Status... "
-                                    "Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
-                                    : FAMILY: FATHERGOD: Maintain Healthy Population
-                                        : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
-                                        : Train, Battle: a balanced team/army
-                                        : Climb the Status Ladder, Become the new Champion
-        : WHERE FOR-BY HERE:    "TRAP       FOR-BY WILDWORLD."
-                                    : FOREIGN: WILDWORLD: Traps 
-                                "WAY        FOR-BY KINGDOMHEAVEN."
-                                    "Length*Width*Height... Position/Address/Continent/Sea/Climate...
-                                    "Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
-                                    : HOME: KINGDOMHEAVEN: Build Structures
-                                        : NAVIGATION, Maps, Atmosphere, Weather,
-                                        : Balance scope budget, and schedule  
-                                        : LEVELS 
-                                        : Escape the Rat Race and Move to the Fast Track (Endgame/Win Condition)
-                                        : Progressing the game storyline and accessing new areas.
-                                        : better positioning on the map, better territory
+~2: READ(), QUESTS/RHETORIC:
+    : WHAT(UNKNOWN) FOR-BY BODY:
+        "SOIL FOR-BY SPOILVOID(-)."
+            : Disruptions, Damages, Uncontrolled Elements (Dice)
+            : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+            : Low Health, Resource Scarcity/Finity, Bankruptcy
+        "SEED FOR-BY FRUITWORD(+)."
+            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+            : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+            : Experience Points, Abilities/Stats, New Moves, Karma, 
+            : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+            : Mental Dictionary/Library, pokedex, Map, Contact List,
+            : Reviews
+    : WHO(STRANGER) FOR-BY I:
+        "SACRIFICE FOR-BY MOTHERBEAST."
+            : Wild Encounters + Enemy Raids/Ambush
+            : Enemies, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+            : NPCs, Requests/Puzzles, Opposition
+            : Alone, Low Population
+        "SON FOR-BY FATHERGOD."
+            : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+            : Maintain Healthy Population
+                : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
+                : Train, Battle: a balanced team/army
+                : Classes: Farmers, Artists, Merchants, Military, Emperor
+                : Climb the Status Ladder, Become the new Champion
+            : Testimonials
+    : WHERE(FOREIGN) FOR-BY HERE: 
+        "TRAP FOR-BY WILDWORLD."
+            : The Rat Race
+        "WAY FOR-BY KINGDOMHEAVEN."
+            : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+            : Build Structures/LEVELS: Balance scope budget, and schedule  
+                : NAVIGATION, Maps, Atmosphere, Weather,
+                : Progressing the game storyline and accessing new areas.
+                : better positioning on the map, better territory
+    : WHEN(SURPRISE) FOR-BY NOW:
+        "WAIT FOR-BY LIFECYCLE."
+            : Initial State, Beginning Again
+        "CHANCE FOR-BY DEATHEND."
+            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+            "Incorporation: December 1, 2024... 1-2 days per project
+            : PROGRESS = Tutorials, Saves, Updates: Journal?
+            : Battle Cycle: 1 move/turn at a time
+            : DEADLINE: Goal State, Completion
+                : Best of 7 Rounds
+                : Round-Time: 3 minutes   
+            : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+    : WHY-HOW BE... (UNKNOWING)? 
+        "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
+            : MADNESS, NIGHTMARE, Worst Case
+        "AWAKENING FOR-BY REALITY." "I KNOW!"
+            : REASON, LOGIC, REALIZATION OF THE DREAM!
+            : Defuse or trigger the bomb.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+~3: WRITE(), SWEARS:
+    : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN: BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+    : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR(), SEEN/HEARD/FELT/SMELLED/TASTED
+        : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
+        >>> KNOWN: Word: Contract, Financial Statement, Typography-Copywriting, Market Research & Targeting, 
+        >>> FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status... "
+        >>> SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
+        >>> HOME: Length*Width*Height... Position/Address/Continent/Sea/Climate...
+        >>> KNOWING: 
 
-        : WHEN FOR-BY NOW:      "WAIT       FOR-BY LIFECYCLE."
-                                    : SURPRISE: LIFECYCLE: Beginning Again
-                                "CHANCE     FOR-BY DEATHEND."
-                                    "Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
-                                    "Incorporation: December 1, 2024... 1-2 days per project
-                                    : SCHEDULE: DEATHEND
-                                        : PROGRESS = Tutorials, Saves, Updates: Journal?
-                                        : Battle Cycle: 1 move/turn at a time
-                                        : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-                                        : DEADLINE: 
-                                            : Best of 7 Rounds
-                                            : Round-Time: 3 minutes   
-                                        : Fast Track: Once players have escaped the Rat Race, they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-        : WHY-HOW? WHAT IF...   "SLEEPING   FOR-BY DREAM."
-                                    : SLEEP: MADNESS, NIGHTMARE
-                                "AWAKENING  FOR-BY REALITY."
-                                    "IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR(), 
-                                    "NOT-IN: BLINK, DEAFEN, FLEE, MASK, FAST - NOT-OUT: HIDE, MUTE, PAUSE, BLOW, SPIT/KILL, Eliminate all oppositions
-                                    "For-By the Reading-Writing: MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?
-                                    : READ-WRITE / FORGET-ERASE:
-                                        : Introduce New Related Word Group, typically based on common Latin or Greek roots.
-                                        : Break down root and affixes, along with usage examples in sentences.
-                                        : Match words to their definitions, use them in sentences, or choose the correct word in a given context
-                                        : Provides the correct answers and explanations.
-                                        : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-                                        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
-                                    ~GAME DEVELOPMENT: INITIAL STATE(-) <<< TRANSITION STATE(CHOICE: REJECT OR BE ONE WITH) >>> GOAL STATE(+)?
-                                        : Resource Management: Effective management of resources ensures you are well-equipped in key rounds, giving your team an advantage.   
-                                        : REASON: AWAKENING, DAYDREAM
-                                            : Defuse or trigger the bomb.
-                                            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-                                            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-                                            : DESIGNS: Sketching, Blocking, Polishing, Available Assets
-                                                : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
-                                                = Understanding the Dimensions(2/3D) Layout
-                                                : Camera: Perspective
-                                                    : First Person: like Counter-Strike
-                                                    : Bird's Eye View, Isometric: like Battle Realms
-                                            : SOUND EFFECTS
-                                            : ACTION = Baseline
-                                                : Action: Physics
-                                                : Baseline: Reference, Update, 
-                                                : INTERACTION: Single, Multiplayer
-                                                : Controls: 
-
+        : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+        : Break down root and affixes, along with usage examples in sentences.
+        : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+        : Provides the correct answers and explanations.
+        : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+    
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
 
@@ -131,34 +121,41 @@
 ~8: Optics and Visual Processing
 
 ~SEE-SHOW, xBLINK-HIDE: 	
-: EYES:		Camera, Optical/Ocular System
-	:VIEW:	1st Person, 2nd (Possession) Person, 3rd Person (God View)
-: DISPLAY	Wacom Tablet, Web, Letter, Media: Comics, Shows, Movies, Physique+Beauty,
-	: FORM: Geometry, MEDIA, Arrival, +GAMES: BattlesRealms, Pokemon, Counter-Strike, MegaMan, 
+: SEE:		        Eyes, Camera, Optical/Ocular System
+	: VIEW:	        1st Person, 2nd (Possession) Person, 3rd Person (God View)
+                    : First Person: like Counter-Strike
+                    : Bird's Eye View, Isometric: like Battle Realms
+
+    : Shot
+    : ANGLE:	    Up-Down,  Right-Left, 
+: SHOW:             Display, DellMonitor, WacomTablet, Web, Letter, Media: Comics, Shows, Movies, Physique+Beauty,
+	: FORM:         Geometry, MEDIA, Arrival, 
+                    : Understanding the Dimensions(2/3D) Layout
+                    : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
 	: LINE:
 	: SHAPE:
 	: SIZE:
-		DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
-		Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-		Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
-		Portrait/Figure Art, Character Design, Concept/Sequential Art
-        Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-: SOURCE: 	Sun, Moon, Stars, Lamp, Lasers, Xrays... 
-: LIGHT: 	Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
-	: COLOR: red, orange, yellow, green, blue, indigo, violet, Red/Green/Blue, Cyan/Magenta/Yellow...
-		: Incandescent bulbs: Warm (yellow/orange)
-		: Flourescent lights: Cooler (blue/green)	
-		: LED/Modern lights: artificial color... 
-		: TEMPERATURE (Kelvin, K):
-			: Lower (2000-4000K): warm light (orange/red), cozy or dramatic mood
-			: Higher (5000-6500K): cool light (blue), clarity and attention to detail
-	: REFLECTIONS:
-		: Specular: shine
-		: Diffuse: matte
-: ANGLE:	Up-Down,  Right-Left, 
-: SHADE: 	Terminator, Core, Occlusion, Cast
-		Epilepsy, Autism, Void, Clear/Transparent, Blur
-
+                    DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
+                    Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+                    Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+                    Portrait/Figure Art, Character Design, Concept/Sequential Art
+                    Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+    : LIGHT: 	    Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
+        : SOURCE: 	    Sun, Moon, Stars, Lamp, Lasers, Xrays... 
+                        : Incandescent bulbs: Warm (yellow/orange)
+                        : Flourescent lights: Cooler (blue/green)	
+                        : LED/Modern lights: artificial color... 
+        : COLOR:        red, orange, yellow, green, blue, indigo, violet, Red/Green/Blue, Cyan/Magenta/Yellow...
+        : TEMPERATURE (Kelvin, K):
+                        : Lower (2000-4000K): warm light (orange/red), cozy or dramatic mood
+                        : Higher (5000-6500K): cool light (blue), clarity and attention to detail
+        : REFLECTIONS:
+            : Specular: shine
+            : Diffuse: matte
+    
+: BLIND:            SHADE: 	Terminator, Core, Occlusion, Cast
+                    Epilepsy, Autism, Void, Clear/Transparent, Blur
+: HIDE:             Cover, Opaque
 #####################################################################################################################
 ~HOW SOUND BE? Vibrations create waves that travel through different mediums, allowing us to hear and perceive sound. 
     Sound Capture (Input): Sound is captured through microphones or audio interfaces, where analog sound waves are converted into digital data using an analog-to-digital converter (ADC).
@@ -228,16 +225,18 @@
 ~10: Sound in Different Environments
 
 ~HEAR-SPEAK, xDEAFEN-MUTE:
-: EARS: 	Rode Mic
-: INSTRUMENT:	Realtek Speakers, 
+: HEAR          EARS, Rode Mic
+: SOUND:        INSTRUMENT,	Throat, RealtekSpeakers, 
 	: Frequency, 
 	: Amp, 
 	: Length..
 	: GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
-			JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
+			    JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
+				= Artists: Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
 	: RHYTHM: 	Beat
-: NOISE:	Mumble, Stutter, Cry, Explode
-: SILENCE:	Whisper, Introversion
+: DEAFEN:       NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
+                SOUND EFFECTS
+: MUTE:         SILENCE, Ambience 
 
 #####################################################################################################################
 ~TO-DO: How Robotics/Locomotion be?
@@ -267,24 +266,28 @@
 ~6: Work & Energy
 ~7: Momentum
 
-~FEEL: 			= SKINS:	Hands, Feet, Skin
-	: INPUT		= Mouse, Keyboard, Controller
+: ACTION = Baseline
+    : Action: Physics
+    : Baseline: Reference, Update, 
+    : INTERACTION: Single, Multiplayer
+    : Controls: 
+
+~FEEL: 			    = SKINS:	Hands, Feet, Skin
+	: EMOTION:	    = Reaction, INERTIA, Love, Hate
+	: INPUT		    = Mouse, Keyboard, Controller
 ~MOVE: 	
-	: EMOTION:	= INERTIA, Love
-	: MOTION:	= Divide & Conquer
-				= Perception, Predication, Reasoning, Arrangement
-				= MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
-				= Presentation: MILO Y, Wurze, RussellB
-				= Artists: Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
-    : MASS: 	= Light, Heavy
-	: SPEED:	= Slow, Fast, 
+	: MOTION:	    = Divide & Conquer
+				    = MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+				    = Presentation: MILO Y, Wurze, RussellB
+    : MASS: 	    = Light, Heavy
+	: SPEED:	    = Slow, Fast, 
 	: DISTANCE: 	Fore-Backward, Close-Up, Medium, Wide
 	: TEMPERATURE:	Cold, Warm, Hot
-		: Weather: Humidity, Pressure
-	: TEXTURE: 	Rough, Smooth
+		: Weather:  Humidity, Pressure
+	: TEXTURE: 	    Rough, Smooth
 
--xAVOID: : EVASION:	Clothes, Armour, Fear, Shyness, Rejection, 
-xPAUSE: : STILLNESS	Rest
+-xAVOID:        : EVASION:	Clothes, Armour, Fear, Shyness, Rejection, 
+xPAUSE:         : STILLNESS	Rest
 
 #####################################################################################################################
 Both phenomena involve diffusion, pressure changes, and molecular interactions. 
@@ -304,12 +307,13 @@ We interact with our environment, from detecting dangers through smell to sustai
 ~4: Cellular Respiration
 ~5: Exhalation
 
-~SMELL-EXHALE, MASK-BLOW: 
-: NOSE: 	SMELLS:	Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet... Yawn, 
-: EXHAUST:	Sigh, Blow, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
-: FILTER:	Breath-Holding, 
-: CHOKE:	Suffocate, Hiccup, Cold, Asthma
+~SMELL-EXHALE, 
+: SMELL:    NOSE, SMELLS:	Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet... Yawn, 
+: EXHALE:   EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
 
+MASK-BLOW: 
+: MASK/FILTER:	CHOKE, Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
+: BLOE:         Fan, 
 #####################################################################################################################
 Digestion and energy conversion involve both mechanical physics (chewing, muscle contraction) and chemical physics (energy transfer, chemical reactions). 
 The body takes in food, breaks it down into smaller molecules, and converts it into energy that powers all bodily functions. This energy conversion follows the laws of thermodynamics, ensuring that energy is conserved and utilized efficiently, with some energy lost as heat in the process.
@@ -356,9 +360,7 @@ How Does Energy Conversion Occur from Food to Reproduction (By What Steps)?
 : BODY:		Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
 : 		Hunger, Thirst, Starvation,
 : SOIL:		Spit, Shit, Piss, Poison/Pollution, Disease
-
         
-###################################################################################################################################################################################
 ~TAOIST CULTIVATION OF MALE SEXUAL ENERGY:
     1. Breathing Exercises
         Step 1: Sit or lie down comfortably with a straight spine.
