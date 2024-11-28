@@ -1,6 +1,5 @@
 ~1: IN(IMAGE/PDF), TEXT:
     : Scanner
-    : Photograph
 ~2: CLASSIFY(TEXT), CODES:
 	: Optical Character Recognition (OCR): IMAGE FOR-BY DOCUMENT
 	: Image Convolution = applying a filter that add each pixel value of an image to its neighbors, weighted according to a kernel matrix

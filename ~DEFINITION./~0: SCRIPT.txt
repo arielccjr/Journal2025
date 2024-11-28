@@ -1,6 +1,6 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ(), QUESTS/RHETORIC:
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE(), SEEN/HEARD/FELT/SMELLED/TASTED.
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), QUESTS/RHETORIC:
     : WHAT(UNKNOWN) FOR-BY BODY:
         "SOIL FOR-BY SPOILVOID(-)."
             : Disruptions, Damages, Uncontrolled Elements (Dice)
@@ -56,22 +56,21 @@
             : Defuse or trigger the bomb.
             : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
             : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-~3: WRITE(), SWEARS:
-    : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN: BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-    : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR(), SEEN/HEARD/FELT/SMELLED/TASTED
+~3: WRITE(QUESTS/RHETORIC), SWEARS/CORRECTNESS:
+    : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+    : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
         : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
         >>> KNOWN: Word: Contract, Financial Statement, Typography-Copywriting, Market Research & Targeting, 
         >>> FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status... "
         >>> SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
         >>> HOME: Length*Width*Height... Position/Address/Continent/Sea/Climate...
-        >>> KNOWING: 
-
+        >>> KNOWING
         : Introduce New Related Word Group, typically based on common Latin or Greek roots.
         : Break down root and affixes, along with usage examples in sentences.
         : Match words to their definitions, use them in sentences, or choose the correct word in a given context
         : Provides the correct answers and explanations.
         : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-    
+~4: OUT:MIRROR/BE(SWEARS/CORRECTNESS), SEEN/HEARD/FELT/SMELLED/TASTED.
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
 
