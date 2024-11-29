@@ -1,11 +1,33 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), QUESTS/RHETORIC:
-    : WHAT(UNKNOWN) FOR-BY BODY:
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY:
+    : WHY-HOW BE... (UNKNOWING)?
+        : WHAT(UNKNOWN) FOR-BY BODY:
+        : WHO(STRANGER) FOR-BY I:
+        : WHERE(FOREIGN) FOR-BY HERE: 
+        : WHEN(SURPRISE) FOR-BY NOW:
+      
+    "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
+            : MADNESS, NIGHTMARE, Worst Case
         "SOIL FOR-BY SPOILVOID(-)."
             : Disruptions, Damages, Uncontrolled Elements (Dice)
             : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
             : Low Health, Resource Scarcity/Finity, Bankruptcy
+        "SACRIFICE FOR-BY MOTHERBEAST."
+            : Wild Encounters + Enemy Raids/Ambush
+            : Enemies, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+            : NPCs, Requests/Puzzles, Opposition
+            : Alone, Low Population
+         "TRAP FOR-BY WILDWORLD."
+            : The Rat Race
+        "WAIT FOR-BY LIFECYCLE."
+            : Initial State, Beginning Again
+ 
+    "AWAKENING FOR-BY REALITY." "I KNOW!"
+            : REASON, LOGIC, REALIZATION OF THE DREAM!
+            : Defuse or trigger the bomb.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
         "SEED FOR-BY FRUITWORD(+)."
             : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
             : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
@@ -13,12 +35,6 @@
             : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
             : Mental Dictionary/Library, pokedex, Map, Contact List,
             : Reviews
-    : WHO(STRANGER) FOR-BY I:
-        "SACRIFICE FOR-BY MOTHERBEAST."
-            : Wild Encounters + Enemy Raids/Ambush
-            : Enemies, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
-            : NPCs, Requests/Puzzles, Opposition
-            : Alone, Low Population
         "SON FOR-BY FATHERGOD."
             : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
             : Maintain Healthy Population
@@ -27,18 +43,12 @@
                 : Classes: Farmers, Artists, Merchants, Military, Emperor
                 : Climb the Status Ladder, Become the new Champion
             : Testimonials
-    : WHERE(FOREIGN) FOR-BY HERE: 
-        "TRAP FOR-BY WILDWORLD."
-            : The Rat Race
         "WAY FOR-BY KINGDOMHEAVEN."
             : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
             : Build Structures/LEVELS: Balance scope budget, and schedule  
                 : NAVIGATION, Maps, Atmosphere, Weather,
                 : Progressing the game storyline and accessing new areas.
                 : better positioning on the map, better territory
-    : WHEN(SURPRISE) FOR-BY NOW:
-        "WAIT FOR-BY LIFECYCLE."
-            : Initial State, Beginning Again
         "CHANCE FOR-BY DEATHEND."
             : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
             "Incorporation: December 1, 2024... 1-2 days per project
@@ -48,15 +58,8 @@
                 : Best of 7 Rounds
                 : Round-Time: 3 minutes   
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-    : WHY-HOW BE... (UNKNOWING)? 
-        "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
-            : MADNESS, NIGHTMARE, Worst Case
-        "AWAKENING FOR-BY REALITY." "I KNOW!"
-            : REASON, LOGIC, REALIZATION OF THE DREAM!
-            : Defuse or trigger the bomb.
-            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-~3: WRITE(QUESTS/RHETORIC), SWEARS/CORRECTNESS:
+
+~3: WRITE(MEMORY), CORRECTNESS:
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
     : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
         : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
@@ -70,7 +73,9 @@
         : Match words to their definitions, use them in sentences, or choose the correct word in a given context
         : Provides the correct answers and explanations.
         : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-~4: OUT:MIRROR/BE(SWEARS/CORRECTNESS), SEEN/HEARD/FELT/SMELLED/TASTED.
+
+~4: OUT:BE/MIRROR(CORRECTNESS), SEEN/HEARD/FELT/SMELLED/TASTED.
+
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
 
