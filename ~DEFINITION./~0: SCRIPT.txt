@@ -1,6 +1,6 @@
 : FOR THE WORK OF THE MIND.
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY:
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY(CLASSIFICIATION/CATEGORY):
     : WHAT(UNKNOWN) FOR-BY BODY:
         : WHO(STRANGER) FOR-BY I:
         : WHERE(FOREIGN) FOR-BY HERE: 
@@ -60,7 +60,7 @@
                 : Round-Time: 3 minutes   
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
-~3: WRITE(MEMORY), CORRECTNESS:
+~3: WRITE(MEMORY), CORRECTNESS (SYLOGISM):
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
     : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
         : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
