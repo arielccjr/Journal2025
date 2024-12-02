@@ -1,12 +1,12 @@
 : FOR THE WORK OF THE MIND.
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
 ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY(CLASSIFICIATION/CATEGORY):
-    : WHAT(UNKNOWN) FOR-BY BODY:
-        : WHO(STRANGER) FOR-BY I:
-        : WHERE(FOREIGN) FOR-BY HERE: 
-        : WHEN(SURPRISE) FOR-BY NOW:
-        : WHY-HOW BE... (UNKNOWING)?
-        : HOW()
+    : WHAT(UNKNOWN)
+        : WHO(STRANGER)
+        : WHERE(FOREIGN)
+        : WHEN(SURPRISE)
+        : WHY(UNKNOWING)? FOR WHAT/WHO/WHERE/WHEN?
+        : HOW? BY BODY/I/HERE/NOW?
       
     "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
             : MADNESS, NIGHTMARE, Worst Case
@@ -60,7 +60,21 @@
                 : Round-Time: 3 minutes   
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
-~3: WRITE(MEMORY), CORRECTNESS (SYLOGISM):
+~3: WRITE(MEMORY), CORRECTNESS (SYLOGISM), ACTION, TRANSITION MODEL:
+    : SEARCH: Approach
+        : Start with (classify() a frontier that contains the intitial state.
+        : Start with an empty explored set.
+        : Repeat:
+            : If the frontier is empty, then no solution.
+            : Remove a node from the frontier.
+            : If node contains goal state, return the solution.
+            : Add the node to ht explored set.
+            : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
+            : 
+    : LOGIC: NOT, AND, OR
+    : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
+    : COMPARE:
+    : LIST: QUEUE, STACK
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
     : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
         : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
