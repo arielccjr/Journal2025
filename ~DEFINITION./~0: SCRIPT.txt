@@ -1,13 +1,30 @@
 : FOR THE WORK OF THE MIND.
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY(CLASSIFICIATION/CATEGORY):
-    : WHAT(UNKNOWN)
-        : WHO(STRANGER)
-        : WHERE(FOREIGN)
-        : WHEN(SURPRISE)
-        : WHY(UNKNOWING)? FOR WHAT/WHO/WHERE/WHEN?
-        : HOW? BY BODY/I/HERE/NOW?
-      
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), NODE = STATE, PARENT, ACTION, PATH-COST:
+    : AGENT = BODY/I/HERE/NOW
+    : WHAT(FRONTIER) = UNKNOWN/STRANGER/FOREIGN/SURPRISE
+    : KNOWN(EXPLORED-SET) = KNOWN/FAMILY/HOME/SCHEDULE
+        
+    : WHY? GOAL STATE?
+        : FOR-WHAT
+        : FOR WHO
+        : FOR-WHERE
+        : FOR-WHEN
+    : HOW? INITIAL STATE?
+        : BY-WHAT
+        : BY-WHO
+        : BY-WHERE
+        : BY-WHEN
+    : CHOICE(ACTION)
+
+    : GAME:
+        : S0:           initial State
+        : PLAYER(s):    returns which player to in state s
+        : ACTION(s):    returns legal moves in state s
+        : RESULT(s, a): returns state after action a taken in state s
+        : TERMINAL(s):  checks if sate s is a terminal state
+        : UTILITY(s):   final numerical value for terminal state s
+
     "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
             : MADNESS, NIGHTMARE, Worst Case
         "SOIL FOR-BY SPOILVOID(-)."
@@ -60,17 +77,56 @@
                 : Round-Time: 3 minutes   
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
-~3: WRITE(MEMORY), CORRECTNESS (SYLOGISM), ACTION, TRANSITION MODEL:
-    : SEARCH: Approach
-        : Start with (classify() a frontier that contains the intitial state.
-        : Start with an empty explored set.
-        : Repeat:
-            : If the frontier is empty, then no solution.
-            : Remove a node from the frontier.
-            : If node contains goal state, return the solution.
-            : Add the node to ht explored set.
-            : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
-            : 
+~3: WRITE(MEMORY), CHOICE(TRANSITION/SOLUTION):
+    : SEARCH
+        : Uninformed: 
+            : Depth-First (Stack)
+                : Start with a frontier that contains the intitial state.
+                : Start with an empty explored set.
+                : Repeat:
+                    : If the frontier is empty, then no solution.
+                    : Remove a node from the frontier.
+                    : If node contains goal state, return the solution.
+                    : Add the node to the explored set.
+                    : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
+            : Breadth-First (Queue)
+        : Informed: with Heuristic Function
+            : Greedy Best-First
+            : A*: g(n) + h(n)
+                : g(n) = cost to reach node
+                : h(n) = estimated cost to goal 
+                : optimal if:
+                    : h(n) is admissible (never overestimates the true cost)
+                    : and h(n) is consistent (for every node n and successor n' with step cost c, h(n) < h(n') + c) 
+        : Adversarial: with Adversary
+            : Minimax: Win-Lose Goal-State
+                : Set Agents:
+                    : MAX aims to maximize score
+                    : MIN aim to minimize score
+                : Set Outcomes: 
+                    : -1 = Lose
+                    : 0 = Tie
+                    : +1 = Win
+                : Given a state s:
+                    : MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULTS(s, a))
+                    : MIN picks action a in ACTION(s) that produces smallest value of MAX-VALUE(RESULTS(s, a))
+                : Pseudocode:
+                    function MAX-VALUE(state):
+                        if TERMINAL(state):
+                            return UTILITY(state)
+                        v = -infinity
+                        for action in ACTIONS(state):
+                            v = MAX(v, MIN-VALUE(RESULT(state, action)))
+                        return v
+                    
+                    function MIN-VALUE(state):
+                        if TERMINAL(state):
+                            return UTILITY(state)
+                        v = infinity
+                        for action in ACTIONS(state):
+                            v = MIN(v, MAX-VALUE(RESULT(state, action)))
+                        return v
+ 
     : LOGIC: NOT, AND, OR
     : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
     : COMPARE:
