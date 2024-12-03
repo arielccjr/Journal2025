@@ -158,7 +158,6 @@
             : De Morgan's Law
             : Distributive Property/Law
             : Unit Resolution
-            : Inference by Resolution
         : Theorem Proving:
             : initial state: starting knowledge base
             : actions: inference rules
@@ -170,8 +169,15 @@
             : Eliminate implications
             : Move not inwards using De Morgan's laws
             : Use distributive law to distribute or wherever possible
-            :
-        : 
+        : Inference by Resolution
+            : To determine if KB ⊨ α:
+                : Convert (KB and not alpha) to Conjunctive Normal Form.
+                : Keep checking to see if we can use resolution to produce a new clause.
+                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
+                    : Otherwise, if we cannot add new clauses, no entailment.
+        : First-Order Logic
+            : Universal Quantificationa
+            : Existential Quantification
     : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
     : COMPARE:
     : LIST: QUEUE, STACK
