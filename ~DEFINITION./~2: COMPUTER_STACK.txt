@@ -27,7 +27,7 @@
 		: Inhale/Cooler   = Exhale/Exhaust
 		: Eat/Power       = Create/Heat
 
-~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), Programming-Language:
+~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), HARDWARE MEMORY:
 	: HARDWARE: Transistorized Computers
 		: Computer (Physical) Network:: The signals are received and converted back into data bits.
 			: Router, NetworkAdapter/Chips
@@ -70,6 +70,7 @@
 					: Logic: Xor>Mux/DMux>And>Or>Nand/Not
 		: ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
 
+~3: WRITE/ERASE(), REPOSITORY: 
 	: INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
 		: Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
             : Domain Name System (DNS) + Web-Server
@@ -148,7 +149,6 @@
 			: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
 			: Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
 
-~3: WRITE/ERASE(), REPOSITORY: 
 	: DEVELOPMENT LIFECYCLE:
 		: Planning + Design: Survey-Prove Investors
 		: Prototyping (Testing) Development: FAIL FAST!

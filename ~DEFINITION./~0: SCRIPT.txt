@@ -1,6 +1,6 @@
 : FOR THE WORK OF THE MIND.
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), NODE = STATE, PARENT, ACTION, PATH-COST:
+~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), BODY/I/HERE/NOW, NODE = STATE, PARENT, ACTION, PATH-COST:
     : AGENT = BODY/I/HERE/NOW
         : knowledge-based agent(s) = agents that reason by operating on internal representations of knowledge
     : WHAT(FRONTIER) = UNKNOWN/STRANGER/FOREIGN/SURPRISE
@@ -11,7 +11,59 @@
             : Entailment: α ⊨ β = in every model in which sentence α is true, sentence β is also true.
         : clause = a disjunction of literals 
         : conjunctive normal form = logical sentence that is the conjunction of clauses
-
+        : Theorem Proving:
+            : initial state: starting knowledge base
+            : actions: inference rules
+            : transition model: new knowledge base after inference
+            : goal test: check statement we're trying to provide
+            : path cost function: number of steps in proof
+        : Probability: 0 < P(w) < 1
+            : unconditional = degree of belief in a proposition in the absence of any other evidence
+            : conditional: P(a | b) = degree of belief in a proposition given some evidence that has already been revealed
+            : joint = 
+        : random variable = a variable in probability theory with a domain of posiible values it can take on
+        : probability distribution = 
+        : independence: P(a and b) = P(a)P(b) = the knowledge that one event occures does not affect the probability of the other event
+        : Models:
+            : Bayesian network = data structure that represents the dependencies among random variables
+                : directed graph
+                : each node represents a random variable
+                : arrow from X to Y means X is a parent of Y
+                : each node X has probability distribution P(X|Parents(X))
+        : Inference:
+            : QUERY X: variable for which to compute distribution
+            : Evidence varables E: observed variables for event e
+            : Hidden variables Y: non-evidence, non-query variable.
+            : Goal: Calculate P(X|e)
+        : Uncertainty over Time:
+        : Markov assumption = the assumption that the current state depends on only a finite fixed number of previous states
+            : Markov chain = a sequence of random variables where the distribution of each variable follows the Markov assumption
+            : Transition Model
+            : Hidden Markov Model = a Markov model for a system with hidden states that generate some observed event
+            : Sensor Model
+        : sensor Markov assumption = the assumption that the evidence variable deepends only the corresponding state
+        : Traveling MailMan Problem 
+        : Constraint Satisfaction Problem:
+            : variables
+            : domains
+            : constraints:
+                : hard = constraints that must be satisfied in a correct solution
+                : soft = constraints that express some notion of which solutions are preferred over others
+                : unary = 
+                : binary
+            : node consistent = when all th evalues in a variable's domain satisfy the variable's unary constraints
+            : CSP as Search Problem:
+                : initial state: empty assignment (no variables)
+                : actions: add a {variable = value} to assignment
+                : transition model: shows how adding an assignment changes the assignment
+                : goal test: check if all variables assigned and constraints all satisfied
+                : path cost function: all paths have same cost
+             : SELECT-UNASSIGNED-VAR 
+                : minimum remaining values (MRV) heuristic: select variable that has the smallest domain
+                : degree heuristic: select the variable that has the highest degree 
+            : DOMAIN-VALUES:
+                : least-constraining values heuristic: return variables in order by number of choices that are ruled for neighboring variables 
+                    : try least-constraining values first
     : WHY? GOAL STATE?
         : FOR-WHAT
         : FOR WHO
@@ -135,8 +187,9 @@
                         return v
             : Alpha-Beta Pruning
             : Depth-Limited Minimax: with Evaluation function
-    : LOGIC: Draw Conclusion, Deduct
-        : Logical Connectives:
+
+    : LOGIC: 
+        : Logical Connectives: 
             : not ¬, 
             : and ∧, 
             : or ∨,
@@ -152,18 +205,12 @@
         : Inference Rules:
             : Modus Ponens: α → β
             : And Elimination: α ⊨ β
-            : Double Negalition Elimination:
+            : Double Negation Elimination:
             : Implication Elimination
             : Biconditional Elimination
             : De Morgan's Law
             : Distributive Property/Law
             : Unit Resolution
-        : Theorem Proving:
-            : initial state: starting knowledge base
-            : actions: inference rules
-            : transition model: new knowledge base after inference
-            : goal test: check statement we're trying to provide
-            : path cost function: number of steps in proof
         : Conversion to conjunctive normal form (CNF)
             : Eliminate biconditionals
             : Eliminate implications
@@ -178,9 +225,105 @@
         : First-Order Logic
             : Universal Quantificationa
             : Existential Quantification
+    : PROBABILITY: 
+        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
+        : Probability Rules:
+            : Negation
+            : Inclusion-Exclusion
+            : Marginalization
+            : Conditioning
+        : Inference by Enumeration
+        : Approximate Inference:
+        : Sampling
+            : Rejection Sampling
+            : Likelihood Weighting
+        : hidden Markov Model: Task:
+            : Filtering = given objservations from start until now, calculate distribution for current state
+            : prediction = given observations from start until now, calculate distribution for a future state
+            : smoothing = given observations from start until now, calculate distribution for past state
+            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+    : OPTIMIZATION:
+        : Local Search = search algorithms that maintain a single node and searches by moving to a neighboring node
+            : Hill Climbing
+                : function HILL-CLIMB(problem):
+                    : current = initial state of problem
+                    : repeat:
+                        neighbor = highest valued neighbor of current
+                        if neighbor not better than current:
+                            return current
+                        current = neighbor
+                : steepest-ascene = choose the highest-valued neighbor
+                : stochastic = choose randomly from higher-valued neighbors
+                : first-choice = choose the first higher-valued neighbor
+                : random-restart = conduct hill climbing multiple times
+                : local beam search = chooses the k highest-valued neighbors
+            : Simulated Annealing =
+                function SIMULATED-ANNEALING(problem, max):
+                    current = initiate state of problem 
+                    for t = 1 to max:
+                        T = TEMPERATURE(t)
+                        neighbor = random neighbor of current 
+                        deltaE = how much better neigh is than current
+                        if deltaE > 0:
+                            current = neighbor
+                        with probability e^deltaE/T set current = neighbor
+                    return current
+            : Linear Programming:
+                : Simplex
+                : Interior-Point
+            : arc consistency = when all the values in a variable's domain satisfy the variable's binary constraints
+                : function REVISE(csp, X, Y):
+                    revised = false
+                    for x in X.domain:
+                        if no y in Y.domain satisfies constrain for (x, Y):
+                            delete x from X.domain
+                            revised = true
+                        return revised
+                : function AC-3(csp)
+                    queue = all arcs in csp
+                    while queue non-empty:
+                        (X, Y) = DEQUEUE(queue)
+                        if REVISE(csp, X, Y):
+                            if size of X.domain == 0:
+                                return false
+                            for each Z in X.neighbors - {Y}:
+                                ENQUEUE(queue, (Z, X))
+                        return true 
+            : Backtracking Search:
+                : function BACKTRACKING(assignment, csp):
+                    if assignment complete: return assignment
+                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
+                    for value in DOMAIN-VALUES(var, assignment, csp):
+                        if value consistent with assignment:
+                            add {var = value} to assignment
+                            result = BACKTRACK(assignment, csp)
+                            if result not= failure: return result
+                        remove {var = value} from assignment
+                    return failure
+            : maintaining arc consistency = algorithm for enforcing arc-consistency every time we make a new assignment 
+                : function BACKTRACKING(assignment, csp):
+                    if assignment complete: return assignment
+                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
+                    for value in DOMAIN-VALUES(var, assignment, csp):
+                        if value consistent with assignment:
+                            add {var = value} to assignment
+                            inferences = INFERENCES(assignment, csp)
+                            if inferences not= failure: add inferences to assignment
+                            result = BACKTRACK(assignment, csp)
+                            if result not= failure: return result
+                        remove {var = value} and inferences from assignment
+                    return failure
+
     : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
-    : COMPARE:
-    : LIST: QUEUE, STACK
+    : COMPARE: =, <, > =, <, >
+    : LIST: QU =, <, >EUE, STACK
+    : LEARNING:
+        : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            : classification = supervised learning task of learning a function mapping an input point to a discrete category
+                : nearest-neighbor classification = algorithm that, given an input, chooses the class of the nearest data point to that input
+                : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
+                : 
+
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
     : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
         : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
