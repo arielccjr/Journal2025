@@ -2,9 +2,16 @@
 ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
 ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), NODE = STATE, PARENT, ACTION, PATH-COST:
     : AGENT = BODY/I/HERE/NOW
+        : knowledge-based agent(s) = agents that reason by operating on internal representations of knowledge
     : WHAT(FRONTIER) = UNKNOWN/STRANGER/FOREIGN/SURPRISE
     : KNOWN(EXPLORED-SET) = KNOWN/FAMILY/HOME/SCHEDULE
-        
+        : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
+        : model = assignment of a truth value to every propositional symbol (a "possible world") 
+        : knowledge base = a set of sentences known by a knowledge-based agent
+            : Entailment: α ⊨ β = in every model in which sentence α is true, sentence β is also true.
+        : clause = a disjunction of literals 
+        : conjunctive normal form = logical sentence that is the conjunction of clauses
+
     : WHY? GOAL STATE?
         : FOR-WHAT
         : FOR WHO
@@ -126,8 +133,45 @@
                         for action in ACTIONS(state):
                             v = MIN(v, MAX-VALUE(RESULT(state, action)))
                         return v
- 
-    : LOGIC: NOT, AND, OR
+            : Alpha-Beta Pruning
+            : Depth-Limited Minimax: with Evaluation function
+    : LOGIC: Draw Conclusion, Deduct
+        : Logical Connectives:
+            : not ¬, 
+            : and ∧, 
+            : or ∨,
+            : implication →
+            : biconditional ↔
+        : Entailment Algorithm: Does KB ⊨ α ?
+        : Model Checking: (logic.py)
+            : To determine if KB ⊨ α:
+                : Enumerate all possible models.
+                : If in every model where KB is true, α is true, then KB entals α.
+                : Otherwise, KB does not entail α.
+        : Knowledge Engineering:
+        : Inference Rules:
+            : Modus Ponens: α → β
+            : And Elimination: α ⊨ β
+            : Double Negalition Elimination:
+            : Implication Elimination
+            : Biconditional Elimination
+            : De Morgan's Law
+            : Distributive Property/Law
+            : Unit Resolution
+            : Inference by Resolution
+        : Theorem Proving:
+            : initial state: starting knowledge base
+            : actions: inference rules
+            : transition model: new knowledge base after inference
+            : goal test: check statement we're trying to provide
+            : path cost function: number of steps in proof
+        : Conversion to conjunctive normal form (CNF)
+            : Eliminate biconditionals
+            : Eliminate implications
+            : Move not inwards using De Morgan's laws
+            : Use distributive law to distribute or wherever possible
+            :
+        : 
     : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
     : COMPARE:
     : LIST: QUEUE, STACK
