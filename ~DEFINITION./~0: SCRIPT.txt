@@ -346,6 +346,7 @@
             : perceptron learning rule = given data point (x, y), update each weight according to: 
                 : wi = wi + a(y - hw(x)) * xi
                 : wi = wi + a(actual value - estimate) * xi
+                : Only capable of learning linearly separable decision boundary.
             : Support Vector Machine
                 : boundary that maximizes the distance between any of the data points 
             : regression = supervised learning task of learning a function mapping an input point to a continuous value
@@ -366,9 +367,39 @@
                     : With probability 1 - epsilon, choose estimated best move.
                     : With probability epsilon, choose random move.
             : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
-            :
-
-
+        : unsupervised learning = given input data without any additional feedback, learn patterns
+            : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
+                : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
+                :  
+        : Neural Networks
+            : Neurons are connected to and receive electrical signals from other neurons.
+            : Neurons process input signals and can be activated.
+            : artificial neural network = mathematical model for learning inspired by biological neural networks
+                : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
+                : Allows for learning the network's parameters based on data.
+                : Functions:
+                    : step function: g(x) = 1 if x > 0, else 0
+                    : logic sigmoid
+                    : rectified linear unit (relu)
+                : h(x1, x2) = g(w0 + w1x1 + w2x2)
+                : h(x1, x2, xn-1, xn) = g(n sigma i=1 xiwi + w0)
+            : supervised neural network: 
+                : gradient descent = algorithm for minimizing loss when training neural network
+                    : Start with a random choice of weights.
+                    : Repeat: 
+                        : Calculate the gradient based on ALL DATA POINTS: direction that will lead to decreasing loss.
+                        : Update weights according to the gradient.
+                : Stochastic gradient descent
+                    : Start with a random choice of weights.
+                    : Repeat: 
+                        : Calculate the gradient based on ONE DATA POINTS: direction that will lead to decreasing loss.
+                        : Update weights according to the gradient.
+                : Mini-Batch gradient descent
+                    : Start with a random choice of weights.
+                    : Repeat: 
+                        : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
+                        : Update weights according to the gradient.
+            : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
 
 
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
