@@ -86,7 +86,10 @@
                 : Sentence -> Noun Phrase + Verb Phrase
         : n-gram = a contiguous sequence of n itams from a sample of text
         : bag-of-words model = model that represents text as an unordered collection of words
-            :  
+        : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
+        : distributive representation = representation of meaning distributed across multiple values
+        : word2vec = model for generating word vectors
+        : 
 
 
 
@@ -438,8 +441,17 @@
             : Naive-Bayes classifier = 
             : additive smoothing = adding a value a to each value in our distribution to smooth the data  
                 : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
-                
-            
+            : Word Representation
+            : Question "What is that?" >>> Recurrent Network >>> Answer "This is apple."
+            : Encoder >>> Hidden State >>> Decoder
+            : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
+            : Machine Translation 
+            : Transformers Architecture
+                : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+                : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+
+
+
 
 
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
