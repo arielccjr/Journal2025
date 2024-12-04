@@ -1,6 +1,6 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
-~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), BODY/I/HERE/NOW, NODE = STATE, PARENT, ACTION, PATH-COST:
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED WITH BODY/I/HERE/NOW.
+~2: READ-WRITE(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY + OPERATION
     : AGENT = BODY/I/HERE/NOW
         : knowledge-based agent(s) = agents that reason by operating on internal representations of knowledge
     : WHAT(FRONTIER) = UNKNOWN/STRANGER/FOREIGN/SURPRISE
@@ -79,7 +79,14 @@
             : Set of actions ACTIONS(s)
             : Transition model P(s'|s,a)
             : Reward function R(s,a,s')
-
+        : Syntax = structure of sentence
+            : Semantics = meaning of sentence
+        : formal grammar = a system of rules for generating sentences in a language
+            : Context-Free grammar
+                : Sentence -> Noun Phrase + Verb Phrase
+        : n-gram = a contiguous sequence of n itams from a sample of text
+        : bag-of-words model = model that represents text as an unordered collection of words
+            :  
 
 
 
@@ -156,7 +163,7 @@
                 : Round-Time: 3 minutes   
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
-~3: WRITE(MEMORY), CHOICE(TRANSITION/SOLUTION):
+~3: DIVIDE&CONQUER(MEMORY), CHOICE(TRANSITION/SOLUTION):
     : SEARCH
         : Uninformed: 
             : Depth-First (Stack)
@@ -400,6 +407,39 @@
                         : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
                         : Update weights according to the gradient.
             : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
+            : backpropagation = algorithm for training neural netowrks with hidden layers
+                : Start with a random choice of weights.
+                : Repeat:
+                    : Calculate error for output layer.
+                    : For each layer, starting with output layer, and moving inwards towards earliest hidden layer:
+                        : Propagate error back one layer.
+                        : Update weights.
+            : deep neural networks = neural network with multiple hidden layers
+            : dropout = temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
+            : computer vision = computational methods for analyzing and understanding digital images
+            : image convolution = applying a kernel/filter that adds each pixel value of an image to its neighbors, weighted according to a kernel matrix
+            : pooling = reducing the size of an input by sampling from regions in the input
+                : max-pooling = pooling by choosing the maximum value in each region
+            : convolutional neural network = neural networks that use convolution, usually for analyzing images
+                : Apply convolution
+                : Apply pooling
+                : Apply Flattening
+                : Apply Deep Neural Networks
+            : feed-forward neural network = neural network that has connections only in one direction
+                : input >>> network >>> output
+            : recurrent neural network: input >>> network (loop) >>> output
+                : Relationships:
+                    : one-to-many 
+                    : many-to-one
+                    : many-to-many
+        : Natural Language Processing:
+            : tokenization = the task of splitting a sequence of characters into pieces (tokens)
+            : text classification =
+            : Naive-Bayes classifier = 
+            : additive smoothing = adding a value a to each value in our distribution to smooth the data  
+                : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
+                
+            
 
 
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
