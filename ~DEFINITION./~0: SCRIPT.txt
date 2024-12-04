@@ -1,16 +1,35 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED WITH BODY/I/HERE/NOW.
-~2: READ-WRITE(SEEN/HEARD/FELT/SMELLED/TASTED), MEMORY + OPERATION
-    : AGENT = BODY/I/HERE/NOW
-        : knowledge-based agent(s) = agents that reason by operating on internal representations of knowledge
-    : WHAT(FRONTIER) = UNKNOWN/STRANGER/FOREIGN/SURPRISE
-    : KNOWN(EXPLORED-SET) = KNOWN/FAMILY/HOME/SCHEDULE
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED (WITH BODY/I/HERE/NOW).
+~2: TRANSLATE(SEEN/HEARD/FELT/SMELLED/TASTED), LOGICAL-SERIES-OF-EVENTS, : CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE.
+    : SEEN/HEARD/FELT/SMELLED/TASTED
+    : CORRECTNESS
+    
+    : EXPLORED-SET = KNOWN/FAMILY/HOME/SCHEDULE (CORRECTNESS)
         : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
         : model = assignment of a truth value to every propositional symbol (a "possible world") 
+            : Bayesian network = data structure that represents the dependencies among random variables
+                : directed graph
+                : each node represents a random variable
+                : arrow from X to Y means X is a parent of Y
+                : each node X has probability distribution P(X|Parents(X))
         : knowledge base = a set of sentences known by a knowledge-based agent
             : Entailment: α ⊨ β = in every model in which sentence α is true, sentence β is also true.
         : clause = a disjunction of literals 
         : conjunctive normal form = logical sentence that is the conjunction of clauses
+    
+    : AGENT = BODY/I/HERE/NOW
+        : knowledge-based agent(s) = agents that reason by operating on internal representations of knowledge
+    
+    : FRONTIER = WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
+        : Uncertainty over Time:
+        : loss function = function that expresses how poorly our hypothesis performs
+            : 0-1 loss function: L(actual, predicted) = 
+                : 0 if actual = predicted,
+                : 1 otherwise
+            : L1 loss function: L(actual, predicted) = | actual - predicted |
+            : L2 loss function: L(actual, predicted) = (actual - predicted)
+    
+       
         : Theorem Proving:
             : initial state: starting knowledge base
             : actions: inference rules
@@ -22,20 +41,13 @@
             : conditional: P(a | b) = degree of belief in a proposition given some evidence that has already been revealed
             : joint = 
         : random variable = a variable in probability theory with a domain of posiible values it can take on
-        : probability distribution = 
+        : probability distribution = list of probabilities
         : independence: P(a and b) = P(a)P(b) = the knowledge that one event occures does not affect the probability of the other event
-        : Models:
-            : Bayesian network = data structure that represents the dependencies among random variables
-                : directed graph
-                : each node represents a random variable
-                : arrow from X to Y means X is a parent of Y
-                : each node X has probability distribution P(X|Parents(X))
         : Inference:
             : QUERY X: variable for which to compute distribution
             : Evidence varables E: observed variables for event e
             : Hidden variables Y: non-evidence, non-query variable.
             : Goal: Calculate P(X|e)
-        : Uncertainty over Time:
         : Markov assumption = the assumption that the current state depends on only a finite fixed number of previous states
             : Markov chain = a sequence of random variables where the distribution of each variable follows the Markov assumption
             : Transition Model
@@ -43,7 +55,8 @@
             : Sensor Model
         : sensor Markov assumption = the assumption that the evidence variable deepends only the corresponding state
         : Traveling MailMan Problem 
-        : Constraint Satisfaction Problem:
+        
+        : Constraint Satisfaction Problem (CSP):
             : variables
             : domains
             : constraints:
@@ -51,7 +64,7 @@
                 : soft = constraints that express some notion of which solutions are preferred over others
                 : unary = 
                 : binary
-            : node consistent = when all th evalues in a variable's domain satisfy the variable's unary constraints
+            : node consistent = when all the values in a variable's domain satisfy the variable's unary constraints
             : CSP as Search Problem:
                 : initial state: empty assignment (no variables)
                 : actions: add a {variable = value} to assignment
@@ -66,12 +79,6 @@
                     : try least-constraining values first
         : Weight Vector w: (w0, w1, w2)
             : Input Vector x: (1, x1, x2)
-        : loss function = function that expresses how poorly our hypothesis performs
-            : 0-1 loss function: L(actual, predicted) = 
-                0 if actual = predicted,
-                1 otherwise
-            : L1 loss function: L(actual, predicted) = | actual - predicted |
-            : L2 loss function: L(actual, predicted) = (actual - predicted)
         : training set
         : testing set
         : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
@@ -79,19 +86,17 @@
             : Set of actions ACTIONS(s)
             : Transition model P(s'|s,a)
             : Reward function R(s,a,s')
-        : Syntax = structure of sentence
-            : Semantics = meaning of sentence
-        : formal grammar = a system of rules for generating sentences in a language
-            : Context-Free grammar
-                : Sentence -> Noun Phrase + Verb Phrase
-        : n-gram = a contiguous sequence of n itams from a sample of text
-        : bag-of-words model = model that represents text as an unordered collection of words
-        : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
-        : distributive representation = representation of meaning distributed across multiple values
-        : word2vec = model for generating word vectors
-        : 
-
-
+        : LANGUAGE: 
+            : Syntax = structure of sentence
+                : Semantics = meaning of sentence
+            : formal grammar = a system of rules for generating sentences in a language
+                : Context-Free grammar
+                    : Sentence -> Noun Phrase + Verb Phrase
+            : n-gram = a contiguous sequence of n itams from a sample of text
+            : bag-of-words model = model that represents text as an unordered collection of words
+            : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
+            : distributive representation = representation of meaning distributed across multiple values
+            : word2vec = model for generating word vectors
 
 
     : WHY? GOAL STATE?
@@ -166,7 +171,7 @@
                 : Round-Time: 3 minutes   
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
-~3: DIVIDE&CONQUER(MEMORY), CHOICE(TRANSITION/SOLUTION):
+~3: READ-WRITE(), CORRECTNESS:
     : SEARCH
         : Uninformed: 
             : Depth-First (Stack)

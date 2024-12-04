@@ -162,3 +162,392 @@
 			: Check in vs out
 			: Committing
 
+: NOTES: ARTIFICIAL INTELLIGENCE NOTES
+    : EXPLORED-SET = KNOWN/FAMILY/HOME/SCHEDULE (CORRECTNESS)
+        : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
+        : model = assignment of a truth value to every propositional symbol (a "possible world") 
+            : Bayesian network = data structure that represents the dependencies among random variables
+                : directed graph
+                : each node represents a random variable
+                : arrow from X to Y means X is a parent of Y
+                : each node X has probability distribution P(X|Parents(X))
+        : knowledge base = a set of sentences known by a knowledge-based agent
+            : Entailment: α ⊨ β = in every model in which sentence α is true, sentence β is also true.
+        : clause = a disjunction of literals 
+        : conjunctive normal form = logical sentence that is the conjunction of clauses
+    
+    
+    : AGENT = BODY/I/HERE/NOW
+        : knowledge-based agent(s) = agents that reason by operating on internal representations of knowledge
+    
+    : FRONTIER = WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
+        : Uncertainty over Time:
+        : loss function = function that expresses how poorly our hypothesis performs
+            : 0-1 loss function: L(actual, predicted) = 
+                : 0 if actual = predicted,
+                : 1 otherwise
+            : L1 loss function: L(actual, predicted) = | actual - predicted |
+            : L2 loss function: L(actual, predicted) = (actual - predicted)
+    
+       
+        : Theorem Proving:
+            : initial state: starting knowledge base
+            : actions: inference rules
+            : transition model: new knowledge base after inference
+            : goal test: check statement we're trying to provide
+            : path cost function: number of steps in proof
+        : Probability: 0 < P(w) < 1
+            : unconditional = degree of belief in a proposition in the absence of any other evidence
+            : conditional: P(a | b) = degree of belief in a proposition given some evidence that has already been revealed
+            : joint = 
+        : random variable = a variable in probability theory with a domain of posiible values it can take on
+        : probability distribution = list of probabilities
+        : independence: P(a and b) = P(a)P(b) = the knowledge that one event occures does not affect the probability of the other event
+        : Inference:
+            : QUERY X: variable for which to compute distribution
+            : Evidence varables E: observed variables for event e
+            : Hidden variables Y: non-evidence, non-query variable.
+            : Goal: Calculate P(X|e)
+        : Markov assumption = the assumption that the current state depends on only a finite fixed number of previous states
+            : Markov chain = a sequence of random variables where the distribution of each variable follows the Markov assumption
+            : Transition Model
+            : Hidden Markov Model = a Markov model for a system with hidden states that generate some observed event
+            : Sensor Model
+        : sensor Markov assumption = the assumption that the evidence variable deepends only the corresponding state
+        : Traveling MailMan Problem 
+        
+        : Constraint Satisfaction Problem (CSP):
+            : variables
+            : domains
+            : constraints:
+                : hard = constraints that must be satisfied in a correct solution
+                : soft = constraints that express some notion of which solutions are preferred over others
+                : unary = 
+                : binary
+            : node consistent = when all the values in a variable's domain satisfy the variable's unary constraints
+            : CSP as Search Problem:
+                : initial state: empty assignment (no variables)
+                : actions: add a {variable = value} to assignment
+                : transition model: shows how adding an assignment changes the assignment
+                : goal test: check if all variables assigned and constraints all satisfied
+                : path cost function: all paths have same cost
+             : SELECT-UNASSIGNED-VAR 
+                : minimum remaining values (MRV) heuristic: select variable that has the smallest domain
+                : degree heuristic: select the variable that has the highest degree 
+            : DOMAIN-VALUES:
+                : least-constraining values heuristic: return variables in order by number of choices that are ruled for neighboring variables 
+                    : try least-constraining values first
+        : Weight Vector w: (w0, w1, w2)
+            : Input Vector x: (1, x1, x2)
+        : training set
+        : testing set
+        : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
+            : Set of states S
+            : Set of actions ACTIONS(s)
+            : Transition model P(s'|s,a)
+            : Reward function R(s,a,s')
+        : LANGUAGE: 
+            : Syntax = structure of sentence
+                : Semantics = meaning of sentence
+            : formal grammar = a system of rules for generating sentences in a language
+                : Context-Free grammar
+                    : Sentence -> Noun Phrase + Verb Phrase
+            : n-gram = a contiguous sequence of n itams from a sample of text
+            : bag-of-words model = model that represents text as an unordered collection of words
+            : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
+            : distributive representation = representation of meaning distributed across multiple values
+            : word2vec = model for generating word vectors
+
+
+
+    : GAME:
+        : S0:           initial State
+        : PLAYER(s):    returns which player to in state s
+        : ACTION(s):    returns legal moves in state s
+        : RESULT(s, a): returns state after action a taken in state s
+        : TERMINAL(s):  checks if sate s is a terminal state
+        : UTILITY(s):   final numerical value for terminal state s
+
+~3: READ-WRITE(), CORRECTNESS:
+    : SEARCH
+        : Uninformed: 
+            : Depth-First (Stack)
+                : Start with a frontier that contains the intitial state.
+                : Start with an empty explored set.
+                : Repeat:
+                    : If the frontier is empty, then no solution.
+                    : Remove a node from the frontier.
+                    : If node contains goal state, return the solution.
+                    : Add the node to the explored set.
+                    : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
+            : Breadth-First (Queue)
+        : Informed: with Heuristic Function
+            : Greedy Best-First
+            : A*: g(n) + h(n)
+                : g(n) = cost to reach node
+                : h(n) = estimated cost to goal 
+                : optimal if:
+                    : h(n) is admissible (never overestimates the true cost)
+                    : and h(n) is consistent (for every node n and successor n' with step cost c, h(n) < h(n') + c) 
+        : Adversarial: with Adversary
+            : Minimax: Win-Lose Goal-State
+                : Set Agents:
+                    : MAX aims to maximize score
+                    : MIN aim to minimize score
+                : Set Outcomes: 
+                    : -1 = Lose
+                    : 0 = Tie
+                    : +1 = Win
+                : Given a state s:
+                    : MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULTS(s, a))
+                    : MIN picks action a in ACTION(s) that produces smallest value of MAX-VALUE(RESULTS(s, a))
+                : Pseudocode:
+                    function MAX-VALUE(state):
+                        if TERMINAL(state):
+                            return UTILITY(state)
+                        v = -infinity
+                        for action in ACTIONS(state):
+                            v = MAX(v, MIN-VALUE(RESULT(state, action)))
+                        return v
+                    
+                    function MIN-VALUE(state):
+                        if TERMINAL(state):
+                            return UTILITY(state)
+                        v = infinity
+                        for action in ACTIONS(state):
+                            v = MIN(v, MAX-VALUE(RESULT(state, action)))
+                        return v
+            : Alpha-Beta Pruning
+            : Depth-Limited Minimax: with Evaluation function
+
+    : LOGIC: 
+        : Logical Connectives: 
+            : not ¬, 
+            : and ∧, 
+            : or ∨,
+            : implication →
+            : biconditional ↔
+        : Entailment Algorithm: Does KB ⊨ α ?
+        : Model Checking: (logic.py)
+            : To determine if KB ⊨ α:
+                : Enumerate all possible models.
+                : If in every model where KB is true, α is true, then KB entals α.
+                : Otherwise, KB does not entail α.
+        : Knowledge Engineering:
+        : Inference Rules:
+            : Modus Ponens: α → β
+            : And Elimination: α ⊨ β
+            : Double Negation Elimination:
+            : Implication Elimination
+            : Biconditional Elimination
+            : De Morgan's Law
+            : Distributive Property/Law
+            : Unit Resolution
+        : Conversion to conjunctive normal form (CNF)
+            : Eliminate biconditionals
+            : Eliminate implications
+            : Move not inwards using De Morgan's laws
+            : Use distributive law to distribute or wherever possible
+        : Inference by Resolution
+            : To determine if KB ⊨ α:
+                : Convert (KB and not alpha) to Conjunctive Normal Form.
+                : Keep checking to see if we can use resolution to produce a new clause.
+                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
+                    : Otherwise, if we cannot add new clauses, no entailment.
+        : First-Order Logic
+            : Universal Quantificationa
+            : Existential Quantification
+    : PROBABILITY: 
+        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
+        : Probability Rules:
+            : Negation
+            : Inclusion-Exclusion
+            : Marginalization
+            : Conditioning
+        : Inference by Enumeration
+        : Approximate Inference:
+        : Sampling
+            : Rejection Sampling
+            : Likelihood Weighting
+        : hidden Markov Model: Task:
+            : Filtering = given objservations from start until now, calculate distribution for current state
+            : prediction = given observations from start until now, calculate distribution for a future state
+            : smoothing = given observations from start until now, calculate distribution for past state
+            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+    : OPTIMIZATION:
+        : Local Search = search algorithms that maintain a single node and searches by moving to a neighboring node
+            : Hill Climbing
+                : function HILL-CLIMB(problem):
+                    : current = initial state of problem
+                    : repeat:
+                        neighbor = highest valued neighbor of current
+                        if neighbor not better than current:
+                            return current
+                        current = neighbor
+                : steepest-ascene = choose the highest-valued neighbor
+                : stochastic = choose randomly from higher-valued neighbors
+                : first-choice = choose the first higher-valued neighbor
+                : random-restart = conduct hill climbing multiple times
+                : local beam search = chooses the k highest-valued neighbors
+            : Simulated Annealing =
+                function SIMULATED-ANNEALING(problem, max):
+                    current = initiate state of problem 
+                    for t = 1 to max:
+                        T = TEMPERATURE(t)
+                        neighbor = random neighbor of current 
+                        deltaE = how much better neigh is than current
+                        if deltaE > 0:
+                            current = neighbor
+                        with probability e^deltaE/T set current = neighbor
+                    return current
+            : Linear Programming:
+                : Simplex
+                : Interior-Point
+            : arc consistency = when all the values in a variable's domain satisfy the variable's binary constraints
+                : function REVISE(csp, X, Y):
+                    revised = false
+                    for x in X.domain:
+                        if no y in Y.domain satisfies constrain for (x, Y):
+                            delete x from X.domain
+                            revised = true
+                        return revised
+                : function AC-3(csp)
+                    queue = all arcs in csp
+                    while queue non-empty:
+                        (X, Y) = DEQUEUE(queue)
+                        if REVISE(csp, X, Y):
+                            if size of X.domain == 0:
+                                return false
+                            for each Z in X.neighbors - {Y}:
+                                ENQUEUE(queue, (Z, X))
+                        return true 
+            : Backtracking Search:
+                : function BACKTRACKING(assignment, csp):
+                    if assignment complete: return assignment
+                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
+                    for value in DOMAIN-VALUES(var, assignment, csp):
+                        if value consistent with assignment:
+                            add {var = value} to assignment
+                            result = BACKTRACK(assignment, csp)
+                            if result not= failure: return result
+                        remove {var = value} from assignment
+                    return failure
+            : maintaining arc consistency = algorithm for enforcing arc-consistency every time we make a new assignment 
+                : function BACKTRACKING(assignment, csp):
+                    if assignment complete: return assignment
+                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
+                    for value in DOMAIN-VALUES(var, assignment, csp):
+                        if value consistent with assignment:
+                            add {var = value} to assignment
+                            inferences = INFERENCES(assignment, csp)
+                            if inferences not= failure: add inferences to assignment
+                            result = BACKTRACK(assignment, csp)
+                            if result not= failure: return result
+                        remove {var = value} and inferences from assignment
+                    return failure
+
+    : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
+    : COMPARE: =, <, >
+    : LIST: QUEUE, STACK
+    : LEARNING:
+        : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            : classification = supervised learning task of learning a function mapping an input point to a discrete category
+                : nearest-neighbor classification = algorithm that, given an input, chooses the class of the nearest data point to that input
+                : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
+            : hypothesis hw(x) = 1 if w * x > 0; 0 otherwise
+            : perceptron learning rule = given data point (x, y), update each weight according to: 
+                : wi = wi + a(y - hw(x)) * xi
+                : wi = wi + a(actual value - estimate) * xi
+                : Only capable of learning linearly separable decision boundary.
+            : Support Vector Machine
+                : boundary that maximizes the distance between any of the data points 
+            : regression = supervised learning task of learning a function mapping an input point to a continuous value
+            : regularization = penalizing hypotheses that are more complex to favor simpler, more general hypotheses
+            : holdout cross-validation = splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
+            : k-fold cross-validation = splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
+        : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+            : Q-learning = method for learning a function Q(s,a), estimate of the value of performing action a in state s
+                : Start with Q(s,a)=0 for all s,a
+                : When we take an action and receive a reward:
+                    : Estimate the value of Q(s,a) based on current reward and expected future rewards
+                    : Update Q(s,a) to take into account old estimate as well as our new estimate
+            : Greedy Decision-Making
+                : When in state s, choose action a with the highest Q(s,a)
+            : Explore vs Exploit 
+                : Epsilon-Greedy:
+                    : Set epsilon equal to how often we want to move randomly.
+                    : With probability 1 - epsilon, choose estimated best move.
+                    : With probability epsilon, choose random move.
+            : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
+        : unsupervised learning = given input data without any additional feedback, learn patterns
+            : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
+                : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
+                :  
+        : Neural Networks
+            : Neurons are connected to and receive electrical signals from other neurons.
+            : Neurons process input signals and can be activated.
+            : artificial neural network = mathematical model for learning inspired by biological neural networks
+                : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
+                : Allows for learning the network's parameters based on data.
+                : Functions:
+                    : step function: g(x) = 1 if x > 0, else 0
+                    : logic sigmoid
+                    : rectified linear unit (relu)
+                : h(x1, x2) = g(w0 + w1x1 + w2x2)
+                : h(x1, x2, xn-1, xn) = g(n sigma i=1 xiwi + w0)
+            : supervised neural network: 
+                : gradient descent = algorithm for minimizing loss when training neural network
+                    : Start with a random choice of weights.
+                    : Repeat: 
+                        : Calculate the gradient based on ALL DATA POINTS: direction that will lead to decreasing loss.
+                        : Update weights according to the gradient.
+                : Stochastic gradient descent
+                    : Start with a random choice of weights.
+                    : Repeat: 
+                        : Calculate the gradient based on ONE DATA POINTS: direction that will lead to decreasing loss.
+                        : Update weights according to the gradient.
+                : Mini-Batch gradient descent
+                    : Start with a random choice of weights.
+                    : Repeat: 
+                        : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
+                        : Update weights according to the gradient.
+            : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
+            : backpropagation = algorithm for training neural netowrks with hidden layers
+                : Start with a random choice of weights.
+                : Repeat:
+                    : Calculate error for output layer.
+                    : For each layer, starting with output layer, and moving inwards towards earliest hidden layer:
+                        : Propagate error back one layer.
+                        : Update weights.
+            : deep neural networks = neural network with multiple hidden layers
+            : dropout = temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
+            : computer vision = computational methods for analyzing and understanding digital images
+            : image convolution = applying a kernel/filter that adds each pixel value of an image to its neighbors, weighted according to a kernel matrix
+            : pooling = reducing the size of an input by sampling from regions in the input
+                : max-pooling = pooling by choosing the maximum value in each region
+            : convolutional neural network = neural networks that use convolution, usually for analyzing images
+                : Apply convolution
+                : Apply pooling
+                : Apply Flattening
+                : Apply Deep Neural Networks
+            : feed-forward neural network = neural network that has connections only in one direction
+                : input >>> network >>> output
+            : recurrent neural network: input >>> network (loop) >>> output
+                : Relationships:
+                    : one-to-many 
+                    : many-to-one
+                    : many-to-many
+        : Natural Language Processing:
+            : tokenization = the task of splitting a sequence of characters into pieces (tokens)
+            : text classification =
+            : Naive-Bayes classifier = 
+            : additive smoothing = adding a value a to each value in our distribution to smooth the data  
+                : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
+            : Word Representation
+            : Question "What is that?" >>> Recurrent Network >>> Answer "This is apple."
+            : Encoder >>> Hidden State >>> Decoder
+            : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
+            : Machine Translation 
+            : Transformers Architecture
+                : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+                : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
