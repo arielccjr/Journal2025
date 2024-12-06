@@ -30,7 +30,8 @@
 ~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), HARDWARE MEMORY:
 	: HARDWARE: Transistorized Computers
 		: Computer (Physical) Network:: The signals are received and converted back into data bits.
-			: Router, NetworkAdapter/Chips
+			: DNS/WEB Server?
+            : Router, NetworkAdapter/Chips
 			: Switch, CollisionDomain
 			: CopperWire/EthernetCable, RadioWaves/WiFi
 		: Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
@@ -85,7 +86,7 @@
 		: Network: The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
             : Internet Protocol (IP) Header: InternetServiceProvider(ISP)>Wide>LocalAreaNetwork>MAC Address
 		: Data Link: The frames are reassembled and validated for any transmission errors.
-			: Data Payload: 
+			: Data Payload (UDP): 
 				: TCP Header: Software Port + Checksum
 				: Data 
 	: OPERATING SYSTEM: Automation/ Learning, Optimization/Multi-Tasking, Device Driver

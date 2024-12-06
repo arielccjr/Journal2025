@@ -141,7 +141,6 @@
 ~4: OUT:BE(WORD), BODY/I/HERE/NOW
 	: Show Augmented-Reality in Device Camera View
 
-
 ###################################################################################################################################
 : CHAPTER-~0:
 :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
@@ -152,15 +151,15 @@
 ~1 Is for the HOW of the PARSE &: SYNTAXING with the showing of the wrong-grammar-methods withing the fiction-writing?
     : SYNTAX-KEY-CODE:
         0=CONJUNCTION=AND, OR, &, /, 
-        1=ADVERB,
+        1=ADVERB = MODIFIER
         2=VERB = IS/ARE,
-        3=ADJECTIVE,
-        4=PRONOUN,
-        5=POSITION,
-        6=LODIAL,
-        7=FACT,
-        8=PAST-TENSE,
-        9=FUTURE-TENSE,
+        3=ADJECTIVE = COLOR-OPINION-MODIFIER,
+        4=PRONOUN = NO-NO-NO,
+        5=POSITION = ABC, WORD-SPELLING-TERM,
+        6=LODIAL = OWNERSHIP [ARTICLE],
+        7=FACT [NOUN],
+        8=PAST-TENSE=FROM, -ED,
+        9=FUTURE-TENSE=PRE, TO = FICTION,
         NC=NEGATIVE-CONTEXT,
         DPV=DANGLING-PARTICIPLE-VERB.
         BS=LAW OF THE BOXING/BRACKETS.

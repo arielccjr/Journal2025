@@ -1,9 +1,13 @@
 : FOR THE WORK OF THE MIND.
-~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED (WITH BODY/I/HERE/NOW).
-~2: TRANSLATE(SEEN/HEARD/FELT/SMELLED/TASTED), LOGICAL-SERIES-OF-EVENTS, : CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE.
+~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE(), SEEN/HEARD/FELT/SMELLED/TASTED.
+~2: TRANSLATE(SEEN/HEARD/FELT/SMELLED/TASTED), : CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE.
     : SEEN/HEARD/FELT/SMELLED/TASTED
-    : CORRECTNESS
-    
+    : >>> NETWORK >>>:
+        : SENTENCE.
+        : 
+    : CORRECTNESS(WORDS):
+        
+    : 
     : EXPLORED-SET = KNOWN/FAMILY/HOME/SCHEDULE (CORRECTNESS)
         : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
         : model = assignment of a truth value to every propositional symbol (a "possible world") 
@@ -29,20 +33,20 @@
             : L1 loss function: L(actual, predicted) = | actual - predicted |
             : L2 loss function: L(actual, predicted) = (actual - predicted)
     
-       
         : Theorem Proving:
             : initial state: starting knowledge base
             : actions: inference rules
             : transition model: new knowledge base after inference
             : goal test: check statement we're trying to provide
             : path cost function: number of steps in proof
+   
         : Probability: 0 < P(w) < 1
             : unconditional = degree of belief in a proposition in the absence of any other evidence
             : conditional: P(a | b) = degree of belief in a proposition given some evidence that has already been revealed
             : joint = 
         : random variable = a variable in probability theory with a domain of posiible values it can take on
         : probability distribution = list of probabilities
-        : independence: P(a and b) = P(a)P(b) = the knowledge that one event occures does not affect the probability of the other event
+        : independence: P(a and b) = P(a)P(b) = the knowledge that one event occurs does not affect the probability of the other event
         : Inference:
             : QUERY X: variable for which to compute distribution
             : Evidence varables E: observed variables for event e
@@ -86,6 +90,7 @@
             : Set of actions ACTIONS(s)
             : Transition model P(s'|s,a)
             : Reward function R(s,a,s')
+
         : LANGUAGE: 
             : Syntax = structure of sentence
                 : Semantics = meaning of sentence
@@ -455,10 +460,6 @@
                 : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
                 : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
 
-
-
-
-
     : ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
     : WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
         : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
@@ -472,8 +473,6 @@
         : Match words to their definitions, use them in sentences, or choose the correct word in a given context
         : Provides the correct answers and explanations.
         : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-
-~4: OUT:BE/MIRROR(CORRECTNESS), SEEN/HEARD/FELT/SMELLED/TASTED.
 
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
