@@ -1,10 +1,10 @@
 ~FOCUS:
 	: BASH SCRIPT FOR COMPUTER STACK: ACCESSING WEB, SCRIPT WRITING
-	: 
+	: Review CRASHCOURSE: Computer Science
 	:
 
 ~MODERN COMPUTER STACK: Transistor - Web Browser
-~0: DIVIDE/SECURITY/UNCERTAINTY: Random variable 
+~0: DIVIDE/UNCERTAINTY: Random variable 
 	: NOT-IN-NOT-OUT:
 		Hide	| Block
 		Mute	| Deafen
@@ -18,6 +18,64 @@
 			Growing Wait-Time
 		Kernel Panic/Crash, Overflow= not enough memory bit 
 		Dirty Bit= Mismatch between Cache and RAM, Bugs, Worm, Malware 
+    : Cybersecurity:
+        : Threat Model, 
+            : Attack vector
+            : Brute Force Attack
+            : 
+        : Questions: 
+            : Who are you?
+            : What should you have access to?
+            : What you have?
+            : What you are?
+        : Authentication
+            : Passwords
+            : 2/Multi-Factor
+        : Premission:
+            : Read = Allows a user to see the contents of a file
+            : Write = Allows a user to modify the contents
+            : Execute = Allows user to run a file
+        : Malware:
+            : 
+        : Security Kernel =
+            : Independent Verification & Validation
+        : Isolation/Sandbox
+        : Virtual Machine
+    : Hackers: 
+        : White Hats
+        : Black Hats
+        : Social Engineering
+            : Phishing
+            : Pre-texting
+        : NAND Mirroring 
+        : Malware:
+            : Trojan Horse
+        : Bug Exploits:
+            : Buffer Overflow
+            : Bounds Checking
+            : Canaries
+            : Code Injections
+        : Zero Day Vulnerability
+        : Security Patches 
+        : DDos Attacks
+    : Cryptography: Defense
+        : Encription 
+            : Symmetric
+            : Asymmetric
+                : Public
+                : Private
+        : Decryption
+        : Ceasar Cipher
+        : Cryptoanalyst
+        : Subsctitution Cipher
+        : Columnar Transposition Cipher
+            : Enigma Rotor
+            : The Bombe
+        : Data Encryption Standard
+            : Advanced Encryption Standard
+        : Key Exchange
+            : Diffie-Hellman
+        : Modular Exponentiation
 	
 ~1: IN/FETCH:SEE/HEAR/FEEL/SMELL/TASTE() ~4: OUT/EXECUTE:BE(RIGHT), HARDWARES:
 	: IN-OUTPUT DEVICES/PERIPHERALS:
