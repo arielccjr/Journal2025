@@ -2,6 +2,18 @@
 	: BASH SCRIPT FOR COMPUTER STACK: ACCESSING WEB, SCRIPT WRITING
 	: Review CRASHCOURSE: Computer Science
 	:
+~WHY: FOR THE COMPUTE
+    : DIFFERENCE ENGINE
+    : ANALYTICAL ENGINE
+    : FOR THE TABULATING OF THE CENSUS
+    : GLOBALIZED TRADE
+
+~HOW: ELECTRONIC COMPUTING
+    : HARVARD MK 1: Mechanical Relays
+    : Thermaionic Valve >>> Triode Vaccuum Tube
+    : THE BOMBE >>> COLOSSUS MK 1
+    : IBM 608: Transistors
+
 
 ~MODERN COMPUTER STACK: Transistor - Web Browser
 ~0: DIVIDE/UNCERTAINTY: Random variable 
@@ -85,7 +97,6 @@
 		: Inhale/Cooler   = Exhale/Exhaust
 		: Eat/Power       = Create/Heat
 
-~2: READ/DECODE/COMPILE(SEEN/HEARD/FELT/SMELLED/TASTED), HARDWARE MEMORY:
 	: HARDWARE: Transistorized Computers
 		: Computer (Physical) Network:: The signals are received and converted back into data bits.
 			: DNS/WEB Server?
@@ -95,15 +106,15 @@
 		: Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
 			Multi-bit Bus: a[n], number of bit, More Bits for more Instruction/Memory Length
 		: Central/Graphical Processing Unit (C/GPU): Microarchitecture 
-			: Registers:
-				: Clock Register/Sequential Logic: state[t] = function(state[t-1])
-				: Instruction Address = RandomAccessMemory (RAM):
+			: Clock Register/Sequential Logic: state[t] = function(state[t-1])
+			: Temporary Memory Registers:
+				: Instruction Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
 					: MUX: (a AND NOTsel) OR (sel AND b)
 						: NOT (in=sel, out=NOTsel)
 						: AND (in=a, in=NOTsel, out=aANDNOTsel)
 						: AND (in=sel, in=b, out=selANDb)
 						: OR (in=aANDNOTsel, in=selANDb, out=out)
-					: Matrix>Gate>AND-OR Latch: Memory Address
+					: Matrix >>> Gate >>> AND-OR Latch: Memory Address
 						: AND (in=column, in=row, out=columnANDrow)
 							: AND (in=data, in=write-enable, out=set)
 							: NOT (in=data, out=NOTdata)
@@ -114,8 +125,10 @@
 					: Memory Register/Bit: Flip Flops: out[t] = in[t-1]
 						: OR-LOOP (in=a, in=b, out=1)
 						: AND-LOOP (in=a, in=b, out=0) 
-				: Instruction = Arithmetic & Logic Unit (ALU)
-					: Arithmetic = Half>Full>Multi-bit Adder:
+				: Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
+					: Load (Read/)
+                        : Read 
+                    : Arithmetic = Half>Full>Multi-bit Adder:
 						: XOR (in=a, in=b, out=abSUM)
 							: AND (in=a, in=b, out=aANDb); 
 							: NOT (in=aANDb, out=NOTaANDb); 
@@ -125,11 +138,10 @@
 							: >XOR (in=abSUM, in=c, out=abcSUM)
 							: >AND (in=abSUM, in=c, out=abcCARRY)
 								; >OR (in=abCARRY, in=abcBARRY, out=out)
-						: Flags: Overflow, Zero, Negative...    
-					: Logic: Xor>Mux/DMux>And>Or>Nand/Not
+						: Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
+					: Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
 		: ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
 
-~3: WRITE/ERASE(), REPOSITORY: 
 	: INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
 		: Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
             : Domain Name System (DNS) + Web-Server
@@ -147,8 +159,19 @@
 			: Data Payload (UDP): 
 				: TCP Header: Software Port + Checksum
 				: Data 
-	: OPERATING SYSTEM: Automation/ Learning, Optimization/Multi-Tasking, Device Driver
-		: MEMORY: Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
+	: OPERATING SYSTEM: Fetch >>> Decode >>> Execute, Automation/ Learning, Optimization/Multi-Tasking, Device Driver
+		: OPERATION CODE (OPCODE) = INSTRUCTION + MEMORY ADDRESS:
+            : LOAD + MEMORY ADDRESS
+                : Read (Enable) DATA in MEMORY ADDRESS (RAM)
+                : Write (Enable) DATA in Temporary Memory Register
+                : 
+            : ADD/SUBTRACT + MEMORY ADDRESS(ES)
+            : STORE
+                : Write (Enable) DATA in MEMORY ADDRESS 
+                : Read (Enable) DATA in Temporary Memory Register
+            : JUMP / JUMP-NEGATIVE + MEMORY ADDRESS
+            : HALT
+        : MEMORY: Read-Write, Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
 			: Read-Only Memory (ROM) & Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
 			: Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
 				: Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
@@ -159,8 +182,8 @@
 	    		: Table Creation: Defines a structured format for storing data in rows and columns. To organize data with specific attributes.
 			: File System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
 				: FILE TYPES: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix: A fixed-size collection of items of the same type stored in contiguous memory. To efficiently store and access multiple values in a single variable.
-					: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
 					: Wave/Audio: Amplitude, Spectogram
+					: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
 					: Character/Text/List/String = ASCII>UNICODE
 					: Number/Integer/Float= 
 						: Scientific Notation; Negative Bit= 2^N-x
@@ -169,7 +192,8 @@
 				: Primary Key Constraint: Ensures unique identification for each table record. To prevent duplicate records and establish a reliable reference point.
 				: Foreign Key Constraint: Links two tables to maintain referential integrity. To model relationships between tables.
 			: Indexes(References): Improves the speed of data retrieval. To optimize query performance.
-    	: OPERATION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
+    	
+        : OPERATION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
   			: Console Input/Output: Reads from and writes to the console. To interact with the user.
 			: Search/Queries: a sequence of actions that leads from initial state to a goal state
     			: Data Querying: Retrieves specific data from the database. To access and analyze stored information.
@@ -181,13 +205,13 @@
 				: Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
 				: Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
 				: Assignments: Initializes or updates the value of a variable. To give variables usable values.
-				: Logic: NOT, AND, OR
 				: Comparison: Less Than, Greater Than, Equal
 			: List: Queue/Stack, Create-Read-Update-Delete, Normalize
 				: String and Date Functions: Manipulates string and date values. To format and extract meaningful information.
 				: Data Insertion: Adds new records to a table. To populate the database.
 				: Data Update: Modifies existing records in a table. To correct or update information.
 				: Data Deletion: Removes records from a table. To delete obsolete or incorrect data.
+			: Logic: NOT, AND, OR
 			: Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
     			: Aggregate Functions: Performs calculations like sum, average, and count. To derive summary statistics.
             : ControlFlow: Conditional Statement: If/While/For... function(input1, 2)

@@ -6,8 +6,8 @@
         : SENTENCE.
         : 
     : CORRECTNESS(WORDS):
-        
     : 
+
     : EXPLORED-SET = KNOWN/FAMILY/HOME/SCHEDULE (CORRECTNESS)
         : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
         : model = assignment of a truth value to every propositional symbol (a "possible world") 
