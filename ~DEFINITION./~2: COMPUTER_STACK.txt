@@ -105,8 +105,8 @@
 			: CopperWire/EthernetCable, RadioWaves/WiFi
 		: Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
 			Multi-bit Bus: a[n], number of bit, More Bits for more Instruction/Memory Length
-		: Central/Graphical Processing Unit (C/GPU): Microarchitecture 
-			: Clock Register/Sequential Logic: state[t] = function(state[t-1])
+		: Central/Graphical Processing Unit (C/GPU): 
+			: Clock 
 			: Temporary Memory Registers:
 				: Instruction Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
 					: MUX: (a AND NOTsel) OR (sel AND b)
