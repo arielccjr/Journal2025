@@ -97,70 +97,71 @@
 		: Inhale/Cooler   = Exhale/Exhaust
 		: Eat/Power       = Create/Heat
 
-	: HARDWARE: Transistorized Computers
-		: Computer (Physical) Network:: The signals are received and converted back into data bits.
-			: DNS/WEB Server?
-            : Router, NetworkAdapter/Chips
-			: Switch, CollisionDomain
-			: CopperWire/EthernetCable, RadioWaves/WiFi
-		: Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
-			Multi-bit Bus: a[n], number of bit, More Bits for more Instruction/Memory Length
-		: Central/Graphical Processing Unit (C/GPU): 
-			: Clock 
-			: Temporary Memory Registers:
-				: Instruction Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
-					: MUX: (a AND NOTsel) OR (sel AND b)
-						: NOT (in=sel, out=NOTsel)
-						: AND (in=a, in=NOTsel, out=aANDNOTsel)
-						: AND (in=sel, in=b, out=selANDb)
-						: OR (in=aANDNOTsel, in=selANDb, out=out)
-					: Matrix >>> Gate >>> AND-OR Latch: Memory Address
-						: AND (in=column, in=row, out=columnANDrow)
-							: AND (in=data, in=write-enable, out=set)
-							: NOT (in=data, out=NOTdata)
-							: AND (in=NOTdata, in=write-enable, out=reset)
-								: OR (in=set, in=outLOOP, out=setORoutLoop)
-								: NOT (in=reset, out=NOTreset)
-								: AND (in=setORoutLOOP, in=NOTreset, out=out)
-					: Memory Register/Bit: Flip Flops: out[t] = in[t-1]
-						: OR-LOOP (in=a, in=b, out=1)
-						: AND-LOOP (in=a, in=b, out=0) 
-				: Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
-					: Load (Read/)
-                        : Read 
-                    : Arithmetic = Half>Full>Multi-bit Adder:
-						: XOR (in=a, in=b, out=abSUM)
-							: AND (in=a, in=b, out=aANDb); 
-							: NOT (in=aANDb, out=NOTaANDb); 
-							: OR (in=a, in=b, out=aORb); 
-							: AND (in=NOTaANDb, in=aORb, out=out);
-						: AND (in=a, in=b, out=abCARRY)	
-							: >XOR (in=abSUM, in=c, out=abcSUM)
-							: >AND (in=abSUM, in=c, out=abcCARRY)
-								; >OR (in=abCARRY, in=abcBARRY, out=out)
-						: Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
-					: Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
-		: ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
+: HARDWARE: Transistorized Computers
+    : Computer (Physical) Network:: The signals are received and converted back into data bits.
+        : DNS/WEB Server, Data Centers?
+        : Router, NetworkAdapter/Chips
+        : Switch, CollisionDomain
+        : CopperWire/EthernetCable, RadioWaves/WiFi
+    : Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
+        Multi-bit Bus: a[n], number of bit, More Bits for more Instruction/Memory Length
+    : Central/Graphical Processing Unit (C/GPU): 
+        : Clock 
+        : Temporary Memory Registers:
+            : Instruction Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
+                : MUX: (a AND NOTsel) OR (sel AND b)
+                    : NOT (in=sel, out=NOTsel)
+                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                    : AND (in=sel, in=b, out=selANDb)
+                    : OR (in=aANDNOTsel, in=selANDb, out=out)
+                : Matrix >>> Gate >>> AND-OR Latch: Memory Address
+                    : AND (in=column, in=row, out=columnANDrow)
+                        : AND (in=data, in=write-enable, out=set)
+                        : NOT (in=data, out=NOTdata)
+                        : AND (in=NOTdata, in=write-enable, out=reset)
+                            : OR (in=set, in=outLOOP, out=setORoutLoop)
+                            : NOT (in=reset, out=NOTreset)
+                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
+                : Memory Register/Bit: Flip Flops: out[t] = in[t-1]
+                    : OR-LOOP (in=a, in=b, out=1)
+                    : AND-LOOP (in=a, in=b, out=0) 
+            : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
+                : Load (Read/)
+                    : Read 
+                : Arithmetic = Half>Full>Multi-bit Adder:
+                    : XOR (in=a, in=b, out=abSUM)
+                        : AND (in=a, in=b, out=aANDb); 
+                        : NOT (in=aANDb, out=NOTaANDb); 
+                        : OR (in=a, in=b, out=aORb); 
+                        : AND (in=NOTaANDb, in=aORb, out=out);
+                    : AND (in=a, in=b, out=abCARRY)	
+                        : >XOR (in=abSUM, in=c, out=abcSUM)
+                        : >AND (in=abSUM, in=c, out=abcCARRY)
+                            ; >OR (in=abCARRY, in=abcBARRY, out=out)
+                    : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
+                : Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
+    : ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
 
-	: INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
-		: Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
+: SOFTWARE:
+    : INTERNET PROTOCOLS & LAYERS OF THE OPEN SYSTEN INTERCONNECTION (OSI) MODEL: 
+        : Application: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
             : Domain Name System (DNS) + Web-Server
-			: Web-Browser/Search Engine: Hypertext Transfer Protocol (HTTP)
+            : Web-Browser/Search Engine: Hypertext Transfer Protocol (HTTP)
                 : Web-Address/Page: Universal Resource Locator (URL) + Hyperlinks
                 : Hypertext Markup Language (HTML)
-            	: Index: Frequency of Words + Backlinks
-		: Presentation: The data is decoded or decompressed if needed.
-		: Session: The session is maintained or closed as necessary.
-		: Transport: Segments are reassembled, and any lost data is retransmitted.
-        	: Transmission Control Protocol (TCP): Sequence Switching/Routing Packets, Acknowledging
-		: Network: The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
+                : Index: Frequency of Words + Backlinks
+        : Presentation: The data is decoded or decompressed if needed.
+        : Session: The session is maintained or closed as necessary.
+        : Transport: Segments are reassembled, and any lost data is retransmitted.
+            : Transmission Control Protocol (TCP): Sequence Switching/Routing Packets, Acknowledging
+        : Network: The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
             : Internet Protocol (IP) Header: InternetServiceProvider(ISP)>Wide>LocalAreaNetwork>MAC Address
-		: Data Link: The frames are reassembled and validated for any transmission errors.
-			: Data Payload (UDP): 
-				: TCP Header: Software Port + Checksum
-				: Data 
-	: OPERATING SYSTEM: Fetch >>> Decode >>> Execute, Automation/ Learning, Optimization/Multi-Tasking, Device Driver
-		: OPERATION CODE (OPCODE) = INSTRUCTION + MEMORY ADDRESS:
+        : Data Link: The frames are reassembled and validated for any transmission errors.
+            : Data Payload (UDP): 
+                : TCP Header: Software Port + Checksum
+                : Data 
+    : OPERATING SYSTEM: Fetch >>> Decode >>> Execute, Automation/ Learning, Optimization/Multi-Tasking, Device Driver
+        : OPERATION CODE (OPCODE) = INSTRUCTION + MEMORY ADDRESS:
             : LOAD + MEMORY ADDRESS
                 : Read (Enable) DATA in MEMORY ADDRESS (RAM)
                 : Write (Enable) DATA in Temporary Memory Register
@@ -172,78 +173,78 @@
             : JUMP / JUMP-NEGATIVE + MEMORY ADDRESS
             : HALT
         : MEMORY: Read-Write, Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
-			: Read-Only Memory (ROM) & Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
-			: Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
-				: Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
-    		: Transactions: Groups operations as a single unit of work. To ensure data consistency and integrity.
-				: Views: Creates virtual tables based on SQL queries. To simplify complex queries and enhance security.
-				: Stored Procedures: Encapsulates SQL statements for reuse. To standardize and simplify repetitive tasks.
-			: Database Creation: Creates a new database. To systematically organize and store application data.
-	    		: Table Creation: Defines a structured format for storing data in rows and columns. To organize data with specific attributes.
-			: File System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
-				: FILE TYPES: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix: A fixed-size collection of items of the same type stored in contiguous memory. To efficiently store and access multiple values in a single variable.
-					: Wave/Audio: Amplitude, Spectogram
-					: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
-					: Character/Text/List/String = ASCII>UNICODE
-					: Number/Integer/Float= 
-						: Scientific Notation; Negative Bit= 2^N-x
-						: Null Value			
-			: Pointer: Next Address Reference
-				: Primary Key Constraint: Ensures unique identification for each table record. To prevent duplicate records and establish a reliable reference point.
-				: Foreign Key Constraint: Links two tables to maintain referential integrity. To model relationships between tables.
-			: Indexes(References): Improves the speed of data retrieval. To optimize query performance.
-    	
+            : Read-Only Memory (ROM) & Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
+            : Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
+                : Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
+            : Transactions: Groups operations as a single unit of work. To ensure data consistency and integrity.
+                : Views: Creates virtual tables based on SQL queries. To simplify complex queries and enhance security.
+                : Stored Procedures: Encapsulates SQL statements for reuse. To standardize and simplify repetitive tasks.
+            : Database Creation: Creates a new database. To systematically organize and store application data.
+                : Table Creation: Defines a structured format for storing data in rows and columns. To organize data with specific attributes.
+            : File System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+                : FILE TYPES: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix: A fixed-size collection of items of the same type stored in contiguous memory. To efficiently store and access multiple values in a single variable.
+                    : Wave/Audio: Amplitude, Spectogram
+                    : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+                    : Character/Text/List/String = ASCII>UNICODE
+                    : Number/Integer/Float= 
+                        : Scientific Notation; Negative Bit= 2^N-x
+                        : Null Value			
+            : Pointer: Next Address Reference
+                : Primary Key Constraint: Ensures unique identification for each table record. To prevent duplicate records and establish a reliable reference point.
+                : Foreign Key Constraint: Links two tables to maintain referential integrity. To model relationships between tables.
+            : Indexes(References): Improves the speed of data retrieval. To optimize query performance.
+        
         : OPERATION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
-  			: Console Input/Output: Reads from and writes to the console. To interact with the user.
-			: Search/Queries: a sequence of actions that leads from initial state to a goal state
-    			: Data Querying: Retrieves specific data from the database. To access and analyze stored information.
-				: Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
-				: GROUP BY/HAVING: Groups data and filters results based on aggregate conditions. To summarize and analyze grouped data.
-				: Joins: Combines rows from multiple tables. To retrieve related data from different tables.
-				: Unions: Merges result sets of multiple SELECT queries. To consolidate data into one result set.
-			: Initialization: Assignment Statement: A = 1
-				: Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
-				: Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
-				: Assignments: Initializes or updates the value of a variable. To give variables usable values.
-				: Comparison: Less Than, Greater Than, Equal
-			: List: Queue/Stack, Create-Read-Update-Delete, Normalize
-				: String and Date Functions: Manipulates string and date values. To format and extract meaningful information.
-				: Data Insertion: Adds new records to a table. To populate the database.
-				: Data Update: Modifies existing records in a table. To correct or update information.
-				: Data Deletion: Removes records from a table. To delete obsolete or incorrect data.
-			: Logic: NOT, AND, OR
-			: Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
-    			: Aggregate Functions: Performs calculations like sum, average, and count. To derive summary statistics.
+            : Console Input/Output: Reads from and writes to the console. To interact with the user.
+            : Search/Queries: a sequence of actions that leads from initial state to a goal state
+                : Data Querying: Retrieves specific data from the database. To access and analyze stored information.
+                : Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
+                : GROUP BY/HAVING: Groups data and filters results based on aggregate conditions. To summarize and analyze grouped data.
+                : Joins: Combines rows from multiple tables. To retrieve related data from different tables.
+                : Unions: Merges result sets of multiple SELECT queries. To consolidate data into one result set.
+            : Initialization: Assignment Statement: A = 1
+                : Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
+                : Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
+                : Assignments: Initializes or updates the value of a variable. To give variables usable values.
+                : Comparison: Less Than, Greater Than, Equal
+            : List: Queue/Stack, Create-Read-Update-Delete, Normalize
+                : String and Date Functions: Manipulates string and date values. To format and extract meaningful information.
+                : Data Insertion: Adds new records to a table. To populate the database.
+                : Data Update: Modifies existing records in a table. To correct or update information.
+                : Data Deletion: Removes records from a table. To delete obsolete or incorrect data.
+            : Logic: NOT, AND, OR
+            : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+                : Aggregate Functions: Performs calculations like sum, average, and count. To derive summary statistics.
             : ControlFlow: Conditional Statement: If/While/For... function(input1, 2)
-    			: Triggers: Automatically executes actions in response to table events. To enforce rules and maintain data integrity.
-				: Conditionals: Enables decision-making in code. To perform actions based on conditions.
-					: If/Else If/Else: Executes code based on logical conditions. To handle multiple outcomes.
-					: Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-					: Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
-				: Loops: Repeats code execution based on conditions. To perform repetitive tasks.
-					: While: Repeats while a condition is true. To handle indefinite iteration.
-					: Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-					: For: Iterates a specific number of times. To handle definite iteration.
-					: Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
-					: Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
-			: Execute: Return Statement: Then/Else/Next... 
-				: Return: Exits a function and optionally returns a value. To end execution and provide a result.
-		: MACHINE CODE:
-			: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
-			: Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
+                : Triggers: Automatically executes actions in response to table events. To enforce rules and maintain data integrity.
+                : Conditionals: Enables decision-making in code. To perform actions based on conditions.
+                    : If/Else If/Else: Executes code based on logical conditions. To handle multiple outcomes.
+                    : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+                    : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
+                : Loops: Repeats code execution based on conditions. To perform repetitive tasks.
+                    : While: Repeats while a condition is true. To handle indefinite iteration.
+                    : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+                    : For: Iterates a specific number of times. To handle definite iteration.
+                    : Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
+                    : Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
+            : Execute: Return Statement: Then/Else/Next... 
+                : Return: Exits a function and optionally returns a value. To end execution and provide a result.
+        : MACHINE CODE:
+            : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+            : Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
 
-	: DEVELOPMENT LIFECYCLE:
-		: Planning + Design: Survey-Prove Investors
-		: Prototyping (Testing) Development: FAIL FAST!
-		: Deployment: Proven Product
-		: Maintenance/Warranty
-	: Engineering Collaboration:
-		: Source Control
-			: Quality Assurance
-			; Roll Back
-		: Repository:
-			: Check in vs out
-			: Committing
+: DEVELOPMENT LIFECYCLE:
+    : Planning + Design: Survey-Prove Investors
+    : Prototyping (Testing) Development: FAIL FAST!
+    : Deployment: Proven Product
+    : Maintenance/Warranty
+: Engineering Collaboration:
+    : Source Control
+        : Quality Assurance
+        ; Roll Back
+    : Repository:
+        : Check in vs out
+        : Committing
 
 : NOTES: ARTIFICIAL INTELLIGENCE NOTES
     : EXPLORED-SET = KNOWN/FAMILY/HOME/SCHEDULE (CORRECTNESS)
