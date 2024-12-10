@@ -290,12 +290,8 @@
         : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
             : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
 
-: Neural Networks
-    : Neurons are connected to and receive electrical signals from other neurons.
-    : Neurons process input signals and can be activated.
+: NEURAL NETWORKS: Neurons are connected to and receive electrical signals from other neurons.
     : artificial neural network = mathematical model for learning inspired by biological neural networks
-        : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
-        : Allows for learning the network's parameters based on data.
         : Functions:
             : step function: g(x) = 1 if x > 0, else 0
             : logic sigmoid
@@ -344,7 +340,8 @@
             : one-to-many 
             : many-to-one
             : many-to-many
-: Natural Language Processing:
+
+: NATURAL LANGUAGE PROCESSING:
     : tokenization = the task of splitting a sequence of characters into pieces (tokens)
     : text classification =
     : Naive-Bayes classifier = 
@@ -359,7 +356,12 @@
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
         : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
 
-
+: ALGORITHM: DIVIDE & CONQUER
+    : Brute Force: 0(n!)
+    : Selection Sort: n^2
+    : Merge Sort: 0(nlogn)
+    : Graph Search/Dijkstra: 0(nlogn+1) 
+    : 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 : GAME: Theorem Proving: CSP as Search Problem:
