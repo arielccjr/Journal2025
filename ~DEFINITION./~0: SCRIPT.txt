@@ -5,15 +5,12 @@
     ~FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
         : Uncertainty over Time:
         : loss function = function that expresses how poorly our hypothesis performs
-            : 0-1 loss function: L(actual, predicted) = 
-            : L1 loss function: L(actual, predicted) = | actual - predicted |
-            : L2 loss function: L(actual, predicted) = (actual - predicted)
         : Traveling MailMan Problem 
         : Constraint Satisfaction Problem (CSP):
     ~EXPLORED-SET/TEMPORARY-MEMORY: KNOWN/FAMILIAR/HOME/SCHEDULE
         : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
         : model = assignment of a truth value to every propositional symbol (a "possible world") 
-            : Bayesian network = data structure that represents the dependencies among random variables
+        : Bayesian network = data structure that represents the dependencies among random variables
         : knowledge base = a set of sentences known by a knowledge-based agent
         : clause = a disjunction of literals 
         : conjunctive normal form = logical sentence that is the conjunction of clauses
@@ -22,15 +19,7 @@
         : random variable = a variable in probability theory with a domain of posiible values it can take on
         : independence: P(a and b) = P(a)P(b) = the knowledge that one event occurs does not affect the probability of the other event
         : Inference:
-            : QUERY X: variable for which to compute distribution
-            : Evidence varables E: observed variables for event e
-            : Hidden variables Y: non-evidence, non-query variable.
-            : Goal: Calculate P(X|e)
         : Markov assumption = the assumption that the current state depends on only a finite fixed number of previous states
-            : Markov chain = a sequence of random variables where the distribution of each variable follows the Markov assumption
-            : Transition Model
-            : Hidden Markov Model = a Markov model for a system with hidden states that generate some observed event
-            : Sensor Model
         : sensor Markov assumption = the assumption that the evidence variable depends only the corresponding state
         : node consistent = when all the values in a variable's domain satisfy the variable's unary constraints
         : SELECT-UNASSIGNED-VAR 
@@ -44,7 +33,6 @@
         : training set
         : testing set
         : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
-        
         : LANGUAGE: 
             : Syntax = structure of sentence
             : Semantics = meaning of sentence
@@ -54,13 +42,10 @@
             : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
             : distributive representation = representation of meaning distributed across multiple values
             : word2vec = model for generating word vectors
-
     ~ACTION:
-        ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE()
-        ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED), NUMBERS+WORDS.
-        ~3: MEMORY+LOGIC+ARITHMETIC(NUMBERS+WORDS), CORRECTNESS.
-        ~4: WRITE(CORRECTNESS), PAPER+CONTRACT.
-        ~5: OUT:MIRROR/BE(PAPER+CONTRACT)
+        ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE()
+        ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED) - WRITE(CORRECTNESS) 
+        ~3: MEMORY+LOGIC+ARITHMETIC(NUMBERS+WORDS), 
     : SEARCH
         : Uninformed: 
             : Depth-First (Stack)
@@ -116,58 +101,20 @@
     : LOGIC: 
     : COMPARE: =, <, >
          : Logical Connectives: 
-            : not ¬, 
-            : and ∧, 
-            : or ∨,
-            : implication →
-            : biconditional ↔
         : Entailment Algorithm: Does KB ⊨ α ?
         : Model Checking: (logic.py)
-            : To determine if KB ⊨ α:
-                : Enumerate all possible models.
-                : If in every model where KB is true, α is true, then KB entals α.
-                : Otherwise, KB does not entail α.
         : Knowledge Engineering:
         : Inference Rules:
-            : Modus Ponens: α → β
-            : And Elimination: α ⊨ β
-            : Double Negation Elimination:
-            : Implication Elimination
-            : Biconditional Elimination
-            : De Morgan's Law
-            : Distributive Property/Law
-            : Unit Resolution
         : Conversion to conjunctive normal form (CNF)
-            : Eliminate biconditionals
-            : Eliminate implications
-            : Move not inwards using De Morgan's laws
-            : Use distributive law to distribute or wherever possible
         : Inference by Resolution
-            : To determine if KB ⊨ α:
-                : Convert (KB and not alpha) to Conjunctive Normal Form.
-                : Keep checking to see if we can use resolution to produce a new clause.
-                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
-                    : Otherwise, if we cannot add new clauses, no entailment.
         : First-Order Logic
-            : Universal Quantificationa
-            : Existential Quantification
     : PROBABILITY: 
         : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
         : Probability Rules:
-            : Negation
-            : Inclusion-Exclusion
-            : Marginalization
-            : Conditioning
         : Inference by Enumeration
         : Approximate Inference:
         : Sampling
-            : Rejection Sampling
-            : Likelihood Weighting
         : hidden Markov Model: Task:
-            : Filtering = given objservations from start until now, calculate distribution for current state
-            : prediction = given observations from start until now, calculate distribution for a future state
-            : smoothing = given observations from start until now, calculate distribution for past state
-            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
 
     : OPTIMIZATION:
         : Local Search = search algorithms that maintain a single node and searches by moving to a neighboring node
@@ -196,8 +143,6 @@
                         with probability e^deltaE/T set current = neighbor
                     return current
             : Linear Programming:
-                : Simplex
-                : Interior-Point
             : arc consistency = when all the values in a variable's domain satisfy the variable's binary constraints
                 : function REVISE(csp, X, Y):
                     revised = false
@@ -248,28 +193,15 @@
             : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
         : hypothesis hw(x) = 1 if w * x > 0; 0 otherwise
         : perceptron learning rule = given data point (x, y), update each weight according to: 
-            : wi = wi + a(y - hw(x)) * xi
-            : wi = wi + a(actual value - estimate) * xi
-            : Only capable of learning linearly separable decision boundary.
-        : Support Vector Machine
-            : boundary that maximizes the distance between any of the data points 
+        : Support Vector Machine: boundary that maximizes the distance between any of the data points 
         : regression = supervised learning task of learning a function mapping an input point to a continuous value
         : regularization = penalizing hypotheses that are more complex to favor simpler, more general hypotheses
         : holdout cross-validation = splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
         : k-fold cross-validation = splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
     : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
         : Q-learning = method for learning a function Q(s,a), estimate of the value of performing action a in state s
-            : Start with Q(s,a)=0 for all s,a
-            : When we take an action and receive a reward:
-                : Estimate the value of Q(s,a) based on current reward and expected future rewards
-                : Update Q(s,a) to take into account old estimate as well as our new estimate
-        : Greedy Decision-Making
-            : When in state s, choose action a with the highest Q(s,a)
-        : Explore vs Exploit 
-            : Epsilon-Greedy:
-                : Set epsilon equal to how often we want to move randomly.
-                : With probability 1 - epsilon, choose estimated best move.
-                : With probability epsilon, choose random move.
+        : Greedy Decision-Making: When in state s, choose action a with the highest Q(s,a)
+        : Explore vs Exploit: Epsilon-Greedy:
         : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
     : unsupervised learning = given input data without any additional feedback, learn patterns
         : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
