@@ -23,99 +23,28 @@
         : sensor Markov assumption = the assumption that the evidence variable depends only the corresponding state
         : node consistent = when all the values in a variable's domain satisfy the variable's unary constraints
         : SELECT-UNASSIGNED-VAR 
-            : minimum remaining values (MRV) heuristic: select variable that has the smallest domain
-            : degree heuristic: select the variable that has the highest degree 
         : DOMAIN-VALUES:
-            : least-constraining values heuristic: return variables in order by number of choices that are ruled for neighboring variables 
-                : try least-constraining values first
         : Weight Vector w: (w0, w1, w2)
-            : Input Vector x: (1, x1, x2)
         : training set
         : testing set
         : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
         : LANGUAGE: 
-            : Syntax = structure of sentence
-            : Semantics = meaning of sentence
-            : formal grammar = a system of rules for generating sentences in a language
-            : n-gram = a contiguous sequence of n itams from a sample of text
-            : bag-of-words model = model that represents text as an unordered collection of words
-            : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
-            : distributive representation = representation of meaning distributed across multiple values
-            : word2vec = model for generating word vectors
     ~ACTION:
         ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE()
         ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED) - WRITE(CORRECTNESS) 
         ~3: MEMORY+LOGIC+ARITHMETIC(NUMBERS+WORDS), 
+    
     : SEARCH
         : Uninformed: 
             : Depth-First (Stack)
-                : Start with a frontier that contains the intitial state.
-                : Start with an empty explored set.
-                : Repeat:
-                    : If the frontier is empty, then no solution.
-                    : Remove a node from the frontier.
-                    : If node contains goal state, return the solution.
-                    : Add the node to the explored set.
-                    : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
             : Breadth-First (Queue)
         : Informed: with Heuristic Function
             : Greedy Best-First
             : A*: g(n) + h(n)
-                : g(n) = cost to reach node
-                : h(n) = estimated cost to goal 
-                : optimal if:
-                    : h(n) is admissible (never overestimates the true cost)
-                    : and h(n) is consistent (for every node n and successor n' with step cost c, h(n) < h(n') + c) 
         : Adversarial: with Adversary
             : Minimax: Win-Lose Goal-State
-                : Set Agents:
-                    : MAX aims to maximize score
-                    : MIN aim to minimize score
-                : Set Outcomes: 
-                    : -1 = Lose
-                    : 0 = Tie
-                    : +1 = Win
-                : Given a state s:
-                    : MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULTS(s, a))
-                    : MIN picks action a in ACTION(s) that produces smallest value of MAX-VALUE(RESULTS(s, a))
-                : Pseudocode:
-                    function MAX-VALUE(state):
-                        if TERMINAL(state):
-                            return UTILITY(state)
-                        v = -infinity
-                        for action in ACTIONS(state):
-                            v = MAX(v, MIN-VALUE(RESULT(state, action)))
-                        return v
-                    function MIN-VALUE(state):
-                        if TERMINAL(state):
-                            return UTILITY(state)
-                        v = infinity
-                        for action in ACTIONS(state):
-                            v = MIN(v, MAX-VALUE(RESULT(state, action)))
-                        return v
             : Alpha-Beta Pruning
             : Depth-Limited Minimax: with Evaluation function
-
-    : LIST: QUEUE, STACK
-    : ARITHMETIC: XOR (HALF-ADDER), FULL-MULTI-BIT ADDER
-    : LOGIC: 
-    : COMPARE: =, <, >
-         : Logical Connectives: 
-        : Entailment Algorithm: Does KB ⊨ α ?
-        : Model Checking: (logic.py)
-        : Knowledge Engineering:
-        : Inference Rules:
-        : Conversion to conjunctive normal form (CNF)
-        : Inference by Resolution
-        : First-Order Logic
-    : PROBABILITY: 
-        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
-        : Probability Rules:
-        : Inference by Enumeration
-        : Approximate Inference:
-        : Sampling
-        : hidden Markov Model: Task:
-
     : OPTIMIZATION:
         : Local Search = search algorithms that maintain a single node and searches by moving to a neighboring node
             : Hill Climbing
@@ -185,7 +114,6 @@
                             if result not= failure: return result
                         remove {var = value} and inferences from assignment
                     return failure
-
 : LEARNING:
     : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
         : classification = supervised learning task of learning a function mapping an input point to a discrete category
@@ -206,7 +134,6 @@
     : unsupervised learning = given input data without any additional feedback, learn patterns
         : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
             : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
-
 : NEURAL NETWORKS: Neurons are connected to and receive electrical signals from other neurons.
     : artificial neural network = mathematical model for learning inspired by biological neural networks
         : Functions:
@@ -359,7 +286,8 @@
 
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
-
+    : Create a Survey Form / Ask Campaign for Clients' REFERENCE:
+    
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
 	Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
     Preprocessing: The visual data is preprocessed to enhance quality or to simplify it for further analysis. This may involve resizing, normalizing colors, or applying filters to highlight features.
