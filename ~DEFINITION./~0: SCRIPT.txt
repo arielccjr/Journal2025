@@ -339,20 +339,17 @@
                     : First Person: like Counter-Strike
                     : Bird's Eye View, Isometric: like Battle Realms
 
-    : Shot
+    : SHOT: 
     : ANGLE:	    Up-Down,  Right-Left, 
 : SHOW:             Display, DellMonitor, WacomTablet, Web, Letter, Media: Comics, Shows, Movies, Physique+Beauty,
-	: FORM:         Geometry, MEDIA, Arrival, 
-                    : Understanding the Dimensions(2/3D) Layout
-                    : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+    : DOT:          Dot, pixel
 	: LINE:
 	: SHAPE:
 	: SIZE:
-                    DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
-                    Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-                    Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
-                    Portrait/Figure Art, Character Design, Concept/Sequential Art
-                    Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+	: FORM:         Geometry, MEDIA, Arrival, 
+                    : Understanding the Dimensions(2/3D) Layout
+                    : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+
     : LIGHT: 	    Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
         : SOURCE: 	    Sun, Moon, Stars, Lamp, Lasers, Xrays... 
                         : Incandescent bulbs: Warm (yellow/orange)
@@ -369,6 +366,16 @@
 : BLIND:            SHADE: 	Terminator, Core, Occlusion, Cast
                     Epilepsy, Autism, Void, Clear/Transparent, Blur
 : HIDE:             Cover, Opaque
+
+: WHO:
+    DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
+    Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+    Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+    Portrait/Figure Art, Character Design, Concept/Sequential Art
+    Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+: WHERE:
+: WHEN:
+
 #####################################################################################################################
 ~HOW SOUND BE? Vibrations create waves that travel through different mediums, allowing us to hear and perceive sound. 
     Sound Capture (Input): Sound is captured through microphones or audio interfaces, where analog sound waves are converted into digital data using an analog-to-digital converter (ADC).
