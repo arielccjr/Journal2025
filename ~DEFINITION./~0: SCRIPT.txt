@@ -1,8 +1,31 @@
+: CLASSICAL-LIBERAL-ARTS-ACADEMY: FOR THE BEING-ONE WITH THE GOD. FOR THE TRUTH-HAPPINESS.
+    : REASON = GRAMMAR, DIALECTIC, RHETORIC
+    : CREATION = ARITHMETIC, GEOMETRY, ASTRONOMY, MUSIC
+    : EXPERIENCE = WORLD-CHRONOLOGY, WORLD-GEOGRAPHY, PHILOSOPHY
+    : REVELATION: SACRED-SCRIPTURE, SACRED-TRADITION, CLASSIC CATECHISM, BIBLICAL-STUDIES, MORAL-&-SCHOLASTIC THEOLOGY
+
+~TRIVIUM = 3 ARTS FOR CLASSICAL PHILOSOPHY
+    ~3: RHETORIC:
+        : TOPICS
+        : SOPHISTICAL 
+    ~2: REASONING:
+        : CATEGORY
+    ~1: GRAMMAR:
+        : WORD ETYMOLOGY
+        : 
+
+~QUADRIVIUM:
+    ~4: ASTRONOMY
+    ~3: MUSIC
+    ~2: GEOMETRY
+    ~1: ARITHMETIC
+
 ~CENTRAL PROCESSING UNIT: HABIT/GAMELOOP
-    : PERCEPTION = CUE: HOOK WITH 5-SECOND RULE
-    : PREDICATION = HABIT: STORYTELL INITIAL STATE
-    : REASONING = REWARD: OFFER GOAL STATE
-    : ARRANGEMENT = RHETORIC
+    ~4: ARRANGEMENT   = RHETORIC / STORY
+    ~3: REASONING     = REWARD: OFFER GOAL STATE
+    ~2: PREDICATION   = HABIT: STORYTELL INITIAL STATE
+    ~1: PERCEPTION    = CUE: HOOK 5-SECOND RULE
+        : IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR()
 
 ~TRANSITION MODEL:
     ~GOAL STATE: SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND/KNOWING/BEING(1)
@@ -34,11 +57,11 @@
         : training set
         : testing set
         : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
-        : LANGUAGE: 
+        : LANGUAGE
     ~ACTION:
         ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE()
-        ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED) - WRITE(CORRECTNESS) 
-        ~3: MEMORY+LOGIC+ARITHMETIC(NUMBERS+WORDS), 
+        ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED) - WRITE(NUMBERS/WORDS) 
+        ~3: MEMORY+LOGIC+ARITHMETIC(NUMBERS+WORDS), CONTRACT(-1, 0, +1 OR 5, 6, 7))
     
     : SEARCH
         : Uninformed: 
@@ -292,7 +315,6 @@
 
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
-    : Create a Survey Form / Ask Campaign for Clients' REFERENCE:
     
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
 	Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
@@ -324,62 +346,52 @@
 		Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
 		Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
 
-~1: Electromagnetic Waves: 
-	: Different Frequencies
-	: Visible Light: 280 nanomemeter and 750 nm
-~2: Interaction with Matter
-	: Absorption, Reflection, Transmission
-~3: Color Perception
-	: White light: All Color
-	: Photoreceptor cells in Retina, CONES
-		: Blue, Green, Red (RBG)
-~4: Light Sources and Color: Sunlight, incandescent, flourescent, LED/Modern 
-~5: Refraction and Dispersion: 
-~6: Reflection, Shadows, and Highlights
-~7: Color Temperature
-~8: Optics and Visual Processing
-
-~SEE-SHOW, xBLINK-HIDE: 	
-: SEE:		        Eyes, Camera, Optical/Ocular System
+~SEE:		        Eyes, Camera, Optical/Ocular System
+	                Photoreceptor cells in Retina, CONES
 	: VIEW:	        1st Person, 2nd (Possession) Person, 3rd Person (God View)
                     : First Person: like Counter-Strike
                     : Bird's Eye View, Isometric: like Battle Realms
-
-    : SHOT: 
+    : SHOT:         
     : ANGLE:	    Up-Down,  Right-Left, 
-: SHOW:             Display, DellMonitor, WacomTablet, Web, Letter, Media: Comics, Shows, Movies, Physique+Beauty,
+~SHOW:              Display: DellMonitor, WacomTablet, Web, Letter, Flag
+                    Media: Comics, Shows, Movies, 
+                    Flag
+                    Physique+Beauty
     : DOT:          Dot, pixel
-	: LINE:
-	: SHAPE:
-	: SIZE:
-	: FORM:         Geometry, MEDIA, Arrival, 
-                    : Understanding the Dimensions(2/3D) Layout
-                    : Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
-
+	: LINE:         
+	: SHAPE:        Polygon, 
+	: SIZE:         Proportion
+	: FORM:         Geometry, Game Level (Block it first, polish later)
+                    Postal Mechanics, Plane/Continuance of Evidence
     : LIGHT: 	    Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
+
         : SOURCE: 	    Sun, Moon, Stars, Lamp, Lasers, Xrays... 
+	                    : White light: All Color
+	                    : Visible Light: 280 nanomemeter and 750 nm
+        : COLOR:        Dispersion: red, orange, yellow, green, blue, indigo, violet, 
+                        Red/Green/Blue, Cyan/Magenta/Yellow...
                         : Incandescent bulbs: Warm (yellow/orange)
                         : Flourescent lights: Cooler (blue/green)	
                         : LED/Modern lights: artificial color... 
-        : COLOR:        red, orange, yellow, green, blue, indigo, violet, Red/Green/Blue, Cyan/Magenta/Yellow...
         : TEMPERATURE (Kelvin, K):
                         : Lower (2000-4000K): warm light (orange/red), cozy or dramatic mood
                         : Higher (5000-6500K): cool light (blue), clarity and attention to detail
         : REFLECTIONS:
-            : Specular: shine
-            : Diffuse: matte
+                        : Specular: shine
+                        : Diffuse: matte
     
-: BLIND:            SHADE: 	Terminator, Core, Occlusion, Cast
+~BLIND:             SHADE: 	Terminator, Core, Occlusion, Cast
                     Epilepsy, Autism, Void, Clear/Transparent, Blur
-: HIDE:             Cover, Opaque
-
+~HIDE:              Cover, Opaque, Absorption
+                    Refraction/Distortion (Water, Mirage), 
+                    
 : WHO:
-    DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, Hajime I,
+    DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
     Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
     Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
     Portrait/Figure Art, Character Design, Concept/Sequential Art
     Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-: WHERE:
+: WHERE: Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
 : WHEN:
 
 #####################################################################################################################
