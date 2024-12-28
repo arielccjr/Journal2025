@@ -1,43 +1,42 @@
-~FOR THE BEING-ONE WITH THE GOD.
-    ~4: REVELATION:
-        : MORAL-&-SCHOLASTIC THEOLOGY
-        : BIBLICAL-STUDIES
-        : CLASSIC CATECHISM 
-        : SACRED-TRADITION
-        : SACRED-SCRIPTURE
-    ~3: EXPERIENCE:
-        : WORLD-CHRONOLOGY, 
-        : WORLD-GEOGRAPHY, 
-        : PHILOSOPHY
-    ~2: CREATION = QUADRIVIUM:
-        : MUSIC
-        : ASTRONOMY
-        : GEOMETRY
-        : ARITHMETIC
-    ~1: REASON = TRIVIUM:
-        ~3: RHETORIC:
-            : TOPICS
-            : SOPHISTICAL 
-        ~2: DIALECTIC:
-            : CATEGORY
-        ~1: GRAMMAR:
-            : WORD ETYMOLOGY
-
 ~TRANSITION MODEL:
-    ~GOAL STATE = KNOWING-BEING(ONENESS)
-        0: FRUIT/CHILD/WAY/LIFECYCLE    
+    ~GOAL STATE = KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
+        : 0=FRUIT/CHILD/WAY/LIFECYCLE    
     ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE)
-        -1: SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-        +1: SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+        : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
     ~ACTION: CENTRAL-PROCESSING-UNIT
         : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
         : PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), WORDS/NUMBERS:0/1s
-        : REASONING/ARRANGEMENT: WRITE(NUMBERS/WORDS).
+        : REASONING/ARRANGEMENT: WRITE(NUMBERS/WORDS),
             : LOGIC-ARITHMETIC = -1, 0, +1 
             : CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT).
-            : HABIT/GAMELOOP = CUE-HABIT-REWARD
-            : RHETORIC / STORY = HOOK-STORY-OFFER
+            ~4: REVELATION:
+                : MORAL-&-SCHOLASTIC-THEOLOGY,
+                : BIBLICAL-STUDIES,
+                : CLASSICAL-CATECHISM,
+                : SACRED-TRADITION,
+                : SACRED-SCRIPTURE.
+            ~3: EXPERIENCE: CUE-HABIT-REWARD
+                : WORLD-CHRONOLOGY, 
+                : WORLD-GEOGRAPHY, 
+                : PHILOSOPHY.
+            ~2: CREATION = QUADRIVIUM:
+                : MUSIC,
+                : ASTRONOMY,
+                : GEOMETRY,
+                : ARITHMETIC.
+            ~1: REASON = TRIVIUM:
+                ~3: RHETORIC: HOOK-STORY-OFFEr
+                    : TOPICS,
+                    : SOPHISTICAL REFUTATION.
+                ~2: DIALECTIC:
+                    : CATEGORY,
+                    : ANALYTICS:
+                        : PRIOR,
+                        : POSTERIOR.
+                ~1: GRAMMAR:
+                    : ETYMOLOGY.
 
     ~FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
         : Uncertainty over Time:
@@ -66,10 +65,6 @@
         : testing set
         : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
         : LANGUAGE
-    ~ACTION:
-        ~1: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:MIRROR/BE()
-        ~2: READ(SEEN/HEARD/FELT/SMELLED/TASTED) - WRITE(NUMBERS/WORDS) 
-        ~3: MEMORY+LOGIC+ARITHMETIC(NUMBERS+WORDS), CONTRACT(-1, 0, +1 OR 5, 6, 7))
     
     : SEARCH
         : Uninformed: 
