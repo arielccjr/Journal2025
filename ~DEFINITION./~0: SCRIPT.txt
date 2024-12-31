@@ -4,6 +4,7 @@
     ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE)
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
     ~ACTION: CENTRAL-PROCESSING-UNIT
         : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
@@ -45,27 +46,7 @@
         : Traveling MailMan Problem 
         : Constraint Satisfaction Problem (CSP):
     ~EXPLORED-SET/TEMPORARY-MEMORY: KNOWN/FAMILIAR/HOME/SCHEDULE
-        : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
         : model = assignment of a truth value to every propositional symbol (a "possible world") 
-        : Bayesian network = data structure that represents the dependencies among random variables
-        : knowledge base = a set of sentences known by a knowledge-based agent
-        : clause = a disjunction of literals 
-        : conjunctive normal form = logical sentence that is the conjunction of clauses
-        : Probability: 0 < P(w) < 1
-        : probability distribution = list of probabilities
-        : random variable = a variable in probability theory with a domain of posiible values it can take on
-        : independence: P(a and b) = P(a)P(b) = the knowledge that one event occurs does not affect the probability of the other event
-        : Inference:
-        : Markov assumption = the assumption that the current state depends on only a finite fixed number of previous states
-        : sensor Markov assumption = the assumption that the evidence variable depends only the corresponding state
-        : node consistent = when all the values in a variable's domain satisfy the variable's unary constraints
-        : SELECT-UNASSIGNED-VAR 
-        : DOMAIN-VALUES:
-        : Weight Vector w: (w0, w1, w2)
-        : training set
-        : testing set
-        : Markov Decision Process = model for decision-making, representing states, actions, and their rewards
-        : LANGUAGE
     
     : SEARCH
         : Uninformed: 
