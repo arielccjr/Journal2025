@@ -21,14 +21,13 @@
                 : SACRED-SCRIPTURE.
             ~3: EXPERIENCE: CUE-HABIT-REWARD
                 : WORLD-CHRONOLOGY, 
-                : WORLD-GEOGRAPHY, 
-                : PHILOSOPHY.
+                : WORLD-GEOGRAPHY,
             ~2: CREATION = QUADRIVIUM:
                 : MUSIC,
                 : ASTRONOMY,
                 : GEOMETRY,
                 : ARITHMETIC.
-            ~1: REASON = TRIVIUM:
+            ~1: REASON/PHILOSOPHY = TRIVIUM:
                 ~3: RHETORIC: HOOK-STORY-OFFEr
                     : TOPICS,
                     : SOPHISTICAL REFUTATION.
