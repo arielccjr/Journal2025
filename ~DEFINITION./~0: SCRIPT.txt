@@ -4,13 +4,15 @@
     ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE)
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-
+    ~TRANSITION STATE = 
+        ~FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
+        ~EXPLORED-SET/TEMPORARY-MEMORY: KNOWN/FAMILIAR/HOME/SCHEDULE
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
     ~ACTION: CENTRAL-PROCESSING-UNIT
         : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
         : PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
-            : FRONTIER:
-            : EXPLORED-SET
+            : FRONTIER: WHAT/WHO/WHERE/WHEN
+            : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
         : REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
         : ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
             ~4: REVELATION:
@@ -40,14 +42,6 @@
                 ~1: GRAMMAR:
                     : ETYMOLOGY.
 
-    ~FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
-        : Uncertainty over Time:
-        : loss function = function that expresses how poorly our hypothesis performs
-        : Traveling MailMan Problem 
-        : Constraint Satisfaction Problem (CSP):
-    ~EXPLORED-SET/TEMPORARY-MEMORY: KNOWN/FAMILIAR/HOME/SCHEDULE
-        : model = assignment of a truth value to every propositional symbol (a "possible world") 
-    
     : SEARCH
         : Uninformed: 
             : Depth-First (Stack)
