@@ -1,4 +1,5 @@
-~ADD GREEK, HEBREW
+~ADD GREEK, HEBREW:
+
 justice = 
     : ju = no law
     : s = speak

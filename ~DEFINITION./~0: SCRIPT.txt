@@ -1,21 +1,3 @@
-~TRANSITION MODEL:
-    ~GOAL STATE = KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
-        : 0=FRUIT/CHILD/WAY/LIFECYCLE
-    ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE)
-        : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-    ~TRANSITION STATE = 
-        ~FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
-        ~EXPLORED: KNOWN/FAMILIAR/HOME/SCHEDULE
-    ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
-    ~ACTION: CENTRAL-PROCESSING-UNIT
-        : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
-        : PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
-            : FRONTIER: WHAT/WHO/WHERE/WHEN
-            : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
-        : REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
-        : ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
-
 ~LESSON-PLAN:
     ~4: REVELATION:
         : MORAL-&-SCHOLASTIC-THEOLOGY,
@@ -42,6 +24,30 @@
                 : POSTERIOR.
         ~1: GRAMMAR:
             : ETYMOLOGY.
+
+~TRANSITION MODEL: new knowledge base after inference | shows how adding an assignment changes the assignment
+    ~GOAL STATE = KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
+        : 0=FRUIT/CHILD/WAY/LIFECYCLE
+    ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE): initial State | starting knowledge base | empty assignment (no variables)
+        : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+    ~TRANSITION STATE = 
+        
+    ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
+        : PLAYER(s):    returns which player to in state s
+    ~ACTION: CENTRAL-PROCESSING-UNIT: returns legal moves in state s | inference rules | add a {variable = value} to assignment
+        : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
+        : PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
+            : FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
+            : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
+                : RESULT(s, a): returns state after action a taken in state s
+                : path cost function: number of steps in proof | all paths have same cost
+        : REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
+        : ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
+
+    : TERMINAL(s):  checks if state s is a terminal state
+        : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
+    : UTILITY(s):   final numerical value for terminal state s
 
     : SEARCH
         : Uninformed: 
@@ -217,17 +223,6 @@
     : 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-: GAME: Theorem Proving: CSP as Search Problem:
-    : S0:           initial State | starting knowledge base | empty assignment (no variables)
-    : PLAYER(s):    returns which player to in state s
-    : ACTION(s):    returns legal moves in state s | inference rules | add a {variable = value} to assignment
-    : RESULT(s, a): returns state after action a taken in state s
-    : TERMINAL(s):  checks if state s is a terminal state
-        : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
-    : UTILITY(s):   final numerical value for terminal state s
-        : transition model: new knowledge base after inference | shows how adding an assignment changes the assignment
-        : path cost function: number of steps in proof | all paths have same cost
-
 "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
         : MADNESS, NIGHTMARE, Worst Case
     "SOIL FOR-BY SPOILVOID(-)."
