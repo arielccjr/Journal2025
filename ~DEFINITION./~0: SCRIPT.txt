@@ -211,9 +211,10 @@
     : Encoder >>> Hidden State >>> Decoder
     : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
     : Machine Translation 
-    : Transformers Architecture
-        : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-        : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+
+: Transformers Architecture
+    : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+    : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
 
 : ALGORITHM: DIVIDE & CONQUER
     : Brute Force: 0(n!)
