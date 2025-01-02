@@ -6,7 +6,7 @@
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
     ~TRANSITION STATE = 
         ~FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
-        ~EXPLORED-SET/TEMPORARY-MEMORY: KNOWN/FAMILIAR/HOME/SCHEDULE
+        ~EXPLORED: KNOWN/FAMILIAR/HOME/SCHEDULE
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
     ~ACTION: CENTRAL-PROCESSING-UNIT
         : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
@@ -15,31 +15,33 @@
             : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
         : REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
         : ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
-            ~4: REVELATION:
-                : MORAL-&-SCHOLASTIC-THEOLOGY,
-                : BIBLICAL-STUDIES,
-                : CLASSICAL-CATECHISM,
-                : SACRED-TRADITION,
-                : SACRED-SCRIPTURE.
-            ~3: EXPERIENCE: CUE-HABIT-REWARD
-                : WORLD-CHRONOLOGY, 
-                : WORLD-GEOGRAPHY,
-            ~2: CREATION = QUADRIVIUM:
-                : MUSIC,
-                : ASTRONOMY,
-                : GEOMETRY,
-                : ARITHMETIC.
-            ~1: REASON/PHILOSOPHY = TRIVIUM:
-                ~3: RHETORIC: HOOK-STORY-OFFEr
-                    : TOPICS,
-                    : SOPHISTICAL REFUTATION.
-                ~2: DIALECTIC:
-                    : CATEGORY,
-                    : ANALYTICS:
-                        : PRIOR,
-                        : POSTERIOR.
-                ~1: GRAMMAR:
-                    : ETYMOLOGY.
+
+~LESSON-PLAN:
+    ~4: REVELATION:
+        : MORAL-&-SCHOLASTIC-THEOLOGY,
+        : BIBLICAL-STUDIES,
+        : CLASSICAL-CATECHISM,
+        : SACRED-TRADITION,
+        : SACRED-SCRIPTURE.
+    ~3: EXPERIENCE: CUE-HABIT-REWARD
+        : WORLD-CHRONOLOGY, 
+        : WORLD-GEOGRAPHY,
+    ~2: CREATION = QUADRIVIUM:
+        : MUSIC,
+        : ASTRONOMY,
+        : GEOMETRY,
+        : ARITHMETIC.
+    ~1: REASON/PHILOSOPHY = TRIVIUM:
+        ~3: RHETORIC: HOOK-STORY-OFFEr
+            : TOPICS,
+            : SOPHISTICAL REFUTATION.
+        ~2: DIALECTIC:
+            : CATEGORY,
+            : ANALYTICS:
+                : PRIOR,
+                : POSTERIOR.
+        ~1: GRAMMAR:
+            : ETYMOLOGY.
 
     : SEARCH
         : Uninformed: 
