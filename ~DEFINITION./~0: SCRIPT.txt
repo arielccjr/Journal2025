@@ -28,26 +28,24 @@
 ~TRANSITION MODEL: new knowledge base after inference | shows how adding an assignment changes the assignment
     ~GOAL STATE = KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
         : 0=FRUIT/CHILD/WAY/LIFECYCLE
+        : UTILITY(s): final numerical value for terminal state s
     ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE): initial State | starting knowledge base | empty assignment (no variables)
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
     ~TRANSITION STATE = 
-        
+        : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
+            : RESULT(s, a): returns state after action a taken in state s
+            : path cost function: number of steps in proof | all paths have same cost        ~
+        : FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
+        : TERMINAL(s):  checks if state s is a terminal state
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
         : PLAYER(s):    returns which player to in state s
     ~ACTION: CENTRAL-PROCESSING-UNIT: returns legal moves in state s | inference rules | add a {variable = value} to assignment
         : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
         : PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
-            : FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
-            : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
-                : RESULT(s, a): returns state after action a taken in state s
-                : path cost function: number of steps in proof | all paths have same cost
         : REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
         : ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
-
-    : TERMINAL(s):  checks if state s is a terminal state
-        : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
-    : UTILITY(s):   final numerical value for terminal state s
+            : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
 
     : SEARCH
         : Uninformed: 
@@ -220,7 +218,7 @@
     : Brute Force: 0(n!)
     : Selection Sort: n^2
     : Merge Sort: 0(nlogn)
-    : Graph Search/Dijkstra: 0(nlogn+1) 
+    : Graph Search/Dijkstra: 0(nlogn+1)
     : 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -293,7 +291,7 @@
 ~TO-DO: How Computer Vision be?
     
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
-	Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
+    Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
     Preprocessing: The visual data is preprocessed to enhance quality or to simplify it for further analysis. This may involve resizing, normalizing colors, or applying filters to highlight features.
     Feature Extraction: Key features, such as edges, textures, or patterns, are extracted from the image. In traditional computer vision, these might include corner detectors, histograms, or feature descriptors (e.g., SIFT, SURF).
     Object Detection and Recognition: Using either traditional algorithms (like Haar Cascades) or deep learning methods (like convolutional neural networks or CNNs), the system detects and classifies objects within the image. Deep learning models are particularly effective, with networks pre-trained on large datasets such as ImageNet.
@@ -301,26 +299,45 @@
     Post-Processing and Decision-Making: After analyzing the image, the system applies post-processing techniques to refine the results. Based on the findings, it may make decisions or provide output for a specific task, like identifying an object or triggering an alert.
     Continuous Learning: Through machine learning, computer vision systems improve over time. With more data and feedback, these systems can refine their ability to interpret images and adapt to new situations.
 	1. Geometric Layout
-		Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
-		Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
-		Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
+		Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. 
+			These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. 
+			Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
+		Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. 
+			Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
+		Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, 
+			ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. 
+			These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
 	2. Detailed Proportions
-		Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, aligning elements to create a cohesive and visually pleasing composition.
-		Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
-		Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
+		Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, 
+			aligning elements to create a cohesive and visually pleasing composition.
+		Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. 
+			For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
+		Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, 
+			ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
 	3. Use of the Golden Ratio
-		Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
-		Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye. For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
-		Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, as elements sized according to the golden ratio generally maintain a stable distribution of mass.
+		Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. 
+			Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, 
+			especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
+		Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye.
+			For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
+		Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, 
+			as elements sized according to the golden ratio generally maintain a stable distribution of mass.
 	4. Representation of Structural Elements
-		Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
-		Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
-		Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
+		Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. 
+			These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
+		Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. 
+			Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
+		Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. 
+			For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
 	5. Step-by-Step Plan for Builders
-		Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
-		Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
-		Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
-		Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
+		Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. 
+			Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
+		Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. 
+			For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
+		Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. 
+			This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
+		Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. 
+			By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
 
 ~SEE:		        Eyes, Camera, Optical/Ocular System
 	                Photoreceptor cells in Retina, CONES
@@ -389,14 +406,17 @@
 1. Three Types of Music
 	Boethius categorizes music into three overarching types, reflecting his belief that music governs not only the audible world but also the universe and the human soul.
 	a. Musica Mundana ("Music of the Universe")
-		Description: This type of music represents the cosmic harmony of the universe. Boethius believed that celestial bodies, such as planets and stars, produce a form of inaudible music through their movements. This "music" reflects the order and proportions governing the cosmos.
+		Description: This type of music represents the cosmic harmony of the universe. 
+		Boethius believed that celestial bodies, such as planets and stars, produce a form of inaudible music through their movements. This "music" reflects the order and proportions governing the cosmos.
 		Philosophical Basis: Drawing on Pythagorean thought, Boethius equates the motions of the heavens to mathematical ratios, asserting that the balance in nature mirrors musical harmony.
 	b. Musica Humana ("Human Music")
-		Description: Human music concerns the harmony within individuals, specifically the relationship between the body and soul. Boethius thought that the human being, as a microcosm of the universe, reflects the same principles of order and proportion found in musica mundana.
+		Description: Human music concerns the harmony within individuals, specifically the relationship between the body and soul. 
+		Boethius thought that the human being, as a microcosm of the universe, reflects the same principles of order and proportion found in musica mundana.
 		Philosophical Significance: This harmony was believed essential for maintaining balance in life, aligning the physical and spiritual aspects of a person.
 	c. Musica Instrumentalis ("Instrumental Music")
 		Description: This is the tangible music produced by instruments or voices, the only type of music that can be heard.
-		Philosophical Context: Boethius regarded this as the least significant form because it is tied to the sensory world, unlike the higher, abstract forms of music. However, it is still governed by the same mathematical ratios.
+		Philosophical Context: Boethius regarded this as the least significant form because it is tied to the sensory world, unlike the higher, abstract forms of music. 
+		However, it is still governed by the same mathematical ratios.
 2. Mathematical Ratios
     Basis in Pythagorean Theory: Boethius draws on the mathematical principles of Pythagoras, who demonstrated that musical intervals correspond to simple numerical ratios.
     Examples of Ratios:
@@ -459,7 +479,8 @@
         Actuators and Motors: These components allow robots to move and interact with the world, enabling functions like grasping, rotating, and navigating.
     Programming and Software Development: This step involves writing code that enables the robot to process information, make decisions, and execute tasks.
         Control Algorithms: Algorithms control the robot’s movements and actions based on sensory input and desired goals. These can include pathfinding, obstacle avoidance, and motion planning.
-        Artificial Intelligence and Machine Learning: AI allows robots to make autonomous decisions, adapt to new conditions, and learn from experiences. Machine learning models can be trained to recognize objects, respond to voice commands, and improve task efficiency over time.
+        Artificial Intelligence and Machine Learning: AI allows robots to make autonomous decisions, adapt to new conditions, and learn from experiences. 
+		Machine learning models can be trained to recognize objects, respond to voice commands, and improve task efficiency over time.
     Sensor Data Processing and Environment Mapping: Robots need to interpret data from their sensors to understand their surroundings.
         Computer Vision: Using cameras and image processing, robots recognize objects, track movements, and interpret visual information.
         Mapping and Localization: Techniques like Simultaneous Localization and Mapping (SLAM) help robots map their environment and track their position within it.
@@ -530,10 +551,15 @@ MASK-BLOW:
 : BLOE:         Fan, 
 #####################################################################################################################
 Digestion and energy conversion involve both mechanical physics (chewing, muscle contraction) and chemical physics (energy transfer, chemical reactions). 
-The body takes in food, breaks it down into smaller molecules, and converts it into energy that powers all bodily functions. This energy conversion follows the laws of thermodynamics, ensuring that energy is conserved and utilized efficiently, with some energy lost as heat in the process.
-By breaking food down into nutrients, the body obtains the raw materials needed for growth, repair, and energy production—critical for sustaining life and maintaining homeostasis. The physics of digestion is an essential component of how we derive energy from the environment and convert it into a usable form for biological processes.
-The conversion of food into energy to support reproduction is a multifaceted process governed by the principles of energy transfer and biological regulation. Through cellular respiration, the energy stored in food is transformed into ATP, which fuels the development of reproductive cells, gametogenesis, and the overall reproductive system.
-This energy conversion process is intricately controlled by hormones, ensuring that the body can allocate the necessary resources to produce sperm and eggs, as well as support fertility. Reproduction, in essence, is not only a biological imperative but also an energy-intensive process, dependent on the availability and efficient conversion of energy from food. The physics of energy flow, mechanical processes, and biochemical regulation are fundamental to the continuation of life.
+The body takes in food, breaks it down into smaller molecules, and converts it into energy that powers all bodily functions. 
+	This energy conversion follows the laws of thermodynamics, ensuring that energy is conserved and utilized efficiently, with some energy lost as heat in the process.
+By breaking food down into nutrients, the body obtains the raw materials needed for growth, repair, and energy production—critical for sustaining life and maintaining homeostasis. 
+	The physics of digestion is an essential component of how we derive energy from the environment and convert it into a usable form for biological processes.
+The conversion of food into energy to support reproduction is a multifaceted process governed by the principles of energy transfer and biological regulation. 
+	Through cellular respiration, the energy stored in food is transformed into ATP, which fuels the development of reproductive cells, gametogenesis, and the overall reproductive system.
+This energy conversion process is intricately controlled by hormones, ensuring that the body can allocate the necessary resources to produce sperm and eggs, as well as support fertility. 
+	Reproduction, in essence, is not only a biological imperative but also an energy-intensive process, dependent on the availability and efficient conversion of energy from food. 
+	The physics of energy flow, mechanical processes, and biochemical regulation are fundamental to the continuation of life.
 
 ~HOW ENERGY BE?
 ~1: Ingestion (Chewing & Swallowing)
