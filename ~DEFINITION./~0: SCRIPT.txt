@@ -1,4 +1,4 @@
-~LESSON-PLAN:
+~LESSON-PLAN: For the Printing...
     ~4: REVELATION:
         : MORAL-&-SCHOLASTIC-THEOLOGY,
         : BIBLICAL-STUDIES,
@@ -9,7 +9,7 @@
         : WORLD-CHRONOLOGY, 
         : WORLD-GEOGRAPHY,
     ~2: CREATION = QUADRIVIUM:
-        : COMPUTER VISION: IMAGE & ANIMATION
+        : COMPUTER VISION: IMAGE & ANIMATION = Animator's Survival Guide, AIArt
 	: MUSIC,
         : ASTRONOMY,
         : GEOMETRY,
@@ -44,182 +44,48 @@
     ~ACTION: CENTRAL-PROCESSING-UNIT: returns legal moves in state s | inference rules | add a {variable = value} to assignment
         ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
         ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
-        ~3: REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
-        ~4: ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
             : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
+        ~3: REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1
+        ~4: ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
 
-    : SEARCH
-        : Uninformed: 
-            : Depth-First (Stack)
-            : Breadth-First (Queue)
-        : Informed: with Heuristic Function
-            : Greedy Best-First
-            : A*: g(n) + h(n)
-        : Adversarial: with Adversary
-            : Minimax: Win-Lose Goal-State
-            : Alpha-Beta Pruning
-            : Depth-Limited Minimax: with Evaluation function
-    : OPTIMIZATION:
-        : Local Search = search algorithms that maintain a single node and searches by moving to a neighboring node
-            : Hill Climbing
-                : function HILL-CLIMB(problem):
-                    : current = initial state of problem
-                    : repeat:
-                        neighbor = highest valued neighbor of current
-                        if neighbor not better than current:
-                            return current
-                        current = neighbor
-                : steepest-ascene = choose the highest-valued neighbor
-                : stochastic = choose randomly from higher-valued neighbors
-                : first-choice = choose the first higher-valued neighbor
-                : random-restart = conduct hill climbing multiple times
-                : local beam search = chooses the k highest-valued neighbors
-            : Simulated Annealing =
-                function SIMULATED-ANNEALING(problem, max):
-                    current = initiate state of problem 
-                    for t = 1 to max:
-                        T = TEMPERATURE(t)
-                        neighbor = random neighbor of current 
-                        deltaE = how much better neigh is than current
-                        if deltaE > 0:
-                            current = neighbor
-                        with probability e^deltaE/T set current = neighbor
-                    return current
-            : Linear Programming:
-            : arc consistency = when all the values in a variable's domain satisfy the variable's binary constraints
-                : function REVISE(csp, X, Y):
-                    revised = false
-                    for x in X.domain:
-                        if no y in Y.domain satisfies constrain for (x, Y):
-                            delete x from X.domain
-                            revised = true
-                        return revised
-                : function AC-3(csp)
-                    queue = all arcs in csp
-                    while queue non-empty:
-                        (X, Y) = DEQUEUE(queue)
-                        if REVISE(csp, X, Y):
-                            if size of X.domain == 0:
-                                return false
-                            for each Z in X.neighbors - {Y}:
-                                ENQUEUE(queue, (Z, X))
-                        return true 
-            : Backtracking Search:
-                : function BACKTRACKING(assignment, csp):
-                    if assignment complete: return assignment
-                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
-                    for value in DOMAIN-VALUES(var, assignment, csp):
-                        if value consistent with assignment:
-                            add {var = value} to assignment
-                            result = BACKTRACK(assignment, csp)
-                            if result not= failure: return result
-                        remove {var = value} from assignment
-                    return failure
-            : maintaining arc consistency = algorithm for enforcing arc-consistency every time we make a new assignment 
-                : function BACKTRACKING(assignment, csp):
-                    if assignment complete: return assignment
-                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
-                    for value in DOMAIN-VALUES(var, assignment, csp):
-                        if value consistent with assignment:
-                            add {var = value} to assignment
-                            inferences = INFERENCES(assignment, csp)
-                            if inferences not= failure: add inferences to assignment
-                            result = BACKTRACK(assignment, csp)
-                            if result not= failure: return result
-                        remove {var = value} and inferences from assignment
-                    return failure
+: ALGORITHM: DIVIDE & CONQUER, SORTING
+    : Brute Force: 0(n!)
+    : Selection Sort: n^2
+    : Merge Sort: 0(nlogn)
+    : Graph Search/Dijkstra: 0(nlogn+1)
+: LOCAL SEARCH = search algorithms that maintain a single node and searches by moving to a neighboring node
+    : Hill Climbing
+    : Simulated Annealing =
+    : Linear Programming:
+    : arc consistency = when all the values in a variable's domain satisfy the variable's binary constraints
+    : Backtracking Search:
+    : maintaining arc consistency = algorithm for enforcing arc-consistency every time we make a new assignment 
 : LEARNING:
     : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
-        : classification = supervised learning task of learning a function mapping an input point to a discrete category
-            : nearest-neighbor classification = algorithm that, given an input, chooses the class of the nearest data point to that input
-            : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
-        : hypothesis hw(x) = 1 if w * x > 0; 0 otherwise
-        : perceptron learning rule = given data point (x, y), update each weight according to: 
-        : Support Vector Machine: boundary that maximizes the distance between any of the data points 
-        : regression = supervised learning task of learning a function mapping an input point to a continuous value
-        : regularization = penalizing hypotheses that are more complex to favor simpler, more general hypotheses
-        : holdout cross-validation = splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
-        : k-fold cross-validation = splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
     : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
-        : Q-learning = method for learning a function Q(s,a), estimate of the value of performing action a in state s
-        : Greedy Decision-Making: When in state s, choose action a with the highest Q(s,a)
-        : Explore vs Exploit: Epsilon-Greedy:
-        : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
     : unsupervised learning = given input data without any additional feedback, learn patterns
-        : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
-            : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
 : NEURAL NETWORKS: Neurons are connected to and receive electrical signals from other neurons.
     : artificial neural network = mathematical model for learning inspired by biological neural networks
-        : Functions:
-            : step function: g(x) = 1 if x > 0, else 0
-            : logic sigmoid
-            : rectified linear unit (relu)
-        : h(x1, x2) = g(w0 + w1x1 + w2x2)
-        : h(x1, x2, xn-1, xn) = g(n sigma i=1 xiwi + w0)
     : supervised neural network: 
-        : gradient descent = algorithm for minimizing loss when training neural network
-            : Start with a random choice of weights.
-            : Repeat: 
-                : Calculate the gradient based on ALL DATA POINTS: direction that will lead to decreasing loss.
-                : Update weights according to the gradient.
-        : Stochastic gradient descent
-            : Start with a random choice of weights.
-            : Repeat: 
-                : Calculate the gradient based on ONE DATA POINTS: direction that will lead to decreasing loss.
-                : Update weights according to the gradient.
-        : Mini-Batch gradient descent
-            : Start with a random choice of weights.
-            : Repeat: 
-                : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
-                : Update weights according to the gradient.
     : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
     : backpropagation = algorithm for training neural netowrks with hidden layers
-        : Start with a random choice of weights.
-        : Repeat:
-            : Calculate error for output layer.
-            : For each layer, starting with output layer, and moving inwards towards earliest hidden layer:
-                : Propagate error back one layer.
-                : Update weights.
     : deep neural networks = neural network with multiple hidden layers
-        : dropout = temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
-        : computer vision = computational methods for analyzing and understanding digital images
-        : image convolution = applying a kernel/filter that adds each pixel value of an image to its neighbors, weighted according to a kernel matrix
-        : pooling = reducing the size of an input by sampling from regions in the input
-            : max-pooling = pooling by choosing the maximum value in each region
     : convolutional neural network = neural networks that use convolution, usually for analyzing images
-        : Apply convolution
-        : Apply pooling
-        : Apply Flattening
-        : Apply Deep Neural Networks
-    : feed-forward neural network = neural network that has connections only in one direction
-        : input >>> network >>> output
+    : feed-forward neural network = neural network that has connections only in one direction: input >>> network >>> output
     : recurrent neural network: input >>> network (loop) >>> output
-        : Relationships:
-            : one-to-many 
-            : many-to-one
-            : many-to-many
-
 : NATURAL LANGUAGE PROCESSING:
     : tokenization = the task of splitting a sequence of characters into pieces (tokens)
     : text classification =
     : Naive-Bayes classifier = 
     : additive smoothing = adding a value a to each value in our distribution to smooth the data  
-        : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
     : Word Representation
     : Question "What is that?" >>> Recurrent Network >>> Answer "This is apple."
     : Encoder >>> Hidden State >>> Decoder
-    : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
+    : Attention = letting us decide which values are important to pay attention to when generating, the next word in our sequence.
     : Machine Translation 
-
 : Transformers Architecture
     : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
     : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
-
-: ALGORITHM: DIVIDE & CONQUER
-    : Brute Force: 0(n!)
-    : Selection Sort: n^2
-    : Merge Sort: 0(nlogn)
-    : Graph Search/Dijkstra: 0(nlogn+1)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
