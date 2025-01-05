@@ -9,7 +9,8 @@
         : WORLD-CHRONOLOGY, 
         : WORLD-GEOGRAPHY,
     ~2: CREATION = QUADRIVIUM:
-        : MUSIC,
+        : COMPUTER VISION: IMAGE & ANIMATION
+	: MUSIC,
         : ASTRONOMY,
         : GEOMETRY,
         : ARITHMETIC.
@@ -28,7 +29,6 @@
 ~TRANSITION MODEL: new knowledge base after inference | shows how adding an assignment changes the assignment
     ~GOAL STATE = KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
         : 0=FRUIT/CHILD/WAY/LIFECYCLE
-        : UTILITY(s): final numerical value for terminal state s
     ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE): initial State | starting knowledge base | empty assignment (no variables)
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
@@ -38,13 +38,14 @@
             : path cost function: number of steps in proof | all paths have same cost        ~
         : FRONTIER: WHAT/WHO/WHERE/WHEN (UNKNOWN/STRANGER/FOREIGN/SURPRISE)
         : TERMINAL(s):  checks if state s is a terminal state
+        : UTILITY(s): final numerical value for terminal state s
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
         : PLAYER(s):    returns which player to in state s
     ~ACTION: CENTRAL-PROCESSING-UNIT: returns legal moves in state s | inference rules | add a {variable = value} to assignment
-        : PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
-        : PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
-        : REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
-        : ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
+        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
+        ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
+        ~3: REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1 
+        ~4: ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
             : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
 
     : SEARCH
@@ -219,7 +220,6 @@
     : Selection Sort: n^2
     : Merge Sort: 0(nlogn)
     : Graph Search/Dijkstra: 0(nlogn+1)
-    : 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 "SLEEPING FOR-BY DREAM." "WHAT IF... ?" 
