@@ -10,7 +10,7 @@
         : WORLD-GEOGRAPHY,
     ~2: CREATION = QUADRIVIUM:
         : COMPUTER VISION: IMAGE & ANIMATION = Animator's Survival Guide, AIArt
-	: MUSIC,
+	    : MUSIC,
         : ASTRONOMY,
         : GEOMETRY,
         : ARITHMETIC.
@@ -27,12 +27,12 @@
             : ETYMOLOGY.
 
 ~TRANSITION MODEL: new knowledge base after inference | shows how adding an assignment changes the assignment
-    ~GOAL STATE = KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
+    ~GOAL-STATE(WHY) = FOR THE KNOWING-BEING(ONENESS): FOR THE BEING-ONE WITH THE GOD.
         : 0=FRUIT/CHILD/WAY/LIFECYCLE
-    ~INITIAL STATE = UNKNOWING-UNBEING(DIVIDE): initial State | starting knowledge base | empty assignment (no variables)
+    ~INITIAL-STATE(WHAT) = UNKNOWING-UNBEING(DIVIDE): initial State | starting knowledge base | empty assignment (no variables)
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-    ~TRANSITION STATE = 
+    ~TRANSITION-STATE(HOW) = BY...
         : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
             : RESULT(s, a): returns state after action a taken in state s
             : path cost function: number of steps in proof | all paths have same cost        ~
@@ -42,11 +42,30 @@
     ~AGENT: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on internal representations of knowledge
         : PLAYER(s):    returns which player to in state s
     ~ACTION: CENTRAL-PROCESSING-UNIT: returns legal moves in state s | inference rules | add a {variable = value} to assignment
-        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE/MIRROR().
+        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR().
+            : NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
         ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
             : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
-        ~3: REASONING: WRITE(NUMBER/WORDS), LOGIC-ARITHMETIC = -1, 0, +1
-        ~4: ARRANGEMENT: WRITE(NUMBERS/WORDS), CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
+        ~3: REASONING/ARRANGEMENT:
+            : WRITE-READ(NUMBER/WORDS), 
+                : LOGIC-ARITHMETIC = -1, 0, +1
+                : CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
+            : ERASE-FORGET(BABBLE: 
+                : SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> 
+                ), 
+
+: MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
+>>> KNOWN: Word: Contract, Financial Statement, Typography-Copywriting, Market Research & Targeting, 
+>>> FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status... "
+>>> SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
+>>> HOME: Length*Width*Height... Position/Address/Continent/Sea/Climate...
+>>> KNOWING
+: Introduce New Related Word Group, typically based on common Latin or Greek roots.
+: Break down root and affixes, along with usage examples in sentences.
+: Match words to their definitions, use them in sentences, or choose the correct word in a given context
+: Provides the correct answers and explanations.
+: Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+
 
 : ALGORITHM: DIVIDE & CONQUER, SORTING
     : Brute Force: 0(n!)
@@ -64,7 +83,7 @@
     : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
     : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
     : unsupervised learning = given input data without any additional feedback, learn patterns
-: NEURAL NETWORKS: Neurons are connected to and receive electrical signals from other neurons.
+: NEURAL-NETWORKS: Neurons are connected to and receive electrical signals from other neurons.
     : artificial neural network = mathematical model for learning inspired by biological neural networks
     : supervised neural network: 
     : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
@@ -73,7 +92,7 @@
     : convolutional neural network = neural networks that use convolution, usually for analyzing images
     : feed-forward neural network = neural network that has connections only in one direction: input >>> network >>> output
     : recurrent neural network: input >>> network (loop) >>> output
-: NATURAL LANGUAGE PROCESSING:
+: NATURAL-LANGUAGE PROCESSING:
     : tokenization = the task of splitting a sequence of characters into pieces (tokens)
     : text classification =
     : Naive-Bayes classifier = 
@@ -83,7 +102,7 @@
     : Encoder >>> Hidden State >>> Decoder
     : Attention = letting us decide which values are important to pay attention to when generating, the next word in our sequence.
     : Machine Translation 
-: Transformers Architecture
+: TRANSFORMERS-ARCHITECTURE:
     : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
     : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
 
@@ -138,21 +157,6 @@
             : Best of 7 Rounds
             : Round-Time: 3 minutes   
         : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-
-: ERASE-FORGET(), SOILVOID/MOTHERBEAST/WILDWORLD/LIFECYCLE. >>> NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-: WRITE-READ(), SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND. >>> IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR()
-    : MEMORIZE()-OPERATE():ARITHMETIC+LOGIC+COMPARE()?: Resource Management: Effective management of resources ensures you are well-equipped in key rounds.
-    >>> KNOWN: Word: Contract, Financial Statement, Typography-Copywriting, Market Research & Targeting, 
-    >>> FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status... "
-    >>> SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
-    >>> HOME: Length*Width*Height... Position/Address/Continent/Sea/Climate...
-    >>> KNOWING
-    : Introduce New Related Word Group, typically based on common Latin or Greek roots.
-    : Break down root and affixes, along with usage examples in sentences.
-    : Match words to their definitions, use them in sentences, or choose the correct word in a given context
-    : Provides the correct answers and explanations.
-    : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-
 ######################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
     
