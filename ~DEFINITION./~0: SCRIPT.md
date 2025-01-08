@@ -1,37 +1,39 @@
-~FOR THE GIFT OF THE WORD:
-Template for Writing a Combined Scholastic Essay and Speech Format
+# ~FOR THE GIFT OF THE WORD:
+## Template for Writing a Combined Scholastic Essay and Speech Format
 
-~INTRODUCTION: 
-    : Title: Clearly state the central question or topic.
-        Example: "Is Semen Retention Beneficial?"
-    : Greeting (Speech Format):
-        Speech Only: “Good [morning/evening], fellow Toastmasters and guests.”
-    : Hook: Begin with a strong question or statement to capture interest.
-        Example: “Today, I’d like to tackle a fascinating, and perhaps unconventional question: is there any benefit to retaining semen?”
-    : Introduction of the Question in Dialectical Format: State the Question: Introduce the central question in a way that presents two opposing views.
-        Example: “Is semen retention beneficial or not?” introduces diverse perspectives with significant implications.
-    : Explain the Significance: Explain why the topic is relevant or important.
-        Example: “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
-    : Thesis Statement: Clearly state your position or the answer to the question.
-        Example: “This essay (or speech) will argue that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
-    : Transition to Body: Lead into the main points.
-        Speech Only: “Let’s explore both sides of this debate and see where the evidence leads us.”
+### ~INTRODUCTION: 
+####    : Title: Clearly state the central question or topic.
+            "Is Semen Retention Beneficial?"
+####    : Greeting (Speech Format):
+            Speech Only: “Good [morning/evening], fellow Toastmasters and guests.”
+####    : Hook: Begin with a strong question or statement to capture interest.
+            “Today, I’d like to tackle a fascinating, and perhaps unconventional question: is there any benefit to retaining semen?”
+####    : Introduction of the Question in Dialectical Format: State the Question: Introduce the central question in a way that presents two opposing views.
+            “Is semen retention beneficial or not?” introduces diverse perspectives with significant implications.
+####    : Explain the Significance: Explain why the topic is relevant or important.
+            “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
+####    : Thesis Statement: Clearly state your position or the answer to the question.
+            “This essay (or speech) will argue that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
+####    : Transition to Body: Lead into the main points.
+            Speech Only: “Let’s explore both sides of this debate and see where the evidence leads us.”
 
-~BODY:
-    ~Section 1: Counterarguments (Arguments Against the Thesis)
-        : Introduce Main Counterarguments: State the primary arguments opposing your thesis.
+### ~BODY: Section 1: Counterarguments (Arguments Against the Thesis)
+####    : Introduce Main Counterarguments: State the primary arguments opposing your thesis.
             Example: “One common argument against semen retention is that ejaculation is a natural bodily function.”
-        : Support Counterarguments with Evidence and Sub-Points:
-            : Sub-Point 1: Explain the natural process argument.
-                Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
-            : Sub-Point 2: Explain the health and psychological effects.
-                Support/Evidence: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
-            : Sub-Point 3: Explain the physical health benefits of regular release.
-                Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
-        : Transition to Supporting Points:
+####    : Support Counterarguments with Evidence and Sub-Points:
+#####       : Sub-Point 1: Explain the natural process argument: 
+                “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
+######          : Support/Evidence: 
+#####       : Sub-Point 2: Explain the health and psychological effects: 
+                “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
+######          : Support/Evidence: 
+#####       : Sub-Point 3: Explain the physical health benefits of regular release: 
+                “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
+######          : Support/Evidence: 
+####    : Transition to Supporting Points:
             Speech Only: “Now, let’s look at the other side, where proponents of retention see distinct benefits.”
 
-    ~Section 2: Supporting Arguments (Arguments for the Thesis)
+### ~BODY: Section 2: Supporting Arguments (Arguments for the Thesis)
         : Present Main Proofs for Thesis: Begin with the main arguments supporting your thesis.
         : Expand Each Argument with Evidence and Logical Reasoning:
             : Proof 1: Mental Clarity and Focus:
@@ -48,7 +50,7 @@ Template for Writing a Combined Scholastic Essay and Speech Format
         : Transition to Refutation:
             Speech Only: “Given these opposing views, how can we make sense of it all?”
 
-    ~Section 3: Refutation of Counterarguments
+### ~BODY: Section 3: Refutation of Counterarguments
         : Address and Refute Main Counterarguments:
             : Refute First Counterargument: Address the natural function argument.
                 Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
@@ -62,7 +64,7 @@ Template for Writing a Combined Scholastic Essay and Speech Format
             : Sub-Point 3: Emphasize periodic retention’s advantages.
                 Support/Evidence: “Research highlights benefits, such as increased mental focus.”
 
-~CONCLUSION:
+### ~CONCLUSION:
     : Restate the Question and Thesis:
         Reiterate the original question and your stance.
         Example: “So, is semen retention beneficial? This exploration suggests it can be a worthwhile approach for those seeking focus and vitality.”
