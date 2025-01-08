@@ -5,17 +5,9 @@ justice =
     : s = speak
     : ti = title
     : ce = judge
-    : NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
-        : -ion, -ation (noun suffix added to verbs)
-    : ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
-        : -osis (abnormal, diseased condition)
-        : dis- (pejorative prefix)
-        : -itis (inflammation)
-    : ADVERB: -ly
- 
+
 ~WHY-HOW: ACTIONS/OPERATIONS/BEING:
     : VERB: -ate, -ize, -fy (verb suffix)
-           
     : par, aequus, equ- (equal)
         : homos (the same)
         : similis, -ine (like, similar to, characteristic of, descriptive of)
@@ -121,6 +113,7 @@ justice =
     : -ize, -ate (verb suffix)
         : -ment (noun suffix attached to verbs)
     : -y (practice, custom)
+
 
 ~WHAT: KNOWN THINGS
     : bios, vita (life)
@@ -330,3 +323,12 @@ justice =
         : thanatos (death)
     : nox, noctis (night)
     : re- (again, back)
+
+: NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
+    : -ion, -ation (noun suffix added to verbs)
+: ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
+    : -osis (abnormal, diseased condition)
+    : dis- (pejorative prefix)
+    : -itis (inflammation)
+: ADVERB: -ly
+ 

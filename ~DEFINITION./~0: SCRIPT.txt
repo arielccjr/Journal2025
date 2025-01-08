@@ -1,123 +1,205 @@
 ~FOR THE GIFT OF THE WORD:
+Template for Writing a Combined Scholastic Essay and Speech Format
 
-Here's a comprehensive Writing Template that merges elements from the Scholastic Essay Template and Toastmasters Speech Outline. This template maintains a clear structure, engages the audience or reader, and balances logical rigor with persuasive appeal.
-General Template for Writing Propositions and Syllogisms in a Combined Scholastic Essay and Speech Format
-
-~Title and Introduction
-    Title: Clearly state the central question or topic.
+~INTRODUCTION: 
+    : Title: Clearly state the central question or topic.
         Example: "Is Semen Retention Beneficial?"
-    Greeting (Speech Format):
+    : Greeting (Speech Format):
         Speech Only: “Good [morning/evening], fellow Toastmasters and guests.”
-    Hook:
-        Begin with a strong question or statement to capture interest.
+    : Hook: Begin with a strong question or statement to capture interest.
         Example: “Today, I’d like to tackle a fascinating, and perhaps unconventional question: is there any benefit to retaining semen?”
-    Introduction of the Question in Dialectical Format:
-        State the Question: Introduce the central question in a way that presents two opposing views.
+    : Introduction of the Question in Dialectical Format: State the Question: Introduce the central question in a way that presents two opposing views.
         Example: “Is semen retention beneficial or not?” introduces diverse perspectives with significant implications.
-    Explain the Significance:
-        Explain why the topic is relevant or important.
+    : Explain the Significance: Explain why the topic is relevant or important.
         Example: “While this topic may seem unusual, it brings up critical questions about health, self-discipline, and mental well-being.”
-    Thesis Statement:
-        Clearly state your position or the answer to the question.
+    : Thesis Statement: Clearly state your position or the answer to the question.
         Example: “This essay (or speech) will argue that, yes, retaining semen can have benefits for those seeking mental clarity and increased energy.”
-    Transition to Body:
-        Lead into the main points.
+    : Transition to Body: Lead into the main points.
         Speech Only: “Let’s explore both sides of this debate and see where the evidence leads us.”
 
-Body
-~Section 1: Counterarguments (Arguments Against the Thesis)
-    Introduce Main Counterarguments:
-        State the primary arguments opposing your thesis.
-        Example: “One common argument against semen retention is that ejaculation is a natural bodily function.”
-    Support Counterarguments with Evidence and Sub-Points:
-        Sub-Point 1: Explain the natural process argument.
-            Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
-        Sub-Point 2: Explain the health and psychological effects.
-            Support/Evidence: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
-        Sub-Point 3: Explain the physical health benefits of regular release.
-            Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
-    Transition to Supporting Points:
-        Speech Only: “Now, let’s look at the other side, where proponents of retention see distinct benefits.”
+~BODY:
+    ~Section 1: Counterarguments (Arguments Against the Thesis)
+        : Introduce Main Counterarguments: State the primary arguments opposing your thesis.
+            Example: “One common argument against semen retention is that ejaculation is a natural bodily function.”
+        : Support Counterarguments with Evidence and Sub-Points:
+            : Sub-Point 1: Explain the natural process argument.
+                Support/Evidence: “Many argue that, like any natural process, ejaculation helps maintain balance in the body.”
+            : Sub-Point 2: Explain the health and psychological effects.
+                Support/Evidence: “Some believe that withholding semen can lead to discomfort and even potential health issues over time.”
+            : Sub-Point 3: Explain the physical health benefits of regular release.
+                Support/Evidence: “Studies suggest that regular ejaculation may reduce risks like prostate issues.”
+        : Transition to Supporting Points:
+            Speech Only: “Now, let’s look at the other side, where proponents of retention see distinct benefits.”
 
-~Section 2: Supporting Arguments (Arguments for the Thesis)
-    Present Main Proofs for Thesis:
-        Begin with the main arguments supporting your thesis.
-    Expand Each Argument with Evidence and Logical Reasoning:
-        Proof 1: Mental Clarity and Focus:
-            Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
-            Premise 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
-            Conclusion: “Therefore, semen retention is beneficial for mental clarity.”
-            Evidence: “Many adherents report heightened focus and energy.”
-        Proof 2: Increased Vitality and Physical Endurance:
-            Sub-Point: Discuss the concept of retaining essential nutrients.
-                Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
-        Proof 3: Alignment with Traditional Practices:
-            Sub-Point: Link to historical or cultural support for retention.
-                Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
-    Transition to Refutation:
-        Speech Only: “Given these opposing views, how can we make sense of it all?”
+    ~Section 2: Supporting Arguments (Arguments for the Thesis)
+        : Present Main Proofs for Thesis: Begin with the main arguments supporting your thesis.
+        : Expand Each Argument with Evidence and Logical Reasoning:
+            : Proof 1: Mental Clarity and Focus:
+                Premise 1: “Activities that conserve energy and mental resources are advantageous for personal growth.”
+                Premise 2: “Semen retention conserves energy that can be redirected toward cognitive tasks.”
+                Conclusion: “Therefore, semen retention is beneficial for mental clarity.”
+                Evidence: “Many adherents report heightened focus and energy.”
+            : Proof 2: Increased Vitality and Physical Endurance:
+                Sub-Point: Discuss the concept of retaining essential nutrients.
+                    Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
+            : Proof 3: Alignment with Traditional Practices:
+                Sub-Point: Link to historical or cultural support for retention.
+                    Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
+        : Transition to Refutation:
+            Speech Only: “Given these opposing views, how can we make sense of it all?”
 
-~Section 3: Refutation of Counterarguments
-    Address and Refute Main Counterarguments:
-        Refute First Counterargument: Address the natural function argument.
-            Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
-        Refute Additional Counterarguments:
-            Response: “Although some studies suggest benefits of regular ejaculation, periodic retention has its own physiological advantages, including focus and stamina.”
-    Provide Additional Support:
-        Sub-Point 1: Address health concerns with practical examples.
-            Support/Evidence: “Like with fasting, the body can adapt to abstention when practiced mindfully.”
-        Sub-Point 2: Highlight choice and intention.
-            Support/Evidence: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
-        Sub-Point 3: Emphasize periodic retention’s advantages.
-            Support/Evidence: “Research highlights benefits, such as increased mental focus.”
+    ~Section 3: Refutation of Counterarguments
+        : Address and Refute Main Counterarguments:
+            : Refute First Counterargument: Address the natural function argument.
+                Response: “While regular ejaculation is a natural process, it is not the only means of achieving health, as seen with controlled practices like fasting.”
+            : kRefute Additional Counterarguments:
+                Response: “Although some studies suggest benefits of regular ejaculation, periodic retention has its own physiological advantages, including focus and stamina.”
+        : Provide Additional Support:
+            : Sub-Point 1: Address health concerns with practical examples.
+                Support/Evidence: “Like with fasting, the body can adapt to abstention when practiced mindfully.”
+            : Sub-Point 2: Highlight choice and intention.
+                Support/Evidence: “For those seeking self-discipline, retention is beneficial as long as practiced responsibly.”
+            : Sub-Point 3: Emphasize periodic retention’s advantages.
+                Support/Evidence: “Research highlights benefits, such as increased mental focus.”
 
-~Conclusion
-    Restate the Question and Thesis:
+~CONCLUSION:
+    : Restate the Question and Thesis:
         Reiterate the original question and your stance.
         Example: “So, is semen retention beneficial? This exploration suggests it can be a worthwhile approach for those seeking focus and vitality.”
-    Summarize Significance:
+    : Summarize Significance:
         Reinforce why this question matters.
         Example: “Considering holistic health, semen retention encourages mental and physical resilience.”
-    Review Key Points:
+    : Review Key Points:
         Briefly recap the main points.
         Example:
             Main Point 1: There are physical and psychological arguments against retention.
             Main Point 2: Retention can enhance focus, vitality, and aligns with traditional practices.
             Main Point 3: Addressing objections, retention shows benefits if pursued thoughtfully.
-    Close with a Thoughtful Statement:
+    : Close with a Thoughtful Statement:
         Offer a closing statement or call to action.
         Speech Only: “Ultimately, the decision lies with each of us. If your goal is mental clarity and physical resilience, maybe it’s worth exploring this ancient practice for yourself. Thank you.”
 
-##########################################################################################################
-In Aristotle's logic, a syllogism is a form of deductive reasoning in which a conclusion is drawn from two premises, each sharing a common term with the conclusion. Aristotle identifies valid syllogisms as those where the structure and relationships between premises ensure that if the premises are true, the conclusion must also be true.
-Key Aspects of Valid Syllogisms:
-    Definition of Valid Syllogisms:
-        A syllogism is valid when it follows a logical form that guarantees the truth of the conclusion if the premises are true. Valid syllogisms ensure a sound flow from general statements (premises) to specific outcomes (conclusion).
-        Example:
-            Premise 1: All humans are mortal.
-            Premise 2: Socrates is a human.
-            Conclusion: Therefore, Socrates is mortal.
-    Components of Syllogisms:
-        Major Term: The predicate of the conclusion (e.g., "mortal" in the example).
-        Minor Term: The subject of the conclusion (e.g., "Socrates").
-        Middle Term: The term that appears in both premises but not in the conclusion (e.g., "human").
-    Types of Syllogistic Figures and Moods:
-        Aristotle categorizes syllogisms into different figures based on the position of the middle term and different moods based on the types of statements involved (universal/particular, affirmative/negative). These figures and moods create valid patterns, with certain combinations ensuring validity.
-        Example of a Figure:
-            First Figure: The middle term is the subject of the major premise and the predicate of the minor premise, as in the example above.
-    Rules for Determining Validity:
-        Aristotle provides specific rules for identifying valid syllogistic forms:
-            Rule of Distribution: The middle term must be distributed (apply to all members of a category) at least once in the premises.
-            Rule of Quantity and Quality: The structure (affirmative/negative, universal/particular) of the premises influences the validity of the syllogism. For instance, two particular premises do not lead to a valid conclusion.
-        Example of a Rule:
-            In the syllogism "All dogs are mammals" (major premise) and "All Labradors are dogs" (minor premise), we can validly conclude that "All Labradors are mammals" because the middle term "dogs" connects the premises logically.
-    Application of Valid Syllogisms:
-        Logical Proofs: Aristotle’s valid syllogisms form the basis of logical proofs, allowing for reliable conclusions in philosophical arguments and scientific demonstrations.
-        Avoiding Fallacies: By adhering to these rules, Aristotle’s system helps to avoid reasoning errors, such as affirming the consequent or denying the antecedent, which can lead to incorrect conclusions.
+#########################################################################################################
+~3: RHETORIC.
+    : SOPHISTICAL ELENCHI,
+    : TOPICS,
+~2: DIALECTIC.
+    : ANALYTICS:
+        : PRIOR,
+        : POSTERIOR.   
+    : LOGISTICAL CONSISTENCY:
+        : Simple Conversion: Universal negative (E) and particular affirmative (I) can directly swap subject and predicate.
+        : Limited Conversion: Universal affirmative (A) converts to a particular affirmative (I) to maintain truth.
+        : Direct Reduction: Simplify syllogism by converting it into the first figure.
+        : Indirect Reduction (Reductio ad Absurdum): Prove validity by showing contradiction if the conclusion were denied.
+    : SYLLOGISTIC RULES:
+        : Rule of Distribution: The middle term must be distributed in at least one premise.
+        : Rule of Quantity and Quality: Two particular premises cannot lead to a valid conclusion.
+    : SYLLOGISTIC FIGURES: the structural forms that classify syllogisms by the position of the middle term in the premises
+        : 1. First Figure (AAA) - Barbara
+            Form: The middle term is the subject of the major premise and the predicate of the minor premise.
+            Mood: AAA (All - All - All)
+            Example:
+                Premise 1 (Major): All humans are mortal. (A)
+                Premise 2 (Minor): All Greeks are humans. (A)
+                Conclusion: Therefore, all Greeks are mortal. (A)
+            Explanation: In Barbara, both premises and the conclusion are universal affirmatives (A), forming a valid syllogism where the middle term connects the major and minor terms in a way that makes the conclusion logically necessary.
+        : 2. Second Figure (EAE) - Camestres
+            Form: The middle term is the predicate of both the major and minor premises.
+            Mood: EAE (No - All - No)
+            Example:
+                Premise 1 (Major): No reptiles are warm-blooded. (E)
+                Premise 2 (Minor): All snakes are reptiles. (A)
+                Conclusion: Therefore, no snakes are warm-blooded. (E)
+            Explanation: In Camestres, the premises use a combination of universal negative (E) and universal affirmative (A) statements. The conclusion logically follows as a universal negative (E), based on the exclusive nature of the premises.
+        : 3. Third Figure (IAI) - Datisi
+            Form: The middle term is the subject of both the major and minor premises.
+            Mood: IAI (Some - All - Some)
+            Example:
+                Premise 1 (Major): Some animals are herbivores. (I)
+                Premise 2 (Minor): All animals are living beings. (A)
+                Conclusion: Therefore, some living beings are herbivores. (I)
+            Explanation: In Datisi, the premises combine a particular affirmative (I) and a universal affirmative (A) statement. The conclusion is a particular affirmative (I), following the pattern of reasoning through partial overlap in the category.
+        : 4. Fourth Figure (Added by later logicians)
+            Form: The middle term is the predicate of the major premise and the subject of the minor premise.
+            Explanation: The fourth figure was added by later logicians and includes several moods that follow a less common structure. The conclusion is reached by arranging the middle term in a way that avoids contradiction while ensuring logical consistency.  
+    : SYLLOGISM:
+        : Major Premise (Universal or Particular, Affirmative or Negative)
+        : Minor Premise (Universal or Particular, Affirmative or Negative)
+        : Conclusion (Follow rules of distribution and quality to validate)
+~1: GRAMMAR:
+    : CORRECT-PARSE-SYNTAX: 
+        : MODAL PROPOSITIONS:
+            : Necessity: Both premises being necessary leads to a necessary conclusion.
+                Example: "Necessarily, all humans are mortal" and "Necessarily, Socrates is human" imply "Necessarily, Socrates is mortal."
+            : Possibility: If one premise is possible, the conclusion may be possible but not certain.
+            : Mixed Modalities: Different modal premises allow conditional or probable conclusions.
+        : RELATIONSHIPS BETWEEN PROPOSITIONS:
+            : Contradiction: A and O (as well as E and I) are contradictory. They cannot both be true or both be false.
+            : Contrariety: A and E are contrary propositions; they cannot both be true simultaneously, but they can both be false.
+            : Subcontrariety: I and O are subcontrary propositions; they can both be true but cannot both be false.
+            : Subalternation: There is a truth dependency from universal to particular (A → I and E → O). If A is true, then I must be true; if E is true, then O must be true.
+        : TYPES OF PROPOSITIONS: 
+            : A: Universal Affirmative ("All humans are mortal")
+            : E: Universal Negative ("No humans are mortal")
+            : I: Particular Affirmative ("Some humans are mortal")
+            : O: Particular Negative ("Some humans are not mortal")
+        : SENTENCE/PROPOSITION: POSITION-LODIAL-FACT VERB POSITION-LODIAL-FACT.
+        : POSITION-LODIAL-FACT:
+    : CATEGORIES:
+        : Substance: Refers to the core identity or essence of things, answering "What?"
+        : Qualities (Verbs): Descriptions (IS/ARE) conveying essential or changing attributes.
+        : Causality (Four Causes): Explains why things are as they are.
+            : Material Cause: Substance from which something is made (e.g., bronze of a statue).
+            : Formal Cause: Design or structure (e.g., statue’s shape).
+            : Efficient Cause: Agent or creator (e.g., the sculptor).
+            : Final Cause: Purpose or function (e.g., artwork’s role).
+            : Passion (Effect on Substance): Experiences that affect or modify the substance (e.g., being heated).
+        : Accidental Properties (Attributes): Characteristics that vary without changing substance.
+            : Quantity: Measurable aspects (e.g., length, size).
+            : Quality: Characteristics that define "what kind" (e.g., color, emotion).
+            : Position: Arrangement or posture (e.g., sitting).
+            : State: Temporary condition (e.g., asleep, armed).
+            : Action: Dynamic activities (e.g., cutting, writing).
+            : Relation: Connection between entities (e.g., father of, bigger than).
+            : Place (BY-HERE): Spatial location (e.g., at home).
+            : Time (BY-NOW): Temporal setting (e.g., yesterday, morning).
+    : ETYMOLOGY.
 
-In summary, Aristotle’s concept of valid syllogisms underpins much of formal logic by establishing a reliable structure that links premises to conclusions, ensuring that the logical flow remains sound and true.
+#########################################################################################################
+: Introduce New Related Word Group, typically based on common Latin or Greek roots.
+: Break down root and affixes, along with usage examples in sentences.
+: Match words to their definitions, use them in sentences, or choose the correct word in a given context
+: Provides the correct answers and explanations.
+: Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+: goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
 
-##########################################################################################################
+#########################################################################################################
+Definition of Valid Syllogisms:
+    A syllogism is valid when it follows a logical form that guarantees the truth of the conclusion if the premises are true. Valid syllogisms ensure a sound flow from general statements (premises) to specific outcomes (conclusion).
+    Example:
+        Premise 1: All humans are mortal.
+        Premise 2: Socrates is a human.
+        Conclusion: Therefore, Socrates is mortal.
+Components of Syllogisms:
+    Major Term: The predicate of the conclusion (e.g., "mortal" in the example).
+    Minor Term: The subject of the conclusion (e.g., "Socrates").
+    Middle Term: The term that appears in both premises but not in the conclusion (e.g., "human").
+Types of Syllogistic Figures and Moods:
+    Aristotle categorizes syllogisms into different figures based on the position of the middle term and different moods based on the types of statements involved (universal/particular, affirmative/negative). These figures and moods create valid patterns, with certain combinations ensuring validity.
+    Example of a Figure:
+        First Figure: The middle term is the subject of the major premise and the predicate of the minor premise, as in the example above.
+Rules for Determining Validity:
+    Aristotle provides specific rules for identifying valid syllogistic forms:
+        Rule of Distribution: The middle term must be distributed (apply to all members of a category) at least once in the premises.
+        Rule of Quantity and Quality: The structure (affirmative/negative, universal/particular) of the premises influences the validity of the syllogism. For instance, two particular premises do not lead to a valid conclusion.
+    Example of a Rule:
+        In the syllogism "All dogs are mammals" (major premise) and "All Labradors are dogs" (minor premise), we can validly conclude that "All Labradors are mammals" because the middle term "dogs" connects the premises logically.
+Application of Valid Syllogisms:
+    Logical Proofs: Aristotle’s valid syllogisms form the basis of logical proofs, allowing for reliable conclusions in philosophical arguments and scientific demonstrations.
+    Avoiding Fallacies: By adhering to these rules, Aristotle’s system helps to avoid reasoning errors, such as affirming the consequent or denying the antecedent, which can lead to incorrect conclusions.
+
+#########################################################################################################
 Conversion in Aristotle’s logic refers to the process of rearranging or swapping the terms of a proposition without altering its truth value. Conversion is an important concept in syllogistic logic because it allows certain statements to be rewritten in logically equivalent forms, expanding the flexibility and usability of syllogisms in arguments.
 Key Aspects of Conversion in Syllogisms:
     Definition of Conversion:

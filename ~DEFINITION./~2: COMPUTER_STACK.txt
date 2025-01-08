@@ -14,7 +14,9 @@
     : THE BOMBE >>> COLOSSUS MK 1
     : IBM 608: Transistors
 
-~MODERN COMPUTER STACK: Transistor - Web Browser
+~MODERN COMPUTER STACK: 
+
+    Transistor - Web Browser
 ~0: DIVIDE/UNCERTAINTY: Random variable 
 	: NOT-IN-NOT-OUT:
 		Hide	| Block
@@ -33,7 +35,6 @@
         : Threat Model, 
             : Attack vector
             : Brute Force Attack
-            : 
         : Questions: 
             : Who are you?
             : What should you have access to?
@@ -109,7 +110,7 @@
         : Check in vs out
         : Committing
 
-LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received and converted back into data bits.
+~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received and converted back into data bits.
     : 1. Physical Layer
         Transistors convert digital signals (0s and 1s) into electrical, light, or radio waves
         These signals represent raw binary data
@@ -150,10 +151,10 @@ LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received 
             : Index: Frequency of Words + Backlinks
 
 ~SOFTWARE: OPERATING SYSTEM: Fetch >>> Decode >>> Execute, Automation/ Learning, Optimization/Multi-Tasking, Device Driver
-    : MACHINE CODE = OPERATION CODE (OPCODE): INSTRUCTION + MEMORY ADDRESS:
+    : MACHINE-CODE = OPERATION CODE (OPCODE): INSTRUCTION + MEMORY ADDRESS:
         : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
         : Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
-    : INSTRUCTION: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
+    : INSTRUCTION/ALGORITHM: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
          : LOAD + MEMORY ADDRESS
             : Read (Enable) DATA in MEMORY ADDRESS (RAM)
             : Write (Enable) DATA in Temporary Memory Register
@@ -198,7 +199,7 @@ LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received 
         : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
             : Aggregate Functions: Performs calculations like sum, average, and count. To derive summary statistics.
         : Logic: NOT, AND, OR
-    : MEMORY: Read-Write, Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
+    : MEMORY/DATA-STRUCTURE: Read-Write, Management/Data Structure: Allocation/Virtualization, Protection, De+Fragmentation
         : Read-Only Memory (ROM) & Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
         : Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
             : Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
@@ -258,7 +259,7 @@ LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received 
                     : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
                 : Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
     : ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
-    : INTERNETDEEPSEECABLES, COPPERWIRE/ETHERNETCABLE/RADIOWAVES/WIFI, ROUTER+SWITCH: COLLISIONDOMAIN
+        : INTERNETDEEPSEECABLES, COPPERWIRE/ETHERNETCABLE/RADIOWAVES/WIFI, ROUTER+SWITCH: COLLISIONDOMAIN
 
 ############################################################################################################################################
 : NOTES: ARTIFICIAL INTELLIGENCE NOTES
@@ -354,8 +355,6 @@ LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received 
             : one-hot representation = representation of meaning as a vector with a sing 1, and with other values as 0
             : distributive representation = representation of meaning distributed across multiple values
             : word2vec = model for generating word vectors
-
-
 
     : GAME:
         : S0:           initial State
@@ -649,6 +648,8 @@ LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received 
                 : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
                 : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
 
+####################################################################################################################################################################################
+~ATTENTION IS ALL YOU NEED:
 1. Encoder-Decoder Architecture Overview
 	Goal: Convert an input sequence into an output sequence (e.g., translating English to German).
 	Components:
@@ -668,211 +669,32 @@ LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received 
 		𝑊𝑄,𝑊𝐾,𝑊𝑉 are learned projection matrices.
 	Use multiple attention heads (ℎ) to attend to different representation subspaces:
 		MultiHead(𝑄,𝐾,𝑉)=Concat(head1,…,headℎ)𝑊𝑂
-MultiHead(Q,K,V)=Concat(head 
-1
-​
- ,…,head 
-h
-​
- )W 
-O
- 
-Feed-Forward Network (FFN):
-Applies a pointwise transformation to each position independently:
-FFN
-(
-𝑥
-)
-=
-ReLU
-(
-𝑥
-𝑊
-1
-+
-𝑏
-1
-)
-𝑊
-2
-+
-𝑏
-2
-FFN(x)=ReLU(xW 
-1
-​
- +b 
-1
-​
- )W 
-2
-​
- +b 
-2
-​
- 
-Add residual connections and layer normalization:
-Output
-=
-LayerNorm
-(
-𝑥
-+
-Sublayer
-(
-𝑥
-)
-)
-Output=LayerNorm(x+Sublayer(x))
-Repeat this for 
-𝑁
-=
-6
-N=6 encoder layers.
+    MultiHead(Q,K,V)=Concat(head 
+    Feed-Forward Network (FFN):
+    Applies a pointwise transformation to each position independently:
+    Add residual connections and layer normalization:
 4. Decoder Steps
-Similar to the encoder, but with an additional attention step:
-
-Masked Multi-Head Self-Attention:
-Prevents attending to future tokens by masking out invalid positions.
-Encoder-Decoder Attention:
-The decoder attends to the encoder’s output:
-Attention
-(
-𝑄
-,
-𝐾
-,
-𝑉
-)
-=
-softmax
-(
-𝑄
-𝐾
-𝑇
-𝑑
-𝑘
-)
-𝑉
-Attention(Q,K,V)=softmax( 
-d 
-k
-​
- 
-​
- 
-QK 
-T
- 
-​
- )V
-where 
-𝐾
-K and 
-𝑉
-V come from the encoder output.
-Feed-Forward Network (FFN):
-Same as in the encoder layers.
-Add residual connections and layer normalization after each sub-layer.
-Repeat for 
-𝑁
-=
-6
-N=6 decoder layers.
+    Similar to the encoder, but with an additional attention step:
+    Masked Multi-Head Self-Attention:
+    Prevents attending to future tokens by masking out invalid positions.
+    Encoder-Decoder Attention:
+    The decoder attends to the encoder’s output:
+    Feed-Forward Network (FFN):
+    Same as in the encoder layers.
+    Add residual connections and layer normalization after each sub-layer.
 5. Output Prediction
-The final decoder output is passed through a linear layer to map it back to the size of the vocabulary.
-Apply a softmax function to get probabilities for each token:
-𝑃
-(
-𝑦
-𝑡
-)
-=
-softmax
-(
-𝑊
-out
-⋅
-𝑌
-decoder
-)
-P(y 
-t
-​
- )=softmax(W 
-out
-​
- ⋅Y 
-decoder
-​
- )
+    The final decoder output is passed through a linear layer to map it back to the size of the vocabulary.
+    Apply a softmax function to get probabilities for each token:
 6. Training and Optimization
-Use the Adam optimizer with a custom learning rate schedule:
-lrate
-=
-𝑑
-model
-−
-0.5
-⋅
-min
-⁡
-(
-step_num
-−
-0.5
-,
-step_num
-⋅
-warmup_steps
-−
-1.5
-)
-lrate=d 
-model
-−0.5
-​
- ⋅min(step_num 
-−0.5
- ,step_num⋅warmup_steps 
-−1.5
- )
-Apply dropout regularization to prevent overfitting.
-Use label smoothing to improve generalization:
-𝑃
-true
-=
-(
-1
-−
-𝜖
-)
-𝑃
-target
-+
-𝜖
-∣
-𝑉
-∣
-P 
-true
-​
- =(1−ϵ)P 
-target
-​
- + 
-∣V∣
-ϵ
-​
- 
+    Use the Adam optimizer with a custom learning rate schedule:
 Summary of Logical Steps
-Embed Input: Represent tokens as vectors and add positional encoding.
-Encode Input: Pass through 
-𝑁
-N-layer encoder using self-attention and feed-forward steps.
-Decode Output: Pass through 
-𝑁
-N-layer decoder using masked self-attention, encoder-decoder attention, and feed-forward layers.
-Generate Prediction: Map decoder outputs to probabilities via softmax.
-Optimize: Train the model using Adam and a dynamic learning rate schedule.
-This structured approach ensures efficient learning and high-quality sequence transduction.
+    Embed Input: Represent tokens as vectors and add positional encoding.
+    Encode Input: Pass through 
+    𝑁
+    N-layer encoder using self-attention and feed-forward steps.
+    Decode Output: Pass through 
+    𝑁
+    N-layer decoder using masked self-attention, encoder-decoder attention, and feed-forward layers.
+    Generate Prediction: Map decoder outputs to probabilities via softmax.
+    Optimize: Train the model using Adam and a dynamic learning rate schedule.
+    This structured approach ensures efficient learning and high-quality sequence transduction.
