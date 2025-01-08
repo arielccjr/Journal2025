@@ -18,6 +18,33 @@ For the said(speech) of the Lord is for the light.
     DIXITQUE DEUS: FIAT LUX. ET FACTA EST LUX. 
     - GENESIS 1:1-3
 
+For the People of the Father is with the Creation by the Father.
+With the Knowledge in the Heaven is with the Holy-Name of the Father.
+For the Knowledge of the Truth is for the People of the Father.
+For the Kingdom of the Father is with the Knowldge of the Truth.
+For the Knowledge of the Spirit is for the Unity with the Father.
+For the Freedom of the Actions is with the Knowledge by the Truth.
+For the Protection of the Earth is with the Life of the People.
+For the Knowledge of the Father is with the Protection for the People.
+For the Truth of the People is with the Path into the Heaven.
+For the Teaching of the People is with the Truth of the People.
+For the Knowledge of this Day is with the Production(working) and Learning-skills of the people.
+For the wrongs(sins) against the Knowledge is with the Actions of the People.
+For the sins(temptations of the flesh) of the People is for the wrongs against our Neighbor.
+For the Knowledge of the People is in the Forgiveness of those wrong-decisions.
+For the People of the debts are with the Responsibility in the Truth.
+For the People of the Awareness are with the Forgiving with the Truth.
+For the Knowledge of the People-leaders is with the Teaching with the Truth.
+For the evil of the People is with the lack of the Knowledge of the Truth.
+For the Knowledge of the Truth is with the Freedom of the People against the evil of the darkness(lack of Knowledge).
+For the People are with this Agreement.
+    
+    OUR FATHER WHO ART IN HEAVEN.
+    HALLOW BE THY NAME, THY KINGDOM COME, THY WILL BE DONE ON EARTH AS IT IS IN HEAVEN.
+    GIVE US THIS DAY OUR DAILY BREAD AND FORGIVE US OUR TRESPASSES AS WE FORGIVE THOSE WHO TRESPASS AGAINST US.
+    LEAD US NOT INTO TEMPTATION BUT DELIVER US FROM EVIL.
+    AMEN
+
 ## ~LESSON-PLAN: 
     ~4: REVELATION:
         : MORAL-&-SCHOLASTIC-THEOLOGY,
