@@ -5,9 +5,6 @@ justice =
     : s = speak
     : ti = title
     : ce = judge
-
-~WHY-HOW: ACTIONS/OPERATIONS
-    : VERB: -ate, -ize, -fy (verb suffix)
     : NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
         : -ion, -ation (noun suffix added to verbs)
     : ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
@@ -15,7 +12,10 @@ justice =
         : dis- (pejorative prefix)
         : -itis (inflammation)
     : ADVERB: -ly
-            
+ 
+~WHY-HOW: ACTIONS/OPERATIONS/BEING:
+    : VERB: -ate, -ize, -fy (verb suffix)
+           
     : par, aequus, equ- (equal)
         : homos (the same)
         : similis, -ine (like, similar to, characteristic of, descriptive of)
@@ -40,6 +40,7 @@ justice =
         : moros (foolish)
         : clam (secretly)
         : sophos (wise)
+    : scribe (write)
     : ovum (to give birth, produce)
         : facio, factus, fec-, fic, fy (to do, make)
         : verto, versus (to turn)
@@ -59,8 +60,10 @@ justice =
         : vanesco (to vanish)
         : kallos (beauty)
         : kakos, malus (bad, harsh, evil, ugly)
+    : audi (hear)
     : dico, dictus (to say, tell)
         : sonus, phone (sound)
+        : loquere (speak)
         : loquor (to speak)
         : garrio (to chatter)
         : strepo (to make a noise)
@@ -87,6 +90,7 @@ justice =
         : lactus (gather)
         : -ple, -plex, pli-, plic-, plico-, -ply (fold)
     : cedo, itus (go)
+        : veni (come)
         : ambulo (to walk)
         : vale (farewell)
         : fugio (flee)
@@ -163,6 +167,7 @@ justice =
         : fides (faith)
     : logos (science, study, word, speech)
         : gnostos (known), gnosis (knowledge)
+        : litteras (letters)
         : verbum (word)
         : onyma (name)
         : biblion (book)
@@ -206,6 +211,7 @@ justice =
                 : demos (people)
         : omnis, pan (all)
     : andros (male)
+        : puer (boy)
         : vir (man)
         : pater, patris (father)
         : frater, fratis (brother)
