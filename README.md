@@ -1,51 +1,51 @@
-# For the Word-&-Light.
-For the beginning is with the Word.
-For the Word is with the Lord.
-For the Lord is for the Word.
+# **For the Word-&-Light.**
+FOR THE BEGINNING IS WITH THE WORD.
+FOR THE WORD IS WITH THE LORD.
+FOR THE LORD IS FOR THE WORD.
 
     IN PRINCIPIO ERAT VERBUM, ET VERBUM ERAT APUD DEUM, ET DEUS ERAT VERBUM." 
     - IOANNES 1
 
-For the beginning is with the creation of the heaven-&-earth by the Lord.
-For the earth is without the form (and is with the void).
-For the darkness is with the face of the deep. 
-For the Spirit of the Lord is with the face of the waters.
-For the said(speech) of the Lord is for the light.
-    And for the light is with the Lord.
+FOR THE BEGINNING IS WITH THE CREATION OF THE HEAVEN-&-EARTH BY THE LORD.
+FOR THE EARTH IS WITHOUT THE FORM (AND IS WITH THE VOID).
+FOR THE DARKNESS IS WITH THE FACE OF THE DEEP. 
+FOR THE SPIRIT OF THE LORD IS WITH THE FACE OF THE WATERS.
+FOR THE SAID(SPEECH) OF THE LORD IS FOR THE LIGHT.
+AND FOR THE LIGHT IS WITH THE LORD.
 
     IN PRINCIPIO CREAVIT DEUS CAELUM ET TERRAM.
     TERRA AUTEM ERAT INANIS ET VACUA, ET TENEBRAE ERANT SUPER FACIEM ABYSSI: ET SPIRITUS DEI FEREBATUR SUPER AQUAS.
     DIXITQUE DEUS: FIAT LUX. ET FACTA EST LUX. 
     - GENESIS 1:1-3
 
-For the People of the Father is with the Creation by the Father.
-With the Knowledge in the Heaven is with the Holy-Name of the Father.
-For the Knowledge of the Truth is for the People of the Father.
-For the Kingdom of the Father is with the Knowldge of the Truth.
-For the Knowledge of the Spirit is for the Unity with the Father.
-For the Freedom of the Actions is with the Knowledge by the Truth.
-For the Protection of the Earth is with the Life of the People.
-For the Knowledge of the Father is with the Protection for the People.
-For the Truth of the People is with the Path into the Heaven.
-For the Teaching of the People is with the Truth of the People.
-For the Knowledge of this Day is with the Production(working) and Learning-skills of the people.
-For the wrongs(sins) against the Knowledge is with the Actions of the People.
-For the sins(temptations of the flesh) of the People is for the wrongs against our Neighbor.
-For the Knowledge of the People is in the Forgiveness of those wrong-decisions.
-For the People of the debts are with the Responsibility in the Truth.
-For the People of the Awareness are with the Forgiving with the Truth.
-For the Knowledge of the People-leaders is with the Teaching with the Truth.
-For the evil of the People is with the lack of the Knowledge of the Truth.
-For the Knowledge of the Truth is with the Freedom of the People against the evil of the darkness(lack of Knowledge).
-For the People are with this Agreement.
+FOR THE PEOPLE OF THE FATHER IS WITH THE CREATION BY THE FATHER.
+WITH THE KNOWLEDGE IN THE HEAVEN IS WITH THE HOLY-NAME OF THE FATHER.
+FOR THE KNOWLEDGE OF THE TRUTH IS FOR THE PEOPLE OF THE FATHER.
+FOR THE KINGDOM OF THE FATHER IS WITH THE KNOWLEDGE OF THE TRUTH.
+FOR THE KNOWLEDGE OF THE SPIRIT IS FOR THE UNITY WITH THE FATHER.
+FOR THE FREEDOM OF THE ACTIONS IS WITH THE KNOWLEDGE BY THE TRUTH.
+FOR THE PROTECTION OF THE EARTH IS WITH THE LIFE OF THE PEOPLE.
+FOR THE KNOWLEDGE OF THE FATHER IS WITH THE PROTECTION FOR THE PEOPLE.
+FOR THE TRUTH OF THE PEOPLE IS WITH THE PATH INTO THE HEAVEN.
+FOR THE TEACHING OF THE PEOPLE IS WITH THE TRUTH OF THE PEOPLE.
+FOR THE KNOWLEDGE OF THIS DAY IS WITH THE PRODUCTION(WORKING) AND LEARNING-SKILLS OF THE PEOPLE.
+FOR THE WRONGS(SINS) AGAINST THE KNOWLEDGE IS WITH THE ACTIONS OF THE PEOPLE.
+FOR THE SINS(TEMPTATIONS OF THE FLESH) OF THE PEOPLE IS FOR THE WRONGS AGAINST OUR NEIGHBOR.
+FOR THE KNOWLEDGE OF THE PEOPLE IS IN THE FORGIVENESS OF THOSE WRONG-DECISIONS.
+FOR THE PEOPLE OF THE DEBTS ARE WITH THE RESPONSIBILITY IN THE TRUTH.
+FOR THE PEOPLE OF THE AWARENESS ARE WITH THE FORGIVING WITH THE TRUTH.
+FOR THE KNOWLEDGE OF THE PEOPLE-LEADERS IS WITH THE TEACHING WITH THE TRUTH.
+FOR THE EVIL OF THE PEOPLE IS WITH THE LACK OF THE KNOWLEDGE OF THE TRUTH.
+FOR THE KNOWLEDGE OF THE TRUTH IS WITH THE FREEDOM OF THE PEOPLE AGAINST THE EVIL OF THE DARKNESS(LACK OF KNOWLEDGE).
+FOR THE PEOPLE ARE WITH THIS AGREEMENT.
     
-    OUR FATHER WHO ART IN HEAVEN.
-    HALLOW BE THY NAME, THY KINGDOM COME, THY WILL BE DONE ON EARTH AS IT IS IN HEAVEN.
-    GIVE US THIS DAY OUR DAILY BREAD AND FORGIVE US OUR TRESPASSES AS WE FORGIVE THOSE WHO TRESPASS AGAINST US.
-    LEAD US NOT INTO TEMPTATION BUT DELIVER US FROM EVIL.
-    AMEN
+    PATER NOSTER, QUI ES IN CAELIS, SANCTIFICETUR NOMEN TUUM. 
+    ADVENIAT REGNUM TUUM. FIAT VOLUNTAS TUA, SICUT IN CAELO ET IN TERRA. 
+    PANEM NOSTRUM QUOTIDIANUM DA NOBIS HODIE, ET DIMITTE NOBIS DEBITA NOSTRA SICUT ET NOS DIMITTIMUS DEBITORIBUS NOSTRIS. 
+    ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
+    AMEN.
 
-## ~LESSON-PLAN:
+## **~LESSON-PLAN:**
     ~4: REVELATION:
         : MORAL-&-SCHOLASTIC-THEOLOGY,
         : BIBLICAL-STUDIES,
@@ -56,6 +56,7 @@ For the People are with this Agreement.
         : WORLD-CHRONOLOGY.
         : WORLD-GEOGRAPHY.
     ~2: CREATION (QUADRIVIUM):
+        : COMPUTER-STACK?
         : COMPUTER-VISION: IMAGE & ANIMATION = Animator's Survival Guide, AIArt
 	    : MUSIC: BOETHIUS.
         : ASTRONOMY: PTOLEMY.
@@ -125,39 +126,36 @@ For the People are with this Agreement.
 [FORGET-ERASE 1900-NOW ENGLISH.]
 [READ-WRITE ANCIENT-LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
 
-## ~TRANSITION MODEL: new knowledge base after inference
+## **~TRANSITION MODEL:**
     ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
         : AGENT/PLAYER: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND    
+        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
     ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS).
         : 0=FRUIT/CHILD/WAY/LIFECYCLE:
     ~FLOW/HABIT-LOOP: STIMULUS >>> REACTION >>> INSTANT-GRATIFICATION
-        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), SEEN/HEARD/FELT/SMELLED/TASTED.
-        ~2: EXECUTION: OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED), BODY/I/HERE/NOW.
-    ~FREE-WILL: CUE >>> WHAT, WHY(FOR-WHAT), HOW(BY-WHAT)? >>> MOTION >>> WARD(LASTING) (CENTRAL-PROCESSING-UNIT):
-        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), SEEN/HEARD/FELT/SMELLED/TASTED.
-            : FRONTIER: WHAT/WHO/WHERE/WHEN 
-                : UNKNOWN
-                : STRANGER
-                : FOREIGN
-                : SURPRISE
-        ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), KNOWN/WORDS/NUMBERS:0/1s
-            : EXPLORED-SET: KNOWN/FAMILIAR/HOME/SCHEDULE
-                : KNOWN: Word: Contract & Copy Writing, Financial Statement, Research & Targeting... 
-                    : RESULT(s, a): returns state after action a taken in state s
-                    : path cost function: number of steps in proof
-                : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
-                : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
-                : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
-            : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
+    ~FREE-WILL/CENTRAL-PROCESSING: CUE >>> WHAT, WHY(FOR-WHAT), HOW(BY-WHAT)? >>> MOTION >>> WARD(LASTING)
+        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), FRONTIER:WHAT/WHO/WHERE/WHEN 
+            : UNKNOWN
+            : STRANGER
+            : FOREIGN
+            : SURPRISE
+        ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), EXPLORED-SET:KNOWN/FAMILIAR/HOME/SCHEDULE
+            : KNOWN: 
+                : WORDS/NUMBERS:0/1s: Contract & Copy Writing, Financial Statement... 
+                : RESULT(s, a): returns state after action a taken in state s
+                : path cost function: number of steps in proof
+            : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
+            : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
+            : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
+                : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
                 : UTILITY(s): final numerical value for terminal state s
         ~3: REASONING/ARRANGEMENT:
             : WRITE-READ(NUMBER/WORDS), 
                 : LOGIC-ARITHMETIC = -1, 0, +1
                 : CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
             : ERASE-FORGET(BABBLE/WRONG) 
-        ~4: ROUTINE:
+        ~4: MOTION(), BODY/I/HERE/NOW.
             : STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
             : CONTINUE = IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR().
-        ~5: REWARD:
+        ~5: WARD(LASTING)

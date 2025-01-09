@@ -3,7 +3,7 @@
 	: Optical Character Recognition (OCR): IMAGE FOR-BY DOCUMENT
 
 ~2: CLASSIFY(TEXT), CODES:
-	: Image Convolution = applying a filter that add each pixel value of an image to its neighbors, weighted according to a kernel matrix
+	: ImageConvolution = applying a filter that add each pixel value of an image to its neighbors, weighted according to a kernel matrix
     0=CONJUNCTION= AND, OR, &, /, 
 	1=ADVERB = 
 		: suffix: -LY
@@ -35,16 +35,12 @@
 			you, your, yes
 		: VOID-APPLY ON THESE WORDS = JULY, ITALY &: WORDS-ENDING WITH THE -PLY, SUFFIX=: APPLY, COMPLY, SUPPLY, MULTIPLY.	
 		: [NOT APPLY ON THESE WORDS = JULY, ITALY, AND WORDS-ENDING WITH THE -PLY: APPLY, COMPLY, SUPPLY, MULTIPLY]	
-	
     2=VERB = IS/ARE,
-	
     3=ADJECTIVE
     4=PRONOUN
-    
     5=POSITION
     6=LODIAL
     7=FACT
-    
     8=PAST-TENSE:
 		: SUFFIX: -ed, -en
 		: been, had, has, have, past, was, were, voted
