@@ -700,12 +700,38 @@ Summary of Logical Steps
     This structured approach ensures efficient learning and high-quality sequence transduction.
 
 ###########################################################################################################
+~MEMORY HIERARCHY LEVELS: Focuses on hierarchy by speed and cost efficiency, supporting temporary and volatile storage.
+1. REGISTERS = 
+2. CACHE MEMORY = 
+3. MAIN MEMORY (RAM) = 
+4. SECONDARY STORAGE = 
+5. TERTIARY STORAGE
+6. CLOUD STORAGE
+
+~FILE SYSTEM MEMORY HIERARCHY: Deals with directory structures, access permissions, and long-term storage management.
+1. PHYSICAL STORAGE LAYER
+2. CLOCK STORAGE LAYER
+3. FILE SYSTEMN METADATA LAYER
+4. DIRECTORY TREE STRUCTURE
+5. FILE-LEVEL ABSTRACTION
+6. ACCESS CONTROL AND PERMISSIONS LAYER.
+7. LOGICAL FILE ORGANIZATION (INDEXING/ALLOCATION)
+8. NETWORKING AND DISTRIBUTED FILE SYSTEMS
+
+~DATA NORMALIZATION: Emphasizes redundancy reduction, relational design, and ensuring data integrity.
+1. UNNORMALIZED FORM (UNF)
+2. FIRST NORMAL FORM (1NF)
+3. SECOND NORMAL FORM (2NF)
+4. THIRD NORMAL FORM (3NF)
+5. BOYCE-CODD NORMAL FORM (BCNF)
+7. FIFTH NORMAL FORM (5NF)
+8. SIXTH NORMAL FORM (6NF)
+###########################################################################################################
 ~DATABASE FUNDAMENTALS:
 1. Much of what is involved with a database is created behind the scenes
     What: The complexities of database design, optimization, and operation are not visible to the end users.
     Why: To ensure smooth functionality and efficiency without exposing users to technical complexities.
     How: By using tools like DBMS software to manage and optimize the database engine and underlying schema.
-
 2. Databases and DBMS
     What: Databases store data, and a DBMS is used to manage and interact with the database.
     Why: To efficiently store, retrieve, and manage data while enforcing rules and relationships.
@@ -714,7 +740,6 @@ Summary of Logical Steps
         DML: Manipulate data (insert, update, delete).
         DCL: Enforce security and user access.
         Query Language: Retrieve specific data.
-
 3. Relational DBMS
     What: A type of DBMS that organizes data into tables with rows and columns.
     Why: To store related data (e.g., customers and orders) and enforce relationships between them.
@@ -722,7 +747,6 @@ Summary of Logical Steps
         Use tables for structured storage.
         Link tables using primary and foreign keys.
         Follow business rules to define relationships.
-
 4. Database Design Process
     What: The structured process of creating a database schema that supports application requirements.
     Why: To ensure the database meets business needs, enforces rules, and avoids redundancy.
@@ -732,7 +756,6 @@ Summary of Logical Steps
         Use tools like ERD for logical design.
         Normalize the schema to minimize redundancy and ensure consistency.
         Create a physical design for performance optimization.
-
 5. Normalization
     What: A process for organizing data to reduce redundancy and ensure consistency.
     Why: To create efficient and reliable databases that avoid data duplication and inconsistencies.
@@ -740,7 +763,6 @@ Summary of Logical Steps
         1NF: Ensure atomic attributes and no repeating groups.
         2NF: Eliminate partial dependencies on composite primary keys.
         3NF: Remove transitive dependencies (non-key attributes depending on other non-key attributes).
-
 6. Entity-Relationship Diagram (ERD)
     What: A graphical representation of entities and their relationships.
     Why: To visually represent business rules, relationships, and data structures.
@@ -748,7 +770,6 @@ Summary of Logical Steps
         Identify entities (e.g., customers, orders).
         Define relationships (e.g., one-to-many between customers and orders).
         Use ERD notations (e.g., IDEF1X) to depict the schema.
-
 7. The Database Engine
     What: The core set of programs in a DBMS that handles all database operations.
     Why: To execute database operations efficiently.

@@ -171,13 +171,7 @@ Template for Writing a Combined Scholastic Essay and Speech Format
             : Time (BY-NOW): Temporal setting (e.g., yesterday, morning).
     : ETYMOLOGY.
 
-#########################################################################################################
-: Introduce New Related Word Group, typically based on common Latin or Greek roots.
-: Break down root and affixes, along with usage examples in sentences.
-: Match words to their definitions, use them in sentences, or choose the correct word in a given context
-: Provides the correct answers and explanations.
-: Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-: goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
+
 
 #########################################################################################################
 Definition of Valid Syllogisms:
@@ -751,9 +745,14 @@ Summary of Refuting Each Fallacy
 
 Each type of fallacy requires a specific approach to refutation. For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. For fallacies outside language, focusing on the logical structure, causation, or evidentiary support is essential. By following these steps, you can systematically dismantle faulty reasoning, reinforcing logical clarity and fostering a more accurate discussion.
 
+#########################################################################################################
+: Introduce New Related Word Group, typically based on common Latin or Greek roots.
+: Break down root and affixes, along with usage examples in sentences.
+: Match words to their definitions, use them in sentences, or choose the correct word in a given context
+: Provides the correct answers and explanations.
+: Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+: goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
 
-##########################################################################################################
-##########################################################################################################
 ~-1:
 : "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
         : MADNESS, NIGHTMARE, Worst Case
@@ -827,7 +826,7 @@ Each type of fallacy requires a specific approach to refutation. For fallacies i
             : Round-Time: 3 minutes   
         : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
-######################################################################################################################################################################################
+#########################################################################################################
 ~TO-DO: How Computer Vision be?
     
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
@@ -1319,3 +1318,73 @@ Ptolemy’s Almagest is one of the most important astronomical texts from antiqu
         The Almagest became the authoritative astronomical text in both the Islamic world and medieval Europe, where it was translated into Arabic and later into Latin.
         Ptolemy’s geocentric model remained dominant until the Copernican Revolution in the 16th century, when heliocentric models gained acceptance.
         Although later found to be incorrect, the Almagest showcased advanced mathematical and observational techniques, marking a major milestone in the history of science.
+
+#   **~PERSONALITIES:**
+##  : Theophrastus’ Characters:
+1. The Dissembler
+    Every word, and every action, of the Dissembler is an artifice by which he labors to conceal some evil intention…
+2. The Adulator
+    Adulation is the base converse of an inferior with one from whom he seeks some sordid advantage.
+3. The Garrulous
+    Garrulity is an effusion of prolix and unpremeditated discourse.
+4. The Rustic
+    Rusticity is an unconsciousness of things indecorous.
+5. The Plausible
+    He who would fain please all the world is one who habitually sacrifices virtues to blandishments.
+6. The Ruffian
+    The Ruffian is distinguished by the recklessness with which he perpetrates or witnesses atrocities.
+7. The Loquacious
+    The loquacious man, whatever you may be talking of, presently interrupts you…
+8. The Fabricator of News
+    It is to gratify his love of the marvellous that this man spends his life in the invention and propagation of falsehoods.
+9. The Sordid
+    The man is justly called a lover of filthy lucre to whom the relish and value of a gain is enhanced by the baseness of the means that have been employed in its acquisition…
+10.  The Shameless
+    The union of avarice and audacity produces a total disregard of decency and reputation…
+11. The Parsimonious
+    Parsimony is an excessive and unreasonable sparing of expense.
+12.  The Impure
+    This man is everywhere to be known by the open and scandalous grossness of his manners; he wilfully offends the eye of modesty…
+13. The Blunderer
+    He whose words and actions, though they may be well intended, are never well timed, is a most troublesome companion…
+14. The Busybody
+    In the proffered services of the Busybody there is much of the affectation of kindheartedness, and little efficient aid…
+
+    “The busybody is like a spy, who is always prying into other people’s affairs.”
+    Theophrastus, Characters
+
+15.  The Stupid
+    There is a sluggishness of mind in some persons which occasions them perpetually to stumble into absurdities of language or behavior…
+16. The Morose
+    A malignant temper sometimes vents itself chiefly in ferocity of language…
+17. The Superstitious
+    Superstition is a desponding fear of divinities.
+18.  The Petulant
+    A petulant temper will make occasion, where it cannot find reason, for murmurings and rebukes…
+19.  The Suspicious
+    The suspicious man imputes a fraudulent intention to every one with whom he has to do…
+20. The Filthy
+    This fellow neglects his person till he becomes a nuisance to all about him…
+21.  The Disagreeable
+    It is perhaps easier to bear with a neighbor, from whom we occasionally receive some serious injury, than with a constant companion, whose conversation is tedious, and whose manners are unpleasant.
+22.  The Vain
+    When ambition is the ruling passion of a vulgar mind, it shows itself in the eager pursuit of frivolous distinctions.
+23.  The Penurious
+    The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
+24. The Ostentatious
+    The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
+25.  The Proud
+    The proud man regards the whole human race with contempt; himself excepted…
+
+    “The boaster is like a trumpet that makes a great noise, but produces nothing of value.”
+    Theophrastus, Characters
+26.  The Fearful
+    There is in some men a constitutional dejection of the spirits, which renders them liable to the constant tyranny of fear…
+27.  The Old Trifler
+    This foolish fellow, although he is threescore; would ſain distinguish himself in accomplishments and exercises proper only to youth…
+28.  The Detractor
+    The Detractor utters not a word that does not betray the malignancy of his soul…
+29. The Oligarch
+    An arrogant desire to dominate over his fellows appears in the opinions, the conduct, and the manners of this partisan of despotism…
+30. The Malignant
+    Some men love and pursue evil, purely for its own sake, with an eager relish. A man of this temper seeks his element amid the turbulences of public life…
