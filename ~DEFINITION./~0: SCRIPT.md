@@ -1349,7 +1349,6 @@ Ptolemy’s Almagest is one of the most important astronomical texts from antiqu
     He whose words and actions, though they may be well intended, are never well timed, is a most troublesome companion…
 14. The Busybody
     In the proffered services of the Busybody there is much of the affectation of kindheartedness, and little efficient aid…
-
     “The busybody is like a spy, who is always prying into other people’s affairs.”
     Theophrastus, Characters
 
@@ -1375,7 +1374,6 @@ Ptolemy’s Almagest is one of the most important astronomical texts from antiqu
     The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
 25.  The Proud
     The proud man regards the whole human race with contempt; himself excepted…
-
     “The boaster is like a trumpet that makes a great noise, but produces nothing of value.”
     Theophrastus, Characters
 26.  The Fearful
@@ -1388,3 +1386,4 @@ Ptolemy’s Almagest is one of the most important astronomical texts from antiqu
     An arrogant desire to dominate over his fellows appears in the opinions, the conduct, and the manners of this partisan of despotism…
 30. The Malignant
     Some men love and pursue evil, purely for its own sake, with an eager relish. A man of this temper seeks his element amid the turbulences of public life…
+

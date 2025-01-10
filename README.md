@@ -148,6 +148,11 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
                 : path cost function: number of steps in proof
             : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
                 : Personality Types / Characters
+                    : True Colors
+                    : MBTI
+                    : Five-Factor Model
+                    : Enneagram
+                    : Theophrastus' Characters
             : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
             : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
                 : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
