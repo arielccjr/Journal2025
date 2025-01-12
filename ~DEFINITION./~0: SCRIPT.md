@@ -145,7 +145,7 @@ Template for Writing:
             : Subcontrariety: I and O are subcontrary propositions; they can both be true but cannot both be false.
             : Subalternation: There is a truth dependency from universal to particular (A → I and E → O). If A is true, then I must be true; if E is true, then O must be true. 
  ~1: GRAMMAR: CORRECT-PARSE-SYNTAX:
-    : SYLLOGISM: A syllogism is valid when it follows a logical form that guarantees the truth of the conclusion if the premises are true. 
+    : SYLLOGISM/DEMONSTRATION: A syllogism is valid when it follows a logical form that guarantees the truth of the conclusion if the premises are true. 
         : COMPONENTS:
             Major Term: The predicate of the conclusion (e.g., "mortal" in the example).
             Minor Term: The subject of the conclusion (e.g., "Socrates").
@@ -153,7 +153,10 @@ Template for Writing:
                 The middle term acts as the link between the two premises and determines how they connect to reach a conclusion.
     : PREMISES: Valid syllogisms ensure a sound flow from general statements (premises) to specific outcomes (conclusion).
         : Major Premise (Universal or Particular, Affirmative or Negative) "All humans are mortal."
+            First principles are foundational truths that require no further proof. They are known intuitively or through induction(generalizing from experience) and serve as the starting point for any demonstration.
+            Axioms are self-evident truths that require no proof and serve as foundational statements upon which further knowledge is built.
         : Minor Premise (Universal or Particular, Affirmative or Negative) "Socrates is a human."
+            Known fact
         : Conclusion (Follow rules of distribution and quality to validate) "Therefore, Socrates is mortal."
    : SENTENCE/PROPOSITION: SUBJECT-PREDICATE
         : TYPES OF PROPOSITIONS: 
@@ -161,13 +164,12 @@ Template for Writing:
             E: Universal Negative (e.g., "No S are P")
             I: Particular Affirmative (e.g., "Some S are P")
             O: Particular Negative (e.g., "Some S are not P")
-    : KNOWN: POSITION-LODIAL-FACT:
+    : KNOWN: POSITION-LODIAL-FACT: Develop Definitions: In Aristotle’s view, definitions capture the essential nature of things, 
         : Causality (Four Causes): Explains why things are as they are.
             : Material Cause: Substance from which something is made (e.g., bronze of a statue).
             : Formal Cause: Design or structure (e.g., statue’s shape).
             : Efficient Cause: Agent or creator (e.g., the sculptor).
             : Final Cause: Purpose or function (e.g., artwork’s role).
-            : Passion (Effect on Substance): Experiences that affect or modify the substance (e.g., being heated).
         : WORD: ETYMOLOGY (CATEGORIES):
             : Substance(Root): Refers to the core identity or essence of things, answering "What?"
             : Accidental Properties (Attributes): Characteristics that vary without changing substance.
@@ -177,75 +179,11 @@ Template for Writing:
                 : State: Temporary condition (e.g., asleep, armed).
                 : Action: Dynamic activities (e.g., cutting, writing).
                 : Relation: Connection between entities (e.g., father of, bigger than).
-                : Place (BY-HERE): Spatial location (e.g., at home).
-                : Time (BY-NOW): Temporal setting (e.g., yesterday, morning).
+                : Place: Spatial location (e.g., at home).
+                : Time: Temporal setting (e.g., yesterday, morning).
+                : Passion (Effect on Substance): Experiences that affect or modify the substance (e.g., being heated).
 
 ##########################################################################################################
-Key Aspects of Aristotle’s Method for Demonstration and Scientific Knowledge:
-    Start with Demonstration: Aristotle defines a demonstration as a logical argument that produces certain knowledge. 
-        For an argument to be a true demonstration, its premises must be true, primary, and better known than the conclusion, 
-        meaning they should be inherently trustworthy and foundational.
-    Purpose: Demonstration aims to transform primary premises into a conclusion that logically and necessarily follows, 
-        ensuring that knowledge derived is accurate and reliable.
-    Example:
-        Premise 1: "All humans are mortal."
-        Premise 2: "Socrates is a human."
-        Conclusion: "Therefore, Socrates is mortal."
-    This demonstration produces certain knowledge by starting from universally accepted premises to reach a logical conclusion.
-
-Identify First Principles: First principles are foundational truths that require no further proof. 
-        They are known intuitively or through induction(generalizing from experience) and serve as the starting point for any demonstration.
-    Role: First principles are the basis from which all other knowledge is derived. 
-        Without first principles, demonstrations would lack a solid foundation, making logical arguments unreliable.
-    Example: In mathematics, the statement “the whole is greater than the part” is a first principle—
-        it is self-evident and does not need proof.
-
-Explain Causality: Aristotle introduces the concept of four causes—material, formal, efficient, and final—
-    that explain why things exist and behave as they do. 
-    Understanding these causes is crucial for scientific inquiry, as they offer a complete explanation of any phenomenon.
-        Material Cause: The substance or matter from which something is made (e.g., the bronze in a statue).
-        Formal Cause: The form or arrangement of something (e.g., the design of the statue).
-        Efficient Cause: The agent or process that brings something into being (e.g., the sculptor creating the statue).
-        Final Cause: The purpose or function of something (e.g., the statue’s role as an artwork).
-    Purpose: By analyzing these causes, Aristotle’s method provides a comprehensive understanding of phenomena, 
-        grounding scientific knowledge in concrete explanations.
-
-Develop Definitions: In Aristotle’s view, definitions capture the essential nature of things, 
-    providing a clear understanding of their characteristics and differentiating them from other entities.
-    Role: Definitions are essential in science and philosophy, as they establish precise terminology 
-        that allows for accurate communication and reasoning. 
-        Good definitions are based on essential properties rather than accidental features.
-    Example: A definition of “triangle” as “a three-sided polygon” identifies its essential characteristics, 
-        helping to clarify its nature for further reasoning.
-
-Establish Axioms: Axioms are self-evident truths that require no proof and serve as foundational statements upon which further knowledge is built. They are widely accepted as true and provide a basis for demonstrating new knowledge.
-    Role: Axioms allow for consistency in reasoning, as all derived knowledge is built upon these undeniable truths.
-    Example: In geometry, the axiom "through any two points, there is a straight line" is a foundational truth 
-        used to prove further geometric properties.
-
-Use Syllogisms for Scientific Proof: Once first principles and axioms are known, 
-    syllogistic reasoning allows for the deduction of new truths. 
-    Aristotle’s syllogisms connect premises in a logical sequence, leading to conclusions that follow necessarily from the premises.
-    Purpose: Using syllogisms, Aristotle’s method enables the systematic development of scientific knowledge, 
-        where new insights are derived logically from existing truths.
-    Example:
-        First Principle: "All mammals are warm-blooded."
-        Known Fact: "Dolphins are mammals."
-        Syllogistic Conclusion: "Therefore, dolphins are warm-blooded."
-
-##########################################################################################################
-Key Elements of Dialectic Reasoning:
-1. Start with Common Opinions: Dialectic reasoning begins with premises that are accepted opinions—beliefs that are widely held or generally agreed upon within a society or group, though they may not be universally true.
-    Why (For What): This approach enables discussions that engage with the views and beliefs people already hold, making the argument relatable and accessible to a broader audience. By starting with accepted opinions, dialectical reasoning encourages dialogue and understanding without requiring absolute proof for each premise.
-    Example: In a discussion about justice, a common opinion might be, “Justice means giving people what they deserve.” While not an absolute truth, this belief is widely accepted and can serve as a basis for further reasoning.
-
-2. Formulate Dialectical Syllogisms: Similar to syllogisms in formal logic, dialectical syllogisms are arguments that consist of two premises and a conclusion. However, in dialectical reasoning, these premises are based on commonly accepted views rather than certain knowledge.
-    Why (For What): Using dialectical syllogisms allows for structured reasoning based on shared beliefs, leading to conclusions that, while not certain, are reasonable and convincing. This method fosters agreement in discussions by grounding arguments in familiar ideas.
-    Example:
-        Premise 1: “Justice means giving people what they deserve.” (common opinion)
-        Premise 2: “Punishing criminals gives them what they deserve.” (common opinion)
-        Conclusion: “Therefore, punishing criminals is just.”
-
 3. Identify Topics (Commonplaces): Aristotle introduces topics (topoi) or commonplaces, which are standard types of arguments or strategies that can be used to structure dialectical reasoning. These topics include general principles or categories that guide the formulation of arguments.
     Why (For What): Topics provide a framework for generating and organizing arguments, making it easier to find relevant points to support or refute a position. They serve as strategic tools that allow participants to draw from a range of ideas to strengthen their argumentation.
     Example: One topic might be definition, where a debater could argue by defining a term in a way that supports their point. Another might be comparison, where one compares two situations to draw a parallel in their argument.
