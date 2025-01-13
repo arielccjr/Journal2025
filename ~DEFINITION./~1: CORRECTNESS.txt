@@ -1,39 +1,13 @@
 ~1: IN(IMAGE/PDF), TEXT:
     : Scanner
 	: Optical Character Recognition (OCR): IMAGE FOR-BY DOCUMENT
+	: ImageConvolution = applying a filter that add each pixel value of an image to its neighbors, weighted according to a kernel matrix
 
 ~2: CLASSIFY(TEXT), CODES:
-	: ImageConvolution = applying a filter that add each pixel value of an image to its neighbors, weighted according to a kernel matrix
     0=CONJUNCTION= AND, OR, &, /, 
 	1=ADVERB = 
 		: suffix: -LY
 		: ADVERBS-GUIDE-LIST:
-			a, about, above, against, after, all, also, always, amid, among, an, anti, any, anywhere, apart, are, around, as, at, away,
-			back, bad, be, because, been, before, begin, behind, below, beneath, beside, best, between, beyond, by,
-			can, come, could,
-			dear, deep, don't, due, during,
-			each enough, ever, except,
-			family,
-			far, first, for, fore, forward, from free, full, further, 
-			go, good, great,
-			had, has, have, hence, her, here, him, his, home, how,
-			I, if, in, indeed, inside, instead, into, is, it, its,
-			just,
-			keep,
-			last, less, like, live, long, loud, 
-			make, many, may, meanwhile, minus, more, most, much, must, my,
-			near, never, new, next, no, not, nothing,
-			of, off, often, on, other, onto, opposite, our, ourselves, over, own,
-			past, per, please, plus,
-			quiet, quite,
-			regardless, round,
-			same, save, say, seldom, send, shall, she, short, should, since, so, some, sometimes, soon, such, still,
-			take, the, than, that, their, them, these, there, they, this, those, through, thus, to, too, toward, twice,
-			under, unless, unlike, until, up, upon, us, us, use,
-			very, via,
-			want, was, way, we, well, were, what, when, where, whether, which, while, who, whose, why, will, with, within, would, 
-			you, your, yes
-		: VOID-APPLY ON THESE WORDS = JULY, ITALY &: WORDS-ENDING WITH THE -PLY, SUFFIX=: APPLY, COMPLY, SUPPLY, MULTIPLY.	
 		: [NOT APPLY ON THESE WORDS = JULY, ITALY, AND WORDS-ENDING WITH THE -PLY: APPLY, COMPLY, SUPPLY, MULTIPLY]	
     2=VERB = IS/ARE,
     3=ADJECTIVE
@@ -111,34 +85,34 @@
 		: RULE-10: An adverb before a conjunction remains an adverb, 
 			because it’s not the end of a sentence or punctuation. 
 
-		: SYNTAX-SEQUENCE-KEY:
-			: Fence =           |
-			: Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
-			: Punctuation=		|[Punctuation]|
-			: and, &, or, /=	|0|
-			: -ly word=		    |1(-ly)|
-			: Adverb-List word=	|1 1|
-								|1 1 1|
-								|1 1(-ly) 1|
-			Verb: =			    |1 2|
-								|1 2 1|
-								|1 1 2 1(-ly)|
-			Adjective-Pronoun=	|1| >>> |4|
-								|1 3 4|
-								|1 3... 3 4|
-								|3 4|
-								|3... 3 4|
-								|4|
-								|4 1|
-			End of Sentence=	|1(.?!)| >>> |4|
-								|1 1(.?!)| >>> |1 2DPV[End](.?!))|	
+    : SYNTAX-SEQUENCE-KEY:
+        : Fence =           |
+        : Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
+        : Punctuation=		|[Punctuation]|
+        : and, &, or, /=	|0|
+        : -ly word=		    |1(-ly)|
+        : Adverb-List word=	|1 1|
+                            |1 1 1|
+                            |1 1(-ly) 1|
+        Verb: =			    |1 2|
+                            |1 2 1|
+                            |1 1 2 1(-ly)|
+        Adjective-Pronoun=	|1| >>> |4|
+                            |1 3 4|
+                            |1 3... 3 4|
+                            |3 4|
+                            |3... 3 4|
+                            |4|
+                            |4 1|
+        End of Sentence=	|1(.?!)| >>> |4|
+                            |1 1(.?!)| >>> |1 2DPV[End](.?!))|	
 	: RIGHT:
 		: SYMBOLS/ALPHABET:
 		: WORD:
 			5=POSITION,
 			6=LODIAL,
 			7=FACT,
-		: SENTENCE:
+		: SENTENCE: 
 			: CAUSE: FOR THE CLAIMANT'S KNOWLEDGE (CAUSE)
 			: CONSEQUENCE/[E]FFECT: OF THE FACTS (EFFECT)
 			: VERB: IS/ARE (THINKING/ACTION)

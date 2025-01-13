@@ -1,169 +1,103 @@
-~FOCUS:
-	: BASH SCRIPT FOR COMPUTER STACK: ACCESSING WEB, SCRIPT WRITING
-	: Review CRASHCOURSE: Computer Science
-
-~WHY: FOR THE COMPUTE
-    : DIFFERENCE ENGINE
-    : ANALYTICAL ENGINE
-    : FOR THE TABULATING OF THE CENSUS
-    : GLOBALIZED TRADE
-
-~HOW: ELECTRONIC COMPUTING
-    : HARVARD MK 1: Mechanical Relays
-    : Thermaionic Valve >>> Triode Vaccuum Tube
-    : THE BOMBE >>> COLOSSUS MK 1
-    : IBM 608: Transistors
-
-~MODERN COMPUTER STACK: 
-    Transistor - Web Browser
-~0: DIVIDE/UNCERTAINTY: Random variable 
-	: NOT-IN-NOT-OUT:
-		Hide	| Block
-		Mute	| Deafen
-		Pause	| Detach
-		Choke	| Mask
-		Break	| Fast
-	: Error/Flags     
-		Collision/Network Congestion= conflict with transfer in carrier
-			Routine Problem, Hop Limit
-			Scrambled Packets
-			Growing Wait-Time
-		Kernel Panic/Crash, Overflow= not enough memory bit 
-		Dirty Bit= Mismatch between Cache and RAM, Bugs, Worm, Malware 
-    : Cybersecurity:
-        : Threat Model, 
-            : Attack vector
-            : Brute Force Attack
-        : Questions: 
-            : Who are you?
-            : What should you have access to?
-            : What you have?
-            : What you are?
-        : Authentication
-            : Passwords
-            : 2/Multi-Factor
-        : Premission:
-            : Read = Allows a user to see the contents of a file
-            : Write = Allows a user to modify the contents
-            : Execute = Allows user to run a file
-        : Malware:
-            : 
-        : Security Kernel =
-            : Independent Verification & Validation
-        : Isolation/Sandbox
-        : Virtual Machine
-    : Hackers: 
-        : White Hats
-        : Black Hats
-        : Social Engineering
-            : Phishing
-            : Pre-texting
-        : NAND Mirroring 
-        : Malware:
-            : Trojan Horse
-        : Bug Exploits:
-            : Buffer Overflow
-            : Bounds Checking
-            : Canaries
-            : Code Injections
-        : Zero Day Vulnerability
-        : Security Patches 
-        : DDos Attacks
-    : Cryptography: Defense
-        : Encription 
-            : Symmetric
-            : Asymmetric
-                : Public
-                : Private
-        : Decryption
-        : Ceasar Cipher
-        : Cryptoanalyst
-        : Subsctitution Cipher
-        : Columnar Transposition Cipher
-            : Enigma Rotor
-            : The Bombe
-        : Data Encryption Standard
-            : Advanced Encryption Standard
-        : Key Exchange
-            : Diffie-Hellman
-        : Modular Exponentiation
-	
-~1: IN/FETCH:SEE/HEAR/FEEL/SMELL/TASTE() ~4: OUT/EXECUTE:BE(RIGHT), HARDWARES:
-	: IN-OUTPUT DEVICES/PERIPHERALS:
-		: See/Camera      = Show/Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3D Projection,
+~MODERN COMPUTER STACK: Transistor - Web Browser
+~HARDWARE: 
+    : Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
+	: In-Output Devices/Peripherals:
+		: See/Camera      = Show/Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
 		: Hear/Microphone = Speak/Speaker
 		: Feel/Keyb/Mouse = Move/Animation/Events
 		: Inhale/Cooler   = Exhale/Exhaust
-		: Eat/Power       = Create/Heat
+		: Eat/Power       = Create/Heat/PowerSupply
+        : Router+Swtich, 
+    : Computer:
+        : More Bits for more Instruction/Memory Length:
+            : Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
+        : Central/Graphical Processing Unit (C/GPU): 
+            : Clock
+            : Temporary Memory Registers:
+                : Instruction Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
+                    : Multiplexer: MUX = (a AND NOTsel) OR (sel AND b)
+                        : NOT (in=sel, out=NOTsel)
+                        : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                        : AND (in=sel, in=b, out=selANDb)
+                        : OR (in=aANDNOTsel, in=selANDb, out=out)
+                    : Matrix >>> Gate >>> AND-OR Latch: Memory Address
+                        : AND (in=column, in=row, out=columnANDrow)
+                            : AND (in=data, in=write-enable, out=set)
+                            : NOT (in=data, out=NOTdata)
+                            : AND (in=NOTdata, in=write-enable, out=reset)
+                                : OR (in=set, in=outLOOP, out=setORoutLoop)
+                                : NOT (in=reset, out=NOTreset)
+                                : AND (in=setORoutLOOP, in=NOTreset, out=out)
+                    : Memory Register/Bit: Flip Flops: out[t] = in[t-1]
+                        : OR-LOOP (in=a, in=b, out=1)
+                        : AND-LOOP (in=a, in=b, out=0) 
+                : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
+                    : Load 
+                    : Arithmetic = Half>Full>Multi-bit Adder:
+                        : XOR (in=a, in=b, out=abSUM)
+                            : AND (in=a, in=b, out=aANDb); 
+                            : NOT (in=aANDb, out=NOTaANDb); 
+                            : OR (in=a, in=b, out=aORb); 
+                            : AND (in=NOTaANDb, in=aORb, out=out);
+                        : AND (in=a, in=b, out=abCARRY)	
+                            : >XOR (in=abSUM, in=c, out=abcSUM)
+                            : >AND (in=abSUM, in=c, out=abcCARRY)
+                                ; >OR (in=abCARRY, in=abcBARRY, out=out)
+                        : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
+                    : Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
+        : ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
 
-: DEVELOPMENT LIFECYCLE:
-    : Planning + Design: Survey-Prove Investors
-    : Prototyping (Testing) Development: FAIL FAST!
-    : Deployment: Proven Product
-    : Maintenance/Warranty
-: Engineering Collaboration:
-    : Source Control
-        : Quality Assurance
-        ; Roll Back
-    : Repository:
-        : Check in vs out
-        : Committing
-
-~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: The signals are received and converted back into data bits.
-    : 1. Physical Layer
-        Transistors convert digital signals (0s and 1s) into electrical, light, or radio waves
-        These signals represent raw binary data
-        Electrical pulses are transmitted through various media like copper wires, fiber optic cables, or wireless signals
-    : 2. Data Link Layer
-        Organizes raw bits into frames
-        Adds error detection and correction mechanisms
-        Manages how devices on the same network communicate
-        Transistor-based circuits ensure accurate signal interpretation
-    : 3. Network Layer: The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
-        Handles routing of data packets between different networks
-        Uses IP addresses to determine destination
-        Breaks large data into smaller, manageable packets
-        Transistor-based routers and switches make routing decisions
+~SOFTWARE: OPERATING SYSTEM: Automation/Learning, Optimization/Multi-Tasking, Device Driver
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
+        : 1. Physical Layer:
+            Transistors convert digital signals (0s and 1s) into electrical, light, or radio waves
+            These signals represent raw binary data
+            Electrical pulses are transmitted through various media like copper wires, fiber optic cables, or wireless signals
+        : 2. Data Link Layer: The frames are reassembled and validated for any transmission errors.
+            Organizes raw bits into frames
+            Adds error detection and correction mechanisms
+            Manages how devices on the same network communicate
+            Transistor-based circuits ensure accurate signal interpretation
+        : 3. Network Layer: 
+            The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
+            Handles routing of data packets between different networks
+            Uses IP addresses to determine destination
+            Breaks large data into smaller, manageable packets
+            Transistor-based routers and switches make routing decisions
             : Internet Protocol (IP) Header: InternetServiceProvider(ISP)>Wide>LocalAreaNetwork>MAC Address
-    : 4. Transport Layer: Segments are reassembled, and any lost data is retransmitted.
-        Ensures reliable data transfer
-        Manages data segmentation and reassembly
-        Provides error checking and flow control
-        TCP/UDP protocols govern how data is packaged and transmitted
+        : 4. Transport Layer: Segments are reassembled, and any lost data is retransmitted.
+            Ensures reliable data transfer
+            Manages data segmentation and reassembly
+            Provides error checking and flow control
+            TCP/UDP protocols govern how data is packaged and transmitted
             : Transmission Control Protocol (TCP): Sequence Switching/Routing Packets, Acknowledging
-    : 5. Application Layer: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
-        Interfaces with user applications
-        Protocols like HTTP, FTP define how applications communicate
-        Translates user requests into network commands 
-    
-    : Session: The session is maintained or closed as necessary.
-    : Data Link: The frames are reassembled and validated for any transmission errors.
-        : Data Payload (UDP): 
-            : TCP Header: Software Port + Checksum
-            : Data 
-    : Presentation: The data is decoded or decompressed if needed.
-
-        : Domain Name System (DNS) + Web-Server Address
-        : Web-Browser/Search Engine: Hypertext Transfer Protocol (HTTP)
-            : Web-Address/Page: Universal Resource Locator (URL) + Hyperlinks
-            : Hypertext Markup Language (HTML)
-            : Index: Frequency of Words + Backlinks
-
-~SOFTWARE: OPERATING SYSTEM: Fetch >>> Decode >>> Execute, Automation/ Learning, Optimization/Multi-Tasking, Device Driver
+                : TCP Header: Software Port + Checksum
+            : Data Payload (UDP): 
+                : Data 
+        : 5. Application Layer: 
+            The data is handed off to the application that requested it, such as a web browser displaying a webpage.
+            Interfaces with user applications
+            Protocols like HTTP, FTP define how applications communicate
+            Translates user requests into network commands 
+            : Domain Name System (DNS) + Web-Server Address
+            : Web-Browser/Search Engine: Hypertext Transfer Protocol (HTTP)
+                : Web-Address/Page: Universal Resource Locator (URL) + Hyperlinks
+                : Hypertext Markup Language (HTML) + CSS
+                : Index: Frequency of Words + Backlinks
     : MACHINE-CODE = OPERATION CODE (OPCODE): INSTRUCTION + MEMORY ADDRESS:
         : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
         : Memory Bit: BinaryStates: 0, 1 (Base-2 Notation)
-    : INSTRUCTION/ALGORITHM: Function>Algorithm/Sort>Compression: Brute Force, Selection, Merge, Dijkstra... 
-         : LOAD + MEMORY ADDRESS
+    : INSTRUCTION/ALGORITHM: Function>Algorithm/Sort>Compression: 
+        : LOAD + MEMORY ADDRESS
             : Read (Enable) DATA in MEMORY ADDRESS (RAM)
             : Write (Enable) DATA in Temporary Memory Register
-            : 
         : ADD/SUBTRACT + MEMORY ADDRESS(ES)
         : STORE
             : Write (Enable) DATA in MEMORY ADDRESS 
             : Read (Enable) DATA in Temporary Memory Register
         : JUMP / JUMP-NEGATIVE + MEMORY ADDRESS
         : HALT   
+        : Brute Force, Selection, Merge, Dijkstra... 
         : ControlFlow: Conditional Statement: If/While/For... function(input1, 2)
             : Triggers: Automatically executes actions in response to table events. To enforce rules and maintain data integrity.
             : Conditionals: Enables decision-making in code. To perform actions based on conditions.
@@ -220,47 +154,93 @@
             : Foreign Key Constraint: Links two tables to maintain referential integrity. To model relationships between tables.
         : Indexes(References): Improves the speed of data retrieval. To optimize query performance.
 
-~HARDWARE: DNS/WEB SERVER, DATA CENTERS & PERSONAL COMPUTERS:
-    : Parallelization > Instruction Pipelining > Pipelined Superscalar > Multi-core CPU's
-        Multi-bit Bus: a[n], number of bit, More Bits for more Instruction/Memory Length
-    : Central/Graphical Processing Unit (C/GPU): 
-        : Clock 
-        : Temporary Memory Registers:
-            : Instruction Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
-                : Multiplexer: MUX = (a AND NOTsel) OR (sel AND b)
-                    : NOT (in=sel, out=NOTsel)
-                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
-                    : AND (in=sel, in=b, out=selANDb)
-                    : OR (in=aANDNOTsel, in=selANDb, out=out)
-                : Matrix >>> Gate >>> AND-OR Latch: Memory Address
-                    : AND (in=column, in=row, out=columnANDrow)
-                        : AND (in=data, in=write-enable, out=set)
-                        : NOT (in=data, out=NOTdata)
-                        : AND (in=NOTdata, in=write-enable, out=reset)
-                            : OR (in=set, in=outLOOP, out=setORoutLoop)
-                            : NOT (in=reset, out=NOTreset)
-                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : Memory Register/Bit: Flip Flops: out[t] = in[t-1]
-                    : OR-LOOP (in=a, in=b, out=1)
-                    : AND-LOOP (in=a, in=b, out=0) 
-            : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
-                : Load 
-                : Arithmetic = Half>Full>Multi-bit Adder:
-                    : XOR (in=a, in=b, out=abSUM)
-                        : AND (in=a, in=b, out=aANDb); 
-                        : NOT (in=aANDb, out=NOTaANDb); 
-                        : OR (in=a, in=b, out=aORb); 
-                        : AND (in=NOTaANDb, in=aORb, out=out);
-                    : AND (in=a, in=b, out=abCARRY)	
-                        : >XOR (in=abSUM, in=c, out=abcSUM)
-                        : >AND (in=abSUM, in=c, out=abcCARRY)
-                            ; >OR (in=abCARRY, in=abcBARRY, out=out)
-                    : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
-                : Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
-    : ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
-        : INTERNETDEEPSEECABLES, COPPERWIRE/ETHERNETCABLE/RADIOWAVES/WIFI, ROUTER+SWITCH: COLLISIONDOMAIN
+~AUTHORIZATION/SECURITY: Session: The session is maintained or closed as necessary.
+    : DIVIDE/UNCERTAINTY: Random variable 
+        : NOT-IN-NOT-OUT:
+            Hide	| Block
+            Mute	| Deafen
+            Pause	| Detach
+            Choke	| Mask
+            Break	| Fast
+        : Error/Flags     
+            Collision/Network Congestion= conflict with transfer in carrier
+                Routine Problem, Hop Limit
+                Scrambled Packets
+                Growing Wait-Time
+            Kernel Panic/Crash, Overflow= not enough memory bit 
+            Dirty Bit= Mismatch between Cache and RAM, Bugs, Worm, Malware 
+        : Cybersecurity:
+            : Threat Model, 
+                : Attack vector
+                : Brute Force Attack
+            : Questions: 
+                : Who are you?
+                : What should you have access to?
+                : What you have?
+                : What you are?
+            : Authentication
+                : Passwords
+                : 2/Multi-Factor
+            : Premission:
+                : Read = Allows a user to see the contents of a file
+                : Write = Allows a user to modify the contents
+                : Execute = Allows user to run a file
+            : Malware:
+                : 
+            : Security Kernel =
+                : Independent Verification & Validation
+            : Isolation/Sandbox
+            : Virtual Machine
+        : Hackers: 
+            : White Hats
+            : Black Hats
+            : Social Engineering
+                : Phishing
+                : Pre-texting
+            : NAND Mirroring 
+            : Malware:
+                : Trojan Horse
+            : Bug Exploits:
+                : Buffer Overflow
+                : Bounds Checking
+                : Canaries
+                : Code Injections
+            : Zero Day Vulnerability
+            : Security Patches 
+            : DDos Attacks
+        : Cryptography: Defense
+            : Encription 
+                : Symmetric
+                : Asymmetric
+                    : Public
+                    : Private
+            : Decryption
+            : Ceasar Cipher
+            : Cryptoanalyst
+            : Subsctitution Cipher
+            : Columnar Transposition Cipher
+                : Enigma Rotor
+                : The Bombe
+            : Data Encryption Standard
+                : Advanced Encryption Standard
+            : Key Exchange
+                : Diffie-Hellman
+            : Modular Exponentiation
+        
+    ~ENGINEERING/COLLABORATION:
+        : DEVELOPMENT LIFECYCLE:
+            : Planning + Design: Survey-Prove Investors
+            : Prototyping (Testing) Development: FAIL FAST!
+            : Deployment: Proven Product
+            : Maintenance/Warranty
+        : Source Control
+            : Quality Assurance
+            ; Roll Back
+        : Repository:
+            : Check in vs out
+            : Committing
 
-############################################################################################################################################
+###########################################################################################################
 : NOTES: ARTIFICIAL INTELLIGENCE NOTES
     : EXPLORED-SET = KNOWN/FAMILY/HOME/SCHEDULE (CORRECTNESS)
         : sentence = an assertion about the world in a knowledge representation language; Propositional Logic
