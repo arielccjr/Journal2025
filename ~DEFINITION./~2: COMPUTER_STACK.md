@@ -15,7 +15,6 @@
     : IBM 608: Transistors
 
 ~MODERN COMPUTER STACK: 
-
     Transistor - Web Browser
 ~0: DIVIDE/UNCERTAINTY: Random variable 
 	: NOT-IN-NOT-OUT:

@@ -1,7 +1,6 @@
 # **OF THE ETYMOLOGY.**
 
 ## ~LATIN: 
-
 ### : Latin Alphabet (A-Z):
 The Latin alphabet has the same letters as the English alphabet but carries meanings rooted in its Classical and Phoenician origins.
 

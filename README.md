@@ -55,72 +55,17 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
     ~3: EXPERIENCE: 
         : WORLD-CHRONOLOGY.
         : WORLD-GEOGRAPHY.
-    ~2: CREATION (QUADRIVIUM):
+    ~2: CREATION (QUADRIVIUM): 
         : COMPUTER-STACK?
         : COMPUTER-VISION: IMAGE & ANIMATION = Animator's Survival Guide, AIArt
 	    : MUSIC: BOETHIUS.
         : ASTRONOMY: PTOLEMY.
         : GEOMETRY: EUCLID.
         : ARITHMETIC: NICOMACHUS.
-    ~1: REASON/PHILOSOPHY (TRIVIUM):
+    ~1: REASON/PHILOSOPHY (TRIVIUM): 
         ~3: RHETORIC.
-            : SOPHISTICAL ELENCHI,
-            : TOPICS,
         ~2: DIALECTIC.
-            : ANALYTICS:
-                : PRIOR,
-                : POSTERIOR.   
-            : LOGISTICAL CONSISTENCY:
-                : Simple Conversion
-                : Limited Conversion
-                : Direct Reduction
-                : Indirect Reduction (Reductio ad Absurdum)
-            : SYLLOGISTIC RULES:
-                : Rule of Distribution
-                : Rule of Quantity and Quality
-            : SYLLOGISTIC FIGURES
-                : First Figure (AAA) - Barbara
-                : Second Figure (EAE) - Camestres
-                : Third Figure (IAI) - Datisi
-                : Fourth Figure (Added by later logicians)
-            : SYLLOGISM:
-                : Major Premise (Universal or Particular, Affirmative or Negative)
-                : Minor Premise (Universal or Particular, Affirmative or Negative)
-                : Conclusion (Follow rules of distribution and quality to validate)
         ~1: GRAMMAR: CORRECT-PARSE-SYNTAX: 
-            : RELATIONSHIPS BETWEEN PROPOSITIONS:
-                : Contradiction
-                : Contrariety
-                : Subcontrariety
-                : Subalternation
-            : SENTENCE/PROPOSITION: POSITION-LODIAL-FACT VERB POSITION-LODIAL-FACT.
-                : MODAL PROPOSITIONS:
-                    : Necessity
-                    : Possibility
-                    : Mixed Modalities            
-                : TYPES OF PROPOSITIONS: 
-                    : A: Universal Affirmative ("All humans are mortal")
-                    : E: Universal Negative ("No humans are mortal")
-                    : I: Particular Affirmative ("Some humans are mortal")
-                    : O: Particular Negative ("Some humans are not mortal")                
-                : POSITION-LODIAL-FACT:
-            : CATEGORIES:
-                : SUBSTANCE: Refers to the core identity or essence of things, answering "What?"
-                : Accidental Properties (Attributes): Characteristics that vary without changing substance.
-                    : Quantity: Measurable aspects (e.g., length, size).
-                    : Quality: Characteristics that define "what kind" (e.g., color, emotion).
-                    : Position: Arrangement or posture (e.g., sitting).
-                    : State: Temporary condition (e.g., asleep, armed).
-                    : Action: Dynamic activities (e.g., cutting, writing).
-                    : Relation: Connection between entities (e.g., father of, bigger than).
-                    : Place: Spatial location (e.g., at home).
-                    : Time: Temporal setting (e.g., yesterday, morning).
-                    : Passion (Effect on Substance) 
-                    : Causality (Four Causes): Explains why things are as they are.
-                        : Material Cause
-                        : Formal Cause
-                        : Efficient Cause
-                        : Final Cause           
             : ETYMOLOGY.
 : NOTE-FOR-SELF: 
 [FORGET-ERASE 1900-NOW ENGLISH.]
