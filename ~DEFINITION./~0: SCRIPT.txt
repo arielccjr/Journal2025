@@ -286,7 +286,7 @@
         : Battle Cycle: 1 move/turn at a time
         : DEADLINE: Goal State, Completion
             : Best of 7 Rounds
-            : Round-Time: 3 minutes   
+            : Round-Time: 3 minutes
         : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 #########################################################################################################
