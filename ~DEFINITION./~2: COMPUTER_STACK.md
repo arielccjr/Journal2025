@@ -521,7 +521,7 @@
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
         : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
 
-####################################################################################################################################################################################
+######################################################################################################
 ~ATTENTION IS ALL YOU NEED:
 1. Encoder-Decoder Architecture Overview
 	Goal: Convert an input sequence into an output sequence (e.g., translating English to German).
@@ -599,7 +599,343 @@ Summary of Logical Steps
     5. BOYCE-CODD NORMAL FORM (BCNF)
     7. FIFTH NORMAL FORM (5NF)
     8. SIXTH NORMAL FORM (6NF)
-###########################################################################################################
+
+#########################################################################################################
+~ESP:
+~Customer Detail View:
+    : 0NF: INITIAL TABLE:
+        CustomerDetails
+        CustomerNumber(PK),
+            Name
+            Address
+            City
+            Province
+            PostalCode
+            HomePhone
+    : 1NF: Composite >>> Atomic
+        CustomerDetails
+        CustomerNumber(PK),
+            Name >>> LastName, FirstName
+            Address
+            City
+            Province
+            PostalCode
+            HomePhone
+    : 2NF:
+        CustomerDetails
+        CustomerNumber(PK),
+            LastName, FirstName
+            Address
+            City
+            Province
+            PostalCode
+            HomePhone
+    : 3NF:
+        CustomerDetails
+        CustomerNumber(PK),
+            LastName, FirstName
+            Address
+            City
+            Province
+            PostalCode
+            HomePhone
+    : ERD:
+        CUSTOMER
+        ---------------------
+        |   CustomerNumber  |
+        |-------------------| 
+        |   FirstName       |
+        |   LastName        |
+        |   Address         |
+        |   City            |
+        |   Province        |
+        |   PostalCode      |
+        |   Phone           |
+        ---------------------    
+
+~Customer Orders View:
+    : 0NF:
+        Order
+            CustomerName = Fred Smith
+            Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
+            Phone = 436-7867
+            CustomerNumber = 137
+            Date = Jan 16, 2000
+            OrderNumber(PK) = 219
+            ItemNumber =
+                H23
+                H319
+                M24
+            Description = 
+                Heater Fan Belt - 23 Degrees
+                Heater Fan Belt Support Brackets
+                Bolts - 24mm
+            Quantity =
+                1
+                2
+                8
+            Price =
+                11.99
+                4.99
+                0.29
+            Amount =
+                11.99
+                9.98
+                2.32
+            Subtotal = 24.29
+            GST = 1.70
+            Total = 25.99
+
+        Order
+        OrderNumber(PK), CustomerNumber, CustomerName, Address, Phone, Date,
+        (ItemNumber, Description, Quantity, CurrentPrice, SellingPrice, Amount), Subtotal, GST, Total
+
+    : 1NF:
+        Order
+            OrderNumber(PK) = 219
+                CustomerNumber = 137
+                    CustomerName = Fred Smith
+                        FirstName = Fred
+                        LastName = Smith 
+                    Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
+                        Street = 123 SomeWhere St.
+                        City = Edmonton
+                        Province = AB
+                        Postal Code = T5H2J9
+                    Phone = 436-7867
+                Date = Jan 16, 2000
+                Subtotal = 24.29
+                GST = 1.70
+                Total = 25.99
+        OrderItem 
+            OrderNumber(FK)(PK)
+                ItemNumber(PK) =
+                    H23
+                    H319
+                    M24
+                    Description = 
+                        Heater Fan Belt - 23 Degrees
+                        Heater Fan Belt Support Brackets
+                        Bolts - 24mm
+                    Quantity =
+                        1
+                        2
+                        8
+                    CurrentPrice=
+                    SellingPrice=
+                        11.99
+                        4.99
+                        0.29
+                    Amount =
+                        11.99
+                        9.98
+                    2.32
+        Order
+        OrderNumber(PK), CustomerNumber, LastName, FirstName, Street, City, Province, PostalCode, Phone, Date, Subtotal, GST, Total
+
+        OrderItem
+        OrderNumber(FK)(PK), ItemNumber(PK), Description, Quantity, CurrentPrice, SellingPrice, Amount
+
+    : 2NF:
+        Order
+            OrderNumber(PK) = 219
+                CustomerNumber = 137
+                    CustomerName = Fred Smith
+                        FirstName = Fred
+                        LastName = Smith 
+                    Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
+                        Street = 123 SomeWhere St.
+                        City = Edmonton
+                        Province = AB
+                        Postal Code = T5H2J9
+                    Phone = 436-7867
+                Date = Jan 16, 2000
+                Subtotal = 24.29
+                GST = 1.70
+                Total = 25.99
+        OrderItem 
+            OrderNumber(FK)(PK)
+                ItemNumber(FK)(PK) =
+                    H23
+                    H319
+                    M24
+                Quantity =
+                    1
+                    2
+                    8        
+                SellingPrice=
+                    11.99
+                    4.99
+                    0.29
+                Amount =
+                    11.99
+                    9.98
+                    2.32        
+        Item 
+            ItemNumber(PK)
+            Description = 
+                Heater Fan Belt - 23 Degrees
+                Heater Fan Belt Support Brackets
+                Bolts - 24mm
+            CurrentPrice=
+
+        Order
+        OrderNumber(PK), CustomerNumber, LastName, FirstName, Street, City, Province, PostalCode, Phone, Date, Subtotal, GST, Total
+
+        OrderItem
+        OrderNumber(FK)(PK), ItemNumber(FK)(PK), Quantity, SellingPrice, Amount
+
+        Item
+        ItemNumber(PK), Description, CurrentPrice
+
+    : 3NF:
+        Order
+            OrderNumber(PK) = 219
+                CustomerNumber(FK) = 137
+                    CustomerName = Fred Smith
+                        FirstName = Fred
+                        LastName = Smith 
+                    Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
+                        Street = 123 SomeWhere St.
+                        City = Edmonton
+                        Province = AB
+                        Postal Code = T5H2J9
+                    Phone = 436-7867
+                Date = Jan 16, 2000
+                Subtotal = 24.29
+                GST = 1.70
+                Total = 25.99
+        Customer
+            CustomerNumber(PK)
+                FirstName
+                LastName
+            Address 
+                Street
+                City
+                Province
+                PostalCode
+            Phone
+        OrderItem 
+            OrderNumber(FK)(PK)
+                ItemNumber(FK)(PK) =
+                    H23
+                    H319
+                    M24
+                Quantity =
+                    1
+                    2
+                    8        
+                SellingPrice=
+                    11.99
+                    4.99
+                    0.29
+                Amount =
+                    11.99
+                    9.98
+                    2.32        
+        Item 
+            ItemNumber(PK)
+            Description = 
+                Heater Fan Belt - 23 Degrees
+                Heater Fan Belt Support Brackets
+                Bolts - 24mm
+            CurrentPrice=
+
+        Order
+        OrderNumber(PK), CustomerNumber(FK), Date, Subtotal, GST, Total
+
+        Customer
+        CustomerNumber(PK), FirstName, LastName, Address, City, Province, PostalCode, Phone
+
+        OrderItem
+        OrderNumber(FK)(PK), ItemNumber(FK)(PK), Quantity, SellingPrice, Amount
+
+        Item
+        ItemNumber(PK), Description, CurrentPrice
+
+~ESP2:
+    : 0NF:
+        PaymentLog
+            CustomerName    = David Williams
+            CustomerNumber  = 78
+            OrderNumber     = 123
+            OrderDate       = Jan 11/2029
+            OrderTotal      = $145.18
+            Date            =
+                            Jan 11/99
+                            Jan 18/99
+            PaymentAmount   =
+                            100.00
+                            45.18
+            PaymentNumber   =
+                            1
+                            2
+            BalanceOwing    =
+                            45.18
+                            0.00
+            PaymentType     =
+                            Cheque
+                            Cash
+            DepositBranch#  =
+                            118
+                            118
+    : 1-2-3NF: PaymentLog
+        OrderTable
+        OrderNumber(FK)(PK) = 123
+            OrderDate           = Jan 11/2029
+            OrderTotal          = $145.18
+            CustomerNumber(FK)
+            
+            CustomerTable
+            CustomerNumber(PK) = 78
+                CustomerName
+                    FirstName   = David
+                    LastName    = Williams
+        
+            PaymentTable
+            PaymentNumber(PK)=
+                                1
+                                2                
+                    PaymentDate     =
+                                    Jan 11/99
+                                    Jan 18/99
+                    PaymentAmount   =
+                                    100.00
+                                    45.18
+                    BalanceOwing    =
+                                    45.18
+                                    0.00
+                    PaymentType     =
+                                    Cheque
+                                    Cash
+                    DepositBranch#  =
+                                    118
+                                    118
+    Initial Table:
+        Order
+        OrderNumber(PK), OrderDate, OrderTotal, CustomerName, CustomerNumber, 
+        (PaymentDate, PaymentAmount, PaymentNumber, BalanceOwing, PaymentType, DepositBranchNumber)
+    
+    1-2NF Table:
+        Order
+        OrderNumber(PK), OrderDate, OrderTotal, FirstName, LastName, CustomerNumber
+        
+        Payment
+        OrderNumber(PK)(FK), PaymentDate, PaymentAmount, PaymentNumber(PK), BalanceOwing, PaymentType, DepositBranchNumber
+
+    3NF Table:
+        Order
+        OrderNumber(FK)(PK), OrderDate, OrderTotal, CustomerName, CustomerNumber(FK), 
+
+        Customer
+        CustomerNumber(PK) FistName, LastName
+
+        Payment
+        OrderNumber(PK)(FK), PaymentNumber(PK), PaymentDate, PaymentAmount, BalanceOwing, PaymentType, DepositBranchNumber
+
+
+
+
 ~DATABASE FUNDAMENTALS:
     1. The complexities of database design, optimization, and operation are not visible to the end users.
         Why: To ensure smooth functionality and efficiency without exposing users to technical complexities.
@@ -680,6 +1016,7 @@ How:
         Relationships:
             Dashed lines for non-identifying relationships.
             Solid lines for identifying relationships.
+
 Normalization is a systematic process of organizing data in a relational database to reduce redundancy and ensure data integrity.
     Goal: To determine:
         How many tables are needed.
@@ -725,6 +1062,7 @@ Steps in Normalization
             Anomalies are minimized, resulting in reliable and consistent data management.
 
 Normalization: How
+
 Why Normalize?
 Large tables with many columns can:
     Be hard to interpret and manage.
@@ -734,8 +1072,8 @@ Normalization solves these problems by systematically breaking large tables into
     Simplifies understanding.
     Minimizes redundancy.
     Reduces the likelihood of anomalies.
-Normal Forms
-Normalization involves organizing a database into one of several normal forms, each based on specific rules. The main normal forms are:
+
+Normal Forms: Normalization involves organizing a database into one of several normal forms, each based on specific rules. The main normal forms are:
     First Normal Form (1NF):
         Ensures that all columns contain atomic (indivisible) values.
         Eliminates repeating groups or arrays within a table.
