@@ -30,32 +30,32 @@
     : SUPPORTING ARGUMENTS (Arguments for the Thesis)
         : Introduction:         I believe that we can choose to break free of automatic patterns.” 
             : Proof 1:          First,
-                : Premise 1:    Mankind can reflect on our thoughts and actions.”
+                : Premise 1:    Mankind reflects on our thoughts and actions.”
                 : Premise 2:    Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
                 : Conclusion:   This self-awareness gives us the power to stop and correct our habit loop.”
                 : Evidence:     Many adherents report heightened focus and energy.”
-            : Proof 2:          Secondly, We show free will when we delay gratification to achieve long-term goals.”
+            : Proof 2:          Secondly, We delay gratification to achieve long-term goals.”
 		: Premise:
                 : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
                 : Conclusion:   This ability to prioritize the future over immediate impulses is free will.”
             : Proof 3:          And third, 
-                : Premise:      Unlike animals, we have ethics and laws to cultivate our instincts.”
+                : Premise:      Unlike animals, we have ethics and laws that cultivate our instincts.”
                 : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
                 : Conclusion:   We act with intention, rather than instinct.”
         : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
     : REFUTATION OF COUNTERARGUEMENTS:
         : Main Refutation:
-		: Refute 1st:	Habits may be responses to stimulus, but we can be reprogrammed. Neuroplasticity shows that we can change our patterns through conscious effort.”
+		: Refute 1st:	Habits may be responses to stimulus, but we can be reprogrammed we can change our patterns through conscious effort.”
 		: Refute 2nd: 	We may be driven by hunger or horniness, but we cultivate these drives by fasting and abstinence.
 		: Refute 3rd: 	Habits may be muscle memory, but conscious awareness can still override automatic processes, as seen in moments of deliberate choice.”        
         : Additional Support:
-            : Sub-Point 1: 	Stories of Transformation
+            : Sub-Point 1: 
                 : Evidence: 	People may suffer habit loop of addiction, but they can rehabilitate and achieve remarkable success by exercising free will.”
-            : Sub-Point 2:  	The Role of Intention
-                : Evidence: 	The simple act of pausing before responding to a stimulus is itself an exercise of free will.”
+            : Sub-Point 2:  	This can be on a larger scale:
+                : Evidence: 	For example: we have stopped wars with the simple act of pausing before responding to a stimulus/provocation is itself an exercise of free will.”
 ~CONCLUSION:
     : Restate Question:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
-    : Thesis:           	The evidence suggests we are capable of both — influenced by habits but empowered to rise above them.
+    : Thesis:           	We are capable of both — of habits, but empowered to rise above them.
     : Summarize Meaning:    	This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
     : Review Points:
 		Main Point 1:	Habits and instincts strongly influence our behavior.
