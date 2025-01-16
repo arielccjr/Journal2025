@@ -2,57 +2,55 @@
 ~TITLE:             	Are We Slaves Of Passions or Masters Of Free Will?
 ~INTRODUCTION:
     : GREETINGS:    	Good afternoon/evening, fellow Toastmasters (and guests).
-    : HOOK:         	Have you ever cursed a word out of a sudden?
-    			"Fu-! Shi-! What the Huh?"
-    : QUESTION:     	Is this your choice, or your instinct?
-    : MEANING:      	This habit shows our 2 sides:
-	            	or are we merely animals bound by the habit loop of stimulus, reaction, and instant gratification?”
-                    	Do we act out of conscious free will,
-	                If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
-    : THESIS:       	And with this speech, I argues that while we are animals of habits, 
-                    	we have free will — the ability to choose and rise above the flow of our passions.”
+    : HOOK:         	"Fu-! Shi-! What the Huh?"
+			Have you ever cursed, like that?
+    : QUESTION:     	Is this by instinct, or by choice?
+    : MEANING:      	Are we bound by our habit loop or do we act out of our free will?
+    : THESIS:       	I believe that while we are creatures of habits,
+               		we have free will — the ability to choose.”
     : TRANSITION:	First: why we are slaves of our passions? 
-                    	Are we truly free, or are we just slaves to our habits and passions?
 ~BODY: 
     : COUNTERARGUMENTS (Arguments Against the Thesis)
-        : Introduction:		You probably believe that humans, like other animals, are driven by instinct and habit rather than choice.”
-        : Support:		And you are probabaly right.
-            : Sub-Point 1:	The Habit Loop and Conditioning: Psychologists like B.F. Skinner suggest that much of human behavior is conditioned through reward and punishment.”
-                : Evidence: 	For example, dopamine spikes in response to a stimulus, such as social media likes, create a loop of stimulus and reaction.”
-            : Sub-Point 2:	The Power of Instinctual Drives: You are not you when you're hungry (and/or horny). Our evolutionary biology prioritizes survival and reproduction, driving many of our actions.”
-                : Evidence:	Hunger, fear, and sexual desires often override logical decision-making.”
-            : Sub-Point 3:	Neurological Determinism: Neuroscience suggests that decisions are made in the brain before we are even consciously aware of them.”
-                : Evidence:	Studies using brain imaging reveal that neural activity predicts decisions seconds before subjects consciously decide.”
-        : Transition:      	You are right.
+        : Introduction:		You probably believe that we, like other animals, are driven by instinct rather than choice.”
+        : Support:		And you are probabaly right, because...
+            : 1st Point:	First, our habits are responses to stimulus. 
+                : Evidence: 	For example, 
+				dopamine spikes in response to a stimulus, 
+				such as social media likes, create a loop of stimulus and reaction.”
+				like reward and punishment.
+            : 2nd Point:	Second, You are not you when you're hungry (and/or horny). 
+				We seem to prioritize survival and reproduction, driving many of our actions.”
+                : Evidence:	Hunger, fear, and sexual desires override logical decision-making.”
+            : 3rd Point:	And third, our decisions are made in the brain before we are even aware of them.”
+				Muscle Memory: 
+                : Evidence:	Neural activity predicts decisions seconds before subjects consciously decide.”
+				For example: when you touch something hot, we flinch.
+        : Transition:      	You are right: We are slaves of our passions.
 				But what if this is only half-true?
-
     : SUPPORTING ARGUMENTS (Arguments for the Thesis)
         : Introduction:         I believe that we can choose to break free of automatic patterns.” 
-	    : Support:
-            : Proof 1:          First of all: The Capacity for Self-Awareness
-                : Premise 1:    Mankind has the unique ability of reflecting on their thoughts and actions.”
+            : Proof 1:          First,
+                : Premise 1:    Mankind can reflect on our thoughts and actions.”
                 : Premise 2:    Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
-                : Conclusion:   This self-awareness gives us the power to intervene in the habit loop.”
+                : Conclusion:   This self-awareness gives us the power to stop and correct our habit loop.”
                 : Evidence:     Many adherents report heightened focus and energy.”
-            : Proof 2:          Secondly, The Role of Delayed Gratification
-                : Premise:      Free will is shown when we delay gratification to achieve long-term goals.”
-                : Evidence:     The famous Stanford marshmallow experiment showed that children who resisted immediate temptation tended to have better life outcomes.”
-                : Conclusion:   This ability to prioritize the future over immediate impulses reflects free will.”
-            : Proof 3:          And finally, Cultural and Ethical Evolution
-                : Premise:      Unlike animals, humans create systems of ethics and laws to rise above instinct.”
-                : Evidence:     Movements for human rights, environmentalism, and scientific progress require decisions that transcend personal gratification.”
-                : Conclusion:   These choices reflect our capacity to act with intention rather than instinct.”
-                : Evidence:     Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
+            : Proof 2:          Secondly, We show free will when we delay gratification to achieve long-term goals.”
+		: Premise:
+                : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
+                : Conclusion:   This ability to prioritize the future over immediate impulses is free will.”
+            : Proof 3:          And third, 
+                : Premise:      Unlike animals, we have ethics and laws to cultivate our instincts.”
+                : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
+                : Conclusion:   We act with intention, rather than instinct.”
         : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
-
     : REFUTATION OF COUNTERARGUEMENTS:
         : Main Refutation:
-		: First Refute:	The Habit Loop: “While habits play a significant role, they can be reprogrammed. Neuroplasticity shows that we can change our patterns through conscious effort.”
-		: 2nd Refute: 	Instinctual Drives: “Biology may provide the foundation, but humans often act against their instincts — fasting, for instance, goes against the drive to eat.”
-		: 3rd Refute: 	Neurological Determinism: “Neuroscience reveals patterns, but conscious awareness can still override automatic processes, as seen in moments of deliberate choice.”        
-        : Provide Additional Support:
+		: Refute 1st:	Habits may be responses to stimulus, but we can be reprogrammed. Neuroplasticity shows that we can change our patterns through conscious effort.”
+		: Refute 2nd: 	We may be driven by hunger or horniness, but we cultivate these drives by fasting and abstinence.
+		: Refute 3rd: 	Habits may be muscle memory, but conscious awareness can still override automatic processes, as seen in moments of deliberate choice.”        
+        : Additional Support:
             : Sub-Point 1: 	Stories of Transformation
-                : Evidence: 	“People who overcome addiction or achieve remarkable success often do so by exercising free will against powerful habitual forces.”
+                : Evidence: 	People may suffer habit loop of addiction, but they can rehabilitate and achieve remarkable success by exercising free will.”
             : Sub-Point 2:  	The Role of Intention
                 : Evidence: 	The simple act of pausing before responding to a stimulus is itself an exercise of free will.”
 ~CONCLUSION:
