@@ -1,103 +1,157 @@
 : FOR THE GIFT OF THE WORD.
+~TITLE:             Are We Slaves Of Passions or Masters Of Free Will?
 ~INTRODUCTION:
-    : TITLE: Clearly state the central question or topic.
-	"Are We Slaves to Passion or Masters of Free Will?"
-    : GREETINGS:
-        “Good [morning/evening], fellow Toastmasters and guests.”
-    : HOOK: Begin with a strong question or statement to capture interest.
-	“Have you ever reached for your phone instinctively, even when you didn’t need it? Was it your choice, or were you just reacting? 
-	This simple act reflects a profound question: Are we truly free, or are we just slaves to our habits and passions?”
-    : DIALECTICAL QUESTION: Introduce the central question in a way that presents two opposing views.
-        “Do we act out of conscious free will, 
-	or are we merely animals bound by the habit loop of stimulus, reaction, and instant gratification?”
-    : MEANING: Explain why the topic is relevant or important.
-        “This question isn’t just philosophical. 
-	It impacts how we see ourselves, how we live, and how we approach our goals and relationships.”
-    : Thesis Statement: Clearly state your position or the answer to the question.
-	“This speech will argue that while we are influenced by habitual and instinctual drives, we possess the capacity for free will 
-	— the ability to choose and rise above the current of our passions.”
-    : TRANSITION: Lead into the main points.
-	“Let’s first examine the arguments that suggest we are slaves to our passions before diving into why free will still matters.”
+    : GREETINGS:    Good afternoon/evening, fellow Toastmasters and guests.
+    : HOOK:         Have you ever reached for your phone instinctively, even when you didn’t need it?
+                    Was it your choice, or were you just reacting? 
+    : QUESTION:     This simple act reflects a profound question: 
+                    Do we act out of conscious free will, 
+	                or are we merely animals bound by the habit loop of stimulus, reaction, and instant gratification?”
+                    Are we truly free, or are we just slaves to our habits and passions?
+    : MEANING:      This question impacts how we see ourselves, how we live, and how we approach our goals.
+    : THESIS:       This speech argues that while we are influenced by habitual and instinctual drives, 
+                    we possess the capacity for free will — the ability to choose and rise above the flow of our passions.”
+    : TRANSITION:   Let’s first examine the arguments that suggest we are slaves to our passions before diving into why free will still matters.”
 ~BODY: 
-    : SECTION 1: Counterarguments (Arguments Against the Thesis)
-        : Introduce Main Counterarguments: State the primary arguments opposing your thesis.
-            “Some argue that humans, like other animals, are driven by instinct and habit rather than conscious choice.”
-        : Support Counterarguments with Evidence and Sub-Points:
-            : Sub-Point 1: The Habit Loop and Conditioning: 
- 		“Psychologists like B.F. Skinner suggest that much of human behavior is conditioned through reward and punishment.”
-                : Support/Evidence: “For instance, dopamine spikes in response to a stimulus, 
-			such as social media likes, create a loop of stimulus and reaction.”
-            : Sub-Point 2: The Power of Instinctual Drives
-                 “Our evolutionary biology prioritizes survival and reproduction, driving many of our actions.”
-                : Support/Evidence: “Hunger, fear, and sexual desires often override logical decision-making.”
-            : Sub-Point 3: Neurological Determinism 
-                Neuroscience suggests that decisions are made in the brain before we are even consciously aware of them.”
-                : Support/Evidence: “Studies using brain imaging reveal that neural activity predicts decisions 
-			seconds before subjects consciously decide.”
-        : Transition to Supporting Points: “While these arguments paint a compelling picture, they don’t tell the whole story. Let’s now explore why free will is not just an illusion.”
+    : COUNTERARGUMENTS (Arguments Against the Thesis)
+        : Introduction:     Some argue that humans, like other animals, are driven by instinct and habit rather than conscious choice.”
+        : Support:
+            : Sub-Point 1:  The Habit Loop and Conditioning: 
+                            Psychologists like B.F. Skinner suggest that much of human behavior is conditioned through reward and punishment.”
+                : Evidence: For instance, dopamine spikes in response to a stimulus, 
+			                such as social media likes, create a loop of stimulus and reaction.”
+            : Sub-Point 2:  The Power of Instinctual Drives: 
+                            Our evolutionary biology prioritizes survival and reproduction, driving many of our actions.”
+                : Evidence: Hunger, fear, and sexual desires often override logical decision-making.”
+            : Sub-Point 3:  Neurological Determinism: 
+                            Neuroscience suggests that decisions are made in the brain before we are even consciously aware of them.”
+                : Evidence: Studies using brain imaging reveal that neural activity predicts decisions 
+			                seconds before subjects consciously decide.”
+        : Transition:       While these arguments paint a compelling picture, they don’t tell the whole story. 
+                            Let’s now explore why free will is not just an illusion.”
 
-    : SECTION 2: Supporting Arguments (Arguments for the Thesis)
-        : Present Main Proofs for Thesis: Begin with the main arguments supporting your thesis.
-       		“Free will may not be absolute, but we can consciously choose to break free from automatic patterns.” 
-	: Expand Each Argument with Evidence and Logical Reasoning:
-            : Proof 1: The Capacity for Self-Awareness
-                Premise 1: “Humans have the unique ability to reflect on their thoughts and actions.”
-                Premise 2: “Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
-                Conclusion: “This self-awareness gives us the power to intervene in the habit loop.”
-                Evidence: “Many adherents report heightened focus and energy.”
-            : Proof 2: The Role of Delayed Gratification
-		Premise: “Free will is demonstrated when we delay gratification to achieve long-term goals.”
-		Evidence: “The famous Stanford marshmallow experiment showed that children 
-			who resisted immediate temptation tended to have better life outcomes.”
-		Conclusion: “This ability to prioritize the future over immediate impulses reflects free will.”
-                
-		Sub-Point: Discuss the concept of retaining essential nutrients.
-                    Support/Evidence: “Proponents argue the body can reabsorb nutrients, enhancing vitality.”
-            : Proof 3:  Cultural and Ethical Evolution
-		Premise: “Unlike animals, humans create systems of ethics and laws to rise above instinct.”
-		Evidence: “Movements for human rights, environmentalism, and scientific progress require decisions 
-			that transcend personal gratification.”
-		Conclusion: “These choices reflect our capacity to act with intention rather than instinct.”
-		
-		Sub-Point: Link to historical or cultural support for retention.
-                    Support/Evidence: “Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
-        : Transition to Refutation:
-		“Given these insights, let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+    : SUPPORTING ARGUMENTS (Arguments for the Thesis)
+        : Introduction:         Free will may not be absolute, but we can consciously choose to break free from automatic patterns.” 
+	    : Support:
+            : Proof 1:          The Capacity for Self-Awareness
+                : Premise 1:    Humans have the unique ability to reflect on their thoughts and actions.”
+                : Premise 2:    Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
+                : Conclusion:   This self-awareness gives us the power to intervene in the habit loop.”
+                : Evidence:     Many adherents report heightened focus and energy.”
+            : Proof 2:          The Role of Delayed Gratification
+                : Premise:      Free will is demonstrated when we delay gratification to achieve long-term goals.”
+                : Evidence:     The famous Stanford marshmallow experiment showed that children 
+                                who resisted immediate temptation tended to have better life outcomes.”
+                : Conclusion:   This ability to prioritize the future over immediate impulses reflects free will.”
+            : Proof 3:          Cultural and Ethical Evolution
+                : Premise:      Unlike animals, humans create systems of ethics and laws to rise above instinct.”
+                : Evidence:     Movements for human rights, environmentalism, and scientific progress require decisions 
+                                that transcend personal gratification.”
+                : Conclusion:   These choices reflect our capacity to act with intention rather than instinct.”
+                : Evidence:     Ancient cultures advocated semen retention as a means to preserve ‘life force.’”
+        : Transition:           Given these insights, let’s revisit the counterarguments and see why they don’t entirely negate free will.”
 
-: SECTION 3: Refutation of Counterarguments
-        : Address and Refute Main Counterarguments:
+    : REFUTATION OF COUNTERARGUEMENTS:
+        : Main Refutation:
 		: Refute First Counterargument: The Habit Loop
-			: Response: “While habits play a significant role, they can be reprogrammed. 
-			Neuroplasticity shows that we can change our patterns through conscious effort.”
+			: Response:     “While habits play a significant role, they can be reprogrammed. 
+			                Neuroplasticity shows that we can change our patterns through conscious effort.”
 		: Refute Second Counterargument: Instinctual Drives
-			: Response: “Biology may provide the foundation, but humans often act against their instincts 
-			— fasting, for instance, goes against the drive to eat.”
+			: Response:     “Biology may provide the foundation, but humans often act against their instincts 
+			                — fasting, for instance, goes against the drive to eat.”
 		: Refute Third Counterargument: Neurological Determinism
-			: Response: “Neuroscience reveals patterns, but conscious awareness can still override automatic processes, 
-			as seen in moments of deliberate choice.”        : Provide Additional Support:
-	: Provide Additional Support:
-		: Sub-Point 1: Stories of Transformation
-			: Evidence: “People who overcome addiction or achieve remarkable success often do so 
-			by exercising free will against powerful habitual forces.”
-		: Sub-Point 2: The Role of Intention
-			: Evidence: “The simple act of pausing before responding to a stimulus is itself an exercise of free will.”
+			: Response:     “Neuroscience reveals patterns, but conscious awareness can still override automatic processes, 
+			                as seen in moments of deliberate choice.”        
+            : Provide Additional Support:
+        : Provide Additional Support:
+            : Sub-Point 1:  Stories of Transformation
+                : Evidence: “People who overcome addiction or achieve remarkable success often do so 
+                            by exercising free will against powerful habitual forces.”
+            : Sub-Point 2:  The Role of Intention
+                : Evidence: The simple act of pausing before responding to a stimulus is itself an exercise of free will.”
 ~CONCLUSION:
-    : Restate the Question and Thesis:
-	“So, are we simply animals flowing along the current of passion, or do we have free will? 
-	The evidence suggests we are capable of both — influenced by habits but empowered to rise above them.”    
-    : Summarize Significance: Reinforce why this question matters.
-	“This question matters because it defines how we see ourselves and our potential. 
-	If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
-    : Review Key Points: Briefly recap the main points.
-	Example:
-		Main Point 1: Habits and instincts strongly influence our behavior.
-		Main Point 2: Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-		Main Point 3: Addressing counterarguments reveals the balance between instinct and choice.
-    : Close with a Thoughtful Statement: Offer a closing statement or call to action.
-	“Ultimately, the power to choose defines what it means to be human. 
-	Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
-	Thank you.”
+    : Restate Question:     “So, are we simply animals flowing along the current of passion, or do we have free will? 
+    : and Thesis:           The evidence suggests we are capable of both — influenced by habits but empowered to rise above them.”    
+    : Summarize Meaning:    “This question matters because it defines how we see ourselves and our potential. 
+	                        If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
+    : Review Points:
+		Main Point 1:       Habits and instincts strongly influence our behavior.
+		Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+		Main Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
+    : Closing:              “Ultimately, the power to choose defines what it means to be human. 
+	                        Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
+	                        Thank you.”
 
+##################################################################################################################################################################################################################
+~-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
+        : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
+        : DIVISION, LACKING
+    "SOIL FOR-BY SPOILVOID(-)."
+        : Disruptions, Damages, Uncontrolled Elements (Dice)
+        : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+        : Low Health, Resource Scarcity/Finity, Bankruptcy
+    "SACRIFICE FOR-BY MOTHERBEAST."
+        : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+        : NPCs, Requests/Puzzles, Opposition
+        : Alone, Low Population
+    "TRAP FOR-BY WILDWORLD."
+        : The Rat Race
+    "WAIT FOR-BY LIFECYCLE."
+        : Initial State, Beginning Again
+~+1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
+        : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+        : Defuse or trigger the bomb.
+        : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+        : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+    "SEED FOR-BY FRUITWORD(+)."
+        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+        : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+        : Experience Points, Abilities/Stats, New Moves, Karma, 
+        : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+        : Mental Dictionary/Library, pokedex, Map, Contact List,
+        : Reviews
+    "SON FOR-BY FATHERGOD."
+        : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+            : Club Roles:
+                : Sergeant-At-Arms
+                : Toastmaster
+                : General Evaluator:
+                    : Grammarian + Ah-Counter
+                    : Timer
+                    : Speech Evaluator
+                    : Table Topics Evaluator
+                : Speaker
+                : Table Topics Master
+            : Club Executives:
+                : President / Chief Executive Officer
+                : Vice Presidents / Chief Operating Officers:
+                    : VP Education
+                    : VP Membership
+                    : VP Public Relations
+                : Treasurer / Chief Financial Officer
+                : Secretary
+                : Sergeant-at-Arms 
+        : Maintain Healthy Population
+            : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
+            : Train, Battle: a balanced team/army
+            : Classes: Farmers, Artists, Merchants, Military, Emperor
+            : Climb the Status Ladder, Become the new Champion
+        : Testimonials
+    "WAY FOR-BY KINGDOMHEAVEN."
+        : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+        : Build Structures/LEVELS: Balance scope budget, and schedule  
+            : NAVIGATION, Maps, Atmosphere, Weather,
+            : Progressing the game storyline and accessing new areas.
+            : better positioning on the map, better territory
+    "CHANCE FOR-BY DEATHEND."
+        : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+        "Incorporation: December 1, 2024... 1-2 days per project
+        : PROGRESS = Tutorials, Saves, Updates: Journal?
+        : Battle Cycle: 1 move/turn at a time
+        : DEADLINE: Goal State, Completion
+            : Best of 7 Rounds
+            : Round-Time: 3 minutes
+        : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
 ~3: RHETORIC:
@@ -132,16 +186,11 @@
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
                 Example: If a celebrity endorses a health product, explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
     : TOPICS: standard types of arguments or strategies that can be used to structure dialectical reasoning. They serve as starting points for generating ideas or finding relevant points to discuss in a debate.
-        Definition: Establishing the meaning of a term to shape the argument 
-            (e.g., defining “courage” in a debate about ethics).
-        Comparison: Arguing by analogy or contrast, showing how two concepts relate or differ 
-            (e.g., comparing democracy to monarchy in a political debate).
-        Cause and Effect: Examining the relationship between an action and its outcome 
-            (e.g., “Punishment deters crime” in a discussion on justice).
-        Authority: Citing respected sources or figures to lend credibility to an argument 
-            (e.g., referring to expert opinions in a medical debate).
-        Examples: Using specific instances to illustrate or support a point 
-                (e.g., “In history, societies with strong education systems have prospered” in a discussion on education policy).
+        : Definition: Establishing the meaning of a term to shape the argument (e.g., defining “courage” in a debate about ethics).
+        : Comparison: Arguing by analogy or contrast, showing how two concepts relate or differ (e.g., comparing democracy to monarchy in a political debate).
+        : Cause and Effect: Examining the relationship between an action and its outcome (e.g., “Punishment deters crime” in a discussion on justice).
+        : Authority: Citing respected sources or figures to lend credibility to an argument (e.g., referring to expert opinions in a medical debate).
+        : Examples: Using specific instances to illustrate or support a point (e.g., “In history, societies with strong education systems have prospered” in a discussion on education policy).
     : ANALYTICS: Use Probable Reasoning: Dialectical reasoning produces conclusions that are probable rather than certain, since it is based on generally accepted beliefs rather than incontrovertible truths.
         : PRIOR,
         : POSTERIOR.   
@@ -242,76 +291,6 @@
 : Provides the correct answers and explanations.
 : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
 : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
-
-~-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
-        : MADNESS, NIGHTMARE, Worst Case
-        : FALACIES:
-    "SOIL FOR-BY SPOILVOID(-)."
-        : Disruptions, Damages, Uncontrolled Elements (Dice)
-        : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
-        : Low Health, Resource Scarcity/Finity, Bankruptcy
-    "SACRIFICE FOR-BY MOTHERBEAST."
-        : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
-        : NPCs, Requests/Puzzles, Opposition
-        : Alone, Low Population
-    "TRAP FOR-BY WILDWORLD."
-        : The Rat Race
-    "WAIT FOR-BY LIFECYCLE."
-        : Initial State, Beginning Again
-~+1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
-        : REASON, LOGIC, REALIZATION OF THE DREAM!
-        : Defuse or trigger the bomb.
-        : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-        : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-    "SEED FOR-BY FRUITWORD(+)."
-        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
-        : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-        : Experience Points, Abilities/Stats, New Moves, Karma, 
-        : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-        : Mental Dictionary/Library, pokedex, Map, Contact List,
-        : Reviews
-    "SON FOR-BY FATHERGOD."
-        : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
-            : Club Roles:
-                : Sergeant-At-Arms
-                : Toastmaster
-                : General Evaluator:
-                    : Grammarian + Ah-Counter
-                    : Timer
-                    : Speech Evaluator
-                    : Table Topics Evaluator
-                : Speaker
-                : Table Topics Master
-            : Club Executives:
-                : President / Chief Executive Officer
-                : Vice Presidents / Chief Operating Officers:
-                    : VP Education
-                    : VP Membership
-                    : VP Public Relations
-                : Treasurer / Chief Financial Officer
-                : Secretary
-                : Sergeant-at-Arms 
-        : Maintain Healthy Population
-            : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
-            : Train, Battle: a balanced team/army
-            : Classes: Farmers, Artists, Merchants, Military, Emperor
-            : Climb the Status Ladder, Become the new Champion
-        : Testimonials
-    "WAY FOR-BY KINGDOMHEAVEN."
-        : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
-        : Build Structures/LEVELS: Balance scope budget, and schedule  
-            : NAVIGATION, Maps, Atmosphere, Weather,
-            : Progressing the game storyline and accessing new areas.
-            : better positioning on the map, better territory
-    "CHANCE FOR-BY DEATHEND."
-        : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-        "Incorporation: December 1, 2024... 1-2 days per project
-        : PROGRESS = Tutorials, Saves, Updates: Journal?
-        : Battle Cycle: 1 move/turn at a time
-        : DEADLINE: Goal State, Completion
-            : Best of 7 Rounds
-            : Round-Time: 3 minutes
-        : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 #########################################################################################################
 # **ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
@@ -626,6 +605,7 @@ We interact with our environment, from detecting dangers through smell to sustai
 MASK-BLOW: 
     : MASK/FILTER:	CHOKE, Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
     : BLOE:         Fan, 
+
 #####################################################################################################################
 Digestion and energy conversion involve both mechanical physics (chewing, muscle contraction) and chemical physics (energy transfer, chemical reactions). 
     The body takes in food, breaks it down into smaller molecules, and converts it into energy that powers all bodily functions. 
@@ -714,7 +694,15 @@ How Does Energy Conversion Occur from Food to Reproduction (By What Steps)?
         Step 5: Use any frustration as motivation, allowing sexual energy to fuel personal, creative, or professional growth.
 
 ############################################################################################################
-Nicomachus’ Introduction to Arithmetic is one of the earliest comprehensive works on arithmetic, presenting both the philosophical and practical aspects of numbers and their properties. Here’s a breakdown of its significance:
+~ARISTOTLE'S RHETORIC
+
+~ARISTOTLE'S NICOMACHEAN ETHICS
+
+~ARISTOTLE'S PHYSICS
+
+~ARISTOTLE'S METAPHYSICS
+
+NICOMACHUS’ Introduction to Arithmetic is one of the earliest comprehensive works on arithmetic, presenting both the philosophical and practical aspects of numbers and their properties. Here’s a breakdown of its significance:
     What
         Introduction to Arithmetic (Arithmetike eisagoge) is a work focused on the study of numbers and their properties, considered foundational in both mathematical and philosophical terms.
         The text covers key arithmetic concepts like odd and even numbers, prime numbers, ratios, and mathematical proportions, providing one of the earliest systematic treatments of these topics.
@@ -795,36 +783,36 @@ Ptolemy’s Almagest is one of the most important astronomical texts from antiqu
         Mathematical Rigor: Ptolemy supports his models with mathematical proofs and observational data, providing systematic calculations for predicting planetary and stellar positions.
 
 ~PERSONALITIES: Theophrastus’ Characters:
-    1. The Dissembler: Every word, and every action, of the Dissembler is an artifice by which he labors to conceal some evil intention…
-    2. The Adulator: Adulation is the base converse of an inferior with one from whom he seeks some sordid advantage.
-    3. The Garrulous: Garrulity is an effusion of prolix and unpremeditated discourse.
-    4. The Rustic: Rusticity is an unconsciousness of things indecorous.
-    5. The Plausible: He who would fain please all the world is one who habitually sacrifices virtues to blandishments.
-    6. The Ruffian: The Ruffian is distinguished by the recklessness with which he perpetrates or witnesses atrocities.
-    7. The Loquacious: The loquacious man, whatever you may be talking of, presently interrupts you…
-    8. The Fabricator of News: It is to gratify his love of the marvellous that this man spends his life in the invention and propagation of falsehoods.
-    9. The Sordid: The man is justly called a lover of filthy lucre to whom the relish and value of a gain is enhanced by the baseness of the means that have been employed in its acquisition…
-    10.  The Shameless: The union of avarice and audacity produces a total disregard of decency and reputation…
+    1.  The Dissembler: Every word, and every action, of the Dissembler is an artifice by which he labors to conceal some evil intention…
+    2.  The Adulator: Adulation is the base converse of an inferior with one from whom he seeks some sordid advantage.
+    3.  The Garrulous: Garrulity is an effusion of prolix and unpremeditated discourse.
+    4.  The Rustic: Rusticity is an unconsciousness of things indecorous.
+    5.  The Plausible: He who would fain please all the world is one who habitually sacrifices virtues to blandishments.
+    6.  The Ruffian: The Ruffian is distinguished by the recklessness with which he perpetrates or witnesses atrocities.
+    7.  The Loquacious: The loquacious man, whatever you may be talking of, presently interrupts you…
+    8.  The Fabricator of News: It is to gratify his love of the marvellous that this man spends his life in the invention and propagation of falsehoods.
+    9.  The Sordid: The man is justly called a lover of filthy lucre to whom the relish and value of a gain is enhanced by the baseness of the means that have been employed in its acquisition…
+    10. The Shameless: The union of avarice and audacity produces a total disregard of decency and reputation…
     11. The Parsimonious: Parsimony is an excessive and unreasonable sparing of expense.
-    12.  The Impure: This man is everywhere to be known by the open and scandalous grossness of his manners; he wilfully offends the eye of modesty…
+    12. The Impure: This man is everywhere to be known by the open and scandalous grossness of his manners; he wilfully offends the eye of modesty…
     13. The Blunderer: He whose words and actions, though they may be well intended, are never well timed, is a most troublesome companion…
     14. The Busybody: In the proffered services of the Busybody there is much of the affectation of kindheartedness, and little efficient aid…
         “The busybody is like a spy, who is always prying into other people’s affairs.” - Theophrastus, Characters
-    15.  The Stupid: There is a sluggishness of mind in some persons which occasions them perpetually to stumble into absurdities of language or behavior…
+    15. The Stupid: There is a sluggishness of mind in some persons which occasions them perpetually to stumble into absurdities of language or behavior…
     16. The Morose: A malignant temper sometimes vents itself chiefly in ferocity of language…
     17. The Superstitious: Superstition is a desponding fear of divinities.
-    18.  The Petulant: A petulant temper will make occasion, where it cannot find reason, for murmurings and rebukes…
-    19.  The Suspicious: The suspicious man imputes a fraudulent intention to every one with whom he has to do…
+    18. The Petulant: A petulant temper will make occasion, where it cannot find reason, for murmurings and rebukes…
+    19. The Suspicious: The suspicious man imputes a fraudulent intention to every one with whom he has to do…
     20. The Filthy: This fellow neglects his person till he becomes a nuisance to all about him…
-    21.  The Disagreeable: It is perhaps easier to bear with a neighbor, from whom we occasionally receive some serious injury, than with a constant companion, whose conversation is tedious, and whose manners are unpleasant.
-    22.  The Vain: When ambition is the ruling passion of a vulgar mind, it shows itself in the eager pursuit of frivolous distinctions.
-    23.  The Penurious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
+    21. The Disagreeable: It is perhaps easier to bear with a neighbor, from whom we occasionally receive some serious injury, than with a constant companion, whose conversation is tedious, and whose manners are unpleasant.
+    22. The Vain: When ambition is the ruling passion of a vulgar mind, it shows itself in the eager pursuit of frivolous distinctions.
+    23. The Penurious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
     24. The Ostentatious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
-    25.  The Proud: The proud man regards the whole human race with contempt; himself excepted…
+    25. The Proud: The proud man regards the whole human race with contempt; himself excepted…
         “The boaster is like a trumpet that makes a great noise, but produces nothing of value.” - Theophrastus, Characters
-    26.  The Fearful: There is in some men a constitutional dejection of the spirits, which renders them liable to the constant tyranny of fear…
-    27.  The Old Trifler: This foolish fellow, although he is threescore; would ſain distinguish himself in accomplishments and exercises proper only to youth…
-    28.  The Detractor: The Detractor utters not a word that does not betray the malignancy of his soul…
+    26. The Fearful: There is in some men a constitutional dejection of the spirits, which renders them liable to the constant tyranny of fear…
+    27. The Old Trifler: This foolish fellow, although he is threescore; would ſain distinguish himself in accomplishments and exercises proper only to youth…
+    28. The Detractor: The Detractor utters not a word that does not betray the malignancy of his soul…
     29. The Oligarch: An arrogant desire to dominate over his fellows appears in the opinions, the conduct, and the manners of this partisan of despotism…
     30. The Malignant: Some men love and pursue evil, purely for its own sake, with an eager relish. A man of this temper seeks his element amid the turbulences of public life…
 
