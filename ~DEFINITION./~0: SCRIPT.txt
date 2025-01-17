@@ -3,49 +3,45 @@
 ~INTRODUCTION:
     : GREETINGS:    	Good afternoon/evening, fellow Toastmasters (and guests).
     : HOOK:         	"Fu-! Shi-! What the Huh?"
-			            Have you ever cursed, like that?
+			Have you ever cursed, like that?
     : QUESTION:     	Is this by instinct, or by choice?
     : MEANING:      	Are we bound by our habit loop or do we act out of our free will?
     : THESIS:       	I believe that while we are creatures of habits,
-               		    we have free will — the ability to choose.”
-    : TRANSITION:	    First: why are we slaves of our passions? 
+               		we have free will — the ability to choose.”
+    : TRANSITION:	First: why we are slaves of our passions? 
 ~BODY: 
     : COUNTERARGUMENTS (Arguments Against the Thesis)
-        : Introduction:		    You probably believe that we, like other animals, are driven by instinct rather than choice.”
-        : Support:		        And you are probabaly right, because...
-            : 1st Point:	    First, We must respond to danger.
+        : Introduction:		You probably believe that we, like other animals, are driven by instinct rather than choice.”
+        : Support:		And you are probabaly right, because...
+            : 1st Point:	First, our habits are responses to stimulus. 
                 : Evidence: 	For example, 
-				                when you touch something hot, we flinch.
-            : 2nd Point:	    Second, we are driven by reward and punishment.
-                : Evidence:	    For example, 
-                                Hunger, fear, and sexual drive make us irrational. override logical decision-making.”
-                                You are not you when you're hungry (and/or horny). 
-				                We seem to prioritize survival and reproduction, driving many of our actions.”
-				                dopamine spikes in response to a stimulus, 
-				                such as social media likes, create a loop of stimulus and reaction.”
-            : 3rd Point:	    And third, we are made by our environment. 
-                : Evidence:	    For example,
-                                Neural activity predicts decisions seconds before subjects consciously decide.”
-				                Muscle Memory: 
-                                our decisions are made in the brain before we are even aware of them.”
-        : Transition:      	    We are slaves of our passions; you're right!
-                                Because... 
-                                    1. We must response to danger.
-                                    2. We are driven by reward and punishment.
-                                    3. We are made by our environment.
-				                But what if this is only half-true?
+				dopamine spikes in response to a stimulus, 
+				such as social media likes, create a loop of stimulus and reaction.”
+				like reward and punishment.
+            : 2nd Point:	Second, You are not you when you're hungry (and/or horny). 
+				We seem to prioritize survival and reproduction, driving many of our actions.”
+                : Evidence:	Hunger, fear, and sexual desires override logical decision-making.”
+            : 3rd Point:	And third, our decisions are made in the brain before we are even aware of them.”
+				Muscle Memory: 
+                : Evidence:	Neural activity predicts decisions seconds before subjects consciously decide.”
+				For example: when you touch something hot, we flinch.
+        : Transition:      	You are right: We are slaves of our passions.
+				But what if this is only half-true?
     : SUPPORTING ARGUMENTS (Arguments for the Thesis)
         : Introduction:         I believe that we can choose to break free of automatic patterns.” 
-            : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
-            : Premise 2:        Secondly, We can classify. delay gratification to achieve long-term goals.”
-                                And third, We can reason. delay gratification to achieve long-term goals.”
-                                Additionally, We can order. delay gratification to achieve long-term goals.”
-            : Conclusion:       This self-awareness gives us the power to stop and correct our habit loop.”
-                : Evidence:     Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
-                : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
-                : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
+            : Proof 1:          First,
+                : Premise 1:    Mankind reflects on our thoughts and actions.”
+                : Premise 2:    Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
+                : Conclusion:   This self-awareness gives us the power to stop and correct our habit loop.”
+                : Evidence:     Many adherents report heightened focus and energy.”
+            : Proof 2:          Secondly, We delay gratification to achieve long-term goals.”
+		: Premise:
                 : Conclusion:   This ability to prioritize the future over immediate impulses is free will.”
+                : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
+            : Proof 3:          And third, 
+                : Premise:      Unlike animals, we have ethics and laws that cultivate our instincts.”
                 : Conclusion:   We act with intention, rather than instinct.”
+                : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
         : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
     : REFUTATION OF COUNTERARGUEMENTS:
         : Main Refutation:
@@ -58,16 +54,16 @@
             : Sub-Point 2:  	This can be on a larger scale:
                 : Evidence: 	For example: we have stopped wars with the simple act of pausing before responding to a stimulus/provocation is itself an exercise of free will.”
 ~CONCLUSION:
-    : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
-    : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
-    : Meaning:    	    This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
+    : Restate Question:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
+    : Thesis:           	We are capable of both — of habits, but empowered to rise above them.
+    : Summarize Meaning:    	This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
     : Review Points:
-		Main Point 1:   Habits and instincts strongly influence our behavior.
+		Main Point 1:	Habits and instincts strongly influence our behavior.
 		Main Point 2: 	Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
 		Main Point 3:	Addressing counterarguments reveals the balance between instinct and choice.
-    : Closing:          Ultimately, the power to choose defines what it means to be human. 
-	                    Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
-	                    Thank you, Mr. Toastmaster.
+    : Closing:              	Ultimately, the power to choose defines what it means to be human. 
+	                        Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
+	                        Thank you, Mr. Toastmaster.
 
 ##################################################################################################################################################################################################################
 ~-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"

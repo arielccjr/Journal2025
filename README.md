@@ -45,16 +45,12 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
     ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
     AMEN.
 
-## **~LESSON-PLAN:**
+## **~QUESTION-PLAN:**
     ~4: REVELATION:
-        : MORAL-&-SCHOLASTIC-THEOLOGY,
-        : BIBLICAL-STUDIES,
-        : CLASSICAL-CATECHISM,
-        : SACRED-TRADITION,
-        : SACRED-SCRIPTURE.
-    ~3: EXPERIENCE: 
-        : WORLD-CHRONOLOGY.
-        : WORLD-GEOGRAPHY.
+    ~3: EXPERIENCE: NOW-SPACE: QUANTUM.
+        : METAPHYSICS
+        : PHYSICS
+        : NICHOMACHEAN ETHICS
     ~2: CREATION (QUADRIVIUM): 
         : COMPUTER-STACK?
         : COMPUTER-VISION: IMAGE & ANIMATION = Animator's Survival Guide, AIArt
@@ -62,11 +58,12 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
         : ASTRONOMY: PTOLEMY.
         : GEOMETRY: EUCLID.
         : ARITHMETIC: NICOMACHUS.
-    ~1: REASON/PHILOSOPHY (TRIVIUM): 
+    ~1: REASON/PHILOSOPHY (TRIVIUM): COPYWRITE
         ~3: RHETORIC.
         ~2: DIALECTIC.
         ~1: GRAMMAR: CORRECT-PARSE-SYNTAX: 
-            : ETYMOLOGY.
+            : ETYMOLOGY: Roots, Fixes.
+            : SYMBOLISM: Letters, Flags.
 : NOTE-FOR-SELF:
 [FORGET-ERASE 1900-NOW ENGLISH.]
 [READ-WRITE ANCIENT-LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
@@ -77,7 +74,7 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
         : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
     ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS).
-        : 0=FRUIT/CHILD/WAY/LIFECYCLE:
+        : 0=FRUIT/CHILD/CONTACT/LIFECYCLE:
     ~FLOW/HABIT-LOOP: STIMULUS >>> REACTION >>> INSTANT-GRATIFICATION
     ~FREE-WILL/CENTRAL-PROCESSING: CUE/SURRENDER >>> WHAT-WHY-HOW? >>> MOTION >>> WARD(LASTING)/LET GO
         ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), FRONTIER:WHAT/WHO/WHERE/WHEN 
@@ -92,12 +89,7 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
                 : RESULT(s, a): returns state after action a taken in state s
                 : path cost function: number of steps in proof
             : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
-                : Personality Types / Characters
-                    : True Colors
-                    : MBTI
-                    : Five-Factor Model
-                    : Enneagram
-                    : Theophrastus' Characters
+                : Personality Types / Characters: Theophrastus' Characters
             : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
             : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
                 : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
