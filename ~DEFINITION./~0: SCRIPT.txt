@@ -65,7 +65,7 @@
 	                        Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
 	                        Thank you, Mr. Toastmaster.
 
-##################################################################################################################################################################################################################
+###############################################################################################################
 ~-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
         : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
         : DIVISION, LACKING
@@ -278,23 +278,18 @@
 #########################################################################################################
 # **ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
     1. Call to Order: The chairperson calls the meeting to order, marking the official start.
-    2. Roll Call or Attendance: A record of who is present and absent is taken (optional for smaller meetings).
+    2. Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
     3. Reading and Approval of Minutes
         The minutes from the previous meeting are read or reviewed.
         Members vote to approve the minutes or suggest corrections.
     4. Reports of Officers, Boards, and Standing Committees
         Officers (e.g., president, treasurer, secretary) provide updates.
         Standing committees present their routine reports.
-    5. Reports of Special (Select or Ad Hoc) Committees
-        Temporary committees give updates on their tasks or findings.
-    6. Unfinished Business (Old Business)
-        Matters carried over from previous meetings are discussed.
-    7. New Business
-        New topics, proposals, or motions are introduced for discussion and decision-making.
-    8. Announcements
-        Members share relevant updates, reminders, or upcoming events.
-    9. Adjournment
-        The meeting is formally closed after a motion to adjourn is passed.
+    5. Reports of Special (Select or Ad Hoc) Committees: Temporary committees give updates on their tasks or findings.
+    6. Unfinished Business (Old Business): Matters carried over from previous meetings are discussed.
+    7. New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
+    8. Announcements: Members share relevant updates, reminders, or upcoming events.
+    9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
 
 ########################################################################################################
 ~TO-DO: How Computer Vision be?
