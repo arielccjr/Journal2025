@@ -295,6 +295,62 @@
     8. Announcements: Members share relevant updates, reminders, or upcoming events.
     9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
 
+: ARIEL C. CASAPAO JR.
+~MISSION-STATEMENT:
+	FOR MY CREATIONS ARE BY YOUR WORDS.
+	FOR YOUR WORD IS WITH MY CREATIONS.
+	FOR MY CREATION IS BY YOUR COMMAND.
+
+	As your creative director,
+	I transform your words into your own digital arts and printable crafts.
+
+	: FOR WHAT: 	Correctness
+	: FOR WHO: 	Fellow Creators/Creative Director: Writers, Film-Maker, Comic, 
+	: FOR WHERE	Online/Home, Canada, UK, USA (English)
+	: FOR WHEN: 	Completion
+~EXECUTION:
+	: BY WHAT: 	My Work Stream
+		: WORDS / CONSULTATION
+		: ROUGH SKETCH
+		: DIGITAL ARTS:
+			: PORTRAIT
+			: FIGURE
+			: CHARACTER 
+			: GRAPHICS
+			: CONCEPT 
+			: SEQUENTIAL
+		: PRINTS:
+		: INVESTMENTS:
+	: BY WHO:	ARIEL C. CASAPAO JR. with my clan
+	: BY WHERE:	Online/Contact
+	: BY WHEN:	8-hours
+
+~PROJECT-PROPOSAL: Communication & Leadership at NAIT
+~MEASUREMENTS: 10 ACTIVE MEMBERS
+	~NAIT-Club-Executive-Roles Filled:
+		: President
+		: Vice President
+		: Treasurer
+		: Membership
+		: Education
+		: Public Relations
+		: Secretary
+		: Sergeant-At-Arms
+	~Toastmasters Meeting Roles Filled:
+		: Toastmaster
+		: Sergeant-at-Arms
+		: General Evaluator
+			: Grammarian
+			: Ah Counter
+			: Timer
+		: Speaker
+			: Speech Evaluator
+		: Table Topics Master
+			: Table Topics Evaluator
+~PROJECT-ITEMS:
+	: Preparations:
+	: Weekly Thematic Meeting Event
+
 ########################################################################################################
 ~TO-DO: How Computer Vision be?
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
