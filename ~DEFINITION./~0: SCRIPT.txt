@@ -6,7 +6,7 @@
 			            Have you ever cursed, like that?
     : QUESTION:     	Is this by instinct, or by choice?
     : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-    : THESIS:       	I believe that while we are creatures of habits,
+    : THESIS:       	This speech shares my believe that while we are creatures of habits,
                		    we have free will — the ability to choose.”
     : TRANSITION:	    First: why are we slaves of our passions? 
 ~BODY: 

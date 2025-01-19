@@ -1,1 +1,0 @@
-For the contributions of the contributors are with the improvements by the team.

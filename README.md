@@ -45,25 +45,33 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
     ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
     AMEN.
 
-## **~QUESTION-PLAN:**
-    ~4: REVELATION:
-    ~3: EXPERIENCE: NOW-SPACE: QUANTUM.
-        : METAPHYSICS
-        : PHYSICS
-        : NICHOMACHEAN ETHICS
-    ~2: CREATION (QUADRIVIUM): 
-        : COMPUTER-STACK?
-        : COMPUTER-VISION: IMAGE & ANIMATION = Animator's Survival Guide, AIArt
-	    : MUSIC: BOETHIUS.
-        : ASTRONOMY: PTOLEMY.
-        : GEOMETRY: EUCLID.
-        : ARITHMETIC: NICOMACHUS.
-    ~1: REASON/PHILOSOPHY (TRIVIUM): COPYWRITE
-        ~3: RHETORIC.
-        ~2: DIALECTIC.
-        ~1: GRAMMAR: CORRECT-PARSE-SYNTAX: 
-            : ETYMOLOGY: Roots, Fixes.
-            : SYMBOLISM: Letters, Flags.
+## **~QUESTION-PLAN: RHETORIC**
+    : FOR THE FLESH: Creation/Matter, Physics, Experience, Revelation
+        : POSTAL MECHANICS
+            : NICHOMACHEAN ETHICS
+            : MARITIME LAW
+            : ROBERT'S RULE OF ORDER
+        : Light: GEOMETRY (EUCLID)
+        : Sound: MUSIC (BOETHIUS)
+        : Motion: ASTRONOMY (PTOLEMY)
+        : Energy: 
+            : Positive (+1)
+            : Negative (-1)
+            : Neutral (0)
+    : BY THE WORD: Reasoning, Philosophy, Metaphysics
+        : NOW-SPACE
+        : ARITHMETIC-LOGIC: -1, 0, +1
+        : CORRECT-SYNTAX-GRAMMAR:
+            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : POSITION-LODIAL-FACT
+        : PARSE/ETYMOLOGY: 
+            : Roots: Fact/Known
+            : Fixes: Position-Lodial
+        : SYMBOLISM: 
+            : Letters/Spells, 
+            : Flags. International Beaureau of Weights and Measures in France
+            : Copyrights.
+
 : NOTE-FOR-SELF:
 [FORGET-ERASE 1900-NOW ENGLISH.]
 [READ-WRITE ANCIENT-LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
@@ -76,6 +84,8 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
     ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS).
         : 0=FRUIT/CHILD/CONTACT/LIFECYCLE:
     ~FLOW/HABIT-LOOP: STIMULUS >>> REACTION >>> INSTANT-GRATIFICATION
+        : IN:SEE/HEAR/FEEL/SMELL/TASTE()
+        : OUT:MIRROR/BE()
     ~FREE-WILL/CENTRAL-PROCESSING: CUE/SURRENDER >>> WHAT-WHY-HOW? >>> MOTION >>> WARD(LASTING)/LET GO
         ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), FRONTIER:WHAT/WHO/WHERE/WHEN 
             : UNKNOWN
