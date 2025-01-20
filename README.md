@@ -1,3 +1,69 @@
+## **~QUESTION-PLAN: RHETORIC**
+    : FOR THE FLESH: Creation/Matter, Physics, Experience, Revelation
+        : POSTAL MECHANICS
+            : NICHOMACHEAN ETHICS
+            : MARITIME LAW
+            : ROBERT'S RULE OF ORDER
+        : Light: GEOMETRY (EUCLID)
+        : Sound: MUSIC (BOETHIUS)
+        : Motion: ASTRONOMY (PTOLEMY)
+        : Energy: 
+            : Positive (+1)
+            : Negative (-1)
+            : Neutral (0)
+    : FOR THE WORD: Reasoning, Philosophy, Metaphysics
+        : STORYLINE
+        : NOW-SPACE
+        : ARITHMETIC-LOGIC: -1, 0, +1
+        : CORRECT-SYNTAX-GRAMMAR:
+            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : POSITION-LODIAL-FACT
+        : PARSE/ETYMOLOGY: 
+            : Roots: Fact/Known
+            : Fixes: Position-Lodial
+        : SYMBOLISM: 
+            : Letters/Spells, 
+            : Flags. International Beaureau of Weights and Measures in France
+            : Copyrights.
+
+## **~TRANSITION MODEL:**
+    ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
+        : AGENT/PLAYER: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+        : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+    ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS).
+        : 0=FRUIT/CHILD/CONTACT/LIFECYCLE:
+    ~FLOW/HABIT-LOOP: STIMULUS >>> REACTION >>> INSTANT-GRATIFICATION
+        : IN:SEE/HEAR/FEEL/SMELL/TASTE()
+        : OUT:MIRROR/BE()
+    ~FREE-WILL/CENTRAL-PROCESSING: CUE/SURRENDER >>> WHAT-WHY-HOW? >>> MOTION >>> WARD(LASTING)/LET GO
+        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), FRONTIER:WHAT/WHO/WHERE/WHEN 
+            : UNKNOWN
+            : STRANGER
+            : FOREIGN
+            : SURPRISE
+        ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), EXPLORED-SET:KNOWN/FAMILIAR/HOME/SCHEDULE
+            : KNOWN: 
+                : WORDS/NUMBERS:0/1s: Contract & Copy Writing, Financial Statement... 
+                : RULES AND CONSTRAINTS
+                : RESULT(s, a): returns state after action a taken in state s
+                : path cost function: number of steps in proof
+            : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
+                : Personality Types / Characters: Theophrastus' Characters
+            : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
+            : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
+                : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
+                : UTILITY(s): final numerical value for terminal state s
+        ~3: REASONING/ARRANGEMENT:
+            : WRITE-READ(NUMBER/WORDS), 
+                : LOGIC-ARITHMETIC = -1, 0, +1
+                : CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
+            : ERASE-FORGET(BABBLE/WRONG) 
+        ~4: MOTION(), BODY/I/HERE/NOW.
+            : STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+            : CONTINUE = IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR().
+        ~5: WARD(LASTING)
+
 # **FOR THE WORD-&-LIGHT.**
 FOR THE BEGINNING IS WITH THE WORD.
 FOR THE WORD IS WITH THE LORD.
@@ -45,71 +111,7 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
     ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
     AMEN.
 
-## **~QUESTION-PLAN: RHETORIC**
-    : FOR THE FLESH: Creation/Matter, Physics, Experience, Revelation
-        : POSTAL MECHANICS
-            : NICHOMACHEAN ETHICS
-            : MARITIME LAW
-            : ROBERT'S RULE OF ORDER
-        : Light: GEOMETRY (EUCLID)
-        : Sound: MUSIC (BOETHIUS)
-        : Motion: ASTRONOMY (PTOLEMY)
-        : Energy: 
-            : Positive (+1)
-            : Negative (-1)
-            : Neutral (0)
-    : BY THE WORD: Reasoning, Philosophy, Metaphysics
-        : NOW-SPACE
-        : ARITHMETIC-LOGIC: -1, 0, +1
-        : CORRECT-SYNTAX-GRAMMAR:
-            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
-            : POSITION-LODIAL-FACT
-        : PARSE/ETYMOLOGY: 
-            : Roots: Fact/Known
-            : Fixes: Position-Lodial
-        : SYMBOLISM: 
-            : Letters/Spells, 
-            : Flags. International Beaureau of Weights and Measures in France
-            : Copyrights.
-
 : NOTE-FOR-SELF:
 [FORGET-ERASE 1900-NOW ENGLISH.]
 [READ-WRITE ANCIENT-LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
 
-## **~TRANSITION MODEL:**
-    ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-        : AGENT/PLAYER: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-        : -1=SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-        : +1=SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-    ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS).
-        : 0=FRUIT/CHILD/CONTACT/LIFECYCLE:
-    ~FLOW/HABIT-LOOP: STIMULUS >>> REACTION >>> INSTANT-GRATIFICATION
-        : IN:SEE/HEAR/FEEL/SMELL/TASTE()
-        : OUT:MIRROR/BE()
-    ~FREE-WILL/CENTRAL-PROCESSING: CUE/SURRENDER >>> WHAT-WHY-HOW? >>> MOTION >>> WARD(LASTING)/LET GO
-        ~1: PERCEPTION: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), FRONTIER:WHAT/WHO/WHERE/WHEN 
-            : UNKNOWN
-            : STRANGER
-            : FOREIGN
-            : SURPRISE
-        ~2: PREDICATION: READ(SEEN/HEARD/FELT/SMELLED/TASTED), EXPLORED-SET:KNOWN/FAMILIAR/HOME/SCHEDULE
-            : KNOWN: 
-                : WORDS/NUMBERS:0/1s: Contract & Copy Writing, Financial Statement... 
-                : RULES AND CONSTRAINTS
-                : RESULT(s, a): returns state after action a taken in state s
-                : path cost function: number of steps in proof
-            : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
-                : Personality Types / Characters: Theophrastus' Characters
-            : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
-            : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
-                : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
-                : UTILITY(s): final numerical value for terminal state s
-        ~3: REASONING/ARRANGEMENT:
-            : WRITE-READ(NUMBER/WORDS), 
-                : LOGIC-ARITHMETIC = -1, 0, +1
-                : CORRECTNESS = 5(POSITION)-6(LODIAL)-7(FACT) & POSTAL-MECHANICS.
-            : ERASE-FORGET(BABBLE/WRONG) 
-        ~4: MOTION(), BODY/I/HERE/NOW.
-            : STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-            : CONTINUE = IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR().
-        ~5: WARD(LASTING)
