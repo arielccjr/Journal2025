@@ -591,16 +591,468 @@ Summary of Logical Steps
     7. LOGICAL FILE ORGANIZATION (INDEXING/ALLOCATION)
     8. NETWORKING AND DISTRIBUTED FILE SYSTEMS
 
-~DATA NORMALIZATION: Emphasizes redundancy reduction, relational design, and ensuring data integrity.
-    1. UNNORMALIZED FORM (UNF)
-    2. FIRST NORMAL FORM (1NF)
-    3. SECOND NORMAL FORM (2NF)
-    4. THIRD NORMAL FORM (3NF)
-    5. BOYCE-CODD NORMAL FORM (BCNF)
-    7. FIFTH NORMAL FORM (5NF)
-    8. SIXTH NORMAL FORM (6NF)
+###############################################################################################################################
+~DATABASE FUNDAMENTALS:
+    : DATABASE THEORY: Ensures efficient, consistent, and scalable database designs.
+        : Business Rules:
+        : Databases store data, 
+        : Database Managment System is used to manage and interact with the database.
+        : Relational DBMS: A type of DBMS that organizes data into tables with rows and columns.
+            : Business Rules: Define how tables relate to each other.
+            : Entities: Real-world objects (e.g., Customer, Order).
+                : Associative: a table used to represent many-to-many relationships between two entities. 
+                    It includes the primary keys of both entities as foreign keys and may have additional attributes.
+            : Attributes: Properties of entities. They have a domain, which is the set of valid values an attribute can assume 
+                : Atomic: cannot be broken down further into meaningful parts (e.g., FirstName).
+                : Composite: can be divided into smaller meaningful components (e.g., Address → Street, City, PostalCode).
+                : Stored: physically stored in the database (e.g., DateOfBirth).
+                : Derived: calculated or derived from other attributes (e.g., Age derived from DateOfBirth). 
+                : Non-Key:
+        : Keys:
+            : Primary: is a unique identifier for each record in a table (e.g., CustomerID). 
+            : Technical: is an artificial identifier created by the database designer when no natural unique attribute exists 
+            : Composite (or Concatenated): is a primary key that consists of two or more attributes 
+            : Foreign: an attribute in one table that references the primary key in another table to establish a relationship 
+        : Relationships/Cardinality: Dependencies between entities (e.g., Customer places Order). 
+            : Parent-Child: formed when the primary key of the parent table is referenced as a foreign key in the child table 
+            : One-to-One (1:1): One instance of an entity is linked to one instance of another entity.
+            : One-to-Many (1:N): One instance of an entity is linked to many instances of another entity.
+            : Many-to-Many (M:N): Multiple instances of one entity are linked to multiple instances of another entity.
+            : Transitive Dependencies: Non-Key: depend only on the primary key
+            : Non-Identifying Relationship: 
+            : Partial Dependencies
+   : Database Design Process: The structured process of creating a database schema that supports application requirements.
+        : Implement Foreign Keys: Use foreign keys, which connect the primary key of one entity to a field in another.
+        : Handle Many-to-Many Relationships: Break them into two one-to-many relationships by creating an associative entity.
+        : Use ERD notations (e.g., IDEF1X) to depict the schema.
+            : Entity-Relationship Diagram (ERD): A graphical representation showing entities, attributes, and their relationships.
+            : Include relationship labels and cardinality symbols for clarity.
+            : Iteratively Refine the Design: Ensure the relationships meet business requirements and minimize data redundancy.
+        : Entity-Relationship Diagram (ERD): A graphical representation of entities and their relationships.
+            : Entities: Represented as boxes with attributes inside.
+            : Attributes:
+                : Primary keys are listed above the line in an entity box.
+                : Foreign keys are suffixed with "FK."
+            : Relationships/ Symbols of Cardinality:
+                : Dashed lines for non-identifying relationships.
+                : Solid lines for identifying relationships.
+     
+    : NORMALIZATION: A process for organizing data to reduce redundancy and ensure consistency.
+        ~1: Collect views(subsets of data) using source documents and business rules.
+        ~2: 
+            : Initial Table: Identify Primary Key and repeating group(s) of attributes.
+            : First Normal Form (1NF):
+                Ensures that all columns contain atomic (indivisible) values.
+                Eliminates repeating groups or arrays within a table.
+                IMPORTANT: After 1NF, there should be never more than 2 entities/tables.
+            : Second Normal Form (2NF):
+                Builds on 1NF.
+                Ensures all non-key attributes are fully dependent on the primary key.
+                    - A violation can only occur in a table with a composite key
+                Eliminates partial dependencies (dependencies on part of a composite primary key).
+            : Third Normal Form (3NF):
+                Builds on 2NF.
+                Ensures no non-key attribute is dependent on another non-key attribute (removes transitive dependencies).
+            
+            : Boyce-Codd Normal Form (BCNF):
+                A stricter version of 3NF.
+                Ensures every determinant is a candidate key(i.e., no attribute can determine another unless it is part of a candidate key).
+            : Fourth Normal Form (4NF):
+                Eliminates multi-valued dependencies.
+                Ensures that one column's value is not dependent on multiple values of another column.
+            : Domain-Key Normal Form (DKNF):
+                Theoretical "ultimate" form of normalization.
+                Ensures no constraints exist other than key constraints and domain constraints.
+                Rarely implemented due to its complexity.
+        ~3: Merge
 
-#########################################################################################################
+~Inventory View: Inventory
+    ItemTypeID
+        ItemTypeDescription
+    ItemID
+        ItemDescription
+    Price/Day
+    
+    : 0NF:
+        InventoryTable
+        ItemTypeID(PK), ItemTypeDescription, ItemID, ItemDescription, Price/Day
+    : 1NF-2NF-3NF: (No Violations)
+        InventoryTable
+        ItemTypeID(PK), ItemTypeDescription, 
+        
+        ItemID(PK), ItemTypeID(FK), ItemDescription, Price/Day
+
+~Staff Information View: StaffInformation
+    StaffID: 343, 245, 125,
+        Name:
+            FirstName: Bob, Susie, Jason
+            LastName: Jones, Q, Qwerk
+        Phone: N, N, N
+        Wage: $, $, $
+        HireDate: D, D, D,
+        +StaffTypeID "Staff members are all of one particular Staff Type."
+            StaffType: Producer, Producer, Sales
+    
+    : 0NF: 
+        StaffTable
+        StaffID(PK), Name, Phone, Wage, HireDate, StaffType, +StaffTypeID
+    : 1NF-2NF (No Change)
+        StaffTable
+        StaffID(PK), FirstName, LastName, Phone, Wage, HireDate, StaffType, StaffTypeID
+    : 3NF: 
+        StaffTable
+        StaffID(PK), FirstName, LastName, Phone, Wage, HireDate, StaffTypeID(FK)
+
+        StaffTypeTable
+        StaffTypeID(PK), StaffType
+
+
+~Memories Forever: 
+    ProjectID
+        ProjectDescription
+        
+        ClientID
+            Organization
+            Name >>> FirstName, LastName
+            Phone
+            Email
+            Address >>> Street, City, Province
+        ProjectInDate
+        ProjectDoneDate
+        ProjectEstimate
+        ProjectTypeCode
+        ProjectTypeDescription
+        
+        ItemID
+        Description
+        CheckInNotes
+        CheckOutNotes
+        DateOut
+        DateIn
+
+        Price/Day
+        Days
+        ExtPrice
+
+        StaffID
+        StaffName
+        Subtotal
+        GST
+        Total
+    
+    ~0NF: 
+        ProjectID(PK),
+            ProjectDescription, 
+                ProjectInDate, 
+                ProjectDoneDate, 
+                ProjectEstimate,
+                ProjectTypeCode,
+                    ProjectTypeDescription,
+                ClientID,
+                    Organization,
+                    Name >>> FirstName, LastName,
+                    Phone,
+                    Email,
+                    Address >>> Street, City, Province,
+                StaffID,
+                    StaffName >>> StaffFirstName, StaffFirstName
+                Subtotal, GST, Total,
+        (ItemID, Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
+    ~1NF: 
+        ProjectTable
+        ProjectID(PK),
+            ProjectDescription, 
+                ProjectInDate, 
+                ProjectDoneDate,
+                ProjectEstimate,
+                ProjectTypeCode,
+                    ProjectTypeDescription,
+                ClientID,
+                    Organization,
+                    Name >>> FirstName, LastName,
+                    Phone,
+                    Email,
+                    Address >>> Street, City, Province,
+                StaffID,
+                    StaffName >>> StaffFirstName, StaffFirstName
+                Subtotal, GST, Total,
+        
+        ItemTable
+        ProjectID(FK), ItemID(PK), Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
+    ~2NF: 
+        ProjectTable
+        ProjectID(PK),
+            ProjectDescription, 
+                ProjectInDate, 
+                ProjectDoneDate,
+                ProjectEstimate,
+                ProjectTypeCode,
+                    ProjectTypeDescription,
+                ClientID,
+                    Organization,
+                    Name >>> FirstName, LastName,
+                    Phone,
+                    Email,
+                    Address >>> Street, City, Province,
+                StaffID,
+                    StaffName >>> StaffFirstName, StaffFirstName
+                Subtotal, GST, Total,
+        
+        ItemTable
+        ProjectID(FK)(PK), ItemID(FK)(PK), Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
+
+        ItemPriceTable
+        ItemID(PK), Description, PricePerDay,
+    ~3NF: 
+        ProjectTable
+        ProjectID(PK), ClientID(FK), StaffID(FK), ProjectTypeCode(FK)
+            ProjectDescription, 
+                ProjectInDate, 
+                ProjectDoneDate,
+                ProjectEstimate,
+                Subtotal, GST, Total,
+        
+        ProjectTypeTable
+        ProjectTypeCode(PK),
+            ProjectTypeDescription,
+       
+        ClientTable
+        ClientID(PK),
+            Organization,
+            Name >>> FirstName, LastName,
+            Phone,
+            Email,
+            Address >>> Street, City, Province,
+        
+        StaffTable
+        StaffID(PK),
+            StaffName >>> StaffFirstName, StaffFirstName
+        
+        ItemTable
+        ProjectID(FK)(PK), ItemID(FK)(PK), Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
+
+        ItemPriceTable
+        ItemID(PK), Description, PricePerDay,
+
+~Joe's Video Store: Video Information
+    VideoID
+        Title
+    MovieTypes:
+        TypeID
+        TypeName
+    TotalNumberOfCopies
+        NumberOfCopiesAvalableForRental
+    Format
+    Cost
+    RentalCharge
+    MovieRating
+        RatingCode
+        RatingDescription
+    CopyNumber
+    AvailableForRental
+
+    CopyNumber
+
+    ~ONF: 
+        VideoTable
+        VideoID(PK), Title, TypeID, TypeName, TotalNumberOfCopy, NumberOfCopyAvailability, Format, Cost, RentalCharge, RatingCode, RatingDescription, 
+        (CopyNumber, Availability)
+    ~1NF: 
+        VideoInformationTable
+        VideoID(PK), Title, TypeID, TypeName, TotalNumberOfCopy, NumberOfCopyAvailability, Format, Cost, RentalCharge, RatingCode, RatingDescription, 
+
+        VideoCopyTable 
+        VideoID(FK)(PK), CopyNumber(PK), Availability
+    ~2NF: 
+        VideoInformationTable
+        VideoID(PK), Title, TypeID, TypeName, TotalNumberOfCopy, NumberOfCopyAvailability, Format, Cost, RentalCharge, RatingCode, RatingDescription, 
+
+        VideoCopyTable 
+        VideoID(FK)(PK), CopyNumber(PK), Availability
+    ~3NF: 
+        VideoInformationTable
+        VideoID(PK), Title, TypeID(FK), TotalNumberOfCopy, NumberOfCopyAvailability, Format(FK), Cost, RentalCharge, RatingCode(FK), RatingDescription, 
+            TypeTable
+            TypeID(PK), TypeName,
+        
+            RatingTable
+            RatingCode(PK), RatingDescription
+            
+            FormatTable
+            FormatID(PK), FormatDescription
+    
+        VideoCopyTable 
+        VideoID(FK)(PK), CopyNumber(PK), Availability
+
+
+~VIDEO RENTALS VIEW: Joe's Video Store: Video Rentals
+TransactionID: 123
+    CustomerID:
+        Phone:
+        Date: 
+        Name >>> FirstName, LastName
+        Address >>> Street, City, Province, Postal
+    VideoID:
+        CopyNumber
+        Title
+        ReturnDate
+        RentalCharge >>> CurrentCharge, HistoricRentalCharge
+    Subtotal:
+    GST:
+    Total:
+
+    : 0NF: 
+        TransactionTable
+        TransactionID(PK), Subtotal, GST, Total, CustomerID, Phone, Date, Name, Address,
+        (VideoID, CopyNumber, Title, ReturnDate, RentalCurrentRentalCharge, HistoricRentalCharge)
+    : 1NF:
+        TransactionTable
+        TransactionID(PK), Subtotal, GST, Total, CustomerID, Phone, Date, FirstName, LastName, Street, City, Province, Postal,
+        
+        VideoTable
+        TransactionID(FK)(PK), VideoID(PK), CopyNumber(PK), Title, ReturnDate, CurrentRentalCharge, HistoricRentalCharge
+    : 2NF:
+        TransactionTable
+        TransactionID(PK), Subtotal, GST, Total, CustomerID, Phone, Date, FirstName, LastName, Street, City, Province, Postal,
+        
+        TransactionDetailTable
+        TransactionID(FK)(PK), VideoID(FK)(PK), CopyNumber(PK), ReturnDate, HistoricRentalCharge
+
+        VideoTable
+        VideoID(PK), Title, CurrentRentalCXharge
+    : 3NF:
+        TransactionTable
+        TransactionID(PK), Subtotal, GST, Total, CustomerID(FK)
+            
+            CustomerTable
+            CustomerID(PK), Phone, Date, FirstName, LastName, Street, City, Province, Postal
+        
+        TransactionDetailTable
+        TransactionID(FK)(PK), VideoID(FK)(PK), CopyNumber(PK), Title, ReturnDate, CurrentRentalCharge, HistoricRentalCharge)
+
+        VideoTable
+        VideoID(PK), Title, CurrentRentalCXharge
+
+~ESP3: Inventory Control View "Inventory Control Sheet"
+    ItemTable
+    (PK)ItemNumber: M24
+        ItemDescription: Bolts-24mm
+        CurrentSalePrice: $0.29
+        +QuantityOnHand
+        +ReorderLvl
+        
+        ItemInventoryTable
+        (FK)(PK)ItemNumber
+        (FK)(PK)PONumber:       125, 131, 149
+            Quantity:       1000, 2000, 2000
+            Cost:           0.13, 0.13, 0.14
+
+            PurchaseOrderTable
+            (PK)PONumber 
+            OrderDate:      July 1, 1998, August 2, 1998, September 5, 1998
+            SupplierNumber: 7, 10, 7
+
+
+: 0NF:
+    ItemTable
+    ItemNumber, ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
+    (OrderDate, SupplierNumber, PONumber, Quantity, Cost)
+: 1NF:
+    ItemTable
+    ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
+    
+    ItemInventoryTable
+    ItemNumber(FK), PONumber(PK), OrderDate, SupplierNumber, Quantity, Cost
+: 2NF:
+    ItemTable
+    ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
+    
+    ItemInventoryTable
+    ItemNumber(FK)(PK), PONumber(FK)(PK), Quantity, Cost
+
+    PurchaseOrderTable
+    PONumber(PK), OrderDate, SupplierNumber
+: 3NF:
+    ItemTable
+    ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
+    
+    ItemInventoryTable
+    ItemNumber(FK)(PK), PONumber(FK)(PK), Quantity, Cost
+
+    PurchaseOrderTable
+    PONumber(PK), OrderDate, SupplierNumber
+
+~ESP4: Purchase Orders
+PurchaseOrderTable
+PurchaseOrderNumber: #125
+    Date: July 1, 1998
+    Subtotal: 151.97
+    GST: 10.64
+    Total: 162.61
+
+    PurchasedItemTable    
+    ItemNumber: H23, H319, M24
+        SuppliersItemNumber: S103, B11a, ISO4
+        SuppliersItemDescription: Heater Fan Belt - 23*, Heater Fan Support Brackets, Bolds - 24mm
+        Quantity: 1, 2, 1000
+        Cost: 11.99, 4.99, 0.13
+        Amount: 11.99, 9.,98, 130.00
+
+SupplierTable
+SupplierNumber: 7
+    SuppliersName: Nuts and Bolts
+    SuppliersAddress: 11123 - 114 Avenue
+    City: Edmonton, AB, T6G 4X1
+    Phone: 488-2312
+
+: 0NF:
+    PurchaseOrderNumber, Date, Subtotal, GST, Total, SupplierName, Address, City, Phone,
+    (ItemNumber, SuppliersItemNumber, SuppliersDescription, Quantity, Cost, Amount)
+: 1NF:
+    PurchaseOrderTable
+    PurchaseOrderNumber(PK), Date, Subtotal, GST, Total, SupplierNumber, SupplierNumber(PK)(FK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
+    PurchasedItemTable
+    PurchaseOrderNumber(FK)(PK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
+: 2NF: (No Change)
+    PurchaseOrderTable
+    PurchaseOrderNumber(PK), Date, Subtotal, GST, Total, SupplierNumber, SupplierNumber(PK)(FK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
+        PurchasedItemTable
+        PurchaseOrderNumber(FK)(PK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
+ : 3NF:
+    PurchaseOrderTable
+    PurchaseOrderNumber(PK), SupplierNumber(FK), Date, Subtotal, GST, Total
+        PurchasedItemTable
+        PurchaseOrderNumber(PK)(FK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
+    SupplierTable
+    SupplierNumber(PK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
+
+~ESP4: Purchase Orders Payments: ChequeRegister
+SupplierNumber: 7, null, 15
+SupplierName: Nuts & Bolts, Home Hardware
+    ChequeTable
+    ChequeNumber: 245, 246
+        ChequeAmount: $823.18, $427.39
+        PaymentDate: Jan 11/99, Jan 18/99
+    PurchaseOrderNumber: 79, 81, 82
+    PurchaseOrderDate: Dec 23/98, Dec 29/98, Dec... 
+
+: 0NF:
+    InitialTable
+    ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumber, SupplierName, 
+    (PurchaseOrderNumber, PurchaseOrderDate)
+: 1NF-2NF:
+    ChequeTable
+    ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumner, SupplierName
+        PurchaseOrderTable
+        ChequeNumber(FK), PurchaseOrderNumber(PK), PurchaseOrderDate
+: 3NF:
+    ChequeTable
+    ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumner(FK)
+        PurchaseOrderTable
+        ChequeNumber(FK), PurchaseOrderNumber(PK), PurchaseOrderDate
+    SupplierTable
+    SupplierNumber(PK), SupplierName,
+
 ~ESP:
 ~Customer Detail View:
     : 0NF: INITIAL TABLE:
@@ -932,195 +1384,6 @@ Summary of Logical Steps
         PaymentTable
         OrderNumber(PK)(FK), PaymentNumber(PK), PaymentDate, PaymentAmount, BalanceOwing, PaymentType, DepositBranchNumber
 
-###############################################################################################################################
-~DATABASE FUNDAMENTALS:
-    : DATABASE THEORY: Ensures efficient, consistent, and scalable database designs.
-        : Business Rules:
-        : Databases store data, 
-        : Database Managment System is used to manage and interact with the database.
-        : Relational DBMS: A type of DBMS that organizes data into tables with rows and columns.
-            : Business Rules: Define how tables relate to each other.
-            : Entities: Real-world objects (e.g., Customer, Order).
-                : Associative: a table used to represent many-to-many relationships between two entities. 
-                    It includes the primary keys of both entities as foreign keys and may have additional attributes.
-            : Attributes: Properties of entities. They have a domain, which is the set of valid values an attribute can assume 
-                : Atomic: cannot be broken down further into meaningful parts (e.g., FirstName).
-                : Composite: can be divided into smaller meaningful components (e.g., Address → Street, City, PostalCode).
-                : Stored: physically stored in the database (e.g., DateOfBirth).
-                : Derived: calculated or derived from other attributes (e.g., Age derived from DateOfBirth). 
-                : Non-Key: depend only on the primary key
-        : Keys:
-            : Primary: is a unique identifier for each record in a table (e.g., CustomerID). 
-            : Technical: is an artificial identifier created by the database designer when no natural unique attribute exists 
-            : Composite (or Concatenated): is a primary key that consists of two or more attributes 
-            : Foreign: an attribute in one table that references the primary key in another table to establish a relationship 
-        : Relationships/Cardinality: Dependencies between entities (e.g., Customer places Order). 
-            : One-to-One (1:1): One instance of an entity is linked to one instance of another entity.
-                : Parent-Child: formed when the primary key of the parent table is referenced as a foreign key in the child table 
-            : One-to-Many (1:N): One instance of an entity is linked to many instances of another entity.
-            : Many-to-Many (M:N): Multiple instances of one entity are linked to multiple instances of another entity.
-            : Transitive Dependencies:
-        : Entity-Relationship Diagram (ERD): A graphical representation of entities and their relationships.
-            : Entities: Represented as boxes with attributes inside.
-            : Attributes:
-                : Primary keys are listed above the line in an entity box.
-                : Foreign keys are suffixed with "FK."
-            : Relationships:
-                : Dashed lines for non-identifying relationships.
-                : Solid lines for identifying relationships.        
-        : Database Design Process: The structured process of creating a database schema that supports application requirements.
-            : Implement Foreign Keys: Use foreign keys, which connect the primary key of one entity to a field in another.
-            : Handle Many-to-Many Relationships: Break them into two one-to-many relationships by creating an associative entity.
-            : Use ERD notations (e.g., IDEF1X) to depict the schema.
-                : Entity-Relationship Diagram (ERD): A graphical representation showing entities, attributes, and their relationships.
-                : Include relationship labels and cardinality symbols for clarity.
-                : Iteratively Refine the Design: Ensure the relationships meet business requirements and minimize data redundancy.
-    
-    : NORMALIZATION: A process for organizing data to reduce redundancy and ensure consistency.
-        ~1: Collect views(subsets of data) using source documents and business rules.
-        ~2: 
-            Initial Table: Identify Primary Key and repeating group(s) of attributes.
-            : First Normal Form (1NF):
-                Ensures that all columns contain atomic (indivisible) values.
-                Eliminates repeating groups or arrays within a table.
-            : Second Normal Form (2NF):
-                Builds on 1NF.
-                Ensures all non-key attributes are fully dependent on the primary key.
-                Eliminates partial dependencies (dependencies on part of a composite primary key).
-            : Third Normal Form (3NF):
-                Builds on 2NF.
-                Ensures no non-key attribute is dependent on another non-key attribute (removes transitive dependencies).
-            : Boyce-Codd Normal Form (BCNF):
-                A stricter version of 3NF.
-                Ensures every determinant is a candidate key(i.e., no attribute can determine another unless it is part of a candidate key).
-            : Fourth Normal Form (4NF):
-                Eliminates multi-valued dependencies.
-                Ensures that one column's value is not dependent on multiple values of another column.
-            : Domain-Key Normal Form (DKNF):
-                Theoretical "ultimate" form of normalization.
-                Ensures no constraints exist other than key constraints and domain constraints.
-                Rarely implemented due to its complexity.
-        ~3: Merge
-
-~ESP3: Inventory Control View "Inventory Control Sheet"
-    ItemTable
-    (PK)ItemNumber: M24
-        ItemDescription: Bolts-24mm
-        CurrentSalePrice: $0.29
-        +QuantityOnHand
-        +ReorderLvl
-        
-        ItemInventoryTable
-        (FK)(PK)ItemNumber
-        (FK)(PK)PONumber:       125, 131, 149
-            Quantity:       1000, 2000, 2000
-            Cost:           0.13, 0.13, 0.14
-
-            PurchaseOrderTable
-            (PK)PONumber 
-            OrderDate:      July 1, 1998, August 2, 1998, September 5, 1998
-            SupplierNumber: 7, 10, 7
-
-
-: 0NF:
-    ItemTable
-    ItemNumber, ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-    (OrderDate, SupplierNumber, PONumber, Quantity, Cost)
-: 1NF:
-    ItemTable
-    ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-    
-    ItemInventoryTable
-    ItemNumber(FK), PONumber(PK), OrderDate, SupplierNumber, Quantity, Cost
-: 2NF:
-    ItemTable
-    ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-    
-    ItemInventoryTable
-    ItemNumber(FK)(PK), PONumber(FK)(PK), Quantity, Cost
-
-    PurchaseOrderTable
-    PONumber(PK), OrderDate, SupplierNumber
-: 3NF:
-    ItemTable
-    ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-    
-    ItemInventoryTable
-    ItemNumber(FK)(PK), PONumber(FK)(PK), Quantity, Cost
-
-    PurchaseOrderTable
-    PONumber(PK), OrderDate, SupplierNumber
-
-~ESP4: Purchase Orders
-PurchaseOrderTable
-PurchaseOrderNumber: #125
-    Date: July 1, 1998
-    Subtotal: 151.97
-    GST: 10.64
-    Total: 162.61
-
-    PurchasedItemTable    
-    ItemNumber: H23, H319, M24
-        SuppliersItemNumber: S103, B11a, ISO4
-        SuppliersItemDescription: Heater Fan Belt - 23*, Heater Fan Support Brackets, Bolds - 24mm
-        Quantity: 1, 2, 1000
-        Cost: 11.99, 4.99, 0.13
-        Amount: 11.99, 9.,98, 130.00
-
-SupplierTable
-SupplierNumber: 7
-    SuppliersName: Nuts and Bolts
-    SuppliersAddress: 11123 - 114 Avenue
-    City: Edmonton, AB, T6G 4X1
-    Phone: 488-2312
-
-: 0NF:
-    PurchaseOrderNumber, Date, Subtotal, GST, Total, SupplierName, Address, City, Phone,
-    (ItemNumber, SuppliersItemNumber, SuppliersDescription, Quantity, Cost, Amount)
-: 1NF:
-    PurchaseOrderTable
-    PurchaseOrderNumber(PK), Date, Subtotal, GST, Total, SupplierNumber, SupplierNumber(PK)(FK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
-    PurchasedItemTable
-    PurchaseOrderNumber(FK)(PK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
-: 2NF: (No Change)
-    PurchaseOrderTable
-    PurchaseOrderNumber(PK), Date, Subtotal, GST, Total, SupplierNumber, SupplierNumber(PK)(FK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
-        PurchasedItemTable
-        PurchaseOrderNumber(FK)(PK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
- : 3NF:
-    PurchaseOrderTable
-    PurchaseOrderNumber(PK), SupplierNumber(FK), Date, Subtotal, GST, Total
-        PurchasedItemTable
-        PurchaseOrderNumber(PK)(FK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
-    SupplierTable
-    SupplierNumber(PK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
-
-~ESP4: Purchase Orders Payments: ChequeRegister
-SupplierNumber: 7, null, 15
-SupplierName: Nuts & Bolts, Home Hardware
-    ChequeTable
-    ChequeNumber: 245, 246
-        ChequeAmount: $823.18, $427.39
-        PaymentDate: Jan 11/99, Jan 18/99
-    PurchaseOrderNumber: 79, 81, 82
-    PurchaseOrderDate: Dec 23/98, Dec 29/98, Dec... 
-
-: 0NF:
-    InitialTable
-    ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumber, SupplierName, 
-    (PurchaseOrderNumber, PurchaseOrderDate)
-: 1NF-2NF:
-    ChequeTable
-    ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumner, SupplierName
-        PurchaseOrderTable
-        ChequeNumber(FK), PurchaseOrderNumber(PK), PurchaseOrderDate
-: 3NF:
-    ChequeTable
-    ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumner(FK)
-        PurchaseOrderTable
-        ChequeNumber(FK), PurchaseOrderNumber(PK), PurchaseOrderDate
-    SupplierTable
-    SupplierNumber(PK), SupplierName,
 
 ###############################################################################################################################
 : DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
@@ -1134,5 +1397,3 @@ SupplierName: Nuts & Bolts, Home Hardware
         Use CREATE, PROCEDURE, parameters, transactions, and error handing.
     : TRIGGERS: Enforce rules and log/audit changes automatically.
         Use CREATE TRIGGER for specific events like INSERT, UPDATE, or DELETE.
-
-
