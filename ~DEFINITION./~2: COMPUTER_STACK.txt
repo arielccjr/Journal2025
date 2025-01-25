@@ -240,6 +240,625 @@
             : Check in vs out
             : Committing
 
+SYSTEMS ANALYSIS & DESIGN
+What: Systems Analysis and Design (SAD) is a systematic approach used to develop information systems efficiently. It focuses on understanding business needs, designing solutions, and implementing systems that meet those needs.
+Who:
+    Systems Analysts
+    Developers
+    Project Managers
+    Business Stakeholders
+    End Users
+Where: Organizations requiring new or updated systems to manage operations, improve productivity, or address problems in workflows.
+When: During the initiation and development of IT systems or digital media solutions.
+    Typically starts when a business identifies a need for an improved system or process.
+Why (For What):
+    To ensure that information systems meet business requirements.
+    To create systems that improve efficiency, solve problems, and provide value to users.
+    To avoid system failures and inefficiencies.
+How (By What Logical Steps):
+    Plan: Define the scope, prioritize needs, and plan for system development.
+    Analyze: Examine current systems and problems, gather requirements, and develop logical models.
+    Design: Create detailed technical specifications for the new system.
+    Implement: Build, test, and deploy the system while training users.
+    Support: Maintain and refine the system to extend its useful life.
+
+SYSTEM DEVELOPMENT LIFE CYCLE (SDLC)
+What: A structured process used for planning, creating, testing, and deploying an information system. The SDLC ensures quality and efficiency in system development.
+Who:
+    Systems Analysts
+    Developers
+    Business Analysts
+    IT Teams
+    End Users
+Where: In any organization developing or upgrading information systems.
+When: From the inception of a system idea to its retirement.
+Why (For What):
+    To create systems that align with business goals.
+    To deliver projects on time, within budget, and meeting requirements.
+How (By What Logical Steps):
+    System Planning:
+        Identify and prioritize system needs.
+        Define the scope and boundaries of the problem.
+    System Analysis:
+        Build a logical model.
+        Analyze current problems and their root causes.
+        Define and document business requirements.
+    System Design:
+        Design solutions (physical models, user interfaces, controls, and security).
+        Produce a technical design document.
+    System Implementation:
+        Develop and deploy the system.
+        Train users and create documentation.
+        Plan conversion strategies (e.g., parallel, pilot, phased, or direct cutover).
+    System Operation and Support:
+        Monitor and maintain the system.
+        Refine the system design and address issues.
+        Ensure continued functionality throughout its useful life.
+
+SYSTEM DEVELOPMENT TOOLS/TECHNIQUES
+    What: Tools and methodologies used to facilitate and optimize system development.
+        Modeling (e.g., DFD, ERD, UML)
+    What: Graphical representations of systems to visualize processes, data, and interactions.
+    Who: Systems Analysts and Developers.
+    Where: During analysis and design phases.
+    Why: To ensure clarity in understanding and communication.
+    How: Create models like:
+        Data Flow Diagrams (DFDs)
+        Entity-Relationship Diagrams (ERDs)
+        Unified Modeling Language (UML) diagrams.
+Prototyping
+    What: Building early, functional models of the system for testing and feedback.
+    Who: Developers and End Users.
+    Where: During feasibility and early design stages.
+    Why: To test ideas, refine requirements, and reduce risks.
+    How:
+        Develop prototypes based on requirements.
+        Test feasibility and gather feedback.
+        Iterate to improve before production.
+CASE Tools
+    What: Software tools for automating and assisting in system development.
+    Who: Systems Analysts and IT Teams.
+    Where: During design and implementation phases.
+    Why: To improve productivity and consistency in system development.
+    How: Use CASE tools to:
+        Generate designs automatically.
+        Standardize methodologies.
+        Enhance collaboration and documentation.
+Structured Analysis
+    What: A traditional methodology for breaking down system functions into detailed processes.
+    Who: Systems Analysts.
+    Where: During analysis and design phases.
+    Why: To ensure thorough understanding and structured documentation.
+    How: Use tools like DFDs and process models to detail workflows.
+Object-Oriented Analysis
+    What: A methodology that focuses on defining systems in terms of objects and their interactions.
+    Who: Systems Analysts and Developers.
+    Where: In software and systems requiring modularity and reusability.
+    Why: To simplify design and enhance flexibility.
+    How: Define objects, their properties, behaviors, and relationships.
+Joint Application Development (JAD)
+    What: Collaborative workshops for stakeholders to define requirements and design solutions.
+    Who: Business Stakeholders, Analysts, Developers, and Facilitators.
+    Where: During the analysis and design phases.
+    Why: To ensure alignment between business needs and technical solutions.
+    How: Conduct structured sessions with stakeholders to gather input and refine requirements.
+
+SYSTEMS ANALYSIS & DESIGN: Digital Media and IT Information Technology
+    What: The use of systems analysis and design in the field of IT and digital media to solve business problems, manage data, and streamline processes through effective modeling, system development, and user-centric approaches.
+    Why Do We Model?
+    What: Modeling involves creating structured representations of a system to understand, analyze, and solve problems effectively.
+    Who:
+        Systems Analysts
+        IT Developers
+        Project Managers
+
+    Where: During system planning and design phases, typically in organizations using IT systems.
+    When: Whenever a problem needs to be solved, alternatives need to be explored, or complexity needs to be managed.
+    Why (For What):
+        To provide structure to problem-solving.
+        To explore multiple solutions efficiently.
+        To abstract and simplify complex systems.
+        To reduce development time and costs.
+        To minimize risks and errors.
+    How (By What Logical Steps):
+        Identify the problem or system to be modeled.
+        Define the goals of modeling (e.g., risk reduction, clarity).
+        Create and test models using diagrams, simulations, or prototypes.
+        Refine models based on feedback and iterations.
+
+INFORMATION SYSTEMS COMPONENTS
+    What: Core components that make up an information system (IS), including data, hardware, and software.
+    Who:
+        IT Teams
+        Business Stakeholders
+    Where: In any system designed to process, manage, and use data for operations.
+    When: During the design and implementation phases of system development.
+    Why (For What):
+        To enable efficient data input, processing, and output.
+        To support mission-critical operations vital to businesses.
+    How:
+        Define the system’s purpose and scope.
+        Identify and integrate hardware components (physical systems).
+        Develop and implement software (programs controlling the hardware).
+        Collect and process input data to achieve specific results.
+
+BUSINESS USE OF INFORMATION TECHNOLOGY
+What:
+
+How IT is used to support different business operations and decision-making processes.
+1. Enterprise Computing Systems
+    What: Systems that support company-wide operations and strategic decision-making (e.g., ERP systems).
+    Who: Used by top and middle management for strategic planning and operational oversight.
+    Where: Large organizations requiring integration across departments.
+    When: When streamlining operations and improving efficiency.
+    Why: To enhance productivity, reduce costs, and support decision-making.
+    How:
+        Implement structured rules for predictable tasks.
+        Use ERP to consolidate operations into a single system.
+        Ensure scalability for future growth.
+
+2. Transaction Processing Systems (TPS)
+    What: Applications that handle daily operations like orders, reservations, and payroll.
+    Who: Clerical users and operational employees.
+    Where: At the transactional level of businesses.
+    When: In day-to-day operations requiring real-time data processing.
+    Why: To automate repetitive tasks, improve accuracy, and maintain data integrity.
+    How:
+        Collect input data for transactions.
+        Process data in real-time or batch mode.
+        Produce outputs for operations (e.g., receipts, records).
+
+3. Business Support Systems (MIS)
+What: Systems for generating management reports to aid decision-making.
+Who: Middle management.
+Where: In organizations requiring structured reporting.
+When: During performance evaluations or resource allocation.
+Why: To provide insights and summaries of operations.
+How:
+    Collect data from TPS or other sources.
+    Generate detailed, summary, or exception reports.
+    Use reports for analysis and decision-making.
+
+4. Decision Support Systems (DSS)
+    What: Tools for performing “what-if” analyses and making decisions.
+    Who: Middle and top management.
+    Where: In scenarios requiring analytical insights.
+    When: During planning, budgeting, or forecasting.
+    Why: To evaluate alternatives and improve decision-making.
+    How:
+        Analyze data using simulations.
+        Present insights with interactive dashboards.
+        Test multiple scenarios to identify optimal solutions.
+
+5. Knowledge Management Systems (KMS)
+    What: Advanced systems using expert knowledge to simulate reasoning and provide solutions.
+    Who: Used by expert professionals or management.
+    Where: In organizations requiring specialized decision-making.
+    When: In complex problem-solving scenarios.
+    Why: To leverage expertise, manage knowledge, and ensure consistent decisions.
+    How:
+        Build a knowledge base with encoded rules.
+        Use fuzzy logic to manage imprecise relationships.
+        Apply inference rules for decision-making.
+
+INFORMATION TECHNOLOGY USERS
+1. Top Managers
+    What: Users responsible for long-term strategic planning and resource allocation.
+    Who: CEOs, directors, and executives.
+    Where: At the highest level of management.
+    When: During strategic planning and evaluations.
+    Why: To set organizational direction and evaluate progress.
+    How:
+        Use data from enterprise systems.
+        Monitor trends and forecast growth.
+        Allocate resources effectively.
+2. Middle Managers & Knowledge Workers
+    What: Users managing teams and performing specialized tasks.
+    Who: Department heads, engineers, accountants, HR professionals, etc.
+    Where: Mid-level in organizations.
+    When: During project management or complex problem-solving.
+    Why: To provide direction, support, and performance feedback.
+    How:
+        Use MIS and DSS for insights.
+        Plan resources and delegate tasks.
+        Perform analysis and generate reports.
+3. Supervisors and Team Leaders
+    What: Frontline managers controlling daily operations.
+    Who: Office managers, project managers, foremen.
+    Where: At the operational level.
+    When: During routine business processes.
+    Why: To ensure smooth day-to-day functioning.
+    How:
+        Oversee staff and operations.
+        Provide immediate feedback.
+        Use TPS for monitoring workflows.
+4. Operational Employees
+    What: Users directly interacting with systems to perform tasks.
+    Who: Clerical workers, data entry staff, sales representatives.
+    Where: At the transactional level.
+    When: During real-time operations requiring system input/output.
+    Why: To execute specific tasks as part of business workflows.
+    How:
+        Enter data into TPS.
+        Process tasks (e.g., reservations, orders).
+        Rely on automated systems for efficiency.
+
+Functional Requirements
+    What: Functional requirements define what the system is supposed to do. They describe specific behaviors, actions, or tasks the system must perform, focusing on inputs, processing, and outputs.
+    Who:
+        Stakeholders: Business Analysts, System Analysts, Developers, Testers, End Users
+        Users: Those interacting directly with the system (e.g., employees, customers)
+    Where:
+        In the requirements gathering phase of software or system development.
+        Applied to system features, workflows, and business operations.
+    When:
+        At the initial stages of system analysis and design, during planning and requirements documentation.
+        Throughout the development process to ensure the system’s intended behavior is met.
+    Why (For What):
+        To ensure the system meets its intended purpose and fulfills the user’s needs.
+        To define what features and behaviors the system must include for proper operation.
+    How (By What Logical Steps):
+        Identify the core objectives and purpose of the system.
+        Gather input from stakeholders and users regarding what tasks the system must perform.
+        Document specific system actions and interactions, such as:
+            Business rules.
+            Authentication and authorization processes.
+            Transaction processing (corrections, adjustments, cancellations).
+            Audit tracking and external interfaces.
+        Test functionality to verify the system performs as defined.
+    Examples:
+        A banking system must allow users to transfer funds (Transaction Processing).
+        A website requires users to log in with a username and password (Authentication).
+        A system must record and store data changes for future reference (Audit Tracking).
+
+Non-Functional Requirements
+    What: Non-functional requirements specify how the system performs its tasks. They focus on qualities such as performance, reliability, usability, and scalability rather than specific behaviors.
+    Who:
+        Stakeholders: Project Managers, System Architects, Quality Assurance Teams, Developers
+        Users: Indirectly affect end users who benefit from system quality and reliability.
+    Where:
+        In technical design documents, architectural planning, and system testing.
+        Relevant to system-wide operations and infrastructure.
+    When:
+        During system design and throughout the development lifecycle to ensure quality attributes are integrated.
+        During testing phases to validate compliance with non-functional requirements.
+    Why (For What):
+        To ensure the system operates efficiently, securely, and reliably under various conditions.
+        To improve user experience and ensure compliance with regulatory and operational standards.
+    How (By What Logical Steps):
+        Define quality standards and expectations for the system.
+        Identify specific non-functional requirements, such as:
+            Performance (response times, system throughput).
+            Scalability (ability to handle growth in users or data).
+            Security (data protection, access control).
+            Usability (ease of use for end users).
+        Develop and implement system architecture to meet these requirements.
+        Test the system to verify non-functional attributes under various scenarios (e.g., load testing, recovery testing).
+    Examples:
+        The system should handle 10,000 simultaneous users (Scalability).
+        Data recovery must occur within 2 hours after a system crash (Recoverability).
+        The system should respond to user requests within 2 seconds (Performance).
+
+Comparison: Functional vs. Non-Functional Requirements
+    Aspect	Functional Requirements	Non-Functional Requirements
+    What it defines	What the system does.	How the system performs its tasks.
+    Focus	Features and user requirements.	System quality and operational attributes.
+    Examples	Transaction processing, authentication, audit tracking.	Performance, scalability, reliability, usability.
+    Impact	System won’t function if unmet.	System still functions, but quality may be compromised.
+    Testing	Validate features and tasks.	Validate performance and reliability under different conditions.
+    Conclusion:
+    Why Both Are Important:
+        Functional Requirements ensure the system performs its intended tasks.
+        Non-Functional Requirements ensure the system performs efficiently, securely, and reliably, improving user satisfaction and long-term operational success.
+    How to Address Both:
+        Document functional requirements first to define system behavior.
+        Develop non-functional requirements to establish quality standards.
+        Use iterative testing to ensure compliance with both types of requirements.
+
+Business Rules
+    What: A business rule is a statement that defines or influences how a business operates. It governs decisions, processes, and behavior within an organization. Business rules:
+        Ensure consistency in decision-making.
+        Help automate processes in information systems.
+        Provide clear guidelines for employees and systems.
+    Who:
+        Creators: Business stakeholders, decision-makers, or subject-matter experts with authority (e.g., managers, executives).
+        Enforcers: Employees, supervisors, or automated systems.
+        Users: Employees or customers interacting with the system or process.
+    Where:
+        Embedded within operational processes, policies, or automated systems.
+        Applicable in industries such as retail, hospitality, logistics, and financial services.
+    When:
+        During the design and implementation of processes or systems.
+        When changes occur in business operations, policies, or objectives.
+        In real-time operational scenarios (e.g., checking age for alcohol sales).
+    Why (For What):
+        To maintain consistent operations and decision-making.
+        To enforce organizational policies and legal requirements.
+        To automate processes and reduce reliance on human judgment.
+        To create new knowledge by systematically applying rules to existing data.
+    How (By What Logical Steps):
+        Define the behavior or decision the rule governs.
+        Observe and document implicit and explicit rules (some may not be written).
+        Integrate these rules into business processes or systems.
+        Ensure the rule is clear, justified, and enforceable.
+        Test the rule in real-world scenarios to ensure it works as intended.
+    How Does That Work?
+        Example: Hotel Reservation Rule
+        What: A customer cannot check in without a reservation.
+        Who: Hotel clerks enforce the rule, and the hotel’s booking system supports it.
+        Where: At the hotel’s front desk during check-in.
+        When: When a customer arrives to check in without prior reservation.
+        Why (For What): To ensure efficient room allocation and avoid overbooking.
+        How:
+            The clerk asks if the customer has a reservation.
+            If not, the clerk creates a reservation in the system.
+            The customer is then checked in, satisfying the business rule.
+
+Properties of a Good Business Rule
+    What: A good business rule should meet specific criteria to ensure clarity, enforceability, and alignment with business objectives.
+    Who:
+        Authors: Business analysts, subject-matter experts, and managers.
+        Reviewers: Quality assurance teams or stakeholders.
+    Where: In business policies, training manuals, and automated systems.
+    When: When designing, revising, or implementing processes or systems.
+    Why (For What): To ensure rules are actionable, clear, and relevant to organizational goals.
+    How (By What Logical Steps):
+        Atomic: Ensure the rule focuses on a single concept or action.
+            Example: "We only ship complete orders."
+        Declarative: Specify when and how the rule applies.
+            Example: "Before a work order can be completed, a customer’s information must be collected."
+        Precise: Avoid ambiguity or multiple interpretations.
+            Example: "Any customer that owes more than $5,000 cannot place new orders."
+        Justified: Confirm the rule supports business objectives.
+        Authorized: Ensure the rule is created by someone with decision-making authority.
+
+Business Rule Examples
+    What: Practical examples that demonstrate how business rules guide actions and processes.
+    Examples:
+        Everyone under the age of 25 must have their ID checked (compliance rule).
+        Orders are only shipped when complete (operational rule).
+        Customers with debts over $5,000 cannot place new orders (financial rule).
+        Vehicles must be visually inspected for damage before release (safety rule).
+    Who:
+        Employees (e.g., clerks, warehouse staff, inspectors) execute these rules.
+        Systems enforce or automate the rules.
+    Where: Retail counters, warehouses, customer service desks, etc.
+    When: During specific processes such as checkout, shipping, or quality assurance.
+    Why (For What): To ensure compliance, efficiency, safety, and financial prudence.
+    How:
+        Define the rule clearly.
+        Train staff and configure systems to enforce the rule.
+        Monitor adherence and adjust as needed.
+
+Five Steps for Creating a Business Rule Collection
+    What: A structured approach to defining and managing a set of business rules.
+    Who:
+        Collectors: Business analysts, process owners, or system architects.
+        Validators: Stakeholders ensuring rules align with objectives.
+    Where: In requirements documents, project plans, or system design specifications.
+    When: At the beginning of a project or when revising processes.
+    Why (For What): To systematically document and organize rules for clarity, relevance, and enforceability.
+    How (By What Logical Steps):
+        Collect business ramblings: Gather informal or implicit rules by observing operations and interviewing stakeholders.
+        Translate these ramblings into business rules: Reword them into clear, structured statements.
+            Example: "Orders must be shipped complete."
+        Determine which rules are relevant to project objectives: Filter out irrelevant or outdated rules.
+        Determine data-rule dependencies: Identify which data elements the rules depend on (e.g., customer age, reservation status).
+        Determine inter-rule relationships: Map how rules interact or overlap to avoid conflicts.
+
+What is Risk?
+    What: Risk refers to the potential positive or negative effects of an event or series of events on a project. It encompasses uncertainty and its impact on project outcomes.
+    Who:
+        Stakeholders: Project Managers, Risk Managers, Team Members, Business Stakeholders.
+        Affected Parties: The organization, clients, or customers relying on the project’s success.
+    Where: In all phases of a project, primarily during the Planning Phase but monitored throughout execution.
+    When: At the start of the project (to identify risks early) and continually during the project lifecycle as risks evolve.
+    Why (For What):
+        To anticipate potential problems and avoid or minimize their effects.
+        To take advantage of positive risks (opportunities) when they occur.
+    How (By What Logical Steps):
+        Define risks that could affect the project.
+        Categorize risks as opportunities or threats.
+        Assess their likelihood and potential impact.
+        Develop mitigation and contingency strategies.
+        Monitor risks throughout the project lifecycle.
+
+Risk Affects Project Planning
+    What: Risk management is an integral part of project planning to prevent small issues from escalating into emergencies.
+    Who:
+        Planners: Project Managers, Risk Analysts.
+        Executors: Team Members and Stakeholders responsible for implementing risk responses.
+    Where:
+        During the Planning Phase but continues to evolve through project execution.
+    When:
+        Before starting the project and as part of periodic reviews throughout the project.
+    Why (For What):
+        To ensure smooth project execution.
+        To avoid budget overruns, missed deadlines, or project failure.
+        To build proactive strategies for unforeseen challenges.
+    How:
+        Include risk analysis as part of the project planning process.
+        Continuously update the risk register as new risks are identified.
+        Regularly evaluate risks to keep the project on track.
+
+Components of Risk
+    What: Risk is composed of five key elements:
+        Event: What could happen?
+        Probability: How likely is the event to happen?
+        Impact: How bad will it be if it happens?
+        Mitigation: How can the probability be reduced?
+        Contingency: How can the impact be reduced if it does happen?
+    Who:
+        Assessors: Project Managers, Risk Analysts.
+        Implementers: Team Members responsible for mitigation and contingency measures.
+    Where: In the risk register or risk log, which tracks and monitors these components.
+    When: During risk identification and analysis, and as part of ongoing project monitoring.
+    Why (For What):
+        To create structured strategies for managing risks.
+        To minimize the impact of negative events and maximize the potential of positive ones.
+    How:
+        Identify potential risks (events) in the project.
+        Assign a probability (High, Medium, Low) to each event.
+        Assess the impact of each event on the project.
+        Develop mitigation strategies to lower the likelihood of occurrence.
+        Develop contingency plans to reduce the impact if the event occurs.
+
+Creating a Risk List
+    What: A risk list is a prioritized collection of potential project risks, detailing their probability, impact, and mitigation/contingency plans.
+    Who: Created by Project Managers, Risk Analysts, and Team Members.
+    Where: Documented in the project risk register or risk management plan.
+    When: During the project’s planning phase and continuously updated throughout.
+    Why (For What):
+        To organize and prioritize risks for proactive management.
+        To provide clarity on which risks to address first.
+    How:
+        Describe the risk event briefly (1–2 sentences).
+        Assign a probability (High, Medium, Low) to each risk.
+        Develop mitigation strategies to reduce the likelihood of high/medium probability risks.
+        Assess the impact (High, Medium, Low) of each risk.
+        Develop contingency plans to address the impact if the risk materializes.
+
+Assessing Probability and Impact
+    What:
+        Probability: The likelihood of a risk occurring.
+        Impact: The severity of the risk's effect on the project.
+    Who: Project Managers and Risk Analysts assess these factors.
+    Where: Recorded in the project’s risk analysis documentation.
+    When: During the risk identification and analysis phases.
+    Why (For What):
+        To determine which risks to prioritize and address.
+        To allocate resources effectively for risk management.
+    How:
+        Use a High, Medium, Low scale to categorize probability and impact.
+        Address high-probability and high-impact risks first.
+        Continuously re-evaluate risks as the project progresses.
+
+Example of a Risk Event
+    What: Event: Critical parts needed for the project do not arrive on time.
+    Who:
+        Mitigation: Team responsible for procurement orders parts early.
+        Contingency: Team uses old parts temporarily until new parts arrive.
+    Where: In the supply chain and project schedule.
+    When: Identified during planning and monitored during execution.
+    Why (For What): To avoid delays and ensure the project stays on schedule.
+    How:
+        Identify the risk event (parts delay).
+        Assign Medium probability and High impact.
+        Mitigate by ordering parts early in the project.
+        Create a contingency plan to use existing parts temporarily.
+
+Five Steps for Risk Management
+    What: A structured process for identifying, analyzing, and managing risks.
+    Who: Project Managers, Risk Analysts, Team Members.
+    Where: Within the project’s risk management plan.
+    When: Throughout the project lifecycle.
+    Why (For What): To proactively manage risks and improve project success.
+    How (By What Logical Steps):
+        Collect business ramblings: Brainstorm potential risks with the team.
+        Translate ramblings into risks: Reframe vague concerns into clear, actionable risk statements.
+        Determine relevant risks: Filter out unlikely or irrelevant risks.
+        Determine data-rule dependencies: Identify what data or processes are tied to each risk.
+        Determine inter-rule relationships: Analyze how risks may interact or compound.
+
+Feasibility
+    What: Feasibility refers to assessing whether a proposed project is practical, achievable, and worthwhile to pursue. A feasibility study evaluates the potential success of a project across multiple dimensions.
+    Who:
+        Conducted by: Systems Analysts, Business Analysts, Project Managers.
+        Stakeholders: Decision-makers, IT teams, financial teams, and end users.
+    Where: Applied during the planning phase of a project or system development.
+    When:
+        Before initiating a project to ensure it is viable.
+        At critical decision points during the project lifecycle.
+    Why (For What):
+        To determine if a project is worth pursuing in terms of cost, resources, and time.
+        To identify risks, constraints, and benefits of the proposed project.
+    How (By What Logical Steps):
+        Define the project scope and objectives.
+        Identify and evaluate feasibility criteria (operational, technical, economic, schedule).
+        Collect data through interviews, surveys, and research.
+        Analyze the data and prepare a feasibility report.
+        Make a recommendation based on the findings.
+
+What is a Feasibility Study?
+    What: A feasibility study is an ongoing process of tests to evaluate if a project is desirable, practical, and achievable. It ensures a project meets the following criteria:
+        Operational feasibility.
+        Technical feasibility.
+        Economic feasibility.
+        Schedule feasibility.
+    Who:
+        Conducted by analysts and project managers.
+        Used by stakeholders for decision-making.
+    Where: In project proposals and system development processes.
+    When: Before project initiation and during project evaluations.
+    Why (For What):
+        To prioritize projects based on their potential for success and alignment with business goals.
+        To avoid pursuing projects that are not viable.
+    How:
+        Define the problem or opportunity.
+        Assess the project against each feasibility dimension.
+        Prepare and present a feasibility report to stakeholders.
+
+Operational Feasibility
+    What: Operational feasibility evaluates whether the proposed system will be used effectively once implemented.
+    Who:
+        Management and users who will interact with the system.
+        Analysts assessing operational requirements and impacts.
+    Where: In the organization’s day-to-day operations and workflows.
+    When: During the project planning and design phases.
+    Why (For What):
+        To ensure user adoption and effective use of the system.
+        To identify and mitigate risks such as workforce resistance or legal/ethical concerns.
+    How:
+        Evaluate if management supports the project.
+        Assess workforce impacts (e.g., training, reductions).
+        Determine user involvement in planning and implementation.
+        Identify potential customer effects and risks to company image.
+        Check for conflicts with other organizational priorities.
+
+Technical Feasibility
+    What: Technical feasibility examines the availability and adequacy of technical resources (hardware, software, expertise) to support the proposed system.
+    Who: IT teams, systems architects, and technical analysts.
+    Where: Within the organization’s technical infrastructure.
+    When: During the planning and early stages of system development.
+    Why (For What):
+        To determine if the organization has the necessary resources and expertise to implement the system.
+        To ensure the system can handle future needs and growth.
+    How:
+        Assess the availability of required hardware and software.
+        Determine if the company has the technical expertise for development and maintenance.
+        Evaluate platform capacity for scalability and reliability.
+        Test the system's ability to handle expected transaction volumes.
+
+Economic Feasibility
+    What: Economic feasibility determines if the projected benefits of the system outweigh its estimated costs, considering total cost of ownership (TCO) and return on investment (ROI).
+    Who: Financial analysts, project managers, and stakeholders.
+    Where: In cost-benefit analysis and financial evaluations of the project.
+    When: During the feasibility study phase and before resource allocation.
+    Why (For What):
+        To ensure the project is financially viable.
+        To determine if the investment will "pay off."
+    How:
+        Identify all costs, including development, maintenance, training, hardware, and licensing.
+        Calculate ROI:
+        ROI = (Net Profit / Total Costs) × 100
+        Example: If net profit is $20,000 and total costs are $10,000:
+        ROI = (20,000 / 10,000) × 100 = 200%.
+        Compare costs to projected benefits (financial and operational).
+
+Schedule Feasibility
+    What: Schedule feasibility evaluates whether the project can be completed within an acceptable or established time frame.
+    Who: Project managers and stakeholders.
+    Where: In project timelines and schedules.
+    When: During the planning phase and when setting deadlines.
+    Why (For What):
+        To ensure the project can meet deadlines without sacrificing quality.
+        To identify risks associated with tight schedules.
+    How:
+        Determine if management has set a firm deadline.
+        Assess risks associated with an accelerated schedule.
+        Appoint a project manager to oversee timelines.
+        Create a detailed project schedule with milestones and deadlines.
+
 ###########################################################################################################
 : NOTES: ARTIFICIAL INTELLIGENCE NOTES
 : SEARCH
