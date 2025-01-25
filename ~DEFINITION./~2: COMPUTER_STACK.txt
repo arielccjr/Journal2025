@@ -241,59 +241,59 @@
             : Committing
 
 SYSTEMS ANALYSIS & DESIGN
-What: Systems Analysis and Design (SAD) is a systematic approach used to develop information systems efficiently. It focuses on understanding business needs, designing solutions, and implementing systems that meet those needs.
-Who:
-    Systems Analysts
-    Developers
-    Project Managers
-    Business Stakeholders
-    End Users
-Where: Organizations requiring new or updated systems to manage operations, improve productivity, or address problems in workflows.
-When: During the initiation and development of IT systems or digital media solutions.
-    Typically starts when a business identifies a need for an improved system or process.
-Why (For What):
-    To ensure that information systems meet business requirements.
-    To create systems that improve efficiency, solve problems, and provide value to users.
-    To avoid system failures and inefficiencies.
-How (By What Logical Steps):
-    Plan: Define the scope, prioritize needs, and plan for system development.
-    Analyze: Examine current systems and problems, gather requirements, and develop logical models.
-    Design: Create detailed technical specifications for the new system.
-    Implement: Build, test, and deploy the system while training users.
-    Support: Maintain and refine the system to extend its useful life.
+    What: Systems Analysis and Design (SAD) is a systematic approach used to develop information systems efficiently. It focuses on understanding business needs, designing solutions, and implementing systems that meet those needs.
+    Who:
+        Systems Analysts
+        Developers
+        Project Managers
+        Business Stakeholders
+        End Users
+    Where: Organizations requiring new or updated systems to manage operations, improve productivity, or address problems in workflows.
+    When: During the initiation and development of IT systems or digital media solutions.
+        Typically starts when a business identifies a need for an improved system or process.
+    Why (For What):
+        To ensure that information systems meet business requirements.
+        To create systems that improve efficiency, solve problems, and provide value to users.
+        To avoid system failures and inefficiencies.
+    How (By What Logical Steps):
+        Plan: Define the scope, prioritize needs, and plan for system development.
+        Analyze: Examine current systems and problems, gather requirements, and develop logical models.
+        Design: Create detailed technical specifications for the new system.
+        Implement: Build, test, and deploy the system while training users.
+        Support: Maintain and refine the system to extend its useful life.
 
 SYSTEM DEVELOPMENT LIFE CYCLE (SDLC)
-What: A structured process used for planning, creating, testing, and deploying an information system. The SDLC ensures quality and efficiency in system development.
-Who:
-    Systems Analysts
-    Developers
-    Business Analysts
-    IT Teams
-    End Users
-Where: In any organization developing or upgrading information systems.
-When: From the inception of a system idea to its retirement.
-Why (For What):
-    To create systems that align with business goals.
-    To deliver projects on time, within budget, and meeting requirements.
-How (By What Logical Steps):
-    System Planning:
-        Identify and prioritize system needs.
-        Define the scope and boundaries of the problem.
-    System Analysis:
-        Build a logical model.
-        Analyze current problems and their root causes.
-        Define and document business requirements.
-    System Design:
-        Design solutions (physical models, user interfaces, controls, and security).
-        Produce a technical design document.
-    System Implementation:
-        Develop and deploy the system.
-        Train users and create documentation.
-        Plan conversion strategies (e.g., parallel, pilot, phased, or direct cutover).
-    System Operation and Support:
-        Monitor and maintain the system.
-        Refine the system design and address issues.
-        Ensure continued functionality throughout its useful life.
+    What: A structured process used for planning, creating, testing, and deploying an information system. The SDLC ensures quality and efficiency in system development.
+    Who:
+        Systems Analysts
+        Developers
+        Business Analysts
+        IT Teams
+        End Users
+    Where: In any organization developing or upgrading information systems.
+    When: From the inception of a system idea to its retirement.
+    Why (For What):
+        To create systems that align with business goals.
+        To deliver projects on time, within budget, and meeting requirements.
+    How (By What Logical Steps):
+        System Planning:
+            Identify and prioritize system needs.
+            Define the scope and boundaries of the problem.
+        System Analysis:
+            Build a logical model.
+            Analyze current problems and their root causes.
+            Define and document business requirements.
+        System Design:
+            Design solutions (physical models, user interfaces, controls, and security).
+            Produce a technical design document.
+        System Implementation:
+            Develop and deploy the system.
+            Train users and create documentation.
+            Plan conversion strategies (e.g., parallel, pilot, phased, or direct cutover).
+        System Operation and Support:
+            Monitor and maintain the system.
+            Refine the system design and address issues.
+            Ensure continued functionality throughout its useful life.
 
 SYSTEM DEVELOPMENT TOOLS/TECHNIQUES
     What: Tools and methodologies used to facilitate and optimize system development.
@@ -383,9 +383,7 @@ INFORMATION SYSTEMS COMPONENTS
         Collect and process input data to achieve specific results.
 
 BUSINESS USE OF INFORMATION TECHNOLOGY
-What:
-
-How IT is used to support different business operations and decision-making processes.
+What: How IT is used to support different business operations and decision-making processes.
 1. Enterprise Computing Systems
     What: Systems that support company-wide operations and strategic decision-making (e.g., ERP systems).
     Who: Used by top and middle management for strategic planning and operational oversight.
