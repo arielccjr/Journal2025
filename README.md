@@ -12,16 +12,15 @@
             : Negative (-1)
             : Neutral (0)
     : FOR THE WORD: Reasoning, Philosophy, Metaphysics
-        : STORYLINE
-        : NOW-SPACE
+        : STORYLINE: NOW-SPACE
         : ARITHMETIC-LOGIC: -1, 0, +1
         : CORRECT-SYNTAX-GRAMMAR:
             : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
             : POSITION-LODIAL-FACT
-        : PARSE/ETYMOLOGY: 
+        : WORD: PARSE/ETYMOLOGY: 
             : Roots: Fact/Known
             : Fixes: Position-Lodial
-        : SYMBOLISM: 
+        : SYMBOLS: 
             : Letters/Spells, 
             : Flags. International Beaureau of Weights and Measures in France
             : Copyrights.
