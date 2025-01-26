@@ -346,12 +346,12 @@ Joint Application Development (JAD)
 SYSTEMS ANALYSIS & DESIGN: Digital Media and IT Information Technology
     What: The use of systems analysis and design in the field of IT and digital media to solve business problems, manage data, and streamline processes through effective modeling, system development, and user-centric approaches.
     Why Do We Model?
+    
     What: Modeling involves creating structured representations of a system to understand, analyze, and solve problems effectively.
     Who:
         Systems Analysts
         IT Developers
         Project Managers
-
     Where: During system planning and design phases, typically in organizations using IT systems.
     When: Whenever a problem needs to be solved, alternatives need to be explored, or complexity needs to be managed.
     Why (For What):
@@ -1225,6 +1225,11 @@ Summary of Logical Steps
                 : Stored: physically stored in the database (e.g., DateOfBirth).
                 : Derived: calculated or derived from other attributes (e.g., Age derived from DateOfBirth). 
                 : Non-Key:
+                : Repeating Group: An attribute that cannot be uniquely identified by the Primary Key in the table
+                : Partial Dependency – An attribute(s) that can be uniquely identified by just part of a tables composite Primary Key. 
+                    A table must have a composite Primary Key for a Partial Dependency to exist
+                : Transitive Dependency – Non key Attribute(s) that can be uniquely identified by another non key attribute. 
+                    A table must have 2 or more non key attributes for a Transitive Dependency to exist.
         : Keys:
             : Primary: is a unique identifier for each record in a table (e.g., CustomerID). 
             : Technical: is an artificial identifier created by the database designer when no natural unique attribute exists 
