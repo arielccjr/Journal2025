@@ -73,24 +73,24 @@
 ~-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
         : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
         : DIVISION, LACKING
-    "SOIL FOR-BY SPOILVOID(-)."
+    "SPOIL FOR-BY SOILVOID(-)."
         : Disruptions, Damages, Uncontrolled Elements (Dice)
         : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
         : Low Health, Resource Scarcity/Finity, Bankruptcy
-    "SACRIFICE FOR-BY MOTHERBEAST."
+    "BAIT/SACRIFICE FOR-BY MOTHERBEAST."
         : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
         : NPCs, Requests/Puzzles, Opposition
         : Alone, Low Population
     "TRAP FOR-BY WILDWORLD."
         : The Rat Race
-    "WAIT FOR-BY LIFECYCLE."
+    "WAIT FOR-BY BIRTHSTART."
         : Initial State, Beginning Again
 ~+1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
         : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
         : Defuse or trigger the bomb.
         : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
         : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-    "SEED FOR-BY FRUITWORD(+)."
+    "FRUIT FOR-BY SEEDWORD(+)."
         : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
         : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
         : Experience Points, Abilities/Stats, New Moves, Karma, 

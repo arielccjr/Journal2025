@@ -1288,6 +1288,104 @@ Summary of Logical Steps
                 Rarely implemented due to its complexity.
         ~3: Merge
 
+
+~DDL:
+    print 'Hello, Class!'
+
+    ~CREATING TABLE: Parent Table First, then Child Second
+        CREATE TABLE Employee (
+        EmployeeID INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Employee PRIMARY KEY CLUSTERED,
+        LastName VARCHAR(100) NOT NULL,
+        FirstName VARCHAR(100) NOT NULL,
+        );
+
+        CREATE TABLE Project (
+        ProjectNumber INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Project PRIMARY KEY CLUSTERED,
+        ProjectName VARCHAR(100) NOT NULL,
+        PojectLocation VARCHAR(100) NOT NULL,
+        );
+
+        CREATE TABLE EmployeeOnProject (
+        EmployeeID INT NOT NULL,
+        ProjectNumber INT NOT NULL,
+        WeeklyHours SMALLINT NOT NULL,
+        CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmployeeID, ProjectNumber)
+        );
+
+        CREATE TABLE Department
+
+        EXEC sp_help Employee;
+        EXEC SP_HELP Project;
+        EXEC SP_HELP EmployeeOnProject;
+
+
+    ~DROPPING TABLE: Child First, Then Parent Second
+        EmployeeID INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Employee PRIMARY KEY CLUSTERED,
+        LastName VARCHAR(100) NOT NULL,
+        FirstName VARCHAR(100) NOT NULL,
+        );
+
+        CREATE TABLE Project (
+        ProjectNumber INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Project PRIMARY KEY CLUSTERED,
+        ProjectName VARCHAR(100) NOT NULL,
+        PojectLocation VARCHAR(100) NOT NULL,
+        );
+
+        CREATE TABLE EmployeeOnProject (
+        EmployeeID INT NOT NULL,
+            CONSTRAINT FK_Employee FOREIGN KEY CLUSTERED REFERENCES Employee(EmployeeID),
+        ProjectNumber INT NOT NULL,
+            CONSTRAINT FK_Project FOREIGN KEY CLUSTERED REFERENCE Project(ProjectNumber),
+        WeeklyHours INT NOT NULL,
+        CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmployeeID, ProjectNumber)
+        );
+        
+        CREATE TABLE Department (
+            DepartmentNumber INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Department PRIMARY KEY CLUSTERED,
+            Name VARCHAR(50) NOT NULL 
+        );
+
+        EXEC sp_help Employee;
+        EXEC SP_HELP Project;
+        EXEC SP_HELP EmployeeOnProject;
+        EXEC SP_HELP Department;
+
+    ~EXERCISES:
+        CREATE TABLE Course ( 
+            CourseID        CHAR(8)     NOT NULL    CONSTRAINT PK_Course PRIMARY KEY CLUSTERED, 
+            CourseName      VARCHAR(40) NOT NULL
+            Hours           SMALLINT    NOT NULL
+            NoOfStudents    SMALLINT    NOT NULL
+        ) 
+
+        CREATE TABLE Grade ( 
+            StudentID   INT         NOT NULL    CONSTRAINT FK_Grade FOREIGN KEY CLUSTERED REFERENCES Course(CourseID), 
+            CourseID    CHAR(8)     NOT NULL    CONSTRAINT FK_Grade FOREIGN KEY CLUSTERED REFERENCES Student(CourseID), 
+            Mark        SMALLINT    NOT NULL
+        ) 
+
+        CREATE TABLE Student (
+            StudentID           INT             NOT NULL    CONSTRAINT PK
+            StudentLastName     VARCHAR(40)
+            StudentFirstName    VARCHAR(40)
+            GenderCode          CHAR(1)
+            Address             VARCHAR(30)
+            Birthdate           DATETIME
+            PostalCode          CHAR(6)
+            AvgMark             DECIMAL(4,1)
+            NoOfCourses         SMALLINT
+        )
+
+        CREATE TABLE Club (
+            ClubID      INT
+            ClubName    VARCHAR(50)
+        )
+
+        CREATE TABLE Activity (
+            StudentID   INT
+            ClubID      INT
+        )
+
 ~Inventory View: Inventory
     ItemTypeID
         ItemTypeDescription
