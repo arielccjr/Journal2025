@@ -272,15 +272,149 @@
                 : Passion (Effect on Substance): Experiences that affect or modify the substance (e.g., being heated).
 
 ##################################################################################################################################################################################################################
-: Introduce New Related Word Group, typically based on common Latin or Greek roots.
-: Break down root and affixes, along with usage examples in sentences.
-: Match words to their definitions, use them in sentences, or choose the correct word in a given context
-: Provides the correct answers and explanations.
-: Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-: goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
+~GAME-MECHANICS:
+    : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+    : Break down root and affixes, along with usage examples in sentences.
+    : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+    : Provides the correct answers and explanations.
+    : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+    : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
 
-#########################################################################################################
-# **ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
+##################################################################################################################################################################################################################
+~APA STYLE:
+    What is APA Style?
+        APA Style is a set of rules for writing and organizing research papers. It tells writers how to arrange their content, how to write in a clear style, and how to cite sources properly. It is used in many academic papers, especially in fields like psychology, nursing, business, and social sciences.
+    Who Uses APA Style?
+        APA Style is mainly used by students, researchers, and writers in fields like social sciences (psychology, sociology), business, and nursing. Anyone who needs to write a research paper or academic essay in these fields might use APA Style. If you're a student, always check with your instructor to know which style you should use.
+    Where is APA Style Used?
+        APA Style is used in academic settings—mainly in universities, colleges, and research institutions. It is mostly seen in academic papers, journals, and other types of formal writing related to research. This includes written work in areas like psychology, sociology, economics, criminology, and more.
+    When Should You Use APA Style?
+        APA Style is typically used when you are writing a research paper, essay, thesis, or any academic work that requires citations. It is especially important when you are working on projects in subjects like psychology, nursing, and business. If you are unsure, ask your instructor if APA is the right style for your work.
+    Why is APA Style Important?
+        APA Style helps create consistency in academic writing, making it easier for readers to understand the material. It helps organize ideas clearly and ensures that all sources are properly credited. Using APA also shows that you are following academic standards and gives credibility to your work.
+    How to Use APA Style?
+        To use APA Style, you need to follow certain steps:
+            Set Up the Paper:
+                Title Page: Includes the title of your paper, your name, and your institution.
+                Abstract: A short summary of your paper.
+                Main Body: Your paper with sections like Introduction, Methods, Results, and Discussion.
+                References: A list of all the sources you used in your paper.
+            In-Text Citations:
+                Cite sources within your paper every time you refer to someone else’s work.
+                Use the author's last name and the year of publication in parentheses, for example: (Smith, 2020).
+            Reference List:
+                At the end of your paper, include a list of all the sources you cited. Each entry should include the author’s name, the title of the work, the publication date, and more.
+            Formatting:
+                Use Times New Roman, 12-point font.
+                Double-space your text and have 1-inch margins on all sides.
+                Organize your paper with headings and subheadings.
+        By following these steps, your paper will be in line with APA Style guidelines. If you need more detailed help, refer to the APA Publication Manual or visit websites like the OWL at Purdue.
+        APA Citation Examples:
+            Books:
+                Author, A. A. (Year of Publication). Title of work: Capital letter also for subtitle. Publisher.
+            Articles in Periodicals:
+                Author, A. A. (Year of Publication). Title of article. Title of Periodical, volume number(issue number), pages.
+            Online Sources:
+                Author, A. A. (Year, Month Day). Title of webpage. Website Name. URL
+    By following these guidelines, you will be able to use APA Style to format your research papers and properly cite your sources.
+
+~APA IN-TEXT CITATION FOR AUTHORS:
+    What is APA In-Text Citation for Authors?
+        In APA Style, in-text citations are used to credit the source of information within the body of your paper. The general format includes the author’s last name and the year of publication. This allows readers to quickly locate the full source in your reference list.
+    Who Uses In-Text Citations?
+        Anyone writing academic papers, research articles, or other formal documents needs to use in-text citations when they refer to someone else’s work. This includes students, researchers, and professionals in fields like psychology, sociology, business, and other social sciences.
+    Where are In-Text Citations Used?
+        In-text citations are used directly in the body of your work, immediately following any reference to an idea, quote, or data taken from another source. They ensure that the original author receives proper credit and help readers trace the source material for further information.
+    When Should In-Text Citations Be Used?
+        Every time you reference someone else’s ideas, research, or quotes, you should include an in-text citation. This applies throughout your paper, especially when you quote or paraphrase. Each citation corresponds to a full entry on your reference page at the end of the document.
+    Why Are In-Text Citations Important?
+        In-text citations are essential for two main reasons:
+            Attribution: They give proper credit to the original author of the material you're using.
+            Transparency: They allow readers to verify the information you're presenting and explore the original source for more details.
+    How to Format In-Text Citations by Author?
+        Single Author:
+            When citing a single author, include the author’s last name and the year of publication.
+            Example: (Ahmed, 2016) or Ahmed (2016) mentions...
+        Two Authors:
+            Include both authors' last names, using "and" in the sentence, or "&" in parentheses.
+            Example: (Wegener & Petty, 1994) or Wegener and Petty (1994) support...
+        Three or More Authors:
+            For sources with three or more authors, use the first author's last name followed by "et al." in every citation, even the first time.
+            Example: (Kernis et al., 1993) or Kernis et al. (1993) suggest...
+        No Author:
+            If no author is provided, cite the title of the work (italicized for books or reports, in quotation marks for articles) and the year.
+            Example: ("Using Citations," 2001) or A similar study was done of students ("Tutoring and APA," n.d.).
+        Organizations as Authors:
+            If the author is an organization, use the name of the organization and the year in your citation.
+            Example: (American Psychological Association [APA], 2000) for the first citation, and later (APA, 2000).
+        Citing Indirect Sources:
+            If you reference something cited in another source, use "as cited in" to credit the original author.
+            Example: Johnson argued that... (as cited in Smith, 2003, p. 102).
+        Sources Without Page Numbers:
+            For electronic sources without page numbers, use paragraph numbers, headings, or section names to guide the reader.
+            Example: (Smith, 1997, "Mind Over Matter" section, para. 6).
+    By following these guidelines, you ensure your citations are clear, accurate, and helpful for readers to trace the original sources of your information.
+
+~REFERENCE LIST:
+    What is a Reference List?
+        A reference list is a section at the end of a research paper where all the sources you cited in your paper are listed. The reference list includes enough information for readers to find the sources and verify the information you used in your writing. It contains details like the author(s), publication year, title, and source of each reference.
+    Who Needs to Use a Reference List?
+        Anyone writing a research paper, thesis, or other academic work needs to create a reference list. This includes students, researchers, and professionals across various disciplines, particularly those using APA Style, such as psychology, social sciences, nursing, business, and others.
+    Where is the Reference List Used?
+        The reference list is placed at the end of the paper, after the main text. It should be on a new page labeled "References" at the top, centered, and in bold font. The reference list is used to support the citations made in the body of the paper, giving readers the information they need to locate the original sources.
+    When Should You Create a Reference List?
+        You should create a reference list at the end of any research paper or academic work whenever you cite a source in your writing. If you mention a source within the paper (whether through paraphrasing or quoting), it must be included in the reference list. Ensure that the reference list is complete before submitting your work.
+    Why is a Reference List Important?
+        The reference list serves several important purposes:
+            Credibility: It allows you to show where your information came from, establishing your credibility as a writer.
+            Verification: It enables readers to locate your sources and check the accuracy of your claims.
+            Ethical Writing: It ensures you give proper credit to the original authors and avoid plagiarism.
+            Consistency: It maintains a consistent citation format that readers are familiar with, helping them navigate your work.
+    How to Format a Reference List in APA Style
+        Basic Formatting:
+            Start your reference list on a new page.
+            Label the page "References" in bold, centered at the top.
+            Use double spacing throughout, like the rest of your paper.
+            Apply hanging indentation: the second and all following lines of each reference should be indented by half an inch.
+        Author's Name:
+            Invert the authors' names: last name first, followed by the first and middle initials.
+            For multiple authors (up to 20), list all authors separated by commas. Use an ampersand (&) before the last author's name.
+            If there are 21 or more authors, list the first 19, followed by an ellipsis (...), then the last author's name.
+        Title of Work:
+            Italicize the titles of books, journals, newspapers, and other longer works.
+            Do not italicize or use quotes for shorter works like journal articles or book chapters.
+            For article titles, capitalize only the first word and any proper nouns.
+            For journal titles, capitalize all major words.
+        Publication Date:
+            Put the publication year in parentheses immediately after the author's name.
+            For works without a publication date, use "n.d." (no date).
+        Special Rules for Journals:
+            Italicize the name of the journal.
+            Capitalize all major words in the journal title.
+            Do not italicize the article title, and do not put the title in quotation marks.
+        Additional Sources:
+            If the source is an organization or government agency, use the full name first, followed by the abbreviation in brackets (if commonly known), and then use the abbreviation in subsequent citations.
+            If citing a source with no author, use the title in the citation instead.
+        Citing Multiple Sources:
+            When citing multiple sources in one citation, list them alphabetically, separated by semicolons. For sources by the same author in the same year, add lower case letters (a, b, c) after the year to differentiate them.
+    By following these guidelines, you ensure that your reference list is properly formatted and complete, making it easy for your readers to find and verify your sources.
+
+APA Sample Paper (APA 7th Edition)
+    What: The APA Sample Paper provides an example of a research paper formatted according to the APA (American Psychological Association) 7th Edition style. It includes two versions: a student paper and a professional paper.
+    Who: This resource is for students and professionals who are writing research papers in APA style, particularly those in disciplines such as social sciences, education, and business. The sample papers are provided for instructional purposes.
+    Where: The sample papers can be accessed online through the OWL (Online Writing Lab) at Purdue University or from various academic resources.
+    When: The latest version of the APA Publication Manual (7th edition) was released in October 2019, and the sample papers reflect this updated style guide.
+    Why (For What): The purpose of the sample papers is to provide examples of how to correctly format research papers according to APA 7th Edition rules. This includes the title page, abstract, headings, citations, and reference list. It serves as a guide for writers to ensure they are following proper APA formatting guidelines.
+    How (By What Logical Steps):
+        Title Page: Centered title, author's name, and affiliation.
+        Running Head (for Professional Papers): Shortened version of the paper title in the header.
+        Abstract: A brief summary of the paper, followed by keywords (in the student paper, the abstract is optional).
+        Body of the Paper: Contains the introduction, literature review, methods, results, and discussion sections. Headings are used to organize these sections.
+        Citations: Use in-text citations for references to external sources, following the author-date citation style.
+        Reference List: A list of sources cited in the paper, formatted according to APA style with specific rules for various types of sources (e.g., books, articles, online resources).
+    This sample format helps users ensure that their academic writing meets the standards for APA style, making the document professional and credible.
+##################################################################################################################################################################################################################
+~ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
     1. Call to Order: The chairperson calls the meeting to order, marking the official start.
     2. Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
     3. Reading and Approval of Minutes
@@ -350,7 +484,7 @@
 	: Preparations:
 	: Weekly Thematic Meeting Event
 
-########################################################################################################
+################################################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
 ~HOW LIGHT BE: Electromagnetic waves interact with matter and how our eyes and brain interpret these as color. 
     Image Acquisition: The process begins with capturing images or video through cameras or sensors, creating the raw data that the system will analyze.
@@ -478,7 +612,7 @@ Richard Williams’ The Animator’s Survival Kit is one of the most respected g
 : WHERE: Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
 : WHEN:
 
-#####################################################################################################################
+##########################################################################################################################################################################################################################################
 ~HOW SOUND BE? Vibrations create waves that travel through different mediums, allowing us to hear and perceive sound. 
 Computer Sound refers to the technology and processes involved in capturing, processing, generating, and interpreting audio using computers. Here’s an overview of its core components and significance: 
     Sound Capture (Input): Sound is captured through microphones or audio interfaces, where analog sound waves are converted into digital data using an analog-to-digital converter (ADC).
