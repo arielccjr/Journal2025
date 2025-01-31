@@ -152,61 +152,38 @@
         : Access Control: Defines visibility and accessibility of members. To enforce encapsulation and protect data.
 ~INFORMATION SYSTEMS:
     What: Core components that make up an information system (IS), including data, hardware, and software.
-    Who: IT Teams, Business Stakeholders, INFORMATION TECHNOLOGY USERS
-        1. Top Managers
-            What: Users responsible for long-term strategic planning and resource allocation.
-            Who: CEOs, directors, and executives.
-            Where: At the highest level of management.
-            When: During strategic planning and evaluations.
-            Why: To set organizational direction and evaluate progress.
-            How:
-                Use data from enterprise systems.
-                Monitor trends and forecast growth.
-                Allocate resources effectively.
-        2. Middle Managers & Knowledge Workers
-            What: Users managing teams and performing specialized tasks.
-            Who: Department heads, engineers, accountants, HR professionals, etc.
-            Where: Mid-level in organizations.
-            When: During project management or complex problem-solving.
-            Why: To provide direction, support, and performance feedback.
-            How:
-                Use MIS and DSS for insights.
-                Plan resources and delegate tasks.
-                Perform analysis and generate reports.
-        3. Supervisors and Team Leaders
-            What: Frontline managers controlling daily operations.
-            Who: Office managers, project managers, foremen.
-            Where: At the operational level.
-            When: During routine business processes.
-            Why: To ensure smooth day-to-day functioning.
-            How:
-                Oversee staff and operations.
-                Provide immediate feedback.
-                Use TPS for monitoring workflows.
-        4. Operational Employees
-            What: Users directly interacting with systems to perform tasks.
-            Who: Clerical workers, data entry staff, sales representatives.
-            Where: At the transactional level.
-            When: During real-time operations requiring system input/output.
-            Why: To execute specific tasks as part of business workflows.
-            How:
-                Enter data into TPS.
-                Process tasks (e.g., reservations, orders).
-                Rely on automated systems for efficiency.
-    Where: In any system designed to process, manage, and use data for operations.
-    When: During the design and implementation phases of system development.
-    Why (For What):
+    Who: 
+        1. Top Managers: Users responsible for long-term strategic planning and resource allocation, like CEOs, directors, and executives.
+        2. Middle Managers & Knowledge Workers: Users managing teams and performing specialized tasks, like Department heads, engineers, accountants, HR professionals, etc.
+        3. Supervisors and Team Leaders: Frontline managers controlling daily operations, like Office managers, project managers, foremen.
+        4. Operational Employees: Users directly interacting with systems to perform tasks, like Clerical workers, data entry staff, sales representatives.
+    Why:
         To enable efficient data input, processing, and output.
         To support mission-critical operations vital to businesses.
+        To set organizational direction and evaluate progress.
+        To provide direction, support, and performance feedback.
+        To ensure smooth day-to-day functioning.
+        To execute specific tasks as part of business workflows.
     How:
         Define the system’s purpose and scope.
         Identify and integrate hardware components (physical systems).
         Develop and implement software (programs controlling the hardware).
         Collect and process input data to achieve specific results.
-    
+            Use data from enterprise systems.
+                Monitor trends and forecast growth.
+                Allocate resources effectively.
+            Use MIS and DSS for insights.
+                Plan resources and delegate tasks.
+                Perform analysis and generate reports.
+            Oversee staff and operations.
+                Provide immediate feedback.
+                Use TPS for monitoring workflows.
+            Enter data into TPS.
+                Process tasks (e.g., reservations, orders).
+                Rely on automated systems for efficiency.
+        
     ~BUSINESS USE OF INFORMATION TECHNOLOGY: How IT is used to support different business operations and decision-making processes.
-        1. Enterprise Computing Systems
-            What: Systems that support company-wide operations and strategic decision-making (e.g., ERP systems).
+        1. Enterprise Computing Systems: Systems that support company-wide operations and strategic decision-making (e.g., ERP systems).
             Who: Used by top and middle management for strategic planning and operational oversight.
             Where: Large organizations requiring integration across departments.
             When: When streamlining operations and improving efficiency.
@@ -215,8 +192,7 @@
                 Implement structured rules for predictable tasks.
                 Use ERP to consolidate operations into a single system.
                 Ensure scalability for future growth.
-        2. Transaction Processing Systems (TPS)
-            What: Applications that handle daily operations like orders, reservations, and payroll.
+        2. Transaction Processing Systems (TPS): Applications that handle daily operations like orders, reservations, and payroll.
             Who: Clerical users and operational employees.
             Where: At the transactional level of businesses.
             When: In day-to-day operations requiring real-time data processing.
@@ -225,8 +201,7 @@
                 Collect input data for transactions.
                 Process data in real-time or batch mode.
                 Produce outputs for operations (e.g., receipts, records).
-        3. Business Support Systems (MIS)
-            What: Systems for generating management reports to aid decision-making.
+        3. Business Support Systems (MIS): Systems for generating management reports to aid decision-making.
             Who: Middle management.
             Where: In organizations requiring structured reporting.
             When: During performance evaluations or resource allocation.
@@ -235,8 +210,7 @@
                 Collect data from TPS or other sources.
                 Generate detailed, summary, or exception reports.
                 Use reports for analysis and decision-making.
-        4. Decision Support Systems (DSS)
-            What: Tools for performing “what-if” analyses and making decisions.
+        4. Decision Support Systems (DSS): Tools for performing “what-if” analyses and making decisions.
             Who: Middle and top management.
             Where: In scenarios requiring analytical insights.
             When: During planning, budgeting, or forecasting.
@@ -245,8 +219,7 @@
                 Analyze data using simulations.
                 Present insights with interactive dashboards.
                 Test multiple scenarios to identify optimal solutions.
-        5. Knowledge Management Systems (KMS)
-            What: Advanced systems using expert knowledge to simulate reasoning and provide solutions.
+        5. Knowledge Management Systems (KMS): Advanced systems using expert knowledge to simulate reasoning and provide solutions.
             Who: Used by expert professionals or management.
             Where: In organizations requiring specialized decision-making.
             When: In complex problem-solving scenarios.
@@ -255,8 +228,7 @@
                 Build a knowledge base with encoded rules.
                 Use fuzzy logic to manage imprecise relationships.
                 Apply inference rules for decision-making.
-    ~Functional Requirements
-        What: Functional requirements define what the system is supposed to do. They describe specific behaviors, actions, or tasks the system must perform, focusing on inputs, processing, and outputs.
+    ~Functional Requirements: define what the system is supposed to do. They describe specific behaviors, actions, or tasks the system must perform, focusing on inputs, processing, and outputs.
         Who:
             Stakeholders: Business Analysts, System Analysts, Developers, Testers, End Users
             Users: Those interacting directly with the system (e.g., employees, customers)
@@ -554,8 +526,7 @@
             Determine inter-rule relationships: Map how rules interact or overlap to avoid conflicts.
 
 ~RISK ANALYSIS:
-    What is Risk?
-        What: Risk refers to the potential positive or negative effects of an event or series of events on a project. It encompasses uncertainty and its impact on project outcomes.
+    Risk refers to the potential positive or negative effects of an event or series of events on a project. It encompasses uncertainty and its impact on project outcomes.
         Who:
             Stakeholders: Project Managers, Risk Managers, Team Members, Business Stakeholders.
             Affected Parties: The organization, clients, or customers relying on the project’s success.
@@ -1270,8 +1241,84 @@
                 Rarely implemented due to its complexity.
         ~3: Merge
 
-~DDL:
-    print 'Hello, Class!'
+~DEFAULT CONSTRAINT:
+    CREATE TABLE EmployeeOnProject(
+        EmployeeID      CHAR(11)    NOT NULL
+            CONSTRAINT FK_EmployeeOnProjectToEmployee
+            REFERENCES Employee (EmployeeID),
+        ProjectNumber   INT         NOT NULL
+            CONSTRAINT FK_EmployeeOnProjectToProject
+            REFERENCES Project (ProjectNumber),
+        WeeklyHours     INT         NOT NULL
+            CONSTRAINT DF_Hours DEFAULT 5.0
+            CONSTRAINT CK_HoursLimit CHECK (WeeklyHours <= 20),
+            CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmploeeID, ProjectNumber)
+    )
+
+~CHECK CONSTRAINT
+    CREATE TABLE EmployeeOnProject(
+        EmployeeID      CHAR(11)    NOT NULL
+            CONSTRAINT FK_EmployeeOnProjectToEmployee
+            REFERENCES Employee (EmployeeID),
+        ProjectNumber   INT         NOT NULL
+            CONSTRAINT FK_EmployeeOnProjectToProject
+            REFERENCES Project (ProjectNumber),
+        WeeklyHours     INT         NOT NULL
+            CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmploeeID, ProjectNumber)
+            CONSTRAINT CK_HoursLimit CHECK (WeeklyHours <= 20)
+    )
+
+~PRIMARY & FOREIGN KEY CONSTRAINTS: 
+    1. Create Parent Table(s) first.
+    2. Add Data Type
+    3. Add NOT NULL if REQUIRED. Otherwise, NULL.
+    4. Add CONSTRAINT:
+        PK = CONSTRAINT PK_(CurrentTable) PRIMARY KEY CLUSTERED,
+        FK = CONSTRAINT FK_(CurrentTable)To(ReferenceTable) FOREIGN KEY CLUSTERED REFERENCES ReferenceTable(PrimaryKey), 
+        PK = CONSTRAINT PK_Activity PRIMARY KEY CLUSTERED (StudentID, ClubID)
+    CREATE (PARENT) TABLE Student (
+        StudentID           INT             NOT NULL    CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
+        StudentLastName     VARCHAR(40)     NOT NULL,
+        StudentFirstName    VARCHAR(40)     NOT NULL,
+        GenderCode          CHAR(1)         NOT NULL
+            CONSTRAINT CK_GenderCode CHECK (Gender like "F" AND Gender like "M" AND Gender like "X"),
+        Address             VARCHAR(30)     NULL,
+        Birthdate           DATETIME        NULL,
+        PostalCode          CHAR(6)         NULL
+            CONSTRAINT CK_PostalCode CHECK (PostalCode Lke '[A-Z][0-9][A-Z] [0-9][A-Z][0-9]'),
+        AvgMark             DECIMAL(4,1)    NULL
+            CONSTRAINT CK_AvgMark CHECK (AvgMark < 0 AND AvgMark > 100),
+        NoOfCourses         SMALLINT        NULL
+            CONSTRAINT CK_NoOfCourses CHECK (NoOfCourses >= 0) 
+            CONSTRAINT DF_NoOfCourses DEFAULT 0
+    )
+    CREATE TABLE Course ( 
+        CourseID        CHAR(8)     NOT NULL    CONSTRAINT PK_Course PRIMARY KEY CLUSTERED, 
+        CourseName      VARCHAR(40) NOT NULL
+        Hours           SMALLINT    NULL
+            CONSTRAINT CK_Hours CHECK (Hours > 0)
+        NoOfStudents    SMALLINT    NULL
+            CONSTRAINT CK_NoOfStudents CHECK (NoOfStudents >= 0)
+    ) 
+    CREATE TABLE Club (
+        ClubID      INT         NOT NULL    CONSTRAINT PK_Club PRIMARY KEY CLUSTERED
+        ClubName    VARCHAR(50) NOT NULL
+    )
+        CREATE (CHILD) TABLE Grade ( 
+            StudentID   INT         NOT NULL    CONSTRAINT FK_GradeToStudent FOREIGN KEY CLUSTERED REFERENCES Studednt(StudentID), 
+            CourseID    CHAR(8)     NOT NULL    CONSTRAINT FK_GradeToCourse FOREIGN KEY CLUSTERED REFERENCES Course(CourseID), 
+            Mark        SMALLINT    NULL
+                CONSTRAINT CK_Mark CHECK (Mark < 0 AND Mark > 100)
+                CONSTRAINT DF_Mark DEFAULT 0,
+            CONSTRAINT PK_Grade PRIMARY KEY CYSTERED(StudentID, CourseID)
+        ) 
+        CREATE TABLE Activity (
+            StudentID   INT NOT NULL    CONSTRAINT FK_ActivityToStudent REFERENCES Student(StudentID),
+            ClubID      INT NOT NULL    CONSTRAINT FK_ClubToActivity REFERENCES Club(ClubID),
+            CONSTRAINT PK_Activity PRIMARY KEY CLUSTERED (StudentID, ClubID)
+        )
+
+   print 'Hello, Class!'
 
     ~CREATING TABLE: Parent Table First, then Child Second
         CREATE TABLE Employee (
@@ -1330,42 +1377,6 @@
         EXEC SP_HELP Project;
         EXEC SP_HELP EmployeeOnProject;
         EXEC SP_HELP Department;
-
-    ~EXERCISES:
-        CREATE TABLE Course ( 
-            CourseID        CHAR(8)     NOT NULL    CONSTRAINT PK_Course PRIMARY KEY CLUSTERED, 
-            CourseName      VARCHAR(40) NOT NULL
-            Hours           SMALLINT    NOT NULL
-            NoOfStudents    SMALLINT    NOT NULL
-        ) 
-
-        CREATE TABLE Grade ( 
-            StudentID   INT         NOT NULL    CONSTRAINT FK_Grade FOREIGN KEY CLUSTERED REFERENCES Course(CourseID), 
-            CourseID    CHAR(8)     NOT NULL    CONSTRAINT FK_Grade FOREIGN KEY CLUSTERED REFERENCES Student(CourseID), 
-            Mark        SMALLINT    NOT NULL
-        ) 
-
-        CREATE TABLE Student (
-            StudentID           INT             NOT NULL    CONSTRAINT PK
-            StudentLastName     VARCHAR(40)
-            StudentFirstName    VARCHAR(40)
-            GenderCode          CHAR(1)
-            Address             VARCHAR(30)
-            Birthdate           DATETIME
-            PostalCode          CHAR(6)
-            AvgMark             DECIMAL(4,1)
-            NoOfCourses         SMALLINT
-        )
-
-        CREATE TABLE Club (
-            ClubID      INT
-            ClubName    VARCHAR(50)
-        )
-
-        CREATE TABLE Activity (
-            StudentID   INT
-            ClubID      INT
-        )
 
 ~Inventory View: Inventory
     ItemTypeID
