@@ -1,55 +1,42 @@
-## **~TRANSITION-MODEL: QUESTION-PLAN**
+## **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
     ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
         : AGENT/PLAYER: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
         : -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
         : +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-    ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS).
-        : 0=EXPERIENCE/CHILD/CONTACT/LIFE
-    ~FLOW/HABIT-LOOP: STIMULUS >>> REACTION(INSTANT-GRATIFICATION)
-        : IN:SEE/HEAR/FEEL/SMELL/TASTE()
-        : OUT:MIRROR/BE()
-    ~FREE-WILL/CENTRAL-PROCESSING: CUE/SURRENDER >>> WHAT-WHY-HOW? >>> MOTION >>> WARD(LASTING)/LET GO
-        ~1: PERCEIVE(): IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS), FRONTIER:WHAT/WHO/WHERE/WHEN 
-            : UNKNOWN/STRANGER/FOREIGN/SURPRISE
-        ~2: PREDICATE(): READ(SEEN/HEARD/FELT/SMELLED/TASTED), EXPLORED-SET:KNOWN/FAMILIAR/HOME/SCHEDULE
-            : KNOWN: 
-                : WORDS/NUMBERS:0/1s: Contract & Copy Writing, Financial Statement... 
-                : RULES AND CONSTRAINTS
-                : RESULT(s, a): returns state after action a taken in state s
-                : path cost function: number of steps in proof
-                : TERMINAL(s): checks if state s is a terminal state; "Is Frontier = Goal?"
-                : UTILITY(s): final numerical value for terminal state s                : Light: GEOMETRY (EUCLID)
-                : Sound: MUSIC (BOETHIUS)
-                : Motion: PHYSICS (ARISTOTLE)
-                : Energy: 
-                    : Positive (+1)
-                    : Negative (-1)
-                    : Neutral (0)
-            : FAMILY: Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...
-                : Personality Types / Characters (Theophrastus)
-            : HOME: Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...
-                : CLAA'S HISTORY OF EDUCATION
-                : ASTRONOMY (PTOLEMY)
-            : SCHEDULE: Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...
-        ~3: REASON/ARRANGE(), 
-            : WRITE-READ(KNOWN), CORRECTNESS:
-                : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER (ARISTOTLE'S NICHOMACHEAN ETHICS)
-                : STORYLINE: NOW-SPACE = ARISTOTLE'S RHETORIC
-                : LOGIC-ARITHMETIC = -1, 0, +1
-                : CORRECT-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-                    : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
-                : WORD: PARSE/ETYMOLOGY: 
+    ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
+        : 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
+    ~FLOW-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION)
+        : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS)
+        : OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+    ~FREE-WILL: STOP-&-CORRECT:
+        ~READ/DECODE(FRONTIER), EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+            : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+            : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+            : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+            : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
+                : SYNTAX: SENTENCE, COPYRIGHTS
+                : WORD: PARSE/ETYMOLOGY
                     : Roots: Fact/Known
                     : Fixes: Position-Lodial
                 : SYMBOLS: 
                     : Letters/Spells, 
                     : Flags. International Beaureau of Weights and Measures in France
-                    : Copyrights.
-            : ERASE-FORGET(BABBLE/WRONG) 
-        ~4: MOTION(), BODY/I/HERE/NOW: FOR THE FLESH: Creation/Matter, Physics, Experience, Revelation
+                    : Light: GEOMETRY (EUCLID)
+                    : Sound: MUSIC (BOETHIUS)
+                    : Motion: PHYSICS (ARISTOTLE)
+                    : Energy: path cost function: number of steps in proof
+                        : Positive (+1)
+                        : Negative (-1)
+                        : Neutral (0)
+        ~WRITE/REASON/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), CORRECTNESS:
+            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER (ARISTOTLE'S NICHOMACHEAN ETHICS)
+            : NOW-SPACE STORYLINE= ARISTOTLE'S RHETORIC
+            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : LOGIC-ARITHMETIC = -1, 0, +1
+        ~MOTION(), BODY/I/HERE/NOW(CORPORATION): RESULT(s, a): returns state after action a taken in state s
             : CONTINUE = IN:SEE/HEAR/FEEL/SMELL/TASTE() - OUT:BE/MIRROR().
             : STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-       ~5: WARD(LASTING)
 
 # **FOR THE WORD-&-LIGHT.**
 FOR THE BEGINNING IS WITH THE WORD.
