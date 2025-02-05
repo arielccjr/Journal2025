@@ -180,7 +180,7 @@
         : Examples: Using specific instances to illustrate or support a point (e.g., “In history, societies with strong education systems have prospered” in a discussion on education policy).
     : ANALYTICS: Use Probable Reasoning: Dialectical reasoning produces conclusions that are probable rather than certain, since it is based on generally accepted beliefs rather than incontrovertible truths.
         : PRIOR,
-        : POSTERIOR.   
+        : POSTERIOR.
         : REDUCTION AND PROOF TECHNIQUES: the process of breaking down complex syllogisms into simpler, more familiar forms, often in the first figure (a primary, straightforward syllogistic form), 
             : Direct Reduction: Involves converting the syllogism directly into the first figure by rearranging or rephrasing terms.
                 : Simplify syllogism by converting it into the first figure.
@@ -203,10 +203,7 @@
             : Rule of Distribution: The middle term must be distributed (apply to all members of a category) in at least one premise.
             : Rule of Quantity and Quality: Two particular premises cannot lead to a valid conclusion.
                 : The structure (affirmative/negative, universal/particular) of the premises influences the validity of the syllogism.
-        : SYLLOGISTIC FIGURES: the structural forms that classify syllogisms by the position of the middle term in the premises
-            Aristotle categorizes syllogisms into different figures based on the position of the middle term and different moods 
-            based on the types of statements involved (universal/particular, affirmative/negative). 
-            These figures and moods create valid patterns, with certain combinations ensuring validity.
+        : SYLLOGISTIC FIGURES: These figures and moods create valid patterns, with certain combinations ensuring validity.
             : 1. First Figure (AAA) - Barbara: The middle term is the subject of the major premise and the predicate of the minor premise.
                 Mood: AAA (All - All - All)
                     Premise 1 (Major): All humans are mortal. (A)
@@ -223,30 +220,30 @@
                     Premise 2 (Minor): All animals are living beings. (A)
                     Conclusion: Therefore, some living beings are herbivores. (I)
             : 4. Fourth Figure (Added by later logicians): The middle term is the predicate of the major premise and the subject of the minor premise.
-        : TYPES OF MODAL PROPOSITIONS: Modal propositions are statements that express modalities — the necessity or possibility of a situation. 
-            : Necessary Propositions: Statements that must be true in all cases. Necessary propositions describe truths that are unchanging and universal.
-            : Possible Propositions: Statements that could be true under certain conditions but are not guaranteed. They express potential outcomes or situations.
-            : Impossible Propositions: Statements that cannot be true under any circumstances. These propositions describe contradictions or inherently false situations.         
-        : RELATIONSHIPS BETWEEN PROPOSITIONS:
-            : Contradiction: A and O (as well as E and I) are contradictory. They cannot both be true or both be false.
-            : Contrariety: A and E are contrary propositions; they cannot both be true simultaneously, but they can both be false.
-            : Subcontrariety: I and O are subcontrary propositions; they can both be true but cannot both be false.
-            : Subalternation: There is a truth dependency from universal to particular (A → I and E → O). If A is true, then I must be true; if E is true, then O must be true. 
- ~1: GRAMMAR: CORRECT-PARSE-SYNTAX:
+~1: GRAMMAR: CORRECT-PARSE-SYNTAX:
     : SYLLOGISM/DEMONSTRATION: A syllogism is valid when it follows a logical form that guarantees the truth of the conclusion if the premises are true. 
         : COMPONENTS:
             : Major Term: The predicate of the conclusion (e.g., "mortal" in the example).
             : Minor Term: The subject of the conclusion (e.g., "Socrates").
             : Middle Term: The term that appears in both premises but not in the conclusion (e.g., "human").
                 The middle term acts as the link between the two premises and determines how they connect to reach a conclusion.
-    : PREMISES: Valid syllogisms ensure a sound flow from general statements (premises) to specific outcomes (conclusion).
-        : Major Premise (Universal or Particular, Affirmative or Negative) "All humans are mortal."
-            First principles are foundational truths that require no further proof. They are known intuitively or through induction(generalizing from experience) and serve as the starting point for any demonstration.
-            Axioms are self-evident truths that require no proof and serve as foundational statements upon which further knowledge is built.
-        : Minor Premise (Universal or Particular, Affirmative or Negative) "Socrates is a human."
-            Known fact
-        : Conclusion (Follow rules of distribution and quality to validate) "Therefore, Socrates is mortal."
-   : SENTENCE/PROPOSITION: SUBJECT-PREDICATE
+        : PREMISES: Valid syllogisms ensure a sound flow from general statements (premises) to specific outcomes (conclusion).
+            : Major Premise (Universal or Particular, Affirmative or Negative) "All humans are mortal."
+                First principles are foundational truths that require no further proof. They are known intuitively or through induction(generalizing from experience) and serve as the starting point for any demonstration.
+                Axioms are self-evident truths that require no proof and serve as foundational statements upon which further knowledge is built.
+            : Minor Premise (Universal or Particular, Affirmative or Negative) "Socrates is a human."
+                Known fact
+            : Conclusion (Follow rules of distribution and quality to validate) "Therefore, Socrates is mortal."
+        : RELATIONSHIPS BETWEEN PROPOSITIONS:
+            : Contradiction: A and O (as well as E and I) are contradictory. They cannot both be true or both be false.
+            : Contrariety: A and E are contrary propositions; they cannot both be true simultaneously, but they can both be false.
+            : Subcontrariety: I and O are subcontrary propositions; they can both be true but cannot both be false.
+            : Subalternation: There is a truth dependency from universal to particular (A → I and E → O). If A is true, then I must be true; if E is true, then O must be true. 
+    : SENTENCE/PROPOSITION: SUBJECT-PREDICATE
+        : TYPES OF MODAL PROPOSITIONS: Modal propositions are statements that express modalities — the necessity or possibility of a situation. 
+            : Necessary Propositions: Statements that must be true in all cases. Necessary propositions describe truths that are unchanging and universal.
+            : Possible Propositions: Statements that could be true under certain conditions but are not guaranteed. They express potential outcomes or situations.
+            : Impossible Propositions: Statements that cannot be true under any circumstances. These propositions describe contradictions or inherently false situations.         
         : TYPES OF PROPOSITIONS: 
             A: Universal Affirmative (e.g., "All S are P")
             E: Universal Negative (e.g., "No S are P")
@@ -282,55 +279,39 @@
 
 ##################################################################################################################################################################################################################
 ~APA STYLE:
-    What is APA Style?
-        APA Style is a set of rules for writing and organizing research papers. It tells writers how to arrange their content, how to write in a clear style, and how to cite sources properly. It is used in many academic papers, especially in fields like psychology, nursing, business, and social sciences.
-    Who Uses APA Style?
-        APA Style is mainly used by students, researchers, and writers in fields like social sciences (psychology, sociology), business, and nursing. Anyone who needs to write a research paper or academic essay in these fields might use APA Style. If you're a student, always check with your instructor to know which style you should use.
-    Where is APA Style Used?
-        APA Style is used in academic settings—mainly in universities, colleges, and research institutions. It is mostly seen in academic papers, journals, and other types of formal writing related to research. This includes written work in areas like psychology, sociology, economics, criminology, and more.
-    When Should You Use APA Style?
-        APA Style is typically used when you are writing a research paper, essay, thesis, or any academic work that requires citations. It is especially important when you are working on projects in subjects like psychology, nursing, and business. If you are unsure, ask your instructor if APA is the right style for your work.
-    Why is APA Style Important?
-        APA Style helps create consistency in academic writing, making it easier for readers to understand the material. It helps organize ideas clearly and ensures that all sources are properly credited. Using APA also shows that you are following academic standards and gives credibility to your work.
-    How to Use APA Style?
-        To use APA Style, you need to follow certain steps:
-            Set Up the Paper:
-                Title Page: Includes the title of your paper, your name, and your institution.
-                Abstract: A short summary of your paper.
-                Main Body: Your paper with sections like Introduction, Methods, Results, and Discussion.
-                References: A list of all the sources you used in your paper.
-            In-Text Citations:
-                Cite sources within your paper every time you refer to someone else’s work.
-                Use the author's last name and the year of publication in parentheses, for example: (Smith, 2020).
-            Reference List:
-                At the end of your paper, include a list of all the sources you cited. Each entry should include the author’s name, the title of the work, the publication date, and more.
-            Formatting:
-                Use Times New Roman, 12-point font.
-                Double-space your text and have 1-inch margins on all sides.
-                Organize your paper with headings and subheadings.
-        By following these steps, your paper will be in line with APA Style guidelines. If you need more detailed help, refer to the APA Publication Manual or visit websites like the OWL at Purdue.
+    What is APA Style? APA Style is a set of rules for writing and organizing research papers. 
+    Who Uses APA Style? APA Style is mainly used by students, researchers, and writers in fields like social sciences (psychology, sociology), business, and nursing. 
+    Where is APA Style Used? APA Style is used in academic settings—mainly in universities, colleges, and research institutions. 
+    When Should You Use APA Style? APA Style is typically used when you are writing a research paper, essay, thesis, or any academic work that requires citations. 
+    Why is APA Style Important? Using APA also shows that you are following academic standards and gives credibility to your work.
+    How to Use APA Style? To use APA Style, you need to follow certain steps:
+        Set Up the Paper:
+            Title Page: Includes the title of your paper, your name, and your institution.
+            Abstract: A short summary of your paper.
+            Main Body: Your paper with sections like Introduction, Methods, Results, and Discussion.
+            References: A list of all the sources you used in your paper.
+        In-Text Citations:
+            Cite sources within your paper every time you refer to someone else’s work.
+            Use the author's last name and the year of publication in parentheses, for example: (Smith, 2020).
+        Reference List:
+            At the end of your paper, include a list of all the sources you cited. Each entry should include the author’s name, the title of the work, the publication date, and more.
+        Formatting:
+            Use Times New Roman, 12-point font.
+            Double-space your text and have 1-inch margins on all sides.
+            Organize your paper with headings and subheadings.
         APA Citation Examples:
-            Books:
-                Author, A. A. (Year of Publication). Title of work: Capital letter also for subtitle. Publisher.
-            Articles in Periodicals:
-                Author, A. A. (Year of Publication). Title of article. Title of Periodical, volume number(issue number), pages.
-            Online Sources:
-                Author, A. A. (Year, Month Day). Title of webpage. Website Name. URL
-    By following these guidelines, you will be able to use APA Style to format your research papers and properly cite your sources.
+            Books: Author, A. A. (Year of Publication). Title of work: Capital letter also for subtitle. Publisher.
+            Articles in Periodicals: Author, A. A. (Year of Publication). Title of article. Title of Periodical, volume number(issue number), pages.
+            Online Sources: Author, A. A. (Year, Month Day). Title of webpage. Website Name. URL
 
 ~APA IN-TEXT CITATION FOR AUTHORS:
-    What is APA In-Text Citation for Authors?
-        In APA Style, in-text citations are used to credit the source of information within the body of your paper. The general format includes the author’s last name and the year of publication. This allows readers to quickly locate the full source in your reference list.
-    Who Uses In-Text Citations?
-        Anyone writing academic papers, research articles, or other formal documents needs to use in-text citations when they refer to someone else’s work. This includes students, researchers, and professionals in fields like psychology, sociology, business, and other social sciences.
-    Where are In-Text Citations Used?
-        In-text citations are used directly in the body of your work, immediately following any reference to an idea, quote, or data taken from another source. They ensure that the original author receives proper credit and help readers trace the source material for further information.
-    When Should In-Text Citations Be Used?
-        Every time you reference someone else’s ideas, research, or quotes, you should include an in-text citation. This applies throughout your paper, especially when you quote or paraphrase. Each citation corresponds to a full entry on your reference page at the end of the document.
-    Why Are In-Text Citations Important?
-        In-text citations are essential for two main reasons:
-            Attribution: They give proper credit to the original author of the material you're using.
-            Transparency: They allow readers to verify the information you're presenting and explore the original source for more details.
+    What is APA In-Text Citation for Authors? In APA Style, in-text citations are used to credit the source of information within the body of your paper. 
+    Who Uses In-Text Citations? Anyone writing academic papers, research articles, or other formal documents needs to use in-text citations when they refer to someone else’s work. 
+    Where are In-Text Citations Used? In-text citations are used directly in the body of your work, immediately following any reference to an idea, quote, or data taken from another source. 
+    When Should In-Text Citations Be Used? Every time you reference someone else’s ideas, research, or quotes, you should include an in-text citation. 
+    Why Are In-Text Citations Important? In-text citations are essential for two main reasons:
+        Attribution: They give proper credit to the original author of the material you're using.
+        Transparency: They allow readers to verify the information you're presenting and explore the original source for more details.
     How to Format In-Text Citations by Author?
         Single Author:
             When citing a single author, include the author’s last name and the year of publication.
@@ -353,24 +334,18 @@
         Sources Without Page Numbers:
             For electronic sources without page numbers, use paragraph numbers, headings, or section names to guide the reader.
             Example: (Smith, 1997, "Mind Over Matter" section, para. 6).
-    By following these guidelines, you ensure your citations are clear, accurate, and helpful for readers to trace the original sources of your information.
 
 ~REFERENCE LIST:
-    What is a Reference List?
-        A reference list is a section at the end of a research paper where all the sources you cited in your paper are listed. The reference list includes enough information for readers to find the sources and verify the information you used in your writing. It contains details like the author(s), publication year, title, and source of each reference.
-    Who Needs to Use a Reference List?
-        Anyone writing a research paper, thesis, or other academic work needs to create a reference list. This includes students, researchers, and professionals across various disciplines, particularly those using APA Style, such as psychology, social sciences, nursing, business, and others.
-    Where is the Reference List Used?
-        The reference list is placed at the end of the paper, after the main text. It should be on a new page labeled "References" at the top, centered, and in bold font. The reference list is used to support the citations made in the body of the paper, giving readers the information they need to locate the original sources.
-    When Should You Create a Reference List?
-        You should create a reference list at the end of any research paper or academic work whenever you cite a source in your writing. If you mention a source within the paper (whether through paraphrasing or quoting), it must be included in the reference list. Ensure that the reference list is complete before submitting your work.
-    Why is a Reference List Important?
-        The reference list serves several important purposes:
-            Credibility: It allows you to show where your information came from, establishing your credibility as a writer.
-            Verification: It enables readers to locate your sources and check the accuracy of your claims.
-            Ethical Writing: It ensures you give proper credit to the original authors and avoid plagiarism.
-            Consistency: It maintains a consistent citation format that readers are familiar with, helping them navigate your work.
-    How to Format a Reference List in APA Style
+    What is a Reference List? A reference list is a section at the end of a research paper where all the sources you cited in your paper are listed. 
+    Who Needs to Use a Reference List? Anyone writing a research paper, thesis, or other academic work needs to create a reference list. 
+    Where is the Reference List Used? The reference list is placed at the end of the paper, after the main text. 
+    When Should You Create a Reference List? You should create a reference list at the end of any research paper or academic work whenever you cite a source in your writing. 
+    Why is a Reference List Important? The reference list serves several important purposes:
+        Credibility: It allows you to show where your information came from, establishing your credibility as a writer.
+        Verification: It enables readers to locate your sources and check the accuracy of your claims.
+        Ethical Writing: It ensures you give proper credit to the original authors and avoid plagiarism.
+        Consistency: It maintains a consistent citation format that readers are familiar with, helping them navigate your work.
+    How to Format a Reference List in APA Style? By following these guidelines, you ensure that your reference list is properly formatted and complete, making it easy for your readers to find and verify your sources.
         Basic Formatting:
             Start your reference list on a new page.
             Label the page "References" in bold, centered at the top.
@@ -397,22 +372,23 @@
             If citing a source with no author, use the title in the citation instead.
         Citing Multiple Sources:
             When citing multiple sources in one citation, list them alphabetically, separated by semicolons. For sources by the same author in the same year, add lower case letters (a, b, c) after the year to differentiate them.
-    By following these guidelines, you ensure that your reference list is properly formatted and complete, making it easy for your readers to find and verify your sources.
 
 APA Sample Paper (APA 7th Edition)
-    What: The APA Sample Paper provides an example of a research paper formatted according to the APA (American Psychological Association) 7th Edition style. It includes two versions: a student paper and a professional paper.
-    Who: This resource is for students and professionals who are writing research papers in APA style, particularly those in disciplines such as social sciences, education, and business. The sample papers are provided for instructional purposes.
+    What: The APA Sample Paper provides an example of a research paper formatted according to the APA (American Psychological Association) 7th Edition style. 
+    Who: This resource is for students and professionals who are writing research papers in APA style, particularly those in disciplines such as social sciences, education, and business. 
     Where: The sample papers can be accessed online through the OWL (Online Writing Lab) at Purdue University or from various academic resources.
     When: The latest version of the APA Publication Manual (7th edition) was released in October 2019, and the sample papers reflect this updated style guide.
-    Why (For What): The purpose of the sample papers is to provide examples of how to correctly format research papers according to APA 7th Edition rules. This includes the title page, abstract, headings, citations, and reference list. It serves as a guide for writers to ensure they are following proper APA formatting guidelines.
-    How (By What Logical Steps):
+    Why (For What): The purpose of the sample papers is to provide examples of how to correctly format research papers according to APA 7th Edition rules. 
+        This includes the title page, abstract, headings, citations, and reference list. 
+        It serves as a guide for writers to ensure they are following proper APA formatting guidelines.
+    How (By What Logical Steps): This sample format helps users ensure that their academic writing meets the standards for APA style, making the document professional and credible.
         Title Page: Centered title, author's name, and affiliation.
         Running Head (for Professional Papers): Shortened version of the paper title in the header.
         Abstract: A brief summary of the paper, followed by keywords (in the student paper, the abstract is optional).
         Body of the Paper: Contains the introduction, literature review, methods, results, and discussion sections. Headings are used to organize these sections.
         Citations: Use in-text citations for references to external sources, following the author-date citation style.
         Reference List: A list of sources cited in the paper, formatted according to APA style with specific rules for various types of sources (e.g., books, articles, online resources).
-    This sample format helps users ensure that their academic writing meets the standards for APA style, making the document professional and credible.
+
 ##################################################################################################################################################################################################################
 ~ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
     1. Call to Order: The chairperson calls the meeting to order, marking the official start.
