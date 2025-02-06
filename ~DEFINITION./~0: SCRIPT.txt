@@ -365,8 +365,7 @@
             For works without a publication date, use "n.d." (no date).
         Special Rules for Journals:
             Italicize the name of the journal.
-            Capitalize all major words in the journal title.
-            Do not italicize the article title, and do not put the title in quotation marks.
+            Capitalize all major words in the journal title.  Do not italicize the article title, and do not put the title in quotation marks.
         Additional Sources:
             If the source is an organization or government agency, use the full name first, followed by the abbreviation in brackets (if commonly known), and then use the abbreviation in subsequent citations.
             If citing a source with no author, use the title in the citation instead.
