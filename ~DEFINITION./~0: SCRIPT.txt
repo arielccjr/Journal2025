@@ -141,6 +141,12 @@
         : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
+~[RE]SEARCH:
+    ~
+
+
+
+##################################################################################################################################################################################################################
 ~3: RHETORIC:
 ~2: DIALECTIC:
     : SOPHISTICAL ELENCHI: Aristotle includes techniques for refuting an opponent’s argument by identifying weaknesses or inconsistencies in their reasoning.
@@ -387,6 +393,16 @@ APA Sample Paper (APA 7th Edition)
         Body of the Paper: Contains the introduction, literature review, methods, results, and discussion sections. Headings are used to organize these sections.
         Citations: Use in-text citations for references to external sources, following the author-date citation style.
         Reference List: A list of sources cited in the paper, formatted according to APA style with specific rules for various types of sources (e.g., books, articles, online resources).
+
+Paraphrase:
+    Last year, there were many students who were studying their course at home all over the world using online tools.
+    For the studying 
+    Of the students 
+    With the home-all-over-the-world
+    By the online-tools
+
+Studying or working at home is convenient.
+One does not waste time getting
 
 ##################################################################################################################################################################################################################
 ~ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
