@@ -228,7 +228,7 @@
                 Build a knowledge base with encoded rules.
                 Use fuzzy logic to manage imprecise relationships.
                 Apply inference rules for decision-making.
-    ~Functional Requirements: define what the system is supposed to do. They describe specific behaviors, actions, or tasks the system must perform, focusing on inputs, processing, and outputs.
+    ~FUNCTIONAL REQUIREMENTS: define what the system is supposed to do. They describe specific behaviors, actions, or tasks the system must perform, focusing on inputs, processing, and outputs.
         Who:
             Stakeholders: Business Analysts, System Analysts, Developers, Testers, End Users
             Users: Those interacting directly with the system (e.g., employees, customers)
@@ -254,7 +254,7 @@
             A banking system must allow users to transfer funds (Transaction Processing).
             A website requires users to log in with a username and password (Authentication).
             A system must record and store data changes for future reference (Audit Tracking).
-    ~Non-Functional Requirements
+    ~NON-FUNCTIONAL REQUIREMENTS:
         What: Non-functional requirements specify how the system performs its tasks. They focus on qualities such as performance, reliability, usability, and scalability rather than specific behaviors.
         Who:
             Stakeholders: Project Managers, System Architects, Quality Assurance Teams, Developers
@@ -281,7 +281,7 @@
             The system should handle 10,000 simultaneous users (Scalability).
             Data recovery must occur within 2 hours after a system crash (Recoverability).
             The system should respond to user requests within 2 seconds (Performance).
-    ~Comparison: Functional vs. Non-Functional Requirements
+    ~COMPARISON: Functional vs. Non-Functional Requirements
         Aspect	    Functional Requirements	                                Non-Functional Requirements
         What it defines	What the system does.	                            How the system performs its tasks.
         Focus	    Features and user requirements.                         System quality and operational attributes.
@@ -296,7 +296,7 @@
             Document functional requirements first to define system behavior.
             Develop non-functional requirements to establish quality standards.
             Use iterative testing to ensure compliance with both types of requirements.
-    ~Business Rules
+    ~BUSINESS RULES:
         What: A business rule is a statement that defines or influences how a business operates. It governs decisions, processes, and behavior within an organization. Business rules:
             Ensure consistency in decision-making.
             Help automate processes in information systems.
@@ -334,99 +334,98 @@
                 The clerk asks if the customer has a reservation.
                 If not, the clerk creates a reservation in the system.
                 The customer is then checked in, satisfying the business rule.
-    ~Properties of a Good Business Rule
-        What: A good business rule should meet specific criteria to ensure clarity, enforceability, and alignment with business objectives.
-        Who:
-            Authors: Business analysts, subject-matter experts, and managers.
-            Reviewers: Quality assurance teams or stakeholders.
-        Where: In business policies, training manuals, and automated systems.
-        When: When designing, revising, or implementing processes or systems.
-        Why (For What): To ensure rules are actionable, clear, and relevant to organizational goals.
-        How (By What Logical Steps):
-            Atomic: Ensure the rule focuses on a single concept or action.
-                Example: "We only ship complete orders."
-            Declarative: Specify when and how the rule applies.
-                Example: "Before a work order can be completed, a customer’s information must be collected."
-            Precise: Avoid ambiguity or multiple interpretations.
-                Example: "Any customer that owes more than $5,000 cannot place new orders."
-            Justified: Confirm the rule supports business objectives.
-            Authorized: Ensure the rule is created by someone with decision-making authority.
-    ~Business Rule Examples
-        What: Practical examples that demonstrate how business rules guide actions and processes.
-        Examples:
-            Everyone under the age of 25 must have their ID checked (compliance rule).
-            Orders are only shipped when complete (operational rule).
-            Customers with debts over $5,000 cannot place new orders (financial rule).
-            Vehicles must be visually inspected for damage before release (safety rule).
-        Who:
-            Employees (e.g., clerks, warehouse staff, inspectors) execute these rules.
-            Systems enforce or automate the rules.
-        Where: Retail counters, warehouses, customer service desks, etc.
-        When: During specific processes such as checkout, shipping, or quality assurance.
-        Why (For What): To ensure compliance, efficiency, safety, and financial prudence.
-        How:
-            Define the rule clearly.
-            Train staff and configure systems to enforce the rule.
-            Monitor adherence and adjust as needed.
-    
+        ~PROPERTIES OF A GOOD BUSINESS RULE:
+            What: A good business rule should meet specific criteria to ensure clarity, enforceability, and alignment with business objectives.
+            Who:
+                Authors: Business analysts, subject-matter experts, and managers.
+                Reviewers: Quality assurance teams or stakeholders.
+            Where: In business policies, training manuals, and automated systems.
+            When: When designing, revising, or implementing processes or systems.
+            Why (For What): To ensure rules are actionable, clear, and relevant to organizational goals.
+            How (By What Logical Steps):
+                Atomic: Ensure the rule focuses on a single concept or action.
+                    Example: "We only ship complete orders."
+                Declarative: Specify when and how the rule applies.
+                    Example: "Before a work order can be completed, a customer’s information must be collected."
+                Precise: Avoid ambiguity or multiple interpretations.
+                    Example: "Any customer that owes more than $5,000 cannot place new orders."
+                Justified: Confirm the rule supports business objectives.
+                Authorized: Ensure the rule is created by someone with decision-making authority.
+        ~BUSINESS RULE EXAMPLES:
+            What: Practical examples that demonstrate how business rules guide actions and processes.
+            Examples:
+                Everyone under the age of 25 must have their ID checked (compliance rule).
+                Orders are only shipped when complete (operational rule).
+                Customers with debts over $5,000 cannot place new orders (financial rule).
+                Vehicles must be visually inspected for damage before release (safety rule).
+            Who:
+                Employees (e.g., clerks, warehouse staff, inspectors) execute these rules.
+                Systems enforce or automate the rules.
+            Where: Retail counters, warehouses, customer service desks, etc.
+            When: During specific processes such as checkout, shipping, or quality assurance.
+            Why (For What): To ensure compliance, efficiency, safety, and financial prudence.
+            How:
+                Define the rule clearly.
+                Train staff and configure systems to enforce the rule.
+                Monitor adherence and adjust as needed.
 
-~SYSTEM DESIGN: ENGINEERING/COLLABORATION: ~AUTHORIZATION/SECURITY
-    : DEVELOPMENT LIFECYCLE:
-        : Requirement Gathering: CLIENT INTERVIEWING: 
-            WHAT: Client Interviewing is a technique used during the requirements-gathering phase of the System Development Life Cycle (SDLC). The objective is to collect accurate, complete, and specific information about the client’s needs, their business processes, and how a system can improve those processes. This includes identifying workflows, data storage practices, user needs, and system functionality.
-            WHO:
-                Stakeholders:
-                    End-users who interact with the system.
-                    Business owners or managers responsible for the process.
-                    Technical staff or IT departments for integration.
-                Interviewers: System analysts or team members responsible for documenting and designing the system.
-            WHERE: The interviewing process typically happens:
-                    Onsite: At the client's business location to observe operations in real-time.
-                    Remote: Using virtual platforms or phone calls.
-                    In focus groups or collaborative meetings if individual interviews are insufficient.
-            WHEN: During the SDLC’s First Phase (Requirements Gathering):
-                    Before moving into design or development.
-                    After identifying high-level project goals and business needs.
-                    While validating existing information and assumptions about the system.
-            WHY (FOR WHAT): The primary goal is to understand client needs clearly to:
-                Build a system that meets functional and non-functional requirements.
-                Avoid misunderstandings and misinterpretation that could lead to project failure.
-                Ensure all workflows, data, and activities are accounted for in the new system.
-            HOW (BY WHAT LOGICAL STEPS):
-                Prepare for the Interview:
-                    Research the business: Understand their workflows, current system, and competitive landscape.
-                    Identify stakeholders to interview (users, supervisors, decision-makers).
-                    Develop a list of targeted questions tailored to the client’s operations.
-                Conduct the Interview:
-                    Start with open-ended questions: Get a general understanding of workflows and goals.
-                    Dive deeper with specific queries:
-                        How is data stored and accessed?
-                        What physical and digital documents exist?
-                        What triggers activities (e.g., time, requests, documents)?
-                        Who performs the work? Are they users or information receivers?
-                    Address business details: Operating hours, equipment, and competitors.
-                    Use a structured approach like role-play, use cases, and scenarios when clients struggle with articulating needs.
-                Overcome Communication Barriers:
-                    For limited client perspectives:
-                        Analyze their role, responsibilities, and system usage.
-                        Explain the broader context of the system to clarify its impact.
-                    For resistance to the project:
-                        Conduct group interviews with supervisors present.
-                        Record sessions for accuracy.
-                        Ask direct and detailed questions, avoiding reliance on volunteered information.
-                    For technical document misunderstandings:
-                        Simplify the language and explain diagrams like Data Flow Diagrams (DFDs).
-                        Walk through processes step-by-step to connect system actions to real-world operations.
-                    For high-level, vague feedback:
-                        Ask detailed questions about specific functionality or design elements.
-                        Provide examples to guide input (e.g., "Are the filter options sufficient for your search?").
-                Validate Findings:
-                    Confirm the interview results through prototypes, role-play, or group reviews.
-                    Ensure all activities, data flows, and user needs are verified.
-                    Check if additional details are needed.
-                Iterate and Refine:
-                    Revisit unclear or incomplete requirements.
-                    Use feedback from labs and prototypes to refine system understanding.
+    ~SYSTEM DESIGN: ENGINEERING/COLLABORATION: ~AUTHORIZATION/SECURITY
+        : DEVELOPMENT LIFECYCLE:
+            : Requirement Gathering: CLIENT INTERVIEWING: 
+                WHAT: Client Interviewing is a technique used during the requirements-gathering phase of the System Development Life Cycle (SDLC). The objective is to collect accurate, complete, and specific information about the client’s needs, their business processes, and how a system can improve those processes. This includes identifying workflows, data storage practices, user needs, and system functionality.
+                WHO:
+                    Stakeholders:
+                        End-users who interact with the system.
+                        Business owners or managers responsible for the process.
+                        Technical staff or IT departments for integration.
+                    Interviewers: System analysts or team members responsible for documenting and designing the system.
+                WHERE: The interviewing process typically happens:
+                        Onsite: At the client's business location to observe operations in real-time.
+                        Remote: Using virtual platforms or phone calls.
+                        In focus groups or collaborative meetings if individual interviews are insufficient.
+                WHEN: During the SDLC’s First Phase (Requirements Gathering):
+                        Before moving into design or development.
+                        After identifying high-level project goals and business needs.
+                        While validating existing information and assumptions about the system.
+                WHY (FOR WHAT): The primary goal is to understand client needs clearly to:
+                    Build a system that meets functional and non-functional requirements.
+                    Avoid misunderstandings and misinterpretation that could lead to project failure.
+                    Ensure all workflows, data, and activities are accounted for in the new system.
+                HOW (BY WHAT LOGICAL STEPS):
+                    Prepare for the Interview:
+                        Research the business: Understand their workflows, current system, and competitive landscape.
+                        Identify stakeholders to interview (users, supervisors, decision-makers).
+                        Develop a list of targeted questions tailored to the client’s operations.
+                    Conduct the Interview:
+                        Start with open-ended questions: Get a general understanding of workflows and goals.
+                        Dive deeper with specific queries:
+                            How is data stored and accessed?
+                            What physical and digital documents exist?
+                            What triggers activities (e.g., time, requests, documents)?
+                            Who performs the work? Are they users or information receivers?
+                        Address business details: Operating hours, equipment, and competitors.
+                        Use a structured approach like role-play, use cases, and scenarios when clients struggle with articulating needs.
+                    Overcome Communication Barriers:
+                        For limited client perspectives:
+                            Analyze their role, responsibilities, and system usage.
+                            Explain the broader context of the system to clarify its impact.
+                        For resistance to the project:
+                            Conduct group interviews with supervisors present.
+                            Record sessions for accuracy.
+                            Ask direct and detailed questions, avoiding reliance on volunteered information.
+                        For technical document misunderstandings:
+                            Simplify the language and explain diagrams like Data Flow Diagrams (DFDs).
+                            Walk through processes step-by-step to connect system actions to real-world operations.
+                        For high-level, vague feedback:
+                            Ask detailed questions about specific functionality or design elements.
+                            Provide examples to guide input (e.g., "Are the filter options sufficient for your search?").
+                    Validate Findings:
+                        Confirm the interview results through prototypes, role-play, or group reviews.
+                        Ensure all activities, data flows, and user needs are verified.
+                        Check if additional details are needed.
+                    Iterate and Refine:
+                        Revisit unclear or incomplete requirements.
+                        Use feedback from labs and prototypes to refine system understanding.
 
         : Planning + Design: Survey-Prove Investors
         : Prototyping (Testing) Development: FAIL FAST!
@@ -744,6 +743,7 @@
             Assess the project against each feasibility dimension.
             Prepare and present a feasibility report to stakeholders.
 
+
 : RISK MANAGEMENT: MITIGATION (BEFORE) & CONTINGENCY (AFTER) RISKS HAPPENS
     : Five Steps for Risk Management
         What: A structured process for identifying, analyzing, and managing risks.
@@ -757,6 +757,75 @@
             Determine relevant risks: Filter out unlikely or irrelevant risks.
             Determine data-rule dependencies: Identify what data or processes are tied to each risk.
             Determine inter-rule relationships: Analyze how risks may interact or compound.
+
+ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
+    1. Activities (Business Processes): What is happening?
+        The Moguls‘N Stuff Ski School Scheduling System organizes student lesson requests and assigns instructors accordingly. The key activities include:
+            Student Requests Submission – Students place lesson requests into the Request file folder.
+            Daily Request Check – A clerk reviews the file daily to determine if enough students have requested a particular lesson.
+            Instructor Assignment – If the student count meets the minimum requirement, the clerk checks for available instructors.
+            Instructor Confirmation – The clerk contacts instructors with lesson details, and the instructor either accepts or rejects the teaching assignment. If an instructor rejects, the next available instructor is contacted.
+            Class List Preparation – Once an instructor accepts, the clerk compiles a class list using data from the Instructor, Request, and Lesson files.
+            Filing & Notifications – The original class list is filed, a copy is sent to the instructor, and class confirmation letters are sent to students.
+        How are these activities structured?
+            A sequential process from request collection → instructor confirmation → class list generation → student notification.
+            A decision-making component where the instructor can accept or reject the lesson.
+            Multiple interactions between the clerk, instructors, and students.
+
+    2. Data (Information Used & Generated): What data is involved?
+        Request File Folder – Contains student lesson requests.
+        Lesson Information – Date, time, location, type of lesson, number of students.
+        Instructor List – Contains availability and eligibility of instructors.
+        Class List – Compiled when a class is scheduled and includes:
+            Instructor Name
+            Student Names
+            Lesson Details (Date, Time, Location, Type of Lesson)
+        Class Confirmation Letters – Sent to students with class details.
+        How is the data managed?
+            Paper-based system where files are manually reviewed.
+            Manual tracking of instructor availability and student requests.
+            Paper copies of the class list are stored in a file cabinet.
+            Daily checks ensure timely scheduling and updates.
+
+    3. Environment (External & Internal Influences): Where does this system operate?
+        Internally: The clerk manages scheduling within the ski school.
+        Externally: Instructors and students are notified of class details.
+            What external factors impact the system?
+                Weather conditions may affect lesson schedules.
+                Instructor availability (some may decline lessons).
+                Seasonal fluctuations in demand for ski lessons.
+                School policies on minimum student enrollment per class.
+        Why is this system necessary?
+            Ensures organized scheduling of lessons.
+            Manages instructor availability efficiently.
+            Notifies students in advance to confirm their lessons.
+
+    4. People (Stakeholders & Users): Who is involved?
+        Primary Actors:
+            Students – Request ski lessons.
+            Clerk – Manages scheduling, assigns instructors, and notifies students.
+            Instructors – Accept or decline teaching assignments.
+            Ski School Management – Oversees operations and ensures smooth scheduling.
+        What roles do they play?
+            The clerk is the central coordinator managing requests, instructor assignments, and notifications.
+            Instructors confirm their availability and conduct the lessons.
+            Students receive confirmation letters for their scheduled lessons.
+        How do people interact with the system?
+            Students submit requests manually.
+            The clerk manually checks files and contacts instructors.
+            Instructors respond (accept/reject) via communication from the clerk.
+            Students receive class confirmation letters via traditional mail or email.
+
+    5. Technology (Tools & Infrastructure): What technology supports this system?
+        Manual File System – Request folders, Instructor lists, and Lesson files.
+        Basic Communication Tools – Phone calls or emails for instructor contact.
+        Paper-Based Notifications – Class lists and confirmation letters.
+        Physical Filing Cabinet – For storing original class lists.
+        By what means does technology support the system?
+            Minimal automation; the process is largely manual and paper-based.
+            Telephone or email for instructor confirmation.
+            Printed documents for class lists and notifications. 
+######################################################################################################################################################################################################################
     : DIVIDE/UNCERTAINTY: Random variable 
         : NOT-IN-NOT-OUT:
             Hide	| Block
@@ -1041,7 +1110,6 @@
         : unsupervised learning = given input data without any additional feedback, learn patterns
             : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
                 : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
-                :  
     : NEURAL NETWORKS:
         : Neurons are connected to and receive electrical signals from other neurons.
         : Neurons process input signals and can be activated.
@@ -1240,859 +1308,6 @@
                 Ensures no constraints exist other than key constraints and domain constraints.
                 Rarely implemented due to its complexity.
         ~3: Merge
-
-~DEFAULT CONSTRAINT:
-    CREATE TABLE EmployeeOnProject(
-        EmployeeID      CHAR(11)    NOT NULL
-            CONSTRAINT FK_EmployeeOnProjectToEmployee
-            REFERENCES Employee (EmployeeID),
-        ProjectNumber   INT         NOT NULL
-            CONSTRAINT FK_EmployeeOnProjectToProject
-            REFERENCES Project (ProjectNumber),
-        WeeklyHours     INT         NOT NULL
-            CONSTRAINT DF_Hours DEFAULT 5.0
-            CONSTRAINT CK_HoursLimit CHECK (WeeklyHours <= 20),
-            CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmploeeID, ProjectNumber)
-    )
-
-~CHECK CONSTRAINT
-    CREATE TABLE EmployeeOnProject(
-        EmployeeID      CHAR(11)    NOT NULL
-            CONSTRAINT FK_EmployeeOnProjectToEmployee
-            REFERENCES Employee (EmployeeID),
-        ProjectNumber   INT         NOT NULL
-            CONSTRAINT FK_EmployeeOnProjectToProject
-            REFERENCES Project (ProjectNumber),
-        WeeklyHours     INT         NOT NULL
-            CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmploeeID, ProjectNumber)
-            CONSTRAINT CK_HoursLimit CHECK (WeeklyHours <= 20)
-    )
-
-~PRIMARY & FOREIGN KEY CONSTRAINTS: 
-    1. Create Parent Table(s) first.
-    2. Add Data Type
-    3. Add NOT NULL if REQUIRED. Otherwise, NULL.
-    4. Add CONSTRAINT:
-        PK = CONSTRAINT PK_(CurrentTable) PRIMARY KEY CLUSTERED,
-        FK = CONSTRAINT FK_(CurrentTable)To(ReferenceTable) FOREIGN KEY CLUSTERED REFERENCES ReferenceTable(PrimaryKey), 
-        PK = CONSTRAINT PK_Activity PRIMARY KEY CLUSTERED (StudentID, ClubID)
-    CREATE (PARENT) TABLE Student (
-        StudentID           INT             NOT NULL    CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
-        StudentLastName     VARCHAR(40)     NOT NULL,
-        StudentFirstName    VARCHAR(40)     NOT NULL,
-        GenderCode          CHAR(1)         NOT NULL
-            CONSTRAINT CK_GenderCode CHECK (Gender like "F" AND Gender like "M" AND Gender like "X"),
-        Address             VARCHAR(30)     NULL,
-        Birthdate           DATETIME        NULL,
-        PostalCode          CHAR(6)         NULL
-            CONSTRAINT CK_PostalCode CHECK (PostalCode Lke '[A-Z][0-9][A-Z] [0-9][A-Z][0-9]'),
-        AvgMark             DECIMAL(4,1)    NULL
-            CONSTRAINT CK_AvgMark CHECK (AvgMark < 0 AND AvgMark > 100),
-        NoOfCourses         SMALLINT        NULL
-            CONSTRAINT CK_NoOfCourses CHECK (NoOfCourses >= 0) 
-            CONSTRAINT DF_NoOfCourses DEFAULT 0
-    )
-    CREATE TABLE Course ( 
-        CourseID        CHAR(8)     NOT NULL    CONSTRAINT PK_Course PRIMARY KEY CLUSTERED, 
-        CourseName      VARCHAR(40) NOT NULL
-        Hours           SMALLINT    NULL
-            CONSTRAINT CK_Hours CHECK (Hours > 0)
-        NoOfStudents    SMALLINT    NULL
-            CONSTRAINT CK_NoOfStudents CHECK (NoOfStudents >= 0)
-    ) 
-    CREATE TABLE Club (
-        ClubID      INT         NOT NULL    CONSTRAINT PK_Club PRIMARY KEY CLUSTERED
-        ClubName    VARCHAR(50) NOT NULL
-    )
-        CREATE (CHILD) TABLE Grade ( 
-            StudentID   INT         NOT NULL    CONSTRAINT FK_GradeToStudent FOREIGN KEY CLUSTERED REFERENCES Studednt(StudentID), 
-            CourseID    CHAR(8)     NOT NULL    CONSTRAINT FK_GradeToCourse FOREIGN KEY CLUSTERED REFERENCES Course(CourseID), 
-            Mark        SMALLINT    NULL
-                CONSTRAINT CK_Mark CHECK (Mark < 0 AND Mark > 100)
-                CONSTRAINT DF_Mark DEFAULT 0,
-            CONSTRAINT PK_Grade PRIMARY KEY CYSTERED(StudentID, CourseID)
-        ) 
-        CREATE TABLE Activity (
-            StudentID   INT NOT NULL    CONSTRAINT FK_ActivityToStudent REFERENCES Student(StudentID),
-            ClubID      INT NOT NULL    CONSTRAINT FK_ClubToActivity REFERENCES Club(ClubID),
-            CONSTRAINT PK_Activity PRIMARY KEY CLUSTERED (StudentID, ClubID)
-        )
-
-   print 'Hello, Class!'
-
-    ~CREATING TABLE: Parent Table First, then Child Second
-        CREATE TABLE Employee (
-        EmployeeID INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Employee PRIMARY KEY CLUSTERED,
-        LastName VARCHAR(100) NOT NULL,
-        FirstName VARCHAR(100) NOT NULL,
-        );
-
-        CREATE TABLE Project (
-        ProjectNumber INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Project PRIMARY KEY CLUSTERED,
-        ProjectName VARCHAR(100) NOT NULL,
-        PojectLocation VARCHAR(100) NOT NULL,
-        );
-
-        CREATE TABLE EmployeeOnProject (
-        EmployeeID INT NOT NULL,
-        ProjectNumber INT NOT NULL,
-        WeeklyHours SMALLINT NOT NULL,
-        CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmployeeID, ProjectNumber)
-        );
-
-        CREATE TABLE Department
-
-        EXEC sp_help Employee;
-        EXEC SP_HELP Project;
-        EXEC SP_HELP EmployeeOnProject;
-
-
-    ~DROPPING TABLE: Child First, Then Parent Second
-        EmployeeID INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Employee PRIMARY KEY CLUSTERED,
-        LastName VARCHAR(100) NOT NULL,
-        FirstName VARCHAR(100) NOT NULL,
-        );
-
-        CREATE TABLE Project (
-        ProjectNumber INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Project PRIMARY KEY CLUSTERED,
-        ProjectName VARCHAR(100) NOT NULL,
-        PojectLocation VARCHAR(100) NOT NULL,
-        );
-
-        CREATE TABLE EmployeeOnProject (
-        EmployeeID INT NOT NULL,
-            CONSTRAINT FK_Employee FOREIGN KEY CLUSTERED REFERENCES Employee(EmployeeID),
-        ProjectNumber INT NOT NULL,
-            CONSTRAINT FK_Project FOREIGN KEY CLUSTERED REFERENCE Project(ProjectNumber),
-        WeeklyHours INT NOT NULL,
-        CONSTRAINT PK_EmployeeOnProject PRIMARY KEY CLUSTERED (EmployeeID, ProjectNumber)
-        );
-        
-        CREATE TABLE Department (
-            DepartmentNumber INT IDENTITY(1, 1) NOT NULL CONSTRAINT PK_Department PRIMARY KEY CLUSTERED,
-            Name VARCHAR(50) NOT NULL 
-        );
-
-        EXEC sp_help Employee;
-        EXEC SP_HELP Project;
-        EXEC SP_HELP EmployeeOnProject;
-        EXEC SP_HELP Department;
-
-~Inventory View: Inventory
-    ItemTypeID
-        ItemTypeDescription
-    ItemID
-        ItemDescription
-    Price/Day
-    
-    : 0NF:
-        InventoryTable
-        ItemTypeID(PK), ItemTypeDescription, ItemID, ItemDescription, Price/Day
-    : 1NF-2NF-3NF: (No Violations)
-        InventoryTable
-        ItemTypeID(PK), ItemTypeDescription, 
-        
-        ItemID(PK), ItemTypeID(FK), ItemDescription, Price/Day
-
-~Staff Information View: StaffInformation
-    StaffID: 343, 245, 125,
-        Name:
-            FirstName: Bob, Susie, Jason
-            LastName: Jones, Q, Qwerk
-        Phone: N, N, N
-        Wage: $, $, $
-        HireDate: D, D, D,
-        +StaffTypeID "Staff members are all of one particular Staff Type."
-            StaffType: Producer, Producer, Sales
-    
-    : 0NF: 
-        StaffTable
-        StaffID(PK), Name, Phone, Wage, HireDate, StaffType, +StaffTypeID
-    : 1NF-2NF (No Change)
-        StaffTable
-        StaffID(PK), FirstName, LastName, Phone, Wage, HireDate, StaffType, StaffTypeID
-    : 3NF: 
-        StaffTable
-        StaffID(PK), FirstName, LastName, Phone, Wage, HireDate, StaffTypeID(FK)
-
-        StaffTypeTable
-        StaffTypeID(PK), StaffType
-
-
-~Memories Forever: 
-    ProjectID
-        ProjectDescription
-        
-        ClientID
-            Organization
-            Name >>> FirstName, LastName
-            Phone
-            Email
-            Address >>> Street, City, Province
-        ProjectInDate
-        ProjectDoneDate
-        ProjectEstimate
-        ProjectTypeCode
-        ProjectTypeDescription
-        
-        ItemID
-        Description
-        CheckInNotes
-        CheckOutNotes
-        DateOut
-        DateIn
-
-        Price/Day
-        Days
-        ExtPrice
-
-        StaffID
-        StaffName
-        Subtotal
-        GST
-        Total
-    
-    ~0NF: 
-        ProjectID(PK),
-            ProjectDescription, 
-                ProjectInDate, 
-                ProjectDoneDate, 
-                ProjectEstimate,
-                ProjectTypeCode,
-                    ProjectTypeDescription,
-                ClientID,
-                    Organization,
-                    Name >>> FirstName, LastName,
-                    Phone,
-                    Email,
-                    Address >>> Street, City, Province,
-                StaffID,
-                    StaffName >>> StaffFirstName, StaffFirstName
-                Subtotal, GST, Total,
-        (ItemID, Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
-    ~1NF: 
-        ProjectTable
-        ProjectID(PK),
-            ProjectDescription, 
-                ProjectInDate, 
-                ProjectDoneDate,
-                ProjectEstimate,
-                ProjectTypeCode,
-                    ProjectTypeDescription,
-                ClientID,
-                    Organization,
-                    Name >>> FirstName, LastName,
-                    Phone,
-                    Email,
-                    Address >>> Street, City, Province,
-                StaffID,
-                    StaffName >>> StaffFirstName, StaffFirstName
-                Subtotal, GST, Total,
-        
-        ItemTable
-        ProjectID(FK), ItemID(PK), Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
-    ~2NF: 
-        ProjectTable
-        ProjectID(PK),
-            ProjectDescription, 
-                ProjectInDate, 
-                ProjectDoneDate,
-                ProjectEstimate,
-                ProjectTypeCode,
-                    ProjectTypeDescription,
-                ClientID,
-                    Organization,
-                    Name >>> FirstName, LastName,
-                    Phone,
-                    Email,
-                    Address >>> Street, City, Province,
-                StaffID,
-                    StaffName >>> StaffFirstName, StaffFirstName
-                Subtotal, GST, Total,
-        
-        ItemTable
-        ProjectID(FK)(PK), ItemID(FK)(PK), Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
-
-        ItemPriceTable
-        ItemID(PK), Description, PricePerDay,
-    ~3NF: 
-        ProjectTable
-        ProjectID(PK), ClientID(FK), StaffID(FK), ProjectTypeCode(FK)
-            ProjectDescription, 
-                ProjectInDate, 
-                ProjectDoneDate,
-                ProjectEstimate,
-                Subtotal, GST, Total,
-        
-        ProjectTypeTable
-        ProjectTypeCode(PK),
-            ProjectTypeDescription,
-       
-        ClientTable
-        ClientID(PK),
-            Organization,
-            Name >>> FirstName, LastName,
-            Phone,
-            Email,
-            Address >>> Street, City, Province,
-        
-        StaffTable
-        StaffID(PK),
-            StaffName >>> StaffFirstName, StaffFirstName
-        
-        ItemTable
-        ProjectID(FK)(PK), ItemID(FK)(PK), Description, CheckInNotes, CheckOutNotes, DateOut, DateIn, PricePerDay, Days, ExtPrice, HistoricPricePerDay)
-
-        ItemPriceTable
-        ItemID(PK), Description, PricePerDay,
-
-~Joe's Video Store: Video Information
-    VideoID
-        Title
-    MovieTypes:
-        TypeID
-        TypeName
-    TotalNumberOfCopies
-        NumberOfCopiesAvalableForRental
-    Format
-    Cost
-    RentalCharge
-    MovieRating
-        RatingCode
-        RatingDescription
-    CopyNumber
-    AvailableForRental
-
-    CopyNumber
-
-    ~ONF: 
-        VideoTable
-        VideoID(PK), Title, TypeID, TypeName, TotalNumberOfCopy, NumberOfCopyAvailability, Format, Cost, RentalCharge, RatingCode, RatingDescription, 
-        (CopyNumber, Availability)
-    ~1NF: 
-        VideoInformationTable
-        VideoID(PK), Title, TypeID, TypeName, TotalNumberOfCopy, NumberOfCopyAvailability, Format, Cost, RentalCharge, RatingCode, RatingDescription, 
-
-        VideoCopyTable 
-        VideoID(FK)(PK), CopyNumber(PK), Availability
-    ~2NF: 
-        VideoInformationTable
-        VideoID(PK), Title, TypeID, TypeName, TotalNumberOfCopy, NumberOfCopyAvailability, Format, Cost, RentalCharge, RatingCode, RatingDescription, 
-
-        VideoCopyTable 
-        VideoID(FK)(PK), CopyNumber(PK), Availability
-    ~3NF: 
-        VideoInformationTable
-        VideoID(PK), Title, TypeID(FK), TotalNumberOfCopy, NumberOfCopyAvailability, Format(FK), Cost, RentalCharge, RatingCode(FK), RatingDescription, 
-            TypeTable
-            TypeID(PK), TypeName,
-        
-            RatingTable
-            RatingCode(PK), RatingDescription
-            
-            FormatTable
-            FormatID(PK), FormatDescription
-    
-        VideoCopyTable 
-        VideoID(FK)(PK), CopyNumber(PK), Availability
-
-
-~VIDEO RENTALS VIEW: Joe's Video Store: Video Rentals
-TransactionID: 123
-    CustomerID:
-        Phone:
-        Date: 
-        Name >>> FirstName, LastName
-        Address >>> Street, City, Province, Postal
-    VideoID:
-        CopyNumber
-        Title
-        ReturnDate
-        RentalCharge >>> CurrentCharge, HistoricRentalCharge
-    Subtotal:
-    GST:
-    Total:
-
-    : 0NF: 
-        TransactionTable
-        TransactionID(PK), Subtotal, GST, Total, CustomerID, Phone, Date, Name, Address,
-        (VideoID, CopyNumber, Title, ReturnDate, RentalCurrentRentalCharge, HistoricRentalCharge)
-    : 1NF:
-        TransactionTable
-        TransactionID(PK), Subtotal, GST, Total, CustomerID, Phone, Date, FirstName, LastName, Street, City, Province, Postal,
-        
-        VideoTable
-        TransactionID(FK)(PK), VideoID(PK), CopyNumber(PK), Title, ReturnDate, CurrentRentalCharge, HistoricRentalCharge
-    : 2NF:
-        TransactionTable
-        TransactionID(PK), Subtotal, GST, Total, CustomerID, Phone, Date, FirstName, LastName, Street, City, Province, Postal,
-        
-        TransactionDetailTable
-        TransactionID(FK)(PK), VideoID(FK)(PK), CopyNumber(PK), ReturnDate, HistoricRentalCharge
-
-        VideoTable
-        VideoID(PK), Title, CurrentRentalCXharge
-    : 3NF:
-        TransactionTable
-        TransactionID(PK), Subtotal, GST, Total, CustomerID(FK)
-            
-            CustomerTable
-            CustomerID(PK), Phone, Date, FirstName, LastName, Street, City, Province, Postal
-        
-        TransactionDetailTable
-        TransactionID(FK)(PK), VideoID(FK)(PK), CopyNumber(PK), Title, ReturnDate, CurrentRentalCharge, HistoricRentalCharge)
-
-        VideoTable
-        VideoID(PK), Title, CurrentRentalCXharge
-
-~ESP3: Inventory Control View "Inventory Control Sheet"
-    ItemTable
-    (PK)ItemNumber: M24
-        ItemDescription: Bolts-24mm
-        CurrentSalePrice: $0.29
-        +QuantityOnHand
-        +ReorderLvl
-        
-        ItemInventoryTable
-        (FK)(PK)ItemNumber
-        (FK)(PK)PONumber:       125, 131, 149
-            Quantity:       1000, 2000, 2000
-            Cost:           0.13, 0.13, 0.14
-
-            PurchaseOrderTable
-            (PK)PONumber 
-            OrderDate:      July 1, 1998, August 2, 1998, September 5, 1998
-            SupplierNumber: 7, 10, 7
-
-    : 0NF:
-        ItemTable
-        ItemNumber, ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-        (OrderDate, SupplierNumber, PONumber, Quantity, Cost)
-    : 1NF:
-        ItemTable
-        ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-        
-        ItemInventoryTable
-        ItemNumber(FK), PONumber(PK), OrderDate, SupplierNumber, Quantity, Cost
-    : 2NF:
-        ItemTable
-        ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-        
-        ItemInventoryTable
-        ItemNumber(FK)(PK), PONumber(FK)(PK), Quantity, Cost
-
-        PurchaseOrderTable
-        PONumber(PK), OrderDate, SupplierNumber
-    : 3NF:
-        ItemTable
-        ItemNumber(PK), ItemDescription, CurrentSalePrice, QuantityOnHand, ReorderLvl
-        
-        ItemInventoryTable
-        ItemNumber(FK)(PK), PONumber(FK)(PK), Quantity, Cost
-
-        PurchaseOrderTable
-        PONumber(PK), OrderDate, SupplierNumber
-
-~ESP4: Purchase Orders
-    PurchaseOrderTable
-    PurchaseOrderNumber: #125
-        Date: July 1, 1998
-        Subtotal: 151.97
-        GST: 10.64
-        Total: 162.61
-
-    PurchasedItemTable    
-    ItemNumber: H23, H319, M24
-        SuppliersItemNumber: S103, B11a, ISO4
-        SuppliersItemDescription: Heater Fan Belt - 23*, Heater Fan Support Brackets, Bolds - 24mm
-        Quantity: 1, 2, 1000
-        Cost: 11.99, 4.99, 0.13
-        Amount: 11.99, 9.,98, 130.00
-
-    SupplierTable
-    SupplierNumber: 7
-        SuppliersName: Nuts and Bolts
-        SuppliersAddress: 11123 - 114 Avenue
-        City: Edmonton, AB, T6G 4X1
-        Phone: 488-2312
-
-    : 0NF:
-        PurchaseOrderNumber, Date, Subtotal, GST, Total, SupplierName, Address, City, Phone,
-        (ItemNumber, SuppliersItemNumber, SuppliersDescription, Quantity, Cost, Amount)
-    : 1NF:
-        PurchaseOrderTable
-        PurchaseOrderNumber(PK), Date, Subtotal, GST, Total, SupplierNumber, SupplierNumber(PK)(FK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
-        PurchasedItemTable
-        PurchaseOrderNumber(FK)(PK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
-    : 2NF: (No Change)
-        PurchaseOrderTable
-        PurchaseOrderNumber(PK), Date, Subtotal, GST, Total, SupplierNumber, SupplierNumber(PK)(FK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
-            PurchasedItemTable
-            PurchaseOrderNumber(FK)(PK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
-    : 3NF:
-        PurchaseOrderTable
-        PurchaseOrderNumber(PK), SupplierNumber(FK), Date, Subtotal, GST, Total
-            PurchasedItemTable
-            PurchaseOrderNumber(PK)(FK), ItemNumber(PK), SuppliersItemNumber, SuppliersItemDescription, Quantity, Cost, Amount
-        SupplierTable
-        SupplierNumber(PK), SupplierName, SupplierCity, SupplierProvince, SupplierPostalCode, Phone,
-
-~ESP4: Purchase Orders Payments: ChequeRegister
-    SupplierNumber: 7, null, 15
-    SupplierName: Nuts & Bolts, Home Hardware
-        ChequeTable
-        ChequeNumber: 245, 246
-            ChequeAmount: $823.18, $427.39
-            PaymentDate: Jan 11/99, Jan 18/99
-        PurchaseOrderNumber: 79, 81, 82
-        PurchaseOrderDate: Dec 23/98, Dec 29/98, Dec... 
-
-    : 0NF:
-        InitialTable
-        ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumber, SupplierName, 
-        (PurchaseOrderNumber, PurchaseOrderDate)
-    : 1NF-2NF:
-        ChequeTable
-        ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumner, SupplierName
-            PurchaseOrderTable
-            ChequeNumber(FK), PurchaseOrderNumber(PK), PurchaseOrderDate
-    : 3NF:
-        ChequeTable
-        ChequeNumber(PK), ChequeAmount, PaymentDate, SupplierNumner(FK)
-            PurchaseOrderTable
-            ChequeNumber(FK), PurchaseOrderNumber(PK), PurchaseOrderDate
-        SupplierTable
-        SupplierNumber(PK), SupplierName,
-
-~ESP: Customer Detail View:
-    : 0NF: INITIAL TABLE:
-        CustomerDetails
-        CustomerNumber(PK),
-            Name
-            Address
-            City
-            Province
-            PostalCode
-            HomePhone
-    : 1NF: Composite >>> Atomic
-        CustomerDetails
-        CustomerNumber(PK),
-            Name >>> LastName, FirstName
-            Address
-            City
-            Province
-            PostalCode
-            HomePhone
-    : 2NF:
-        CustomerDetails
-        CustomerNumber(PK),
-            LastName, FirstName
-            Address
-            City
-            Province
-            PostalCode
-            HomePhone
-    : 3NF:
-        CustomerDetails
-        CustomerNumber(PK),
-            LastName, FirstName
-            Address
-            City
-            Province
-            PostalCode
-            HomePhone
-    : ERD:
-        CUSTOMER
-        ---------------------
-        |   CustomerNumber  |
-        |-------------------| 
-        |   FirstName       |
-        |   LastName        |
-        |   Address         |
-        |   City            |
-        |   Province        |
-        |   PostalCode      |
-        |   Phone           |
-        ---------------------    
-
-~Customer Orders View:
-    : 0NF:
-        Order
-            CustomerName = Fred Smith
-            Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
-            Phone = 436-7867
-            CustomerNumber = 137
-            Date = Jan 16, 2000
-            OrderNumber(PK) = 219
-            ItemNumber =
-                H23
-                H319
-                M24
-            Description = 
-                Heater Fan Belt - 23 Degrees
-                Heater Fan Belt Support Brackets
-                Bolts - 24mm
-            Quantity =
-                1
-                2
-                8
-            Price =
-                11.99
-                4.99
-                0.29
-            Amount =
-                11.99
-                9.98
-                2.32
-            Subtotal = 24.29
-            GST = 1.70
-            Total = 25.99
-
-        Order
-        OrderNumber(PK), CustomerNumber, CustomerName, Address, Phone, Date,
-        (ItemNumber, Description, Quantity, CurrentPrice, SellingPrice, Amount), Subtotal, GST, Total
-
-    : 1NF:
-        Order
-            OrderNumber(PK) = 219
-                CustomerNumber = 137
-                    CustomerName = Fred Smith
-                        FirstName = Fred
-                        LastName = Smith 
-                    Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
-                        Street = 123 SomeWhere St.
-                        City = Edmonton
-                        Province = AB
-                        Postal Code = T5H2J9
-                    Phone = 436-7867
-                Date = Jan 16, 2000
-                Subtotal = 24.29
-                GST = 1.70
-                Total = 25.99
-        OrderItem 
-            OrderNumber(FK)(PK)
-                ItemNumber(PK) =
-                    H23
-                    H319
-                    M24
-                    Description = 
-                        Heater Fan Belt - 23 Degrees
-                        Heater Fan Belt Support Brackets
-                        Bolts - 24mm
-                    Quantity =
-                        1
-                        2
-                        8
-                    CurrentPrice=
-                    SellingPrice=
-                        11.99
-                        4.99
-                        0.29
-                    Amount =
-                        11.99
-                        9.98
-                    2.32
-        Order
-        OrderNumber(PK), CustomerNumber, LastName, FirstName, Street, City, Province, PostalCode, Phone, Date, Subtotal, GST, Total
-
-        OrderItem
-        OrderNumber(FK)(PK), ItemNumber(PK), Description, Quantity, CurrentPrice, SellingPrice, Amount
-
-    : 2NF:
-        Order
-            OrderNumber(PK) = 219
-                CustomerNumber = 137
-                    CustomerName = Fred Smith
-                        FirstName = Fred
-                        LastName = Smith 
-                    Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
-                        Street = 123 SomeWhere St.
-                        City = Edmonton
-                        Province = AB
-                        Postal Code = T5H2J9
-                    Phone = 436-7867
-                Date = Jan 16, 2000
-                Subtotal = 24.29
-                GST = 1.70
-                Total = 25.99
-        OrderItem 
-            OrderNumber(FK)(PK)
-                ItemNumber(FK)(PK) =
-                    H23
-                    H319
-                    M24
-                Quantity =
-                    1
-                    2
-                    8        
-                SellingPrice=
-                    11.99
-                    4.99
-                    0.29
-                Amount =
-                    11.99
-                    9.98
-                    2.32        
-        Item 
-            ItemNumber(PK)
-            Description = 
-                Heater Fan Belt - 23 Degrees
-                Heater Fan Belt Support Brackets
-                Bolts - 24mm
-            CurrentPrice=
-
-        Order
-        OrderNumber(PK), CustomerNumber, LastName, FirstName, Street, City, Province, PostalCode, Phone, Date, Subtotal, GST, Total
-
-        OrderItem
-        OrderNumber(FK)(PK), ItemNumber(FK)(PK), Quantity, SellingPrice, Amount
-
-        Item
-        ItemNumber(PK), Description, CurrentPrice
-
-    : 3NF:
-        Order
-            OrderNumber(PK) = 219
-                CustomerNumber(FK) = 137
-                    CustomerName = Fred Smith
-                        FirstName = Fred
-                        LastName = Smith 
-                    Address = 123 SomeWhere St. Edmonton, Ab, T5H 2J9
-                        Street = 123 SomeWhere St.
-                        City = Edmonton
-                        Province = AB
-                        Postal Code = T5H2J9
-                    Phone = 436-7867
-                Date = Jan 16, 2000
-                Subtotal = 24.29
-                GST = 1.70
-                Total = 25.99
-        Customer
-            CustomerNumber(PK)
-                FirstName
-                LastName
-            Address 
-                Street
-                City
-                Province
-                PostalCode
-            Phone
-        OrderItem 
-            OrderNumber(FK)(PK)
-                ItemNumber(FK)(PK) =
-                    H23
-                    H319
-                    M24
-                Quantity =
-                    1
-                    2
-                    8        
-                SellingPrice=
-                    11.99
-                    4.99
-                    0.29
-                Amount =
-                    11.99
-                    9.98
-                    2.32        
-        Item 
-            ItemNumber(PK)
-            Description = 
-                Heater Fan Belt - 23 Degrees
-                Heater Fan Belt Support Brackets
-                Bolts - 24mm
-            CurrentPrice=
-
-        Order
-        OrderNumber(PK), CustomerNumber(FK), Date, Subtotal, GST, Total
-
-        Customer
-        CustomerNumber(PK), FirstName, LastName, Address, City, Province, PostalCode, Phone
-
-        OrderItem
-        OrderNumber(FK)(PK), ItemNumber(FK)(PK), Quantity, SellingPrice, Amount
-
-        Item
-        ItemNumber(PK), Description, CurrentPrice
-
-~ESP2: Customer Payments Against Orders
-    : 0NF: PaymentLog
-        CustomerName    = David Williams
-        CustomerNumber  = 78
-        OrderNumber     = 123
-        OrderDate       = Jan 11/2029
-        OrderTotal      = $145.18
-        Date            =
-                        Jan 11/99
-                        Jan 18/99
-        PaymentAmount   =
-                        100.00
-                        45.18
-        PaymentNumber   =
-                        1
-                        2
-        BalanceOwing    =
-                        45.18
-                        0.00
-        PaymentType     =
-                        Cheque
-                        Cash
-        DepositBranch#  =
-                        118
-                        118
-    : 1-2-3NF: PaymentLog
-        OrderTable
-        OrderNumber(FK)(PK) = 123
-            OrderDate           = Jan 11/2029
-            OrderTotal          = $145.18
-            CustomerNumber(FK)
-            
-            CustomerTable
-            CustomerNumber(PK) = 78
-                CustomerName
-                    FirstName   = David
-                    LastName    = Williams
-        
-            PaymentTable
-            PaymentNumber(PK)=
-                                1
-                                2                
-                    PaymentDate     =
-                                    Jan 11/99
-                                    Jan 18/99
-                    PaymentAmount   =
-                                    100.00
-                                    45.18
-                    BalanceOwing    =
-                                    45.18
-                                    0.00
-                    PaymentType     =
-                                    Cheque
-                                    Cash
-                    DepositBranch#  =
-                                    118
-                                    118
-    Initial Table:
-        OrderTable
-        OrderNumber(PK), OrderDate, OrderTotal, CustomerName, CustomerNumber
-        (PaymentDate, PaymentAmount, PaymentNumber, BalanceOwing, PaymentType, DepositBranchNumber)
-    
-    1-2NF Table:
-        OrderTable
-        OrderNumber(PK), OrderDate, OrderTotal, FirstName, LastName, CustomerNumber
-        
-        PaymentTable
-        OrderNumber(PK)(FK), PaymentDate, PaymentAmount, PaymentNumber(PK), BalanceOwing, PaymentType, DepositBranchNumber
-
-    3NF Table:
-        OrderTable
-        OrderNumber(FK)(PK), OrderDate, OrderTotal, CustomerName, CustomerNumber(FK), 
-
-        CustomerTable
-        CustomerNumber(PK) FistName, LastName
-
-        PaymentTable
-        OrderNumber(PK)(FK), PaymentNumber(PK), PaymentDate, PaymentAmount, BalanceOwing, PaymentType, DepositBranchNumber
 
 
 ###############################################################################################################################

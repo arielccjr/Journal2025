@@ -13,12 +13,13 @@
             : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
             : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
             : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
-                : SYNTAX: SENTENCE, COPYRIGHTS
+                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
                 : WORD: PARSE/ETYMOLOGY
                     : Roots: Fact/Known
                     : Fixes: Position-Lodial
                 : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
                     : Letters/Spells, 
+                    : Metals, Conductors,
                     : Light: GEOMETRY (EUCLID)
                     : Sound: MUSIC (BOETHIUS)
                     : Motion: PHYSICS (ARISTOTLE)
@@ -26,9 +27,9 @@
                         : Positive (+1)
                         : Negative (-1)
                         : Neutral (0)
-        ~WRITE/REASON/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), CORRECTNESS:
-            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER (ARISTOTLE'S NICHOMACHEAN ETHICS)
-            : NOW-SPACE STORYLINE= ARISTOTLE'S RHETORIC
+        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), CORRECTNESS/REASON:
+            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER + ARISTOTLE'S NICHOMACHEAN ETHICS
+            : NOW-SPACE 
             : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
                 : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
             : LOGIC-ARITHMETIC = -1, 0, +1
@@ -83,4 +84,3 @@ FOR THE PEOPLE ARE WITH THIS AGREEMENT.
 : NOTE-FOR-SELF:
 [FORGET-ERASE 1900-NOW ENGLISH.]
 [READ-WRITE ANCIENT-LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
-

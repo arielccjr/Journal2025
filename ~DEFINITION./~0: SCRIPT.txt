@@ -1,21 +1,20 @@
 : FOR THE GIFT OF THE WORD.
 ~TITLE:             	Are We Slaves Of Passions or Masters Of Free Will?
 ~INTRODUCTION:
-    : GREETINGS:    	Good afternoon/evening, fellow Toastmasters (and guests).
-    : HOOK:         	"Fu-! Shi-! What the Huh?"
-			            Have you ever cursed, like that?
-    : QUESTION:     	Is this by instinct, or by choice?
+    : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
     : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
     : THESIS:       	This speech shares my believe that while we are creatures of habits,
                		    we have free will — the ability to choose.”
+                            ~1:
+                            ~2:
+                            ~3: 
     : TRANSITION:	    First: why are we slaves of our passions? 
 ~BODY: 
     : COUNTERARGUMENTS (Arguments Against the Thesis)
         : Introduction:		    You probably believe that we, like other animals, are driven by instinct rather than choice.”
         : Support:		        And you are probabaly right, because...
             : 1st Point:	    First, We must respond to danger.
-                : Evidence: 	For example, 
-				                when you touch something hot, we flinch.
+                : Evidence: 	For example, when you touch something hot, we flinch.
             : 2nd Point:	    Second, we are driven by reward and punishment.
                 : Evidence:	    For example, 
                                 Hunger, fear, and sexual drive make us irrational. override logical decision-making.”
@@ -24,16 +23,14 @@
 				                dopamine spikes in response to a stimulus, 
 				                such as social media likes, create a loop of stimulus and reaction.”
             : 3rd Point:	    And third, we are made by our environment. 
-                : Evidence:	    For example,
-                                Neural activity predicts decisions seconds before subjects consciously decide.”
-				                Muscle Memory: 
-                                our decisions are made in the brain before we are even aware of them.”
-        : Transition:      	    We are slaves of our passions; you're right!
+                : Evidence:	    For example, Neural activity predicts decisions seconds before subjects consciously decide.”
+				                Muscle Memory: our decisions are made in the brain before we are even aware of them.”
+                                We are slaves of our passions; you're right!
                                 Because... 
                                     1. We must response to danger.
                                     2. We are driven by reward and punishment.
                                     3. We are made by our environment.
-				                But what if this is only half-true?
+        : Transition:      	    But what if this is only half-true?
     : SUPPORTING ARGUMENTS (Arguments for the Thesis)
         : Introduction:         I believe that we can choose to break free of automatic patterns.” 
             : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
@@ -141,6 +138,14 @@
         : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
+: Truth VS Loyalty = 
+: Individual VS Community
+: Short Term VS Long Term
+: Justice VS Mercy
+
+##################################################################################################################################################################################################################
+
+
 ~[RE]SEARCH:
     ~
 
