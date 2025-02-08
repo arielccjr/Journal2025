@@ -526,11 +526,6 @@
 
 ~RISK ANALYSIS:
     Risk refers to the potential positive or negative effects of an event or series of events on a project. It encompasses uncertainty and its impact on project outcomes.
-        Who:
-            Stakeholders: Project Managers, Risk Managers, Team Members, Business Stakeholders.
-            Affected Parties: The organization, clients, or customers relying on the project’s success.
-        Where: In all phases of a project, primarily during the Planning Phase but monitored throughout execution.
-        When: At the start of the project (to identify risks early) and continually during the project lifecycle as risks evolve.
         Why (For What):
             To anticipate potential problems and avoid or minimize their effects.
             To take advantage of positive risks (opportunities) when they occur.
@@ -540,15 +535,7 @@
             Assess their likelihood and potential impact.
             Develop mitigation and contingency strategies.
             Monitor risks throughout the project lifecycle.
-    Risk Affects Project Planning
-        What: Risk management is an integral part of project planning to prevent small issues from escalating into emergencies.
-        Who:
-            Planners: Project Managers, Risk Analysts.
-            Executors: Team Members and Stakeholders responsible for implementing risk responses.
-        Where:
-            During the Planning Phase but continues to evolve through project execution.
-        When:
-            Before starting the project and as part of periodic reviews throughout the project.
+    Risk Affects Project Planning: Risk management is an integral part of project planning to prevent small issues from escalating into emergencies.
         Why (For What):
             To ensure smooth project execution.
             To avoid budget overruns, missed deadlines, or project failure.
@@ -564,11 +551,6 @@
             Impact: How bad will it be if it happens?
             Mitigation: How can the probability be reduced?
             Contingency: How can the impact be reduced if it does happen?
-        Who:
-            Assessors: Project Managers, Risk Analysts.
-            Implementers: Team Members responsible for mitigation and contingency measures.
-        Where: In the risk register or risk log, which tracks and monitors these components.
-        When: During risk identification and analysis, and as part of ongoing project monitoring.
         Why (For What):
             To create structured strategies for managing risks.
             To minimize the impact of negative events and maximize the potential of positive ones.
@@ -578,11 +560,7 @@
             Assess the impact of each event on the project.
             Develop mitigation strategies to lower the likelihood of occurrence.
             Develop contingency plans to reduce the impact if the event occurs.
-    Creating a Risk List
-        What: A risk list is a prioritized collection of potential project risks, detailing their probability, impact, and mitigation/contingency plans.
-        Who: Created by Project Managers, Risk Analysts, and Team Members.
-        Where: Documented in the project risk register or risk management plan.
-        When: During the project’s planning phase and continuously updated throughout.
+    Creating a Risk List: A risk list is a prioritized collection of potential project risks, detailing their probability, impact, and mitigation/contingency plans.
         Why (For What):
             To organize and prioritize risks for proactive management.
             To provide clarity on which risks to address first.
@@ -596,9 +574,6 @@
         What:
             Probability: The likelihood of a risk occurring.
             Impact: The severity of the risk's effect on the project.
-        Who: Project Managers and Risk Analysts assess these factors.
-        Where: Recorded in the project’s risk analysis documentation.
-        When: During the risk identification and analysis phases.
         Why (For What):
             To determine which risks to prioritize and address.
             To allocate resources effectively for risk management.
@@ -607,41 +582,22 @@
             Address high-probability and high-impact risks first.
             Continuously re-evaluate risks as the project progresses.
     : Example of a Risk Event
-        What: Event: Critical parts needed for the project do not arrive on time.
-        Who:
-            Mitigation: Team responsible for procurement orders parts early.
-            Contingency: Team uses old parts temporarily until new parts arrive.
-        Where: In the supply chain and project schedule.
-        When: Identified during planning and monitored during execution.
         Why (For What): To avoid delays and ensure the project stays on schedule.
         How:
             Identify the risk event (parts delay).
             Assign Medium probability and High impact.
             Mitigate by ordering parts early in the project.
             Create a contingency plan to use existing parts temporarily.
-   : Structured Analysis
-        What: A traditional methodology for breaking down system functions into detailed processes.
-        Who: Systems Analysts.
-        Where: During analysis and design phases.
+    : Structured Analysis: A traditional methodology for breaking down system functions into detailed processes.
         Why: To ensure thorough understanding and structured documentation.
         How: Use tools like DFDs and process models to detail workflows.
-    : Object-Oriented Analysis
-        What: A methodology that focuses on defining systems in terms of objects and their interactions.
-        Who: Systems Analysts and Developers.
-        Where: In software and systems requiring modularity and reusability.
+    : Object-Oriented Analysis: A methodology that focuses on defining systems in terms of objects and their interactions.
         Why: To simplify design and enhance flexibility.
         How: Define objects, their properties, behaviors, and relationships.
-    : Joint Application Development (JAD)
-        What: Collaborative workshops for stakeholders to define requirements and design solutions.
-        Who: Business Stakeholders, Analysts, Developers, and Facilitators.
-        Where: During the analysis and design phases.
+    : Joint Application Development (JAD): Collaborative workshops for stakeholders to define requirements and design solutions.
         Why: To ensure alignment between business needs and technical solutions.
         How: Conduct structured sessions with stakeholders to gather input and refine requirements.
-    : System Modeling:
-        What: Modeling involves creating structured representations of a system to understand, analyze, and solve problems effectively.
-        Who: Systems Analysts, IT Developers, Project Managers
-        Where: During system planning and design phases, typically in organizations using IT systems.
-        When: Whenever a problem needs to be solved, alternatives need to be explored, or complexity needs to be managed.
+    : System Modeling: Modeling involves creating structured representations of a system to understand, analyze, and solve problems effectively.
         Why (For What):
             To provide structure to problem-solving.
             To explore multiple solutions efficiently.
@@ -653,15 +609,7 @@
             Define the goals of modeling (e.g., risk reduction, clarity).
             Create and test models using diagrams, simulations, or prototypes.
             Refine models based on feedback and iterations.
-    : Feasibility
-        What: Feasibility refers to assessing whether a proposed project is practical, achievable, and worthwhile to pursue. A feasibility study evaluates the potential success of a project across multiple dimensions.
-        Who:
-            Conducted by: Systems Analysts, Business Analysts, Project Managers.
-            Stakeholders: Decision-makers, IT teams, financial teams, and end users.
-        Where: Applied during the planning phase of a project or system development.
-        When:
-            Before initiating a project to ensure it is viable.
-            At critical decision points during the project lifecycle.
+    : Feasibility: refers to assessing whether a proposed project is practical, achievable, and worthwhile to pursue. A feasibility study evaluates the potential success of a project across multiple dimensions.
         Why (For What):
             To determine if a project is worth pursuing in terms of cost, resources, and time.
             To identify risks, constraints, and benefits of the proposed project.
@@ -671,15 +619,8 @@
             Collect data through interviews, surveys, and research.
             Analyze the data and prepare a feasibility report.
             Make a recommendation based on the findings.
-    : Feasibility Study:
-        What: A feasibility study is an ongoing process of tests to evaluate if a project is desirable, practical, and achievable. It ensures a project meets the following criteria:
-            Operational feasibility.
-                What: Operational feasibility evaluates whether the proposed system will be used effectively once implemented.
-                Who:
-                    Management and users who will interact with the system.
-                    Analysts assessing operational requirements and impacts.
-                Where: In the organization’s day-to-day operations and workflows.
-                When: During the project planning and design phases.
+    : Feasibility Study: A feasibility study is an ongoing process of tests to evaluate if a project is desirable, practical, and achievable. It ensures a project meets the following criteria:
+            Operational feasibility: Operational feasibility evaluates whether the proposed system will be used effectively once implemented.
                 Why (For What):
                     To ensure user adoption and effective use of the system.
                     To identify and mitigate risks such as workforce resistance or legal/ethical concerns.
@@ -689,11 +630,7 @@
                     Determine user involvement in planning and implementation.
                     Identify potential customer effects and risks to company image.
                     Check for conflicts with other organizational priorities.
-            Technical feasibility.
-                What: Technical feasibility examines the availability and adequacy of technical resources (hardware, software, expertise) to support the proposed system.
-                Who: IT teams, systems architects, and technical analysts.
-                Where: Within the organization’s technical infrastructure.
-                When: During the planning and early stages of system development.
+            Technical feasibility: Technical feasibility examines the availability and adequacy of technical resources (hardware, software, expertise) to support the proposed system.
                 Why (For What):
                     To determine if the organization has the necessary resources and expertise to implement the system.
                     To ensure the system can handle future needs and growth.
@@ -702,11 +639,7 @@
                     Determine if the company has the technical expertise for development and maintenance.
                     Evaluate platform capacity for scalability and reliability.
                     Test the system's ability to handle expected transaction volumes.
-            Economic Feasibility
-                What: Economic feasibility determines if the projected benefits of the system outweigh its estimated costs, considering total cost of ownership (TCO) and return on investment (ROI).
-                Who: Financial analysts, project managers, and stakeholders.
-                Where: In cost-benefit analysis and financial evaluations of the project.
-                When: During the feasibility study phase and before resource allocation.
+            Economic Feasibility: Economic feasibility determines if the projected benefits of the system outweigh its estimated costs, considering total cost of ownership (TCO) and return on investment (ROI).
                 Why (For What):
                     To ensure the project is financially viable.
                     To determine if the investment will "pay off."
@@ -717,11 +650,7 @@
                     Example: If net profit is $20,000 and total costs are $10,000:
                     ROI = (20,000 / 10,000) × 100 = 200%.
                     Compare costs to projected benefits (financial and operational).
-            Schedule Feasibility
-                What: Schedule feasibility evaluates whether the project can be completed within an acceptable or established time frame.
-                Who: Project managers and stakeholders.
-                Where: In project timelines and schedules.
-                When: During the planning phase and when setting deadlines.
+            Schedule Feasibility: Schedule feasibility evaluates whether the project can be completed within an acceptable or established time frame.
                 Why (For What):
                     To ensure the project can meet deadlines without sacrificing quality.
                     To identify risks associated with tight schedules.
@@ -730,11 +659,6 @@
                     Assess risks associated with an accelerated schedule.
                     Appoint a project manager to oversee timelines.
                     Create a detailed project schedule with milestones and deadlines.
-        Who:
-            Conducted by analysts and project managers.
-            Used by stakeholders for decision-making.
-        Where: In project proposals and system development processes.
-        When: Before project initiation and during project evaluations.
         Why (For What):
             To prioritize projects based on their potential for success and alignment with business goals.
             To avoid pursuing projects that are not viable.
@@ -743,13 +667,8 @@
             Assess the project against each feasibility dimension.
             Prepare and present a feasibility report to stakeholders.
 
-
 : RISK MANAGEMENT: MITIGATION (BEFORE) & CONTINGENCY (AFTER) RISKS HAPPENS
-    : Five Steps for Risk Management
-        What: A structured process for identifying, analyzing, and managing risks.
-        Who: Project Managers, Risk Analysts, Team Members.
-        Where: Within the project’s risk management plan.
-        When: Throughout the project lifecycle.
+    : Five Steps for Risk Management: A structured process for identifying, analyzing, and managing risks.
         Why (For What): To proactively manage risks and improve project success.
         How (By What Logical Steps):
             Collect business ramblings: Brainstorm potential risks with the team.
@@ -759,7 +678,7 @@
             Determine inter-rule relationships: Analyze how risks may interact or compound.
 
 ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
-    1. Activities (Business Processes): What is happening?
+    : ACTIVITIES (Business Processes): What is happening?
         The Moguls‘N Stuff Ski School Scheduling System organizes student lesson requests and assigns instructors accordingly. The key activities include:
             Student Requests Submission – Students place lesson requests into the Request file folder.
             Daily Request Check – A clerk reviews the file daily to determine if enough students have requested a particular lesson.
@@ -771,8 +690,7 @@ ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
             A sequential process from request collection → instructor confirmation → class list generation → student notification.
             A decision-making component where the instructor can accept or reject the lesson.
             Multiple interactions between the clerk, instructors, and students.
-
-    2. Data (Information Used & Generated): What data is involved?
+    : DATA (Information Used & Generated): What data is involved?
         Request File Folder – Contains student lesson requests.
         Lesson Information – Date, time, location, type of lesson, number of students.
         Instructor List – Contains availability and eligibility of instructors.
@@ -786,8 +704,7 @@ ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
             Manual tracking of instructor availability and student requests.
             Paper copies of the class list are stored in a file cabinet.
             Daily checks ensure timely scheduling and updates.
-
-    3. Environment (External & Internal Influences): Where does this system operate?
+    : ENVIRONMENT (External & Internal Influences): Where does this system operate?
         Internally: The clerk manages scheduling within the ski school.
         Externally: Instructors and students are notified of class details.
             What external factors impact the system?
@@ -799,8 +716,7 @@ ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
             Ensures organized scheduling of lessons.
             Manages instructor availability efficiently.
             Notifies students in advance to confirm their lessons.
-
-    4. People (Stakeholders & Users): Who is involved?
+    : PEOPLE (Stakeholders & Users): Who is involved?
         Primary Actors:
             Students – Request ski lessons.
             Clerk – Manages scheduling, assigns instructors, and notifies students.
@@ -815,8 +731,7 @@ ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
             The clerk manually checks files and contacts instructors.
             Instructors respond (accept/reject) via communication from the clerk.
             Students receive class confirmation letters via traditional mail or email.
-
-    5. Technology (Tools & Infrastructure): What technology supports this system?
+    : TECHNOLOGY (Tools & Infrastructure): What technology supports this system?
         Manual File System – Request folders, Instructor lists, and Lesson files.
         Basic Communication Tools – Phone calls or emails for instructor contact.
         Paper-Based Notifications – Class lists and confirmation letters.
@@ -825,6 +740,7 @@ ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
             Minimal automation; the process is largely manual and paper-based.
             Telephone or email for instructor confirmation.
             Printed documents for class lists and notifications. 
+
 ######################################################################################################################################################################################################################
     : DIVIDE/UNCERTAINTY: Random variable 
         : NOT-IN-NOT-OUT:
