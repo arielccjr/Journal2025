@@ -24,10 +24,7 @@
     : Introduction:         I believe that we can choose to break free of automatic patterns.” 
         : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
         : Conclusion:       This self-awareness gives us the power to stop and correct our habit loop.”
-            : Evidence:     Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
-            : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
             : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
-            : Conclusion:   This ability to prioritize the future over immediate impulses is free will.”
             : Conclusion:   We act with intention, rather than instinct.”
     : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
 ~REFUTE COUNTERARGUEMENTS:
@@ -118,17 +115,13 @@
 
 ##################################################################################################################################################################################################################
 ~3: RHETORIC:
-    : WHAT is Aristotle's Rhetoric? 
-        Aristotle's Rhetoric is a treatise on the art of persuasion.
-        It systematically analyzes how speakers can use language, logic, and emotion to influence an audience effectively. 
-        It is not about deceit but about understanding how to communicate truth effectively, depending on the audience and situation.
+    : WHAT is Aristotle's Rhetoric? Understanding how to communicate truth effectively, depending on the audience and situation.
     : WHY does Rhetoric matter? (For What Risks?)
         Risk of Manipulation – Rhetoric can be misused for deception.
         Emotional Exploitation – Speakers might appeal to fear, anger, or desires rather than truth.
         Fallacious Arguments – Using rhetoric without logic can lead to misleading conclusions.
         Loss of Critical Thinking – Over-reliance on persuasive tactics without proper reasoning weakens intellectual discourse.
         Power Abuse – Skilled rhetoric can enable demagogues to control societies unethically.
-        Thus, Aristotle emphasizes ethos (credibility), pathos (emotion), and logos (reason) to prevent manipulation and ensure just persuasion.
     : HOW does Aristotle's Rhetoric work? (By What Logical Steps of Solution)
         Aristotle structures rhetoric into three core components:
             (A) The Three Appeals (Modes of Persuasion)
@@ -184,7 +177,7 @@
                 Example: If someone argues, “You shouldn’t listen to her because she’s not a scientist,” clarify that the person’s background doesn’t inherently disprove their argument’s validity.
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
                 Example: If a celebrity endorses a health product, explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
-    : TOPICS: standard types of arguments or strategies that can be used to structure dialectical reasoning. They serve as starting points for generating ideas or finding relevant points to discuss in a debate.
+    : TOPICS: They are starting points for generating ideas or finding relevant points to discuss in a debate.
         : Definition: Establishing the meaning of a term to shape the argument (e.g., defining “courage” in a debate about ethics).
         : Comparison: Arguing by analogy or contrast, showing how two concepts relate or differ (e.g., comparing democracy to monarchy in a political debate).
         : Cause and Effect: Examining the relationship between an action and its outcome (e.g., “Punishment deters crime” in a discussion on justice).
@@ -290,11 +283,7 @@
     : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
 
 ##################################################################################################################################################################################################################
-~APA STYLE:
-    What is APA Style? APA Style is a set of rules for writing and organizing research papers. 
-    Who Uses APA Style? APA Style is mainly used by students, researchers, and writers in fields like social sciences (psychology, sociology), business, and nursing. 
-    Where is APA Style Used? APA Style is used in academic settings—mainly in universities, colleges, and research institutions. 
-    When Should You Use APA Style? APA Style is typically used when you are writing a research paper, essay, thesis, or any academic work that requires citations. 
+~APA STYLE: APA Style is a set of rules for writing and organizing research papers. 
     Why is APA Style Important? Using APA also shows that you are following academic standards and gives credibility to your work.
     How to Use APA Style? To use APA Style, you need to follow certain steps:
         Set Up the Paper:
@@ -316,11 +305,7 @@
             Articles in Periodicals: Author, A. A. (Year of Publication). Title of article. Title of Periodical, volume number(issue number), pages.
             Online Sources: Author, A. A. (Year, Month Day). Title of webpage. Website Name. URL
 
-~APA IN-TEXT CITATION FOR AUTHORS:
-    What is APA In-Text Citation for Authors? In APA Style, in-text citations are used to credit the source of information within the body of your paper. 
-    Who Uses In-Text Citations? Anyone writing academic papers, research articles, or other formal documents needs to use in-text citations when they refer to someone else’s work. 
-    Where are In-Text Citations Used? In-text citations are used directly in the body of your work, immediately following any reference to an idea, quote, or data taken from another source. 
-    When Should In-Text Citations Be Used? Every time you reference someone else’s ideas, research, or quotes, you should include an in-text citation. 
+~APA IN-TEXT CITATION FOR AUTHORS: in-text citations are used to credit the source of information within the body of your paper. 
     Why Are In-Text Citations Important? In-text citations are essential for two main reasons:
         Attribution: They give proper credit to the original author of the material you're using.
         Transparency: They allow readers to verify the information you're presenting and explore the original source for more details.
@@ -347,11 +332,7 @@
             For electronic sources without page numbers, use paragraph numbers, headings, or section names to guide the reader.
             Example: (Smith, 1997, "Mind Over Matter" section, para. 6).
 
-~REFERENCE LIST:
-    What is a Reference List? A reference list is a section at the end of a research paper where all the sources you cited in your paper are listed. 
-    Who Needs to Use a Reference List? Anyone writing a research paper, thesis, or other academic work needs to create a reference list. 
-    Where is the Reference List Used? The reference list is placed at the end of the paper, after the main text. 
-    When Should You Create a Reference List? You should create a reference list at the end of any research paper or academic work whenever you cite a source in your writing. 
+~REFERENCE LIST: A reference list is a section at the end of a research paper where all the sources you cited in your paper are listed. 
     Why is a Reference List Important? The reference list serves several important purposes:
         Credibility: It allows you to show where your information came from, establishing your credibility as a writer.
         Verification: It enables readers to locate your sources and check the accuracy of your claims.
@@ -384,11 +365,7 @@
         Citing Multiple Sources:
             When citing multiple sources in one citation, list them alphabetically, separated by semicolons. For sources by the same author in the same year, add lower case letters (a, b, c) after the year to differentiate them.
 
-APA Sample Paper (APA 7th Edition)
-    What: The APA Sample Paper provides an example of a research paper formatted according to the APA (American Psychological Association) 7th Edition style. 
-    Who: This resource is for students and professionals who are writing research papers in APA style, particularly those in disciplines such as social sciences, education, and business. 
-    Where: The sample papers can be accessed online through the OWL (Online Writing Lab) at Purdue University or from various academic resources.
-    When: The latest version of the APA Publication Manual (7th edition) was released in October 2019, and the sample papers reflect this updated style guide.
+APA Sample Paper (APA 7th Edition): The APA Sample Paper provides an example of a research paper formatted according to the APA (American Psychological Association) 7th Edition style. 
     Why (For What): The purpose of the sample papers is to provide examples of how to correctly format research papers according to APA 7th Edition rules. 
         This includes the title page, abstract, headings, citations, and reference list. 
         It serves as a guide for writers to ensure they are following proper APA formatting guidelines.
@@ -399,16 +376,6 @@ APA Sample Paper (APA 7th Edition)
         Body of the Paper: Contains the introduction, literature review, methods, results, and discussion sections. Headings are used to organize these sections.
         Citations: Use in-text citations for references to external sources, following the author-date citation style.
         Reference List: A list of sources cited in the paper, formatted according to APA style with specific rules for various types of sources (e.g., books, articles, online resources).
-
-Paraphrase:
-    Last year, there were many students who were studying their course at home all over the world using online tools.
-    For the studying 
-    Of the students 
-    With the home-all-over-the-world
-    By the online-tools
-
-Studying or working at home is convenient.
-One does not waste time getting
 
 ##################################################################################################################################################################################################################
 ~ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
@@ -425,61 +392,6 @@ One does not waste time getting
     7. New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
     8. Announcements: Members share relevant updates, reminders, or upcoming events.
     9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-
-~MISSION-STATEMENT:
-	FOR MY CREATIONS ARE BY YOUR WORDS.
-	FOR YOUR WORD IS WITH MY CREATIONS.
-	FOR MY CREATION IS BY YOUR COMMAND.
-
-	As your creative director,
-	I transform your words into your own digital arts and printable crafts.
-
-	: FOR WHAT: 	Correctness
-	: FOR WHO: 	Fellow Creators/Creative Director: Writers, Film-Maker, Comic, 
-	: FOR WHERE	Online/Home, Canada, UK, USA (English)
-	: FOR WHEN: 	Completion
-~EXECUTION:
-	: BY WHAT: 	My Work Stream
-		: WORDS / CONSULTATION
-		: ROUGH SKETCH
-		: DIGITAL ARTS:
-			: PORTRAIT
-			: FIGURE
-			: CHARACTER 
-			: GRAPHICS
-			: CONCEPT 
-			: SEQUENTIAL
-		: PRINTS:
-		: INVESTMENTS:
-	: BY WHO:	ARIEL C. CASAPAO JR. with my clan
-	: BY WHERE:	Online/Contact
-	: BY WHEN:	8-hours
-
-~PROJECT-PROPOSAL: Communication & Leadership at NAIT
-~MEASUREMENTS: 10 ACTIVE MEMBERS
-	~NAIT-Club-Executive-Roles Filled:
-		: President
-		: Vice President
-		: Treasurer
-		: Membership
-		: Education
-		: Public Relations
-		: Secretary
-		: Sergeant-At-Arms
-	~Toastmasters Meeting Roles Filled:
-		: Toastmaster
-		: Sergeant-at-Arms
-		: General Evaluator
-			: Grammarian
-			: Ah Counter
-			: Timer
-		: Speaker
-			: Speech Evaluator
-		: Table Topics Master
-			: Table Topics Evaluator
-~PROJECT-ITEMS:
-	: Preparations:
-	: Weekly Thematic Meeting Event
 
 ################################################################################################################################################################################################################
 ~TO-DO: How Computer Vision be?
