@@ -1,7 +1,7 @@
 ~FOR THE STACK:
 ~HARDWARE: 
     : Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
-    : Computer: Central/Graphical Processing Unit (C/GPU): 
+    : Computer: Central/Graphical Processing Unit (C/GPU) + ControlWires: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
         : Clock
         : Temporary Memory Registers:
             : Instruction-Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
@@ -22,19 +22,19 @@
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0) 
             : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
-                : Arithmetic = Half>Full>Multi-bit Adder:
-                    : XOR (in=a, in=b, out=abSUM)
-                        : AND (in=a, in=b, out=aANDb); 
-                        : NOT (in=aANDb, out=NOTaANDb); 
-                        : OR (in=a, in=b, out=aORb); 
-                        : AND (in=NOTaANDb, in=aORb, out=out);
-                    : AND (in=a, in=b, out=abCARRY)	
-                        : >XOR (in=abSUM, in=c, out=abcSUM)
-                        : >AND (in=abSUM, in=c, out=abcCARRY)
-                            ; >OR (in=abCARRY, in=abcBARRY, out=out)
-                    : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
-                : Logic: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
-        : ControlWire: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
+            : Registers A, B, C... for loading values temporarily. 
+        : Arithmetic Unit = Half>Full>Multi-bit Adder:
+            : XOR (in=a, in=b, out=abSUM)
+                : AND (in=a, in=b, out=aANDb); 
+                : NOT (in=aANDb, out=NOTaANDb); 
+                : OR (in=a, in=b, out=aORb); 
+                : AND (in=NOTaANDb, in=aORb, out=out);
+            : AND (in=a, in=b, out=abCARRY)	
+                : >XOR (in=abSUM, in=c, out=abcSUM)
+                : >AND (in=abSUM, in=c, out=abcCARRY)
+                    ; >OR (in=abCARRY, in=abcBARRY, out=out)
+        : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
+        : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
 	: In-Output Devices/Peripherals:
 		: Eat/Power       = Create/Heat/PowerSupply
 		: Inhale/Cooler   = Exhale/Exhaust
@@ -55,7 +55,7 @@
                 : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
                     : Index: Frequency of Words
                     : Hypertext Markup Language (HTML) + CSS
-            : Files: MachineCode/OperationCode(OPCODE)
+            : Files: 
                 : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
                     : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
                 : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
@@ -65,14 +65,14 @@
                     : Number/Integer/Float= 
                         : Scientific Notation; Negative Bit= 2^N-x
                         : Null
-                : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
-                    : Memory Address:
-                        : Pointer: Next Address Reference
-                        : Index
-                    : Instruction
-~INSTRUCTION:
-    ~FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
-        : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+                : Memory Address:
+                    : Pointer: Next Address Reference
+                    : Index
+                : Instruction
+~INSTRUCTION: FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
+    : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+        : Console Input/Output: Reads from and writes to the console. To interact with the user.
         : Execute ControlFlow:
             : Triggers: Automatically executes actions in response to table events. To enforce rules and maintain data integrity.
                 : If/While/For... function(input1, 2)
@@ -88,158 +88,109 @@
                 : Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
             : Return Statement: Exits a function and optionally returns a value. To end execution and provide a result.
                 : Then/Else/Next... 
-    ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-        ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
             : Brute Force, Selection, Merge, Dijkstra... 
-            : Console Input/Output: Reads from and writes to the console. To interact with the user.
-            : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-                : Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
-            : Initialization/Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
-                : Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
-                : Assign: Initializes or updates the value of a variable. To give variables usable values.
-                : Compare: Less Than, Greater Than, Equal
-            : Categorize:
-                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
-                : WORD: PARSE/ETYMOLOGY
-                    : Roots: Fact/Known
-                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
-                        : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
-                    : Fixes: Position-Lodial
-                : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
-                    : Letters/Spells, 
-                    : Metals, Conductors,
-                    : Light: GEOMETRY (EUCLID)
-                    : Sound: MUSIC (BOETHIUS)
-                    : Motion: PHYSICS (ARISTOTLE)
-                    : Energy: path cost function: number of steps in proof
-                        : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-                        : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                        : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
-                            : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-       
-        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
-            : ARISTOTLE'S NICHOMACHEAN ETHICS
-            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
-            : NOW-SPACE 
-            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
-            : List: Queue/Stack, 
-            : LOGIC-ARITHMETIC = -1, 0, +1
-                : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
-                : Logic: NOT, AND, OR
-
-: NOTES: ARTIFICIAL INTELLIGENCE NOTES
-    : SEARCH
-        : Uninformed: 
-            : Depth-First (Stack)
-                : Start with a frontier that contains the intitial state.
-                : Start with an empty explored set.
-                : Repeat:
-                    : If the frontier is empty, then no solution.
-                    : Remove a node from the frontier.
-                    : If node contains goal state, return the solution.
-                    : Add the node to the explored set.
-                    : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
-            : Breadth-First (Queue)
-        : Informed: with Heuristic Function
-            : Greedy Best-First
-            : A*: g(n) + h(n)
-                : g(n) = cost to reach node
-                : h(n) = estimated cost to goal 
-                : optimal if:
-                    : h(n) is admissible (never overestimates the true cost)
-                    : and h(n) is consistent (for every node n and successor n' with step cost c, h(n) < h(n') + c) 
-        : Adversarial: with Adversary
-            : Minimax: Win-Lose Goal-State
-                : Set Agents:
-                    : MAX aims to maximize score
-                    : MIN aim to minimize score
-                : Set Outcomes: 
-                    : -1 = Lose
-                    : 0 = Tie
-                    : +1 = Win
-                : Given a state s:
-                    : MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULTS(s, a))
-                    : MIN picks action a in ACTION(s) that produces smallest value of MAX-VALUE(RESULTS(s, a))
-                : Pseudocode:
-                    function MAX-VALUE(state):
-                        if TERMINAL(state):
-                            return UTILITY(state)
-                        v = -infinity
-                        for action in ACTIONS(state):
-                            v = MAX(v, MIN-VALUE(RESULT(state, action)))
-                        return v
-                    
-                    function MIN-VALUE(state):
-                        if TERMINAL(state):
-                            return UTILITY(state)
-                        v = infinity
-                        for action in ACTIONS(state):
-                            v = MIN(v, MAX-VALUE(RESULT(state, action)))
-                        return v
-            : Alpha-Beta Pruning
-            : Depth-Limited Minimax: with Evaluation function
-
-    : LOGIC: 
-        : Logical Connectives: 
-            : not ¬, 
-            : and ∧, 
-            : or ∨,
-            : implication →
-            : biconditional ↔
-        : Entailment Algorithm: Does KB ⊨ α ?
-        : Model Checking: (logic.py)
-            : To determine if KB ⊨ α:
-                : Enumerate all possible models.
-                : If in every model where KB is true, α is true, then KB entals α.
-                : Otherwise, KB does not entail α.
-        : Knowledge Engineering:
-        : Inference Rules:
-            : Modus Ponens: α → β
-            : And Elimination: α ⊨ β
-            : Double Negation Elimination:
-            : Implication Elimination
-            : Biconditional Elimination
-            : De Morgan's Law
-            : Distributive Property/Law
-            : Unit Resolution
-        : Conversion to conjunctive normal form (CNF)
-            : Eliminate biconditionals
-            : Eliminate implications
-            : Move not inwards using De Morgan's laws
-            : Use distributive law to distribute or wherever possible
-        : Inference by Resolution
-            : To determine if KB ⊨ α:
-                : Convert (KB and not alpha) to Conjunctive Normal Form.
-                : Keep checking to see if we can use resolution to produce a new clause.
-                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
-                    : Otherwise, if we cannot add new clauses, no entailment.
-        : First-Order Logic
-            : Universal Quantificationa
-            : Existential Quantification
-    
-    : PROBABILITY: 
-        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
-        : Probability Rules:
-            : Negation
-            : Inclusion-Exclusion
-            : Marginalization
-            : Conditioning
-        : Inference by Enumeration
-        : Approximate Inference:
-        : Sampling
-            : Rejection Sampling
-            : Likelihood Weighting
-        : hidden Markov Model: Task:
-            : Filtering = given objservations from start until now, calculate distribution for current state
-            : prediction = given observations from start until now, calculate distribution for a future state
-            : smoothing = given observations from start until now, calculate distribution for past state
-            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
-    
+    : KNOWLEDGE: 
+        : NATURAL LANGUAGE PROCESSING:
+            : tokenization = the task of splitting a sequence of characters into pieces (tokens)
+            : text classification =
+            : Naive-Bayes classifier = 
+            : additive smoothing = adding a value a to each value in our distribution to smooth the data  
+                : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
+            : Word Representation
+            : Question "What is that?" >>> Recurrent Network >>> Answer "This is apple."
+            : Encoder >>> Hidden State >>> Decoder
+            : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
+            : Machine Translation 
+            : Transformers Architecture
+                : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+                : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+    : NEURAL NETWORKS:
+        : artificial neural network = mathematical model for learning inspired by biological neural networks
+            : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
+            : Allows for learning the network's parameters based on data.
+            : Functions:
+                : step function: g(x) = 1 if x > 0, else 0
+                : logic sigmoid
+                : rectified linear unit (relu)
+            : h(x1, x2) = g(w0 + w1x1 + w2x2)
+            : h(x1, x2, xn-1, xn) = g(n sigma i=1 xiwi + w0)
+        : supervised neural network: 
+            : gradient descent = algorithm for minimizing loss when training neural network
+                : Start with a random choice of weights.
+                : Repeat: 
+                    : Calculate the gradient based on ALL DATA POINTS: direction that will lead to decreasing loss.
+                    : Update weights according to the gradient.
+            : Stochastic gradient descent
+                : Start with a random choice of weights.
+                : Repeat: 
+                    : Calculate the gradient based on ONE DATA POINTS: direction that will lead to decreasing loss.
+                    : Update weights according to the gradient.
+            : Mini-Batch gradient descent
+                : Start with a random choice of weights.
+                : Repeat: 
+                    : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
+                    : Update weights according to the gradient.
+        : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
+        : backpropagation = algorithm for training neural netowrks with hidden layers
+            : Start with a random choice of weights.
+            : Repeat:
+                : Calculate error for output layer.
+                : For each layer, starting with output layer, and moving inwards towards earliest hidden layer:
+                    : Propagate error back one layer.
+                    : Update weights.
+        : deep neural networks = neural network with multiple hidden layers
+        : dropout = temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
+        : computer vision = computational methods for analyzing and understanding digital images
+        : image convolution = applying a kernel/filter that adds each pixel value of an image to its neighbors, weighted according to a kernel matrix
+        : pooling = reducing the size of an input by sampling from regions in the input
+            : max-pooling = pooling by choosing the maximum value in each region
+        : convolutional neural network = neural networks that use convolution, usually for analyzing images
+            : Apply convolution
+            : Apply pooling
+            : Apply Flattening
+            : Apply Deep Neural Networks
+        : feed-forward neural network = neural network that has connections only in one direction
+            : input >>> network >>> output
+        : recurrent neural network: input >>> network (loop) >>> output
+            : Relationships:
+                : one-to-many 
+                : many-to-one
+                : many-to-many
+    : LEARNING:
+        : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            : classification = supervised learning task of learning a function mapping an input point to a discrete category
+                : nearest-neighbor classification = algorithm that, given an input, chooses the class of the nearest data point to that input
+                : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
+            : hypothesis hw(x) = 1 if w * x > 0; 0 otherwise
+            : perceptron learning rule = given data point (x, y), update each weight according to: 
+                : wi = wi + a(y - hw(x)) * xi
+                : wi = wi + a(actual value - estimate) * xi
+                : Only capable of learning linearly separable decision boundary.
+            : Support Vector Machine
+                : boundary that maximizes the distance between any of the data points 
+            : regression = supervised learning task of learning a function mapping an input point to a continuous value
+            : regularization = penalizing hypotheses that are more complex to favor simpler, more general hypotheses
+            : holdout cross-validation = splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
+            : k-fold cross-validation = splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
+        : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+            : Q-learning = method for learning a function Q(s,a), estimate of the value of performing action a in state s
+                : Start with Q(s,a)=0 for all s,a
+                : When we take an action and receive a reward:
+                    : Estimate the value of Q(s,a) based on current reward and expected future rewards
+                    : Update Q(s,a) to take into account old estimate as well as our new estimate
+            : Greedy Decision-Making
+                : When in state s, choose action a with the highest Q(s,a)
+            : Explore vs Exploit 
+                : Epsilon-Greedy:
+                    : Set epsilon equal to how often we want to move randomly.
+                    : With probability 1 - epsilon, choose estimated best move.
+                    : With probability epsilon, choose random move.
+            : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
+        : unsupervised learning = given input data without any additional feedback, learn patterns
+            : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
+                : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
     : OPTIMIZATION:
-        : Local Search = search algorithms that maintain a single node and searches by moving to a neighboring node
+        : Local Search = algorithms that maintain a single node and searches by moving to a neighboring node
             : Hill Climbing
                 : function HILL-CLIMB(problem):
                     : current = initial state of problem
@@ -309,112 +260,152 @@
                             if result not= failure: return result
                         remove {var = value} and inferences from assignment
                     return failure
-    : LEARNING:
-        : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
-            : classification = supervised learning task of learning a function mapping an input point to a discrete category
-                : nearest-neighbor classification = algorithm that, given an input, chooses the class of the nearest data point to that input
-                : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
-            : hypothesis hw(x) = 1 if w * x > 0; 0 otherwise
-            : perceptron learning rule = given data point (x, y), update each weight according to: 
-                : wi = wi + a(y - hw(x)) * xi
-                : wi = wi + a(actual value - estimate) * xi
-                : Only capable of learning linearly separable decision boundary.
-            : Support Vector Machine
-                : boundary that maximizes the distance between any of the data points 
-            : regression = supervised learning task of learning a function mapping an input point to a continuous value
-            : regularization = penalizing hypotheses that are more complex to favor simpler, more general hypotheses
-            : holdout cross-validation = splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
-            : k-fold cross-validation = splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
-        : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
-            : Q-learning = method for learning a function Q(s,a), estimate of the value of performing action a in state s
-                : Start with Q(s,a)=0 for all s,a
-                : When we take an action and receive a reward:
-                    : Estimate the value of Q(s,a) based on current reward and expected future rewards
-                    : Update Q(s,a) to take into account old estimate as well as our new estimate
-            : Greedy Decision-Making
-                : When in state s, choose action a with the highest Q(s,a)
-            : Explore vs Exploit 
-                : Epsilon-Greedy:
-                    : Set epsilon equal to how often we want to move randomly.
-                    : With probability 1 - epsilon, choose estimated best move.
-                    : With probability epsilon, choose random move.
-            : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
-        : unsupervised learning = given input data without any additional feedback, learn patterns
-            : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
-                : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
+    : PROBABILITY: 
+        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
+        : Probability Rules:
+            : Negation
+            : Inclusion-Exclusion
+            : Marginalization
+            : Conditioning
+        : Inference by Enumeration
+        : Approximate Inference:
+        : Sampling
+            : Rejection Sampling
+            : Likelihood Weighting
+        : hidden Markov Model: Task:
+            : Filtering = given objservations from start until now, calculate distribution for current state
+            : prediction = given observations from start until now, calculate distribution for a future state
+            : smoothing = given observations from start until now, calculate distribution for past state
+            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+    : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+        : Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
+        : Uninformed Search: 
+            : Depth-First (Stack)
+                : Start with a frontier that contains the intitial state.
+                : Start with an empty explored set.
+                : Repeat:
+                    : If the frontier is empty, then no solution.
+                    : Remove a node from the frontier.
+                    : If node contains goal state, return the solution.
+                    : Add the node to the explored set.
+                    : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
+            : Breadth-First (Queue)
+        : Informed Search: with Heuristic Function
+            : Greedy Best-First
+            : A*: g(n) + h(n)
+                : g(n) = cost to reach node
+                : h(n) = estimated cost to goal 
+                : optimal if:
+                    : h(n) is admissible (never overestimates the true cost)
+                    : and h(n) is consistent (for every node n and successor n' with step cost c, h(n) < h(n') + c) 
+        : Adversarial Search: with Adversary
+            : Minimax: Win-Lose Goal-State
+                : Set Agents:
+                    : MAX aims to maximize score
+                    : MIN aim to minimize score
+                : Set Outcomes: 
+                    : -1 = Lose
+                    : 0 = Tie
+                    : +1 = Win
+                : Given a state s:
+                    : MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULTS(s, a))
+                    : MIN picks action a in ACTION(s) that produces smallest value of MAX-VALUE(RESULTS(s, a))
+                : Pseudocode:
+                    function MAX-VALUE(state):
+                        if TERMINAL(state):
+                            return UTILITY(state)
+                        v = -infinity
+                        for action in ACTIONS(state):
+                            v = MAX(v, MIN-VALUE(RESULT(state, action)))
+                        return v
+                    
+                    function MIN-VALUE(state):
+                        if TERMINAL(state):
+                            return UTILITY(state)
+                        v = infinity
+                        for action in ACTIONS(state):
+                            v = MIN(v, MAX-VALUE(RESULT(state, action)))
+                        return v
+            : Alpha-Beta Pruning
+            : Depth-Limited Minimax: with Evaluation function
+        
+        : Initialization/Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
+            : Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
+            : Assign: Initializes or updates the value of a variable. To give variables usable values.
+            : Compare: Less Than, Greater Than, Equal
+
+    : KNOWLEDGE:
+        : Logical Connectives: 
+            : not ¬, 
+            : and ∧, 
+            : or ∨,
+            : implication →
+            : biconditional ↔
+        : Entailment Algorithm: Does KB ⊨ α ?
+        : Model Checking: (logic.py)
+            : To determine if KB ⊨ α:
+                : Enumerate all possible models.
+                : If in every model where KB is true, α is true, then KB entals α.
+                : Otherwise, KB does not entail α.
+        : Knowledge Engineering:
+        : Inference Rules:
+            : Modus Ponens: α → β
+            : And Elimination: α ⊨ β
+            : Double Negation Elimination:
+            : Implication Elimination
+            : Biconditional Elimination
+            : De Morgan's Law
+            : Distributive Property/Law
+            : Unit Resolution
+        : Conversion to conjunctive normal form (CNF)
+            : Eliminate biconditionals
+            : Eliminate implications
+            : Move not inwards using De Morgan's laws
+            : Use distributive law to distribute or wherever possible
+        : Inference by Resolution
+            : To determine if KB ⊨ α:
+                : Convert (KB and not alpha) to Conjunctive Normal Form.
+                : Keep checking to see if we can use resolution to produce a new clause.
+                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
+                    : Otherwise, if we cannot add new clauses, no entailment.
+        : First-Order Logic
+            : Universal Quantificationa
+            : Existential Quantification
     
-    : NEURAL NETWORKS:
-        : Neurons are connected to and receive electrical signals from other neurons.
-        : Neurons process input signals and can be activated.
-        : artificial neural network = mathematical model for learning inspired by biological neural networks
-            : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
-            : Allows for learning the network's parameters based on data.
-            : Functions:
-                : step function: g(x) = 1 if x > 0, else 0
-                : logic sigmoid
-                : rectified linear unit (relu)
-            : h(x1, x2) = g(w0 + w1x1 + w2x2)
-            : h(x1, x2, xn-1, xn) = g(n sigma i=1 xiwi + w0)
-        : supervised neural network: 
-            : gradient descent = algorithm for minimizing loss when training neural network
-                : Start with a random choice of weights.
-                : Repeat: 
-                    : Calculate the gradient based on ALL DATA POINTS: direction that will lead to decreasing loss.
-                    : Update weights according to the gradient.
-            : Stochastic gradient descent
-                : Start with a random choice of weights.
-                : Repeat: 
-                    : Calculate the gradient based on ONE DATA POINTS: direction that will lead to decreasing loss.
-                    : Update weights according to the gradient.
-            : Mini-Batch gradient descent
-                : Start with a random choice of weights.
-                : Repeat: 
-                    : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
-                    : Update weights according to the gradient.
-        : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
-        : backpropagation = algorithm for training neural netowrks with hidden layers
-            : Start with a random choice of weights.
-            : Repeat:
-                : Calculate error for output layer.
-                : For each layer, starting with output layer, and moving inwards towards earliest hidden layer:
-                    : Propagate error back one layer.
-                    : Update weights.
-        : deep neural networks = neural network with multiple hidden layers
-        : dropout = temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
-        : computer vision = computational methods for analyzing and understanding digital images
-        : image convolution = applying a kernel/filter that adds each pixel value of an image to its neighbors, weighted according to a kernel matrix
-        : pooling = reducing the size of an input by sampling from regions in the input
-            : max-pooling = pooling by choosing the maximum value in each region
-        : convolutional neural network = neural networks that use convolution, usually for analyzing images
-            : Apply convolution
-            : Apply pooling
-            : Apply Flattening
-            : Apply Deep Neural Networks
-        : feed-forward neural network = neural network that has connections only in one direction
-            : input >>> network >>> output
-        : recurrent neural network: input >>> network (loop) >>> output
-            : Relationships:
-                : one-to-many 
-                : many-to-one
-                : many-to-many
-    
-    : NATURAL LANGUAGE PROCESSING:
-        : tokenization = the task of splitting a sequence of characters into pieces (tokens)
-        : text classification =
-        : Naive-Bayes classifier = 
-        : additive smoothing = adding a value a to each value in our distribution to smooth the data  
-            : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
-        : Word Representation
-        : Question "What is that?" >>> Recurrent Network >>> Answer "This is apple."
-        : Encoder >>> Hidden State >>> Decoder
-        : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
-        : Machine Translation 
-        : Transformers Architecture
-            : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-            : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
-
-
-
+    ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+        ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+           : Categorize:
+                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
+                : WORD: PARSE/ETYMOLOGY
+                    : Roots: Fact/Known
+                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                        : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
+                    : Fixes: Position-Lodial
+                : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
+                    : Letters/Spells, 
+                    : Metals, Conductors,
+                    : Light: GEOMETRY (EUCLID)
+                    : Sound: MUSIC (BOETHIUS)
+                    : Motion: PHYSICS (ARISTOTLE)
+                    : Energy: path cost function: number of steps in proof
+                        : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                        : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                        : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
+                            : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+       
+        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
+            : ARISTOTLE'S NICHOMACHEAN ETHICS
+            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+            : NOW-SPACE 
+            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : List: Queue/Stack, 
+            : LOGIC-ARITHMETIC = -1, 0, +1
+                : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+                : Logic: NOT, AND, OR
+ 
 ~INFORMATION SYSTEMS:
     What: Core components that make up an information system (IS), including data, hardware, and software.
     Why:
@@ -975,7 +966,7 @@
  
 ############################################################################################################################################################################################################
 Analysis of "Attention Is All You Need" Paper Using the 5W1H Framework
-    : What is the Paper About? The Transformer outperforms existing models in sequence transduction tasks, particularly in machine translation, while offering faster training times and increased parallelization.
+    : The Transformer outperforms existing models in sequence transduction tasks, particularly in machine translation, while offering faster training times and increased parallelization.
     : Why Was the Transformer Created? (For What Risks and Challenges?)
         The Transformer was developed to overcome limitations of traditional sequence models like RNNs and CNNs, which suffer from:
             Slow Training: RNNs process tokens sequentially, limiting parallelization.

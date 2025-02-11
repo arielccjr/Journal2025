@@ -9,51 +9,51 @@
                             ~2:
                             ~3: 
     : TRANSITION:	    First: why are we slaves of our passions? 
-~BODY: 
-    : COUNTERARGUMENTS (Arguments Against the Thesis)
-        : Introduction:		    You probably believe that we, like other animals, are driven by instinct rather than choice.”
-        : Support:		        And you are probabaly right, because...
-            : 1st Point:	    First, We must respond to danger.
-                : Evidence: 	For example, when you touch something hot, we flinch.
-            : 2nd Point:	    Second, we are driven by reward and punishment.
-                : Evidence:	    For example, 
-                                Hunger, fear, and sexual drive make us irrational. override logical decision-making.”
-                                You are not you when you're hungry (and/or horny). 
-				                We seem to prioritize survival and reproduction, driving many of our actions.”
-				                dopamine spikes in response to a stimulus, 
-				                such as social media likes, create a loop of stimulus and reaction.”
-            : 3rd Point:	    And third, we are made by our environment. 
-                : Evidence:	    For example, Neural activity predicts decisions seconds before subjects consciously decide.”
-				                Muscle Memory: our decisions are made in the brain before we are even aware of them.”
-                                We are slaves of our passions; you're right!
-                                Because... 
-                                    1. We must response to danger.
-                                    2. We are driven by reward and punishment.
-                                    3. We are made by our environment.
-        : Transition:      	    But what if this is only half-true?
-    : SUPPORTING ARGUMENTS (Arguments for the Thesis)
-        : Introduction:         I believe that we can choose to break free of automatic patterns.” 
-            : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
-            : Premise 2:        Secondly, We can classify. delay gratification to achieve long-term goals.”
-                                And third, We can reason. delay gratification to achieve long-term goals.”
-                                Additionally, We can order. delay gratification to achieve long-term goals.”
-            : Conclusion:       This self-awareness gives us the power to stop and correct our habit loop.”
-                : Evidence:     Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
-                : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
-                : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
-                : Conclusion:   This ability to prioritize the future over immediate impulses is free will.”
-                : Conclusion:   We act with intention, rather than instinct.”
-        : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
-    : REFUTATION OF COUNTERARGUEMENTS:
-        : Main Refutation:
-		: Refute 1st:	        Habits may be responses to stimulus, but we can be reprogrammed we can change our patterns through conscious effort.”
-		: Refute 2nd: 	        We may be driven by hunger or horniness, but we cultivate these drives by fasting and abstinence.
-		: Refute 3rd: 	        Habits may be muscle memory, but conscious awareness can still override automatic processes, as seen in moments of deliberate choice.”        
-        : Additional Support:
-            : Sub-Point 1: 
-                : Evidence: 	People may suffer habit loop of addiction, but they can rehabilitate and achieve remarkable success by exercising free will.”
-            : Sub-Point 2:  	This can be on a larger scale:
-                : Evidence: 	For example: we have stopped wars with the simple act of pausing before responding to a stimulus/provocation is itself an exercise of free will.”
+~COUNTER THESIS:
+    : Support:		        
+                    You probably believe that we, like other animals, are driven by instinct rather than choice.”
+                    And you are probabaly right, because...
+        : 1st Point:	    First, We must respond to danger.
+            : Evidence: 	For example, when you touch something hot, we flinch.
+        : 2nd Point:	    Second, we are driven by reward and punishment.
+            : Evidence:	    For example, 
+                            Hunger, fear, and sexual drive make us irrational. override logical decision-making.”
+                            You are not you when you're hungry (and/or horny). 
+                            We seem to prioritize survival and reproduction, driving many of our actions.”
+                            dopamine spikes in response to a stimulus, 
+                            such as social media likes, create a loop of stimulus and reaction.”
+        : 3rd Point:	    And third, we are made by our environment. 
+            : Evidence:	    For example, Neural activity predicts decisions seconds before subjects consciously decide.”
+                            Muscle Memory: our decisions are made in the brain before we are even aware of them.”
+                            We are slaves of our passions; you're right!
+                            Because... 
+                                1. We must response to danger.
+                                2. We are driven by reward and punishment.
+                                3. We are made by our environment.
+    : Transition:      	    But what if this is only half-true?
+~SUPPORT THESIS:
+    : Introduction:         I believe that we can choose to break free of automatic patterns.” 
+        : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
+        : Premise 2:        Secondly, We can classify. delay gratification to achieve long-term goals.”
+                            And third, We can reason. delay gratification to achieve long-term goals.”
+                            Additionally, We can order. delay gratification to achieve long-term goals.”
+        : Conclusion:       This self-awareness gives us the power to stop and correct our habit loop.”
+            : Evidence:     Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
+            : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
+            : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
+            : Conclusion:   This ability to prioritize the future over immediate impulses is free will.”
+            : Conclusion:   We act with intention, rather than instinct.”
+    : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+~REFUTE COUNTERARGUEMENTS:
+    : Main Refutation:
+    : Refute 1st:	        Habits may be responses to stimulus, but we can be reprogrammed we can change our patterns through conscious effort.”
+    : Refute 2nd: 	        We may be driven by hunger or horniness, but we cultivate these drives by fasting and abstinence.
+    : Refute 3rd: 	        Habits may be muscle memory, but conscious awareness can still override automatic processes, as seen in moments of deliberate choice.”        
+    : Additional Support:
+        : Sub-Point 1: 
+            : Evidence: 	People may suffer habit loop of addiction, but they can rehabilitate and achieve remarkable success by exercising free will.”
+        : Sub-Point 2:  	This can be on a larger scale:
+            : Evidence: 	For example: we have stopped wars with the simple act of pausing before responding to a stimulus/provocation is itself an exercise of free will.”
 ~CONCLUSION:
     : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
     : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
