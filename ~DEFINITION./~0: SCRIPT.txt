@@ -15,17 +15,6 @@
                     And you are probabaly right, because...
         : 1st Point:	    First, We must respond to danger.
             : Evidence: 	For example, when you touch something hot, we flinch.
-        : 2nd Point:	    Second, we are driven by reward and punishment.
-            : Evidence:	    For example, 
-                            Hunger, fear, and sexual drive make us irrational. override logical decision-making.”
-                            You are not you when you're hungry (and/or horny). 
-                            We seem to prioritize survival and reproduction, driving many of our actions.”
-                            dopamine spikes in response to a stimulus, 
-                            such as social media likes, create a loop of stimulus and reaction.”
-        : 3rd Point:	    And third, we are made by our environment. 
-            : Evidence:	    For example, Neural activity predicts decisions seconds before subjects consciously decide.”
-                            Muscle Memory: our decisions are made in the brain before we are even aware of them.”
-                            We are slaves of our passions; you're right!
                             Because... 
                                 1. We must response to danger.
                                 2. We are driven by reward and punishment.
@@ -34,9 +23,6 @@
 ~SUPPORT THESIS:
     : Introduction:         I believe that we can choose to break free of automatic patterns.” 
         : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
-        : Premise 2:        Secondly, We can classify. delay gratification to achieve long-term goals.”
-                            And third, We can reason. delay gratification to achieve long-term goals.”
-                            Additionally, We can order. delay gratification to achieve long-term goals.”
         : Conclusion:       This self-awareness gives us the power to stop and correct our habit loop.”
             : Evidence:     Practices like mindfulness and meditation help individuals observe their impulses without acting on them.”
             : Evidence:     People who resisted immediate temptation tended to have better life outcomes.”
@@ -47,13 +33,6 @@
 ~REFUTE COUNTERARGUEMENTS:
     : Main Refutation:
     : Refute 1st:	        Habits may be responses to stimulus, but we can be reprogrammed we can change our patterns through conscious effort.”
-    : Refute 2nd: 	        We may be driven by hunger or horniness, but we cultivate these drives by fasting and abstinence.
-    : Refute 3rd: 	        Habits may be muscle memory, but conscious awareness can still override automatic processes, as seen in moments of deliberate choice.”        
-    : Additional Support:
-        : Sub-Point 1: 
-            : Evidence: 	People may suffer habit loop of addiction, but they can rehabilitate and achieve remarkable success by exercising free will.”
-        : Sub-Point 2:  	This can be on a larger scale:
-            : Evidence: 	For example: we have stopped wars with the simple act of pausing before responding to a stimulus/provocation is itself an exercise of free will.”
 ~CONCLUSION:
     : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
     : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
@@ -138,13 +117,43 @@
         : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
-~[RE]SEARCH:
-    ~
-
-
-
-##################################################################################################################################################################################################################
 ~3: RHETORIC:
+    : WHAT is Aristotle's Rhetoric? 
+        Aristotle's Rhetoric is a treatise on the art of persuasion.
+        It systematically analyzes how speakers can use language, logic, and emotion to influence an audience effectively. 
+        It is not about deceit but about understanding how to communicate truth effectively, depending on the audience and situation.
+    : WHY does Rhetoric matter? (For What Risks?)
+        Risk of Manipulation – Rhetoric can be misused for deception.
+        Emotional Exploitation – Speakers might appeal to fear, anger, or desires rather than truth.
+        Fallacious Arguments – Using rhetoric without logic can lead to misleading conclusions.
+        Loss of Critical Thinking – Over-reliance on persuasive tactics without proper reasoning weakens intellectual discourse.
+        Power Abuse – Skilled rhetoric can enable demagogues to control societies unethically.
+        Thus, Aristotle emphasizes ethos (credibility), pathos (emotion), and logos (reason) to prevent manipulation and ensure just persuasion.
+    : HOW does Aristotle's Rhetoric work? (By What Logical Steps of Solution)
+        Aristotle structures rhetoric into three core components:
+            (A) The Three Appeals (Modes of Persuasion)
+                Ethos (Character & Credibility): A speaker must establish trust, credibility, and authority.
+                    Example: A doctor convincing patients about a treatment.
+                Pathos (Emotional Appeal): Appealing to emotions to connect with the audience.
+                    Example: A charity using images of suffering children to elicit sympathy.
+                Logos (Logical Argument): Using reasoning, evidence, and facts to persuade.
+                    Example: Presenting statistical data to support a policy change.
+            (B) The Three Types of Rhetoric (Situational Uses)
+                Deliberative Rhetoric (Future-Oriented)
+                    Used in politics and decision-making (e.g., debates on laws, policies).
+                    Aims to persuade towards beneficial actions.
+                Forensic Rhetoric (Past-Oriented)
+                    Used in legal and judicial settings (e.g., courtroom arguments).
+                    Aims to determine guilt or innocence.
+                Epideictic Rhetoric (Present-Oriented)
+                    Used in ceremonial speeches (e.g., eulogies, awards, praises).
+                    Aims to praise or blame.
+            (C) The Five Canons of Rhetoric (Steps to Effective Persuasion)
+                Invention (Finding Arguments) – Identify the best means of persuasion.
+                Arrangement (Organizing Speech) – Structure arguments logically.
+                Style (Choosing Language) – Use compelling and appropriate diction.
+                Memory (Recollection & Mastery) – Mastering the material for fluent delivery.
+                Delivery (Effective Presentation) – Tone, voice modulation, gestures.
 ~2: DIALECTIC:
     : SOPHISTICAL ELENCHI: Aristotle includes techniques for refuting an opponent’s argument by identifying weaknesses or inconsistencies in their reasoning.
         : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
