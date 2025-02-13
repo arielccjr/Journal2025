@@ -11,25 +11,38 @@
     : TRANSITION:	    First: why are we slaves of our passions? 
 
 ~COUNTER THESIS: Topics and Fallacies
-    : Support:		        You probably believe that we, like other animals, are driven by instinct rather than choice.”
+    : Support:		        You probably "understand" the way I learn English:
                             And you are probabaly right, because...
-                            First we letters, words, sentences.
-                            Subject, predicate.
-
-                            Because... 
-                                1. We must response to danger.
-                                2. We are driven by reward and punishment.
-                                3. We are made by our environment.
+                            First, we learn the letters, 
+                            Then, we memorize words, by the dictionary, if we care enough.
+                            And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
+                                Subject, predicate.
+                                Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
+                                Past-tense, Future-tense.
+                            Most of the time, we learn new words by pop culture / daily conversation,
+                            
+                            "We never left 2nd-grade reading/comprehension level."
+                            "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
+                            "We are at the mercy of our lawyers for reaching closure."
+                            
     : Transition:      	    But what if this is only half-true?
-
+                            What if there is another way? What if we can read / write the truth on our own?
 ~SUPPORT THESIS:
-    : Introduction:         I believe that we can choose to break free of automatic patterns.” 
-    
+    : Introduction:         Computers 
+                            They process languages using arithmetic and logic unit.
+                            Breaking down images, sounds, and videos into 0s and 1s.
+                            Instead of using dictionary, we learn words by roots and fixes, by etymology.
+                                For example, 
+                            And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
+                            
     : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
 
 ~REFUTE COUNTERARGUEMENTS:
     : Main Refutation:
-    : Refute 1st:	        Habits may be responses to stimulus, but we can be reprogrammed we can change our patterns through conscious effort.”
+    : Refute 1st:	        We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
+                            Language are ambiguous, with many definition.
+                            Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
+                            Natural language 
     : Transition:
 
 ~CONCLUDE:
@@ -351,8 +364,8 @@ APA Sample Paper (APA 7th Edition): The APA Sample Paper provides an example of 
                     If the source is an organization or government agency, use the full name first, followed by the abbreviation in brackets (if commonly known), and then use the abbreviation in subsequent citations.
                     If citing a source with no author, use the title in the citation instead.
                 Citing Multiple Sources:
-                    When citing multiple sources in one citation, list them alphabetically, separated by semicolons. For sources by the same author in the same year, add lower case letters (a, b, c) after the year to differentiate them.
-
+                    When citing multiple sources in one citation, list them alphabetically, separated by semicolons. 
+                    For sources by the same author in the same year, add lower case letters (a, b, c) after the year to differentiate them.
 
 ##################################################################################################################################################################################################################
 ~ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
