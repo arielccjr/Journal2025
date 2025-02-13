@@ -1,6 +1,6 @@
 : FOR THE GIFT OF THE WORD.
-~TITLE:             	Are We Slaves Of Passions or Masters Of Free Will?
-~INTRODUCTION:
+~TITLE:             	How do we know each other? How do we find closure?
+~INTRODUCE:
     : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
     : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
     : THESIS:       	This speech shares my believe that while we are creatures of habits,
@@ -9,28 +9,30 @@
                             ~2:
                             ~3: 
     : TRANSITION:	    First: why are we slaves of our passions? 
-~COUNTER THESIS:
-    : Support:		        
-                        You probably believe that we, like other animals, are driven by instinct rather than choice.”
-                        And you are probabaly right, because...
-        : 1st Point:	    First, We must respond to danger.
-            : Evidence: 	For example, when you touch something hot, we flinch.
+
+~COUNTER THESIS: Topics and Fallacies
+    : Support:		        You probably believe that we, like other animals, are driven by instinct rather than choice.”
+                            And you are probabaly right, because...
+                            First we letters, words, sentences.
+                            Subject, predicate.
+
                             Because... 
                                 1. We must response to danger.
                                 2. We are driven by reward and punishment.
                                 3. We are made by our environment.
     : Transition:      	    But what if this is only half-true?
+
 ~SUPPORT THESIS:
     : Introduction:         I believe that we can choose to break free of automatic patterns.” 
-        : Premise 1:        First, We can perceive. Mankind reflects on our thoughts and actions.”
-        : Conclusion:       This self-awareness gives us the power to stop and correct our habit loop.”
-            : Evidence:     For example, our laws protects even the life of criminals, equire decisions that transcend personal gratification.”
-            : Conclusion:   We act with intention, rather than instinct.”
+    
     : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+
 ~REFUTE COUNTERARGUEMENTS:
     : Main Refutation:
     : Refute 1st:	        Habits may be responses to stimulus, but we can be reprogrammed we can change our patterns through conscious effort.”
-~CONCLUSION:
+    : Transition:
+
+~CONCLUDE:
     : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
     : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
     : Meaning:    	    This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
@@ -43,7 +45,7 @@
 	                    Thank you, Mr. Toastmaster.
 
 ###############################################################################################################
-~-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
+-1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
         : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
         : DIVISION, LACKING
     "SPOIL FOR-BY SOILVOID(-)."
@@ -55,10 +57,10 @@
         : NPCs, Requests/Puzzles, Opposition
         : Alone, Low Population
     "TRAP FOR-BY WILDWORLD."
-        : The Rat Race
+        : The Rat Race, 
     "WAIT FOR-BY BIRTHSTART."
         : Initial State, Beginning Again
-~+1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
++1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
         : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
         : Defuse or trigger the bomb.
         : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
@@ -90,7 +92,7 @@
             : better positioning on the map, better territory
     "CHANCE FOR-BY DEATHEND."
         : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-        : "Incorporation: December 1, 2024... 1-2 days per project
+        : Incorporation: December 1, 2024... 1-2 days per project
         : PROGRESS = Tutorials, Saves, Updates: Journal?
         : Battle Cycle: 1 move/turn at a time
         : DEADLINE: Goal State, Completion
@@ -109,14 +111,11 @@
             Logos (Logical Argument): Using reasoning, evidence, and facts to persuade.
                 Example: Presenting statistical data to support a policy change.
         : The Three Types of Rhetoric (Situational Uses)
-            Deliberative Rhetoric (Future-Oriented)
-                Used in politics and decision-making (e.g., debates on laws, policies).
+            Deliberative Rhetoric (Future-Oriented): Used in politics and decision-making (e.g., debates on laws, policies).
                 Aims to persuade towards beneficial actions.
-            Forensic Rhetoric (Past-Oriented)
-                Used in legal and judicial settings (e.g., courtroom arguments).
+            Forensic Rhetoric (Past-Oriented): Used in legal and judicial settings (e.g., courtroom arguments).
                 Aims to determine guilt or innocence.
-            Epideictic Rhetoric (Present-Oriented)
-                Used in ceremonial speeches (e.g., eulogies, awards, praises).
+            Epideictic Rhetoric (Present-Oriented): Used in ceremonial speeches (e.g., eulogies, awards, praises).
                 Aims to praise or blame.
         : The Five Canons of Rhetoric (Steps to Effective Persuasion)
             : Invention (Finding Arguments) – Identify the best means of persuasion.
