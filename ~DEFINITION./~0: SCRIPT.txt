@@ -3,11 +3,11 @@
 ~INTRODUCE:
     : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
     : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-    : THESIS:       	This speech shares my believe that while we are creatures of habits,
+    : THESIS:       	This speech shares 
                		    we have free will — the ability to choose.”
-                            ~1:
-                            ~2:
-                            ~3: 
+                            ~1: First, 
+                            ~2: Then,
+                            ~3: And finally, 
     : TRANSITION:	    First: why are we slaves of our passions? 
 
 ~COUNTER THESIS: Topics and Fallacies
