@@ -1,7 +1,13 @@
 ~FOR THE STACK:
-~HARDWARE: 
+~BODY:
+        : Eat/Power       = Create/Heat/PowerSupply
+		: Inhale/Cooler   = Exhale/Exhaust
+		: Feel/Keyb/Mouse = Move/Animation/Events
+		: Hear/Microphone = Speak/Speaker
+		: See/Camera      = Show/Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
+~HARDWARE:
     : Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
-    : Computer: Central/Graphical Processing Unit (C/GPU) + ControlWires: Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
+    : Computer: Central/Graphical Processing Unit (C/GPU), Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
         : Clock
         : Temporary Memory Registers:
             : Instruction-Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
@@ -25,16 +31,16 @@
             : Registers A, B, C... for loading values temporarily. 
         : Arithmetic Unit = Half>Full>Multi-bit Adder:
             : XOR (in=a, in=b, out=abSUM)
-                : AND (in=a, in=b, out=aANDb); 
-                : NOT (in=aANDb, out=NOTaANDb); 
-                : OR (in=a, in=b, out=aORb); 
+                : AND (in=a, in=b, out=aANDb);
+                : NOT (in=aANDb, out=NOTaANDb);
+                : OR (in=a, in=b, out=aORb);
                 : AND (in=NOTaANDb, in=aORb, out=out);
-            : AND (in=a, in=b, out=abCARRY)	
+            : AND (in=a, in=b, out=abCARRY)
                 : >XOR (in=abSUM, in=c, out=abcSUM)
                 : >AND (in=abSUM, in=c, out=abcCARRY)
                     ; >OR (in=abCARRY, in=abcBARRY, out=out)
         : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
-        : Flags of Bits: Overflow(>), Zero(=), Negative(<)...    
+        : Flags of Bits: Overflow(>), Zero(=), Negative(<)...
 	: In-Output Devices/Peripherals:
 		: Eat/Power       = Create/Heat/PowerSupply
 		: Inhale/Cooler   = Exhale/Exhaust
@@ -55,21 +61,24 @@
                 : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
                     : Index: Frequency of Words
                     : Hypertext Markup Language (HTML) + CSS
-            : Files: 
-                : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
-                    : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
-                : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-                    : Wave/Audio: Amplitude, Spectogram... 
-                    : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
-                    : Character/Text/List/String = ASCII>UNICODE
-                    : Number/Integer/Float= 
-                        : Scientific Notation; Negative Bit= 2^N-x
-                        : Null
-            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
-                : Memory Address:
-                    : Pointer: Next Address Reference
-                    : Index
-                : Instruction
+~MEMORY:        
+    : Files System:
+        : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+            : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+    : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+        : Wave/Audio: Amplitude, Spectogram... 
+        : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+        : Character/Text/List/String = ASCII>UNICODE
+        : Number/Integer/Float= 
+            : Scientific Notation; Negative Bit= 2^N-x
+            : Null
+    : Knowledge(Known)/Facts:
+        :
+    : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+        : Memory Address:
+            : Pointer: Next Address Reference
+            : Index
+        : Instruction
 ~INSTRUCTION: FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
     : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
         : Console Input/Output: Reads from and writes to the console. To interact with the user.
@@ -89,21 +98,27 @@
             : Return Statement: Exits a function and optionally returns a value. To end execution and provide a result.
                 : Then/Else/Next... 
             : Brute Force, Selection, Merge, Dijkstra... 
-    : KNOWLEDGE: 
-        : NATURAL LANGUAGE PROCESSING:
-            : tokenization = the task of splitting a sequence of characters into pieces (tokens)
-            : text classification =
-            : Naive-Bayes classifier = 
-            : additive smoothing = adding a value a to each value in our distribution to smooth the data  
-                : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
-            : Word Representation
-            : Question "What is that?" >>> Recurrent Network >>> Answer "This is apple."
-            : Encoder >>> Hidden State >>> Decoder
-            : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
-            : Machine Translation 
-            : Transformers Architecture
-                : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-                : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+    
+    : DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
+        : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+        : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+        : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+        : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+    
+    : NATURAL LANGUAGE PROCESSING:
+        : tokenization = the task of splitting a sequence of characters into pieces (tokens)
+        : text classification =
+        : Naive-Bayes classifier = 
+        : additive smoothing = adding a value a to each value in our distribution to smooth the data  
+            : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
+        : Word Representation
+        : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
+        : Machine Translation 
+        
+        : Transformers Architecture
+            : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+            : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
     : NEURAL NETWORKS:
         : artificial neural network = mathematical model for learning inspired by biological neural networks
             : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
@@ -277,6 +292,45 @@
             : prediction = given observations from start until now, calculate distribution for a future state
             : smoothing = given observations from start until now, calculate distribution for past state
             : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+    
+    : KNOWLEDGE:
+        : Logical Connectives: 
+            : not ¬, 
+            : and ∧, 
+            : or ∨,
+            : implication →
+            : biconditional ↔
+        : Entailment Algorithm: Does KB ⊨ α ?
+        : Model Checking: (logic.py)
+            : To determine if KB ⊨ α:
+                : Enumerate all possible models.
+                : If in every model where KB is true, α is true, then KB entals α.
+                : Otherwise, KB does not entail α.
+        : Knowledge Engineering:
+        : Inference Rules:
+            : Modus Ponens: α → β
+            : And Elimination: α ⊨ β
+            : Double Negation Elimination:
+            : Implication Elimination
+            : Biconditional Elimination
+            : De Morgan's Law
+            : Distributive Property/Law
+            : Unit Resolution
+        : Conversion to conjunctive normal form (CNF)
+            : Eliminate biconditionals
+            : Eliminate implications
+            : Move not inwards using De Morgan's laws
+            : Use distributive law to distribute or wherever possible
+        : Inference by Resolution
+            : To determine if KB ⊨ α:
+                : Convert (KB and not alpha) to Conjunctive Normal Form.
+                : Keep checking to see if we can use resolution to produce a new clause.
+                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
+                    : Otherwise, if we cannot add new clauses, no entailment.
+        : First-Order Logic
+            : Universal Quantificationa
+            : Existential Quantification
+    
     : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
         : Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
         : Uninformed Search: 
@@ -334,44 +388,7 @@
             : Assign: Initializes or updates the value of a variable. To give variables usable values.
             : Compare: Less Than, Greater Than, Equal
 
-    : KNOWLEDGE:
-        : Logical Connectives: 
-            : not ¬, 
-            : and ∧, 
-            : or ∨,
-            : implication →
-            : biconditional ↔
-        : Entailment Algorithm: Does KB ⊨ α ?
-        : Model Checking: (logic.py)
-            : To determine if KB ⊨ α:
-                : Enumerate all possible models.
-                : If in every model where KB is true, α is true, then KB entals α.
-                : Otherwise, KB does not entail α.
-        : Knowledge Engineering:
-        : Inference Rules:
-            : Modus Ponens: α → β
-            : And Elimination: α ⊨ β
-            : Double Negation Elimination:
-            : Implication Elimination
-            : Biconditional Elimination
-            : De Morgan's Law
-            : Distributive Property/Law
-            : Unit Resolution
-        : Conversion to conjunctive normal form (CNF)
-            : Eliminate biconditionals
-            : Eliminate implications
-            : Move not inwards using De Morgan's laws
-            : Use distributive law to distribute or wherever possible
-        : Inference by Resolution
-            : To determine if KB ⊨ α:
-                : Convert (KB and not alpha) to Conjunctive Normal Form.
-                : Keep checking to see if we can use resolution to produce a new clause.
-                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
-                    : Otherwise, if we cannot add new clauses, no entailment.
-        : First-Order Logic
-            : Universal Quantificationa
-            : Existential Quantification
-    
+   
     ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
         ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
            : Categorize:
@@ -1073,16 +1090,4 @@ Analysis of "Attention Is All You Need" Paper Using the 5W1H Framework
                 Rarely implemented due to its complexity.
         ~3: Merge
 
-
 ###############################################################################################################################
-: DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
-    : DATA DEFINITION LANGUAGE: Sets up the database structure for efficient storage.
-        Use CREATE, ALTER, DROP commands.
-    : SQL Queries: Extract insights and support decision-making.
-        Use SELECT, WHERE, JOIN, and aggregate functions.
-    : DATA MANIPULATION LANGUAGE: Keep datacase data updated and accurate.
-        Use INSERT, UPDATE, DELETE statements.
-    : STORED PROCEDURES: Improve performance and handle business logic efficiently.
-        Use CREATE, PROCEDURE, parameters, transactions, and error handing.
-    : TRIGGERS: Enforce rules and log/audit changes automatically.
-        Use CREATE TRIGGER for specific events like INSERT, UPDATE, or DELETE.
