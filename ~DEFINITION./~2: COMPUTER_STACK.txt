@@ -1,14 +1,52 @@
-~FOR THE STACK:
-~BODY:
-        : Eat/Power       = Create/Heat/PowerSupply
-		: Inhale/Cooler   = Exhale/Exhaust
-		: Feel/Keyb/Mouse = Move/Animation/Events
-		: Hear/Microphone = Speak/Speaker
-		: See/Camera      = Show/Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
-~HARDWARE:
-    : Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
-    : Computer: Central/Graphical Processing Unit (C/GPU), Transistor>IntegratedCircuit>PrintedCircuitBoards>Semiconductor 
+~FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
+    : Brute Force, Selection, Merge, Dijkstra... 
+    : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+    : In-Output Devices/Peripherals + Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
+		: Camera        = Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
+		: Mic           = Speaker
+		: Keyb/Mouse    = Animation/Events
+		: Cooler        = Exhaust
+		: Power         = Heat
+    : Triggers/Conditionals: Enables decision-making in code. To perform actions based on conditions.
+        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
+    : Loops: Repeats code execution based on conditions. To perform repetitive tasks.
+        : While: Repeats while a condition is true. To handle indefinite iteration.
+        : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+        : For: Iterates a specific number of times. To handle definite iteration.
+        : Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
+        : Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
+    : Return Statement: Exits a function and optionally returns a value. To end execution and provide a result.
+        : Then/Else/Next... 
+    : DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
+        : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+        : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+        : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+        : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+ 
+~DECODE: 
+    : Computer: Central/Graphical Processing Unit (C/GPU) >>> Transistors
         : Clock
+        : Permanent Memory:  
+            : Files System:
+                : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+                    : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+            : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                : Wave/Audio: Amplitude, Spectogram... 
+                : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+                : Character/Text/List/String = ASCII>UNICODE
+                : Number/Integer/Float= 
+                    : Scientific Notation; Negative Bit= 2^N-x
+                    : Null
+            : Knowledge(Known)/Facts:
+                :
+            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+                : Memory Address:
+                    : Pointer: Next Address Reference
+                    : Index
+                : Instruction
         : Temporary Memory Registers:
             : Instruction-Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
                 : Multiplexer: MUX = (a AND NOTsel) OR (sel AND b)
@@ -24,7 +62,7 @@
                             : OR (in=set, in=outLOOP, out=setORoutLoop)
                             : NOT (in=reset, out=NOTreset)
                             : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : Memory Register/Bit: Flip Flops: out[t] = in[t-1]
+                : Memory Register/Bit: 
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0) 
             : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
@@ -41,12 +79,7 @@
                     ; >OR (in=abCARRY, in=abcBARRY, out=out)
         : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
         : Flags of Bits: Overflow(>), Zero(=), Negative(<)...
-	: In-Output Devices/Peripherals:
-		: Eat/Power       = Create/Heat/PowerSupply
-		: Inhale/Cooler   = Exhale/Exhaust
-		: Feel/Keyb/Mouse = Move/Animation/Events
-		: Hear/Microphone = Speak/Speaker
-		: See/Camera      = Show/Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
+
 ~SOFTWARE: 
     : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
         : Physical Layer: Transistors convert digital signals (0s and 1s) into electrical, light, or radio waves
@@ -61,221 +94,104 @@
                 : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
                     : Index: Frequency of Words
                     : Hypertext Markup Language (HTML) + CSS
-~MEMORY:        
-    : Files System:
-        : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
-            : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
-    : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-        : Wave/Audio: Amplitude, Spectogram... 
-        : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
-        : Character/Text/List/String = ASCII>UNICODE
-        : Number/Integer/Float= 
-            : Scientific Notation; Negative Bit= 2^N-x
-            : Null
-    : Knowledge(Known)/Facts:
-        :
-    : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
-        : Memory Address:
-            : Pointer: Next Address Reference
-            : Index
-        : Instruction
-~INSTRUCTION: FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
-    : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
-        : Console Input/Output: Reads from and writes to the console. To interact with the user.
-        : Execute ControlFlow:
-            : Triggers: Automatically executes actions in response to table events. To enforce rules and maintain data integrity.
-                : If/While/For... function(input1, 2)
-            : Conditionals: Enables decision-making in code. To perform actions based on conditions.
-                : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-                : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-                : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
-            : Loops: Repeats code execution based on conditions. To perform repetitive tasks.
-                : While: Repeats while a condition is true. To handle indefinite iteration.
-                : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-                : For: Iterates a specific number of times. To handle definite iteration.
-                : Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
-                : Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
-            : Return Statement: Exits a function and optionally returns a value. To end execution and provide a result.
-                : Then/Else/Next... 
-            : Brute Force, Selection, Merge, Dijkstra... 
-    
-    : DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
-        : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-        : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-        : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-        : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-    
+   
     : NATURAL LANGUAGE PROCESSING:
-        : tokenization = the task of splitting a sequence of characters into pieces (tokens)
-        : text classification =
-        : Naive-Bayes classifier = 
-        : additive smoothing = adding a value a to each value in our distribution to smooth the data  
-            : Laplace smoothing = adding 1 to each value in ou r distribution: pretending we've seen each value one more time than we actually have
-        : Word Representation
-        : Attention = letting us decide which values are important to pay attention to when generating, in this case, the next word in our sequence.
-        : Machine Translation 
+        ~1: Define terminal and non-terminal symbols:
+            N = {"she", "city", "car", "Harry"}  # Nouns
+            V = {"walked", "saw"}  # Verbs
+            D = {"the", "a", "an"}  # Determiners
+        ~2: Define rewrite rules:
+            NP → N | D N
+            VP → V | V NP
+            S → NP VP
+        ~3: Use Natural Language Toolkit (NLTK) to parse sentences:
+            import nltk
+            grammar = nltk.CFG.fromstring("""
+                S -> NP VP
+                NP -> N | D N
+                VP -> V | V NP
+                N -> 'she' | 'city' | 'car' | 'Harry'
+                V -> 'walked' | 'saw'
+                D -> 'the' | 'a' | 'an'
+            """)
+            parser = nltk.ChartParser(grammar)
+            sentence = "she saw the city".split()
+            for tree in parser.parse(sentence):
+                print(tree)
+        ~4: Generate a syntax tree for valid sentences:
+            (S
+                (NP (N she))
+                (VP (V saw) (NP (D the) (N city))))
+        ~5: Expand with additional grammar rules (e.g., adjective phrases, prepositional phrases) to capture sentence complexity.
         
-        : Transformers Architecture
+        : TRANSFORMERS ARCHITECTURE:
             : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
             : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+            ~1: Encoder-Decoder Architecture
+                : Encoder: Processes the input sentence into a fixed representation.
+                : Decoder: Generates the output sequence, one word at a time.
+            ~2: Self-Attention Mechanism
+                Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+                Multi-Head Attention enables different aspects of word relationships to be captured.
+            ~3: Positional Encoding
+                Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+            ~4: Feed-Forward Layers
+                Each word's representation is passed through fully connected layers to extract deeper features.
+            ~5: Masked Self-Attention in the Decoder
+                Prevents words from attending to future words (maintains causality).
+            ~6: Output Prediction
+                The decoder predicts the next word using a softmax function, generating the final output.
+            ~7: Optimization and Training
+                Uses the Adam optimizer with learning rate scheduling.
+                Dropout and Label Smoothing are applied for regularization.
+                Beam Search is used for better sentence generation.
+
     : NEURAL NETWORKS:
-        : artificial neural network = mathematical model for learning inspired by biological neural networks
-            : Model mathematical function from inputs to outputs based on the structure and parameteres of the network.
-            : Allows for learning the network's parameters based on data.
-            : Functions:
-                : step function: g(x) = 1 if x > 0, else 0
-                : logic sigmoid
-                : rectified linear unit (relu)
-            : h(x1, x2) = g(w0 + w1x1 + w2x2)
-            : h(x1, x2, xn-1, xn) = g(n sigma i=1 xiwi + w0)
-        : supervised neural network: 
-            : gradient descent = algorithm for minimizing loss when training neural network
-                : Start with a random choice of weights.
-                : Repeat: 
-                    : Calculate the gradient based on ALL DATA POINTS: direction that will lead to decreasing loss.
-                    : Update weights according to the gradient.
-            : Stochastic gradient descent
-                : Start with a random choice of weights.
-                : Repeat: 
-                    : Calculate the gradient based on ONE DATA POINTS: direction that will lead to decreasing loss.
-                    : Update weights according to the gradient.
-            : Mini-Batch gradient descent
-                : Start with a random choice of weights.
-                : Repeat: 
-                    : Calculate the gradient based on ONE SMALL BATCH: direction that will lead to decreasing loss.
-                    : Update weights according to the gradient.
-        : multilayer neural network = artificial neural network with an input layer, an output layer, and at least one hidden layer 
-        : backpropagation = algorithm for training neural netowrks with hidden layers
-            : Start with a random choice of weights.
-            : Repeat:
-                : Calculate error for output layer.
-                : For each layer, starting with output layer, and moving inwards towards earliest hidden layer:
-                    : Propagate error back one layer.
-                    : Update weights.
-        : deep neural networks = neural network with multiple hidden layers
-        : dropout = temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
-        : computer vision = computational methods for analyzing and understanding digital images
-        : image convolution = applying a kernel/filter that adds each pixel value of an image to its neighbors, weighted according to a kernel matrix
-        : pooling = reducing the size of an input by sampling from regions in the input
-            : max-pooling = pooling by choosing the maximum value in each region
-        : convolutional neural network = neural networks that use convolution, usually for analyzing images
-            : Apply convolution
-            : Apply pooling
-            : Apply Flattening
-            : Apply Deep Neural Networks
-        : feed-forward neural network = neural network that has connections only in one direction
-            : input >>> network >>> output
-        : recurrent neural network: input >>> network (loop) >>> output
-            : Relationships:
-                : one-to-many 
-                : many-to-one
-                : many-to-many
-    : LEARNING:
-        : supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
-            : classification = supervised learning task of learning a function mapping an input point to a discrete category
-                : nearest-neighbor classification = algorithm that, given an input, chooses the class of the nearest data point to that input
-                : k-nearest-neighbor classification = algorithm that, given an input, chooses the most common class out of the k nearest data points to that input
-            : hypothesis hw(x) = 1 if w * x > 0; 0 otherwise
-            : perceptron learning rule = given data point (x, y), update each weight according to: 
-                : wi = wi + a(y - hw(x)) * xi
-                : wi = wi + a(actual value - estimate) * xi
-                : Only capable of learning linearly separable decision boundary.
-            : Support Vector Machine
-                : boundary that maximizes the distance between any of the data points 
-            : regression = supervised learning task of learning a function mapping an input point to a continuous value
-            : regularization = penalizing hypotheses that are more complex to favor simpler, more general hypotheses
-            : holdout cross-validation = splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
-            : k-fold cross-validation = splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
-        : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
-            : Q-learning = method for learning a function Q(s,a), estimate of the value of performing action a in state s
-                : Start with Q(s,a)=0 for all s,a
-                : When we take an action and receive a reward:
-                    : Estimate the value of Q(s,a) based on current reward and expected future rewards
-                    : Update Q(s,a) to take into account old estimate as well as our new estimate
-            : Greedy Decision-Making
-                : When in state s, choose action a with the highest Q(s,a)
-            : Explore vs Exploit 
-                : Epsilon-Greedy:
-                    : Set epsilon equal to how often we want to move randomly.
-                    : With probability 1 - epsilon, choose estimated best move.
-                    : With probability epsilon, choose random move.
-            : function approximation = approximating Q(s,a) often by a function combining various features, rather than storing one value for every state-action pair
-        : unsupervised learning = given input data without any additional feedback, learn patterns
-            : clustering = organizing a set of objects into groups in such a way that similar objects tend to be in the same group
-                : k-means clustering = algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
-    : OPTIMIZATION:
-        : Local Search = algorithms that maintain a single node and searches by moving to a neighboring node
-            : Hill Climbing
-                : function HILL-CLIMB(problem):
-                    : current = initial state of problem
-                    : repeat:
-                        neighbor = highest valued neighbor of current
-                        if neighbor not better than current:
-                            return current
-                        current = neighbor
-                : steepest-ascene = choose the highest-valued neighbor
-                : stochastic = choose randomly from higher-valued neighbors
-                : first-choice = choose the first higher-valued neighbor
-                : random-restart = conduct hill climbing multiple times
-                : local beam search = chooses the k highest-valued neighbors
-            : Simulated Annealing =
-                function SIMULATED-ANNEALING(problem, max):
-                    current = initiate state of problem 
-                    for t = 1 to max:
-                        T = TEMPERATURE(t)
-                        neighbor = random neighbor of current 
-                        deltaE = how much better neigh is than current
-                        if deltaE > 0:
-                            current = neighbor
-                        with probability e^deltaE/T set current = neighbor
-                    return current
-            : Linear Programming:
-                : Simplex
-                : Interior-Point
-            : arc consistency = when all the values in a variable's domain satisfy the variable's binary constraints
-                : function REVISE(csp, X, Y):
-                    revised = false
-                    for x in X.domain:
-                        if no y in Y.domain satisfies constrain for (x, Y):
-                            delete x from X.domain
-                            revised = true
-                        return revised
-                : function AC-3(csp)
-                    queue = all arcs in csp
-                    while queue non-empty:
-                        (X, Y) = DEQUEUE(queue)
-                        if REVISE(csp, X, Y):
-                            if size of X.domain == 0:
-                                return false
-                            for each Z in X.neighbors - {Y}:
-                                ENQUEUE(queue, (Z, X))
-                        return true 
-            : Backtracking Search:
-                : function BACKTRACKING(assignment, csp):
-                    if assignment complete: return assignment
-                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
-                    for value in DOMAIN-VALUES(var, assignment, csp):
-                        if value consistent with assignment:
-                            add {var = value} to assignment
-                            result = BACKTRACK(assignment, csp)
-                            if result not= failure: return result
-                        remove {var = value} from assignment
-                    return failure
-            : maintaining arc consistency = algorithm for enforcing arc-consistency every time we make a new assignment 
-                : function BACKTRACKING(assignment, csp):
-                    if assignment complete: return assignment
-                    var = SELECT-UNASSIGNED-VAR(assignment, csp)
-                    for value in DOMAIN-VALUES(var, assignment, csp):
-                        if value consistent with assignment:
-                            add {var = value} to assignment
-                            inferences = INFERENCES(assignment, csp)
-                            if inferences not= failure: add inferences to assignment
-                            result = BACKTRACK(assignment, csp)
-                            if result not= failure: return result
-                        remove {var = value} and inferences from assignment
-                    return failure
-    : PROBABILITY: 
+        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1​,x2​,...xn​ and setting up the desired outputs." (Neural Networks, p. 3).
+        ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
+        ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
+        ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
+        ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
+    
+    : LEARNING: 
+        : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            ~1: Prepare Data: Collect labeled input-output pairs.
+            ~2: Split Data: Divide into training and testing sets.
+            ~3: Train Model: Fit a hypothesis function to the training data.
+            ~4: Evaluate Model: Test the trained model on unseen data.
+            ~5: Adjust Weights: Update parameters based on accuracy.
+            : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+            : unsupervised learning = given input data without any additional feedback, learn patterns
+        : Nearest Neighbor Classification: A simple supervised learning method where classification is based on the closest labeled data points: 
+            ~1: Store all training data.
+            ~2: For a new input:
+                : Compute distance to all stored points.
+                : Select the closest k neighbors.
+                : Assign the most common class among neighbors.
+            ~3: Output the predicted class.
+        : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
+            ~1: Initialize weights randomly.
+            ~2: For each data point (x, y):
+                : Compute prediction using dot product.
+                : Compare prediction with actual output.
+                : If incorrect, adjust weights: wi=wi+α(y−y^)xi
+            ~3: Repeat until convergence.
+
+    : OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently. It involves techniques such as local search, hill climbing, simulated annealing, and linear programming.
+        : Hill Climbing: algorithm follows a simple logic:
+            ~1: Start with an initial state.
+            ~2: Evaluate neighboring states.
+            ~3: Move to the best neighbor if it improves the solution.
+            ~4: Repeat until no better neighbor exists.
+        : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
+        : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
+    
+    : CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, requiring it to operate based on probabilities rather than certainties
+        : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
+            P(A∣B)=P(A∩B)P(B)
+            P(A∣B)=P(B)P(A∩B)​ 
+        : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
+
         : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
         : Probability Rules:
             : Negation
@@ -294,101 +210,51 @@
             : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
     
     : KNOWLEDGE:
-        : Logical Connectives: 
-            : not ¬, 
-            : and ∧, 
-            : or ∨,
-            : implication →
-            : biconditional ↔
-        : Entailment Algorithm: Does KB ⊨ α ?
-        : Model Checking: (logic.py)
-            : To determine if KB ⊨ α:
-                : Enumerate all possible models.
-                : If in every model where KB is true, α is true, then KB entals α.
-                : Otherwise, KB does not entail α.
-        : Knowledge Engineering:
-        : Inference Rules:
-            : Modus Ponens: α → β
-            : And Elimination: α ⊨ β
-            : Double Negation Elimination:
-            : Implication Elimination
-            : Biconditional Elimination
-            : De Morgan's Law
-            : Distributive Property/Law
-            : Unit Resolution
-        : Conversion to conjunctive normal form (CNF)
-            : Eliminate biconditionals
-            : Eliminate implications
-            : Move not inwards using De Morgan's laws
-            : Use distributive law to distribute or wherever possible
-        : Inference by Resolution
-            : To determine if KB ⊨ α:
-                : Convert (KB and not alpha) to Conjunctive Normal Form.
-                : Keep checking to see if we can use resolution to produce a new clause.
-                    : If ever we produce the empty clause (equivalent to false), we have a contradiction, and KB ⊨ α.
-                    : Otherwise, if we cannot add new clauses, no entailment.
-        : First-Order Logic
-            : Universal Quantificationa
-            : Existential Quantification
-    
-    : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-        : Sub-Query: Uses the result of one query within another query. To filter or derive conditions dynamically.
-        : Uninformed Search: 
-            : Depth-First (Stack)
-                : Start with a frontier that contains the intitial state.
-                : Start with an empty explored set.
-                : Repeat:
-                    : If the frontier is empty, then no solution.
-                    : Remove a node from the frontier.
-                    : If node contains goal state, return the solution.
-                    : Add the node to the explored set.
-                    : Expand node, add resulting nodes to the frontier, if they are NOT already in the frontier or the explored set.
-            : Breadth-First (Queue)
-        : Informed Search: with Heuristic Function
-            : Greedy Best-First
-            : A*: g(n) + h(n)
-                : g(n) = cost to reach node
-                : h(n) = estimated cost to goal 
-                : optimal if:
-                    : h(n) is admissible (never overestimates the true cost)
-                    : and h(n) is consistent (for every node n and successor n' with step cost c, h(n) < h(n') + c) 
-        : Adversarial Search: with Adversary
-            : Minimax: Win-Lose Goal-State
-                : Set Agents:
-                    : MAX aims to maximize score
-                    : MIN aim to minimize score
-                : Set Outcomes: 
-                    : -1 = Lose
-                    : 0 = Tie
-                    : +1 = Win
-                : Given a state s:
-                    : MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULTS(s, a))
-                    : MIN picks action a in ACTION(s) that produces smallest value of MAX-VALUE(RESULTS(s, a))
-                : Pseudocode:
-                    function MAX-VALUE(state):
-                        if TERMINAL(state):
-                            return UTILITY(state)
-                        v = -infinity
-                        for action in ACTIONS(state):
-                            v = MAX(v, MIN-VALUE(RESULT(state, action)))
-                        return v
-                    
-                    function MIN-VALUE(state):
-                        if TERMINAL(state):
-                            return UTILITY(state)
-                        v = infinity
-                        for action in ACTIONS(state):
-                            v = MIN(v, MAX-VALUE(RESULT(state, action)))
-                        return v
-            : Alpha-Beta Pruning
-            : Depth-Limited Minimax: with Evaluation function
-        
-        : Initialization/Declarations: Allocates memory space for storing data. To store data that can be used and manipulated in a program.
-            : Import/Include: Brings in external libraries or namespaces. To use classes and methods from other libraries.
-            : Assign: Initializes or updates the value of a variable. To give variables usable values.
-            : Compare: Less Than, Greater Than, Equal
+        : INFERENCE BY RESOLUTION:
+            ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
+                : Remove biconditionals (↔) and implications (→).
+                : Apply De Morgan’s Laws to push NOT operators inward.
+                : Distribute OR over AND to standardize logical clauses.
+            ~2: Assume the negation of the query (¬Q).
+            ~3: Use Resolution Inference:
+                : Find clauses with complementary literals (P and ¬P).
+                : Resolve them to create new clauses.
+                : Repeat until empty clause (∅) is derived (indicating a contradiction).
+            ~4: If an empty clause is found, the query is true; otherwise, it's false.
 
-   
+    : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+        ~1: Define Initial State: Start with a known state.
+        ~2: Check Goal State: Verify if the current state meets the goal criteria.
+        ~3: Expand Nodes: Generate possible next states from the current state.
+        ~4: Store in Frontier: Maintain a list of unexplored nodes.
+        ~5: Use Search Strategy: Choose the next state based on the algorithm.
+        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+        ~7: Find Optimal Solution: Minimize path cost if applicable.
+            : DEPTH-FIRST SEARCH:
+                ~1: Push Initial State into Stack Frontier.
+                ~2: Loop until Solution or Empty Frontier:
+                    : Pop the last added node.
+                    : If goal state, return solution.
+                    : Otherwise, expand node and push new nodes into the stack.
+                ~3: Backtrack when dead ends are reached.
+            : BREADTH-FIRST SEARCH:
+                ~1: Enqueue Initial State into Queue Frontier.
+                ~2: Loop until Solution or Empty Frontier:
+                    : Dequeue the first added node.
+                    : If goal state, return solution.
+                    : Otherwise, expand node and enqueue new nodes.
+            : A* SEARCH: 
+                ~1: Initialize Priority Queue Frontier with Initial State.
+                ~2: Loop until Solution or Empty Frontier:
+                    : Remove the node with the lowest f(n) = g(n) + h(n).
+                    : If goal state, return solution.
+                    : Otherwise, expand node and add new nodes with updated f(n).    
+            : MINIMAX ALGORITHM (For Adversarial Search) 
+                ~1: Recursively Explore Possible Moves.
+                ~2: If Terminal State, Return Utility.
+                ~3: If Max Player, Choose Move with Maximum Utility.
+                ~4: If Min Player, Choose Move with Minimum Utility. 
+
     ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
         ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
            : Categorize:
@@ -423,96 +289,69 @@
                 : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
                 : Logic: NOT, AND, OR
  
-~INFORMATION SYSTEMS:
-    What: Core components that make up an information system (IS), including data, hardware, and software.
-    Why:
-        To enable efficient data input, processing, and output.
-        To support mission-critical operations vital to businesses.
-        To set organizational direction and evaluate progress.
-        To provide direction, support, and performance feedback.
-        To ensure smooth day-to-day functioning.
-        To execute specific tasks as part of business workflows.
-    How:
-        Define the system’s purpose and scope.
-        Identify and integrate hardware components (physical systems).
-        Develop and implement software (programs controlling the hardware).
-        Collect and process input data to achieve specific results.
-            Use data from enterprise systems.
-                Monitor trends and forecast growth.
-                Allocate resources effectively.
-            Use MIS and DSS for insights.
-                Plan resources and delegate tasks.
-                Perform analysis and generate reports.
-            Oversee staff and operations.
-                Provide immediate feedback.
-                Use TPS for monitoring workflows.
-            Enter data into TPS.
-                Process tasks (e.g., reservations, orders).
-                Rely on automated systems for efficiency.
+~INFORMATION SYSTEMS: Core components that make up an information system (IS), including data, hardware, and software.
+    Define the system’s purpose and scope.
+    Identify and integrate hardware components (physical systems).
+    Develop and implement software (programs controlling the hardware).
+    Collect and process input data to achieve specific results.
+        Use data from enterprise systems.
+            Monitor trends and forecast growth.
+            Allocate resources effectively.
+        Use MIS and DSS for insights.
+            Plan resources and delegate tasks.
+            Perform analysis and generate reports.
+        Oversee staff and operations.
+            Provide immediate feedback.
+            Use TPS for monitoring workflows.
+        Enter data into TPS.
+            Process tasks (e.g., reservations, orders).
+            Rely on automated systems for efficiency.
         
     ~BUSINESS USE OF INFORMATION TECHNOLOGY: How IT is used to support different business operations and decision-making processes.
         1. Enterprise Computing Systems: Systems that support company-wide operations and strategic decision-making (e.g., ERP systems).
-            Why: To enhance productivity, reduce costs, and support decision-making.
-            How:
-                Implement structured rules for predictable tasks.
-                Use ERP to consolidate operations into a single system.
-                Ensure scalability for future growth.
+            Implement structured rules for predictable tasks.
+            Use ERP to consolidate operations into a single system.
+            Ensure scalability for future growth.
         2. Transaction Processing Systems (TPS): Applications that handle daily operations like orders, reservations, and payroll.
-            Why: To automate repetitive tasks, improve accuracy, and maintain data integrity.
-            How:
-                Collect input data for transactions.
-                Process data in real-time or batch mode.
-                Produce outputs for operations (e.g., receipts, records).
+            Collect input data for transactions.
+            Process data in real-time or batch mode.
+            Produce outputs for operations (e.g., receipts, records).
         3. Business Support Systems (MIS): Systems for generating management reports to aid decision-making.
-            Why: To provide insights and summaries of operations.
-            How:
-                Collect data from TPS or other sources.
-                Generate detailed, summary, or exception reports.
-                Use reports for analysis and decision-making.
+            Collect data from TPS or other sources.
+            Generate detailed, summary, or exception reports.
+            Use reports for analysis and decision-making.
         4. Decision Support Systems (DSS): Tools for performing “what-if” analyses and making decisions.
-            Why: To evaluate alternatives and improve decision-making.
-            How:
-                Analyze data using simulations.
-                Present insights with interactive dashboards.
-                Test multiple scenarios to identify optimal solutions.
+            Analyze data using simulations.
+            Present insights with interactive dashboards.
+            Test multiple scenarios to identify optimal solutions.
         5. Knowledge Management Systems (KMS): Advanced systems using expert knowledge to simulate reasoning and provide solutions.
-            Why: To leverage expertise, manage knowledge, and ensure consistent decisions.
-            How:
-                Build a knowledge base with encoded rules.
-                Use fuzzy logic to manage imprecise relationships.
-                Apply inference rules for decision-making.
+            Build a knowledge base with encoded rules.
+            Use fuzzy logic to manage imprecise relationships.
+            Apply inference rules for decision-making.
     
     ~FUNCTIONAL REQUIREMENTS: define what the system is supposed to do. They describe specific behaviors, actions, or tasks the system must perform, focusing on inputs, processing, and outputs.
-        Why (For What):
-            To ensure the system meets its intended purpose and fulfills the user’s needs.
-            To define what features and behaviors the system must include for proper operation.
-        How (By What Logical Steps):
-            Identify the core objectives and purpose of the system.
-            Gather input from stakeholders and users regarding what tasks the system must perform.
-            Document specific system actions and interactions, such as:
-                Business rules.
-                Authentication and authorization processes.
-                Transaction processing (corrections, adjustments, cancellations).
-                Audit tracking and external interfaces.
-            Test functionality to verify the system performs as defined.
-        Examples:
+        ~1: Identify the core objectives and purpose of the system.
+        ~2: Gather input from stakeholders and users regarding what tasks the system must perform.
+        ~3: Document specific system actions and interactions, such as:
+            : Business rules.
+            : Authentication and authorization processes.
+            : Transaction processing (corrections, adjustments, cancellations).
+            : Audit tracking and external interfaces.
+        ~4: Test functionality to verify the system performs as defined.
+            Examples:
             A banking system must allow users to transfer funds (Transaction Processing).
             A website requires users to log in with a username and password (Authentication).
             A system must record and store data changes for future reference (Audit Tracking).
     ~NON-FUNCTIONAL REQUIREMENTS: Non-functional requirements specify how the system performs its tasks. They focus on qualities such as performance, reliability, usability, and scalability rather than specific behaviors.
-        Why (For What):
-            To ensure the system operates efficiently, securely, and reliably under various conditions.
-            To improve user experience and ensure compliance with regulatory and operational standards.
-        How (By What Logical Steps):
-            Define quality standards and expectations for the system.
-            Identify specific non-functional requirements, such as:
-                Performance (response times, system throughput).
-                Scalability (ability to handle growth in users or data).
-                Security (data protection, access control).
-                Usability (ease of use for end users).
-            Develop and implement system architecture to meet these requirements.
-            Test the system to verify non-functional attributes under various scenarios (e.g., load testing, recovery testing).
-        Examples:
+        ~1: Define quality standards and expectations for the system.
+        ~2: Identify specific non-functional requirements, such as:
+            : Performance (response times, system throughput).
+            : Scalability (ability to handle growth in users or data).
+            : Security (data protection, access control).
+            : Usability (ease of use for end users).
+        ~3: Develop and implement system architecture to meet these requirements.
+        ~4: Test the system to verify non-functional attributes under various scenarios (e.g., load testing, recovery testing).
+            Examples:
             The system should handle 10,000 simultaneous users (Scalability).
             Data recovery must occur within 2 hours after a system crash (Recoverability).
             The system should respond to user requests within 2 seconds (Performance).
@@ -630,68 +469,51 @@
         : Check in vs out
         : Committing
 
-    : Class Definitions: Encapsulates data and behavior in a blueprint for objects. To create reusable structures for organizing data and logic.
-        : Functions: Encapsulates reusable blocks of code. To simplify and modularize tasks.
-    : Transactions: Groups operations as a single unit of work. To ensure data consistency and integrity.
-        : Views: Creates virtual tables based on SQL queries. To simplify complex queries and enhance security.
-        : Stored Procedures: Encapsulates SQL statements for reuse. To standardize and simplify repetitive tasks.
-    : Database Creation: Creates a new database. To systematically organize and store application data.
-        : Table Creation: Defines a structured format for storing data in rows and columns. To organize data with specific attributes.
-
     ~SYSTEM DEVELOPMENT LIFE CYCLE (SDLC): A structured process used for planning, creating, testing, and deploying an information system. 
-        Why (For What): 
-            To create systems that align with business goals.
-            To deliver projects on time, within budget, and meeting requirements.
-        How (By What Logical Steps):
-            System Planning:
-                Identify and prioritize system needs.
-                Define the scope and boundaries of the problem.
-            System Analysis:
-                Build a logical model.
-                Analyze current problems and their root causes.
-                Define and document business requirements.
-            System Design:
-                Design solutions (physical models, user interfaces, controls, and security).
-                Produce a technical design document.
-            System Implementation:
-                Develop and deploy the system.
-                Train users and create documentation.
-                Plan conversion strategies (e.g., parallel, pilot, phased, or direct cutover).
-            System Operation and Support:
-                Monitor and maintain the system.
-                Refine the system design and address issues.
-                Ensure continued functionality throughout its useful life.
+        System Planning:
+            Identify and prioritize system needs.
+            Define the scope and boundaries of the problem.
+        System Analysis:
+            Build a logical model.
+            Analyze current problems and their root causes.
+            Define and document business requirements.
+        System Design:
+            Design solutions (physical models, user interfaces, controls, and security).
+            Produce a technical design document.
+        System Implementation:
+            Develop and deploy the system.
+            Train users and create documentation.
+            Plan conversion strategies (e.g., parallel, pilot, phased, or direct cutover).
+        System Operation and Support:
+            Monitor and maintain the system.
+            Refine the system design and address issues.
+            Ensure continued functionality throughout its useful life.
     
     ~SYSTEM DEVELOPMENT TOOLS/TECHNIQUES: Graphical representations of systems to visualize processes, data, and interactions.
-        Why: To ensure clarity in understanding and communication.
         How: Create models like:
             Data Flow Diagrams (DFDs)
             Entity-Relationship Diagrams (ERDs)
             Unified Modeling Language (UML) diagrams.
     
     Prototyping: Building early, functional models of the system for testing and feedback.
-        Why: To test ideas, refine requirements, and reduce risks.
         How:
             Develop prototypes based on requirements.
             Test feasibility and gather feedback.
             Iterate to improve before production.
     
     CASE Tools: Software tools for automating and assisting in system development.
-        Why: To improve productivity and consistency in system development.
         How: Use CASE tools to:
             Generate designs automatically.
             Standardize methodologies.
             Enhance collaboration and documentation.
 
     Five Steps for Creating a Business Rule Collection: A structured approach to defining and managing a set of business rules.
-        Why (For What): To systematically document and organize rules for clarity, relevance, and enforceability.
-        How (By What Logical Steps):
-            Collect business ramblings: Gather informal or implicit rules by observing operations and interviewing stakeholders.
-            Translate these ramblings into business rules: Reword them into clear, structured statements.
-                Example: "Orders must be shipped complete."
-            Determine which rules are relevant to project objectives: Filter out irrelevant or outdated rules.
-            Determine data-rule dependencies: Identify which data elements the rules depend on (e.g., customer age, reservation status).
-            Determine inter-rule relationships: Map how rules interact or overlap to avoid conflicts.
+        Collect business ramblings: Gather informal or implicit rules by observing operations and interviewing stakeholders.
+        Translate these ramblings into business rules: Reword them into clear, structured statements.
+            Example: "Orders must be shipped complete."
+        Determine which rules are relevant to project objectives: Filter out irrelevant or outdated rules.
+        Determine data-rule dependencies: Identify which data elements the rules depend on (e.g., customer age, reservation status).
+        Determine inter-rule relationships: Map how rules interact or overlap to avoid conflicts.
 
 ~RISK ANALYSIS: Risk management is an integral part of project planning to prevent small issues from escalating into emergencies.
     What: Risk is composed of five key elements:
@@ -726,26 +548,15 @@
             Develop contingency plans to reduce the impact if the event occurs.
     
     Creating a Risk List: A risk list is a prioritized collection of potential project risks, detailing their probability, impact, and mitigation/contingency plans.
-        Why (For What):
-            To organize and prioritize risks for proactive management.
-            To provide clarity on which risks to address first.
-        How:
-            Describe the risk event briefly (1–2 sentences).
-            Assign a probability (High, Medium, Low) to each risk.
-            Develop mitigation strategies to reduce the likelihood of high/medium probability risks.
-            Assess the impact (High, Medium, Low) of each risk.
-            Develop contingency plans to address the impact if the risk materializes.
+        Describe the risk event briefly (1–2 sentences).
+        Assign a probability (High, Medium, Low) to each risk.
+        Develop mitigation strategies to reduce the likelihood of high/medium probability risks.
+        Assess the impact (High, Medium, Low) of each risk.
+        Develop contingency plans to address the impact if the risk materializes.
     Assessing Probability and Impact
-        What:
-            Probability: The likelihood of a risk occurring.
-            Impact: The severity of the risk's effect on the project.
-        Why (For What):
-            To determine which risks to prioritize and address.
-            To allocate resources effectively for risk management.
-        How:
-            Use a High, Medium, Low scale to categorize probability and impact.
-            Address high-probability and high-impact risks first.
-            Continuously re-evaluate risks as the project progresses.
+        Use a High, Medium, Low scale to categorize probability and impact.
+        Address high-probability and high-impact risks first.
+        Continuously re-evaluate risks as the project progresses.
 
     : Example of a Risk Event
         Why (For What): To avoid delays and ensure the project stays on schedule.
@@ -777,86 +588,47 @@
             Refine models based on feedback and iterations.
 
     : Feasibility: refers to assessing whether a proposed project is practical, achievable, and worthwhile to pursue. A feasibility study evaluates the potential success of a project across multiple dimensions.
-        Why (For What):
-            To determine if a project is worth pursuing in terms of cost, resources, and time.
-            To identify risks, constraints, and benefits of the proposed project.
-        How (By What Logical Steps):
-            Define the project scope and objectives.
-            Identify and evaluate feasibility criteria (operational, technical, economic, schedule).
-            Collect data through interviews, surveys, and research.
-            Analyze the data and prepare a feasibility report.
-            Make a recommendation based on the findings.
+        Define the project scope and objectives.
+        Identify and evaluate feasibility criteria (operational, technical, economic, schedule).
+        Collect data through interviews, surveys, and research.
+        Analyze the data and prepare a feasibility report.
+        Make a recommendation based on the findings.
 
     : Feasibility Study: A feasibility study is an ongoing process of tests to evaluate if a project is desirable, practical, and achievable. It ensures a project meets the following criteria:
-            Operational feasibility: Operational feasibility evaluates whether the proposed system will be used effectively once implemented.
-                Why (For What):
-                    To ensure user adoption and effective use of the system.
-                    To identify and mitigate risks such as workforce resistance or legal/ethical concerns.
-                How:
-                    Evaluate if management supports the project.
-                    Assess workforce impacts (e.g., training, reductions).
-                    Determine user involvement in planning and implementation.
-                    Identify potential customer effects and risks to company image.
-                    Check for conflicts with other organizational priorities.
-            Technical feasibility: Technical feasibility examines the availability and adequacy of technical resources (hardware, software, expertise) to support the proposed system.
-                Why (For What):
-                    To determine if the organization has the necessary resources and expertise to implement the system.
-                    To ensure the system can handle future needs and growth.
-                How:
-                    Assess the availability of required hardware and software.
-                    Determine if the company has the technical expertise for development and maintenance.
-                    Evaluate platform capacity for scalability and reliability.
-                    Test the system's ability to handle expected transaction volumes.
-            Economic Feasibility: Economic feasibility determines if the projected benefits of the system outweigh its estimated costs, considering total cost of ownership (TCO) and return on investment (ROI).
-                Why (For What):
-                    To ensure the project is financially viable.
-                    To determine if the investment will "pay off."
-                How:
-                    Identify all costs, including development, maintenance, training, hardware, and licensing.
-                    Calculate ROI:
-                    ROI = (Net Profit / Total Costs) × 100
-                    Example: If net profit is $20,000 and total costs are $10,000:
-                    ROI = (20,000 / 10,000) × 100 = 200%.
-                    Compare costs to projected benefits (financial and operational).
-            Schedule Feasibility: Schedule feasibility evaluates whether the project can be completed within an acceptable or established time frame.
-                Why (For What):
-                    To ensure the project can meet deadlines without sacrificing quality.
-                    To identify risks associated with tight schedules.
-                How:
-                    Determine if management has set a firm deadline.
-                    Assess risks associated with an accelerated schedule.
-                    Appoint a project manager to oversee timelines.
-                    Create a detailed project schedule with milestones and deadlines.
-        Why (For What):
-            To prioritize projects based on their potential for success and alignment with business goals.
-            To avoid pursuing projects that are not viable.
-        How:
-            Define the problem or opportunity.
-            Assess the project against each feasibility dimension.
-            Prepare and present a feasibility report to stakeholders.
+        Operational feasibility: Operational feasibility evaluates whether the proposed system will be used effectively once implemented.
+            Evaluate if management supports the project.
+            Assess workforce impacts (e.g., training, reductions).
+            Determine user involvement in planning and implementation.
+            Identify potential customer effects and risks to company image.
+            Check for conflicts with other organizational priorities.
+        Technical feasibility: Technical feasibility examines the availability and adequacy of technical resources (hardware, software, expertise) to support the proposed system.
+            Assess the availability of required hardware and software.
+            Determine if the company has the technical expertise for development and maintenance.
+            Evaluate platform capacity for scalability and reliability.
+            Test the system's ability to handle expected transaction volumes.
+        Economic Feasibility: Economic feasibility determines if the projected benefits of the system outweigh its estimated costs, considering total cost of ownership (TCO) and return on investment (ROI).
+            Identify all costs, including development, maintenance, training, hardware, and licensing.
+            Calculate ROI:
+            ROI = (Net Profit / Total Costs) × 100
+            Example: If net profit is $20,000 and total costs are $10,000:
+            ROI = (20,000 / 10,000) × 100 = 200%.
+            Compare costs to projected benefits (financial and operational).
+        Schedule Feasibility: Schedule feasibility evaluates whether the project can be completed within an acceptable or established time frame.
+            Determine if management has set a firm deadline.
+            Assess risks associated with an accelerated schedule.
+            Appoint a project manager to oversee timelines.
+            Create a detailed project schedule with milestones and deadlines.
+        Define the problem or opportunity.
+        Assess the project against each feasibility dimension.
+        Prepare and present a feasibility report to stakeholders.
     
     ~ADEPT Analysis for Moguls‘N Stuff Ski School Scheduling System:
         : ACTIVITIES (Business Processes): What is happening?
-            The Moguls‘N Stuff Ski School Scheduling System organizes student lesson requests and assigns instructors accordingly. The key activities include:
-                Student Requests Submission – Students place lesson requests into the Request file folder.
-                Daily Request Check – A clerk reviews the file daily to determine if enough students have requested a particular lesson.
-                Instructor Assignment – If the student count meets the minimum requirement, the clerk checks for available instructors.
-                Instructor Confirmation – The clerk contacts instructors with lesson details, and the instructor either accepts or rejects the teaching assignment. If an instructor rejects, the next available instructor is contacted.
-                Class List Preparation – Once an instructor accepts, the clerk compiles a class list using data from the Instructor, Request, and Lesson files.
-                Filing & Notifications – The original class list is filed, a copy is sent to the instructor, and class confirmation letters are sent to students.
             How are these activities structured?
                 A sequential process from request collection → instructor confirmation → class list generation → student notification.
                 A decision-making component where the instructor can accept or reject the lesson.
                 Multiple interactions between the clerk, instructors, and students.
         : DATA (Information Used & Generated): What data is involved?
-            Request File Folder – Contains student lesson requests.
-            Lesson Information – Date, time, location, type of lesson, number of students.
-            Instructor List – Contains availability and eligibility of instructors.
-            Class List – Compiled when a class is scheduled and includes:
-                Instructor Name
-                Student Names
-                Lesson Details (Date, Time, Location, Type of Lesson)
-            Class Confirmation Letters – Sent to students with class details.
             How is the data managed?
                 Paper-based system where files are manually reviewed.
                 Manual tracking of instructor availability and student requests.
@@ -870,36 +642,18 @@
                     Instructor availability (some may decline lessons).
                     Seasonal fluctuations in demand for ski lessons.
                     School policies on minimum student enrollment per class.
-            Why is this system necessary?
-                Ensures organized scheduling of lessons.
-                Manages instructor availability efficiently.
-                Notifies students in advance to confirm their lessons.
         : PEOPLE (Stakeholders & Users): Who is involved?
-            Primary Actors:
-                Students – Request ski lessons.
-                Clerk – Manages scheduling, assigns instructors, and notifies students.
-                Instructors – Accept or decline teaching assignments.
-                Ski School Management – Oversees operations and ensures smooth scheduling.
-            What roles do they play?
-                The clerk is the central coordinator managing requests, instructor assignments, and notifications.
-                Instructors confirm their availability and conduct the lessons.
-                Students receive confirmation letters for their scheduled lessons.
             How do people interact with the system?
                 Students submit requests manually.
                 The clerk manually checks files and contacts instructors.
                 Instructors respond (accept/reject) via communication from the clerk.
                 Students receive class confirmation letters via traditional mail or email.
         : TECHNOLOGY (Tools & Infrastructure): What technology supports this system?
-            Manual File System – Request folders, Instructor lists, and Lesson files.
-            Basic Communication Tools – Phone calls or emails for instructor contact.
-            Paper-Based Notifications – Class lists and confirmation letters.
-            Physical Filing Cabinet – For storing original class lists.
             By what means does technology support the system?
                 Minimal automation; the process is largely manual and paper-based.
                 Telephone or email for instructor confirmation.
                 Printed documents for class lists and notifications. 
-~RISK MANAGEMENT: MITIGATION (BEFORE) & CONTINGENCY (AFTER) RISKS HAPPENS
-    : Five Steps for Risk Management: A structured process for identifying, analyzing, and managing risks.
+~RISK MANAGEMENT: MITIGATION (BEFORE) & CONTINGENCY (AFTER) RISKS HAPPENS = Five Steps for Risk Management: A structured process for identifying, analyzing, and managing risks.
         Why (For What): To proactively manage risks and improve project success.
         How (By What Logical Steps):
             Collect business ramblings: Brainstorm potential risks with the team.
@@ -961,7 +715,6 @@
         : Zero Day Vulnerability
         : Security Patches 
         : DDos Attacks
-
     : Cryptography: Defense
         : Encription 
             : Symmetric
@@ -981,113 +734,3 @@
             : Diffie-Hellman
         : Modular Exponentiation
  
-############################################################################################################################################################################################################
-Analysis of "Attention Is All You Need" Paper Using the 5W1H Framework
-    : The Transformer outperforms existing models in sequence transduction tasks, particularly in machine translation, while offering faster training times and increased parallelization.
-    : Why Was the Transformer Created? (For What Risks and Challenges?)
-        The Transformer was developed to overcome limitations of traditional sequence models like RNNs and CNNs, which suffer from:
-            Slow Training: RNNs process tokens sequentially, limiting parallelization.
-            Long-Term Dependency Problems: RNNs struggle with remembering distant information.
-            High Computational Costs: CNNs require many layers to capture long-range dependencies.
-            Inefficiency in Handling Long Sequences: Memory constraints make training large datasets difficult.
-        The risk of not improving these architectures would have meant:
-            Slower advancements in AI language models.
-            More expensive computational requirements.
-            Limited applicability of AI in real-time NLP tasks.
-    : How Does the Transformer Work? (Logical Steps of Solution)
-        Step 1: Encoder-Decoder Architecture
-            The Transformer follows an encoder-decoder structure:
-                Encoder: Processes the input sentence into a fixed representation.
-                Decoder: Generates the output sequence, one word at a time.
-        Step 2: Self-Attention Mechanism
-            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
-            Multi-Head Attention enables different aspects of word relationships to be captured.
-        Step 3: Positional Encoding
-            Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
-        Step 4: Feed-Forward Layers
-            Each word's representation is passed through fully connected layers to extract deeper features.
-        Step 5: Masked Self-Attention in the Decoder
-            Prevents words from attending to future words (maintains causality).
-        Step 6: Output Prediction
-            The decoder predicts the next word using a softmax function, generating the final output.
-        Step 7: Optimization and Training
-            Uses the Adam optimizer with learning rate scheduling.
-            Dropout and Label Smoothing are applied for regularization.
-            Beam Search is used for better sentence generation.
-
-###############################################################################################################################
-~DATABASE FUNDAMENTALS:
-    : DATABASE THEORY: Ensures efficient, consistent, and scalable database designs.
-        : Relational Database Management System: A type of DBMS that organizes data into tables with rows and columns.
-            : Business Rules: Define how tables relate to each other.
-            : Entities: Real-world objects (e.g., Customer, Order).
-                : Associative: a table used to represent many-to-many relationships between two entities. 
-                    It includes the primary keys of both entities as foreign keys and may have additional attributes.
-            : Attributes: Properties of entities. They have a domain, which is the set of valid values an attribute can assume 
-                : Atomic: cannot be broken down further into meaningful parts (e.g., FirstName).
-                : Composite: can be divided into smaller meaningful components (e.g., Address → Street, City, PostalCode).
-                : Stored: physically stored in the database (e.g., DateOfBirth).
-                : Derived: calculated or derived from other attributes (e.g., Age derived from DateOfBirth). 
-                : Non-Key:
-                : Repeating Group: An attribute that cannot be uniquely identified by the Primary Key in the table
-                : Partial Dependency – An attribute(s) that can be uniquely identified by just part of a tables composite Primary Key. 
-                    A table must have a composite Primary Key for a Partial Dependency to exist
-                : Transitive Dependency – Non key Attribute(s) that can be uniquely identified by another non key attribute. 
-                    A table must have 2 or more non key attributes for a Transitive Dependency to exist.
-        : Keys:
-            : Primary: is a unique identifier for each record in a table (e.g., CustomerID). 
-            : Technical: is an artificial identifier created by the database designer when no natural unique attribute exists 
-            : Composite (or Concatenated): is a primary key that consists of two or more attributes 
-            : Foreign: an attribute in one table that references the primary key in another table to establish a relationship 
-        : Relationships/Cardinality: Dependencies between entities (e.g., Customer places Order). 
-            : Parent-Child: formed when the primary key of the parent table is referenced as a foreign key in the child table 
-            : One-to-One (1:1): One instance of an entity is linked to one instance of another entity.
-            : One-to-Many (1:N): One instance of an entity is linked to many instances of another entity.
-            : Many-to-Many (M:N): Multiple instances of one entity are linked to multiple instances of another entity.
-            : Transitive Dependencies: Non-Key: depend only on the primary key
-            : Non-Identifying Relationship: 
-            : Partial Dependencies
-    : Database Design Process: The structured process of creating a database schema that supports application requirements.
-        : Implement Foreign Keys: Use foreign keys, which connect the primary key of one entity to a field in another.
-        : Handle Many-to-Many Relationships: Break them into two one-to-many relationships by creating an associative entity.
-        : Use ERD notations (e.g., IDEF1X) to depict the schema.
-            : Entity-Relationship Diagram (ERD): A graphical representation showing entities, attributes, and their relationships.
-                : Include relationship labels and cardinality symbols for clarity.
-                : Iteratively Refine the Design: Ensure the relationships meet business requirements and minimize data redundancy.
-            : Entities: Represented as boxes with attributes inside.
-            : Attributes:
-                : Primary keys are listed above the line in an entity box.
-                : Foreign keys are suffixed with "FK."
-            : Relationships/ Symbols of Cardinality:
-                : Dashed lines for non-identifying relationships.
-                : Solid lines for identifying relationships.
-     
-    : NORMALIZATION: A process for organizing data to reduce redundancy and ensure consistency.
-        ~1: Collect views(subsets of data) using source documents and business rules.
-            : Initial Table: Identify Primary Key and repeating group(s) of attributes.
-            : First Normal Form (1NF):
-                Ensures that all columns contain atomic (indivisible) values.
-                Eliminates repeating groups or arrays within a table.
-                IMPORTANT: After 1NF, there should be never more than 2 entities/tables.
-            : Second Normal Form (2NF):
-                Builds on 1NF.
-                Ensures all non-key attributes are fully dependent on the primary key.
-                    - A violation can only occur in a table with a composite key
-                Eliminates partial dependencies (dependencies on part of a composite primary key).
-            : Third Normal Form (3NF):
-                Builds on 2NF.
-                Ensures no non-key attribute is dependent on another non-key attribute (removes transitive dependencies).
-            
-            : Boyce-Codd Normal Form (BCNF):
-                A stricter version of 3NF.
-                Ensures every determinant is a candidate key(i.e., no attribute can determine another unless it is part of a candidate key).
-            : Fourth Normal Form (4NF):
-                Eliminates multi-valued dependencies.
-                Ensures that one column's value is not dependent on multiple values of another column.
-            : Domain-Key Normal Form (DKNF):
-                Theoretical "ultimate" form of normalization.
-                Ensures no constraints exist other than key constraints and domain constraints.
-                Rarely implemented due to its complexity.
-        ~3: Merge
-
-###############################################################################################################################

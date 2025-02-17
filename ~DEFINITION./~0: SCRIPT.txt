@@ -1,117 +1,115 @@
 : FOR THE GIFT OF THE WORD.
-~TITLE:             	How do we know each other? How do we find closure?
-~INTRODUCE:
-    : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
-    : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-    : THESIS:       	This speech shares 
-               		    we have free will — the ability to choose.”
-                            ~1: First, 
-                            ~2: Then,
-                            ~3: And finally, 
-    : TRANSITION:	    First: why are we slaves of our passions? 
+~TEMPLATE: 
+    ~TITLE:             	How do we know each other? How do we find closure?
+    ~INTRODUCE:
+        : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
+        : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+        : THESIS:       	This speech shares 
+                            we have free will — the ability to choose.”
+                                ~1: First, 
+                                ~2: Then,
+                                ~3: And finally, 
+        : TRANSITION:	    First: why are we slaves of our passions? 
+    ~COUNTER THESIS: Topics and Fallacies
+        : Support:		        You probably "understand" the way I learn English:
+                                And you are probabaly right, because...
+                                First, we learn the letters, 
+                                Then, we memorize words, by the dictionary, if we care enough.
+                                And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
+                                    Subject, predicate.
+                                    Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
+                                    Past-tense, Future-tense.
+                                Most of the time, we learn new words by pop culture / daily conversation,
+                                
+                                "We never left 2nd-grade reading/comprehension level."
+                                "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
+                                "We are at the mercy of our lawyers for reaching closure."
+                                
+        : Transition:      	    But what if this is only half-true?
+                                What if there is another way? What if we can read / write the truth on our own?
+    ~SUPPORT THESIS:
+        : Introduction:         Computers 
+                                They process languages using arithmetic and logic unit.
+                                Breaking down images, sounds, and videos into 0s and 1s.
+                                Instead of using dictionary, we learn words by roots and fixes, by etymology.
+                                    For example, 
+                                And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
+                                
+        : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+    ~REFUTE COUNTERARGUEMENTS:
+        : Main Refutation:
+        : Refute 1st:	        We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
+                                Language are ambiguous, with many definition.
+                                Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
+                                Natural language 
+        : Transition:
+    ~CONCLUDE:
+        : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
+        : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
+        : Meaning:    	    This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
+        : Review Points:
+            Main Point 1:   Habits and instincts strongly influence our behavior.
+            Main Point 2: 	Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+            Main Point 3:	Addressing counterarguments reveals the balance between instinct and choice.
+        : Closing:          Ultimately, the power to choose defines what it means to be human. 
+                            Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
+                            Thank you, Mr. Toastmaster.
 
-~COUNTER THESIS: Topics and Fallacies
-    : Support:		        You probably "understand" the way I learn English:
-                            And you are probabaly right, because...
-                            First, we learn the letters, 
-                            Then, we memorize words, by the dictionary, if we care enough.
-                            And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
-                                Subject, predicate.
-                                Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
-                                Past-tense, Future-tense.
-                            Most of the time, we learn new words by pop culture / daily conversation,
-                            
-                            "We never left 2nd-grade reading/comprehension level."
-                            "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
-                            "We are at the mercy of our lawyers for reaching closure."
-                            
-    : Transition:      	    But what if this is only half-true?
-                            What if there is another way? What if we can read / write the truth on our own?
-~SUPPORT THESIS:
-    : Introduction:         Computers 
-                            They process languages using arithmetic and logic unit.
-                            Breaking down images, sounds, and videos into 0s and 1s.
-                            Instead of using dictionary, we learn words by roots and fixes, by etymology.
-                                For example, 
-                            And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
-                            
-    : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
-
-~REFUTE COUNTERARGUEMENTS:
-    : Main Refutation:
-    : Refute 1st:	        We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
-                            Language are ambiguous, with many definition.
-                            Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
-                            Natural language 
-    : Transition:
-
-~CONCLUDE:
-    : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
-    : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
-    : Meaning:    	    This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
-    : Review Points:
-		Main Point 1:   Habits and instincts strongly influence our behavior.
-		Main Point 2: 	Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-		Main Point 3:	Addressing counterarguments reveals the balance between instinct and choice.
-    : Closing:          Ultimately, the power to choose defines what it means to be human. 
-	                    Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
-	                    Thank you, Mr. Toastmaster.
-
-###############################################################################################################
--1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
-        : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
-        : DIVISION, LACKING
-    "SPOIL FOR-BY SOILVOID(-)."
-        : Disruptions, Damages, Uncontrolled Elements (Dice)
-        : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
-        : Low Health, Resource Scarcity/Finity, Bankruptcy
-    "BAIT/SACRIFICE FOR-BY MOTHERBEAST."
-        : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
-        : NPCs, Requests/Puzzles, Opposition
-        : Alone, Low Population
-    "TRAP FOR-BY WILDWORLD."
-        : The Rat Race, 
-    "WAIT FOR-BY BIRTHSTART."
-        : Initial State, Beginning Again
-+1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
-        : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
-        : Defuse or trigger the bomb.
-        : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
-        : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-    "FRUIT FOR-BY SEEDWORD(+)."
-        : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
-        : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-        : Experience Points, Abilities/Stats, New Moves, Karma, 
-        : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-        : Mental Dictionary/Library, pokedex, Map, Contact List,
-        : Reviews
-    "SON FOR-BY FATHERGOD."
-        : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
-            : Club Executives:
-                : President / Chief Executive Officer
-                : Vice Presidents / Chief Operating Officers:
-                    : VP Education
-                    : VP Membership
-                    : VP Public Relations
-                : Treasurer / Chief Financial Officer
-                : Secretary
-                : Sergeant-at-Arms 
-        : Testimonials
-    "WAY FOR-BY KINGDOMHEAVEN."
-        : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
-        : Build Structures/LEVELS: Balance scope budget, and schedule  
-            : NAVIGATION, Maps, Atmosphere, Weather,
-            : Progressing the game storyline and accessing new areas.
-            : better positioning on the map, better territory
-    "CHANCE FOR-BY DEATHEND."
-        : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-        : Incorporation: December 1, 2024... 1-2 days per project
-        : PROGRESS = Tutorials, Saves, Updates: Journal?
-        : Battle Cycle: 1 move/turn at a time
-        : DEADLINE: Goal State, Completion
-            : Best of 7 Rounds
-            : Round-Time: 3 minutes
-        : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+~ARCHETYPES:
+    -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
+            : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
+            : DIVISION, LACKING
+        "SPOIL FOR-BY SOILVOID(-)."
+            : Disruptions, Damages, Uncontrolled Elements (Dice)
+            : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+            : Low Health, Resource Scarcity/Finity, Bankruptcy
+        "BAIT/SACRIFICE FOR-BY MOTHERBEAST."
+            : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+            : NPCs, Requests/Puzzles, Opposition
+            : Alone, Low Population
+        "TRAP FOR-BY WILDWORLD."
+            : The Rat Race, 
+        "WAIT FOR-BY BIRTHSTART."
+            : Initial State, Beginning Again
+    +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
+            : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+            : Defuse or trigger the bomb.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+        "FRUIT FOR-BY SEEDWORD(+)."
+            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+            : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+            : Experience Points, Abilities/Stats, New Moves, Karma, 
+            : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+            : Mental Dictionary/Library, pokedex, Map, Contact List,
+            : Reviews
+        "SON FOR-BY FATHERGOD."
+            : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+                : Club Executives:
+                    : President / Chief Executive Officer
+                    : Vice Presidents / Chief Operating Officers:
+                        : VP Education
+                        : VP Membership
+                        : VP Public Relations
+                    : Treasurer / Chief Financial Officer
+                    : Secretary
+                    : Sergeant-at-Arms 
+            : Testimonials
+        "WAY FOR-BY KINGDOMHEAVEN."
+            : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+            : Build Structures/LEVELS: Balance scope budget, and schedule  
+                : NAVIGATION, Maps, Atmosphere, Weather,
+                : Progressing the game storyline and accessing new areas.
+                : better positioning on the map, better territory
+        "CHANCE FOR-BY DEATHEND."
+            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+            : Incorporation: December 1, 2024... 1-2 days per project
+            : PROGRESS = Tutorials, Saves, Updates: Journal?
+            : Battle Cycle: 1 move/turn at a time
+            : DEADLINE: Goal State, Completion
+                : Best of 7 Rounds
+                : Round-Time: 3 minutes
+            : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
 ~3: RHETORIC: Understanding how to communicate truth effectively, depending on the audience and situation.
@@ -197,23 +195,7 @@
             : Rule of Distribution: The middle term must be distributed (apply to all members of a category) in at least one premise.
             : Rule of Quantity and Quality: Two particular premises cannot lead to a valid conclusion.
                 : The structure (affirmative/negative, universal/particular) of the premises influences the validity of the syllogism.
-        : SYLLOGISTIC FIGURES: These figures and moods create valid patterns, with certain combinations ensuring validity.
-            : 1. First Figure (AAA) - Barbara: The middle term is the subject of the major premise and the predicate of the minor premise.
-                Mood: AAA (All - All - All)
-                    Premise 1 (Major): All humans are mortal. (A)
-                    Premise 2 (Minor): All Greeks are humans. (A)
-                    Conclusion: Therefore, all Greeks are mortal. (A)
-            : 2. Second Figure (EAE) - Camestres: The middle term is the predicate of both the major and minor premises.
-                Mood: EAE (No - All - No)
-                    Premise 1 (Major): No reptiles are warm-blooded. (E)
-                    Premise 2 (Minor): All snakes are reptiles. (A)
-                    Conclusion: Therefore, no snakes are warm-blooded. (E)
-            : 3. Third Figure (IAI) - Datisi: The middle term is the subject of both the major and minor premises.
-                Mood: IAI (Some - All - Some)
-                    Premise 1 (Major): Some animals are herbivores. (I)
-                    Premise 2 (Minor): All animals are living beings. (A)
-                    Conclusion: Therefore, some living beings are herbivores. (I)
-            : 4. Fourth Figure (Added by later logicians): The middle term is the predicate of the major premise and the subject of the minor premise.
+ 
 ~1: GRAMMAR: CORRECT-PARSE-SYNTAX:
     : SYLLOGISM/DEMONSTRATION: A syllogism is valid when it follows a logical form that guarantees the truth of the conclusion if the premises are true. 
         : COMPONENTS:
@@ -233,35 +215,107 @@
             : Contrariety: A and E are contrary propositions; they cannot both be true simultaneously, but they can both be false.
             : Subcontrariety: I and O are subcontrary propositions; they can both be true but cannot both be false.
             : Subalternation: There is a truth dependency from universal to particular (A → I and E → O). If A is true, then I must be true; if E is true, then O must be true. 
-    : SENTENCE/PROPOSITION: SUBJECT-PREDICATE
+    : 
+    : SYLLOGISM: (PRIOR ANALYTICS)
+        : VALIDITY TESTS:
+            : Conversion: Swapping the subject and predicate in certain propositions."All mammals are warm-blooded" → "Some warm-blooded creatures are mammals."
+            : Contradiction: If a proposition is false, its opposite must be true. "If "Some humans are immortal" is false, then "No humans are immortal" is true.
+            : Reduction to the Impossible: Assuming a false premise to show that it leads to a contradiction. "Suppose Socrates is immortal. But all humans are mortal. Therefore, Socrates is not immortal." 
+        : SYLLOGISTIC FIGURES: These figures and moods create valid patterns, with certain combinations ensuring validity.
+            : 1. First Figure (AAA = All-All-All) - Barbara: The middle term is the subject of the major premise and the predicate of the minor premise.
+                Premise 1 (Major): All humans are mortal. (A)
+                Premise 2 (Minor): All Greeks are humans. (A)
+                Conclusion: Therefore, all Greeks are mortal. (A)
+            : 2. Second Figure (EAE = No-All-No) - Camestres: The middle term is the predicate of both the major and minor premises.
+                Premise 1 (Major): No reptiles are warm-blooded. (E)
+                Premise 2 (Minor): All snakes are reptiles. (A)
+                Conclusion: Therefore, no snakes are warm-blooded. (E)
+            : 3. Third Figure (IAI = Some-All-Some) - Datisi: The middle term is the subject of both the major and minor premises.
+                Premise 1 (Major): Some animals are herbivores. (I)
+                Premise 2 (Minor): All animals are living beings. (A)
+                Conclusion: Therefore, some living beings are herbivores. (I)
+        : STRUCTURE OF SYLLOGISM: A syllogism consists of three terms, where the middle term (M) connects the major (A) and minor (B) terms:
+            : Major Premise: A is B
+            : Minor Premise: B is C
+            : Conclusion: A is C        
+        : CATEGORIES OF SYLLOGISMS:
+            : Perfect Syllogisms – Those that are self-evidently valid.
+            : Imperfect Syllogisms – Those that require additional reasoning or proof to establish validity.        
+        : TERMS: The building blocks of propositions, which include:
+            : Subject – What the proposition is about.
+            : Predicate – What is being stated about the subject.
+            : Middle Term – The linking term between two premises in a syllogism.
+    
+    : SENTENCE/PROPOSITION: (ON INTERPRETATION)
         : TYPES OF MODAL PROPOSITIONS: Modal propositions are statements that express modalities — the necessity or possibility of a situation. 
-            : Necessary Propositions: Statements that must be true in all cases. Necessary propositions describe truths that are unchanging and universal.
-            : Possible Propositions: Statements that could be true under certain conditions but are not guaranteed. They express potential outcomes or situations.
-            : Impossible Propositions: Statements that cannot be true under any circumstances. These propositions describe contradictions or inherently false situations.         
+            : Necessary: Something must be true (e.g., "Humans need oxygen").
+            : Impossible: Something cannot be true (e.g., "A triangle cannot have four sides").
+            : Possible (Contingent): Something may or may not be true (e.g., "It may rain tomorrow").
         : TYPES OF PROPOSITIONS: 
-            A: Universal Affirmative (e.g., "All S are P")
-            E: Universal Negative (e.g., "No S are P")
-            I: Particular Affirmative (e.g., "Some S are P")
-            O: Particular Negative (e.g., "Some S are not P")
-    : KNOWN: POSITION-LODIAL-FACT: Develop Definitions: In Aristotle’s view, definitions capture the essential nature of things, 
+            : Universal Statement: Refers to all members of a category (e.g., "All humans are mortal.").
+                A: Universal Affirmative (e.g., "All S are P")
+                E: Universal Negative (e.g., "No S are P")
+            : Particular Statement: Refers to a specific individual or subset (e.g., "Socrates is mortal."). 
+                I: Particular Affirmative (e.g., "Some S are P")
+                O: Particular Negative (e.g., "Some S are not P")            
+            : Contradiction of a Universal Statement:
+                : Every man is white → Not every man is white (contradiction).
+                : No man is white → Some men are white (contradiction).
+        : PRINCIPLE OF CONTRADICTION:
+            : Every proposition has an opposite. A contradiction occurs when one statement affirms what another denies. Example:
+                : Statement: "Socrates is wise."
+                : Contradiction: "Socrates is not wise."
+        : PROPOSITIONS:
+            : Affirmation states that something belongs to a subject.
+            : Negation states that something does not belong to a subject.
+        : ELEMENTS OF LANGUAGE:
+            : Noun: A noun is a sound that signifies something by agreement, without implying time. A noun’s parts, if separated, do not have independent meaning. 
+            : Verb: A verb, unlike a noun, contains an implicit reference to time. It is used to make statements about something.
+            : Sentence (Enunciation): A complete statement, also called an enunciation, is a combination of nouns and verbs, which asserts something that is either true or false.
+    : WORD/KNOWN/FACT: ETYMOLOGY (CATEGORIES): POSITION-LODIAL-FACT.
         : Causality (Four Causes): Explains why things are as they are.
             : Material Cause: Substance from which something is made (e.g., bronze of a statue).
             : Formal Cause: Design or structure (e.g., statue’s shape).
             : Efficient Cause: Agent or creator (e.g., the sculptor).
             : Final Cause: Purpose or function (e.g., artwork’s role).
-        : WORD: ETYMOLOGY (CATEGORIES):
-            : Substance(Root): Refers to the core identity or essence of things, answering "What?"
-            : Accidental Properties (Attributes): Characteristics that vary without changing substance.
-                : Quantity: Measurable aspects (e.g., length, size).
-                : Quality: Characteristics that define "what kind" (e.g., color, emotion).
-                : Position: Arrangement or posture (e.g., sitting).
-                : State: Temporary condition (e.g., asleep, armed).
-                : Action: Dynamic activities (e.g., cutting, writing).
-                : Relation: Connection between entities (e.g., father of, bigger than).
-                : Place: Spatial location (e.g., at home).
-                : Time: Temporal setting (e.g., yesterday, morning).
-                : Passion (Effect on Substance): Experiences that affect or modify the substance (e.g., being heated).
-
+        : Types of Possession:
+            : Possession as Habit or Disposition – "We are said to have science and virtue."
+            : Possession as Quantity – "One has a magnitude of three or four cubits."
+            : Possession of Things About the Body – "Such as a garment, or a ring in the hand."
+            : Possession as a Part – "The hand or foot is possessed by the body."
+            : Possession as a Measure – "A bushel has wheat."
+            : Possession as Property – "A man has a house or land."
+        : Types of Priority:
+            : Priority in Time: "One is prior to two, for two existing, it immediately follows that one is." (Aristotle, 2024, p. 54).
+            : Priority in Nature:  "Man is prior to the definition of man, for a thing must exist before we define it." (Aristotle, 2024, p. 54).
+            : Priority in Order: "In grammar, letters are prior to syllables." (Aristotle, 2024, p. 54).
+            : Priority in Cause: "A true sentence is not the cause of a thing’s existence, but a thing’s existence is the cause of a sentence being true." (Aristotle, 2024, p. 54).        
+        : Types of Motion:
+            : Generation: Coming into being (e.g., a baby being born).
+            : Corruption: Ceasing to exist (e.g., a tree dying).
+            : Increase: Growth (e.g., a child growing).
+            : Diminution: Reduction (e.g., an aging body losing strength).
+            : Variation: Change in quality (e.g., something turning from white to black).
+            : Mutation according to place: Change in position (e.g., a rock rolling down a hill).
+        : Types of Opposites:
+            : Relatives: Things defined in reference to another. "A master is the master of a servant, and a servant is the servant of a master." (Aristotle, 2024, p. 25).
+            : Contraries: Opposites where one must exclude the other. "White is contrary to black." (Aristotle, 2024, p. 44).
+            : Privation and Habit: One is the absence of the other. "Blindness is the privation of sight." (Aristotle, 2024, p. 46).
+            : Affirmation and Negation: Direct logical opposition. "He sits" vs. "He does not sit." (Aristotle, 2024, p. 46).        
+        : Accidental Properties (Attributes): Characteristics that vary without changing substance.
+            : Quantity: Measurable aspects (e.g., length, size).
+            : Quality: Characteristics that define "what kind" (e.g., color, emotion).
+            : Relation: Connection between entities (e.g., father of, bigger than).
+            : Place: Spatial location (e.g., at home).
+            : Time: Temporal setting (e.g., yesterday, morning).
+            : Position: Arrangement or posture (e.g., sitting).
+            : State: Temporary condition (e.g., asleep, armed).
+            : Action: Dynamic activities (e.g., cutting, writing).
+            : Passion (Effect on Substance): Experiences that affect or modify the substance (e.g., being heated).
+        : Substance(Root): Refers to the core identity or essence of things, answering "What?"
+            : Primary Substance:
+            : Secondary Substance:
+ 
 ##################################################################################################################################################################################################################
 ~GAME-MECHANICS:
     : Introduce New Related Word Group, typically based on common Latin or Greek roots.
