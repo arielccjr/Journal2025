@@ -1,22 +1,23 @@
 ## **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
-    ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-    ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-        : -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-        : +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-    ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
-        : 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
     ~FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
         : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
     ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
         ~READ/DECODE(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
-            : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-            : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-            : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+            ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+            ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
+                : -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                : +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+            ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
+                : 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
             : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
                 : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
                 : WORD: PARSE/ETYMOLOGY
                     : Roots: Fact/Known
-                    : Fixes: Position-Lodial
+                    : Fixes: Position-Lodial, Categories?
+                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                        : WHY:
                 : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
                     : Letters/Spells, 
                     : Metals, Conductors,
