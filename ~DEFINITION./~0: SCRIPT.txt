@@ -291,7 +291,7 @@
             : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
             : Action – What it is doing (e.g., "running," "writing").
             : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
-    : ON INTERPRETATION (Peri Hermeneias): is a key work in his Organon, dealing with logic, language, and meaning. It focuses on how statements (propositions) express truth and falsity and lays the foundation for modal logic, contradiction, and necessity.
+    : ON INTERPRETATION (Peri Hermeneias): focuses on how statements (propositions) express truth and falsity and lays the foundation for modal logic, contradiction, and necessity.
         ~1: Words & Meaning:
             : Words are symbols of mental concepts.
             : Propositions (statements) are combinations of words that express truth or falsity.
@@ -554,6 +554,23 @@
     7. New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
     8. Announcements: Members share relevant updates, reminders, or upcoming events.
     9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
+        : WHAT: ManGa/Comics, Films, Games
+        : WHO: ARIEL C. CASAPAO JR.
+        : WHERE: arielccjr.com | Edmonton, Alberta, Canada
+        : WHEN: 9:00-17:00, Monday to Saturday
+        : HOW: My Offer = Art & Creative Directing =
+            ~0: Researching (Gathering Assets, References, Story-Writing)
+            ~1: Sketching
+            ~2: Clean Lining|
+            ~3: Coloring
+            ~4: Sculpting (3D)
+            Additional Services:
+                ~Sound Effect/Composing
+                ~Animation/Video Editing
+                ~Marketing
+        : WHY: 
+            ~For the Lord.
+            ~For your Vision is by my Creation. (tagline)
 
 ################################################################################################################################################################################################################
 HOW COMPUTER VISION BE?
