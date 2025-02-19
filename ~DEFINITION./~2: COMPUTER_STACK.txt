@@ -1,5 +1,4 @@
-~FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
-    : Brute Force, Selection, Merge, Dijkstra... 
+~FLOW/MOTION-STATE/THE PATH OF LEAST RESISTANCE: HABIT-LOOP = STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
     : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
     : In-Output Devices/Peripherals + Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
 		: Camera        = Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
@@ -25,11 +24,58 @@
         : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
         : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
         : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
- 
-~DECODE: 
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
+        ~1: Physical Layer: Data is sent as electrical/optical signals.
+        ~2: Data Link Layer: Packets are framed with Media Access Control (MAC) addresses.
+        ~3: Network Layer: Packets are assigned IP addresses and routed. Internet Protocol (IP)
+        ~4: Transport Layer: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
+        ~5: Session Layer: A session is established.
+        ~6: Presentation Layer: Data is encrypted.
+        ~7: Application Layer: Data (e.g., an email or web request) is created in a format users can understand.
+            : Data Payload (UDP): Data
+                : Domain Name System (DNS) + Web-Server Address: Universal Resource Locator (URL) + Hyperlinks
+                : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
+                    : Index: Frequency of Words
+                    : Hypertext Markup Language (HTML) + CSS
+    : Brute Force, Selection, Merge, Dijkstra... 
+
+~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+        ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+           : Categorize:
+                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
+                : WORD: PARSE/ETYMOLOGY
+                    : Roots: Fact/Known
+                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                        : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
+                    : Fixes: Position-Lodial
+                : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
+                    : Letters/Spells, 
+                    : Metals, Conductors,
+                    : Light: GEOMETRY (EUCLID)
+                    : Sound: MUSIC (BOETHIUS)
+                    : Motion: PHYSICS (ARISTOTLE)
+                    : Energy: path cost function: number of steps in proof
+                        : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                        : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                        : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
+                            : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+       
+        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
+            : ARISTOTLE'S NICHOMACHEAN ETHICS
+            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+            : NOW-SPACE 
+            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : List: Queue/Stack, 
+            : LOGIC-ARITHMETIC = -1, 0, +1
+                : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+                : Logic: NOT, AND, OR
+    
     : Computer: Central/Graphical Processing Unit (C/GPU) >>> Transistors
         : Clock
-        : Permanent Memory:  
+        : Permanent Memory: 
             : Files System:
                 : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
                     : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
@@ -67,6 +113,8 @@
                     : AND-LOOP (in=a, in=b, out=0) 
             : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
             : Registers A, B, C... for loading values temporarily. 
+        
+    ~CHOICE: STOP-&-CORRECT
         : Arithmetic Unit = Half>Full>Multi-bit Adder:
             : XOR (in=a, in=b, out=abSUM)
                 : AND (in=a, in=b, out=aANDb);
@@ -78,149 +126,17 @@
                 : >AND (in=abSUM, in=c, out=abcCARRY)
                     ; >OR (in=abCARRY, in=abcBARRY, out=out)
         : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
-        : Flags of Bits: Overflow(>), Zero(=), Negative(<)...
-
-~SOFTWARE: 
-    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
-        : Physical Layer: Transistors convert digital signals (0s and 1s) into electrical, light, or radio waves
-        : Data Link Layer: The frames are reassembled and validated for any transmission errors.
-        : Network Layer: The packets are reassembled, and IP addresses are used to confirm the data arrived at the correct destination.
-            : Internet Protocol (IP): Header = InternetServiceProvider(ISP)>Wide>LocalAreaNetwork>MAC Address
-        : Transport Layer: Segments are reassembled, and any lost data is retransmitted.
-            : Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
-        : Application Layer: The data is handed off to the application that requested it, such as a web browser displaying a webpage.
-            : Data Payload (UDP): Data
-                : Domain Name System (DNS) + Web-Server Address: Universal Resource Locator (URL) + Hyperlinks
-                : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
-                    : Index: Frequency of Words
-                    : Hypertext Markup Language (HTML) + CSS
+        : Flags of Bits: 
+            : Overflow(>), 
+            : Zero(=), 
+            : Negative(<)...
    
-    : NATURAL LANGUAGE PROCESSING:
-        ~1: Define terminal and non-terminal symbols:
-            N = {"she", "city", "car", "Harry"}  # Nouns
-            V = {"walked", "saw"}  # Verbs
-            D = {"the", "a", "an"}  # Determiners
-        ~2: Define rewrite rules:
-            NP → N | D N
-            VP → V | V NP
-            S → NP VP
-        ~3: Use Natural Language Toolkit (NLTK) to parse sentences:
-            import nltk
-            grammar = nltk.CFG.fromstring("""
-                S -> NP VP
-                NP -> N | D N
-                VP -> V | V NP
-                N -> 'she' | 'city' | 'car' | 'Harry'
-                V -> 'walked' | 'saw'
-                D -> 'the' | 'a' | 'an'
-            """)
-            parser = nltk.ChartParser(grammar)
-            sentence = "she saw the city".split()
-            for tree in parser.parse(sentence):
-                print(tree)
-        ~4: Generate a syntax tree for valid sentences:
-            (S
-                (NP (N she))
-                (VP (V saw) (NP (D the) (N city))))
-        ~5: Expand with additional grammar rules (e.g., adjective phrases, prepositional phrases) to capture sentence complexity.
-        
-        : TRANSFORMERS ARCHITECTURE:
-            : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-            : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
-            ~1: Encoder-Decoder Architecture
-                : Encoder: Processes the input sentence into a fixed representation.
-                : Decoder: Generates the output sequence, one word at a time.
-            ~2: Self-Attention Mechanism
-                Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
-                Multi-Head Attention enables different aspects of word relationships to be captured.
-            ~3: Positional Encoding
-                Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
-            ~4: Feed-Forward Layers
-                Each word's representation is passed through fully connected layers to extract deeper features.
-            ~5: Masked Self-Attention in the Decoder
-                Prevents words from attending to future words (maintains causality).
-            ~6: Output Prediction
-                The decoder predicts the next word using a softmax function, generating the final output.
-            ~7: Optimization and Training
-                Uses the Adam optimizer with learning rate scheduling.
-                Dropout and Label Smoothing are applied for regularization.
-                Beam Search is used for better sentence generation.
 
-    : NEURAL NETWORKS:
-        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1​,x2​,...xn​ and setting up the desired outputs." (Neural Networks, p. 3).
-        ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
-        ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
-        ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
-        ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
-    
-    : LEARNING: 
-        : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
-            ~1: Prepare Data: Collect labeled input-output pairs.
-            ~2: Split Data: Divide into training and testing sets.
-            ~3: Train Model: Fit a hypothesis function to the training data.
-            ~4: Evaluate Model: Test the trained model on unseen data.
-            ~5: Adjust Weights: Update parameters based on accuracy.
-            : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
-            : unsupervised learning = given input data without any additional feedback, learn patterns
-        : Nearest Neighbor Classification: A simple supervised learning method where classification is based on the closest labeled data points: 
-            ~1: Store all training data.
-            ~2: For a new input:
-                : Compute distance to all stored points.
-                : Select the closest k neighbors.
-                : Assign the most common class among neighbors.
-            ~3: Output the predicted class.
-        : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
-            ~1: Initialize weights randomly.
-            ~2: For each data point (x, y):
-                : Compute prediction using dot product.
-                : Compare prediction with actual output.
-                : If incorrect, adjust weights: wi=wi+α(y−y^)xi
-            ~3: Repeat until convergence.
 
-    : OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently. It involves techniques such as local search, hill climbing, simulated annealing, and linear programming.
-        : Hill Climbing: algorithm follows a simple logic:
-            ~1: Start with an initial state.
-            ~2: Evaluate neighboring states.
-            ~3: Move to the best neighbor if it improves the solution.
-            ~4: Repeat until no better neighbor exists.
-        : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
-        : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
-    
-    : CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, requiring it to operate based on probabilities rather than certainties
-        : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
-            P(A∣B)=P(A∩B)P(B)
-            P(A∣B)=P(B)P(A∩B)​ 
-        : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
 
-        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
-        : Probability Rules:
-            : Negation
-            : Inclusion-Exclusion
-            : Marginalization
-            : Conditioning
-        : Inference by Enumeration
-        : Approximate Inference:
-        : Sampling
-            : Rejection Sampling
-            : Likelihood Weighting
-        : hidden Markov Model: Task:
-            : Filtering = given objservations from start until now, calculate distribution for current state
-            : prediction = given observations from start until now, calculate distribution for a future state
-            : smoothing = given observations from start until now, calculate distribution for past state
-            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
-    
-    : KNOWLEDGE:
-        : INFERENCE BY RESOLUTION:
-            ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
-                : Remove biconditionals (↔) and implications (→).
-                : Apply De Morgan’s Laws to push NOT operators inward.
-                : Distribute OR over AND to standardize logical clauses.
-            ~2: Assume the negation of the query (¬Q).
-            ~3: Use Resolution Inference:
-                : Find clauses with complementary literals (P and ¬P).
-                : Resolve them to create new clauses.
-                : Repeat until empty clause (∅) is derived (indicating a contradiction).
-            ~4: If an empty clause is found, the query is true; otherwise, it's false.
+
+
+
 
     : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
         ~1: Define Initial State: Start with a known state.
@@ -255,40 +171,104 @@
                 ~3: If Max Player, Choose Move with Maximum Utility.
                 ~4: If Min Player, Choose Move with Minimum Utility. 
 
-    ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-        ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
-           : Categorize:
-                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
-                : WORD: PARSE/ETYMOLOGY
-                    : Roots: Fact/Known
-                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
-                        : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
-                    : Fixes: Position-Lodial
-                : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
-                    : Letters/Spells, 
-                    : Metals, Conductors,
-                    : Light: GEOMETRY (EUCLID)
-                    : Sound: MUSIC (BOETHIUS)
-                    : Motion: PHYSICS (ARISTOTLE)
-                    : Energy: path cost function: number of steps in proof
-                        : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-                        : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                        : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
-                            : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-       
-        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
-            : ARISTOTLE'S NICHOMACHEAN ETHICS
-            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
-            : NOW-SPACE 
-            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
-            : List: Queue/Stack, 
-            : LOGIC-ARITHMETIC = -1, 0, +1
-                : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
-                : Logic: NOT, AND, OR
+     : KNOWLEDGE:
+        : INFERENCE BY RESOLUTION:
+            ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
+                : Remove biconditionals (↔) and implications (→).
+                : Apply De Morgan’s Laws to push NOT operators inward.
+                : Distribute OR over AND to standardize logical clauses.
+            ~2: Assume the negation of the query (¬Q).
+            ~3: Use Resolution Inference:
+                : Find clauses with complementary literals (P and ¬P).
+                : Resolve them to create new clauses.
+                : Repeat until empty clause (∅) is derived (indicating a contradiction).
+            ~4: If an empty clause is found, the query is true; otherwise, it's false.
+
+    : CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, requiring it to operate based on probabilities rather than certainties
+        : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
+            P(A∣B)=P(A∩B)P(B)
+            P(A∣B)=P(B)P(A∩B)​ 
+        : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
+
+        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
+        : Probability Rules:
+            : Negation
+            : Inclusion-Exclusion
+            : Marginalization
+            : Conditioning
+        : Inference by Enumeration
+        : Approximate Inference:
+        : Sampling
+            : Rejection Sampling
+            : Likelihood Weighting
+        : hidden Markov Model: Task:
+            : Filtering = given objservations from start until now, calculate distribution for current state
+            : prediction = given observations from start until now, calculate distribution for a future state
+            : smoothing = given observations from start until now, calculate distribution for past state
+            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
  
+    : OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently.
+        : Hill Climbing: algorithm follows a simple logic:
+            ~1: Start with an initial state.
+            ~2: Evaluate neighboring states.
+            ~3: Move to the best neighbor if it improves the solution.
+            ~4: Repeat until no better neighbor exists.
+        : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
+        : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
+ 
+    : LEARNING: 
+        : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            ~1: Prepare Data: Collect labeled input-output pairs.
+            ~2: Split Data: Divide into training and testing sets.
+            ~3: Train Model: Fit a hypothesis function to the training data.
+            ~4: Evaluate Model: Test the trained model on unseen data.
+            ~5: Adjust Weights: Update parameters based on accuracy.
+            : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+            : unsupervised learning = given input data without any additional feedback, learn patterns
+        : Nearest Neighbor Classification: A simple supervised learning method where classification is based on the closest labeled data points: 
+            ~1: Store all training data.
+            ~2: For a new input:
+                : Compute distance to all stored points.
+                : Select the closest k neighbors.
+                : Assign the most common class among neighbors.
+            ~3: Output the predicted class.
+        : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
+            ~1: Initialize weights randomly.
+            ~2: For each data point (x, y):
+                : Compute prediction using dot product.
+                : Compare prediction with actual output.
+                : If incorrect, adjust weights: wi=wi+α(y−y^)xi
+            ~3: Repeat until convergence.
+
+    : NEURAL NETWORKS:
+        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1​,x2​,...xn​ and setting up the desired outputs." (Neural Networks, p. 3).
+        ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
+        ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
+        ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
+        ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
+ 
+    : NATURAL LANGUAGE: TRANSFORMERS ARCHITECTURE:
+        : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+        : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+        ~1: Encoder-Decoder Architecture
+            : Encoder: Processes the input sentence into a fixed representation.
+            : Decoder: Generates the output sequence, one word at a time.
+        ~2: Self-Attention Mechanism
+            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+            Multi-Head Attention enables different aspects of word relationships to be captured.
+        ~3: Positional Encoding
+            Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+        ~4: Feed-Forward Layers
+            Each word's representation is passed through fully connected layers to extract deeper features.
+        ~5: Masked Self-Attention in the Decoder
+            Prevents words from attending to future words (maintains causality).
+        ~6: Output Prediction
+            The decoder predicts the next word using a softmax function, generating the final output.
+        ~7: Optimization and Training
+            Uses the Adam optimizer with learning rate scheduling.
+            Dropout and Label Smoothing are applied for regularization.
+            Beam Search is used for better sentence generation.
+
 ~INFORMATION SYSTEMS: Core components that make up an information system (IS), including data, hardware, and software.
     Define the system’s purpose and scope.
     Identify and integrate hardware components (physical systems).

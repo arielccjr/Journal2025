@@ -112,172 +112,8 @@
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
-                : REDUCTION AND PROOF TECHNIQUES: the process of breaking down complex syllogisms into simpler, more familiar forms, often in the first figure (a primary, straightforward syllogistic form), 
-            : Direct Reduction: Involves converting the syllogism directly into the first figure by rearranging or rephrasing terms.
-                : Simplify syllogism by converting it into the first figure.
-                : Original Syllogism (Third Figure): "All B are C; all A are B; therefore, all A are C."
-                : Reduced to First Figure: Reorder premises to "All A are B; all B are C; therefore, all A are C." This makes it easier to recognize as a valid syllogism in the first figure.
-            : Indirect Reduction (Reductio ad Absurdum): Shows that denying the conclusion would lead to a contradiction, thereby proving that the original conclusion must be true.
-                : Prove validity by showing contradiction if the conclusion were denied.
-                : Suppose we have the syllogism: "All humans are mortal; all Greeks are humans; therefore, all Greeks are mortal."
-                : To prove indirectly, assume the conclusion is false (some Greeks are not mortal). 
-                : This would contradict the premise that all humans (which includes Greeks) are mortal, confirming the validity of the original conclusion.
-            : Conversion: involve switching the subject and predicate of a proposition while retaining its truth. 
-                : Simple Conversion: Universal negative (E) and particular affirmative (I) can directly swap subject and predicate.
-                : Limited Conversion: Universal affirmative (A) converts to a particular affirmative (I) to maintain truth.
-        : RULES FOR MODAL SYLLOGISMS:
-            : Necessity: Both premises being necessary leads to a necessary conclusion.
-                Example: "Necessarily, all humans are mortal" and "Necessarily, Socrates is human" imply "Necessarily, Socrates is mortal."
-            : Possibility: If one premise is possible, the conclusion may be possible but not certain.
-            : Mixed Modalities: Different modal premises allow conditional or probable conclusions.
-        : SYLLOGISTIC RULES:
-            : Rule of Distribution: The middle term must be distributed (apply to all members of a category) in at least one premise.
-            : Rule of Quantity and Quality: Two particular premises cannot lead to a valid conclusion.
-                : The structure (affirmative/negative, universal/particular) of the premises influences the validity of the syllogism.
-
-~1: GRAMMAR: CORRECT-PARSE-SYNTAX:
-        : COMPONENTS:
-            : Major Term: The predicate of the conclusion (e.g., "mortal" in the example).
-            : Minor Term: The subject of the conclusion (e.g., "Socrates").
-            : Middle Term: The term that appears in both premises but not in the conclusion (e.g., "human").
-                The middle term acts as the link between the two premises and determines how they connect to reach a conclusion.
-        : PREMISES: Valid syllogisms ensure a sound flow from general statements (premises) to specific outcomes (conclusion).
-            : Major Premise (Universal or Particular, Affirmative or Negative) "All humans are mortal."
-            : Minor Premise (Universal or Particular, Affirmative or Negative) "Socrates is a human."
-            : Conclusion (Follow rules of distribution and quality to validate) "Therefore, Socrates is mortal."
-        : RELATIONSHIPS BETWEEN PROPOSITIONS:
-            : Contradiction: A and O (as well as E and I) are contradictory. They cannot both be true or both be false.
-            : Contrariety: A and E are contrary propositions; they cannot both be true simultaneously, but they can both be false.
-            : Subcontrariety: I and O are subcontrary propositions; they can both be true but cannot both be false.
-            : Subalternation: There is a truth dependency from universal to particular (A → I and E → O). If A is true, then I must be true; if E is true, then O must be true. 
- 
-    : TOPICS: They are starting points for generating ideas or finding relevant points to discuss in a debate.
-        : Definition: Establishing the meaning of a term to shape the argument (e.g., defining “courage” in a debate about ethics).
-        : Comparison: Arguing by analogy or contrast, showing how two concepts relate or differ (e.g., comparing democracy to monarchy in a political debate).
-        : Cause and Effect: Examining the relationship between an action and its outcome (e.g., “Punishment deters crime” in a discussion on justice).
-        : Authority: Citing respected sources or figures to lend credibility to an argument (e.g., referring to expert opinions in a medical debate).
-        : Examples: Using specific instances to illustrate or support a point (e.g., “In history, societies with strong education systems have prospered” in a discussion on education policy).
-   
-    : PROBABLE PREMISES: (TOPICS) is a treatise designed to provide a method for constructing arguments based on probable premises, facilitating dialectical reasoning. Aristotle states,
-        ~1. Assume Propositions: This method involves selecting statements (propositions) that are either universally accepted, commonly held, or derived from previous logical principles. 
-        ~2. Distinguish in How Many Ways Anything is Predicated: Aristotle explains that concepts and terms can be predicated in multiple ways, meaning they can have different meanings depending on the context. 
-        ~3. Discover Differences: This step involves identifying what makes things different from each other. 
-        ~4: Consideration of the Similar: This method involves recognizing similarities between concepts or cases. 
-    : SCIENTIFIC KNOWLEDGE (Episteme) & DEMONSTRATION (apodeixis): (POSTERIOR ANALYTICS):
-        : The Process of Learning (Epistemology):
-            Sensation (Aisthesis): We perceive individual things.
-            Memory (Mneme): We recall past perceptions.
-            Experience (Empeiria): We notice patterns from repeated observations.
-            Induction (Epagoge): We generalize from experience.
-            Universal Knowledge: We formulate necessary truths. 
-        : Definition (horismos): explains what a thing is, rather than just describing its properties.
-            ~1: State the Genus (the general category).
-            ~2: State the Specific Difference (what makes it unique).
-            : Example:
-                : Triangle = A plane figure (genus) with three sides (difference).
-                : Human = A rational (difference) animal (genus).
-        : Scientific demonstration (mathematics) differs from mere opinion because:
-            : It is based on necessary truths. Triangle Theorem: "The sum of a triangle’s angles is always 180°."
-            : It explains why something is true (causal reasoning). This is not just observed, but demonstrated logically.
-            : It is not contingent on experience alone. It applies to every triangle, everywhere, always. 
-        : STRUCTURE OF A SYLLOGISM:
-            : Major Premise: A general statement.
-            : Minor Premise: A specific statement related to the general one.
-            : Conclusion: What necessarily follows.
-        : First Principle: starting points—first principles—that do not require proof.
-            : Law of Non-Contradiction: A statement cannot be both true and false at the same time. "A triangle has three sides." This is not proven but recognized as true.
-    : SYLLOGISM: (PRIOR ANALYTICS)
-        : VALIDITY TESTS:
-            : Conversion: Swapping the subject and predicate in certain propositions."All mammals are warm-blooded" → "Some warm-blooded creatures are mammals."
-            : Contradiction: If a proposition is false, its opposite must be true. "If "Some humans are immortal" is false, then "No humans are immortal" is true.
-            : Reduction to the Impossible: Assuming a false premise to show that it leads to a contradiction. "Suppose Socrates is immortal. But all humans are mortal. Therefore, Socrates is not immortal." 
-        : SYLLOGISTIC FIGURES: These figures and moods create valid patterns, with certain combinations ensuring validity.
-            : 1. First Figure (AAA = All-All-All) - Barbara: The middle term is the subject of the major premise and the predicate of the minor premise.
-                Premise 1 (Major): All humans are mortal. (A)
-                Premise 2 (Minor): All Greeks are humans. (A)
-                Conclusion: Therefore, all Greeks are mortal. (A)
-            : 2. Second Figure (EAE = No-All-No) - Camestres: The middle term is the predicate of both the major and minor premises.
-                Premise 1 (Major): No reptiles are warm-blooded. (E)
-                Premise 2 (Minor): All snakes are reptiles. (A)
-                Conclusion: Therefore, no snakes are warm-blooded. (E)
-            : 3. Third Figure (IAI = Some-All-Some) - Datisi: The middle term is the subject of both the major and minor premises.
-                Premise 1 (Major): Some animals are herbivores. (I)
-                Premise 2 (Minor): All animals are living beings. (A)
-                Conclusion: Therefore, some living beings are herbivores. (I)
-        : STRUCTURE OF SYLLOGISM: A syllogism consists of three terms, where the middle term (M) connects the major (A) and minor (B) terms:
-            : Major Premise: A is B
-            : Minor Premise: B is C
-            : Conclusion: A is C        
-        : CATEGORIES OF SYLLOGISMS:
-            : Perfect Syllogisms – Those that are self-evidently valid.
-            : Imperfect Syllogisms – Those that require additional reasoning or proof to establish validity.        
- 
-    : SENTENCE/PROPOSITION: (ON INTERPRETATION)
-        : TYPES OF MODAL PROPOSITIONS: Modal propositions are statements that express modalities — the necessity or possibility of a situation. 
-            : Necessary: Something must be true (e.g., "Humans need oxygen").
-            : Impossible: Something cannot be true (e.g., "A triangle cannot have four sides").
-            : Possible (Contingent): Something may or may not be true (e.g., "It may rain tomorrow").
-        : TYPES OF PROPOSITIONS: 
-            : Universal Statement: Refers to all members of a category (e.g., "All humans are mortal.").
-                A: Universal Affirmative (e.g., "All S are P")
-                E: Universal Negative (e.g., "No S are P")
-            : Particular Statement: Refers to a specific individual or subset (e.g., "Socrates is mortal."). 
-                I: Particular Affirmative (e.g., "Some S are P")
-                O: Particular Negative (e.g., "Some S are not P")            
-            : Contradiction of a Universal Statement:
-                : Every man is white → Not every man is white (contradiction).
-                : No man is white → Some men are white (contradiction).
-        : PRINCIPLE OF CONTRADICTION: Every proposition has an opposite. A contradiction occurs when one statement affirms what another denies. Example:
-            : Statement: "Socrates is wise."
-            : Contradiction: "Socrates is not wise."
-        : PROPOSITIONS:
-            : Affirmation states that something belongs to a subject.
-            : Negation states that something does not belong to a subject.
-        : TERMS: The building blocks of propositions, which include:
-            : Subject – What the proposition is about.
-            : Predicate – What is being stated about the subject.
-            : Middle Term – The linking term between two premises in a syllogism.
-        : ELEMENTS OF LANGUAGE:
-            : Noun: A noun is a sound that signifies something by agreement, without implying time. A noun’s parts, if separated, do not have independent meaning. 
-            : Verb: A verb, unlike a noun, contains an implicit reference to time. It is used to make statements about something.
-            : Sentence (Enunciation): A complete statement, also called an enunciation, is a combination of nouns and verbs, which asserts something that is either true or false.
-    : WORD/KNOWN/FACT: ETYMOLOGY, POSITION-LODIAL-FACT.
-    
-        ~2: Establishing the Hierarchical Structure of Substances: This distinction ensures that we recognize that all predicates and qualities ultimately depend on the existence of a primary substance.
-            : Secondary substances refer to general species and genera (e.g., Man, Tree, Animal).
-        ~3: Explaining Opposites and Relations:
-            : Types of Opposites:
-                : Relatives: Things defined in reference to another. "A master is the master of a servant, and a servant is the servant of a master." (Aristotle, 2024, p. 25).
-                : Contraries: Opposites where one must exclude the other. "White is contrary to black." (Aristotle, 2024, p. 44).
-                : Privation and Habit: One is the absence of the other. "Blindness is the privation of sight." (Aristotle, 2024, p. 46).
-                : Affirmation and Negation: Direct logical opposition. "He sits" vs. "He does not sit." (Aristotle, 2024, p. 46).   
-        ~4: Understanding Motion and Change
-            : Generation: Coming into being (e.g., a baby being born).
-            : Corruption: Ceasing to exist (e.g., a tree dying).
-            : Increase: Growth (e.g., a child growing).
-            : Diminution: Reduction (e.g., an aging body losing strength).
-            : Variation: Change in quality (e.g., something turning from white to black).
-            : Mutation according to place: Change in position (e.g., a rock rolling down a hill).
-        ~5: Examining Prioritization and Dependency:
-            : Priority in Time: "One is prior to two, for two existing, it immediately follows that one is." (Aristotle, 2024, p. 54).
-            : Priority in Nature:  "Man is prior to the definition of man, for a thing must exist before we define it." (Aristotle, 2024, p. 54).
-            : Priority in Order: "In grammar, letters are prior to syllables." (Aristotle, 2024, p. 54).
-            : Priority in Cause: "A true sentence is not the cause of a thing’s existence, but a thing’s existence is the cause of a sentence being true." (Aristotle, 2024, p. 54).    
-        ~6: Defining Possession and State of Being
-            : Types of Possession:
-                : Possession as Habit or Disposition – "We are said to have science and virtue."
-                : Possession as Quantity – "One has a magnitude of three or four cubits."
-                : Possession of Things About the Body – "Such as a garment, or a ring in the hand."
-                : Possession as a Part – "The hand or foot is possessed by the body."
-                : Possession as a Measure – "A bushel has wheat."
-                : Possession as Property – "A man has a house or land."
-        
-        : Causality (Four Causes): Explains why things are as they are.
-            : Material Cause: Substance from which something is made (e.g., bronze of a statue).
-            : Formal Cause: Design or structure (e.g., statue’s shape).
-            : Efficient Cause: Agent or creator (e.g., the sculptor).
-            : Final Cause: Purpose or function (e.g., artwork’s role).
-    
+~GRAMMAR: CORRECT-PARSE-SYNTAX:
+~WORD/KNOWN/FACT: ETYMOLOGY, POSITION-LODIAL-FACT.
     : CATEGORIES: classifies different kinds of things that can be said about a subject.
         ~1: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
         ~2: Determine the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
@@ -525,7 +361,6 @@
         ~6: Mathematical Predictions
             Using trigonometry and tables, he calculated planetary positions and their future paths.
 
-
 ##################################################################################################################################################################################################################
 ~GAME-MECHANICS:
     : Introduce New Related Word Group, typically based on common Latin or Greek roots.
@@ -554,11 +389,11 @@
     7. New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
     8. Announcements: Members share relevant updates, reminders, or upcoming events.
     9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-        : WHAT: ManGa/Comics, Films, Games
+        : WHAT: ManGa/Comics, Films, Games, Facts/Correctness
         : WHO: ARIEL C. CASAPAO JR.
         : WHERE: arielccjr.com | Edmonton, Alberta, Canada
         : WHEN: 9:00-17:00, Monday to Saturday
-        : HOW: My Offer = Art & Creative Directing =
+        : HOW: By My Offer = Art & Creative Directing =
             ~0: Researching (Gathering Assets, References, Story-Writing)
             ~1: Sketching
             ~2: Clean Lining|
@@ -568,9 +403,8 @@
                 ~Sound Effect/Composing
                 ~Animation/Video Editing
                 ~Marketing
-        : WHY: 
-            ~For the Lord.
-            ~For your Vision is by my Creation. (tagline)
+        : WHY: For the Lord.
+            ~For your Vision is by my Creation.
 
 ################################################################################################################################################################################################################
 HOW COMPUTER VISION BE?
