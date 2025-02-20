@@ -116,146 +116,146 @@
 
 ###################################################################################################################################
 : CHAPTER-~0:
-:PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
-:SYNTAX: fact= FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
+    :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
+    :SYNTAX: fact= FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
 
-~0 Is for the WHY of the PARSE &: SYNTAXING with the FICTION-SYNTAX-GRAMMAR-WRONGS by the SYNTAX-KEY-CODE?
-    : WHAT GOES IN MUST COME OUT! 
-~1 Is for the HOW of the PARSE &: SYNTAXING with the showing of the wrong-grammar-methods withing the fiction-writing?
-    : SYNTAX-KEY-CODE:
-        0=CONJUNCTION=AND, OR, &, /, 
-        1=ADVERB = MODIFIER
-        2=VERB = IS/ARE,
-        3=ADJECTIVE = COLOR-OPINION-MODIFIER,
-        4=PRONOUN = NO-NO-NO,
-        5=POSITION = ABC, WORD-SPELLING-TERM,
-        6=LODIAL = OWNERSHIP [ARTICLE],
-        7=FACT [NOUN],
-        8=PAST-TENSE=FROM, -ED,
-        9=FUTURE-TENSE=PRE, TO = FICTION,
-        NC=NEGATIVE-CONTEXT,
-        DPV=DANGLING-PARTICIPLE-VERB.
-        BS=LAW OF THE BOXING/BRACKETS.
-        ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
-        FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
-        PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
-        QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
-        LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-        VC=VOID-CONTINUANCE
-            
-        [NO-FLAG][FICTION-FLAG-SAMPLE]
-        NO	LAW	OR	FACT	SHALL	BE	TRIED	IN	COURT.
-        1	2	0	2		4.9		1	2.8		1	2 DPV
+    ~0 Is for the WHY of the PARSE &: SYNTAXING with the FICTION-SYNTAX-GRAMMAR-WRONGS by the SYNTAX-KEY-CODE?
+        : WHAT GOES IN MUST COME OUT! 
+    ~1 Is for the HOW of the PARSE &: SYNTAXING with the showing of the wrong-grammar-methods withing the fiction-writing?
+        : SYNTAX-KEY-CODE:
+            0=CONJUNCTION=AND, OR, &, /, 
+            1=ADVERB = MODIFIER
+            2=VERB = IS/ARE,
+            3=ADJECTIVE = COLOR-OPINION-MODIFIER,
+            4=PRONOUN = NO-NO-NO,
+            5=POSITION = ABC, WORD-SPELLING-TERM,
+            6=LODIAL = OWNERSHIP [ARTICLE],
+            7=FACT [NOUN],
+            8=PAST-TENSE=FROM, -ED,
+            9=FUTURE-TENSE=PRE, TO = FICTION,
+            NC=NEGATIVE-CONTEXT,
+            DPV=DANGLING-PARTICIPLE-VERB.
+            BS=LAW OF THE BOXING/BRACKETS.
+            ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+            FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+            PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+            QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+            LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+            VC=VOID-CONTINUANCE
+                
+            [NO-FLAG][FICTION-FLAG-SAMPLE]
+            NO	LAW	OR	FACT	SHALL	BE	TRIED	IN	COURT.
+            1	2	0	2		4.9		1	2.8		1	2 DPV
 
-        : For the Flag: C.-S.-S.-C.-P.-S.-G.-P.-FLAG.
-        For	the	words	of	the	Truth	are	with	the	facts	in	this	learning-module.
-        5	6	7		5	6	7		2	5		6	7		5	6		7 
-        For	the	cause	of	the	effect	is	with	the	performance	by	the	authority.
+            : For the Flag: C.-S.-S.-C.-P.-S.-G.-P.-FLAG.
+            For	the	words	of	the	Truth	are	with	the	facts	in	this	learning-module.
+            5	6	7		5	6	7		2	5		6	7		5	6		7 
+            For	the	cause	of	the	effect	is	with	the	performance	by	the	authority.
 
-    FOR THE CLAIMANT'S KNOWLEDGE (CAUSE)
-    OF THE FACTS (EFFECT)
-    IS/ARE (THINKING/ACTION)
-    WITH THE CLAIM-POSSESSIVE
-    OF THE TERMS (+/-)
-    WITH THE CONTRACT
-    BY THE AUTHOR.
+        FOR THE CLAIMANT'S KNOWLEDGE (CAUSE)
+        OF THE FACTS (EFFECT)
+        IS/ARE (THINKING/ACTION)
+        WITH THE CLAIM-POSSESSIVE
+        OF THE TERMS (+/-)
+        WITH THE CONTRACT
+        BY THE AUTHOR.
 
-: QUANTUM-TERMS:
-	~CORRECT-PARSE-SYNTAX
-	: PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
-	: SYNTAX: fact=FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
-		: CONJUNCTION: FACT= ALSO, COMMAND, OR OPTION, EITHER.
-		: CLOSURE: FOR THESE WORD-TERM-CLAIMS OF THIS 
-		: ADVERBS-GUIDE-LIST: [FICTION]
-			: suffix: -LY
-			: ... (refer to the Guide-List)
-		: NOT-ADVERBS-GUIDE-LIST:
-			: Between parenthesis, brackets, quotation marks
-			: -PLY
-		: TECHNIQUE OF THE KEEPING-IT-SIMPLE:
-			: 1=ADVERB becomes 4=PRONOUN when isolated by fences: |1>4|
-			: 1=ADVERB becomes 2=VERB when preceded by 1=ADVERB and followed by fence: |1 4>2|
-		: VERB: FACTS=: IS=SINGULAR-SYNTAX-TENSE, ARE=PLURAL-SYNTAX-TENSE, THINKING-MOTION.
-		:F.-S.-G: COMPOUND-FACT=:FRAUDULENT-SYNTAX-GRAMMAR OF THE VACANCY-CLOSURE.
+    : QUANTUM-TERMS:
+        ~CORRECT-PARSE-SYNTAX
+        : PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
+        : SYNTAX: fact=FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
+            : CONJUNCTION: FACT= ALSO, COMMAND, OR OPTION, EITHER.
+            : CLOSURE: FOR THESE WORD-TERM-CLAIMS OF THIS 
+            : ADVERBS-GUIDE-LIST: [FICTION]
+                : suffix: -LY
+                : ... (refer to the Guide-List)
+            : NOT-ADVERBS-GUIDE-LIST:
+                : Between parenthesis, brackets, quotation marks
+                : -PLY
+            : TECHNIQUE OF THE KEEPING-IT-SIMPLE:
+                : 1=ADVERB becomes 4=PRONOUN when isolated by fences: |1>4|
+                : 1=ADVERB becomes 2=VERB when preceded by 1=ADVERB and followed by fence: |1 4>2|
+            : VERB: FACTS=: IS=SINGULAR-SYNTAX-TENSE, ARE=PLURAL-SYNTAX-TENSE, THINKING-MOTION.
+            :F.-S.-G: COMPOUND-FACT=:FRAUDULENT-SYNTAX-GRAMMAR OF THE VACANCY-CLOSURE.
 
-: SYNTAX-CHECKLIST:
-	~1: Look for a place to put your BASIC-SYNTAX-KEY-CODE, place it.
-	~2: Scan/check document for the following F.-S.-G. & add each one to BASIC-SYNTAX-KEY-CODE, that you find in the document.
-	~3: SYNTAX ONLY THE FIRST SENTENCE OF EVERY PARAGRAPH.
-	~4: BS=LAW OF THE BOXING/BRACKETS.
-	~5: ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
-	~6: FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
-	~7: PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
-	~8: QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
-	~9: LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-	~10: VC=VOID-CONTINUANCE, AT THE SAMETIME, YOU DO THE FOLLOWING STEPS. [OPTIONAL]
-	~11: NC=NEGATIVE-CONTEXT,
-        8=PAST-TENSE,
-        9=FUTURE-TENSE,
-        DPV=DANGLING-PARTICIPLE-VERB.
-        AT THE SAMETIME, YOU DO THE FOLLOWING STEPS.
-	~12: Place FULL-SIZE-FENCE at all places where there is PUNCTUATION or VOID-CONTINUANCE.
-	~13: Find & mark all ADVERBS=1 & mark all CONJUNCTIONS=0. 
-        Place FULL-SIZE-FENCE both sides of the CONJUNCTIONS 
-        & HALF-FENCES/MARKS left of the THREE-ADVERBS in a row 
-        or TWO-ADVERBS in a row or ONE-SINGLE-ADVERB.
-    ~14: Check for THREE-ADVERBS in a row? 
-        ANSWER=NO, GOTO STEP-4, 
-        ASNWER=YES, START-HERE>:
-            THREE-ADVERBS convert to 1 2 1
-            FOUR-ADVERBS convert 1 1 2 1 OR 1 2 1 1
-		: NOTE: An ADVERB farthest to the right, at the end of the sentence(full-fence) convert to a VERB=2, FIRST. 
-			SAMPLE= 1 1 1 1. converts to= 1 1 1 2.
-    ~15: STEP-4: Now SYNTAX what is left with: 
-		PRONOUN= 4
-		VERB= 2
-		ADJECTIVE+PRONOUN= 3 4
-		: NOTE: An ADVERB-WORD NOT ending in -ly(suffix)=THE 
-        or a WORD, isolated by itself, by punctuation 
-        or by void-continuance/spaces, converts to a PRONOUN=4, 
-        but not an ADVERB-WORD-ENDING in an -ly(suffix)=GRAMMARLY=1, stays an ADVERB=1 (ALWAYS).
-	~16: Stamp or write out :FACTUAL-FORENSICS: in empty space, bottom of document.
-	~17: Place of a Dollar-Postal-Stamp, top right & Autograph & seal.
+    : SYNTAX-CHECKLIST:
+        ~1: Look for a place to put your BASIC-SYNTAX-KEY-CODE, place it.
+        ~2: Scan/check document for the following F.-S.-G. & add each one to BASIC-SYNTAX-KEY-CODE, that you find in the document.
+        ~3: SYNTAX ONLY THE FIRST SENTENCE OF EVERY PARAGRAPH.
+        ~4: BS=LAW OF THE BOXING/BRACKETS.
+        ~5: ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+        ~6: FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+        ~7: PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+        ~8: QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+        ~9: LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+        ~10: VC=VOID-CONTINUANCE, AT THE SAMETIME, YOU DO THE FOLLOWING STEPS. [OPTIONAL]
+        ~11: NC=NEGATIVE-CONTEXT,
+            8=PAST-TENSE,
+            9=FUTURE-TENSE,
+            DPV=DANGLING-PARTICIPLE-VERB.
+            AT THE SAMETIME, YOU DO THE FOLLOWING STEPS.
+        ~12: Place FULL-SIZE-FENCE at all places where there is PUNCTUATION or VOID-CONTINUANCE.
+        ~13: Find & mark all ADVERBS=1 & mark all CONJUNCTIONS=0. 
+            Place FULL-SIZE-FENCE both sides of the CONJUNCTIONS 
+            & HALF-FENCES/MARKS left of the THREE-ADVERBS in a row 
+            or TWO-ADVERBS in a row or ONE-SINGLE-ADVERB.
+        ~14: Check for THREE-ADVERBS in a row? 
+            ANSWER=NO, GOTO STEP-4, 
+            ASNWER=YES, START-HERE>:
+                THREE-ADVERBS convert to 1 2 1
+                FOUR-ADVERBS convert 1 1 2 1 OR 1 2 1 1
+            : NOTE: An ADVERB farthest to the right, at the end of the sentence(full-fence) convert to a VERB=2, FIRST. 
+                SAMPLE= 1 1 1 1. converts to= 1 1 1 2.
+        ~15: STEP-4: Now SYNTAX what is left with: 
+            PRONOUN= 4
+            VERB= 2
+            ADJECTIVE+PRONOUN= 3 4
+            : NOTE: An ADVERB-WORD NOT ending in -ly(suffix)=THE 
+            or a WORD, isolated by itself, by punctuation 
+            or by void-continuance/spaces, converts to a PRONOUN=4, 
+            but not an ADVERB-WORD-ENDING in an -ly(suffix)=GRAMMARLY=1, stays an ADVERB=1 (ALWAYS).
+        ~16: Stamp or write out :FACTUAL-FORENSICS: in empty space, bottom of document.
+        ~17: Place of a Dollar-Postal-Stamp, top right & Autograph & seal.
 
-: SYNTAX-SEQUENCE-KEY:
-    : Fence =           |
-	: Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
-	: Punctuation=		|[Punctuation]|
-	: and, &, or, /=	|0|
-	: -ly word=		    |1(-ly)|
-	: Adverb-List word=	|1 1|
-				        |1 1 1|
-	Verb: =			    |1 2|
-				        |1 2 1|
-	Adjective-Pronoun=	|1| >>> |4|
-				        |1 3 4|
-				        |1 3... 3 4|
-				        |3 4|
-				        |3... 3 4|
-				        |4|
-	End of Sentence=	|1(.?!)| >>> |4|
-						|1 1(.?!)| >>> |1 2DPV[End](.?!))|
+    : SYNTAX-SEQUENCE-KEY:
+        : Fence =           |
+        : Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
+        : Punctuation=		|[Punctuation]|
+        : and, &, or, /=	|0|
+        : -ly word=		    |1(-ly)|
+        : Adverb-List word=	|1 1|
+                            |1 1 1|
+        Verb: =			    |1 2|
+                            |1 2 1|
+        Adjective-Pronoun=	|1| >>> |4|
+                            |1 3 4|
+                            |1 3... 3 4|
+                            |3 4|
+                            |3... 3 4|
+                            |4|
+        End of Sentence=	|1(.?!)| >>> |4|
+                            |1 1(.?!)| >>> |1 2DPV[End](.?!))|
 
-----------------------------------------------------------------------------------------------------------------------
-: PAST & FUTURE-TENSE-WORDS-KEY:
-    : PAST:-ed/-en=.8:
-        been
-        had
-        has
-        have
-        past
-        was
-        were
-        voted
-    : FUTURE=.9:
-        can
-        could
-        may
-        shall
-        should
-        to
-        will
-        would
+    ----------------------------------------------------------------------------------------------------------------------
+    : PAST & FUTURE-TENSE-WORDS-KEY:
+        : PAST:-ed/-en=.8:
+            been
+            had
+            has
+            have
+            past
+            was
+            were
+            voted
+        : FUTURE=.9:
+            can
+            could
+            may
+            shall
+            should
+            to
+            will
+            would
 
 ###############################################################################################################
 : CLASS-~1:
