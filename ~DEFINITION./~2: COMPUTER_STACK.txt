@@ -127,9 +127,9 @@
                     ; >OR (in=abCARRY, in=abcBARRY, out=out)
         : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
         : Flags of Bits: 
-            : Overflow(>), 
+            : Overflow(>), Excess
             : Zero(=), 
-            : Negative(<)...
+            : Negative(<), Deficiency
    
 
 

@@ -69,7 +69,11 @@
 			SAMPLE= 1 3 4
 		: RULE-7: An ADVERB farthest to the right, at the end of the sentence(full-fence, punctuation), will convert to a VERB=2, FIRST.
 			SAMPLE= 1 1 1 1. converts to 1 1 1 2.
-		: RULE-8: you would write if there was only one adverb and it was at the very end of the sentence you're going to convert it to a 4 with the exception or a note for yourself if that word the last word before the period or the question mark of the explanation mark if it was an l y suffix word like family or sincerely then it will not convert to a two or four i'm sorry a four because l y always stays a one oh it and that would be your rule eight.
+		: RULE-8: you would write if there was only one adverb and it was at the very end of the sentence 
+            you're going to convert it to a 4 with the exception or a note for yourself 
+            if that word the last word before the period or the question mark of the explanation mark 
+            if it was an -ly suffix word like family or sincerely then it will not convert to a two or four 
+            i'm sorry a four because l y always stays a one oh it and that would be your rule eight.
 		: RULE-8: It there are two adverbs at the end of a sentence, the last adverb gets converted to a verb. 
 			( The rule only applies if the sentence ends with a (.), (?) or (!)
 			and doesn’t end with a (,), (:), (;), ([]) or (). 
