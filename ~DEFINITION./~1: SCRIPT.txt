@@ -1,4 +1,61 @@
-~ARCHETYPES (TOPICS):
+: FOR THE GIFT OF THE WORD.
+~TEMPLATE: 
+    ~TITLE:             	How do we know each other? How do we find closure?
+    ~INTRODUCE:
+        : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
+        : MEANING:      	Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+        : THESIS:       	This speech shares 
+                            we have free will — the ability to choose.”
+                                ~1: First, 
+                                ~2: Then,
+                                ~3: And finally, 
+        : TRANSITION:	    First: why are we slaves of our passions? 
+    ~COUNTER THESIS: Topics and Fallacies
+        : Support:		        You probably "understand" the way I learn English:
+                                And you are probabaly right, because...
+                                First, we learn the letters, 
+                                Then, we memorize words, by the dictionary, if we care enough.
+                                And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
+                                    Subject, predicate.
+                                    Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
+                                    Past-tense, Future-tense.
+                                Most of the time, we learn new words by pop culture / daily conversation,
+                                
+                                "We never left 2nd-grade reading/comprehension level."
+                                "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
+                                "We are at the mercy of our lawyers for reaching closure."
+                                
+        : Transition:      	    But what if this is only half-true?
+                                What if there is another way? What if we can read / write the truth on our own?
+    ~SUPPORT THESIS:
+        : Introduction:         Computers 
+                                They process languages using arithmetic and logic unit.
+                                Breaking down images, sounds, and videos into 0s and 1s.
+                                Instead of using dictionary, we learn words by roots and fixes, by etymology.
+                                    For example, 
+                                And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
+                                
+        : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+    ~REFUTE COUNTERARGUEMENTS:
+        : Main Refutation:
+        : Refute 1st:	        We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
+                                Language are ambiguous, with many definition.
+                                Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
+                                Natural language 
+        : Transition:
+    ~CONCLUDE:
+        : QUESTION:     	So, are we simply animals flowing along the current of passion, or do we have free will? 
+        : THESIS:         	We are capable of both — of habits, but empowered to rise above them.
+        : Meaning:    	    This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
+        : Review Points:
+            Main Point 1:   Habits and instincts strongly influence our behavior.
+            Main Point 2: 	Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+            Main Point 3:	Addressing counterarguments reveals the balance between instinct and choice.
+        : Closing:          Ultimately, the power to choose defines what it means to be human. 
+                            Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
+                            Thank you, Mr. Toastmaster.
+
+~ARCHETYPES:
     -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
             : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
             : DIVISION, LACKING
@@ -55,7 +112,6 @@
             : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ##################################################################################################################################################################################################################
-~WORD/KNOWN: POSITION-LODIAL-FACT.
     : CATEGORIES: classifies different kinds of things that can be said about a subject.
         ~1: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
         ~2: Determine the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
@@ -69,7 +125,7 @@
             : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
             : Action – What it is doing (e.g., "running," "writing").
             : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
-    : ON INTERPRETATION (Peri Hermeneias): focuses on how statements (propositions) express truth and falsity and lays the foundation for modal logic, contradiction, and necessity.
+    : ON INTERPRETATION (Peri Hermeneias): is a key work in his Organon, dealing with logic, language, and meaning. It focuses on how statements (propositions) express truth and falsity and lays the foundation for modal logic, contradiction, and necessity.
         ~1: Words & Meaning:
             : Words are symbols of mental concepts.
             : Propositions (statements) are combinations of words that express truth or falsity.
@@ -146,7 +202,7 @@
             : Some sciences, like mathematics, rely only on internal logical structures.
             : Others, like natural science, depend on observation and induction.
             : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.       
-    : TOPICS: the art of constructing and evaluating arguments based on commonly accepted opinions (endoxa), focusing on how one can argue both for and against a proposition.
+    : TOPICS: he defines as the art of constructing and evaluating arguments based on commonly accepted opinions (endoxa), focusing on how one can argue both for and against a proposition.
         ~1: Identifying the Subject Matter
             : Define the topic of discussion and categorize it properly.
             : Recognize the general premises accepted about the subject.
@@ -248,10 +304,10 @@
         ~6: The Contemplative Life is the Highest Life
             The best life is one of philosophical contemplation, where reason governs all aspects of life.
             However, those engaged in politics or social roles should also aim for virtue in action. 
-    : PHYSICS: is a philosophical and scientific exploration of nature (physis), investigating how things change, move, and interact.
+    : PHYSICS:  is a philosophical and scientific exploration of nature (physis), investigating how things change, move, and interact.
         ~1: Define the Subject - Nature and Change
-            Nature (physis) is what exists and changes by its own internal principles.
-            Everything in nature undergoes motion (change in state, position, or form).
+            : Nature (physis) is what exists and changes by its own internal principles.
+            : Everything in nature undergoes motion (change in state, position, or form).
         ~2: Identify the Causes of Motion (Four Causes): Every natural phenomenon has four causes:
             Material Cause – What is it made of? (e.g., a statue is made of marble)
             Formal Cause – What shape or essence does it have? (e.g., a statue has a human form)
@@ -303,96 +359,15 @@
         ~6: Mathematical Predictions
             Using trigonometry and tables, he calculated planetary positions and their future paths.
 
-    ~PTOLEMY'S ALMAGEST (originally titled Mathematike Syntaxis, meaning "The Mathematical Compilation") is an astronomical treatise that describes the motions of the stars and planets, providing a detailed geocentric model of the cosmos.
-        Geocentric Model: The Almagest establishes a geocentric (Earth-centered) model of the universe, where all heavenly bodies revolve around the Earth.
-        Epicycles and Deferents: Ptolemy uses the concept of epicycles (small circular orbits) and deferents (larger circles centered on Earth) to explain the irregular movements of planets. 
-            These elements allow for the apparent retrograde motion of planets while maintaining a circular motion.
-        Trigonometric Calculations: Ptolemy includes an early trigonometric table in the form of chords, which was essential for calculating planetary positions.
-        Catalog of Stars: He compiled a star catalog listing over a thousand stars with their positions in relation to the constellations, based on his observations and those of earlier astronomers, especially Hipparchus.
-        Detailed Observations and Theories: The Almagest is divided into 13 books:
-            Books 1-2: Introduce basic principles, including Ptolemy's geocentric model and theories on the motion of celestial bodies.
-            Books 3-5: Describe the motion of the Sun and the Moon and provide mathematical models for eclipses.
-            Books 6-7: Include a catalog of stars and cover the fixed stars and constellations.
-            Books 8-13: Present detailed models and calculations for each of the planets, incorporating epicycles and deferents to predict their positions.
-        Mathematical Rigor: Ptolemy supports his models with mathematical proofs and observational data, providing systematic calculations for predicting planetary and stellar positions.
-
-    ~PTOLEMY'S ASTRONOMY: refers to the geocentric model of the universe, where Earth is at the center, and all celestial bodies (Sun, Moon, planets, and stars) move around it. 
-        This model, also called the Ptolemaic system, was described in his work, the Almagest. The system was based on the idea of perfect circular motion and used epicycles and deferents to explain planetary motion.
-        ~1: Postulate a Geocentric Universe:
-            Earth is at rest and does not move.
-            The celestial sphere, holding the stars, rotates around Earth.
-        ~2: Introduce Uniform Circular Motion:
-            Following Plato and Aristotle, Ptolemy assumed that celestial bodies move in perfect circles because circles are "divine" and "unchanging."
-        ~3: Account for Retrograde Motion Using Epicycles:
-            Each planet moves in a small circle (epicycle).
-            The center of this epicycle moves along a larger circular path (deferent) around Earth.
-            This complex system allowed planets to appear to move backward (retrograde) while still following circular motion.
-        ~4: Use an Equant to Adjust for Observational Data:
-            Since planets did not appear to move at constant speeds, Ptolemy introduced the equant: a point offset from Earth where motion appears uniform.
-            This allowed for better agreement with observations while maintaining circular orbits.
-        ~5: Mathematical Tables for Predictions:
-            Ptolemy compiled tables predicting planetary positions based on his model.
-            These were used for astrological, navigational, and religious calendar purposes.
-
-    ~EUCLID'S ELEMENTS is a comprehensive collection of mathematical principles and proofs, primarily focusing on geometry, number theory, and mathematical logic.
-        Definitions: Euclid begins with precise definitions of terms, such as points, lines, angles, and circles, laying the foundation for all subsequent propositions.
-        Postulates and Common Notions: He introduces five postulates (basic assumptions), such as the ability to draw a straight line between any two points, and five common notions (logical principles like "things equal to the same thing are equal to each other").
-        Logical Deduction and Proofs: Each book presents a series of propositions, each proved logically based on previous propositions, definitions, and postulates. This step-by-step approach builds a cumulative and interconnected framework of mathematical knowledge.
-        Systematic Organization: The Elements moves from simple geometric principles to more complex ideas. For example:
-            Books 1-6 cover plane geometry, including properties of triangles, parallelograms, and circles.
-            Books 7-9 deal with number theory, introducing concepts like prime numbers, greatest common divisors, and proportions.
-            Book 10 addresses irrational numbers.
-            Books 11-13 cover three-dimensional geometry, including properties of solids and culminating in the study of the five Platonic solids.
-        Rigorous Proof Structure: Each proof in the Elements follows a logical structure, demonstrating conclusions through deductive reasoning. This approach not only proves each proposition but also reinforces the logical consistency of the entire system.
-    
-    ~THEOPHRASTUS’ CHARACTERS: is a collection of thirty brief sketches describing different moral types or personality traits found in Athenian society.
-        1.  The Dissembler: Every word, and every action, of the Dissembler is an artifice by which he labors to conceal some evil intention…
-        2.  The Adulator: Adulation is the base converse of an inferior with one from whom he seeks some sordid advantage.
-        3.  The Garrulous: Garrulity is an effusion of prolix and unpremeditated discourse.
-        4.  The Rustic: Rusticity is an unconsciousness of things indecorous.
-        5.  The Plausible: He who would fain please all the world is one who habitually sacrifices virtues to blandishments.
-        6.  The Ruffian: The Ruffian is distinguished by the recklessness with which he perpetrates or witnesses atrocities.
-        7.  The Loquacious: The loquacious man, whatever you may be talking of, presently interrupts you…
-        8.  The Fabricator of News: It is to gratify his love of the marvellous that this man spends his life in the invention and propagation of falsehoods.
-        9.  The Sordid: The man is justly called a lover of filthy lucre to whom the relish and value of a gain is enhanced by the baseness of the means that have been employed in its acquisition…
-        10. The Shameless: The union of avarice and audacity produces a total disregard of decency and reputation…
-        11. The Parsimonious: Parsimony is an excessive and unreasonable sparing of expense.
-        12. The Impure: This man is everywhere to be known by the open and scandalous grossness of his manners; he wilfully offends the eye of modesty…
-        13. The Blunderer: He whose words and actions, though they may be well intended, are never well timed, is a most troublesome companion…
-        14. The Busybody: In the proffered services of the Busybody there is much of the affectation of kindheartedness, and little efficient aid…
-            “The busybody is like a spy, who is always prying into other people’s affairs.” - Theophrastus, Characters
-        15. The Stupid: There is a sluggishness of mind in some persons which occasions them perpetually to stumble into absurdities of language or behavior…
-        16. The Morose: A malignant temper sometimes vents itself chiefly in ferocity of language…
-        17. The Superstitious: Superstition is a desponding fear of divinities.
-        18. The Petulant: A petulant temper will make occasion, where it cannot find reason, for murmurings and rebukes…
-        19. The Suspicious: The suspicious man imputes a fraudulent intention to every one with whom he has to do…
-        20. The Filthy: This fellow neglects his person till he becomes a nuisance to all about him…
-        21. The Disagreeable: It is perhaps easier to bear with a neighbor, from whom we occasionally receive some serious injury, than with a constant companion, whose conversation is tedious, and whose manners are unpleasant.
-        22. The Vain: When ambition is the ruling passion of a vulgar mind, it shows itself in the eager pursuit of frivolous distinctions.
-        23. The Penurious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
-        24. The Ostentatious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
-        25. The Proud: The proud man regards the whole human race with contempt; himself excepted…
-            “The boaster is like a trumpet that makes a great noise, but produces nothing of value.” - Theophrastus, Characters
-        26. The Fearful: There is in some men a constitutional dejection of the spirits, which renders them liable to the constant tyranny of fear…
-        27. The Old Trifler: This foolish fellow, although he is threescore; would ſain distinguish himself in accomplishments and exercises proper only to youth…
-        28. The Detractor: The Detractor utters not a word that does not betray the malignancy of his soul…
-        29. The Oligarch: An arrogant desire to dominate over his fellows appears in the opinions, the conduct, and the manners of this partisan of despotism…
-        30. The Malignant: Some men love and pursue evil, purely for its own sake, with an eager relish. A man of this temper seeks his element amid the turbulences of public life…
-        : How was Characters developed? Theophrastus constructed Characters by following a systematic method influenced by Aristotle's approach to classification:
-            Observation: He closely studied people in Athenian society and categorized recurring behavioral patterns.
-            Definition: Each character type is introduced with a general definition.
-            Enumeration of traits: A list of typical behaviors and examples follows, illustrating the character type in different situations.
-            Implicit ethical critique: While not explicitly moralizing, the work implicitly encourages readers to reflect on and judge these vices.
-            Use of contrast and humor: The exaggerated nature of these descriptions makes them both instructive and entertaining.
 
 ##################################################################################################################################################################################################################
 ~GAME-MECHANICS:
-    ~1: Introduce New Related Word Group, typically based on common Latin or Greek roots.
-    ~2: Break down root and affixes, along with usage examples in sentences.
-    ~3: Match words to their definitions, use them in sentences, or choose the correct word in a given context
-    ~4: Provides the correct answers and explanations.
-    ~5: Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-    ~6: goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
+    : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+    : Break down root and affixes, along with usage examples in sentences.
+    : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+    : Provides the correct answers and explanations.
+    : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+    : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
         : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
         : Train, Battle: a balanced team/army
         : Classes: Farmers, Artists, Merchants, Military, Emperor
@@ -413,22 +388,6 @@
     7. New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
     8. Announcements: Members share relevant updates, reminders, or upcoming events.
     9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-        : WHAT: ManGa/Comics, Films, Games, Facts/Correctness
-        : WHO: ARIEL C. CASAPAO JR.
-        : WHERE: arielccjr.com | Edmonton, Alberta, Canada
-        : WHEN: 9:00-17:00, Monday to Saturday
-        : HOW: By My Offer = Art & Creative Directing =
-            ~0: Researching (Gathering Assets, References, Story-Writing)
-            ~1: Sketching
-            ~2: Clean Lining|
-            ~3: Coloring
-            ~4: Sculpting (3D)
-            Additional Services:
-                ~Sound Effect/Composing
-                ~Animation/Video Editing
-                ~Marketing
-        : WHY: For the Lord.
-            ~For your Vision is by my Creation.
 
 ################################################################################################################################################################################################################
 HOW COMPUTER VISION BE?
@@ -793,4 +752,214 @@ How Does Energy Conversion Occur from Food to Reproduction (By What Steps)?
         Step 5: Use any frustration as motivation, allowing sexual energy to fuel personal, creative, or professional growth.
 
 ############################################################################################################
+~ARISTOTLE'S NICOMACHEAN ETHICS: is Aristotle’s foundational work on virtue ethics, focusing on how individuals should live to achieve eudaimonia (flourishing or happiness). It explores the nature of virtue, character, and moral responsibility, arguing that the highest human good is a life lived in accordance with reason and virtue.
+    : Why Did Aristotle Write Nicomachean Ethics? (For What Risks Did He Address?)
+        Aristotle sought to answer the question: What is the highest good for human beings? The primary risk he addresses is moral and intellectual corruption—that without a clear understanding of virtue, people may lead lives of vice, excess, or deficiency, causing personal and societal disorder.
+        Risks Aristotle addresses include:
+            Moral Confusion – Not understanding what is truly good leads to seeking pleasure or wealth as the ultimate goal.
+            Ethical Relativism – The danger of believing that moral values are purely subjective or conventional.
+            Imbalanced Life – The failure to develop virtues leads to either excess or deficiency, disrupting harmony in life.
+            Political Instability – A society without virtuous citizens and rulers becomes unjust and chaotic.
+    : How Does Aristotle Solve This? Aristotle approaches ethics systematically using teleological reasoning (everything has a purpose or goal). 
+        His method follows these logical steps:
+        Step 1: Define the Highest Good (Eudaimonia)
+            The ultimate goal of human life is eudaimonia (flourishing or happiness).
+            Eudaimonia is not just pleasure, wealth, or honor, but a life of rational activity in accordance with virtue.
+        Step 2: Identify the Role of Virtue (Arete)
+            Virtue is the state of character that enables a person to act well.
+            It is achieved through a mean between two extremes (the Doctrine of the Mean):
+            Courage (between rashness and cowardice).
+            Temperance (between indulgence and insensibility).
+            Generosity (between wastefulness and stinginess).
+        Step 3: Distinguish Between Two Types of Virtue
+            Moral Virtues (developed through habit and practice):
+            Examples: Courage, temperance, justice.
+            Intellectual Virtues (developed through education and reason):
+            Examples: Wisdom (Sophia), Understanding (Nous), Practical Reason (Phronesis).
+        Step 4: Explain the Role of Practical Wisdom (Phronesis)
+            Phronesis (Practical Wisdom) guides moral virtue by:
+            Applying reason to moral decisions.
+            Choosing actions that align with virtue.
+            Balancing emotions and desires appropriately.
+        Step 5: Emphasize the Importance of Habit
+            Virtue is not innate but developed through consistent moral practice.
+            Repeated virtuous actions shape one’s character (like a musician developing skill through practice).
+            Step 6: Connect Individual Ethics to Politics
+            The flourishing of an individual is linked to the flourishing of society.
+            A just society must cultivate virtuous citizens through laws and education.
 
+~ARISTOTLE'S PHYSICS: is a philosophical and scientific examination of the natural world, where he investigates motion, change, space, time, and the causes behind physical phenomena. It is not "physics" in the modern sense but rather a study of nature (physis) as a whole.
+    : Why did Aristotle write Physics? (For What Risks?) Aristotle sought to answer fundamental questions about change, motion, and causality to provide a structured understanding of nature. Without such a foundation, human understanding would be at risk of falling into two extremes:
+        Platonism: Over-reliance on abstract forms without grounding in empirical reality.
+        Materialism: Denying teleology (purpose) and seeing nature as purely mechanistic.
+        Risks Addressed:
+            Preventing misunderstanding of causality and motion.
+            Avoiding reductionist views of nature.
+            Providing a rational method for explaining change and continuity in the physical world.
+    : How does Aristotle solve the problem? (By What Logical Steps?) Aristotle approaches Physics through logical and observational analysis, structuring his argument with four key principles:
+        Step 1: Define Nature and Motion
+            Nature (physis) is a principle of motion and change inherent in things.
+            Motion (kinesis) is the actualization of a potential state (e.g., a seed becoming a tree).
+            Rejects Plato’s idea that Forms exist separately from physical things.
+        Step 2: Establish the Four Causes (Causal Explanation)
+            Aristotle introduces the Four Causes, which explain why things change:
+            Material Cause: What something is made of (e.g., wood for a chair).
+            Formal Cause: The shape or essence that defines it (e.g., the design of the chair).
+            Efficient Cause: The agent or process that brings it into being (e.g., the carpenter).
+            Final Cause (Teleology): The purpose or end goal (e.g., sitting).
+            This framework ensures that all aspects of motion and change are accounted for.
+        Step 3: Identify the Principles of Motion and Change
+            Aristotle argues that motion requires an unmoved mover (pure actuality) to prevent an infinite regress of causes. This idea later influenced the concept of God in medieval philosophy.
+        Step 4: Discuss Place, Space, and Time
+            Place: The immediate boundary containing an object.
+            Void: He rejects the existence of a vacuum, believing nature abhors emptiness.
+            Time: Defined as the measure of motion relative to before and after.
+            Step 5: Explain Natural vs. Violent Motion
+            Natural motion: Things move according to their nature (e.g., fire rises, stones fall).
+            Violent motion: Requires an external force (e.g., pushing a rock).
+            This later influenced medieval and early modern physics, though Newtonian mechanics replaced it with inertia and external force dynamics.
+
+~ARISTOTLE'S METAPHYSICS: is a philosophical work that investigates being qua being—meaning "being as being" or "the study of existence itself." It explores fundamental principles of reality, including substance, cause, form, matter, potentiality, and actuality. Aristotle aims to discover the first principles and causes of all things, making Metaphysics the foundation of philosophy and science.
+    : Why was it written? (For What Risks): Aristotle sought to counter Plato’s theory of Forms, which posited that true reality exists in a separate, immaterial world of perfect Forms.
+        He wanted to establish a rational, structured system for understanding reality based on first principles and causality.
+        The risks of ignoring metaphysics:
+        Falling into relativism, where truth is subjective.
+        Being unable to distinguish substance from appearance.
+        Misunderstanding the causes of things, leading to errors in science, ethics, and theology.
+    : How does Aristotle solve the problem?: Aristotle’s solution is structured through four logical steps:
+        Step 1: The Study of Being Qua Being
+            Unlike other sciences, which study particular beings, Metaphysics studies being itself.
+            He examines what it means for something to exist.
+        Step 2: The Doctrine of Substance
+            Aristotle identifies substance (ousia) as the fundamental reality.
+            Everything is a composite of matter (hyle) and form (eidos).
+            Example: A statue is matter (marble) shaped into a form (a figure of a man).
+        Step 3: The Four Causes (Explaining Change and Existence)
+            Aristotle defines four types of causes to explain why something exists:
+            Material Cause – What it is made of (e.g., wood for a table).
+            Formal Cause – The structure or essence (e.g., the design of the table).
+            Efficient Cause – The agent that brought it into being (e.g., the carpenter).
+            Final Cause – The purpose or goal (e.g., to be used for dining).
+        Step 4: Potentiality and Actuality
+            Aristotle explains change (motion) and existence using the concepts of:
+            Potentiality (dynamis): The capacity to become something.
+            Actuality (energeia): The realization of that capacity.
+            Example: An acorn has the potential to become an oak tree; once it grows, it reaches actuality.
+
+~NICOMACHUS’ INTRODUCtioN TO ARITHMETIC is one of the earliest comprehensive works on arithmetic, presenting both the philosophical and practical aspects of numbers and their properties.
+        The text covers key arithmetic concepts like odd and even numbers, prime numbers, ratios, and mathematical proportions, providing one of the earliest systematic treatments of these topics.
+        It also discusses number theory, using both theory and example to delve into the nature of numbers.
+    Why (For What Purpose)
+        Purpose: Nicomachus aimed to present a structured view of arithmetic and its theoretical foundations, aiming to make the study of numbers accessible and meaningful to both scholars and non-specialists.
+        He sought to illustrate the philosophical and almost mystical significance of numbers, drawing connections between mathematical principles and universal order.
+        Additionally, Nicomachus believed that understanding numbers had moral and ethical dimensions, aligning with the Pythagorean belief that numbers held the key to understanding the universe.
+    How (By What Method or Steps)
+        Basic Definitions: Nicomachus begins by defining numbers and exploring basic concepts like odd, even, prime, and composite numbers.
+        Categories and Properties of Numbers: He categorizes numbers into types, introducing ideas like "triangular numbers" and "perfect numbers" (numbers equal to the sum of their divisors).
+        Ratios and Proportions: A large part of the work deals with ratios, particularly geometric and harmonic means, and their applications, which were essential for Greek mathematics.
+        Philosophical Connections: Throughout, Nicomachus emphasizes the relationship between numbers and the cosmos, often invoking Pythagorean views of numbers as the principles of all reality.
+        Didactic Approach: The book was likely meant as an educational tool, using examples and explanations to help students comprehend abstract concepts.
+
+~EUCLID'S ELEMENTS is a comprehensive collection of mathematical principles and proofs, primarily focusing on geometry, number theory, and mathematical logic.
+        It consists of 13 books covering topics such as plane geometry, number theory, irrational numbers, and the properties of three-dimensional figures.
+        The work is structured logically, beginning with basic definitions, postulates, and common notions, progressing through propositions and theorems.
+    Why:
+        Purpose: Euclid aimed to create a structured, logically consistent, and comprehensive system for understanding geometry and number theory.
+        He also sought to ensure that mathematical knowledge was rooted in rigorous logical proofs, aiming to eliminate any ambiguities or assumptions not based on clear reasoning.
+        Euclid’s method had a lasting impact on the development of mathematics, as the Elements became the basis for mathematical study and teaching for centuries.
+    How (By What Method or Steps)
+        Definitions: Euclid begins with precise definitions of terms, such as points, lines, angles, and circles, laying the foundation for all subsequent propositions.
+        Postulates and Common Notions: He introduces five postulates (basic assumptions), such as the ability to draw a straight line between any two points, and five common notions (logical principles like "things equal to the same thing are equal to each other").
+        Logical Deduction and Proofs: Each book presents a series of propositions, each proved logically based on previous propositions, definitions, and postulates. This step-by-step approach builds a cumulative and interconnected framework of mathematical knowledge.
+        Systematic Organization: The Elements moves from simple geometric principles to more complex ideas. For example:
+            Books 1-6 cover plane geometry, including properties of triangles, parallelograms, and circles.
+            Books 7-9 deal with number theory, introducing concepts like prime numbers, greatest common divisors, and proportions.
+            Book 10 addresses irrational numbers.
+            Books 11-13 cover three-dimensional geometry, including properties of solids and culminating in the study of the five Platonic solids.
+        Rigorous Proof Structure: Each proof in the Elements follows a logical structure, demonstrating conclusions through deductive reasoning. This approach not only proves each proposition but also reinforces the logical consistency of the entire system.
+
+~PTOLEMY'S ALMAGEST (originally titled Mathematike Syntaxis, meaning "The Mathematical Compilation") is an astronomical treatise that describes the motions of the stars and planets, providing a detailed geocentric model of the cosmos.
+        It introduces a mathematical model for predicting planetary motions based on epicycles and deferents, which place the Earth at the center of the universe.
+        The Almagest includes observations, mathematical proofs, and calculations for predicting celestial phenomena.
+    Why (For What Purpose)
+        Purpose: Ptolemy aimed to create a comprehensive, mathematically rigorous model for understanding and predicting the movements of celestial bodies, especially the erratic motions of the planets.
+        The Almagest was intended as a definitive guide for astronomers and mathematicians, consolidating and building upon previous Greek astronomical knowledge.
+        By providing accurate predictions of celestial phenomena, Ptolemy’s work served as a practical tool for timekeeping, navigation, and the study of the heavens, which had cultural, religious, and scientific significance.
+    How (By What Method or Steps)
+        Geocentric Model: The Almagest establishes a geocentric (Earth-centered) model of the universe, where all heavenly bodies revolve around the Earth.
+        Epicycles and Deferents: Ptolemy uses the concept of epicycles (small circular orbits) and deferents (larger circles centered on Earth) to explain the irregular movements of planets. These elements allow for the apparent retrograde motion of planets while maintaining a circular motion.
+        Trigonometric Calculations: Ptolemy includes an early trigonometric table in the form of chords, which was essential for calculating planetary positions.
+        Catalog of Stars: He compiled a star catalog listing over a thousand stars with their positions in relation to the constellations, based on his observations and those of earlier astronomers, especially Hipparchus.
+        Detailed Observations and Theories: The Almagest is divided into 13 books:
+            Books 1-2: Introduce basic principles, including Ptolemy's geocentric model and theories on the motion of celestial bodies.
+            Books 3-5: Describe the motion of the Sun and the Moon and provide mathematical models for eclipses.
+            Books 6-7: Include a catalog of stars and cover the fixed stars and constellations.
+            Books 8-13: Present detailed models and calculations for each of the planets, incorporating epicycles and deferents to predict their positions.
+        Mathematical Rigor: Ptolemy supports his models with mathematical proofs and observational data, providing systematic calculations for predicting planetary and stellar positions.
+
+~PTOLEMY'S ASTRONOMY: refers to the geocentric model of the universe, where Earth is at the center, and all celestial bodies (Sun, Moon, planets, and stars) move around it. This model, also called the Ptolemaic system, was described in his work, the Almagest. The system was based on the idea of perfect circular motion and used epicycles and deferents to explain planetary motion.
+    : Why? (For What Risks Was It Created?)
+        To Predict Celestial Motion: Ptolemy’s system aimed to accurately predict the positions of the Sun, Moon, and planets for calendar-making, navigation, and astrology.
+        To Maintain Philosophical & Religious Harmony: The model aligned with Aristotelian physics and the religious belief in a divine, ordered cosmos, which was widely supported by the Church in later centuries.
+        To Resolve the Problem of Planetary Retrograde Motion: Planets appeared to move backward (retrograde) at times, which needed an explanation within a geocentric framework.
+        Risks If Unsolved:
+            Inaccurate Calendars & Navigation: Errors in planetary predictions could lead to misguided agriculture, religious observances, and sea travel.
+            Scientific Disruption: A failure to explain celestial movements might have led to doubt in the philosophical and theological worldview of the time.
+            Challenges to Aristotelian Physics: The natural order of circular motion was a core belief, and failure to reconcile planetary motion with it would question broader scientific ideas.
+    : How? Ptolemy’s system was built through mathematical refinements using these logical steps:
+        ~1: Postulate a Geocentric Universe:
+            Earth is at rest and does not move.
+            The celestial sphere, holding the stars, rotates around Earth.
+        ~2: Introduce Uniform Circular Motion:
+            Following Plato and Aristotle, Ptolemy assumed that celestial bodies move in perfect circles because circles are "divine" and "unchanging."
+        ~3: Account for Retrograde Motion Using Epicycles:
+            Each planet moves in a small circle (epicycle).
+            The center of this epicycle moves along a larger circular path (deferent) around Earth.
+            This complex system allowed planets to appear to move backward (retrograde) while still following circular motion.
+        ~4: Use an Equant to Adjust for Observational Data:
+            Since planets did not appear to move at constant speeds, Ptolemy introduced the equant: a point offset from Earth where motion appears uniform.
+            This allowed for better agreement with observations while maintaining circular orbits.
+        ~5: Mathematical Tables for Predictions:
+            Ptolemy compiled tables predicting planetary positions based on his model.
+            These were used for astrological, navigational, and religious calendar purposes.
+
+~THEOPHRASTUS’ CHARACTERS: is a collection of thirty brief sketches describing different moral types or personality traits found in Athenian society.
+    1.  The Dissembler: Every word, and every action, of the Dissembler is an artifice by which he labors to conceal some evil intention…
+    2.  The Adulator: Adulation is the base converse of an inferior with one from whom he seeks some sordid advantage.
+    3.  The Garrulous: Garrulity is an effusion of prolix and unpremeditated discourse.
+    4.  The Rustic: Rusticity is an unconsciousness of things indecorous.
+    5.  The Plausible: He who would fain please all the world is one who habitually sacrifices virtues to blandishments.
+    6.  The Ruffian: The Ruffian is distinguished by the recklessness with which he perpetrates or witnesses atrocities.
+    7.  The Loquacious: The loquacious man, whatever you may be talking of, presently interrupts you…
+    8.  The Fabricator of News: It is to gratify his love of the marvellous that this man spends his life in the invention and propagation of falsehoods.
+    9.  The Sordid: The man is justly called a lover of filthy lucre to whom the relish and value of a gain is enhanced by the baseness of the means that have been employed in its acquisition…
+    10. The Shameless: The union of avarice and audacity produces a total disregard of decency and reputation…
+    11. The Parsimonious: Parsimony is an excessive and unreasonable sparing of expense.
+    12. The Impure: This man is everywhere to be known by the open and scandalous grossness of his manners; he wilfully offends the eye of modesty…
+    13. The Blunderer: He whose words and actions, though they may be well intended, are never well timed, is a most troublesome companion…
+    14. The Busybody: In the proffered services of the Busybody there is much of the affectation of kindheartedness, and little efficient aid…
+        “The busybody is like a spy, who is always prying into other people’s affairs.” - Theophrastus, Characters
+    15. The Stupid: There is a sluggishness of mind in some persons which occasions them perpetually to stumble into absurdities of language or behavior…
+    16. The Morose: A malignant temper sometimes vents itself chiefly in ferocity of language…
+    17. The Superstitious: Superstition is a desponding fear of divinities.
+    18. The Petulant: A petulant temper will make occasion, where it cannot find reason, for murmurings and rebukes…
+    19. The Suspicious: The suspicious man imputes a fraudulent intention to every one with whom he has to do…
+    20. The Filthy: This fellow neglects his person till he becomes a nuisance to all about him…
+    21. The Disagreeable: It is perhaps easier to bear with a neighbor, from whom we occasionally receive some serious injury, than with a constant companion, whose conversation is tedious, and whose manners are unpleasant.
+    22. The Vain: When ambition is the ruling passion of a vulgar mind, it shows itself in the eager pursuit of frivolous distinctions.
+    23. The Penurious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
+    24. The Ostentatious: The absurd vanity of the purse proud man leads him to make as many false pretensions to wealth as the veriest knave who lives by seeming to be what he is not…
+    25. The Proud: The proud man regards the whole human race with contempt; himself excepted…
+        “The boaster is like a trumpet that makes a great noise, but produces nothing of value.” - Theophrastus, Characters
+    26. The Fearful: There is in some men a constitutional dejection of the spirits, which renders them liable to the constant tyranny of fear…
+    27. The Old Trifler: This foolish fellow, although he is threescore; would ſain distinguish himself in accomplishments and exercises proper only to youth…
+    28. The Detractor: The Detractor utters not a word that does not betray the malignancy of his soul…
+    29. The Oligarch: An arrogant desire to dominate over his fellows appears in the opinions, the conduct, and the manners of this partisan of despotism…
+    30. The Malignant: Some men love and pursue evil, purely for its own sake, with an eager relish. A man of this temper seeks his element amid the turbulences of public life…
+    
+    : How was Characters developed? Theophrastus constructed Characters by following a systematic method influenced by Aristotle's approach to classification:
+        Observation: He closely studied people in Athenian society and categorized recurring behavioral patterns.
+        Definition: Each character type is introduced with a general definition.
+        Enumeration of traits: A list of typical behaviors and examples follows, illustrating the character type in different situations.
+        Implicit ethical critique: While not explicitly moralizing, the work implicitly encourages readers to reflect on and judge these vices.
+        Use of contrast and humor: The exaggerated nature of these descriptions makes them both instructive and entertaining.

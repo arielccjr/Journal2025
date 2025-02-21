@@ -40,38 +40,39 @@
     : Brute Force, Selection, Merge, Dijkstra... 
 
 ~FREE-WILL: STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-        ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
-           : Categorize:
-                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
-                : WORD: PARSE/ETYMOLOGY
-                    : Roots: Fact/Known
-                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
-                        : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
-                    : Fixes: Position-Lodial
-                : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
-                    : Letters/Spells, 
-                    : Metals, Conductors,
-                    : Light: GEOMETRY (EUCLID)
-                    : Sound: MUSIC (BOETHIUS)
-                    : Motion: PHYSICS (ARISTOTLE)
-                    : Energy: path cost function: number of steps in proof
-                        : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-                        : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                        : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
-                            : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-       
-        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
-            : ARISTOTLE'S NICHOMACHEAN ETHICS
-            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
-            : NOW-SPACE 
-            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
-            : List: Queue/Stack, 
-            : LOGIC-ARITHMETIC = -1, 0, +1
-                : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
-                : Logic: NOT, AND, OR
+    : DEDUCTIVE REASONING / DECODING
+    ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+        : Categorize:
+            : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
+            : WORD: PARSE/ETYMOLOGY
+                : Roots: Fact/Known
+                    : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                    : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                    : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                    : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
+                : Fixes: Position-Lodial
+            : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
+                : Letters/Spells, 
+                : Metals, Conductors,
+                : Light: GEOMETRY (EUCLID)
+                : Sound: MUSIC (BOETHIUS)
+                : Motion: PHYSICS (ARISTOTLE)
+                : Energy: path cost function: number of steps in proof
+                    : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                    : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                    : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
+                        : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+    
+    ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
+        : ARISTOTLE'S NICHOMACHEAN ETHICS
+        : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+        : NOW-SPACE 
+        : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+        : List: Queue/Stack, 
+        : LOGIC-ARITHMETIC = -1, 0, +1
+            : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+            : Logic: NOT, AND, OR
     
     : Computer: Central/Graphical Processing Unit (C/GPU) >>> Transistors
         : Clock
@@ -189,7 +190,6 @@
             P(A∣B)=P(A∩B)P(B)
             P(A∣B)=P(B)P(A∩B)​ 
         : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
-
         : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
         : Probability Rules:
             : Negation
@@ -336,28 +336,7 @@
             Data recovery must occur within 2 hours after a system crash (Recoverability).
             The system should respond to user requests within 2 seconds (Performance).
     
-    ~COMPARISON: Functional vs. Non-Functional Requirements
-        Aspect	    Functional Requirements	                                Non-Functional Requirements
-        What it defines	What the system does.	                            How the system performs its tasks.
-        Focus	    Features and user requirements.                         System quality and operational attributes.
-        Examples	Transaction processing, authentication, audit tracking. Performance, scalability, reliability, usability.
-        Impact	    System won’t function if unmet.	                        System still functions, but quality may be compromised.
-        Testing	    Validate features and tasks.	                        Validate performance and reliability under different conditions.
-        Conclusion:
-        Why Both Are Important:
-            Functional Requirements ensure the system performs its intended tasks.
-            Non-Functional Requirements ensure the system performs efficiently, securely, and reliably, improving user satisfaction and long-term operational success.
-        How to Address Both:
-            Document functional requirements first to define system behavior.
-            Develop non-functional requirements to establish quality standards.
-            Use iterative testing to ensure compliance with both types of requirements.
-    
     ~BUSINESS RULES: A business rule is a statement that defines or influences how a business operates. It governs decisions, processes, and behavior within an organization. Business rules:
-        Why (For What):
-            To maintain consistent operations and decision-making.
-            To enforce organizational policies and legal requirements.
-            To automate processes and reduce reliance on human judgment.
-            To create new knowledge by systematically applying rules to existing data.
         How (By What Logical Steps):
             Define the behavior or decision the rule governs.
             Observe and document implicit and explicit rules (some may not be written).
@@ -377,16 +356,14 @@
                 The customer is then checked in, satisfying the business rule.
         
         ~PROPERTIES OF A GOOD BUSINESS RULE: A good business rule should meet specific criteria to ensure clarity, enforceability, and alignment with business objectives.
-            Why (For What): To ensure rules are actionable, clear, and relevant to organizational goals.
-            How (By What Logical Steps):
-                Atomic: Ensure the rule focuses on a single concept or action.
-                    Example: "We only ship complete orders."
-                Declarative: Specify when and how the rule applies.
-                    Example: "Before a work order can be completed, a customer’s information must be collected."
-                Precise: Avoid ambiguity or multiple interpretations.
-                    Example: "Any customer that owes more than $5,000 cannot place new orders."
-                Justified: Confirm the rule supports business objectives.
-                Authorized: Ensure the rule is created by someone with decision-making authority.
+            Atomic: Ensure the rule focuses on a single concept or action.
+                Example: "We only ship complete orders."
+            Declarative: Specify when and how the rule applies.
+                Example: "Before a work order can be completed, a customer’s information must be collected."
+            Precise: Avoid ambiguity or multiple interpretations.
+                Example: "Any customer that owes more than $5,000 cannot place new orders."
+            Justified: Confirm the rule supports business objectives.
+            Authorized: Ensure the rule is created by someone with decision-making authority.
         
         ~BUSINESS RULE EXAMPLES: Practical examples that demonstrate how business rules guide actions and processes.
             Examples:
@@ -526,17 +503,16 @@
             Assess the impact of each event on the project.
             Develop mitigation strategies to lower the likelihood of occurrence.
             Develop contingency plans to reduce the impact if the event occurs.
-    
-    Creating a Risk List: A risk list is a prioritized collection of potential project risks, detailing their probability, impact, and mitigation/contingency plans.
-        Describe the risk event briefly (1–2 sentences).
-        Assign a probability (High, Medium, Low) to each risk.
-        Develop mitigation strategies to reduce the likelihood of high/medium probability risks.
-        Assess the impact (High, Medium, Low) of each risk.
-        Develop contingency plans to address the impact if the risk materializes.
-    Assessing Probability and Impact
-        Use a High, Medium, Low scale to categorize probability and impact.
-        Address high-probability and high-impact risks first.
-        Continuously re-evaluate risks as the project progresses.
+        Creating a Risk List: A risk list is a prioritized collection of potential project risks, detailing their probability, impact, and mitigation/contingency plans.
+            Describe the risk event briefly (1–2 sentences).
+            Assign a probability (High, Medium, Low) to each risk.
+            Develop mitigation strategies to reduce the likelihood of high/medium probability risks.
+            Assess the impact (High, Medium, Low) of each risk.
+            Develop contingency plans to address the impact if the risk materializes.
+        Assessing Probability and Impact
+            Use a High, Medium, Low scale to categorize probability and impact.
+            Address high-probability and high-impact risks first.
+            Continuously re-evaluate risks as the project progresses.
 
     : Example of a Risk Event
         Why (For What): To avoid delays and ensure the project stays on schedule.
@@ -545,6 +521,7 @@
             Assign Medium probability and High impact.
             Mitigate by ordering parts early in the project.
             Create a contingency plan to use existing parts temporarily.
+    
     : Structured Analysis: A traditional methodology for breaking down system functions into detailed processes.
         Why: To ensure thorough understanding and structured documentation.
         How: Use tools like DFDs and process models to detail workflows.
