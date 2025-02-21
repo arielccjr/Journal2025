@@ -1,56 +1,58 @@
-: FOR THE GIFT OF THE WORD.
-~TEMPLATE: 
-    ~TITLE:                     How do we know each other? How do we find closure?
-    ~INTRODUCE:
-        : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
-        : MEANING:              Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-        : THESIS:               This speech shares 
-                            we have free will — the ability to choose.”
-                                ~1: First, 
-                                ~2: Then,
-                                ~3: And finally, 
-        : TRANSITION:       First: why are we slaves of our passions? 
-    ~COUNTER THESIS: Topics and Fallacies
-        : Support:                      You probably "understand" the way I learn English:
-                                And you are probabaly right, because...
-                                First, we learn the letters, 
-                                Then, we memorize words, by the dictionary, if we care enough.
-                                And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
-                                    Subject, predicate.
-                                    Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
-                                    Past-tense, Future-tense.
-                                Most of the time, we learn new words by pop culture / daily conversation,
-                                
-                                "We never left 2nd-grade reading/comprehension level."
-                                "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
-                                "We are at the mercy of our lawyers for reaching closure."
-                                
-        : Transition:               But what if this is only half-true?
-                                What if there is another way? What if we can read / write the truth on our own?
-    ~SUPPORT THESIS:
-        : Introduction:         Computers 
-                                They process languages using arithmetic and logic unit.
-                                Breaking down images, sounds, and videos into 0s and 1s.
-                                Instead of using dictionary, we learn words by roots and fixes, by etymology.
-                                    For example, 
-                                And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
-                                
-        : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
-    ~REFUTE COUNTERARGUEMENTS:
-        : Main Refutation:
-        : Refute 1st:           We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
-                                Language are ambiguous, with many definition.
-                                Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
-                                Natural language 
-        : Transition:
-    ~CONCLUDE:
-        : QUESTION:             So, are we simply animals flowing along the current of passion, or do we have free will? 
-        : THESIS:               We are capable of both — of habits, but empowered to rise above them.
-        : Meaning:          This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
-        : Review Points:
-            Main Point 1:   Habits and instincts strongly influence our behavior.
-            Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-            Main Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
-        : Closing:          Ultimately, the power to choose defines what it means to be human. 
-                            Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
-                            Thank you, Mr. Toastmaster.
+: FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive Speech
+~TITLE:                     How do we know each other? How do we find closure?
+~INTRODUCTION (Exordium) – Establishes credibility (ethos) and engages the audience.
+    : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
+    : MEANING:              Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+    : THESIS:               This speech shares 
+                        we have free will — the ability to choose.”
+                            ~1: First, 
+                            ~2: Then,
+                            ~3: And finally, 
+    : TRANSITION:       First: why are we slaves of our passions? 
+
+~NARRATION (Narratio) – Presents background information and context.
+    : Support:                      You probably "understand" the way I learn English:
+                            And you are probabaly right, because...
+                            First, we learn the letters, 
+                            Then, we memorize words, by the dictionary, if we care enough.
+                            And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
+                                Subject, predicate.
+                                Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
+                                Past-tense, Future-tense.
+                            Most of the time, we learn new words by pop culture / daily conversation,
+                            
+                            "We never left 2nd-grade reading/comprehension level."
+                            "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
+                            "We are at the mercy of our lawyers for reaching closure."
+                            
+    : Transition:               But what if this is only half-true?
+                            What if there is another way? What if we can read / write the truth on our own?
+
+~PROOF (Confirmatio) – Develops logical (logos) arguments with supporting evidence.
+    : Introduction:         Computers 
+                            They process languages using arithmetic and logic unit.
+                            Breaking down images, sounds, and videos into 0s and 1s.
+                            Instead of using dictionary, we learn words by roots and fixes, by etymology.
+                                For example, 
+                            And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
+                            
+    : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+~REFUTATION (Refutatio) – Anticipates counterarguments and disproves them.
+    : Main Refutation:
+    : Refute 1st:           We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
+                            Language are ambiguous, with many definition.
+                            Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
+                            Natural language 
+    : Transition:
+
+~CONCLUSION (Peroratio) – Reinforces key points and leaves a lasting impression, often with pathos.E
+    : QUESTION:             So, are we simply animals flowing along the current of passion, or do we have free will? 
+    : THESIS:               We are capable of both — of habits, but empowered to rise above them.
+    : Meaning:          This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
+    : Review Points:
+        Main Point 1:   Habits and instincts strongly influence our behavior.
+        Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+        Main Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
+    : Closing:          Ultimately, the power to choose defines what it means to be human. 
+                        Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
+                        Thank you, Mr. Toastmaster.
