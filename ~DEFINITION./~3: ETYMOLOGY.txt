@@ -1,45 +1,42 @@
-# **OF THE ETYMOLOGY.**
+~OF THE ETYMOLOGY.**
+~LATIN: Latin Alphabet (A-Z):
+    The Latin alphabet has the same letters as the English alphabet but carries meanings rooted in its Classical and Phoenician origins.
+    : Letter  Meaning or Symbolism:
+        A	"Aleph" (ox): Strength, beginnings, leadership.
+        B	"Beth" (house): Shelter, duality, containment.
+        C	"Gimel" (camel): Movement, flexibility, growth.
+        D	"Daleth" (door): Entryway, transition, change.
+        E	Energy, sound clarity, openness.
+        F	Force, vitality, power (from "Vav," nail or hook).
+        G	Guidance, guarding (a later addition in Latin).
+        H	Harmony, breath, boundaries (from "Heth").
+        I	Individuality, simplicity (from "Yod," hand).
+        J	Joy, journey (a variant of "I" in Latin script).
+        K	Kinetic energy, clarity (rare in Latin but symbolic).
+        L	Light, elevation (from "Lamed," staff or ox goad).
+        M	Motherhood, water, nurturing (from "Mem," water).
+        N	Continuity, growth (from "Nun," fish).
+        O	Wholeness, infinity (from "Ayin," eye).
+        P	Progress, vision, openness (from "Pe," mouth).
+        Q	Query, uniqueness, questioning.
+        R	Head, leadership, direction (from "Resh," head).
+        S	Smoothness, change, flow.
+        T	Truth, stability, transformation (from "Taw," mark).
+        U	Unity, wholeness (later added from "V").
+        V	Vitality, sharpness (early Latin "V" was also a vowel).
+        W	Wonder, width, expansion (a double "V").
+        X	Crossroads, the unknown, marking.
+        Y	Branching, questioning (later added for Greek sounds).
+        Z	Zenith, finality (introduced for Greek "Zeta").
 
-## ~LATIN: 
-### : Latin Alphabet (A-Z):
-The Latin alphabet has the same letters as the English alphabet but carries meanings rooted in its Classical and Phoenician origins.
-
-### : Letter  Meaning or Symbolism:
-    A	"Aleph" (ox): Strength, beginnings, leadership.
-    B	"Beth" (house): Shelter, duality, containment.
-    C	"Gimel" (camel): Movement, flexibility, growth.
-    D	"Daleth" (door): Entryway, transition, change.
-    E	Energy, sound clarity, openness.
-    F	Force, vitality, power (from "Vav," nail or hook).
-    G	Guidance, guarding (a later addition in Latin).
-    H	Harmony, breath, boundaries (from "Heth").
-    I	Individuality, simplicity (from "Yod," hand).
-    J	Joy, journey (a variant of "I" in Latin script).
-    K	Kinetic energy, clarity (rare in Latin but symbolic).
-    L	Light, elevation (from "Lamed," staff or ox goad).
-    M	Motherhood, water, nurturing (from "Mem," water).
-    N	Continuity, growth (from "Nun," fish).
-    O	Wholeness, infinity (from "Ayin," eye).
-    P	Progress, vision, openness (from "Pe," mouth).
-    Q	Query, uniqueness, questioning.
-    R	Head, leadership, direction (from "Resh," head).
-    S	Smoothness, change, flow.
-    T	Truth, stability, transformation (from "Taw," mark).
-    U	Unity, wholeness (later added from "V").
-    V	Vitality, sharpness (early Latin "V" was also a vowel).
-    W	Wonder, width, expansion (a double "V").
-    X	Crossroads, the unknown, marking.
-    Y	Branching, questioning (later added for Greek sounds).
-    Z	Zenith, finality (introduced for Greek "Zeta").
-
-### : Root-Words & Affixes:
+: Root-Words & Affixes:
 justice = 
     : ju = no law
     : s = speak
     : ti = title
     : ce = judge
 
-####    ~WHY-HOW: ACTIONS/OPERATIONS/BEING:
+~WHY-HOW: ACTIONS/OPERATIONS/BEING:
     : VERB: -ate, -ize, -fy (verb suffix)
     : par, aequus, equ- (equal)
         : homos (the same)
@@ -147,8 +144,7 @@ justice =
         : -ment (noun suffix attached to verbs)
     : -y (practice, custom)
 
-
-####    ~WHAT: KNOWN THINGS
+~WHAT: KNOWN THINGS
     : bios, vita (life)
     : soma (body)
         : osteon (bone)
@@ -210,7 +206,7 @@ justice =
         : xylon, boscus (wood)
         : sykon (fig)
 
-####    ~WHO: PERSONALITIES
+~WHO: PERSONALITIES
     : ego (self, I): "egoist"
         : autos (self)
         : unus (one)
@@ -272,7 +268,7 @@ justice =
         : (lizard)
         : ephemera (dayfly)
 
-####    ~WHERE: SPACE
+~WHERE: SPACE
     : platys, broad (flat)
     : metron, -meter (measure)
         : tele- (distance)
@@ -323,7 +319,7 @@ justice =
     : nomos (arrangement, law, order)
     : ubique (everywhere)
 
-####    ~WHEN: TIME
+~WHEN: TIME
     : chronos (time)
         : annus, enn- (year)
     : nihil (nothing)
@@ -366,64 +362,57 @@ justice =
 : ADVERB: -ly
  
 ###########################################################################################################
-## ~GREEK:
-The Greek letters often have meanings rooted in their shapes, cultural associations, or early pictorial origins (influenced by Phoenician symbols).
-Many letters carry abstract, mathematical, or spiritual connotations, particularly due to their later use in philosophy and science.
-
-### : Greek-Alphabet:
-####    : Letter	Name	Meaning
-    Α	Alpha	"Ox" or "Beginning"; symbolizes strength and leadership.
-    Β	Beta	"House"; represents shelter, structure, or foundation.
-    Γ	Gamma	"Camel"; symbolizes movement, travel, or support.
-    Δ	Delta	"Door"; signifies transition, entry, or change.
-    Ε	Epsilon	"Breath" or "Window"; represents clarity, perception, or enlightenment.
-    Ζ	Zeta	"Life"; denotes vitality or liveliness.
-    Η	Eta	"Hearth" or "Eight"; symbolizes warmth, energy, and balance.
-    Θ	Theta	"Circle" or "God"; represents eternity, divinity, or introspection.
-    Ι	Iota	"Hand" or "Small"; denotes simplicity, precision, or individuality.
-    Κ	Kappa	"Palm" or "Grasp"; signifies action, holding, or utility.
-    Λ	Lambda	"Shepherd's Staff"; represents guidance, direction, or elevation.
-    Μ	Mu	"Water"; symbolizes fluidity, change, and nurturing.
-    Ν	Nu	"Fish"; represents life, continuity, or movement.
-    Ξ	Xi	"Cut" or "Sharpness"; signifies division, differentiation, or focus.
-    Ο	Omicron	"Small Circle"; represents wholeness, unity, or completeness.
-    Π	Pi	"Perimeter" or "Enclosure"; denotes stability, structure, or foundation.
-    Ρ	Rho	"Head" or "River"; symbolizes leadership or flow.
-    Σ	Sigma	"Summation" or "Tooth"; represents accumulation, logic, or sharpness.
-    Τ	Tau	"Mark" or "Cross"; signifies truth, boundaries, or intersections.
-    Υ	Upsilon	"Cup" or "Support"; represents receptivity, holding, or balance.
-    Φ	Phi	"Circle with Line"; symbolizes harmony, nature, or the golden ratio.
-    Χ	Chi	"Cross"; denotes intersections, exchange, or balance.
-    Ψ	Psi	"Trident" or "Soul"; represents the mind, spirit, or deep introspection.
-    Ω	Omega	"End" or "Great"; symbolizes completion, finality, or the ultimate limit.
+~GREEK: Greek-Alphabet:
+    The Greek letters often have meanings rooted in their shapes, cultural associations, or early pictorial origins (influenced by Phoenician symbols).
+    Many letters carry abstract, mathematical, or spiritual connotations, particularly due to their later use in philosophy and science.
+    : Letter	Name	Meaning
+        Α	Alpha	"Ox" or "Beginning"; symbolizes strength and leadership.
+        Β	Beta	"House"; represents shelter, structure, or foundation.
+        Γ	Gamma	"Camel"; symbolizes movement, travel, or support.
+        Δ	Delta	"Door"; signifies transition, entry, or change.
+        Ε	Epsilon	"Breath" or "Window"; represents clarity, perception, or enlightenment.
+        Ζ	Zeta	"Life"; denotes vitality or liveliness.
+        Η	Eta	"Hearth" or "Eight"; symbolizes warmth, energy, and balance.
+        Θ	Theta	"Circle" or "God"; represents eternity, divinity, or introspection.
+        Ι	Iota	"Hand" or "Small"; denotes simplicity, precision, or individuality.
+        Κ	Kappa	"Palm" or "Grasp"; signifies action, holding, or utility.
+        Λ	Lambda	"Shepherd's Staff"; represents guidance, direction, or elevation.
+        Μ	Mu	"Water"; symbolizes fluidity, change, and nurturing.
+        Ν	Nu	"Fish"; represents life, continuity, or movement.
+        Ξ	Xi	"Cut" or "Sharpness"; signifies division, differentiation, or focus.
+        Ο	Omicron	"Small Circle"; represents wholeness, unity, or completeness.
+        Π	Pi	"Perimeter" or "Enclosure"; denotes stability, structure, or foundation.
+        Ρ	Rho	"Head" or "River"; symbolizes leadership or flow.
+        Σ	Sigma	"Summation" or "Tooth"; represents accumulation, logic, or sharpness.
+        Τ	Tau	"Mark" or "Cross"; signifies truth, boundaries, or intersections.
+        Υ	Upsilon	"Cup" or "Support"; represents receptivity, holding, or balance.
+        Φ	Phi	"Circle with Line"; symbolizes harmony, nature, or the golden ratio.
+        Χ	Chi	"Cross"; denotes intersections, exchange, or balance.
+        Ψ	Psi	"Trident" or "Soul"; represents the mind, spirit, or deep introspection.
+        Ω	Omega	"End" or "Great"; symbolizes completion, finality, or the ultimate limit.
 ###########################################################################################################
-##  ~HEBREW:
-
-### : Hebrew-Alphabet (Aleph-Bet):
-The Hebrew alphabet consists of 22 consonantal letters. Each letter has deep symbolic, spiritual, and numerical significance.
-
-### : Letter	Name	Meaning (Symbolism or Concept)
-    א	    Aleph	Ox, strength, leadership, unity.
-    ב	    Bet	House, shelter, creation.
-    ג	    Gimel	Camel, movement, giving, prosperity.
-    ד	    Daleth	Door, humility, transition.
-    ה	    Hei	Window, breath, revelation, divinity.
-    ו	    Vav	Nail, hook, connection, unity.
-    ז	    Zayin	Weapon, sustenance, struggle, defense.
-    ח	    Chet	Fence, life, protection, boundaries.
-    ט	    Tet	Basket, goodness, hidden potential.
-    י	    Yod	Hand, power, creation, divine spark.
-    כ / ך   Kaf	Palm, bending, receiving, submission.
-    ל	    Lamed	Staff, learning, guidance, elevation.
-    מ / ם   Mem	Water, wisdom, transformation, flow.
-    נ / ן   Nun	Fish, life, faithfulness, continuity.
-    ס	    Samekh	Support, protection, cycles.
-    ע	    Ayin	Eye, perception, insight, vision.
-    פ / ף	Pe	Mouth, speech, expression, communication.
-    צ / ץ	Tzadi	Hook, righteousness, humility.
-    ק	    Qof	Needle, holiness, cycles of time.
-    ר	    Resh	Head, leadership, beginnings.
-    ש	    Shin	Tooth, fire, divine presence, transformation.
-    ת	    Tav	Mark, truth, completion, covenant.
-
-###########################################################################################################
+~HEBREW: Hebrew-Alphabet (Aleph-Bet):
+    The Hebrew alphabet consists of 22 consonantal letters. Each letter has deep symbolic, spiritual, and numerical significance.
+    : Letter	Name	Meaning (Symbolism or Concept)
+        א	    Aleph	Ox, strength, leadership, unity.
+        ב	    Bet	House, shelter, creation.
+        ג	    Gimel	Camel, movement, giving, prosperity.
+        ד	    Daleth	Door, humility, transition.
+        ה	    Hei	Window, breath, revelation, divinity.
+        ו	    Vav	Nail, hook, connection, unity.
+        ז	    Zayin	Weapon, sustenance, struggle, defense.
+        ח	    Chet	Fence, life, protection, boundaries.
+        ט	    Tet	Basket, goodness, hidden potential.
+        י	    Yod	Hand, power, creation, divine spark.
+        כ / ך   Kaf	Palm, bending, receiving, submission.
+        ל	    Lamed	Staff, learning, guidance, elevation.
+        מ / ם   Mem	Water, wisdom, transformation, flow.
+        נ / ן   Nun	Fish, life, faithfulness, continuity.
+        ס	    Samekh	Support, protection, cycles.
+        ע	    Ayin	Eye, perception, insight, vision.
+        פ / ף	Pe	Mouth, speech, expression, communication.
+        צ / ץ	Tzadi	Hook, righteousness, humility.
+        ק	    Qof	Needle, holiness, cycles of time.
+        ר	    Resh	Head, leadership, beginnings.
+        ש	    Shin	Tooth, fire, divine presence, transformation.
+        ת	    Tav	Mark, truth, completion, covenant.

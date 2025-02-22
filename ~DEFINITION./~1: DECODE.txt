@@ -1,0 +1,827 @@
+: FOR THE GIFT OF THE WORD.
+~FLOW/MOTION-STATE/THE PATH OF LEAST RESISTANCE: HABIT-LOOP = STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
+    : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+    : IN-OUTPUT Devices/Peripherals + Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
+		: Camera        = Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
+		: Mic           = Speaker
+		: Keyb/Mouse    = Animation/Events
+		: Cooler        = Exhaust
+		: Power         = Heat
+    : TRIGGERS/CONDITIONALS: Enables decision-making in code. To perform actions based on conditions.
+        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
+    : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+        : While: Repeats while a condition is true. To handle indefinite iteration.
+        : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+        : For: Iterates a specific number of times. To handle definite iteration.
+        : Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
+        : Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
+    : RETURN Statement: Exits a function and optionally returns a value. To end execution and provide a result.
+        : Then/Else/Next... 
+    : DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
+        : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+        : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+        : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+        : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
+        ~1: Physical Layer: Data is sent as electrical/optical signals.
+        ~2: Data Link Layer: Packets are framed with Media Access Control (MAC) addresses.
+        ~3: Network Layer: Packets are assigned IP addresses and routed. Internet Protocol (IP)
+        ~4: Transport Layer: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
+        ~5: Session Layer: A session is established.
+        ~6: Presentation Layer: Data is encrypted.
+        ~7: Application Layer: Data (e.g., an email or web request) is created in a format users can understand.
+            : Data Payload (UDP): Data
+                : Domain Name System (DNS) + Web-Server Address: Universal Resource Locator (URL) + Hyperlinks
+                : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
+                    : Index: Frequency of Words
+                    : Hypertext Markup Language (HTML) + CSS
+    : Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
+
+~FREE-WILL: STOP-&-CORRECT / DEDUCTIVE REASONING / DECODING = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+    ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+        : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
+        : WORD: PARSE/ETYMOLOGY
+            : Roots: Fact/Known
+                : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
+            : Fixes: Position-Lodial
+        : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
+            : Letters/Spells, 
+            : Metals, Conductors,
+            : Light: GEOMETRY (EUCLID)
+            : Sound: MUSIC (BOETHIUS)
+            : Motion: PHYSICS (ARISTOTLE)
+            : Energy: path cost function: number of steps in proof
+                : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
+                    : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+    ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
+        : ARISTOTLE'S NICHOMACHEAN ETHICS
+        : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+        : NOW-SPACE 
+        : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+        : List: Queue/Stack, 
+        : LOGIC-ARITHMETIC = -1, 0, +1
+            : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+            : Logic: NOT, AND, OR
+
+~ARCHETYPES (TOPICS):
+    -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
+            : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
+            : DIVISION, LACKING
+        "SPOIL FOR-BY SOILVOID(-)."
+            : Disruptions, Damages, Uncontrolled Elements (Dice)
+            : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
+            : Low Health, Resource Scarcity/Finity, Bankruptcy
+        "BAIT/SACRIFICE FOR-BY MOTHERBEAST."
+            : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+            : NPCs, Requests/Puzzles, Opposition
+            : Alone, Low Population
+        "TRAP FOR-BY WILDWORLD."
+            : The Rat Race, 
+        "WAIT FOR-BY BIRTHSTART."
+            : Initial State, Beginning Again
+    +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
+            : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+            : Defuse or trigger the bomb.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+        "FRUIT FOR-BY SEEDWORD(+)."
+            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+            : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+            : Experience Points, Abilities/Stats, New Moves, Karma, 
+            : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+            : Mental Dictionary/Library, pokedex, Map, Contact List,
+            : Reviews
+        "SON FOR-BY FATHERGOD."
+            : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+                : Club Executives:
+                    : President / Chief Executive Officer
+                    : Vice Presidents / Chief Operating Officers:
+                        : VP Education
+                        : VP Membership
+                        : VP Public Relations
+                    : Treasurer / Chief Financial Officer
+                    : Secretary
+                    : Sergeant-at-Arms 
+            : Testimonials
+        "WAY FOR-BY KINGDOMHEAVEN."
+            : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+            : Build Structures/LEVELS: Balance scope budget, and schedule  
+                : NAVIGATION, Maps, Atmosphere, Weather,
+                : Progressing the game storyline and accessing new areas.
+                : better positioning on the map, better territory
+        "CHANCE FOR-BY DEATHEND."
+            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+            : Incorporation: December 1, 2024... 1-2 days per project
+            : PROGRESS = Tutorials, Saves, Updates: Journal?
+            : Battle Cycle: 1 move/turn at a time
+            : DEADLINE: Goal State, Completion
+                : Best of 7 Rounds
+                : Round-Time: 3 minutes
+            : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+
+~COMPUTER-HARDWARE:
+    : Computer: Central/Graphical Processing Unit (C/GPU) >>> Transistors
+        : Clock
+        : Permanent Memory: 
+            : Files System:
+                : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+                    : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+            : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                : Wave/Audio: Amplitude, Spectogram... 
+                : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+                : Character/Text/List/String = ASCII>UNICODE
+                : Number/Integer/Float= 
+                    : Scientific Notation; Negative Bit= 2^N-x
+                    : Null
+            : Knowledge(Known)/Facts:
+                :
+            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+                : Memory Address:
+                    : Pointer: Next Address Reference
+                    : Index
+                : Instruction
+        : Temporary Memory Registers:
+            : Instruction-Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
+                : Multiplexer: MUX = (a AND NOTsel) OR (sel AND b)
+                    : NOT (in=sel, out=NOTsel)
+                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                    : AND (in=sel, in=b, out=selANDb)
+                    : OR (in=aANDNOTsel, in=selANDb, out=out)
+                : Matrix >>> Gate >>> AND-OR Latch: Memory Address
+                    : AND (in=column, in=row, out=columnANDrow)
+                        : AND (in=data, in=write-enable, out=set)
+                        : NOT (in=data, out=NOTdata)
+                        : AND (in=NOTdata, in=write-enable, out=reset)
+                            : OR (in=set, in=outLOOP, out=setORoutLoop)
+                            : NOT (in=reset, out=NOTreset)
+                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
+                : Memory Register/Bit: 
+                    : OR-LOOP (in=a, in=b, out=1)
+                    : AND-LOOP (in=a, in=b, out=0) 
+            : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
+            : Registers A, B, C... for loading values temporarily. 
+        
+    ~CHOICE: STOP-&-CORRECT
+        : Arithmetic Unit = Half>Full>Multi-bit Adder:
+            : XOR (in=a, in=b, out=abSUM)
+                : AND (in=a, in=b, out=aANDb);
+                : NOT (in=aANDb, out=NOTaANDb);
+                : OR (in=a, in=b, out=aORb);
+                : AND (in=NOTaANDb, in=aORb, out=out);
+            : AND (in=a, in=b, out=abCARRY)
+                : >XOR (in=abSUM, in=c, out=abcSUM)
+                : >AND (in=abSUM, in=c, out=abcCARRY)
+                    ; >OR (in=abCARRY, in=abcBARRY, out=out)
+        : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
+        : Flags of Bits: 
+            : Overflow(>), Excess
+            : Zero(=), 
+            : Negative(<), Deficiency
+
+~COMPUTER-SCIENCE: ARTIFICIAL INTELLIGENCE = 
+    : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+        ~1: Define Initial State: Start with a known state.
+        ~2: Check Goal State: Verify if the current state meets the goal criteria.
+        ~3: Expand Nodes: Generate possible next states from the current state.
+        ~4: Store in Frontier: Maintain a list of unexplored nodes.
+        ~5: Use Search Strategy: Choose the next state based on the algorithm.
+        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+        ~7: Find Optimal Solution: Minimize path cost if applicable.
+            : DEPTH-FIRST SEARCH:
+                ~1: Push Initial State into Stack Frontier.
+                ~2: Loop until Solution or Empty Frontier:
+                    : Pop the last added node.
+                    : If goal state, return solution.
+                    : Otherwise, expand node and push new nodes into the stack.
+                ~3: Backtrack when dead ends are reached.
+            : BREADTH-FIRST SEARCH:
+                ~1: Enqueue Initial State into Queue Frontier.
+                ~2: Loop until Solution or Empty Frontier:
+                    : Dequeue the first added node.
+                    : If goal state, return solution.
+                    : Otherwise, expand node and enqueue new nodes.
+            : A* SEARCH: 
+                ~1: Initialize Priority Queue Frontier with Initial State.
+                ~2: Loop until Solution or Empty Frontier:
+                    : Remove the node with the lowest f(n) = g(n) + h(n).
+                    : If goal state, return solution.
+                    : Otherwise, expand node and add new nodes with updated f(n).    
+            : MINIMAX ALGORITHM (For Adversarial Search) 
+                ~1: Recursively Explore Possible Moves.
+                ~2: If Terminal State, Return Utility.
+                ~3: If Max Player, Choose Move with Maximum Utility.
+                ~4: If Min Player, Choose Move with Minimum Utility. 
+
+    : KNOWLEDGE:
+        : INFERENCE BY RESOLUTION:
+            ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
+                : Remove biconditionals (↔) and implications (→).
+                : Apply De Morgan’s Laws to push NOT operators inward.
+                : Distribute OR over AND to standardize logical clauses.
+            ~2: Assume the negation of the query (¬Q).
+            ~3: Use Resolution Inference:
+                : Find clauses with complementary literals (P and ¬P).
+                : Resolve them to create new clauses.
+                : Repeat until empty clause (∅) is derived (indicating a contradiction).
+            ~4: If an empty clause is found, the query is true; otherwise, it's false.
+
+    : CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, requiring it to operate based on probabilities rather than certainties
+        : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
+            P(A∣B)=P(A∩B)P(B)
+            P(A∣B)=P(B)P(A∩B)​ 
+        : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
+        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
+        : Probability Rules:
+            : Negation
+            : Inclusion-Exclusion
+            : Marginalization
+            : Conditioning
+        : Inference by Enumeration
+        : Approximate Inference:
+        : Sampling
+            : Rejection Sampling
+            : Likelihood Weighting
+        : hidden Markov Model: Task:
+            : Filtering = given objservations from start until now, calculate distribution for current state
+            : prediction = given observations from start until now, calculate distribution for a future state
+            : smoothing = given observations from start until now, calculate distribution for past state
+            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+ 
+    : OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently.
+        : Hill Climbing: algorithm follows a simple logic:
+            ~1: Start with an initial state.
+            ~2: Evaluate neighboring states.
+            ~3: Move to the best neighbor if it improves the solution.
+            ~4: Repeat until no better neighbor exists.
+        : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
+        : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
+ 
+    : LEARNING: 
+        : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            ~1: Prepare Data: Collect labeled input-output pairs.
+            ~2: Split Data: Divide into training and testing sets.
+            ~3: Train Model: Fit a hypothesis function to the training data.
+            ~4: Evaluate Model: Test the trained model on unseen data.
+            ~5: Adjust Weights: Update parameters based on accuracy.
+            : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+            : unsupervised learning = given input data without any additional feedback, learn patterns
+        : Nearest Neighbor Classification: A simple supervised learning method where classification is based on the closest labeled data points: 
+            ~1: Store all training data.
+            ~2: For a new input:
+                : Compute distance to all stored points.
+                : Select the closest k neighbors.
+                : Assign the most common class among neighbors.
+            ~3: Output the predicted class.
+        : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
+            ~1: Initialize weights randomly.
+            ~2: For each data point (x, y):
+                : Compute prediction using dot product.
+                : Compare prediction with actual output.
+                : If incorrect, adjust weights: wi=wi+α(y−y^)xi
+            ~3: Repeat until convergence.
+
+    : NEURAL NETWORKS:
+        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1​,x2​,...xn​ and setting up the desired outputs." (Neural Networks, p. 3).
+        ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
+        ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
+        ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
+        ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
+ 
+    : NATURAL LANGUAGE: TRANSFORMERS ARCHITECTURE:
+        : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+        : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+        ~1: Encoder-Decoder Architecture
+            : Encoder: Processes the input sentence into a fixed representation.
+            : Decoder: Generates the output sequence, one word at a time.
+        ~2: Self-Attention Mechanism
+            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+            Multi-Head Attention enables different aspects of word relationships to be captured.
+        ~3: Positional Encoding
+            Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+        ~4: Feed-Forward Layers
+            Each word's representation is passed through fully connected layers to extract deeper features.
+        ~5: Masked Self-Attention in the Decoder
+            Prevents words from attending to future words (maintains causality).
+        ~6: Output Prediction
+            The decoder predicts the next word using a softmax function, generating the final output.
+        ~7: Optimization and Training
+            Uses the Adam optimizer with learning rate scheduling.
+            Dropout and Label Smoothing are applied for regularization.
+            Beam Search is used for better sentence generation.
+
+~ARISTOTLE'S THE ORGANON: DEDUCTIVE REASONING = 
+    : CATEGORIES: classifies different kinds of things that can be said about a subject.
+        ~1: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
+        ~2: Determine the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
+        ~3: Analyze its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
+            : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
+            : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
+            : Relation – How it is related to something else (e.g., "bigger than," "father of").
+            : Place – Where it is (e.g., "in the room," "at the market").
+            : Time – When it is (e.g., "yesterday," "at noon").
+            : Position – How it is arranged (e.g., "sitting," "lying down").
+            : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
+            : Action – What it is doing (e.g., "running," "writing").
+            : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
+    : ON INTERPRETATION (Peri Hermeneias): is a key work in his Organon, dealing with logic, language, and meaning. It focuses on how statements (propositions) express truth and falsity and lays the foundation for modal logic, contradiction, and necessity.
+        ~1: Words & Meaning:
+            : Words are symbols of mental concepts.
+            : Propositions (statements) are combinations of words that express truth or falsity.
+            : Example:
+                "The sky is blue." → A statement that can be true or false.
+                "Walk quickly!" → Not a statement (it’s a command).
+        ~2: Affirmation & Negation: A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
+            : Every proposition affirms or denies something.
+            : Affirmation: “Socrates is wise.”
+            : Negation: “Socrates is not wise.”
+        ~3: Contradictions & Opposites (Square of Opposition)
+            : Contradictory statements: One must be true, the other false. “It is day.” vs. “It is not day.”
+            : Contrary statements: Both cannot be true, but both can be false. “All men are wise.” vs. “No man is wise.”
+        ~4: Modal Logic (Necessity vs. Possibility): Implication: Modal logic helps in predicting future truths without contradiction.
+            : Necessity: Something must be true. “The sun must rise.”
+            : Possibility: Something may or may not be true. “It may rain tomorrow.”
+    : PRIOR ANALYTICS: explains how conclusions necessarily follow from given premises when structured correctly.
+        ~1: Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
+            : Term 1 (Major term) – Found in the major premise and conclusion.
+            : Term 2 (Minor term) – Found in the minor premise and conclusion.
+            : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion.
+            For example:
+                All mammals (Middle Term) are warm-blooded. (Major Premise)
+                Whales are mammals. (Minor Premise)
+                Therefore, whales are warm-blooded. (Conclusion)
+        ~2: Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
+            : Figure 1: Middle term is subject in one premise, predicate in another.
+            : Figure 2: Middle term is predicate in both premises.
+            : Figure 3: Middle term is subject in both premises.
+            : Figure 4: Middle term switches placement.
+            Each figure contains valid or invalid moods, which define how premises are arranged using:
+                : A (Universal Affirmative: "All A are B")
+                : E (Universal Negative: "No A are B")
+                : I (Particular Affirmative: "Some A are B")
+                : O (Particular Negative: "Some A are not B")
+        ~3: Distinguishing Between Valid & Invalid Reasoning
+            : Valid syllogisms: The conclusion follows necessarily.
+            : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle).
+            : Example of an invalid syllogism (Undistributed Middle Fallacy):
+                All dogs are animals.
+                All cats are animals.
+                Therefore, all dogs are cats. ❌ (Incorrect reasoning)
+        ~4: Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
+            : Direct reduction: Rearranging premises to match known valid syllogisms.
+            : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.   
+    : POSTERIOR ANALYTICS: develops a theory of scientific knowledge (epistēmē) to explain how demonstrative knowledge (apodeixis) is structured.
+        ~1: The Definition of Demonstrative Knowledge: Aristotle begins by defining scientific knowledge:
+            : Knowledge (epistēmē) must be certain and universal.
+            : It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
+            : The premises themselves must be better known than the conclusion.
+            Example of Demonstration:
+                All humans are mortal. (Universal and necessary premise)
+                Socrates is a human. (Particular known fact)
+                Therefore, Socrates is mortal. (Demonstrated conclusion)
+        ~2: The Role of First Principles (Axioms)
+            : Every science must begin with self-evident first principles (archai).
+            : These principles cannot themselves be demonstrated but are known through intellectual intuition (nous).
+            : They must be:
+                : True (not subject to doubt).
+                : Primary (not derived from anything else).
+                : Immediate (not requiring proof).
+                ; More knowable than conclusions.
+            Example in Geometry:
+                Axioms like "The whole is greater than the part" must be accepted without proof.
+                From such axioms, we derive theorems in Euclidean geometry.
+        ~3: The Process of Scientific Discovery
+            : Induction (Epagōgē): We observe patterns in nature.
+                Example: Seeing multiple instances of fire being hot.
+            : Recognition of First Principles (Nous): Through repeated observation, the intellect grasps universal truths.
+                Example: Realizing "Fire is always hot" is a universal principle.
+            : Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
+                Example: Fire causes heat → Heat expands metals → Fire expands metals.
+        ~4: The Hierarchical Structure of Knowledge: Aristotle emphasizes that sciences form a hierarchy:
+            : Some sciences, like mathematics, rely only on internal logical structures.
+            : Others, like natural science, depend on observation and induction.
+            : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.       
+    : TOPICS: he defines as the art of constructing and evaluating arguments based on commonly accepted opinions (endoxa), focusing on how one can argue both for and against a proposition.
+        ~1: Identifying the Subject Matter
+            : Define the topic of discussion and categorize it properly.
+            : Recognize the general premises accepted about the subject.
+        ~2: Finding a Commonplace (Topos) for Argument
+            : Use topoi (commonplaces) to structure the argument.
+            : Topoi are general patterns of reasoning that can be applied to different subjects.
+        ~3: Forming Premises from Endoxa (Common Opinions)
+            : Identify widely accepted opinions (from experts, common people, or reputable sources).
+            : Ensure that the premises align with probable truth rather than mere assumption.
+        ~4: Constructing Arguments (Syllogistic or Inductive)
+            : Use deductive reasoning (syllogism) → Argument moves from general to specific.
+                E.g., "All virtue is praiseworthy; courage is a virtue; therefore, courage is praiseworthy."
+            : Use inductive reasoning (examples & analogies) → Argument moves from specific to general.
+                E.g., "Socrates and Plato were wise because they pursued knowledge; therefore, philosophers are wise."
+        ~5: Examining and Refuting Opposing Arguments
+            : Identify weaknesses in opposing premises (ambiguities, contradictions, false assumptions).
+            : Apply counter-topoi (counterarguments) to refute opposing claims.
+        ~6: Strengthening One’s Own Argument
+            : Clarify definitions and avoid logical fallacies.
+            : Use analogies and illustrative examples to make the argument stronger.
+    : SOPHISTICAL ELENCHI: dedicated to the study of fallacious reasoning and false argumentation, primarily focusing on eristic (contentious) arguments used in debate 
+        ~1: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
+            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+                : Equivocation: Using a word with multiple meanings ambiguously in an argument.
+                    Example: If an argument says, “The law should be followed because it is the ‘law of nature,’” clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+                : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
+                    Example: If someone says, “Flying planes can be dangerous,” clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+                : Accent: Changing the meaning of a statement by emphasizing different words.
+                    Example: For “I didn’t say she stole the money,” show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+                : Composition: Assuming what is true of parts is true for the whole.
+                    Example: If someone argues, “All parts of the car are lightweight, so the whole car must be lightweight,” show that a car’s total weight differs from its individual parts.
+                : Division: Assuming what is true of the whole is true for each part.
+                    Example: If an argument states, “The team is successful, so every team member is successful,” point out that team success doesn’t imply each member’s personal success.
+            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
+                : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
+                    Example: For “Reading is beneficial because it’s good for you,” explain that “good for you” is simply restating “beneficial” without further evidence.
+                : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
+                    Example: For “I started wearing my lucky charm, and my grades improved,” explain that improved grades may be due to other factors, like studying harder.
+                : Accident: Misapplying a general rule to an exception or specific case.
+                    Example: For “Cutting people is wrong, so surgeons are immoral,” clarify that surgery is a controlled, beneficial exception to the general rule against cutting.
+                : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
+                    Example: For “One politician lied, so all politicians are liars,” explain that one instance doesn’t justify generalizing about all politicians.
+                : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
+                    Example: If someone argues, “Employees are like nails; you have to hit them on the head to make them work,” explain that employees and nails are different and shouldn’t be treated the same way.
+                : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
+                    Example: For “If we let students redo assignments, they’ll expect to retake exams,” explain that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+                : Ad Hominem: Attacking the person instead of the argument itself.
+                    Example: If someone argues, “You shouldn’t listen to her because she’s not a scientist,” clarify that the person’s background doesn’t inherently disprove their argument’s validity.
+                : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
+                    Example: If a celebrity endorses a health product, explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
+        ~2: Break Down the Argument – Analyze the terms, premises, and conclusion.
+        ~3: Clarify Ambiguities – If the argument relies on wordplay, expose the different meanings.
+        ~4: Challenge the Premises – If an assumption is false or weak, point it out.
+        ~5: Show the Contradiction – Demonstrate how the fallacy leads to absurdity or contradiction.
+    : RHETORIC: his systematic study of persuasion, analyzing how language, logic, and emotion influence an audience. 
+        ~1: The Three Appeals of Persuasion (Artistic Proofs)
+            : Ethos (Character & Credibility)
+                The speaker must establish credibility, virtue, and good intentions.
+                Achieved through expertise, moral character, and goodwill toward the audience.
+            : Pathos (Emotional Appeal)
+                Persuasion must engage the audience’s emotions to motivate action.
+                Uses vivid storytelling, analogies, and emotional triggers to influence perception.
+            : Logos (Logical Argument)
+                Relies on sound reasoning and evidence to convince the audience.
+                Uses deductive (enthymeme) and inductive reasoning (example-based proof).
+        ~2: The Three Kinds of Rhetoric (Based on Purpose)
+            : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+            : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+            : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).
+        ~3: The Structure of a Persuasive Speech
+            ~1: Introduction (Exordium) – Establishes credibility (ethos) and engages the audience.
+            ~2: Narration (Narratio) – Presents background information and context.
+            ~3: Proof (Confirmatio) – Develops logical (logos) arguments with supporting evidence.
+            ~4: Refutation (Refutatio) – Anticipates counterarguments and disproves them.
+            ~5: Conclusion (Peroratio) – Reinforces key points and leaves a lasting impression, often with pathos.
+    : NICOMACHEAN ETHICS: explores the nature of human happiness (eudaimonia), virtue (arete), and the role of reason in ethical decision-making. 
+        ~1: The Highest Good is Happiness (Eudaimonia)
+            Every human action aims at some good.
+            The highest good must be self-sufficient (worth pursuing for its own sake).
+            Happiness (eudaimonia) is the ultimate goal of human life.
+        ~2: Happiness is Achieved Through Virtue
+            Happiness is not mere pleasure or wealth but a life of rational activity in accordance with virtue.
+            Two types of virtues:
+                Moral Virtues (e.g., courage, temperance, justice) – developed through habit.
+                Intellectual Virtues (e.g., wisdom, understanding) – developed through reason and education.
+        ~3: Virtue is a Habit Between Extremes (Doctrine of the Mean)
+            Virtue is the golden mean between two vices:
+                Deficiency (too little of a trait)
+                Excess (too much of a trait)
+            Example:
+                Courage is the mean between cowardice (deficiency) and recklessness (excess).
+        ~4: Moral Development Requires Practical Wisdom (Phronesis)
+            Practical wisdom is the ability to judge what is virtuous in different situations.
+            It requires experience, reflection, and rational deliberation.
+        ~5: The Role of Friendship and Society
+            A good life is lived within a community (polis).
+            True friendship is based on virtue, not just utility or pleasure.
+            The best society cultivates virtuous citizens through education and law.
+        ~6: The Contemplative Life is the Highest Life
+            The best life is one of philosophical contemplation, where reason governs all aspects of life.
+            However, those engaged in politics or social roles should also aim for virtue in action. 
+    : PHYSICS:  is a philosophical and scientific exploration of nature (physis), investigating how things change, move, and interact.
+        ~1: Define the Subject - Nature and Change
+            : Nature (physis) is what exists and changes by its own internal principles.
+            : Everything in nature undergoes motion (change in state, position, or form).
+        ~2: Identify the Causes of Motion (Four Causes): Every natural phenomenon has four causes:
+            Material Cause – What is it made of? (e.g., a statue is made of marble)
+            Formal Cause – What shape or essence does it have? (e.g., a statue has a human form)
+            Efficient Cause – What brings it into being? (e.g., a sculptor makes the statue)
+            Final Cause – What is its purpose? (e.g., the statue exists for artistic admiration)
+        ~3: Explain Motion and Potentiality vs. Actuality
+            Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
+            Example: A seed has the potential to be a tree; when it grows, it moves towards that actuality.
+        ~4: Discuss the Nature of Time, Space, and the Continuum
+            Time is a measure of motion in relation to before and after.
+            Space and matter are continuous, not discrete.
+        ~5: Introduce the Prime Mover (First Cause of Motion)
+            Everything in motion is moved by something else.
+            To avoid infinite regress, there must be a first, unmoved mover.
+            Aristotle argues for a Prime Mover (God), a being that causes motion without itself being moved.
+    : METAPHYSICS: is a foundational work in Western philosophy that explores being (ontology) and first principles (epistemology).
+        ~1: Defining "Being" (Ontology)
+            Aristotle asks: What does it mean "to be"?
+            He distinguishes between potential being (something that can be) and actual being (something that is).
+            Everything that exists is a substance with attributes (accidents).
+        ~2: Identifying the Four Causes (Explanation of Existence): Aristotle explains that everything that exists can be understood through four causes:
+            Material Cause – What something is made of (e.g., a statue is made of marble).
+            Formal Cause – The essence or shape of something (e.g., the design of the statue).
+            Efficient Cause – What brings something into being (e.g., the sculptor carving the statue).
+            Final Cause – The purpose or goal of something (e.g., the statue exists to honor someone).
+        ~3: Refuting Plato’s Theory of Forms
+            Aristotle argues that Forms (abstract universals) do not exist separately from things.
+            Instead, he claims that substance is the unity of matter and form (a human is both body and soul, not just an abstract idea of "humanity").
+        ~4: Explaining Change and Motion
+            Aristotle introduces potentiality and actuality: everything moves from potential (what it can be) to actual (what it is).
+            Example: An acorn has the potential to become an oak tree; it actualizes this potential through growth.
+        ~5: Establishing the Prime Mover (God)
+            Aristotle argues that if everything is moved by something else, there must be a first cause that is unmoved.
+            This Unmoved Mover (Prime Mover) is pure actuality and is the ultimate cause of all motion and change.
+            Unlike personal gods, Aristotle’s Prime Mover does not interfere with the world but simply exists as the highest form of being.
+    : ASTRONOMY: refers to the Geocentric Model of the universe, where Earth is at the center and all celestial bodies (Sun, Moon, planets, and stars) revolve around it.
+        ~1: Earth as the Center
+            Assumed the Earth was immobile and the heavens moved around it.
+            Justified by Aristotle’s physics (natural place of heavy objects is the center).
+        ~2: Spherical Universe
+            The cosmos was a set of concentric spheres, with Earth at the middle.
+            The outermost sphere held the fixed stars.
+        ~3: Circular Orbits (Perfect Motion Assumption)
+            Influenced by Plato, Ptolemy assumed celestial bodies must move in perfect circles.
+        ~4: Epicycles & Deferents
+            To explain planetary motion (especially retrograde motion), he introduced epicycles (small circles moving along larger circular paths called deferents).
+        ~5: Equant Point Correction
+            Since epicycles still did not perfectly match observations, he added the equant: a point offset from the center, around which motion was uniform.
+        ~6: Mathematical Predictions
+            Using trigonometry and tables, he calculated planetary positions and their future paths.
+
+##################################################################################################################################################################################################################
+~GAME-MECHANICS:
+    : Introduce New Related Word Group, typically based on common Latin or Greek roots.
+    : Break down root and affixes, along with usage examples in sentences.
+    : Match words to their definitions, use them in sentences, or choose the correct word in a given context
+    : Provides the correct answers and explanations.
+    : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
+    : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
+        : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
+        : Train, Battle: a balanced team/army
+        : Classes: Farmers, Artists, Merchants, Military, Emperor
+        : Climb the Status Ladder, Become the new Champion
+ 
+##################################################################################################################################################################################################################
+~ROBERT'S RULES OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
+    1. Call to Order: The chairperson calls the meeting to order, marking the official start.
+    2. Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
+    3. Reading and Approval of Minutes
+        The minutes from the previous meeting are read or reviewed.
+        Members vote to approve the minutes or suggest corrections.
+    4. Reports of Officers, Boards, and Standing Committees
+        Officers (e.g., president, treasurer, secretary) provide updates.
+        Standing committees present their routine reports.
+    5. Reports of Special (Select or Ad Hoc) Committees: Temporary committees give updates on their tasks or findings.
+    6. Unfinished Business (Old Business): Matters carried over from previous meetings are discussed.
+    7. New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
+    8. Announcements: Members share relevant updates, reminders, or upcoming events.
+    9. Adjournment: The meeting is formally closed after a motion to adjourn is passed.
+
+################################################################################################################################################################################################################
+~HOW COMPUTER VISION BE?
+    AUGSBURG DRAWING: The Augsburg Drawing is a detailed architectural drawing that represents one of the earliest surviving examples of a Gothic design drawing, specifically for the facade of a Gothic cathedral.
+        : Geometric Layout: The drawing uses a precise geometric system based on circles, squares, and equilateral triangles. These shapes were foundational in Gothic architecture, used to create symmetry and proportional relationships.
+            Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. 
+                These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. 
+                Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
+            Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. 
+                Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
+            Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, 
+                ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. 
+                These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
+        : Detailed Proportions: The drawing shows the specific measurements and ratios for the facade elements, such as the height and width of doorways, windows, and the overall building. Ratios like 1:2 and 2:3 are commonly used in the layout.
+            Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, 
+                aligning elements to create a cohesive and visually pleasing composition.
+            Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. 
+                For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
+            Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, 
+                ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
+        : Use of the Golden Ratio: Like many Gothic designs, the drawing incorporates the golden ratio to achieve visual harmony, although this ratio may be implicit rather than explicitly stated.
+            Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. 
+                Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, 
+                especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
+            Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye.
+                For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
+            Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, 
+                as elements sized according to the golden ratio generally maintain a stable distribution of mass.
+        : Representation of Structural Elements: It includes depictions of the structural elements, such as the buttresses and ribbed vaults that were essential for Gothic architecture. These are carefully arranged to provide both support and aesthetic appeal.
+            Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. 
+                These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
+            Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. 
+                Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
+            Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. 
+                For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
+        
+        : Step-by-Step Plan for Builders: The drawing likely served as a sequential guide, showing masons the order and method by which each section should be constructed to achieve the intended design.
+            Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. 
+                Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
+            Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. 
+                For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
+            Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. 
+                This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
+            Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. 
+                By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
+
+    ~RICHARD WILLIAMS' THE ANIMATOR'S SURVIVAL KIT is a comprehensive instructional book on the art and craft of animation. It covers both traditional and modern techniques and provides detailed explanations on how to bring animated characters to life with fluidity, personality, and realism. The book includes principles like timing, spacing, anticipation, squash and stretch, and the mechanics of movement, which are essential for creating lifelike animations.
+        ~1: Fundamental Principles: Williams covers the foundational principles of animation, including timing, spacing, squash and stretch, and anticipation. 
+            He explains how each principle contributes to the believability and appeal of animated characters.
+        ~2: Breakdown of Movements: The book breaks down different types of movements—such as walking, running, jumping, and dancing—into individual frames, 
+            illustrating how animators can use key frames and in-betweens to control movement speed, rhythm, and weight.
+        ~3: Character Animation Techniques: Williams discusses how to convey emotions, personality, and intention through character design and movement. 
+            Techniques include exaggeration, overlapping action, and secondary actions, which add layers to character animation.
+        ~4: Practical Demonstrations: Each chapter includes detailed, step-by-step examples, often accompanied by diagrams, to show how to animate specific motions. 
+            Williams illustrates each concept with sketches, showing how characters can express emotions through subtle or exaggerated movement.
+        ~5: Advanced Techniques and Tips: Later chapters cover advanced techniques, 
+            such as animating complex character interactions, achieving realistic lip-syncing for dialogue, and maintaining character consistency across different scenes.
+        ~6: Blending 2D and Modern Techniques: Although rooted in traditional animation, Williams provides insights on how animators can apply these principles 
+            to computer animation, showing how the foundations of movement and timing remain consistent across different mediums.
+
+    ~SEE:		        Eyes, Camera, Optical/Ocular System
+                        Photoreceptor cells in Retina, CONES
+        : VIEW:	        1st Person, 2nd (Possession) Person, 3rd Person (God View)
+                        : First Person: like Counter-Strike
+                        : Bird's Eye View, Isometric: like Battle Realms
+        : SHOT:         
+        : ANGLE:	    Up-Down,  Right-Left, 
+    ~SHOW:              Display: DellMonitor, WacomTablet, Web, Letter, Flag
+                        Media: Comics, Shows, Movies, 
+                        Flag
+                        Physique+Beauty
+        : DOT:          Dot, pixel
+        : LINE:         
+        : SHAPE:        Polygon, 
+        : SIZE:         Proportion
+        : FORM:         Geometry, Game Level (Block it first, polish later)
+                        Postal Mechanics, Plane/Continuance of Evidence
+        : LIGHT: 	    Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
+
+            : SOURCE: 	    Sun, Moon, Stars, Lamp, Lasers, Xrays... 
+                            : White light: All Color
+                            : Visible Light: 280 nanomemeter and 750 nm
+            : COLOR:        Dispersion: red, orange, yellow, green, blue, indigo, violet, 
+                            Red/Green/Blue, Cyan/Magenta/Yellow...
+                            : Incandescent bulbs: Warm (yellow/orange)
+                            : Flourescent lights: Cooler (blue/green)	
+                            : LED/Modern lights: artificial color... 
+            : TEMPERATURE (Kelvin, K):
+                            : Lower (2000-4000K): warm light (orange/red), cozy or dramatic mood
+                            : Higher (5000-6500K): cool light (blue), clarity and attention to detail
+            : REFLECTIONS:
+                            : Specular: shine
+                            : Diffuse: matte
+        
+    ~BLIND:             SHADE: 	Terminator, Core, Occlusion, Cast
+                        Epilepsy, Autism, Void, Clear/Transparent, Blur
+    ~HIDE:              Cover, Opaque, Absorption
+                        Refraction/Distortion (Water, Mirage), 
+                        
+    : WHO:
+        DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+        Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+        Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+        Portrait/Figure Art, Character Design, Concept/Sequential Art
+        Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+    : WHERE: Starting with Level Sketch (+Legend/Guide), Retest Mentally, Block it first, Polish later
+    : WHEN:
+
+#############################################################################################################################################################################################################################
+~HOW SOUND BE? Vibrations create waves that travel through different mediums, allowing us to hear and perceive sound. 
+    1. Three Types of Music: Boethius categorizes music into three overarching types, reflecting his belief that music governs not only the audible world but also the universe and the human soul.
+        a. Musica Mundana ("Music of the Universe"): This type of music represents the cosmic harmony of the universe. 
+            Boethius believed that celestial bodies, such as planets and stars, produce a form of inaudible music through their movements. This "music" reflects the order and proportions governing the cosmos.
+            Philosophical Basis: Drawing on Pythagorean thought, Boethius equates the motions of the heavens to mathematical ratios, asserting that the balance in nature mirrors musical harmony.
+        b. Musica Humana ("Human Music"): Human music concerns the harmony within individuals, specifically the relationship between the body and soul. 
+            Boethius thought that the human being, as a microcosm of the universe, reflects the same principles of order and proportion found in musica mundana.
+            Philosophical Significance: This harmony was believed essential for maintaining balance in life, aligning the physical and spiritual aspects of a person.
+        c. Musica Instrumentalis ("Instrumental Music"): This is the tangible music produced by instruments or voices, the only type of music that can be heard.
+            Philosophical Context: Boethius regarded this as the least significant form because it is tied to the sensory world, unlike the higher, abstract forms of music. 
+            However, it is still governed by the same mathematical ratios.
+    2. Mathematical Ratios
+        Basis in Pythagorean Theory: Boethius draws on the mathematical principles of Pythagoras, who demonstrated that musical intervals correspond to simple numerical ratios.
+        Examples of Ratios:
+            Octave: Ratio of 2:1
+            Perfect Fifth: Ratio of 3:2
+            Perfect Fourth: Ratio of 4:3
+        Harmonic Relationships: Boethius emphasizes that these ratios not only define audible harmony but also underpin the harmony of the cosmos and human nature.
+        Philosophical Implication: Understanding these ratios is key to understanding the universal order, as mathematical harmony is seen as a fundamental aspect of existence.
+    3. Music and Morality
+        Ethical Dimensions: Boethius believed music could shape character and influence emotions. For example, certain modes or scales were thought to evoke virtue or vice.
+        Moral Virtue through Harmony: The order in music, reflective of cosmic and human harmony, was seen as a model for moral and rational behavior. Listening to music could align the soul with universal order, promoting inner balance and ethical conduct.
+    4. Theory over Practice
+        Distinction Between Theory and Practice: Boethius makes a sharp distinction between:
+            Theorists: Those who understand the abstract science and philosophy of music.
+            Practitioners: Musicians who perform music without grasping its deeper intellectual principles.
+        Superiority of Theory: He argues that theoretical knowledge is superior because it engages with the universal truths of music, rather than merely producing sound.
+        Enduring Influence: This hierarchical view deeply influenced medieval and Renaissance thought, where music theory was considered part of the liberal arts.
+
+    ~HEAR          EARS, Rode Mic
+    ~SOUND:        INSTRUMENT,	Throat, RealtekSpeakers, 
+        : Frequency, 
+        : Amp, 
+        : Length..
+        : GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
+                    JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
+                    = Artists: Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
+        : RHYTHM: 	Beat, SOUND EFFECTS
+    ~DEAFEN:       NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
+    ~MUTE:         SILENCE, Ambience 
+
+#####################################################################################################################
+~HOW MOTION BE?
+    ~1: First Law (Intertia)
+    ~2: Second Law (Force & Acceleration)
+    ~3: Third Law (Action & Reaction)
+    ~4: Kinematics Equations
+    ~6: Work & Energy
+    ~7: Momentum
+
+    ~FEEL: 			    = SKINS:	Hands, Feet, Skin
+        : EMOTION:	    = Reaction, INERTIA, Love, Hate
+        : INPUT		    = Mouse, Keyboard, Controller
+    ~MOVE: 	
+        : MOTION:	    = Divide & Conquer
+                        = MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+                        = Presentation: MILO Y, Wurze, RussellB
+        : MASS: 	    = Light, Heavy
+        : SPEED:	    = Slow, Fast, 
+        : DISTANCE: 	Fore-Backward, Close-Up, Medium, Wide
+        : TEMPERATURE:	Cold, Warm, Hot
+            : Weather:  Humidity, Pressure
+        : TEXTURE: 	    Rough, Smooth
+        : ACTION = Baseline
+            : Action: Physics
+            : Baseline: Reference, Update, 
+            : INTERACTION: Single, Multiplayer
+            : Controls: 
+    ~AVOID:        : EVASION:	Clothes, Armour, Fear, Shyness, Rejection, 
+    ~PAUSE:         : STILLNESS	Rest
+
+#####################################################################################################################
+~HOW SMELL BE:
+    ~SMELL:    NOSE, SMELLS:	Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet... Yawn, 
+        ~1: Inhalation 
+    ~EXHALE:   EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
+        ~1: Emission
+        ~2: Diffusion & Transport
+        
+        ~2: Gas Echange in the Lungs
+        ~3: Oxygen Transport
+        ~4: Cellular Respiration
+        ~5: Exhalation
+    ~MASK/FILTER:	CHOKE, Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
+    ~BLOW:         Fan, 
+
+#####################################################################################################################
+~HOW ENERGY BE?
+        ~1: Ingestion (Chewing & Swallowing)
+        ~2: Peristalsis (Movement of Food)
+        ~3: Stomach Digestion
+        ~4: Enzyme Activity in the Small Intestine
+        ~5: Absorption of Nutrients
+        ~6: Cellular Respiration (Energy Conversion)
+            Glycolysis
+            Krebs Cycle
+            Oxidative Phosphorylation
+        ~7: Waste Elimination
+
+    How Does Energy Conversion Occur from Food to Reproduction (By What Steps)?
+       ~2: Hormonal Regulation and Energy Allocation: Endocrine System
+            GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
+            which stimulate sperm and egg production.
+            Energy and Hormones
+
+        ~3: Spermatogenesis (Sperm Production in Males): Testes
+            Sperm Development
+            Mitochondria in Sperm
+        ~4: Oogenesis (Egg Production in Females):Ovaries
+            Energy in Egg Development
+            Ovulation Cycle
+        ~5: Energy and Fertility:
+            Adequate Energy Levels
+                Fat Reserves and Reproduction
+            Reproductive Investment
+
+    ~TASTE: TONGUE, 	Throat, Stomach, Intestine
+        : TASTES: 	Bitter, Salty, Sour, Sweet, Savory... HautCuisin
+    ~CREATE: BODY:		Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+    ~FAST: Hunger, Thirst, Starvation,
+    ~SOIL: Spit, Shit, Piss, Poison/Pollution, Disease
+        
