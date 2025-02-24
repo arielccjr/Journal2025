@@ -171,6 +171,10 @@
             : Registers A, B, C... for loading values temporarily. 
         
     ~CHOICE: STOP-&-CORRECT
+        : Flags of Bits: 
+            : Overflow(>), Excess
+            : Zero(=), 
+            : Negative(<), Deficiency
         : Arithmetic Unit = Half>Full>Multi-bit Adder:
             : XOR (in=a, in=b, out=abSUM)
                 : AND (in=a, in=b, out=aANDb);
@@ -182,10 +186,6 @@
                 : >AND (in=abSUM, in=c, out=abcCARRY)
                     ; >OR (in=abCARRY, in=abcBARRY, out=out)
         : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
-        : Flags of Bits: 
-            : Overflow(>), Excess
-            : Zero(=), 
-            : Negative(<), Deficiency
 
 ~COMPUTER-SCIENCE: ARTIFICIAL INTELLIGENCE = 
     : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
