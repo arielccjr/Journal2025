@@ -1,4 +1,26 @@
 : FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive Speech
+~WORD FORMATTING:
+    : ROOT: 
+    : FIXES:
+        : WHAT
+        : WHO
+        : WHERE
+        : WHEN
+        : WHY
+        : HOW:
+~SENTENCE FORMATTING:
+    ~1: IS/ARE (=), AND-OR LOOP (Memory)
+    ~3: NOT
+    ~4: AND
+    ~5: OR
+    ~6: SUPPORT/PROOF: 
+        : ARITHMETIC = XOR (Half-adder), AND (Carry-adder)
+        : LOGIC =
+        : FLAGS = -1, 0, +1
+        : 
+    ~7: 
+~
+
 ~TITLE:                     How do we know each other? How do we find closure?
 ~INTRODUCTION (Exordium) – Establishes credibility (ethos) and engages the audience.
     : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
