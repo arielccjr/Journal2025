@@ -1,12 +1,12 @@
 : FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive Speech
 ~WORD FORMATTING:
-    : ROOT: 
-    : FIXES:
+    : ROOT: Essential Property 
+    : FIXES: Accidental Properties
         : WHAT
         : WHO
         : WHERE
         : WHEN
-        : WHY
+        : WHY:
         : HOW:
 ~SENTENCE FORMATTING:
     ~1: IS/ARE (=), AND-OR LOOP (Memory)
