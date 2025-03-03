@@ -1,5 +1,4 @@
-: FOR THE GIFT OF THE WORD.
-~FLOW/MOTION-STATE/THE PATH OF LEAST RESISTANCE: HABIT-LOOP = STIMULUS >>> REACTION(INSTANT-GRATIFICATION), RESULT(s, a): returns state after action a taken in state s
+~FLOW/THE PATH OF LEAST RESISTANCE: HABIT-LOOP = STIMULUS >>> REACTION(INSTANT-GRATIFICATION)
     : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
     : IN-OUTPUT Devices/Peripherals + Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
 		: Camera        = Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,

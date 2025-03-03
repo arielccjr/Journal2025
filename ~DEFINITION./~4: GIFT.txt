@@ -1,55 +1,28 @@
-<<<<<<< HEAD
-: FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive Speech
-~WORD FORMATTING:
-    : ROOT: Essential Property 
-    : FIXES: Accidental Properties
-        : WHAT
-        : WHO
-        : WHERE
-        : WHEN
-        : WHY:
-        : HOW:
-~SENTENCE FORMATTING:
-    ~1: IS/ARE (=), AND-OR LOOP (Memory)
-    ~3: NOT
-    ~4: AND
-    ~5: OR
-    ~6: SUPPORT/PROOF: 
-        : ARITHMETIC = XOR (Half-adder), AND (Carry-adder)
-        : LOGIC =
-        : FLAGS = -1, 0, +1
-        : 
-    ~7: 
-~
-
-=======
 : FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive & Reasoning Speech
 : Be-Read = Arithmetic & Logic
-    ~SYLLOGISM:
+    ~SYLLOGISM: IS/ARE (=), AND-OR LOOP (Memory)
         : Genus
         : Species
         : Fact
-    ~SENTENCE FORMATTING:
-        ~1: IS/ARE (=), AND-OR LOOP (Memory)
-        ~3: NOT
-        ~4: AND
-        ~5: OR
-    ~WORD FORMATTING: Definition, De-(down), -finit(limit)
-        : FIXES:
+    ~SENTENCE:
+        ~NOT
+        ~AND
+        ~OR
+    ~WORD: Position-Lodial-Fact
+        : FIXES: Attribute, Position-Lodial
             : WHAT
             : WHO
             : WHERE
             : WHEN
             : WHY
-            : HOW:        
-        : ROOT: 
-    ~PROOF: 
-        : Be-Seen = Light, Colors, Shadows
-        : Be-Heard = Sound, Silence
-        : Be-Felt = Motion, Stillness
-        : Be-Smelled = Smells, Odors
-        : Be-Tasted = Flavours
->>>>>>> dff0ba184ee3629d60831e96e440a0af89b0a7ad
+            : HOW
+        : ROOT: Sential, fact, proof:
+            : Be-Seen = Light, Colors, Shadows
+            : Be-Heard = Sound, Silence
+            : Be-Felt = Motion, Stillness
+            : Be-Smelled = Smells, Odors
+            : Be-Tasted = Flavours
+
 ~TITLE:                     How do we know each other? How do we find closure?
 ~INTRODUCTION (Exordium) – Establishes credibility (ethos) and engages the audience.
     : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
@@ -70,11 +43,9 @@
                                 Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
                                 Past-tense, Future-tense.
                             Most of the time, we learn new words by pop culture / daily conversation,
-                            
                             "We never left 2nd-grade reading/comprehension level."
                             "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
                             "We are at the mercy of our lawyers for reaching closure."
-                            
     : Transition:           But what if this is only half-true?
                             What if there is another way? What if we can read / write the truth on our own?
 ~PROOF (Confirmatio) – Develops logical (logos) arguments with supporting evidence.
@@ -95,7 +66,8 @@
 ~CONCLUSION (Peroratio) – Reinforces key points and leaves a lasting impression, often with pathos.E
     : QUESTION:             So, are we simply animals flowing along the current of passion, or do we have free will? 
     : THESIS:               We are capable of both — of habits, but empowered to rise above them.
-    : Meaning:              This question matters because it shows how If we believe we have no choice, we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
+    : Meaning:              This question matters because it shows how If we believe we have no choice, 
+                            we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
     : Review Points:
         Main Point 1:       Habits and instincts strongly influence our behavior.
         Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
