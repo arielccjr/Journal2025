@@ -1,5 +1,5 @@
 : FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive & Reasoning Speech
-: Be-Read = 
+: Be-Read = Arithmetic & Logic
     ~SYLLOGISM:
         : Genus
         : Species
@@ -9,12 +9,7 @@
         ~3: NOT
         ~4: AND
         ~5: OR
-        ~6: SUPPORT/PROOF: 
-            : ARITHMETIC = XOR (Half-adder), AND (Carry-adder)
-            : LOGIC =
-            : FLAGS = -1, 0, +1
     ~WORD FORMATTING: Definition, De-(down), -finit(limit)
-        : ROOT: 
         : FIXES:
             : WHAT
             : WHO
@@ -22,14 +17,13 @@
             : WHEN
             : WHY
             : HOW:        
-: Be-Seen = Light, Colors, Shadows
-: Be-Heard = Sound, Silence
-: Be-Felt = Motion, Stillness
-: Be-Smelled = Smells, Odors
-: Be-Tasted = Flavours
-
-
-
+        : ROOT: 
+    ~PROOF: 
+        : Be-Seen = Light, Colors, Shadows
+        : Be-Heard = Sound, Silence
+        : Be-Felt = Motion, Stillness
+        : Be-Smelled = Smells, Odors
+        : Be-Tasted = Flavours
 ~TITLE:                     How do we know each other? How do we find closure?
 ~INTRODUCTION (Exordium) – Establishes credibility (ethos) and engages the audience.
     : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
