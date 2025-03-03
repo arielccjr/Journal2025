@@ -351,13 +351,9 @@
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     : PRIOR ANALYTICS: explains how conclusions necessarily follow from given premises when structured correctly.
         ~1: Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
-            : Term 1 (Major term) – Found in the major premise and conclusion.
-            : Term 2 (Minor term) – Found in the minor premise and conclusion.
-            : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion.
-            For example:
-                All mammals (Middle Term) are warm-blooded. (Major Premise)
-                Whales are mammals. (Minor Premise)
-                Therefore, whales are warm-blooded. (Conclusion)
+            : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)"
+            : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)"
+            : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)"
         ~2: Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
             : Figure 2: Middle term is predicate in both premises.

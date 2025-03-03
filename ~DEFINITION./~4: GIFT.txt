@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 : FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive Speech
 ~WORD FORMATTING:
     : ROOT: Essential Property 
@@ -21,6 +22,34 @@
     ~7: 
 ~
 
+=======
+: FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive & Reasoning Speech
+: Be-Read = Arithmetic & Logic
+    ~SYLLOGISM:
+        : Genus
+        : Species
+        : Fact
+    ~SENTENCE FORMATTING:
+        ~1: IS/ARE (=), AND-OR LOOP (Memory)
+        ~3: NOT
+        ~4: AND
+        ~5: OR
+    ~WORD FORMATTING: Definition, De-(down), -finit(limit)
+        : FIXES:
+            : WHAT
+            : WHO
+            : WHERE
+            : WHEN
+            : WHY
+            : HOW:        
+        : ROOT: 
+    ~PROOF: 
+        : Be-Seen = Light, Colors, Shadows
+        : Be-Heard = Sound, Silence
+        : Be-Felt = Motion, Stillness
+        : Be-Smelled = Smells, Odors
+        : Be-Tasted = Flavours
+>>>>>>> dff0ba184ee3629d60831e96e440a0af89b0a7ad
 ~TITLE:                     How do we know each other? How do we find closure?
 ~INTRODUCTION (Exordium) – Establishes credibility (ethos) and engages the audience.
     : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
