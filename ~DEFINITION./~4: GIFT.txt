@@ -1,4 +1,4 @@
-: FOR THE GIFT OF THE WORD: TEMPLATE = The Structure of a Persuasive & Reasoning Speech
+: FOR THE GIFT OF THE WORD: TEMPLATE = The Speech of a Persuasion & Reasoning
 : Be-Read = Arithmetic & Logic
     ~SYLLOGISM: IS/ARE (=), AND-OR LOOP (Memory)
         : Genus
@@ -10,12 +10,12 @@
         ~OR
     ~WORD: Position-Lodial-Fact
         : FIXES: Attribute, Position-Lodial
-            : WHAT
-            : WHO
-            : WHERE
-            : WHEN
-            : WHY
-            : HOW
+            : WHAT: Things, Elements, State
+            : WHO: Relations
+            : WHERE: Space
+            : WHEN: Time
+            : WHY: Cause, Effect
+            : HOW: Quantity, Quality
         : ROOT: Sential, fact, proof:
             : Be-Seen = Light, Colors, Shadows
             : Be-Heard = Sound, Silence
@@ -75,3 +75,20 @@
     : Closing:              Ultimately, the power to choose defines what it means to be human. 
                             Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
                             Thank you, Mr. Toastmaster.
+
+
+~ADVANCED COMMUNICATION:
+It is not enough to learn Grammar Rules in school.
+We need reasoning.
+
+When broken down logically and arithmetically (etymology) 
+Our communication: our contracts, constitutions, treaties, trust, written in natural language, have no facts or laws.
+
+
+
+
+
+
+
+
+
