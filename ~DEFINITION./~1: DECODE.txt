@@ -79,26 +79,20 @@
         : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
         : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
         : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+
 ~ARCHETYPES (TOPICS):
     -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
-            : MADNESS, NIGHTMARE, Worst Case, FALLACIES:
-            : DIVISION, LACKING
+            : MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING
         "SPOIL FOR-BY SOILVOID(-)."
-            : Disruptions, Damages, Uncontrolled Elements (Dice)
-            : High Expenses, taxes, and liabilities (e.g., loans, credit card debt).
-            : Low Health, Resource Scarcity/Finity, Bankruptcy
-        "BAIT/SACRIFICE FOR-BY MOTHERBEAST."
+            : Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
+        "BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs, Requests/Puzzles, Opposition, Alone, Low Population
             : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
-            : NPCs, Requests/Puzzles, Opposition
-            : Alone, Low Population
-        "TRAP FOR-BY WILDWORLD."
-            : The Rat Race, 
-        "WAIT FOR-BY BIRTHSTART."
-            : Initial State, Beginning Again
+        "TRAP FOR-BY WILDWORLD.": The Rat Race, 
+        "WAIT FOR-BY BIRTHSTART.": Initial State, Beginning Again
     +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
             : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
             : Defuse or trigger the bomb.
-            : Win Condition: To win the game, players must fulfill their dream on the Fast Track (e.g., buying a sports team or donating to charity) or reach a certain level of passive income.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track or reach a certain level of passive income.
             : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
         "FRUIT FOR-BY SEEDWORD(+)."
             : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
@@ -133,7 +127,7 @@
             : DEADLINE: Goal State, Completion
                 : Best of 7 Rounds
                 : Round-Time: 3 minutes
-            : Fast Track: they move to the outer board, the Fast Track. Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
 
 ~COMPUTER-HARDWARE:
     : Computer: Central/Graphical Processing Unit (C/GPU) >>> Transistors
@@ -553,7 +547,7 @@
             Aristotle argues that if everything is moved by something else, there must be a first cause that is unmoved.
             This Unmoved Mover (Prime Mover) is pure actuality and is the ultimate cause of all motion and change.
             Unlike personal gods, Aristotle’s Prime Mover does not interfere with the world but simply exists as the highest form of being.
-    : ASTRONOMY: refers to the Geocentric Model of the universe, where Earth is at the center and all celestial bodies (Sun, Moon, planets, and stars) revolve around it.
+    : ASTRONOMY: refers to the Geocentric Model of the universe, where Earth is at the center and all celestial bodies revolve around it.
         ~1: Earth as the Center
             Assumed the Earth was immobile and the heavens moved around it.
             Justified by Aristotle’s physics (natural place of heavy objects is the center).
@@ -601,47 +595,66 @@
 ################################################################################################################################################################################################################
 ~HOW COMPUTER VISION BE?
     AUGSBURG DRAWING: The Augsburg Drawing is a detailed architectural drawing that represents one of the earliest surviving examples of a Gothic design drawing, specifically for the facade of a Gothic cathedral.
-        : Geometric Layout: The drawing uses a precise geometric system based on circles, squares, and equilateral triangles. These shapes were foundational in Gothic architecture, used to create symmetry and proportional relationships.
+        : Geometric Layout: The drawing uses a precise geometric system based on circles, squares, and equilateral triangles. 
+            These shapes were foundational in Gothic architecture, used to create symmetry and proportional relationships.
             Foundation of Shapes: The drawing uses geometric shapes like circles, squares, and equilateral triangles, which were central to Gothic design. 
                 These shapes weren’t just decorative; they were foundational for creating structural integrity and aesthetic harmony. 
                 Circles and triangles in particular were symbolic, reflecting medieval beliefs in the divine and natural order.
             Symmetry and Proportion: The use of these geometric shapes ensured symmetry and balance in the facade’s layout. 
-                Circles often served as the basis for arches, while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
+                Circles often served as the basis for arches, 
+                while triangles influenced the steepness of gables and roof lines, lending an upward, heaven-reaching emphasis typical of Gothic cathedrals.
             Precise Positioning: Using a compass and straightedge, the mason could replicate the drawing's proportions on a large scale, 
                 ensuring that even minor elements, like tracery in windows, adhered to the overall geometric plan. 
                 These principles gave the facade coherence and ensured that each part reinforced the structural and visual stability of the whole.
-        : Detailed Proportions: The drawing shows the specific measurements and ratios for the facade elements, such as the height and width of doorways, windows, and the overall building. Ratios like 1:2 and 2:3 are commonly used in the layout.
-            Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, 
+        : Detailed Proportions: The drawing shows the specific measurements and ratios for the facade elements, 
+            such as the height and width of doorways, windows, and the overall building. Ratios like 1:2 and 2:3 are commonly used in the layout.
+            Exact Measurements and Ratios: The drawing specifies exact measurements for various elements, 
+                such as doorways, windows, and towers. Ratios like 1:2 and 2:3 guide the proportions, 
                 aligning elements to create a cohesive and visually pleasing composition.
             Scaling for Consistency: The use of these ratios allowed builders to scale elements consistently across the structure. 
-                For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, creating a harmonious relationship between parts of the structure.
+                For instance, if a doorway was designed with a 1:2 ratio of width to height, other elements could maintain similar ratios, 
+                creating a harmonious relationship between parts of the structure.
             Modularity: The use of ratios also introduced a modular system, making it easier to replicate patterns and elements, 
                 ensuring that even as the structure expanded, it remained in proportional alignment with the original design.
-        : Use of the Golden Ratio: Like many Gothic designs, the drawing incorporates the golden ratio to achieve visual harmony, although this ratio may be implicit rather than explicitly stated.
+        : Use of the Golden Ratio: Like many Gothic designs, the drawing incorporates the golden ratio to achieve visual harmony, 
+            although this ratio may be implicit rather than explicitly stated.
             Implicit Harmony: The golden ratio (approximately 1:1.618) is a proportion often found in nature and historically valued for its aesthetic appeal. 
                 Though not always explicitly noted, the golden ratio appears to be subtly embedded in the Augsburg Drawing, 
                 especially in the relationships between major vertical and horizontal elements, such as window heights relative to the facade's total height.
-            Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions that are naturally pleasing to the eye.
-                For instance, window heights and widths often align with the golden ratio when compared to other architectural features, giving the facade an appearance of natural balance.
+            Enhancing Visual Harmony: The golden ratio subtly enhances the visual appeal of the facade by creating proportions 
+                that are naturally pleasing to the eye.
+                For instance, window heights and widths often align with the golden ratio when compared to other architectural features, 
+                giving the facade an appearance of natural balance.
             Structural Balance: This ratio not only contributed to the visual appeal but also assisted in distributing weight evenly, 
                 as elements sized according to the golden ratio generally maintain a stable distribution of mass.
-        : Representation of Structural Elements: It includes depictions of the structural elements, such as the buttresses and ribbed vaults that were essential for Gothic architecture. These are carefully arranged to provide both support and aesthetic appeal.
-            Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, and pointed arches are carefully represented in the drawing. 
+        : Representation of Structural Elements: It includes depictions of the structural elements, 
+            such as the buttresses and ribbed vaults that were essential for Gothic architecture. 
+            These are carefully arranged to provide both support and aesthetic appeal.
+            Depicting Buttresses and Vaults: Essential Gothic features like flying buttresses, ribbed vaults, 
+                and pointed arches are carefully represented in the drawing. 
                 These elements are more than decorative; they are crucial for channeling the structure’s weight, enabling taller buildings and larger windows.
-            Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, ensuring that they align with the primary load-bearing walls and arches. 
+            Arranged for Support and Aesthetics: The drawing shows the strategic placement of buttresses along the facade, 
+                ensuring that they align with the primary load-bearing walls and arches. 
                 Ribbed vaults and pointed arches are similarly positioned, supporting both the visual theme and structural framework.
             Guidelines for Construction: These depictions were functional for builders, providing guidance on where and how to position structural supports. 
-                For example, the spacing of buttresses would be indicated precisely to ensure that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
+                For example, the spacing of buttresses would be indicated precisely to ensure 
+                that they counterbalanced the weight from specific points on the vaulted ceiling, preventing collapse.
         
-        : Step-by-Step Plan for Builders: The drawing likely served as a sequential guide, showing masons the order and method by which each section should be constructed to achieve the intended design.
-            Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, showing builders the order in which each section should be built. 
-                Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, ensuring stability as the structure rose.
+        : Step-by-Step Plan for Builders: The drawing likely served as a sequential guide, 
+            showing masons the order and method by which each section should be constructed to achieve the intended design.
+            Sequential Guide for Construction: The drawing likely served as a step-by-step instructional guide, 
+                showing builders the order in which each section should be built. 
+                Starting with foundational elements like walls and buttresses, builders could then proceed to more decorative and complex elements, 
+                ensuring stability as the structure rose.
             Layered Approach: Gothic architecture often required layering of elements, with each phase dependent on the prior one’s completion. 
-                For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. The drawing would indicate this sequence to prevent errors during construction.
-            Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, so that builders could replicate these precisely on-site. 
+                For instance, arches and ribbed vaults needed to be established before adding windows and decorative tracery. 
+                The drawing would indicate this sequence to prevent errors during construction.
+            Measurement Annotations: The drawing might include specific annotations for measurements, angles, and placements, 
+                so that builders could replicate these precisely on-site. 
                 This ensured that each section aligned with the initial design, especially crucial for large cathedrals built over decades.
             Training Tool: Additionally, this step-by-step plan likely served as an educational resource for apprentices learning the trade. 
-                By following the schematic, novices could understand the logical progression of constructing a complex facade, familiarizing themselves with the foundational principles of Gothic design.
+                By following the schematic, novices could understand the logical progression of constructing a complex facade, 
+                familiarizing themselves with the foundational principles of Gothic design.
 
     ~RICHARD WILLIAMS' THE ANIMATOR'S SURVIVAL KIT is a comprehensive instructional book on the art and craft of animation. It covers both traditional and modern techniques and provides detailed explanations on how to bring animated characters to life with fluidity, personality, and realism. The book includes principles like timing, spacing, anticipation, squash and stretch, and the mechanics of movement, which are essential for creating lifelike animations.
         ~1: Fundamental Principles: Williams covers the foundational principles of animation, including timing, spacing, squash and stretch, and anticipation. 
@@ -691,7 +704,7 @@
                             : Specular: shine
                             : Diffuse: matte
         
-    ~BLIND:             SHADE: 	Terminator, Core, Occlusion, Cast
+    ~BLIND:             SHA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DE: 	Terminator, Core, Occlusion, Cast
                         Epilepsy, Autism, Void, Clear/Transparent, Blur
     ~HIDE:              Cover, Opaque, Absorption
                         Refraction/Distortion (Water, Mirage), 
