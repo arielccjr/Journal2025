@@ -1,27 +1,30 @@
+## **: NOTE-FOR-SELF:**
+    [FORGET-ERASE: ENGLISH. STOP READING!]
+    [READ-WRITE: MATHEMATICS, SENSES. LATIN, GREEK, HEBREW]
+
 ## **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
-    ~FLOW/MOTION-STATE: HABIT-LOOP= STIMULUS >>> REACTION(INSTANT-GRATIFICATION)
-        : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
-    ~FREE-WILL: STOP-&-CORRECT: READ-WRITE
-        : NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+    ~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/REACT/BE(SEEN/HEARD/FELT/SMELLED/TASTED), INSTANT-GRATIFICATION
+    ~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
         ~READ/DECODE(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
-            ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-            ~START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-                : -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                : +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-            ~GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
-                : 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
-            : WHAT: KNOWN= Contract & Copy Writing, Financial Statement...
-                : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
-                : WORD: PARSE/ETYMOLOGY
-                    : Roots: Fact/Known
-                    : Fixes: Position-Lodial, Categories?
-                        : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
-                        : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                        : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                        : WHY:
-                : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
-                    : Letters/Spells, 
-                    : Metals, Conductors,
+            ~SYNTAX: SENTENCE
+                : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
+                : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
+                : IS/ARE-THINKING: 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s                
+                : WITH THE DUTY/PERFORMANCE
+                : OF THE TERMS:
+                    : -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                    : +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                : WITH THE CONTRACT:
+                : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+            ~WORD: PARSE/ETYMOLOGY: SYMBOLS: 
+                : Fixes: Position-Lodial
+                    : WHAT: WEIGHT, Metals, Conductors, Flags, International Beaureau of Weights and Measures in France, Letters/Spells, Contract & Copy, Financial Statement...
+                    : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                    : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                    : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                    : WHY:
+                    : HOW:
+                : Roots: Fact/Known
                     : Light: GEOMETRY (EUCLID)
                     : Sound: MUSIC (BOETHIUS)
                     : Motion: PHYSICS (ARISTOTLE)
@@ -36,10 +39,6 @@
             : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
                 : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
             : LOGIC-ARITHMETIC = -1, 0, +1
-
-: NOTE-FOR-SELF:
-[FORGET-ERASE 1900-NOW ENGLISH.]
-[READ-WRITE ANCIENT-LANGUAGES: LATIN, GREEK, HEBREW, MATHEMATICS.]
 
 # **FOR THE WORD-&-LIGHT.**
 FOR THE BEGINNING IS WITH THE WORD.
