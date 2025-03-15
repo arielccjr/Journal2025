@@ -1,24 +1,19 @@
-## **: NOTE-FOR-SELF:**
-    [FORGET-ERASE: ENGLISH. STOP READING!]
-    [READ-WRITE: MATHEMATICS, SENSES. LATIN, GREEK, HEBREW]
+## **: LAW-FOR-SELF:**
+    [FORGET-ERASE: ENGLISH]
+    [READ-WRITE: MATHEMATICS, SENSES IN LATIN, GREEK, HEBREW]
 
 ## **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
     ~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/REACT/BE(SEEN/HEARD/FELT/SMELLED/TASTED), INSTANT-GRATIFICATION
     ~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-        ~READ/DECODE(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+        ~READ/DECODE(FRONTIER), MEMORY/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
             ~SYNTAX: SENTENCE
-                : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-                : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
-                : IS/ARE-THINKING: 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s                
-                : WITH THE DUTY/PERFORMANCE
-                : OF THE TERMS:
-                    : -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                    : +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-                : WITH THE CONTRACT:
-                : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-            ~WORD: PARSE/ETYMOLOGY: SYMBOLS: 
-                : Fixes: Position-Lodial
-                    : WHAT: WEIGHT, Metals, Conductors, Flags, International Beaureau of Weights and Measures in France, Letters/Spells, Contract & Copy, Financial Statement...
+                : ADVERB, VERB, ADJECTIVE, PRONOUN, 
+                : POSITION, LODIAL, FACT
+                : PAST-FUTURE TENSES
+                : PUNCTUATIONS, SYMBOLS... 
+            ~WORD: PARSE/ETYMOLOGY
+                : Fixes: Position-Lodial, Categories
+                    : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement...
                     : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
                     : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
                     : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
@@ -28,16 +23,23 @@
                     : Light: GEOMETRY (EUCLID)
                     : Sound: MUSIC (BOETHIUS)
                     : Motion: PHYSICS (ARISTOTLE)
-                    : Energy: path cost function: number of steps in proof
-                        : Positive (+1)
-                        : Negative (-1)
-                        : Neutral (0)
+                    : Air
+                    : Energy: ARITHMETIC ()
+                        : Positive (+1): FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                        : Negative (-1): SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                        : Neutral (0): EXPERIENCE/CHILD/CONTACT/LIFE
         ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), CORRECTNESS/REASON:
             : ARISTOTLE'S NICHOMACHEAN ETHICS
-            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
             : NOW-SPACE 
-            : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-                : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+            : CORRECT-PARSE-SYNTAX-GRAMMAR
+                : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
+                : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
+                : IS/ARE-THINKING: 
+                : WITH THE DUTY/PERFORMANCE
+                : OF THE TERMS:
+                : WITH THE CONTRACT:
+                : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge            
             : LOGIC-ARITHMETIC = -1, 0, +1
 
 # **FOR THE WORD-&-LIGHT.**
