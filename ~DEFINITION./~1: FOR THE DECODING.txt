@@ -1,26 +1,3 @@
-~PROGRAMMING:
-    : INPUT STATEMENTS: 
-        : IMPORT Library
-        : DECLARE/INITIALIZE Variables
-        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-    : OUTPUT STATEMENTS:
-        : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
-            : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-            : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-            : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
-        : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-            : While: Repeats while a condition is true. To handle indefinite iteration.
-            : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-            : For: Iterates a specific number of times. To handle definite iteration.
-        : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
-            : Then/Else/Next...  
-            : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
-            : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
-    : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-    : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-    : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-    : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-
 ~COMPUTER-SCIENCE: ARTIFICIAL INTELLIGENCE
     ~1: SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
         ~1: Define Initial State: Start with a known state.
@@ -397,19 +374,6 @@ ARISTOTLE'S METAPHYSICS: is a foundational work in Western philosophy that explo
     ~6: Mathematical Predictions
         Using trigonometry and tables, he calculated planetary positions and their future paths.
 
-##################################################################################################################################################################################################################
-~GAME-MECHANICS:
-    : Introduce New Related Word Group, typically based on common Latin or Greek roots.
-    : Break down root and affixes, along with usage examples in sentences.
-    : Match words to their definitions, use them in sentences, or choose the correct word in a given context
-    : Provides the correct answers and explanations.
-    : Include review sections that bring back words from earlier lessons to reinforce long-term retention.
-    : goal test: check statement we're trying to provide | check if all variables assigned and constraints all satisfied
-        : Catch/Tame Pokémon: Catching Pokémon is essential to building a strong and varied team.
-        : Train, Battle: a balanced team/army
-        : Classes: Farmers, Artists, Merchants, Military, Emperor
-        : Climb the Status Ladder, Become the new Champion
-
 #############################################################################################################################################################################################
 ~ARCHETYPES (TOPICS):
     -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
@@ -435,15 +399,15 @@ ARISTOTLE'S METAPHYSICS: is a foundational work in Western philosophy that explo
             : Reviews
         "SON FOR-BY FATHERGOD."
             : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
-                : Club Executives:
-                    : President / Chief Executive Officer
-                    : Vice Presidents / Chief Operating Officers:
-                        : VP Education
-                        : VP Membership
-                        : VP Public Relations
-                    : Treasurer / Chief Financial Officer
-                    : Secretary
-                    : Sergeant-at-Arms 
+            : Club Executives:
+                : President / Chief Executive Officer
+                : Vice Presidents / Chief Operating Officers:
+                    : VP Education
+                    : VP Membership
+                    : VP Public Relations
+                : Treasurer / Chief Financial Officer
+                : Secretary
+                : Sergeant-at-Arms 
             : Testimonials
         "WAY FOR-BY KINGDOMHEAVEN."
             : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
