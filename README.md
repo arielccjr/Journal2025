@@ -5,7 +5,7 @@
 ## **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
     ~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), INSTANT-GRATIFICATION
     ~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-        ~READ/DECODE(UNKNOWN), KNOWN
+        ~READ/DECODE(UNKNOWN), KNOWN:
             ~SYNTAX: SENTENCE
                 : ADVERB, VERB, ADJECTIVE, PRONOUN (1, 2, 3, 4)
                 : POSITION, LODIAL, FACT (5-6-7)
@@ -20,15 +20,15 @@
                     : WHY:
                     : HOW:
                 : Roots: Fact/Known
-                    : Light: GEOMETRY (EUCLID)
-                    : Sound: MUSIC (BOETHIUS)
-                    : Motion: PHYSICS (ARISTOTLE)
-                    : Air
-                    : Energy: ARITHMETIC ()
+                    : SEEN: Light, GEOMETRY (EUCLID)
+                    : HEARD: Sound, MUSIC (BOETHIUS)
+                    : FELT: Motion, PHYSICS (ARISTOTLE)
+                    : SMELLED: Air
+                    : TASTED: Energy, ARITHMETIC (NICHOMACUS)
                         : Positive (+1): FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND, Vice of Excess
                         : Negative (-1): SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART, Vice of Deficiency
                         : Neutral (0): EXPERIENCE/CHILD/CONTACT/LIFE, Golden Mean
-        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), REASON
+        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), REASON:
             : NOW-SPACE 
             : CORRECT-PARSE-SYNTAX-GRAMMAR
                 : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment

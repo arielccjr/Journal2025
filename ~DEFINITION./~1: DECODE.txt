@@ -1,155 +1,12 @@
-~FLOW/THE PATH OF LEAST RESISTANCE: HABIT-LOOP = STIMULUS >>> REACTION(INSTANT-GRATIFICATION)
-    : IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/BE(SEEN/HEARD/FELT/SMELLED/TASTED)
-    : IN-OUTPUT Devices/Peripherals + Infrastructure: InternetDeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
+~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+    : I/O PERIPHERALS + INFRASTRUCTURE: DeepSeaCables, CopperWire/EthernetCable/RadioWaves/WiFi/Signals
         : Camera        = Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,
         : Mic           = Speaker
         : Keyb/Mouse    = Animation/Events
         : Cooler        = Exhaust
         : Power         = Heat
-    : INPUT STATEMENTS: TRIGGERS/CONDITIONALS: Enables decision-making in code. To perform actions based on conditions.
-        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.
-    : OUTPUT STATEMENTS:
-        : RETURN Statement: Exits a function and optionally returns a value. To end execution and provide a result.
-            : Then/Else/Next...  
-        : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-            : While: Repeats while a condition is true. To handle indefinite iteration.
-            : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-            : For: Iterates a specific number of times. To handle definite iteration.
-            : Continue Statement: Skips to the next iteration. To bypass unnecessary code in specific cases.
-            : Break Statement: Exits a loop or switch statement early. To terminate iterations based on conditions.	
-    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
-        ~1: Physical Layer: Data is sent as electrical/optical signals.
-        ~2: Data Link Layer: Packets are framed with Media Access Control (MAC) addresses.
-        ~3: Network Layer: Packets are assigned IP addresses and routed. Internet Protocol (IP)
-        ~4: Transport Layer: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
-        ~5: Session Layer: A session is established.
-        ~6: Presentation Layer: Data is encrypted.
-        ~7: Application Layer: Data (e.g., an email or web request) is created in a format users can understand.
-            : Data Payload (UDP): Data
-                : Domain Name System (DNS) + Web-Server Address: Universal Resource Locator (URL) + Hyperlinks
-                : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
-                    : Index: Frequency of Words
-                    : Hypertext Markup Language (HTML) + CSS
-
-~FREE-WILL: STOP-&-CORRECT / DEDUCTIVE REASONING / DECODING = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-    : Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
-    ~READ/LOAD(FRONTIER), MEMORY/CATEGORIES/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
-        : SYNTAX: SENTENCE, STORYLINE= ARISTOTLE'S RHETORIC
-        : WORD: PARSE/ETYMOLOGY
-            : Roots: Fact/Known
-                : SEEN
-                : HEARD
-                : FELT
-                : SMELLED
-                : TASTED
-            : Fixes: Position-Lodial
-                : WHY: CAUSE, EFFECT
-                : WHEN: Time, SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                : WHERE: Space, HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
-                : WHAT: Things, Elements
-                : HOW: Quantity, Quality
-
-        : SYMBOLS: Flags, International Beaureau of Weights and Measures in France
-            : Letters/Spells, 
-            : Metals, Conductors,
-            : Light: GEOMETRY (EUCLID)
-            : Sound: MUSIC (BOETHIUS)
-            : Motion: PHYSICS (ARISTOTLE)
-            : Energy: path cost function: number of steps in proof
-                : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-                : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
-                    : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
-    ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
-        : ARISTOTLE'S NICHOMACHEAN ETHICS
-        : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
-        : NOW-SPACE 
-        : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
-        : List: Queue/Stack, 
-        : LOGIC-ARITHMETIC = -1, 0, +1
-            : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
-            : Logic: NOT, AND, OR
-    : DATABASE ENGINE: The core set of programs in a DBMS that handles all database operations.
-        : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-        : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-        : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-        : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-
-~ARCHETYPES (TOPICS):
-    -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
-            : MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING
-        "SPOIL FOR-BY SOILVOID(-)."
-            : Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
-        "BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs, Requests/Puzzles, Opposition, Alone, Low Population
-            : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
-        "TRAP FOR-BY WILDWORLD.": The Rat Race, 
-        "WAIT FOR-BY BIRTHSTART.": Initial State, Beginning Again
-    +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
-            : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
-            : Defuse or trigger the bomb.
-            : Win Condition: To win the game, players must fulfill their dream on the Fast Track or reach a certain level of passive income.
-            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-        "FRUIT FOR-BY SEEDWORD(+)."
-            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
-            : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-            : Experience Points, Abilities/Stats, New Moves, Karma, 
-            : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-            : Mental Dictionary/Library, pokedex, Map, Contact List,
-            : Reviews
-        "SON FOR-BY FATHERGOD."
-            : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
-                : Club Executives:
-                    : President / Chief Executive Officer
-                    : Vice Presidents / Chief Operating Officers:
-                        : VP Education
-                        : VP Membership
-                        : VP Public Relations
-                    : Treasurer / Chief Financial Officer
-                    : Secretary
-                    : Sergeant-at-Arms 
-            : Testimonials
-        "WAY FOR-BY KINGDOMHEAVEN."
-            : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
-            : Build Structures/LEVELS: Balance scope budget, and schedule  
-                : NAVIGATION, Maps, Atmosphere, Weather,
-                : Progressing the game storyline and accessing new areas.
-                : better positioning on the map, better territory
-        "CHANCE FOR-BY DEATHEND."
-            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-            : Incorporation: December 1, 2024... 1-2 days per project
-            : PROGRESS = Tutorials, Saves, Updates: Journal?
-            : Battle Cycle: 1 move/turn at a time
-            : DEADLINE: Goal State, Completion
-                : Best of 7 Rounds
-                : Round-Time: 3 minutes
-            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
-
-~COMPUTER-HARDWARE:
-    : Computer: Central/Graphical Processing Unit (C/GPU) >>> Transistors
+    : COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU) >>> Transistors
         : Clock
-        : Permanent Memory: 
-            : Files System:
-                : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
-                    : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
-            : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-                : Wave/Audio: Amplitude, Spectogram... 
-                : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
-                : Character/Text/List/String = ASCII>UNICODE
-                : Number/Integer/Float= 
-                    : Scientific Notation; Negative Bit= 2^N-x
-                    : Null
-            : Knowledge(Known)/Facts:
-                :
-            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
-                : Memory Address:
-                    : Pointer: Next Address Reference
-                    : Index
-                : Instruction
         : Temporary Memory Registers:
             : Instruction-Address Register >>> Address Input >>> Address = Data in RandomAccessMemory (RAM) >>> Instruction Register: FETCH PHASE
                 : Multiplexer: MUX = (a AND NOTsel) OR (sel AND b)
@@ -170,8 +27,6 @@
                     : AND-LOOP (in=a, in=b, out=0) 
             : Instruction Register decodes Data into OperationsCode (OPCODE): DECODE PHASE
             : Registers A, B, C... for loading values temporarily. 
-        
-    ~CHOICE: STOP-&-CORRECT
         : Flags of Bits: 
             : Overflow(>), Excess
             : Zero(=), 
@@ -187,6 +42,90 @@
                 : >AND (in=abSUM, in=c, out=abcCARRY)
                     ; >OR (in=abCARRY, in=abcBARRY, out=out)
         : Logic Unit: Mux/DMux >>> Xor >>> Or >>> And/Nand >>> Not
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
+        ~1: Physical Layer: Data is sent as electrical/optical signals.
+        ~2: Data Link Layer: Packets are framed with Media Access Control (MAC) addresses.
+        ~3: Network Layer: Packets are assigned IP addresses and routed. Internet Protocol (IP)
+        ~4: Transport Layer: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
+        ~5: Session Layer: A session is established.
+        ~6: Presentation Layer: Data is encrypted.
+        ~7: Application Layer: Data is created in a format users can understand.
+            : Data Payload (UDP): Data
+                : Domain Name System (DNS) + Web-Server Address: Universal Resource Locator (URL) + Hyperlinks
+                : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
+                    : Index: Frequency of Words
+                    : Hypertext Markup Language (HTML) + CSS
+                : Files System:
+                    : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
+                        : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+                : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                    : Wave/Audio: Amplitude, Spectogram... 
+                    : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
+                    : Character/Text/List/String = ASCII>UNICODE
+                    : Number/Integer/Float= 
+                        : Scientific Notation; Negative Bit= 2^N-x
+                        : Null
+                : Memory Address:
+                    : Pointer: Next Address Reference
+                    : Index
+                : Instruction
+                : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+     
+~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
+    : Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
+    ~READ/LOAD(FRONTIER), MEMORY/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+        : SYNTAX: SENTENCE, 
+        : WORD: PARSE/ETYMOLOGY, SYMBOLS: Flags, International Beaureau of Weights and Measures in France
+            : Fixes: Position-Lodial
+                : WHY: CAUSE, EFFECT
+                : WHEN: Time, SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                : WHERE: Space, HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
+                : WHAT: Things, Elements: Letters/Spells: Metals, Conductors,
+                : HOW: Quantity, Quality
+            : Roots: Fact/Known
+                : SEEN: Light: GEOMETRY (EUCLID)
+                : HEARD: Sound: MUSIC (BOETHIUS)
+                : FELT: Motion: PHYSICS (ARISTOTLE)
+                : SMELLED
+                : TASTED: Energy: path cost function: number of steps in proof
+                    : Positive (+1): +1=FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
+                    : Negative (-1): -1=SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
+                    : Neutral (0): 0=EXPERIENCE/CHILD/CONTACT/LIFE: UTILITY(s): final numerical value for terminal state s
+    ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, CORRECTNESS/REASON:
+        : NOW-SPACE 
+        : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+            : FOR THE KNOWLEDGE OF THE FACT IS WITH THE PERFORMANCE BY THE AUTHORITY.
+            : ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge
+            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+            : ARISTOTLE'S NICHOMACHEAN ETHICS, STORYLINE= ARISTOTLE'S RHETORIC
+            : List: Queue/Stack, 
+        : LOGIC-ARITHMETIC = -1, 0, +1
+            : Arithmetic: XOR+ANDCarry/Half, Full, Multi-bit Adder
+            : Logic: NOT, AND, OR
+
+~PROGRAMMING:
+    : INPUT STATEMENTS: 
+        : IMPORT Library
+        : DECLARE/INITIALIZE Variables
+        : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+    : OUTPUT STATEMENTS:
+        : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
+            : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+            : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+            : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
+        : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+            : While: Repeats while a condition is true. To handle indefinite iteration.
+            : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+            : For: Iterates a specific number of times. To handle definite iteration.
+        : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
+            : Then/Else/Next...  
+            : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
+            : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
+    : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+    : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+    : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+    : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
 
 ~COMPUTER-SCIENCE: ARTIFICIAL INTELLIGENCE = 
     : SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
@@ -840,4 +779,56 @@
     ~CREATE: BODY:		Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
     ~FAST: Hunger, Thirst, Starvation,
     ~SOIL: Spit, Shit, Piss, Poison/Pollution, Disease
-        
+
+#############################################################################################################################################################################################
+~ARCHETYPES (TOPICS):
+    -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
+            : MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING
+        "SPOIL FOR-BY SOILVOID(-)."
+            : Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
+        "BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs, Requests/Puzzles, Opposition, Alone, Low Population
+            : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+        "TRAP FOR-BY WILDWORLD.": The Rat Race, 
+        "WAIT FOR-BY BIRTHSTART.": Initial State, Beginning Again
+
+    +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
+            : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+            : Defuse or trigger the bomb.
+            : Win Condition: To win the game, players must fulfill their dream on the Fast Track or reach a certain level of passive income.
+            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+        "FRUIT FOR-BY SEEDWORD(+)."
+            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+            : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+            : Experience Points, Abilities/Stats, New Moves, Karma, 
+            : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+            : Mental Dictionary/Library, pokedex, Map, Contact List,
+            : Reviews
+        "SON FOR-BY FATHERGOD."
+            : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+                : Club Executives:
+                    : President / Chief Executive Officer
+                    : Vice Presidents / Chief Operating Officers:
+                        : VP Education
+                        : VP Membership
+                        : VP Public Relations
+                    : Treasurer / Chief Financial Officer
+                    : Secretary
+                    : Sergeant-at-Arms 
+            : Testimonials
+        "WAY FOR-BY KINGDOMHEAVEN."
+            : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
+            : Build Structures/LEVELS: Balance scope budget, and schedule  
+                : NAVIGATION, Maps, Atmosphere, Weather,
+                : Progressing the game storyline and accessing new areas.
+                : better positioning on the map, better territory
+        "CHANCE FOR-BY DEATHEND."
+            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+            : Incorporation: December 1, 2024... 1-2 days per project
+            : PROGRESS = Tutorials, Saves, Updates: Journal?
+            : Battle Cycle: 1 move/turn at a time
+            : DEADLINE: Goal State, Completion
+                : Best of 7 Rounds
+                : Round-Time: 3 minutes
+            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+
+
