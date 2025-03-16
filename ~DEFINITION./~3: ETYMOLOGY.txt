@@ -1,5 +1,7 @@
+~ADD LANGUAGE OF ANATOMY: PROKO
+
 ~FOR THIS ITEMIZATION OF THE OLD-WORDS AND NEW-WORDS:
-    :OLD-WORDS. 
+:OLD-WORDS. 
 ABBREVIATION 
 ABSENCE
 ABSOLUTE
@@ -1120,44 +1122,37 @@ CAPITAL-LETTERS, CAPITALIZATION
 SPEECH, CLAIM
 VOLITION, THINKING.
 
-~OF THE ETYMOLOGY.**
-    ~LATIN: Latin Alphabet (A-Z):
-        The Latin alphabet has the same letters as the English alphabet but carries meanings rooted in its Classical and Phoenician origins.
-        : Letter  Meaning or Symbolism:
-            A	"Aleph" (ox): Strength, beginnings, leadership.
-            B	"Beth" (house): Shelter, duality, containment.
-            C	"Gimel" (camel): Movement, flexibility, growth.
-            D	"Daleth" (door): Entryway, transition, change.
-            E	Energy, sound clarity, openness.
-            F	Force, vitality, power (from "Vav," nail or hook).
-            G	Guidance, guarding (a later addition in Latin).
-            H	Harmony, breath, boundaries (from "Heth").
-            I	Individuality, simplicity (from "Yod," hand).
-            J	Joy, journey (a variant of "I" in Latin script).
-            K	Kinetic energy, clarity (rare in Latin but symbolic).
-            L	Light, elevation (from "Lamed," staff or ox goad).
-            M	Motherhood, water, nurturing (from "Mem," water).
-            N	Continuity, growth (from "Nun," fish).
-            O	Wholeness, infinity (from "Ayin," eye).
-            P	Progress, vision, openness (from "Pe," mouth).
-            Q	Query, uniqueness, questioning.
-            R	Head, leadership, direction (from "Resh," head).
-            S	Smoothness, change, flow.
-            T	Truth, stability, transformation (from "Taw," mark).
-            U	Unity, wholeness (later added from "V").
-            V	Vitality, sharpness (early Latin "V" was also a vowel).
-            W	Wonder, width, expansion (a double "V").
-            X	Crossroads, the unknown, marking.
-            Y	Branching, questioning (later added for Greek sounds).
-            Z	Zenith, finality (introduced for Greek "Zeta").
+~LATIN: Latin Alphabet (A-Z):
+The Latin alphabet has the same letters as the English alphabet but carries meanings rooted in its Classical and Phoenician origins.
+    : Letter  Meaning or Symbolism:
+        A	"Aleph" (ox): Strength, beginnings, leadership.
+        B	"Beth" (house): Shelter, duality, containment.
+        C	"Gimel" (camel): Movement, flexibility, growth.
+        D	"Daleth" (door): Entryway, transition, change.
+        E	Energy, sound clarity, openness.
+        F	Force, vitality, power (from "Vav," nail or hook).
+        G	Guidance, guarding (a later addition in Latin).
+        H	Harmony, breath, boundaries (from "Heth").
+        I	Individuality, simplicity (from "Yod," hand).
+        J	Joy, journey (a variant of "I" in Latin script).
+        K	Kinetic energy, clarity (rare in Latin but symbolic).
+        L	Light, elevation (from "Lamed," staff or ox goad).
+        M	Motherhood, water, nurturing (from "Mem," water).
+        N	Continuity, growth (from "Nun," fish).
+        O	Wholeness, infinity (from "Ayin," eye).
+        P	Progress, vision, openness (from "Pe," mouth).
+        Q	Query, uniqueness, questioning.
+        R	Head, leadership, direction (from "Resh," head).
+        S	Smoothness, change, flow.
+        T	Truth, stability, transformation (from "Taw," mark).
+        U	Unity, wholeness (later added from "V").
+        V	Vitality, sharpness (early Latin "V" was also a vowel).
+        W	Wonder, width, expansion (a double "V").
+        X	Crossroads, the unknown, marking.
+        Y	Branching, questioning (later added for Greek sounds).
+        Z	Zenith, finality (introduced for Greek "Zeta").
 
-    : Root-Words & Affixes:
-    justice = 
-        : ju = no law
-        : s = speak
-        : ti = title
-        : ce = judge
-
+~ROOT-WORDS & FIXES:
     ~WHY-HOW: ACTIONS/OPERATIONS/BEING:
         : VERB: -ate, -ize, -fy (verb suffix)
         : par, aequus, equ- (equal)
@@ -1185,6 +1180,7 @@ VOLITION, THINKING.
             : clam (secretly)
             : sophos (wise)
         : scribe (write)
+        
         : ovum (to give birth, produce)
             : facio, factus, fec-, fic, fy (to do, make)
             : verto, versus (to turn)
@@ -1194,6 +1190,7 @@ VOLITION, THINKING.
             : -esce (begin to)
             : -escent (growing, becoming)
             : coctus (cook)
+        
         : opsis, optikos (sight or vision)
             : scopein (see)
             : specio, specto, spectus (to look)
@@ -1204,6 +1201,7 @@ VOLITION, THINKING.
             : vanesco (to vanish)
             : kallos (beauty)
             : kakos, malus (bad, harsh, evil, ugly)
+        
         : audi (hear)
         : dico, dictus (to say, tell)
             : sonus, phone (sound)
@@ -1214,6 +1212,7 @@ VOLITION, THINKING.
             : queror (to complain)
             : taceo (to be silent)
             : terpido (to treble)
+        
         : sensus, sentio (feel)
             : tactus (touch)
             : gage ()
@@ -1250,6 +1249,7 @@ VOLITION, THINKING.
             : vacillo (to swing back and forth)
                 : oscillum (a swing)
             : dipsa (thirst)
+        
         : claudo, claus-, claustro-, clausus-, clois-, clud-, clus- (shut) 
             : seco, sectus (cut)
             : acuo (to sharpen)
@@ -1262,11 +1262,20 @@ VOLITION, THINKING.
             : ardo, arsus (to burn)
         : klaein (to break)
             : jacio, ject- (throw)
+        
         : -ize, -ate (verb suffix)
             : -ment (noun suffix attached to verbs)
         : -y (practice, custom)
 
+        : ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
+            : -osis (abnormal, diseased condition)
+            : dis- (pejorative prefix)
+            : -itis (inflammation)
+        : ADVERB: -ly
+ 
     ~WHAT: KNOWN THINGS
+        : NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
+            : -ion, -ation (noun suffix added to verbs)
         : bios, vita (life)
         : soma (body)
             : osteon (bone)
@@ -1337,12 +1346,13 @@ VOLITION, THINKING.
             : solus (alone)
             : asketes (monk) "ascetic"
             : sine (without)
-        : alter (other): "alert ego"
+        : alter (other): "alter ego"
             : co-, col- com-, con-, cor-, cum-, syn-, sym- (with, together)
             : socius (companion)
             : gamos (marriage)
                 : -phile (lover)
             : grex, gregis (herd, flock)
+            : polis (community)
             : genos (race, kind)
                 : anthropos (mankind)
                     : homo (person, human)
@@ -1474,62 +1484,55 @@ VOLITION, THINKING.
             : thanatos (death)
         : nox, noctis (night)
         : re- (again, back)
+~GREEK: Greek-Alphabet:
+    The Greek letters often have meanings rooted in their shapes, cultural associations, 
+    or early pictorial origins (influenced by Phoenician symbols).
+    Many letters carry abstract, mathematical, or spiritual connotations, 
+    particularly due to their later use in philosophy and science.
+    : Letter	Name	Meaning
+        Α	Alpha	"Ox" or "Beginning"; symbolizes strength and leadership.
+        Β	Beta	"House"; represents shelter, structure, or foundation.
+        Γ	Gamma	"Camel"; symbolizes movement, travel, or support.
+        Δ	Delta	"Door"; signifies transition, entry, or change.
+        Ε	Epsilon	"Breath" or "Window"; represents clarity, perception, or enlightenment.
+        Ζ	Zeta	"Life"; denotes vitality or liveliness.
+        Η	Eta	    "Hearth" or "Eight"; symbolizes warmth, energy, and balance.
+        Θ	Theta	"Circle" or "God"; represents eternity, divinity, or introspection.
+        Ι	Iota	"Hand" or "Small"; denotes simplicity, precision, or individuality.
+        Κ	Kappa	"Palm" or "Grasp"; signifies action, holding, or utility.
+        Λ	Lambda	"Shepherd's Staff"; represents guidance, direction, or elevation.
+        Μ	Mu	    "Water"; symbolizes fluidity, change, and nurturing.
+        Ν	Nu	    "Fish"; represents life, continuity, or movement.
+        Ξ	Xi	    "Cut" or "Sharpness"; signifies division, differentiation, or focus.
+        Ο	Omicron	"Small Circle"; represents wholeness, unity, or completeness.
+        Π	Pi	    "Perimeter" or "Enclosure"; denotes stability, structure, or foundation.
+        Ρ	Rho	    "Head" or "River"; symbolizes leadership or flow.
+        Σ	Sigma	"Summation" or "Tooth"; represents accumulation, logic, or sharpness.
+        Τ	Tau	    "Mark" or "Cross"; signifies truth, boundaries, or intersections.
+        Υ	Upsilon	"Cup" or "Support"; represents receptivity, holding, or balance.
+        Φ	Phi	    "Circle with Line"; symbolizes harmony, nature, or the golden ratio.
+        Χ	Chi	    "Cross"; denotes intersections, exchange, or balance.
+        Ψ	Psi	    "Trident" or "Soul"; represents the mind, spirit, or deep introspection.
+        Ω	Omega	"End" or "Great"; symbolizes completion, finality, or the ultimate limit.
 
-    : NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
-        : -ion, -ation (noun suffix added to verbs)
-    : ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
-        : -osis (abnormal, diseased condition)
-        : dis- (pejorative prefix)
-        : -itis (inflammation)
-    : ADVERB: -ly
-    
-    ###########################################################################################################
-    ~GREEK: Greek-Alphabet:
-        The Greek letters often have meanings rooted in their shapes, cultural associations, or early pictorial origins (influenced by Phoenician symbols).
-        Many letters carry abstract, mathematical, or spiritual connotations, particularly due to their later use in philosophy and science.
-        : Letter	Name	Meaning
-            Α	Alpha	"Ox" or "Beginning"; symbolizes strength and leadership.
-            Β	Beta	"House"; represents shelter, structure, or foundation.
-            Γ	Gamma	"Camel"; symbolizes movement, travel, or support.
-            Δ	Delta	"Door"; signifies transition, entry, or change.
-            Ε	Epsilon	"Breath" or "Window"; represents clarity, perception, or enlightenment.
-            Ζ	Zeta	"Life"; denotes vitality or liveliness.
-            Η	Eta	"Hearth" or "Eight"; symbolizes warmth, energy, and balance.
-            Θ	Theta	"Circle" or "God"; represents eternity, divinity, or introspection.
-            Ι	Iota	"Hand" or "Small"; denotes simplicity, precision, or individuality.
-            Κ	Kappa	"Palm" or "Grasp"; signifies action, holding, or utility.
-            Λ	Lambda	"Shepherd's Staff"; represents guidance, direction, or elevation.
-            Μ	Mu	"Water"; symbolizes fluidity, change, and nurturing.
-            Ν	Nu	"Fish"; represents life, continuity, or movement.
-            Ξ	Xi	"Cut" or "Sharpness"; signifies division, differentiation, or focus.
-            Ο	Omicron	"Small Circle"; represents wholeness, unity, or completeness.
-            Π	Pi	"Perimeter" or "Enclosure"; denotes stability, structure, or foundation.
-            Ρ	Rho	"Head" or "River"; symbolizes leadership or flow.
-            Σ	Sigma	"Summation" or "Tooth"; represents accumulation, logic, or sharpness.
-            Τ	Tau	"Mark" or "Cross"; signifies truth, boundaries, or intersections.
-            Υ	Upsilon	"Cup" or "Support"; represents receptivity, holding, or balance.
-            Φ	Phi	"Circle with Line"; symbolizes harmony, nature, or the golden ratio.
-            Χ	Chi	"Cross"; denotes intersections, exchange, or balance.
-            Ψ	Psi	"Trident" or "Soul"; represents the mind, spirit, or deep introspection.
-            Ω	Omega	"End" or "Great"; symbolizes completion, finality, or the ultimate limit.
-    ###########################################################################################################
-    ~HEBREW: Hebrew-Alphabet (Aleph-Bet):
-        The Hebrew alphabet consists of 22 consonantal letters. Each letter has deep symbolic, spiritual, and numerical significance.
-        : Letter	Name	Meaning (Symbolism or Concept)
-            א	    Aleph	Ox, strength, leadership, unity.
-            ב	    Bet	House, shelter, creation.
-            ג	    Gimel	Camel, movement, giving, prosperity.
-            ד	    Daleth	Door, humility, transition.
-            ה	    Hei	Window, breath, revelation, divinity.
-            ו	    Vav	Nail, hook, connection, unity.
-            ז	    Zayin	Weapon, sustenance, struggle, defense.
-            ח	    Chet	Fence, life, protection, boundaries.
-            ט	    Tet	Basket, goodness, hidden potential.
-            י	    Yod	Hand, power, creation, divine spark.
-            כ / ך   Kaf	Palm, bending, receiving, submission.
-            ל	    Lamed	Staff, learning, guidance, elevation.
-            מ / ם   Mem	Water, wisdom, transformation, flow.
-            נ / ן   Nun	Fish, life, faithfulness, continuity.
+~HEBREW: Hebrew-Alphabet (Aleph-Bet):
+    The Hebrew alphabet consists of 22 consonantal letters. 
+    Each letter has deep symbolic, spiritual, and numerical significance.
+    : Letter	Name	Meaning (Symbolism or Concept)
+        א	    Aleph	Ox, strength, leadership, unity.
+        ב	    Bet	House, shelter, creation.
+        ג	    Gimel	Camel, movement, giving, prosperity.
+        ד	    Daleth	Door, humility, transition.
+        ה	    Hei	Window, breath, revelation, divinity.
+        ו	    Vav	Nail, hook, connection, unity.
+        ז	    Zayin	Weapon, sustenance, struggle, defense.
+        ח	    Chet	Fence, life, protection, boundaries.
+        ט	    Tet	Basket, goodness, hidden potential.
+        י	    Yod	Hand, power, creation, divine spark.
+        כ / ך   Kaf	Palm, bending, receiving, submission.
+        ל	    Lamed	Staff, learning, guidance, elevation.
+        מ / ם   Mem	Water, wisdom, transformation, flow.
+        נ / ן   Nun	Fish, life, faithfulness, continuity.
         ס	    Samekh	Support, protection, cycles.
         ע	    Ayin	Eye, perception, insight, vision.
         פ / ף	Pe	Mouth, speech, expression, communication.
