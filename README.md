@@ -3,20 +3,20 @@
     [READ-WRITE: MATHEMATICS, SENSES IN LATIN, GREEK, HEBREW]
 
 ## **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
-    ~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:MIRROR/REACT/BE(SEEN/HEARD/FELT/SMELLED/TASTED), INSTANT-GRATIFICATION
+    ~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), INSTANT-GRATIFICATION
     ~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()
-        ~READ/DECODE(FRONTIER), MEMORY/EXPLORED-SET; TERMINAL(s): checks if state s is a terminal state; "Is Frontier Goal?"
+        ~READ/DECODE(UNKNOWN), KNOWN
             ~SYNTAX: SENTENCE
-                : ADVERB, VERB, ADJECTIVE, PRONOUN, 
-                : POSITION, LODIAL, FACT
-                : PAST-FUTURE TENSES
+                : ADVERB, VERB, ADJECTIVE, PRONOUN (1, 2, 3, 4)
+                : POSITION, LODIAL, FACT (5-6-7)
+                : PAST-FUTURE TENSES (8, 9)
                 : PUNCTUATIONS, SYMBOLS... 
             ~WORD: PARSE/ETYMOLOGY
                 : Fixes: Position-Lodial, Categories
                     : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement...
-                    : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Ethnicity/Race/Specie/Genus/Status...: Personality Types / Characters (Theophrastus)
-                    : WHERE: HOME= Length*Width*Height... Checkpoint/Position/Address/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                    : WHEN: SCHEDULE= Start*Finish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                    : WHO: FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis)
+                    : WHERE: HOME= Earth*Heaven... Checkpoint/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                    : WHEN: SCHEDULE= Birth*Death... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
                     : WHY:
                     : HOW:
                 : Roots: Fact/Known
@@ -25,20 +25,18 @@
                     : Motion: PHYSICS (ARISTOTLE)
                     : Air
                     : Energy: ARITHMETIC ()
-                        : Positive (+1): FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND
-                        : Negative (-1): SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART
-                        : Neutral (0): EXPERIENCE/CHILD/CONTACT/LIFE
-        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), CORRECTNESS/REASON:
-            : ARISTOTLE'S NICHOMACHEAN ETHICS
+                        : Positive (+1): FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND, Vice of Excess
+                        : Negative (-1): SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART, Vice of Deficiency
+                        : Neutral (0): EXPERIENCE/CHILD/CONTACT/LIFE, Golden Mean
+        ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG), REASON
             : NOW-SPACE 
-            : POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
             : CORRECT-PARSE-SYNTAX-GRAMMAR
                 : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-                : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY).
+                : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
                 : IS/ARE-THINKING: 
-                : WITH THE DUTY/PERFORMANCE
+                : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
                 : OF THE TERMS:
-                : WITH THE CONTRACT:
+                : WITH THE CONTRACT: POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
                 : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge            
             : LOGIC-ARITHMETIC = -1, 0, +1
 
