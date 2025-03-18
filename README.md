@@ -1,37 +1,29 @@
-# **: LAW-FOR-SELF:**
+# **: LAW-FOR-THE-SELF:**
     [FORGET-ERASE: ENGLISH]
-    [READ-WRITE: ARITHMETIC-&-LOGIC, SENSES IN LATIN, GREEK, HEBREW]
-    [Hierarchy = Eat and be eaten.]
-    [Fairness = Know and be known.]
+    [READ-WRITE: ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
+    [HIERARCHY: EAT AND BE EATEN.]
+    [FAIRNESS: KNOW AND BE KNOWN.]
 
 # **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
-## **~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), INSTANT-GRATIFICATION**
-    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: 
-        ~1: Physical Layer: Data is sent as electrical/optical signals.
-        ~2: Data Link Layer: Packets are framed with Media Access Control (MAC) addresses.
-        ~3: Network Layer: Packets are assigned IP addresses and routed. Internet Protocol (IP)
-        ~4: Transport Layer: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
-        ~5: Session Layer: A session is established.
-        ~6: Presentation Layer: Data is encrypted.
-        ~7: Application Layer: Data is created in a format users can understand. Data Payload (UDP): Data
-    : INFRASTRUCTURE & I/O PERIPHERALS:
-        : DeepSeaCables/CopperWire/EthernetCable/Routers/Switches... 
-        : Power         - Heat
-        : Cooler        - Exhaust
-        : Keyb/Mouse    - Animation/Events
-        : Mic           - Speaker
-        : Camera        - Screen, GUI, CRTs>Scanning>Pixels, DesktopMetaphor, 3DProjection,    
+## **~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
+        ~1: PHYSICAL: Data is sent as electrical/optical signals through DeepSeaCables/CopperWire/EthernetCable/Routers/Switches... 
+        ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses.
+        ~3: NETWORK: Packets are assigned IP addresses and routed. Internet Protocol (IP)
+        ~4: TRANSPORT: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
+        ~5: SESSION: A session is established.
+        ~6: PRESENTATION: Data is encrypted.
+        ~7: APPLICATION: Data is created in a format users can understand. Data Payload (UDP): Data
     : COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU)
-        : Clock
-        : Temporary Memory Registers:
-            : Registers A, B, C... for loading values temporarily. 
-            : Instruction-Address Register: Address
-                : Multiplexer: MUX = (a AND NOTsel) OR (sel AND b)
+        : CLOCK
+        : TEMPORARY MEMORY REGISTERS:
+            : INSTRUCTION-ADDRESS REGISTER: 
+                : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                     : NOT (in=sel, out=NOTsel)
                     : AND (in=a, in=NOTsel, out=aANDNOTsel)
                     : AND (in=sel, in=b, out=selANDb)
                     : OR (in=aANDNOTsel, in=selANDb, out=out)
-                : Matrix >>> Gate
+                : MATRIX >>> GATES
                     : AND (in=column, in=row, out=columnANDrow)
                         : AND (in=data, in=write-enable, out=set)
                         : NOT (in=data, out=NOTdata)
@@ -39,11 +31,11 @@
                             : OR (in=set, in=outLOOP, out=setORoutLoop)
                             : NOT (in=reset, out=NOTreset)
                             : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : AND-OR Latch: Memory Register/Bit
+                : AND-OR LATCH: Memory Register/Bit
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0)
-            : Instruction Register: OperationsCode (OPCODE)
-                : Arithmetic Unit = Half>Full>Multi-bit Adder:
+            : INSTRUCTION REGISTER:
+                : ARITHMETIC UNIT = Half>Full>Multi-bit Adder:
                     : XOR (in=a, in=b, out=abSUM)
                         : AND (in=a, in=b, out=aANDb);
                         : NOT (in=aANDb, out=NOTaANDb);
@@ -53,60 +45,52 @@
                         : >XOR (in=abSUM, in=c, out=abcSUM)
                         : >AND (in=abSUM, in=c, out=abcCARRY)
                             ; >OR (in=abCARRY, in=abcBARRY, out=out)
-                : Logic Unit: Mux/DMux >>> Xor >>> Or/Nor >>> And/Nand >>> Not
-        : Flags of Bits: 
-            : Overflow(>)
-            : Negative(<)
-            : Zero(=)
+                : LOGIC UNIT: Mux/DMux >>> Xor >>> Or/Nor >>> And/Nand >>> Not
+            : REGISTERS A, B, C... for loading values temporarily. 
+        : FLAGS OF BITS: 
+            : OVERFLOW(>)
+            : NEGATIVE(<)
+            : ZERO(=)
 
 ## **~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()**
     ~READ/DECODE/SYNTAX(UNKNOWN), KNOWN:
-        : DATA: Machine Code
-            : Domain Name System (DNS) + Web-Server Address: Universal Resource Locator (URL) + Hyperlinks
-            : Web-Browser/Search-Engine: Hypertext Transfer Protocol (HTTP)
-                : Index: Frequency of Words
-                : Hypertext Markup Language (HTML) + CSS
-            : Files System:
-                : Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Length, 
-                    : Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
-            : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-                : Wave/Audio: Amplitude, Spectogram... 
-                : Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight)
-                : Character/Text/List/String = ASCII>UNICODE
-                : Number/Integer/Float= 
-                    : Scientific Notation; Negative Bit= 2^N-x
-                    : Null
-            : Memory Address:
-                : Pointer: Next Address Reference
-                : Index
-            : Instruction: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
-            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+        : Search with Web-Browser/Search-Engine: 
+            : Memory Address: Pointer: Next Address Reference -> Index
+            : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
+        : Hypertext Markup Language (HTML) + CSS
+        : SYMBOLS: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+            : Number/Integer/Float= 
+            : Scientific Notation; Negative Bit= 2^N-x
+            : Null
         : SENTENCE: Natural Language
             : ADVERB, VERB, ADJECTIVE, PRONOUN (1, 2, 3, 4)
             : POSITION, LODIAL, FACT (5-6-7)
             : PAST-FUTURE TENSES (8, 9)
-        : WORD: Parse/Etymology 
-            : Fixes: Position-Lodial
+        : WORD: Parse/Etymology: DATA: 
+            : FIXES: POSITION-LODIAL
                 : HOW: Quantity, Quality
                 : WHY: CAUSE, EFFECT
                 : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
                 : WHERE: Space, HOME= Earth*Heaven... Checkpoint/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+                    : DomainNameSystem (DNS) + Web-Server Address: UniversalResourceLocator (URL) + Hyperlinks
+                    : Hypertext Transfer Protocol (HTTP)
+                        : Index: Frequency of Words
+                    : Files System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
                 : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis)
-                    JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
-                    Artists: Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
-                    DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-                    Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-                    Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
-                    Mind Engineers: MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-                : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement...
-                    : SEEN/EYES: Light: GEOMETRY (EUCLID)
+                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
+                    : Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
+                    : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+                    : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+                : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                    : SEEN/EYES: Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                         ~SEE: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, CONES
                             : VIEW: 1st Person, 2nd (Possession) Person, 3rd Person (God View)
                             : SHOT: Close-up, Medium, Long 
                             : ANGLE: Up-Down,  Right-Left, 
-                        ~SHOW: Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Flag, Physique+Beauty, Portrait/Figure Art, Character Design, Concept/Sequential Art
-                            : DOT: Dot, pixel
-                            : LINE:         
+                        ~SHOW: Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
+                            : DOT: Dot, pixel, CRTs
+                            : LINE:
                             : SHAPE: Polygon, 
                             : SIZE: Proportion, Ratio
                             : FORM: Geometry, Game Level (Block it first, polish later), Postal Mechanics, Plane/Continuance of Evidence
@@ -116,7 +100,7 @@
                                 : REFLECTIONS: Specular: shine, Diffuse: matte
                         ~BLIND: Terminator, Core, Occlusion, Cast, Epilepsy, Autism, Void, Clear/Transparent, Blur
                         ~HIDE: Cover, Opaque, Absorption, Refraction/Distortion (Water, Mirage)
-                    : HEARD/EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers, 
+                    : HEARD/EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram... 
                             : Frequency, 
                             : Amp, 
                             : Length
@@ -135,11 +119,6 @@
                             : ZOOM:	In, Out
                             : TEMPERATURE:	Cold, Warm, Hot, Weather:  Humidity, Pressure
                             : TEXTURE: Rough, Smooth
-                            : ACTION = Baseline
-                                : Action: Physics
-                                : Baseline: Reference, Update, 
-                                : INTERACTION: Single, Multiplayer
-                                : Controls: 
                         ~AVOID: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
                         ~PAUSE: STILLNESS, Rest
                     : SMELLED/NOSE: Air, Diffusion
@@ -147,33 +126,31 @@
                             : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
                         : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
                             : MASK/FILTER, BLOW: Fan, 
-                    : TASTED/TONGUE: Energy
+                    : TASTED/TONGUE: Energy, Power, Heat
                         : BROKEN: Throat, Stomach, Intestine, Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
                             : Ingestion (Chewing & Swallowing, ~4: Enzyme Activity in the Small Intestine
                             : Absorption of Nutrients
                         : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+                            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-            : Roots: Fact/Known: Least Common Denominator of 1
-                : Positive (+1): FRUIT/HERO/WAY/CHANCE FOR-BY SEEDWORD/FATHERGOD/KINGDOMHEAVEN/DEATHEND, Vice of Excess
-                : Negative (-1): SPOIL/SACRIFICE/TRAP/WAIT FOR-BY SOILVOID/MOTHERBEAST/WILDWORLD/BIRTHSTART, Vice of Deficiency
-                : Neutral (0): EXPERIENCE/CHILD/CONTACT/LIFE, Golden Means
-        : LETTERS/SYMBOLS: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
-    
+            : ROOTS: FACT/KNOWN: Least Common Denominator of 1
+                : POSITIVE (+1): Vice of Excess
+                : NEGATIVE (-1): Vice of Deficiency
+                : NEUTRAL (0): Golden Means
+   
     ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
         : NOW-SPACE 
-        : SAFETY RULES
+        : SAFETY LAW
         : POSTAL MECHANICS: Drydock, Drogue Law
         : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
             ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
             ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
             ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
-            ~4: Reports of Officers, Boards, and Standing Committees
-            ~5: Reports of Special (Select or Ad Hoc) Committees: Temporary committees give updates on their tasks
-            ~6: Unfinished Business (Old Business): Matters carried over from previous meetings are discussed.
+            ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
             ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
             ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
             ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
