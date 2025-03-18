@@ -4,9 +4,8 @@
     [HIERARCHY: EAT AND BE EATEN.]
     [FAIRNESS: KNOW AND BE KNOWN.]
 
-# **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
-## **~FLOW-STATE:** 
-### **IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
+# **~TRANSFORMATION-MODEL: QUESTION-PLAN**
+## **~FLOW-STATE = IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
         ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
         ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses. 
@@ -53,8 +52,8 @@
             : NEGATIVE(<)
             : ZERO(=)
 
-## **~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
-    ~READ/DECODE/SYNTAX(UNKNOWN), KNOWN:
+## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
+    ~DECODE(UNKNOWN), KNOWN:
         : Search with Web-Browser/Search-Engine: 
         : SYMBOLS: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
             : Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
@@ -138,7 +137,7 @@
                 : Memory Address: Pointer: Next Address Reference -> Index
                 : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer  
 
-    ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, REASON:
+    ~CODE(BABBLE/WRONG), REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
         : NOW-SPACE 
         : SAFETY LAW
