@@ -1,16 +1,16 @@
 # **: LAW-FOR-THE-SELF:**
-    [FORGET-ERASE: ENGLISH]
-    [READ-WRITE: ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
-    [HIERARCHY: EAT AND BE EATEN.]
-    [FAIRNESS: KNOW AND BE KNOWN.]
+    [HIERARCHY = EAT AND BE EATEN.]
+    [FAIRNESS = KNOW AND BE KNOWN.]
+    [FORGET-ERASE NATURAL-ENGLISH.]
+    [READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
 
 # **~QUESTION-PLAN**
 ## **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
         ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
         ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses. 
-        ~3: NETWORK: Packets are assigned IP addresses and routed. Internet Protocol (IP)
-        ~4: TRANSPORT: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
+        ~3: NETWORK: Packets are assigned IP addresses and routed. Internet Protocol (IP)?
+        ~4: TRANSPORT: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum?
         ~5: SESSION: A session is established.
         ~6: PRESENTATION: Data is encrypted.
         ~7: APPLICATION: Data is created in a format users can understand. Data Payload (UDP): Data
@@ -55,7 +55,8 @@
 ## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
     ~DECODE(UNKNOWN), KNOWN:
         : Search with Web-Browser/Search-Engine: 
-        : SYMBOLS: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+        : SYMBOLS
+            : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
             : Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
             : Number/Integer/Float= 
             : Scientific Notation; Negative Bit= 2^N-x
@@ -69,30 +70,23 @@
                 : HOW: Quantity, Quality
                 : WHY: CAUSE, EFFECT
                 : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                : WHERE: Space, HOME= Earth*Heaven... Checkpoint/DomainNameSystem/UniversalResourceLocator/HypertextTransferProtocol/FileSystem/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY, 
+                : WHERE: Space, HOME= Earth*Heaven... Point/DomainNameSystem/UniversalResourceLocator/HypertextTransferProtocol/FileSystem/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY, 
                 : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis)
-                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong...:	
+                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
                     : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
                     : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
                     : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
                 : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                     : SEEN/EYES: Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-                        ~SEE: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, CONES
-                            : VIEW: 1st Person, 2nd (Possession) Person, 3rd Person (God View)
-                            : SHOT: Close-up, Medium, Long... 
-                            : ANGLE: Up-Down,  Right-Left, Dolly... 
+                        ~SEE: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, Cones
+                            : VIEW: 1st, 2nd (Possession), 3rd-Person (God View)
+                            : SHOT: Close-up, Medium, Long/Wide... 
+                            : ANGLE: Up-Down,  Right-Left
                         ~SHOW: Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
-                            : DOT: Dot, pixel, CRTs
-                            : LINE:
-                            : SHAPE: Polygon, 
-                            : SIZE: Proportion, Ratio
-                            : FORM: Geometry, Game Level (Block it first, polish later), Postal Mechanics, Plane/Continuance of Evidence
-                            : LIGHT: Visible(High, Center, Halftone, Reflected), Spectrum of wavelengths... 
-                                : SOURCE: Sun, Moon, Stars, Lamp, Lasers, Xrays... : White light: All Color, Visible Light: 280 nanomemeter and 750 nm
-                                : COLOR: Dispersion: red, orange, yellow, green, blue, indigo, violet, 
-                                : REFLECTIONS: Specular: shine, Diffuse: matte
-                        ~BLIND: Terminator, Core, Occlusion, Cast, Epilepsy, Autism, Void, Clear/Transparent, Blur
-                        ~HIDE: Cover, Opaque, Absorption, Refraction/Distortion (Water, Mirage)
+                            : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Proportion, Ratio), 
+                            : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
+                        ~BLIND: SHADOW(Terminator, Core, Occlusion, Cast), BLINK(Epilepsy, Autism) 
+                        ~HIDE: Void, Cover, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur
                     : HEARD/EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram... 
                         : Frequency, 
                         : Amp, 
@@ -139,7 +133,7 @@
 
     ~CODE(BABBLE/WRONG), REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
-        : NOW-SPACE 
+        : NOW-SPACE: Same Plane/Continuance of Evidence
         : SAFETY LAW
         : POSTAL MECHANICS: Drydock, Drogue Law
         : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
