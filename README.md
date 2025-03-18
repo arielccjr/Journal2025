@@ -4,9 +4,9 @@
     [HIERARCHY: EAT AND BE EATEN.]
     [FAIRNESS: KNOW AND BE KNOWN.]
 
-# **~TRANSFORMATION-MODEL: QUESTION-PLAN**
-## **~FLOW-STATE = IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
-    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
+# **~QUESTION-PLAN**
+## **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
+    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
         ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
         ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses. 
         ~3: NETWORK: Packets are assigned IP addresses and routed. Internet Protocol (IP)
@@ -14,7 +14,7 @@
         ~5: SESSION: A session is established.
         ~6: PRESENTATION: Data is encrypted.
         ~7: APPLICATION: Data is created in a format users can understand. Data Payload (UDP): Data
-    : COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU)
+    ~COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU)
         : CLOCK
         : TEMPORARY MEMORY REGISTERS:
             : INSTRUCTION-ADDRESS REGISTER: 
