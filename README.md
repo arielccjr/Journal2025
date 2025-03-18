@@ -5,10 +5,11 @@
     [FAIRNESS: KNOW AND BE KNOWN.]
 
 # **~TRANSFORMATION-MODEL: QUESTION-PLAN(RHETORIC)**
-## **~FLOW-STATE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
+## **~FLOW-STATE:** 
+### **IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) - OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
-        ~1: PHYSICAL: Data is sent as electrical/optical signals through DeepSeaCables/CopperWire/EthernetCable/Routers/Switches... 
-        ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses.
+        ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
+        ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses. 
         ~3: NETWORK: Packets are assigned IP addresses and routed. Internet Protocol (IP)
         ~4: TRANSPORT: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum
         ~5: SESSION: A session is established.
@@ -52,13 +53,11 @@
             : NEGATIVE(<)
             : ZERO(=)
 
-## **~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT()**
+## **~STOP-&-CORRECT: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
     ~READ/DECODE/SYNTAX(UNKNOWN), KNOWN:
         : Search with Web-Browser/Search-Engine: 
-            : Memory Address: Pointer: Next Address Reference -> Index
-            : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
-        : Hypertext Markup Language (HTML) + CSS
         : SYMBOLS: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+            : Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
             : Number/Integer/Float= 
             : Scientific Notation; Negative Bit= 2^N-x
             : Null
@@ -66,19 +65,14 @@
             : ADVERB, VERB, ADJECTIVE, PRONOUN (1, 2, 3, 4)
             : POSITION, LODIAL, FACT (5-6-7)
             : PAST-FUTURE TENSES (8, 9)
-        : WORD: Parse/Etymology: DATA: 
-            : FIXES: POSITION-LODIAL
+        : WORD: Parse/Etymology: 
+            : FIXES: POSITION-LODIAL, 'Attributes'
                 : HOW: Quantity, Quality
                 : WHY: CAUSE, EFFECT
                 : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
-                : WHERE: Space, HOME= Earth*Heaven... Checkpoint/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                    : DomainNameSystem (DNS) + Web-Server Address: UniversalResourceLocator (URL) + Hyperlinks
-                    : Hypertext Transfer Protocol (HTTP)
-                        : Index: Frequency of Words
-                    : Files System: Directory = Name, Type, Root>Sub, Hierarchical/Flat, Metadata: Memory Size/Length: (4/8(byte)/16(word)/32/64/128)
+                : WHERE: Space, HOME= Earth*Heaven... Checkpoint/DomainNameSystem/UniversalResourceLocator/HypertextTransferProtocol/FileSystem/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY, 
                 : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis)
-                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X
-                    : Rivermaya, Bamboo, Juan Karlos, Lana del Rey, Zack Bryan, Midwest Pen Pals, Hillsong...:	
+                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong...:	
                     : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
                     : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
                     : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
@@ -86,8 +80,8 @@
                     : SEEN/EYES: Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                         ~SEE: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, CONES
                             : VIEW: 1st Person, 2nd (Possession) Person, 3rd Person (God View)
-                            : SHOT: Close-up, Medium, Long 
-                            : ANGLE: Up-Down,  Right-Left, 
+                            : SHOT: Close-up, Medium, Long... 
+                            : ANGLE: Up-Down,  Right-Left, Dolly... 
                         ~SHOW: Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
                             : DOT: Dot, pixel, CRTs
                             : LINE:
@@ -101,11 +95,11 @@
                         ~BLIND: Terminator, Core, Occlusion, Cast, Epilepsy, Autism, Void, Clear/Transparent, Blur
                         ~HIDE: Cover, Opaque, Absorption, Refraction/Distortion (Water, Mirage)
                     : HEARD/EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram... 
-                            : Frequency, 
-                            : Amp, 
-                            : Length
-                            : GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
-                            : RHYTHM: 	Beat, SOUND EFFECTS
+                        : Frequency, 
+                        : Amp, 
+                        : Length
+                        : GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
+                        : RHYTHM: 	Beat, SOUND EFFECTS
                         ~DEAFEN:       NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
                         ~MUTE:         SILENCE, Ambience 
                     : FELT/SKINS: Motion: PHYSICS (ARISTOTLE)
@@ -133,14 +127,17 @@
                         : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-                            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-            : ROOTS: FACT/KNOWN: Least Common Denominator of 1
+            : ROOTS: FACT/KNOWN: 'Essential'
                 : POSITIVE (+1): Vice of Excess
                 : NEGATIVE (-1): Vice of Deficiency
                 : NEUTRAL (0): Golden Means
-   
+                
+                : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
+                : Memory Address: Pointer: Next Address Reference -> Index
+                : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer  
+
     ~WRITE/ARRANGE()-ERASE-FORGET(BABBLE/WRONG)/CRUD, REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
         : NOW-SPACE 
@@ -189,8 +186,7 @@
             ~INTRODUCTION (Exordium):   Establishes credibility (ethos) and engages the audience.
                 : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
                 : MEANING:              Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-                : THESIS:               This speech shares 
-                                        we have free will — the ability to choose.”
+                : THESIS:               This speech shares that we have free will — the ability to choose.”
                                         ~1: First, 
                                         ~2: Then,
                                         ~3: And finally, 
@@ -208,7 +204,7 @@
                                         "We never left 2nd-grade reading/comprehension level."
                                         "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
                                         "We are at the mercy of our lawyers for reaching closure."
-                : Transition:           But what if this is only half-true?
+                : TRANSITION:           But what if this is only half-true?
                                         What if there is another way? What if we can read / write the truth on our own?
             ~PROOF (Confirmatio):       Develops logical (logos) arguments with supporting evidence.
                 : Introduction:         Computers 
