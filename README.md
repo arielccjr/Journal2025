@@ -17,13 +17,13 @@
     ~COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU)
         : CLOCK
         : TEMPORARY MEMORY REGISTERS:
-            : INSTRUCTION-ADDRESS REGISTER: 
+            : INSTRUCTION-ADDRESS REGISTER & MEMORY ADDRESS:
                 : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                     : NOT (in=sel, out=NOTsel)
                     : AND (in=a, in=NOTsel, out=aANDNOTsel)
                     : AND (in=sel, in=b, out=selANDb)
                     : OR (in=aANDNOTsel, in=selANDb, out=out)
-                : MATRIX >>> GATES
+                : MATRIX >>> GATES:
                     : AND (in=column, in=row, out=columnANDrow)
                         : AND (in=data, in=write-enable, out=set)
                         : NOT (in=data, out=NOTdata)
@@ -31,10 +31,10 @@
                             : OR (in=set, in=outLOOP, out=setORoutLoop)
                             : NOT (in=reset, out=NOTreset)
                             : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : AND-OR LATCH: Memory Register/Bit
+                : AND-OR LATCH/MEMORY REGISTER & MEMORY BIT:
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0)
-            : INSTRUCTION REGISTER:
+            : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE):
                 : ARITHMETIC UNIT = Half>Full>Multi-bit Adder:
                     : XOR (in=a, in=b, out=abSUM)
                         : AND (in=a, in=b, out=aANDb);
@@ -46,7 +46,7 @@
                         : >AND (in=abSUM, in=c, out=abcCARRY)
                             ; >OR (in=abCARRY, in=abcBARRY, out=out)
                 : LOGIC UNIT: Mux/DMux >>> Xor >>> Or/Nor >>> And/Nand >>> Not
-            : REGISTERS A, B, C... for loading values temporarily. 
+            : REGISTERS A, B, C... for holding values temporarily. 
         : FLAGS OF BITS: 
             : OVERFLOW(>)
             : NEGATIVE(<)
@@ -130,11 +130,12 @@
                 : Memory Address: Pointer: Next Address Reference -> Index
                 : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer  
 
+
+
     ~CODE(BABBLE/WRONG), REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
         : NOW-SPACE: Same Plane/Continuance of Evidence
-        : SAFETY LAW
-        : POSTAL MECHANICS: Drydock, Drogue Law
+        : SAFETY LAW, POSTAL MECHANICS, MARITIME LAW, DRYDOCK, DROGUE LAW, 
         : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
             ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
             ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
@@ -149,7 +150,7 @@
             : IS/ARE-THINKING: 
             : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
             : OF THE TERMS:
-            : WITH THE CONTRACT: POSTAL MECHANICS + MARITIME LAW + ROBERT'S RULE OF ORDER
+            : WITH THE CONTRACT:
             : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
         : COMPUTER LANGUAGES: MACHINE CODE, PROGRAMMING LANGUAGES
             : INPUT STATEMENTS: 
