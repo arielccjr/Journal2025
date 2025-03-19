@@ -99,13 +99,12 @@
                         ~FEEL: 			    = SKINS:	Hands, Feet, Skin
                             : EMOTION:	    = Reaction, INERTIA, Love, Hate
                             : INPUT		    = Mouse, Keyboard, Controller
-                        ~MOVE: 	
-                            : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+                        ~MOVE: MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+                            : TEXTURE: Rough, Smooth
                             : MASS: Light, Heavy
                             : SPEED: Slow, Fast, 
-                            : ZOOM:	In, Out
+                            : DISTANCE/ZOOM:	In, Out
                             : TEMPERATURE:	Cold, Warm, Hot, Weather:  Humidity, Pressure
-                            : TEXTURE: Rough, Smooth
                         ~AVOID: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
                         ~PAUSE: STILLNESS, Rest
                     : SMELLED/NOSE: Air, Diffusion
