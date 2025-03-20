@@ -53,7 +53,7 @@
             : ZERO(=)
 
 ## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
-    ~DECODE(UNKNOWN), KNOWN:
+    ~DECODE(UNKNOWN), KNOWN/THE LEAST COMMON DENOMINATOR OF 1:
         : Search with Web-Browser/Search-Engine: 
         : SYMBOLS
             : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
@@ -76,7 +76,10 @@
                     : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
                     : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
                     : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-                : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                : WHAT
+                    : FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                    : POSITIVE (+1): Vice of Excess
+                    : NEGATIVE (-1): Vice of Deficiency
                     : SEEN/EYES: Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                         ~SEE: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, Cones
                             : VIEW: 1st, 2nd (Possession), 3rd-Person (God View)
@@ -121,18 +124,13 @@
                             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-            : ROOTS: FACT/KNOWN: 'Essential'
-                : POSITIVE (+1): Vice of Excess
-                : NEGATIVE (-1): Vice of Deficiency
-                : NEUTRAL (0): Golden Means
-                
+            : ROOTS: FACT/KNOWN: NEUTRAL (0): Golden Means
+               
                 : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
                 : Memory Address: Pointer: Next Address Reference -> Index
                 : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer  
 
-
-
-    ~CODE(BABBLE/WRONG), REASON:
+    ~CODE(), REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
         : NOW-SPACE: Same Plane/Continuance of Evidence
         : SAFETY LAW, POSTAL MECHANICS, MARITIME LAW, DRYDOCK, DROGUE LAW, 
