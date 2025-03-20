@@ -1,8 +1,6 @@
 # **: LAW-FOR-THE-SELF:**
-    [HIERARCHY = EAT AND BE EATEN.]
-    [FAIRNESS = KNOW AND BE KNOWN.]
-    [FORGET-ERASE NATURAL-ENGLISH.]
-    [READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
+    [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
+    [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
 
 # **~QUESTION-PLAN**
 ## **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
@@ -17,7 +15,7 @@
     ~COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU)
         : CLOCK
         : TEMPORARY MEMORY REGISTERS:
-            : INSTRUCTION-ADDRESS REGISTER & MEMORY ADDRESS:
+            : INSTRUCTION-ADDRESS REGISTER & MEMORY ADDRESS: Pointer: Next Address Reference -> Index
                 : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                     : NOT (in=sel, out=NOTsel)
                     : AND (in=a, in=NOTsel, out=aANDNOTsel)
@@ -34,7 +32,7 @@
                 : AND-OR LATCH/MEMORY REGISTER & MEMORY BIT:
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0)
-            : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE):
+            : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE): Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
                 : ARITHMETIC UNIT = Half>Full>Multi-bit Adder:
                     : XOR (in=a, in=b, out=abSUM)
                         : AND (in=a, in=b, out=aANDb);
@@ -51,23 +49,20 @@
             : OVERFLOW(>)
             : NEGATIVE(<)
             : ZERO(=)
-
+ 
+            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
 ## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
     ~DECODE(UNKNOWN), KNOWN/THE LEAST COMMON DENOMINATOR OF 1:
         : Search with Web-Browser/Search-Engine: 
         : SYMBOLS
             : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
             : Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
-            : Number/Integer/Float= 
-            : Scientific Notation; Negative Bit= 2^N-x
-            : Null
         : SENTENCE: Natural Language
-            : ADVERB, VERB, ADJECTIVE, PRONOUN (1, 2, 3, 4)
+            : ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9)
             : POSITION, LODIAL, FACT (5-6-7)
-            : PAST-FUTURE TENSES (8, 9)
-        : WORD: Parse/Etymology: 
+        : WORD: Parse/Etymology:
             : FIXES: POSITION-LODIAL, 'Attributes'
-                : HOW: Quantity, Quality
+                : HOW: Quantity, Quality: POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency)
                 : WHY: CAUSE, EFFECT
                 : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
                 : WHERE: Space, HOME= Earth*Heaven... Point/DomainNameSystem/UniversalResourceLocator/HypertextTransferProtocol/FileSystem/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY, 
@@ -76,60 +71,53 @@
                     : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
                     : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
                     : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-                : WHAT
-                    : FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-                    : POSITIVE (+1): Vice of Excess
-                    : NEGATIVE (-1): Vice of Deficiency
+                : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                     : SEEN/EYES: Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-                        ~SEE: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, Cones
-                            : VIEW: 1st, 2nd (Possession), 3rd-Person (God View)
-                            : SHOT: Close-up, Medium, Long/Wide... 
-                            : ANGLE: Up-Down,  Right-Left
-                        ~SHOW: Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
-                            : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Proportion, Ratio), 
-                            : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-                        ~BLIND: SHADOW(Terminator, Core, Occlusion, Cast), BLINK(Epilepsy, Autism) 
-                        ~HIDE: Void, Cover, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur
+                        +SEE-SHOW: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, Cones
+                            : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
+                        -BLIND-HIDE: SHADOW(Terminator, Core, Occlusion, Cast), BLINK(Epilepsy, Autism) 
+                            : Void, Cover, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur
+                        : VIEW: 1st, 2nd (Possession), 3rd-Person (God View)
+                        : SHOT: Close-up, Medium, Long/Wide... 
+                        : ANGLE: Up-Down,  Right-Left
+                        : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Proportion, Ratio), 
+                        : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
                     : HEARD/EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram... 
+                        ~MUTE:         SILENCE, Ambience 
+                        ~DEAFEN:       NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
                         : Frequency, 
                         : Amp, 
                         : Length
-                        : GENRES: 	Alt, Post-Rock, Country, Gregorian Chant, Foreign
-                        : RHYTHM: 	Beat, SOUND EFFECTS
-                        ~DEAFEN:       NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
-                        ~MUTE:         SILENCE, Ambience 
+                        : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
+                        : RHYTHM: Beat, SOUND EFFECTS
                     : FELT/SKINS: Motion: PHYSICS (ARISTOTLE)
-                        ~FEEL: 			    = SKINS:	Hands, Feet, Skin
-                            : EMOTION:	    = Reaction, INERTIA, Love, Hate
-                            : INPUT		    = Mouse, Keyboard, Controller
+                        ~FEEL: SKINS:	Hands, Feet, Skin, Mouse, Keyboard, Controller
                         ~MOVE: MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
-                            : TEXTURE: Rough, Smooth
-                            : MASS: Light, Heavy
-                            : SPEED: Slow, Fast, 
-                            : DISTANCE/ZOOM:	In, Out
-                            : TEMPERATURE:	Cold, Warm, Hot, Weather:  Humidity, Pressure
                         ~AVOID: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
                         ~PAUSE: STILLNESS, Rest
+                        : EMOTION: Reaction, INERTIA, Love, Hate
+                        : TEXTURE: Rough, Smooth
+                        : MASS: Light, Heavy
+                        : SPEED: Slow, Fast, 
+                        : DISTANCE/ZOOM: In, Out
+                        : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
                     : SMELLED/NOSE: Air, Diffusion
                         : Inhaled: Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn, 
-                            : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
                         : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
-                            : MASK/FILTER, BLOW: Fan, 
+                        : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
+                        : MASK/FILTER, BLOW: Fan, 
                     : TASTED/TONGUE: Energy, Power, Heat
                         : BROKEN: Throat, Stomach, Intestine, Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
-                            : Ingestion (Chewing & Swallowing, ~4: Enzyme Activity in the Small Intestine
-                            : Absorption of Nutrients
                         : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
-                            : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
-                            : Spermatogenesis(Testes) & Oogenesis(Ovaries)
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-            : ROOTS: FACT/KNOWN: NEUTRAL (0): Golden Means
-               
-                : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
-                : Memory Address: Pointer: Next Address Reference -> Index
-                : Instruction/OpCode: Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer  
-
+                        : Ingestion (Chewing & Swallowing, ~4: Enzyme Activity in the Small Intestine
+                        : Absorption of Nutrients
+                        : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
+                        : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+            : ROOTS: FACT/KNOWN: SEEN/HEARD/FELT/SMELLED/TASTED
+                : NEUTRAL (0): Golden Means
+                 
     ~CODE(), REASON:
         : LOGIC-ARITHMETIC = -1, 0, +1
         : NOW-SPACE: Same Plane/Continuance of Evidence
@@ -142,7 +130,7 @@
             ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
             ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
             ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-        : CORRECT-PARSE-SYNTAX-GRAMMAR
+        : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
             : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
             : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
             : IS/ARE-THINKING: 
@@ -178,52 +166,26 @@
                 : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
                 : MEANING:              Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
                 : THESIS:               This speech shares that we have free will — the ability to choose.”
-                                        ~1: First, 
-                                        ~2: Then,
-                                        ~3: And finally, 
                 : TRANSITION:           First: why are we slaves of our passions? 
             ~NARRATION (Narratio):      Presents background information and context.
                 : Support:              You probably "understand" the way I learn English:
-                                        And you are probabaly right, because...
-                                        First, we learn the letters, 
-                                        Then, we memorize words, by the dictionary, if we care enough.
-                                        And finally, we arrange these words in a sentence/clause, using grammar and parts of speech.
-                                            Subject, predicate.
-                                            Nouns, Verbs, Adjectives, Adverbs, Preposition, Articles, 
-                                            Past-tense, Future-tense.
-                                        Most of the time, we learn new words by pop culture / daily conversation,
-                                        "We never left 2nd-grade reading/comprehension level."
-                                        "At the end of the day, we cannot read and write knowledge, facts, and even laws on our own,
-                                        "We are at the mercy of our lawyers for reaching closure."
                 : TRANSITION:           But what if this is only half-true?
-                                        What if there is another way? What if we can read / write the truth on our own?
             ~PROOF (Confirmatio):       Develops logical (logos) arguments with supporting evidence.
                 : Introduction:         Computers 
-                                        They process languages using arithmetic and logic unit.
-                                        Breaking down images, sounds, and videos into 0s and 1s.
-                                        Instead of using dictionary, we learn words by roots and fixes, by etymology.
-                                            For example, 
-                                        And finally, we arrange words by these 3-sequence: Position-Lodial-Fact.
                 : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
             ~REFUTATION (Refutatio):    Anticipates counterarguments and disproves them.
                 : Main Refutation:
                 : Refute 1st:           We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
-                                        Language are ambiguous, with many definition.
-                                        Words rely on arrangement of their neighboring words for meaning, violating parts of speech and grammar.
-                                        Natural language 
                 : Transition:
             ~CONCLUSION (Peroratio):    Reinforces key points and leaves a lasting impression, often with pathos.E
                 : QUESTION:             So, are we simply animals flowing along the current of passion, or do we have free will? 
                 : THESIS:               We are capable of both — of habits, but empowered to rise above them.
                 : Meaning:              This question matters because it shows how If we believe we have no choice, 
-                                        we remain trapped. But if we recognize our free will, we can consciously shape our lives.”
                 : Review Points:
                     Main Point 1:       Habits and instincts strongly influence our behavior.
                     Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
                     Main Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
                 : Closing:              Ultimately, the power to choose defines what it means to be human. 
-                                        Let’s not flow passively along the currents of passion but take control of the rudder and steer toward the lives we truly want. 
-                                        Thank you, Mr. Toastmaster.
 
 # **FOR THE WORD-&-LIGHT.**
     FOR THE BEGINNING IS WITH THE WORD.
