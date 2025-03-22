@@ -191,31 +191,31 @@
                 : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
                 : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
                 : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).
-            ~TITLE:                     How do we know each other? How do we find closure?
-            ~1: INTRODUCTION (Exordium):   Establishes credibility (ethos) and engages the audience.
-                : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
-                : MEANING:              Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-                : THESIS:               This speech shares that we have free will — the ability to choose.”
-                : TRANSITION:           First: why are we slaves of our passions? 
-            ~2: NARRATION (Narratio):      Presents background information and context.
-                : Support:              You probably "understand" the way I learn English:
-                : TRANSITION:           But what if this is only half-true?
-            ~3: PROOF (Confirmatio):       Develops logical (logos) arguments with supporting evidence.
-                : Introduction:         Computers 
-                : TRANSITION:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
-            ~4: REFUTATION (Refutatio):    Anticipates counterarguments and disproves them.
+            ~TITLE:                         How do we know each other? How do we find closure?
+            ~1: INTRODUCTION (Exordium):    Establishes credibility (ethos) and engages the audience.
+                : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
+                : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+                : THESIS:                   This speech shares that we have free will — the ability to choose.”
+                : TRANSITION:               First: why are we slaves of our passions? 
+            ~2: NARRATION (Narratio):       Presents background information and context.
+                : Support:                  You probably "understand" the way I learn English:
+                : TRANSITION:               But what if this is only half-true?
+            ~3: PROOF (Confirmatio):        Develops logical (logos) arguments with supporting evidence.
+                : Introduction:             Computers 
+                : TRANSITION:               Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+            ~4: REFUTATION (Refutatio):     Anticipates counterarguments and disproves them.
                 : Main Refutation:
-                : Refute 1st:           We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
+                : Refute 1st:               We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
                 : TRANSITION:
-            ~5: CONCLUSION (Peroratio):    Reinforces key points and leaves a lasting impression, often with pathos.E
-                : QUESTION:             So, are we simply animals flowing along the current of passion, or do we have free will? 
-                : THESIS:               We are capable of both — of habits, but empowered to rise above them.
-                : Meaning:              This question matters because it shows how If we believe we have no choice, 
+            ~5: CONCLUSION (Peroratio):     Reinforces key points and leaves a lasting impression, often with pathos.E
+                : QUESTION:                 So, are we simply animals flowing along the current of passion, or do we have free will? 
+                : THESIS:                   We are capable of both — of habits, but empowered to rise above them.
+                : Meaning:                  This question matters because it shows how If we believe we have no choice, 
                 : Review Points:
-                    Main Point 1:       Habits and instincts strongly influence our behavior.
-                    Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-                    Main Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
-                : CLOSING:              Ultimately, the power to choose defines what it means to be human. 
+                    Main Point 1:           Habits and instincts strongly influence our behavior.
+                    Main Point 2:           Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+                    Main Point 3:           Addressing counterarguments reveals the balance between instinct and choice.
+                : CLOSING:                  Ultimately, the power to choose defines what it means to be human. 
 
 # **FOR THE WORD-&-LIGHT.**
     FOR THE BEGINNING IS WITH THE WORD.
