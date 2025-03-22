@@ -236,71 +236,68 @@
         ~1: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
             : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
                 : Equivocation: Using a word with multiple meanings ambiguously in an argument.
-                    Example: If an argument says, “The law should be followed because it is the ‘law of nature,’” clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+                    If an argument says, “The law should be followed because it is the ‘law of nature,’” 
+                    clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
                 : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
-                    Example: If someone says, “Flying planes can be dangerous,” clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+                    If someone says, “Flying planes can be dangerous,” 
+                    clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
                 : Accent: Changing the meaning of a statement by emphasizing different words.
-                    Example: For “I didn’t say she stole the money,” show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+                    For “I didn’t say she stole the money,” 
+                    show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
                 : Composition: Assuming what is true of parts is true for the whole.
-                    Example: If someone argues, “All parts of the car are lightweight, so the whole car must be lightweight,” show that a car’s total weight differs from its individual parts.
+                    If someone argues, “All parts of the car are lightweight, so the whole car must be lightweight,” 
+                    show that a car’s total weight differs from its individual parts.
                 : Division: Assuming what is true of the whole is true for each part.
-                    Example: If an argument states, “The team is successful, so every team member is successful,” point out that team success doesn’t imply each member’s personal success.
+                    If an argument states, “The team is successful, so every team member is successful,” 
+                    point out that team success doesn’t imply each member’s personal success.
             : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
                 : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
-                    Example: For “Reading is beneficial because it’s good for you,” explain that “good for you” is simply restating “beneficial” without further evidence.
+                   For “Reading is beneficial because it’s good for you,” 
+                    explain that “good for you” is simply restating “beneficial” without further evidence.
                 : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
-                    Example: For “I started wearing my lucky charm, and my grades improved,” explain that improved grades may be due to other factors, like studying harder.
+                    For “I started wearing my lucky charm, and my grades improved,” 
+                    explain that improved grades may be due to other factors, like studying harder.
                 : Accident: Misapplying a general rule to an exception or specific case.
-                    Example: For “Cutting people is wrong, so surgeons are immoral,” clarify that surgery is a controlled, beneficial exception to the general rule against cutting.
+                    For “Cutting people is wrong, so surgeons are immoral,” 
+                    clarify that surgery is a controlled, beneficial exception to the general rule against cutting.
                 : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
-                    Example: For “One politician lied, so all politicians are liars,” explain that one instance doesn’t justify generalizing about all politicians.
+                    For “One politician lied, so all politicians are liars,” 
+                    explain that one instance doesn’t justify generalizing about all politicians.
                 : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
-                    Example: If someone argues, “Employees are like nails; you have to hit them on the head to make them work,” explain that employees and nails are different and shouldn’t be treated the same way.
+                    If someone argues, “Employees are like nails; you have to hit them on the head to make them work,” 
+                    explain that employees and nails are different and shouldn’t be treated the same way.
                 : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
-                    Example: For “If we let students redo assignments, they’ll expect to retake exams,” explain that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+                    For “If we let students redo assignments, they’ll expect to retake exams,” 
+                    explain that allowing assignment revisions doesn’t logically lead to redoing all assessments.
                 : Ad Hominem: Attacking the person instead of the argument itself.
-                    Example: If someone argues, “You shouldn’t listen to her because she’s not a scientist,” clarify that the person’s background doesn’t inherently disprove their argument’s validity.
+                    If someone argues, “You shouldn’t listen to her because she’s not a scientist,” 
+                    clarify that the person’s background doesn’t inherently disprove their argument’s validity.
                 : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-                    Example: If a celebrity endorses a health product, explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
+                    If a celebrity endorses a health product, 
+                    explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
         ~2: Break Down the Argument – Analyze the terms, premises, and conclusion.
         ~3: Clarify Ambiguities – If the argument relies on wordplay, expose the different meanings.
         ~4: Challenge the Premises – If an assumption is false or weak, point it out.
         ~5: Show the Contradiction – Demonstrate how the fallacy leads to absurdity or contradiction.
  
-#############################################################################################################################################################################################
 ~ARCHETYPES (TOPICS):
-    -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
-            : MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING
-        "SPOIL FOR-BY SOILVOID(-)."
-            : Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
-        "BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs, Requests/Puzzles, Opposition, Alone, Low Population
-            : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
+    -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING
+        "SPOIL FOR-BY SOILVOID(-)." : Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
+        "BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs, Requests/Puzzles, Opposition, Alone, Low Population: Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
         "TRAP FOR-BY WILDWORLD.": The Rat Race, 
         "WAIT FOR-BY BIRTHSTART.": Initial State, Beginning Again
-    +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
-            : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+    +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!": REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
             : Defuse or trigger the bomb.
             : Win Condition: To win the game, players must fulfill their dream on the Fast Track or reach a certain level of passive income.
             : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
         "FRUIT FOR-BY SEEDWORD(+)."
-            : Opportunities: When players land on an investment opportunity space, they can choose to invest in stocks, real estate, businesses, or other assets.   
+            : Mental Dictionary/Library, pokedex, Map, Contact List,
+            : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
             : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
             : Experience Points, Abilities/Stats, New Moves, Karma, 
-            : Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-            : Mental Dictionary/Library, pokedex, Map, Contact List,
-            : Reviews
-        "SON FOR-BY FATHERGOD."
-            : Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
+        "SON FOR-BY FATHERGOD.": Team: Accountant, Investors, Publishers, Clients: Aristocrats, Professionals, Fathers, Fraternity and Brotherhoods, Gentlemen, Nomads, the “New Rich”
             : Club Executives:
-                : President / Chief Executive Officer
-                : Vice Presidents / Chief Operating Officers:
-                    : VP Education
-                    : VP Membership
-                    : VP Public Relations
-                : Treasurer / Chief Financial Officer
-                : Secretary
-                : Sergeant-at-Arms 
-            : Testimonials
+            : Testimonials: Reviews
         "WAY FOR-BY KINGDOMHEAVEN."
             : Creative Directing Studio: Channels/Web/Store: creativedirecting.studio, Phone: 780-996-5088, Email: arielccjr@creativedirecting.studio
             : Build Structures/LEVELS: Balance scope budget, and schedule  
@@ -309,10 +306,8 @@
                 : better positioning on the map, better territory
         "CHANCE FOR-BY DEATHEND."
             : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-            : Incorporation: December 1, 2024... 1-2 days per project
+            : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
             : PROGRESS = Tutorials, Saves, Updates: Journal?
-            : Battle Cycle: 1 move/turn at a time
+            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
             : DEADLINE: Goal State, Completion
-                : Best of 7 Rounds
-                : Round-Time: 3 minutes
             : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.

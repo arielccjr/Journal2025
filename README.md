@@ -51,15 +51,13 @@
             : ZERO(=)
 
 ## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), LEASTCOMMONDENOMINATOR(1)**
-    ~DECODE(UNKNOWN), KNOWN/THE LEAST COMMON DENOMINATOR OF 1:
+    ~DECODE(UNKNOWN), KNOWN/THE LEAST COMMON DENOMINATOR OF 1: Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
         : Search with Web-Browser/Search-Engine: Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
         : WORD: NATURAL-LANGUAGE/SYMBOL, SENTENCE: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9)
             : FIXES: POSITION-LODIAL
                 : HOW: Quantity, Quality: POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency)
-                    : Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
                 : WHY: CAUSE, EFFECT
-                    : Introduce the Prime Mover (First Cause of Motion): Aristotle argues for a Prime Mover (God), a being that causes motion without itself being moved.
-                        : To avoid infinite regress, there must be a first, unmoved mover.
+                    : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
                     : Material – What something is made of (e.g., a statue is made of marble).
                     : Formal – The essence or shape of something (e.g., the design of the statue).
                     : Efficient – What brings something into being (e.g., the sculptor carving the statue).
