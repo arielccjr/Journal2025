@@ -1,4 +1,4 @@
-~COMPUTER-SCIENCE: ARTIFICIAL INTELLIGENCE
+~COMPUTER-SCIENCE: REASONING
     ~1: SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
         ~1: Define Initial State: Start with a known state.
         ~2: Check Goal State: Verify if the current state meets the goal criteria.
@@ -31,7 +31,6 @@
                 ~2: If Terminal State, Return Utility.
                 ~3: If Max Player, Choose Move with Maximum Utility.
                 ~4: If Min Player, Choose Move with Minimum Utility. 
-
     ~2: KNOWLEDGE:
         : INFERENCE BY RESOLUTION:
             ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
@@ -44,11 +43,10 @@
                 : Resolve them to create new clauses.
                 : Repeat until empty clause (∅) is derived (indicating a contradiction).
             ~4: If an empty clause is found, the query is true; otherwise, it's false.
-
     ~3: CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, requiring it to operate based on probabilities rather than certainties
         : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
             P(A∣B)=P(A∩B)P(B)
-            P(A∣B)=P(B)P(A∩B)​ 
+            P(A∣B)=P(B)P(A∩B)
         : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
         : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
         : Probability Rules:
@@ -66,7 +64,6 @@
             : prediction = given observations from start until now, calculate distribution for a future state
             : smoothing = given observations from start until now, calculate distribution for past state
             : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
- 
     ~4: OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently.
         : Hill Climbing: algorithm follows a simple logic:
             ~1: Start with an initial state.
@@ -75,7 +72,6 @@
             ~4: Repeat until no better neighbor exists.
         : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
         : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
- 
     ~5: LEARNING: 
         : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
             ~1: Prepare Data: Collect labeled input-output pairs.
@@ -99,9 +95,8 @@
                 : Compare prediction with actual output.
                 : If incorrect, adjust weights: wi=wi+α(y−y^)xi
             ~3: Repeat until convergence.
-
     ~6: NEURAL NETWORKS:
-        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1​,x2​,...xn​ and setting up the desired outputs." (Neural Networks, p. 3).
+        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1,x2,...xn and setting up the desired outputs." (Neural Networks, p. 3).
         ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
         ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
         ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
@@ -129,7 +124,7 @@
         Dropout and Label Smoothing are applied for regularization.
         Beam Search is used for better sentence generation.
 
-~ARISTOTLE'S THE ORGANON: DEDUCTIVE REASONING = 
+~ARISTOTLE'S THE ORGANON: DEDUCTIVE REASONING
     : CATEGORIES: classifies different kinds of things that can be said about a subject.
         ~1: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
         ~2: Determine the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
@@ -272,108 +267,6 @@
         ~4: Challenge the Premises – If an assumption is false or weak, point it out.
         ~5: Show the Contradiction – Demonstrate how the fallacy leads to absurdity or contradiction.
  
-~ARISTOTLE'S RHETORIC: his systematic study of persuasion, analyzing how language, logic, and emotion influence an audience. 
-    ~1: The Three Appeals of Persuasion (Artistic Proofs)
-        : Ethos (Character & Credibility)
-            The speaker must establish credibility, virtue, and good intentions.
-            Achieved through expertise, moral character, and goodwill toward the audience.
-        : Pathos (Emotional Appeal)
-            Persuasion must engage the audience’s emotions to motivate action.
-            Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-        : Logos (Logical Argument)
-            Relies on sound reasoning and evidence to convince the audience.
-            Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-    ~2: The Three Kinds of Rhetoric (Based on Purpose)
-        : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-        : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-        : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).
-    ~3: The Structure of a Persuasive Speech
-        ~1: Introduction (Exordium) – Establishes credibility (ethos) and engages the audience.
-        ~2: Narration (Narratio) – Presents background information and context.
-        ~3: Proof (Confirmatio) – Develops logical (logos) arguments with supporting evidence.
-        ~4: Refutation (Refutatio) – Anticipates counterarguments and disproves them.
-        ~5: Conclusion (Peroratio) – Reinforces key points and leaves a lasting impression, often with pathos.
-~NICOMACHEAN ETHICS: explores the nature of human happiness (eudaimonia), virtue (arete), and the role of reason in ethical decision-making. 
-    ~1: The Highest Good is Happiness (Eudaimonia)
-        Every human action aims at some good.
-        The highest good must be self-sufficient (worth pursuing for its own sake).
-        Happiness (eudaimonia) is the ultimate goal of human life.
-    ~2: Happiness is Achieved Through Virtue
-        Happiness is not mere pleasure or wealth but a life of rational activity in accordance with virtue.
-        Two types of virtues:
-            Moral Virtues (e.g., courage, temperance, justice) – developed through habit.
-            Intellectual Virtues (e.g., wisdom, understanding) – developed through reason and education.
-    ~3: Virtue is a Habit Between Extremes (Doctrine of the Mean)
-        Virtue is the golden mean between two vices:
-            Deficiency (too little of a trait)
-            Excess (too much of a trait)
-        Example:
-            Courage is the mean between cowardice (deficiency) and recklessness (excess).
-    ~4: Moral Development Requires Practical Wisdom (Phronesis)
-        Practical wisdom is the ability to judge what is virtuous in different situations.
-        It requires experience, reflection, and rational deliberation.
-    ~5: The Role of Friendship and Society
-        A good life is lived within a community (polis).
-        True friendship is based on virtue, not just utility or pleasure.
-        The best society cultivates virtuous citizens through education and law.
-    ~6: The Contemplative Life is the Highest Life
-        The best life is one of philosophical contemplation, where reason governs all aspects of life.
-        However, those engaged in politics or social roles should also aim for virtue in action. 
-~ARISTOTLE'S PHYSICS:  is a philosophical and scientific exploration of nature (physis), investigating how things change, move, and interact.
-    ~1: Define the Subject - Nature and Change
-        : Nature (physis) is what exists and changes by its own internal principles.
-        : Everything in nature undergoes motion (change in state, position, or form).
-    ~2: Identify the Causes of Motion (Four Causes): Every natural phenomenon has four causes:
-        Material Cause – What is it made of? (e.g., a statue is made of marble)
-        Formal Cause – What shape or essence does it have? (e.g., a statue has a human form)
-        Efficient Cause – What brings it into being? (e.g., a sculptor makes the statue)
-        Final Cause – What is its purpose? (e.g., the statue exists for artistic admiration)
-    ~3: Explain Motion and Potentiality vs. Actuality
-        Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
-        Example: A seed has the potential to be a tree; when it grows, it moves towards that actuality.
-    ~4: Discuss the Nature of Time, Space, and the Continuum
-        Time is a measure of motion in relation to before and after.
-        Space and matter are continuous, not discrete.
-    ~5: Introduce the Prime Mover (First Cause of Motion)
-        Everything in motion is moved by something else.
-        To avoid infinite regress, there must be a first, unmoved mover.
-        Aristotle argues for a Prime Mover (God), a being that causes motion without itself being moved.
-ARISTOTLE'S METAPHYSICS: is a foundational work in Western philosophy that explores being (ontology) and first principles (epistemology).
-    ~1: Defining "Being" (Ontology)
-        Aristotle asks: What does it mean "to be"?
-        He distinguishes between potential being (something that can be) and actual being (something that is).
-        Everything that exists is a substance with attributes (accidents).
-    ~2: Identifying the Four Causes (Explanation of Existence): Aristotle explains that everything that exists can be understood through four causes:
-        Material Cause – What something is made of (e.g., a statue is made of marble).
-        Formal Cause – The essence or shape of something (e.g., the design of the statue).
-        Efficient Cause – What brings something into being (e.g., the sculptor carving the statue).
-        Final Cause – The purpose or goal of something (e.g., the statue exists to honor someone).
-    ~3: Refuting Plato’s Theory of Forms
-        Aristotle argues that Forms (abstract universals) do not exist separately from things.
-        Instead, he claims that substance is the unity of matter and form (a human is both body and soul, not just an abstract idea of "humanity").
-    ~4: Explaining Change and Motion
-        Aristotle introduces potentiality and actuality: everything moves from potential (what it can be) to actual (what it is).
-        Example: An acorn has the potential to become an oak tree; it actualizes this potential through growth.
-    ~5: Establishing the Prime Mover (God)
-        Aristotle argues that if everything is moved by something else, there must be a first cause that is unmoved.
-        This Unmoved Mover (Prime Mover) is pure actuality and is the ultimate cause of all motion and change.
-        Unlike personal gods, Aristotle’s Prime Mover does not interfere with the world but simply exists as the highest form of being.
-~PTOLEMY'S ASTRONOMY: refers to the Geocentric Model of the universe, where Earth is at the center and all celestial bodies revolve around it.
-    ~1: Earth as the Center
-        Assumed the Earth was immobile and the heavens moved around it.
-        Justified by Aristotle’s physics (natural place of heavy objects is the center).
-    ~2: Spherical Universe
-        The cosmos was a set of concentric spheres, with Earth at the middle.
-        The outermost sphere held the fixed stars.
-    ~3: Circular Orbits (Perfect Motion Assumption)
-        Influenced by Plato, Ptolemy assumed celestial bodies must move in perfect circles.
-    ~4: Epicycles & Deferents
-        To explain planetary motion (especially retrograde motion), he introduced epicycles (small circles moving along larger circular paths called deferents).
-    ~5: Equant Point Correction
-        Since epicycles still did not perfectly match observations, he added the equant: a point offset from the center, around which motion was uniform.
-    ~6: Mathematical Predictions
-        Using trigonometry and tables, he calculated planetary positions and their future paths.
-
 #############################################################################################################################################################################################
 ~ARCHETYPES (TOPICS):
     -1: "SLEEPING FOR-BY DREAM." "WHAT IF... ? YOU ARE RIGHT!"
@@ -384,7 +277,6 @@ ARISTOTLE'S METAPHYSICS: is a foundational work in Western philosophy that explo
             : Wild Encounters + Enemy Raids/Ambush, Rivals, NPCs, Trainers, Gyms, Elite Four, and the Champion
         "TRAP FOR-BY WILDWORLD.": The Rat Race, 
         "WAIT FOR-BY BIRTHSTART.": Initial State, Beginning Again
-
     +1: "AWAKENING FOR-BY REALITY." "I KNOW! THAT'S RIGHT!"
             : REASON, LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
             : Defuse or trigger the bomb.

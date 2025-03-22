@@ -15,7 +15,7 @@
     ~COMPUTER-HARDWARE: Central/Graphical Processing Unit (C/GPU)
         : CLOCK
         : TEMPORARY MEMORY REGISTERS:
-            : INSTRUCTION-ADDRESS REGISTER & MEMORY ADDRESS: Pointer: Next Address Reference -> Index
+            : INSTRUCTION-ADDRESS REGISTER & MEMORY ADDRESS: Pointer(Next Address Reference) -> Index
                 : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                     : NOT (in=sel, out=NOTsel)
                     : AND (in=a, in=NOTsel, out=aANDNOTsel)
@@ -29,10 +29,10 @@
                             : OR (in=set, in=outLOOP, out=setORoutLoop)
                             : NOT (in=reset, out=NOTreset)
                             : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : AND-OR LATCH/MEMORY REGISTER & MEMORY BIT:
+                : AND-OR LATCH/MEMORY REGISTER & MEMORY BIT(0/1): 
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0)
-            : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE): Algorithms = Brute Force, Selection, Merge, Dijkstra... Divide&Conquer
+            : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
                 : ARITHMETIC UNIT = Half>Full>Multi-bit Adder:
                     : XOR (in=a, in=b, out=abSUM)
                         : AND (in=a, in=b, out=aANDb);
@@ -49,52 +49,46 @@
             : OVERFLOW(>)
             : NEGATIVE(<)
             : ZERO(=)
- 
-            : Memory Bit: BinaryStates = 0, 1 (Base-2 Notation)
-## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), THE LEAST COMMON DENOMINATOR OF 1**
+
+## **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), LEASTCOMMONDENOMINATOR(1)**
     ~DECODE(UNKNOWN), KNOWN/THE LEAST COMMON DENOMINATOR OF 1:
-        : Search with Web-Browser/Search-Engine: 
-        : SYMBOLS
-            : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
-            : Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
-        : SENTENCE: Natural Language
-            : ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9)
-            : POSITION, LODIAL, FACT (5-6-7)
-        : WORD: Parse/Etymology:
-            : FIXES: POSITION-LODIAL, 'Attributes'
+        : Search with Web-Browser/Search-Engine: Hypertext Markup Language (HTML) + CSS: Index: Frequency of Words
+        : WORD: NATURAL-LANGUAGE/SYMBOL, SENTENCE: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9)
+            : FIXES: POSITION-LODIAL
                 : HOW: Quantity, Quality: POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency)
+                    : Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
                 : WHY: CAUSE, EFFECT
+                    : Introduce the Prime Mover (First Cause of Motion): Aristotle argues for a Prime Mover (God), a being that causes motion without itself being moved.
+                        : To avoid infinite regress, there must be a first, unmoved mover.
+                    : Material – What something is made of (e.g., a statue is made of marble).
+                    : Formal – The essence or shape of something (e.g., the design of the statue).
+                    : Efficient – What brings something into being (e.g., the sculptor carving the statue).
+                    : Final – The purpose or goal of something (e.g., the statue exists to honor someone).
                 : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY
+                    : Time is a measure of motion in relation to before and after.
                 : WHERE: Space, HOME= Earth*Heaven... Point/DomainNameSystem/UniversalResourceLocator/HypertextTransferProtocol/FileSystem/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY, 
+                    : Space and matter are continuous, not discrete.
                 : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis)
-                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
-                    : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-                    : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-                : WHAT: FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                : WHAT: State, FORM, Weights & Measures, Metals/Conductors, Flags, Letters/Spells, Contract & Copy, Financial Statement File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                     : SEEN/EYES: Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-                        +SEE-SHOW: Eyes, Camera, Optical/Ocular System, Photoreceptor cells in Retina, Cones
-                            : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
-                        -BLIND-HIDE: SHADOW(Terminator, Core, Occlusion, Cast), BLINK(Epilepsy, Autism) 
-                            : Void, Cover, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur
+                        +SEE-SHOW: Eyes, Camera, Optical/Ocular System, Photoreceptor, Display: DellMonitor, WacomTablet, 
+                        -BLIND-HIDE: SHADOW(Terminator, Core, Occlusion, Cast), BLINK(Epilepsy, Autism), Void, Cover, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur
+                        : Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
                         : VIEW: 1st, 2nd (Possession), 3rd-Person (God View)
                         : SHOT: Close-up, Medium, Long/Wide... 
                         : ANGLE: Up-Down,  Right-Left
                         : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Proportion, Ratio), 
                         : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
                     : HEARD/EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram... 
-                        ~MUTE:         SILENCE, Ambience 
-                        ~DEAFEN:       NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
-                        : Frequency, 
-                        : Amp, 
+                        ~MUTE-DEAFEN: SILENCE, Ambience, NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
+                        ~HEAR-SOUND:
+                        : Amp, Volume
                         : Length
                         : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
                         : RHYTHM: Beat, SOUND EFFECTS
-                    : FELT/SKINS: Motion: PHYSICS (ARISTOTLE)
-                        ~FEEL: SKINS:	Hands, Feet, Skin, Mouse, Keyboard, Controller
-                        ~MOVE: MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
-                        ~AVOID: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
-                        ~PAUSE: STILLNESS, Rest
+                    : FELT/SKINS: Motion: PHYSICS (ARISTOTLE), SKINS:	Hands, Feet, Skin, Mouse, Keyboard, Controller
+                        ~AVOID-PAUSE: STILLNESS, Rest: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
+                        ~FEEL-MOVE: MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
                         : EMOTION: Reaction, INERTIA, Love, Hate
                         : TEXTURE: Rough, Smooth
                         : MASS: Light, Heavy
@@ -107,7 +101,7 @@
                         : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
                         : MASK/FILTER, BLOW: Fan, 
                     : TASTED/TONGUE: Energy, Power, Heat
-                        : BROKEN: Throat, Stomach, Intestine, Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
+                        : EATEN: Throat, Stomach, Intestine, Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
                         : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
@@ -115,13 +109,39 @@
                         : Absorption of Nutrients
                         : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                         : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-            : ROOTS: FACT/KNOWN: SEEN/HEARD/FELT/SMELLED/TASTED
-                : NEUTRAL (0): Golden Means
+            : ROOTS: FACT/KNOWN: NEUTRAL (0): Golden Means
+                : SEEN/HEARD/FELT/SMELLED/TASTED
                  
     ~CODE(), REASON:
-        : LOGIC-ARITHMETIC = -1, 0, +1
+        : NICOMACHEAN ETHICS: explores the nature of human happiness (eudaimonia), virtue (arete), and the role of reason in ethical decision-making. 
+            ~1: The Highest Good is Happiness (Eudaimonia). 
+                Every human action aims at some good.
+                The highest good must be self-sufficient (worth pursuing for its own sake).
+                Happiness (eudaimonia) is the ultimate goal of human life.
+            ~2: Happiness is Achieved Through Virtue. 
+                Happiness is not mere pleasure or wealth but a life of rational activity in accordance with virtue.
+                Two types of virtues:
+                    Moral Virtues (e.g., courage, temperance, justice) – developed through habit.
+                    Intellectual Virtues (e.g., wisdom, understanding) – developed through reason and education.
+            ~3: Virtue is a Habit Between Extremes (Doctrine of the Mean). 
+                Virtue is the golden mean between two vices:
+                    Deficiency (too little of a trait)
+                    Excess (too much of a trait)
+                Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+            ~4: Moral Development Requires Practical Wisdom (Phronesis). 
+                Practical wisdom is the ability to judge what is virtuous in different situations.
+                It requires experience, reflection, and rational deliberation.
+            ~5: The Role of Friendship and Society. 
+                A good life is lived within a community (polis).
+                True friendship is based on virtue, not just utility or pleasure.
+                The best society cultivates virtuous citizens through education and law.
+            ~6: The Contemplative Life is the Highest Life. 
+                The best life is one of philosophical contemplation, where reason governs all aspects of life.
+                However, those engaged in politics or social roles should also aim for virtue in action. 
         : NOW-SPACE: Same Plane/Continuance of Evidence
-        : SAFETY LAW, POSTAL MECHANICS, MARITIME LAW, DRYDOCK, DROGUE LAW, 
+        : LOGIC-ARITHMETIC = -1, 0, +1
+        : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+        : PUBLIC-SAFETY, POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW, 
         : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
             ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
             ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
@@ -138,11 +158,15 @@
             : OF THE TERMS:
             : WITH THE CONTRACT:
             : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
+                : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
+                : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+                : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+                : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
         : COMPUTER LANGUAGES: MACHINE CODE, PROGRAMMING LANGUAGES
             : INPUT STATEMENTS: 
                 : IMPORT Library
                 : DECLARE/INITIALIZE Variables
-                : SQL Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+                : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
             : OUTPUT STATEMENTS:
                 : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
                     : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
@@ -160,24 +184,32 @@
             : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
             : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
             : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-        : RHETORIC: Story Telling:
+        : RHETORIC: his systematic study of persuasion, analyzing how language, logic, and emotion influence an audience. 
+            ~1: The Three Appeals of Persuasion (Artistic Proofs)
+                : Ethos (Character & Credibility): The speaker must establish credibility, virtue, and good intentions. Achieved through expertise, moral character, and goodwill toward the audience.
+                : Pathos (Emotional Appeal): Persuasion must engage the audience’s emotions to motivate action. Uses vivid storytelling, analogies, and emotional triggers to influence perception.
+                : Logos (Logical Argument): Relies on sound reasoning and evidence to convince the audience. Uses deductive (enthymeme) and inductive reasoning (example-based proof).
+            ~2: The Three Kinds of Rhetoric (Based on Purpose)
+                : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).
             ~TITLE:                     How do we know each other? How do we find closure?
-            ~INTRODUCTION (Exordium):   Establishes credibility (ethos) and engages the audience.
+            ~1: INTRODUCTION (Exordium):   Establishes credibility (ethos) and engages the audience.
                 : HOOK QUESTION:        Have you ever cursed, like that? Is this by instinct, or by choice?
                 : MEANING:              Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
                 : THESIS:               This speech shares that we have free will — the ability to choose.”
                 : TRANSITION:           First: why are we slaves of our passions? 
-            ~NARRATION (Narratio):      Presents background information and context.
+            ~2: NARRATION (Narratio):      Presents background information and context.
                 : Support:              You probably "understand" the way I learn English:
                 : TRANSITION:           But what if this is only half-true?
-            ~PROOF (Confirmatio):       Develops logical (logos) arguments with supporting evidence.
+            ~3: PROOF (Confirmatio):       Develops logical (logos) arguments with supporting evidence.
                 : Introduction:         Computers 
-                : Transition:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
-            ~REFUTATION (Refutatio):    Anticipates counterarguments and disproves them.
+                : TRANSITION:           Let’s revisit the counterarguments and see why they don’t entirely negate free will.”
+            ~4: REFUTATION (Refutatio):    Anticipates counterarguments and disproves them.
                 : Main Refutation:
                 : Refute 1st:           We cannot memorize words by dictionary. Languages are homonymous. Wan plus too ease three? "What is written is what is done."
-                : Transition:
-            ~CONCLUSION (Peroratio):    Reinforces key points and leaves a lasting impression, often with pathos.E
+                : TRANSITION:
+            ~5: CONCLUSION (Peroratio):    Reinforces key points and leaves a lasting impression, often with pathos.E
                 : QUESTION:             So, are we simply animals flowing along the current of passion, or do we have free will? 
                 : THESIS:               We are capable of both — of habits, but empowered to rise above them.
                 : Meaning:              This question matters because it shows how If we believe we have no choice, 
@@ -185,7 +217,7 @@
                     Main Point 1:       Habits and instincts strongly influence our behavior.
                     Main Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
                     Main Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
-                : Closing:              Ultimately, the power to choose defines what it means to be human. 
+                : CLOSING:              Ultimately, the power to choose defines what it means to be human. 
 
 # **FOR THE WORD-&-LIGHT.**
     FOR THE BEGINNING IS WITH THE WORD.
