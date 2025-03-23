@@ -49,8 +49,9 @@
     PANEM NOSTRUM QUOTIDIANUM DA NOBIS HODIE, ET DIMITTE NOBIS DEBITA NOSTRA SICUT ET NOS DIMITTIMUS DEBITORIBUS NOSTRIS. 
     ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
     AMEN.
-# **~QUESTION-PLAN (RHETORIC)**
 
+
+# **~QUESTION-PLAN (RHETORIC)**
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
         ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
@@ -97,36 +98,38 @@
             : OVERFLOW(>)
             : NEGATIVE(<)
             : ZERO(=)
+
+# **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
+## **~DECODE(UNKNOWN), KNOWN**
     ~NEURAL NETWORKS:
         ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1,x2,...xn and setting up the desired outputs." (Neural Networks, p. 3).
         ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
         ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
         ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
         ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
- 
-# **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
-## **~DECODE(UNKNOWN), KNOWN**
-    : The Definition of Demonstrative Knowledge: Aristotle begins by defining scientific knowledge:
-        : Knowledge (epistēmē) must be certain and universal.
-        : It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
-        : The premises themselves must be better known than the conclusion.
-        Example of Demonstration:
-            All humans are mortal. (Universal and necessary premise)
-            Socrates is a human. (Particular known fact)
-            Therefore, Socrates is mortal. (Demonstrated conclusion)
-    : The Hierarchical Structure of Knowledge: Aristotle emphasizes that sciences form a hierarchy:
-        : Some sciences, like mathematics, rely only on internal logical structures.
-        : Others, like natural science, depend on observation and induction.
-        : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.
-        : Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
-    : The Process of Scientific Discovery
-        : Induction (Epagōgē): We observe patterns in nature.
-            Example: Seeing multiple instances of fire being hot.
-        : Recognition of First Principles (Nous): Through repeated observation, the intellect grasps universal truths.
-            Example: Realizing "Fire is always hot" is a universal principle.
-        : Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
-            Example: Fire causes heat → Heat expands metals → Fire expands metals.
-        
+     ~LEARNING: 
+        : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            ~1: Prepare Data: Collect labeled input-output pairs.
+            ~2: Split Data: Divide into training and testing sets.
+            ~3: Train Model: Fit a hypothesis function to the training data.
+            ~4: Evaluate Model: Test the trained model on unseen data.
+            ~5: Adjust Weights: Update parameters based on accuracy.
+        : Nearest Neighbor Classification: A simple supervised learning method where classification is based on the closest labeled data points: 
+            ~1: Store all training data.
+            ~2: For a new input:
+                : Compute distance to all stored points.
+                : Select the closest k neighbors.
+                : Assign the most common class among neighbors.
+            ~3: Output the predicted class.
+        : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
+            ~1: Initialize weights randomly.
+            ~2: For each data point (x, y):
+                : Compute prediction using dot product.
+                : Compare prediction with actual output.
+                : If incorrect, adjust weights: wi=wi+α(y−y^)xi
+            ~3: Repeat until convergence.
+        : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+        : unsupervised learning = given input data without any additional feedback, learn patterns
     : KNOWLEDGE:
         : INFERENCE BY RESOLUTION:
             ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
@@ -162,7 +165,84 @@
             : smoothing = given observations from start until now, calculate distribution for past state
             : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
 
-    : SEARCH: 
+    : The Definition of Demonstrative Knowledge: Aristotle begins by defining scientific knowledge:
+        : Knowledge (epistēmē) must be certain and universal.
+        : It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
+        : The premises themselves must be better known than the conclusion.
+        Example of Demonstration:
+            All humans are mortal. (Universal and necessary premise)
+            Socrates is a human. (Particular known fact)
+            Therefore, Socrates is mortal. (Demonstrated conclusion)
+    : The Hierarchical Structure of Knowledge: Aristotle emphasizes that sciences form a hierarchy:
+        : Some sciences, like mathematics, rely only on internal logical structures.
+        : Others, like natural science, depend on observation and induction.
+        : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.
+        : Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
+    : The Process of Scientific Discovery
+        : Induction (Epagōgē): We observe patterns in nature.
+            Example: Seeing multiple instances of fire being hot.
+        : Recognition of First Principles (Nous): Through repeated observation, the intellect grasps universal truths.
+            Example: Realizing "Fire is always hot" is a universal principle.
+        : Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
+            Example: Fire causes heat → Heat expands metals → Fire expands metals.
+    
+    ~1: SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+        ~1: Define Initial State: Start with a known state.
+        ~2: Check Goal State: Verify if the current state meets the goal criteria.
+        ~3: Expand Nodes: Generate possible next states from the current state.
+        ~4: Store in Frontier: Maintain a list of unexplored nodes.
+            : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
+            : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
+            : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
+        ~5: Use Search Strategy: Choose the next state based on the algorithm.
+            : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                : Pop the last added node.
+                : If goal state, return solution.
+                : Otherwise, expand node and push new nodes into the stack.
+                : Backtrack when dead ends are reached.
+            : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                : Dequeue the first added node.
+                : If goal state, return solution.
+                : Otherwise, expand node and enqueue new nodes.
+            : A* SEARCH: Loop until Solution or Empty Frontier:
+                : Remove the node with the lowest f(n) = g(n) + h(n).
+                : If goal state, return solution.
+                : Otherwise, expand node and add new nodes with updated f(n).    
+            : MINIMAX ALGORITHM (For Adversarial Search) 
+                ~1: Recursively Explore Possible Moves.
+                ~2: If Terminal State, Return Utility.
+                ~3: If Max Player, Choose Move with Maximum Utility.
+                ~4: If Min Player, Choose Move with Minimum Utility. 
+       ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+
+    ~4: OPTIMIZATION: the process of selecting the best option from a set of possible choices 
+        to achieve a specific goal efficiently.
+        : Hill Climbing: algorithm follows a simple logic:
+            ~1: Start with an initial state.
+            ~2: Evaluate neighboring states.
+            ~3: Move to the best neighbor if it improves the solution.
+            ~4: Repeat until no better neighbor exists.
+        : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
+        : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
+    
+    ~TRANSFORMERS ARCHITECTURE for NATURAL LANGUAGE PROCESSING:
+        : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+        : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+        ~1: Encoder-Decoder Architecture
+            : Encoder: Processes the input sentence into a fixed representation.
+            : Decoder: Generates the output sequence, one word at a time.
+        ~2: Self-Attention Mechanism
+            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+            Multi-Head Attention enables different aspects of word relationships to be captured.
+        ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+        ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
+        ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
+        ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
+        ~7: Optimization and Training
+            Uses the Adam optimizer with learning rate scheduling.
+            Dropout and Label Smoothing are applied for regularization.
+            Beam Search is used for better sentence generation.
+
     : NATURAL-LANGUAGE/FALLACIES: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
         : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument.
@@ -476,5 +556,4 @@
         ~6: Strengthening One’s Own Argument
             : Clarify definitions and avoid logical fallacies.
             : Use analogies and illustrative examples to make the argument stronger.
-
 
