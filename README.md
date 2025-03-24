@@ -50,7 +50,6 @@
     ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
     AMEN.
 
-
 # **~QUESTION-PLAN (RHETORIC)**
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
@@ -101,36 +100,23 @@
 
 # **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
 ## **~DECODE(UNKNOWN), KNOWN**
-    ~NEURAL NETWORKS:
+    ~NEURAL NETWORKS/LEARNING/OPTIMIZATION/SEARCH:
         ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1,x2,...xn and setting up the desired outputs." (Neural Networks, p. 3).
         ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
         ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
         ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
         ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
-     ~LEARNING: 
-        : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
-            ~1: Prepare Data: Collect labeled input-output pairs.
-            ~2: Split Data: Divide into training and testing sets.
-            ~3: Train Model: Fit a hypothesis function to the training data.
-            ~4: Evaluate Model: Test the trained model on unseen data.
-            ~5: Adjust Weights: Update parameters based on accuracy.
-        : Nearest Neighbor Classification: A simple supervised learning method where classification is based on the closest labeled data points: 
-            ~1: Store all training data.
-            ~2: For a new input:
-                : Compute distance to all stored points.
-                : Select the closest k neighbors.
-                : Assign the most common class among neighbors.
-            ~3: Output the predicted class.
-        : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
-            ~1: Initialize weights randomly.
-            ~2: For each data point (x, y):
-                : Compute prediction using dot product.
-                : Compare prediction with actual output.
-                : If incorrect, adjust weights: wi=wi+α(y−y^)xi
-            ~3: Repeat until convergence.
-        : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
-        : unsupervised learning = given input data without any additional feedback, learn patterns
-    : KNOWLEDGE:
+            : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
+            : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
+                ~1: Initialize weights randomly.
+                ~2: For each data point (x, y):
+                    : Compute prediction using dot product.
+                    : Compare prediction with actual output.
+                    : If incorrect, adjust weights: wi=wi+α(y−y^)xi
+                ~3: Repeat until convergence.
+            : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
+            : unsupervised learning = given input data without any additional feedback, learn patterns
+    : KNOWLEDGE/CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, 
         : INFERENCE BY RESOLUTION:
             ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
                 : Remove biconditionals (↔) and implications (→).
@@ -142,8 +128,7 @@
                 : Resolve them to create new clauses.
                 : Repeat until empty clause (∅) is derived (indicating a contradiction).
             ~4: If an empty clause is found, the query is true; otherwise, it's false.
-    : CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, 
-        requiring it to operate based on probabilities rather than certainties
+        
         : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
             P(A∣B)=P(A∩B)P(B)
             P(A∣B)=P(B)P(A∩B)
@@ -165,7 +150,7 @@
             : smoothing = given observations from start until now, calculate distribution for past state
             : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
 
-    : The Definition of Demonstrative Knowledge: Aristotle begins by defining scientific knowledge:
+    ~The Definition of Demonstrative Knowledge: Aristotle begins by defining scientific knowledge:
         : Knowledge (epistēmē) must be certain and universal.
         : It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
         : The premises themselves must be better known than the conclusion.
@@ -186,7 +171,7 @@
         : Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
             Example: Fire causes heat → Heat expands metals → Fire expands metals.
     
-    ~1: SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+    ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
         ~1: Define Initial State: Start with a known state.
         ~2: Check Goal State: Verify if the current state meets the goal criteria.
         ~3: Expand Nodes: Generate possible next states from the current state.
@@ -215,7 +200,7 @@
                 ~4: If Min Player, Choose Move with Minimum Utility. 
        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
 
-    ~4: OPTIMIZATION: the process of selecting the best option from a set of possible choices 
+    ~OPTIMIZATION: the process of selecting the best option from a set of possible choices 
         to achieve a specific goal efficiently.
         : Hill Climbing: algorithm follows a simple logic:
             ~1: Start with an initial state.
@@ -243,7 +228,7 @@
             Dropout and Label Smoothing are applied for regularization.
             Beam Search is used for better sentence generation.
 
-    : NATURAL-LANGUAGE/FALLACIES: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
+    ~NATURAL-LANGUAGE/FALLACIES: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
         : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument.
             : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
@@ -259,7 +244,8 @@
             : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
             : Ad Hominem: Attacking the person instead of the argument itself.
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-    : SYLLOGISM:
+    
+    ~SYLLOGISM: KNOWLEDGE
         ~1: Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
             : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)"
             : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)"
@@ -375,12 +361,10 @@
     : COMMAND:
     : LOGIC-ARITHMETIC = -1, 0, +1
     : NOW-SPACE: Same Plane/Continuance of Evidence
-    : NICOMACHEAN ETHICS: explores the nature of human happiness (eudaimonia), virtue (arete), and the role of reason in ethical decision-making. 
-        ~1: The Highest Good is Happiness (Eudaimonia), self-sufficient (worth pursuing for its own sake), contemplative, and is lived within a community (polis).
-        ~2: Virtue (arete):
-            Moral Virtues developed through habit. Moral Development needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
+    : GOLDEN MEAN:
+        ~1: The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a community (polis).
+        ~2: Virtue (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
             Intellectual Virtues developed through reason and education. Reason governs all aspects of life.
-        ~3: Golden Mean between two vices. 
             Deficiency (too little of a trait)
             Excess (too much of a trait)
         Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
@@ -412,6 +396,10 @@
             : DECLARE/INITIALIZE Variables
             : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
         : DECODE:
+            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
         : EXECUTE / OUTPUT STATEMENTS:
             : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
                 : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
@@ -425,10 +413,6 @@
                 : Then/Else/Next...  
                 : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
-        : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-        : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-        : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-        : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
     : RHETORIC: systematic study of persuasion, analyzing how language, logic, and emotion influence an audience. 
         ~1: The Three Appeals of Persuasion (Artistic Proofs)
             : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
@@ -446,11 +430,13 @@
             : TRANSITION:               First: why are we slaves of our passions? 
         ~2: NARRATION (Narratio): Presents background information and context.
             : Support:                  You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
+                                        : Finding a Commonplace (Topos) for Argument
+                                        : Forming Premises from Endoxa (Common Opinions)
                                         SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
                                         BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
                                         TRAP FOR-BY WILDWORLD: The Rat Race, 
                                         WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
-            : TRANSITION:               But what if this is only half-true?
+           : TRANSITION:               But what if this is only half-true?
         ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
             : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
                                         [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
@@ -535,25 +521,4 @@
                 Point 3:                Addressing counterarguments reveals the balance between instinct and choice.
             : CLOSING:                  Ultimately, the power to choose defines what it means to be human. 
     
-    : TOPICS: focusing on how one can argue both for and against a proposition.
-        ~1: Identifying the Subject Matter
-            : Define the topic of discussion and categorize it properly.
-            : Recognize the general premises accepted about the subject.
-        ~2: Finding a Commonplace (Topos) for Argument
-            : Use topoi (commonplaces) to structure the argument.
-            : Topoi are general patterns of reasoning that can be applied to different subjects.
-        ~3: Forming Premises from Endoxa (Common Opinions)
-            : Identify widely accepted opinions (from experts, common people, or reputable sources).
-            : Ensure that the premises align with probable truth rather than mere assumption.
-        ~4: Constructing Arguments (Syllogistic or Inductive)
-            : Use deductive reasoning (syllogism) → Argument moves from general to specific.
-                E.g., "All virtue is praiseworthy; courage is a virtue; therefore, courage is praiseworthy."
-            : Use inductive reasoning (examples & analogies) → Argument moves from specific to general.
-                E.g., "Socrates and Plato were wise because they pursued knowledge; therefore, philosophers are wise."
-        ~5: Examining and Refuting Opposing Arguments
-            : Identify weaknesses in opposing premises (ambiguities, contradictions, false assumptions).
-            : Apply counter-topoi (counterarguments) to refute opposing claims.
-        ~6: Strengthening One’s Own Argument
-            : Clarify definitions and avoid logical fallacies.
-            : Use analogies and illustrative examples to make the argument stronger.
 
