@@ -116,7 +116,46 @@
                 ~3: Repeat until convergence.
             : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
             : unsupervised learning = given input data without any additional feedback, learn patterns
-    : KNOWLEDGE/CERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, 
+        
+        ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+            ~1: Define Initial State: Start with a known state.
+            ~2: Check Goal State: Verify if the current state meets the goal criteria.
+            ~3: Expand Nodes: Generate possible next states from the current state.
+            ~4: Store in Frontier: Maintain a list of unexplored nodes.
+                : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
+                : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
+                : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
+            ~5: Use Search Strategy: Choose the next state based on the algorithm.
+                : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                    : Pop the last added node.
+                    : If goal state, return solution.
+                    : Otherwise, expand node and push new nodes into the stack.
+                    : Backtrack when dead ends are reached.
+                : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                    : Dequeue the first added node.
+                    : If goal state, return solution.
+                    : Otherwise, expand node and enqueue new nodes.
+                : A* SEARCH: Loop until Solution or Empty Frontier:
+                    : Remove the node with the lowest f(n) = g(n) + h(n).
+                    : If goal state, return solution.
+                    : Otherwise, expand node and add new nodes with updated f(n).    
+                : MINIMAX ALGORITHM (For Adversarial Search) 
+                    ~1: Recursively Explore Possible Moves.
+                    ~2: If Terminal State, Return Utility.
+                    ~3: If Max Player, Choose Move with Maximum Utility.
+                    ~4: If Min Player, Choose Move with Minimum Utility. 
+           ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+        
+        ~OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently.
+            : Hill Climbing: algorithm follows a simple logic:
+                ~1: Start with an initial state.
+                ~2: Evaluate neighboring states.
+                ~3: Move to the best neighbor if it improves the solution.
+                ~4: Repeat until no better neighbor exists.
+            : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
+            : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
+     
+    : UNCERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, 
         : INFERENCE BY RESOLUTION:
             ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
                 : Remove biconditionals (↔) and implications (→).
@@ -128,7 +167,7 @@
                 : Resolve them to create new clauses.
                 : Repeat until empty clause (∅) is derived (indicating a contradiction).
             ~4: If an empty clause is found, the query is true; otherwise, it's false.
-        
+   
         : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
             P(A∣B)=P(A∩B)P(B)
             P(A∣B)=P(B)P(A∩B)
@@ -170,47 +209,7 @@
             Example: Realizing "Fire is always hot" is a universal principle.
         : Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
             Example: Fire causes heat → Heat expands metals → Fire expands metals.
-    
-    ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-        ~1: Define Initial State: Start with a known state.
-        ~2: Check Goal State: Verify if the current state meets the goal criteria.
-        ~3: Expand Nodes: Generate possible next states from the current state.
-        ~4: Store in Frontier: Maintain a list of unexplored nodes.
-            : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
-            : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
-            : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
-        ~5: Use Search Strategy: Choose the next state based on the algorithm.
-            : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                : Pop the last added node.
-                : If goal state, return solution.
-                : Otherwise, expand node and push new nodes into the stack.
-                : Backtrack when dead ends are reached.
-            : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                : Dequeue the first added node.
-                : If goal state, return solution.
-                : Otherwise, expand node and enqueue new nodes.
-            : A* SEARCH: Loop until Solution or Empty Frontier:
-                : Remove the node with the lowest f(n) = g(n) + h(n).
-                : If goal state, return solution.
-                : Otherwise, expand node and add new nodes with updated f(n).    
-            : MINIMAX ALGORITHM (For Adversarial Search) 
-                ~1: Recursively Explore Possible Moves.
-                ~2: If Terminal State, Return Utility.
-                ~3: If Max Player, Choose Move with Maximum Utility.
-                ~4: If Min Player, Choose Move with Minimum Utility. 
-       ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
-
-    ~OPTIMIZATION: the process of selecting the best option from a set of possible choices 
-        to achieve a specific goal efficiently.
-        : Hill Climbing: algorithm follows a simple logic:
-            ~1: Start with an initial state.
-            ~2: Evaluate neighboring states.
-            ~3: Move to the best neighbor if it improves the solution.
-            ~4: Repeat until no better neighbor exists.
-        : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
-        : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
-    
-    ~TRANSFORMERS ARCHITECTURE for NATURAL LANGUAGE PROCESSING:
+       ~TRANSFORMERS ARCHITECTURE for NATURAL LANGUAGE PROCESSING:
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
         : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
         ~1: Encoder-Decoder Architecture
@@ -414,21 +413,18 @@
                 : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
     : RHETORIC: systematic study of persuasion, analyzing how language, logic, and emotion influence an audience. 
-        ~1: The Three Appeals of Persuasion (Artistic Proofs)
-            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
-            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-        ~2: The Three Kinds of Rhetoric (Based on Purpose)
-            : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-            : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-            : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).
         ~TITLE:                         How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
             : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
             : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
             : THESIS:                   This speech shares that we have free will — the ability to choose.”
+                                        : The Three Kinds of Rhetoric (Based on Purpose)
+                                        : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                                        : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                                        : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
             : TRANSITION:               First: why are we slaves of our passions? 
         ~2: NARRATION (Narratio): Presents background information and context.
+            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
             : Support:                  You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
                                         : Finding a Commonplace (Topos) for Argument
                                         : Forming Premises from Endoxa (Common Opinions)
@@ -438,6 +434,7 @@
                                         WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
            : TRANSITION:               But what if this is only half-true?
         ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
+            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
             : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
                                         [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
                                             : Win Condition: To win the game, players must fulfill their dream on the Fast Track or reach a certain level of passive income.
@@ -461,55 +458,49 @@
                                             : DEADLINE: Goal State, Completion
                                             : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
             : TRANSITION:               How don’t they entirely negate free will
-        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them.: 
-            : SOPHISTICAL ELENCHI: primarily focusing on eristic (contentious) arguments used in debate 
-                ~1: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
-                ~2: Break Down the Argument – Analyze the terms, premises, and conclusion.
-                ~3: Clarify Ambiguities – If the argument relies on wordplay, expose the different meanings.
-                ~4: Challenge the Premises – If an assumption is false or weak, point it out.
-                ~5: Show the Contradiction – Demonstrate how the fallacy leads to absurdity or contradiction.
-                    : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-                        : Equivocation: Using a word with multiple meanings ambiguously in an argument.
-                            If an argument says, “The law should be followed because it is the ‘law of nature,’” 
-                            clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
-                        : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
-                            If someone says, “Flying planes can be dangerous,” 
-                            clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
-                        : Accent: Changing the meaning of a statement by emphasizing different words.
-                            For “I didn’t say she stole the money,” 
-                            show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
-                        : Composition: Assuming what is true of parts is true for the whole.
-                            If someone argues, “All parts of the car are lightweight, so the whole car must be lightweight,” 
-                            show that a car’s total weight differs from its individual parts.
-                        : Division: Assuming what is true of the whole is true for each part.
-                            If an argument states, “The team is successful, so every team member is successful,” 
-                            point out that team success doesn’t imply each member’s personal success.
-                    : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-                        : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
-                            For “Reading is beneficial because it’s good for you,” 
-                            explain that “good for you” is simply restating “beneficial” without further evidence.
-                        : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
-                            For “I started wearing my lucky charm, and my grades improved,” 
-                            explain that improved grades may be due to other factors, like studying harder.
-                        : Accident: Misapplying a general rule to an exception or specific case.
-                            For “Cutting people is wrong, so surgeons are immoral,” 
-                            clarify that surgery is a controlled, beneficial exception to the general rule against cutting.
-                        : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
-                            For “One politician lied, so all politicians are liars,” 
-                            explain that one instance doesn’t justify generalizing about all politicians.
-                        : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
-                            If someone argues, “Employees are like nails; you have to hit them on the head to make them work,” 
-                            explain that employees and nails are different and shouldn’t be treated the same way.
-                        : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
-                            For “If we let students redo assignments, they’ll expect to retake exams,” 
-                            explain that allowing assignment revisions doesn’t logically lead to redoing all assessments.
-                        : Ad Hominem: Attacking the person instead of the argument itself.
-                            If someone argues, “You shouldn’t listen to her because she’s not a scientist,” 
-                            clarify that the person’s background doesn’t inherently disprove their argument’s validity.
-                        : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-                            If a celebrity endorses a health product, 
-                            explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
-            : Main Refutation:
+        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them.: primarily focusing on eristic (contentious) arguments used in debate 
+            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
+            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+                : Equivocation: Using a word with multiple meanings ambiguously in an argument.
+                    If an argument says, “The law should be followed because it is the ‘law of nature,’” 
+                    clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+                : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
+                    If someone says, “Flying planes can be dangerous,” 
+                    clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+                : Accent: Changing the meaning of a statement by emphasizing different words.
+                    For “I didn’t say she stole the money,” 
+                    show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+                : Composition: Assuming what is true of parts is true for the whole.
+                    If someone argues, “All parts of the car are lightweight, so the whole car must be lightweight,” 
+                    show that a car’s total weight differs from its individual parts.
+                : Division: Assuming what is true of the whole is true for each part.
+                    If an argument states, “The team is successful, so every team member is successful,” 
+                    point out that team success doesn’t imply each member’s personal success.
+            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
+                : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
+                    For “Reading is beneficial because it’s good for you,” 
+                    explain that “good for you” is simply restating “beneficial” without further evidence.
+                : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
+                    For “I started wearing my lucky charm, and my grades improved,” 
+                    explain that improved grades may be due to other factors, like studying harder.
+                : Accident: Misapplying a general rule to an exception or specific case.
+                    For “Cutting people is wrong, so surgeons are immoral,” 
+                    clarify that surgery is a controlled, beneficial exception to the general rule against cutting.
+                : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
+                    For “One politician lied, so all politicians are liars,” 
+                    explain that one instance doesn’t justify generalizing about all politicians.
+                : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
+                    If someone argues, “Employees are like nails; you have to hit them on the head to make them work,” 
+                    explain that employees and nails are different and shouldn’t be treated the same way.
+                : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
+                    For “If we let students redo assignments, they’ll expect to retake exams,” 
+                    explain that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+                : Ad Hominem: Attacking the person instead of the argument itself.
+                    If someone argues, “You shouldn’t listen to her because she’s not a scientist,” 
+                    clarify that the person’s background doesn’t inherently disprove their argument’s validity.
+                : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
+                    If a celebrity endorses a health product, 
+                    explain that fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
             : TRANSITION:
         ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.E
             : QUESTION:                 So, are we simply animals flowing along the current of passion, or do we have free will? 
@@ -521,4 +512,3 @@
                 Point 3:                Addressing counterarguments reveals the balance between instinct and choice.
             : CLOSING:                  Ultimately, the power to choose defines what it means to be human. 
     
-
