@@ -52,6 +52,7 @@
 
 # **~QUESTION-PLAN (RHETORIC)**
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
+    : Motion is the transition of the potentiality (what something could be (+/-)) for the actuality (what it is (0)).
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL: INFRASTRUCTURE & I/O PERIPHERALS:
         ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
         ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses. 
@@ -100,116 +101,8 @@
 
 # **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
 ## **~DECODE(UNKNOWN), KNOWN**
-    ~NEURAL NETWORKS/LEARNING/OPTIMIZATION/SEARCH:
-        ~1: Define Inputs & Outputs: "We begin with defining the input variables x1,x2,...xnx1,x2,...xn and setting up the desired outputs." (Neural Networks, p. 3).
-        ~2: Assign Weights & Biases: "Each input is multiplied by a corresponding weight, with an additional bias term." (Neural Networks, p. 4).
-        ~3: Apply Activation Function: "An activation function is applied to determine when a neuron becomes active." (Neural Networks, p. 6).
-        ~4: Calculate Output: "The network then processes the weighted sum of inputs and passes it through layers to get the final output." (Neural Networks, p. 7).
-        ~5: Train the Network Using Backpropagation: "Gradient descent is used to adjust the weights to minimize the loss function." (Neural Networks, p. 15).
-            : Supervised learning = given a data set of input-output pairs, learn a function to map inputs to outputs
-            : Perceptron Learning: A linear model that adjusts weights iteratively based on errors in classification:
-                ~1: Initialize weights randomly.
-                ~2: For each data point (x, y):
-                    : Compute prediction using dot product.
-                    : Compare prediction with actual output.
-                    : If incorrect, adjust weights: wi=wi+α(y−y^)xi
-                ~3: Repeat until convergence.
-            : reinforcement learning = given a set of rewards or punishments, learn what actions to take in the future
-            : unsupervised learning = given input data without any additional feedback, learn patterns
-        
-        ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-            ~1: Define Initial State: Start with a known state.
-            ~2: Check Goal State: Verify if the current state meets the goal criteria.
-            ~3: Expand Nodes: Generate possible next states from the current state.
-            ~4: Store in Frontier: Maintain a list of unexplored nodes.
-                : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
-                : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
-                : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
-            ~5: Use Search Strategy: Choose the next state based on the algorithm.
-                : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                    : Pop the last added node.
-                    : If goal state, return solution.
-                    : Otherwise, expand node and push new nodes into the stack.
-                    : Backtrack when dead ends are reached.
-                : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                    : Dequeue the first added node.
-                    : If goal state, return solution.
-                    : Otherwise, expand node and enqueue new nodes.
-                : A* SEARCH: Loop until Solution or Empty Frontier:
-                    : Remove the node with the lowest f(n) = g(n) + h(n).
-                    : If goal state, return solution.
-                    : Otherwise, expand node and add new nodes with updated f(n).    
-                : MINIMAX ALGORITHM (For Adversarial Search) 
-                    ~1: Recursively Explore Possible Moves.
-                    ~2: If Terminal State, Return Utility.
-                    ~3: If Max Player, Choose Move with Maximum Utility.
-                    ~4: If Min Player, Choose Move with Minimum Utility. 
-           ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
-        
-        ~OPTIMIZATION: the process of selecting the best option from a set of possible choices to achieve a specific goal efficiently.
-            : Hill Climbing: algorithm follows a simple logic:
-                ~1: Start with an initial state.
-                ~2: Evaluate neighboring states.
-                ~3: Move to the best neighbor if it improves the solution.
-                ~4: Repeat until no better neighbor exists.
-            : Simulated Annealing: introduces randomness in the search process by sometimes accepting worse states, with decreasing probability over time.
-            : Linear Programming is used for problems where constraints must be satisfied while minimizing or maximizing a cost function.
-     
-    : UNCERTAINTY: inability of artificial intelligence to have perfect knowledge about the world, 
-        : INFERENCE BY RESOLUTION:
-            ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
-                : Remove biconditionals (↔) and implications (→).
-                : Apply De Morgan’s Laws to push NOT operators inward.
-                : Distribute OR over AND to standardize logical clauses.
-            ~2: Assume the negation of the query (¬Q).
-            ~3: Use Resolution Inference:
-                : Find clauses with complementary literals (P and ¬P).
-                : Resolve them to create new clauses.
-                : Repeat until empty clause (∅) is derived (indicating a contradiction).
-            ~4: If an empty clause is found, the query is true; otherwise, it's false.
-   
-        : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
-            P(A∣B)=P(A∩B)P(B)
-            P(A∣B)=P(B)P(A∩B)
-        : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
-        : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
-        : Probability Rules:
-            : Negation
-            : Inclusion-Exclusion
-            : Marginalization
-            : Conditioning
-        : Inference by Enumeration
-        : Approximate Inference:
-        : Sampling
-            : Rejection Sampling
-            : Likelihood Weighting
-        : hidden Markov Model: Task:
-            : Filtering = given objservations from start until now, calculate distribution for current state
-            : prediction = given observations from start until now, calculate distribution for a future state
-            : smoothing = given observations from start until now, calculate distribution for past state
-            : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
-
-    ~The Definition of Demonstrative Knowledge: Aristotle begins by defining scientific knowledge:
-        : Knowledge (epistēmē) must be certain and universal.
-        : It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
-        : The premises themselves must be better known than the conclusion.
-        Example of Demonstration:
-            All humans are mortal. (Universal and necessary premise)
-            Socrates is a human. (Particular known fact)
-            Therefore, Socrates is mortal. (Demonstrated conclusion)
-    : The Hierarchical Structure of Knowledge: Aristotle emphasizes that sciences form a hierarchy:
-        : Some sciences, like mathematics, rely only on internal logical structures.
-        : Others, like natural science, depend on observation and induction.
-        : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.
-        : Motion is the transition from potentiality (what something could be) to actuality (what it becomes).
     : The Process of Scientific Discovery
-        : Induction (Epagōgē): We observe patterns in nature.
-            Example: Seeing multiple instances of fire being hot.
-        : Recognition of First Principles (Nous): Through repeated observation, the intellect grasps universal truths.
-            Example: Realizing "Fire is always hot" is a universal principle.
-        : Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
-            Example: Fire causes heat → Heat expands metals → Fire expands metals.
-       ~TRANSFORMERS ARCHITECTURE for NATURAL LANGUAGE PROCESSING:
+    : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
         : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
         ~1: Encoder-Decoder Architecture
@@ -227,29 +120,106 @@
             Dropout and Label Smoothing are applied for regularization.
             Beam Search is used for better sentence generation.
 
-    ~NATURAL-LANGUAGE/FALLACIES: Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
-        : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-            : Equivocation: Using a word with multiple meanings ambiguously in an argument.
-            : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
-            : Accent: Changing the meaning of a statement by emphasizing different words.
-            : Composition: Assuming what is true of parts is true for the whole.
-            : Division: Assuming what is true of the whole is true for each part.
-        : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-            : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
-            : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
-            : Accident: Misapplying a general rule to an exception or specific case.
-            : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
-            : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
-            : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
-            : Ad Hominem: Attacking the person instead of the argument itself.
-            : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-    
-    ~SYLLOGISM: KNOWLEDGE
-        ~1: Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
+    ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+        ~1: Define Initial State: Start with a known state.
+        ~2: Check Goal State: Verify if the current state meets the goal criteria.
+        ~3: Expand Nodes: Generate possible next states from the current state.
+        ~4: Store in Frontier: Maintain a list of unexplored nodes.
+            : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
+            : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
+            : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
+        ~5: Use Search Strategy: Choose the next state based on the algorithm.
+            : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                : Pop the last added node.
+                : If goal state, return solution.
+                : Otherwise, expand node and push new nodes into the stack.
+                : Backtrack when dead ends are reached.
+            : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                : Dequeue the first added node.
+                : If goal state, return solution.
+                : Otherwise, expand node and enqueue new nodes.
+            : A* SEARCH: Loop until Solution or Empty Frontier:
+                : Remove the node with the lowest f(n) = g(n) + h(n).
+                : If goal state, return solution.
+                : Otherwise, expand node and add new nodes with updated f(n).    
+            : MINIMAX ALGORITHM (For Adversarial Search) 
+                ~1: Recursively Explore Possible Moves.
+                ~2: If Terminal State, Return Utility.
+                ~3: If Max Player, Choose Move with Maximum Utility.
+                ~4: If Min Player, Choose Move with Minimum Utility. 
+        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+ 
+    ~NATURAL-LANGUAGE:
+        : Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
+            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+                : Equivocation: Using a word with multiple meanings ambiguously in an argument.
+                : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
+                : Accent: Changing the meaning of a statement by emphasizing different words.
+                : Composition: Assuming what is true of parts is true for the whole.
+                : Division: Assuming what is true of the whole is true for each part.
+            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
+                : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
+                : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
+                : Accident: Misapplying a general rule to an exception or specific case.
+                : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
+                : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
+                : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
+                : Ad Hominem: Attacking the person instead of the argument itself.
+                : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
+        : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle).
+            : Example of an invalid syllogism (Undistributed Middle Fallacy):
+                All dogs are animals.
+                All cats are animals.
+                Therefore, all dogs are cats. ❌ (Incorrect reasoning)
+        : Uncertainty: inability to have perfect knowledge about the world, 
+            : INFERENCE BY RESOLUTION:
+                ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
+                    : Remove biconditionals (↔) and implications (→).
+                    : Apply De Morgan’s Laws to push NOT operators inward.
+                    : Distribute OR over AND to standardize logical clauses.
+                ~2: Assume the negation of the query (¬Q).
+                ~3: Use Resolution Inference:
+                    : Find clauses with complementary literals (P and ¬P).
+                    : Resolve them to create new clauses.
+                    : Repeat until empty clause (∅) is derived (indicating a contradiction).
+                ~4: If an empty clause is found, the query is true; otherwise, it's false.
+            : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
+                P(A∣B)=P(A∩B)P(B)
+                P(A∣B)=P(B)P(A∩B)
+            : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
+            : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
+            : Probability Rules:
+                : Negation
+                : Inclusion-Exclusion
+                : Marginalization
+                : Conditioning
+            : Inference by Enumeration
+            : Approximate Inference:
+            : Sampling
+                : Rejection Sampling
+                : Likelihood Weighting
+            : hidden Markov Model: Task:
+                : Filtering = given objservations from start until now, calculate distribution for current state
+                : prediction = given observations from start until now, calculate distribution for a future state
+                : smoothing = given observations from start until now, calculate distribution for past state
+                : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+   
+    ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
+        : Knowledge (epistēmē) must be certain and universal. It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
+        : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.
+        : Some sciences, like mathematics, rely only on internal logical structures.
+        : Others, like natural science, depend on observation and induction.
+        Example: Fire causes heat → Heat expands metals → Fire expands metals.
+        : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
+            : Valid syllogisms: The conclusion follows necessarily.
+            : The premises themselves must be better known than the conclusion.
             : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)"
+                All humans are mortal. (Universal and necessary premise)
             : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)"
+                Socrates is a human. (Particular known fact)
             : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)"
-        ~2: Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
+                Therefore, Socrates is mortal. (Demonstrated conclusion)
+        : Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
             : Figure 2: Middle term is predicate in both premises.
             : Figure 3: Middle term is subject in both premises.
@@ -259,14 +229,7 @@
                 : E (Universal Negative: "No A are B")
                 : I (Particular Affirmative: "Some A are B")
                 : O (Particular Negative: "Some A are not B")
-        ~3: Distinguishing Between Valid & Invalid Reasoning
-            : Valid syllogisms: The conclusion follows necessarily.
-            : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle).
-            : Example of an invalid syllogism (Undistributed Middle Fallacy):
-                All dogs are animals.
-                All cats are animals.
-                Therefore, all dogs are cats. ❌ (Incorrect reasoning)
-        ~4: Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
+        : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
             : Direct reduction: Rearranging premises to match known valid syllogisms.
             : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.  
     : STATEMENT: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): Propositions (statements) are combinations of words that express truth or falsity.
@@ -280,7 +243,7 @@
         : Modal Logic (Necessity vs. Possibility): Implication: Modal logic helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
-   : WORD: Etymology: Words are symbols of mental concepts: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
+    : WORD: Etymology: Words are symbols of mental concepts: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
             : HOW: Quantity/Frequency, Quality: 
                 : POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency)        
@@ -345,6 +308,8 @@
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
             : NEUTRAL (0): Golden Means
             : SEEN/HEARD/FELT/SMELLED/TASTED
+            : Induction (Epagōgē): We observe patterns in nature. Example: Seeing multiple instances of fire being hot.
+            : Recognition of First Principles (Nous): Through repeated observation, the intellect grasps universal truths. Example: Realizing "Fire is always hot" is a universal principle.
             : The Role of First Principles (Axioms)
                 : Every science must begin with self-evident first principles (archai).
                 : These principles cannot themselves be demonstrated but are known through intellectual intuition (nous).
@@ -353,22 +318,19 @@
                     : Primary (not derived from anything else).
                     : Immediate (not requiring proof).
                     ; More knowable than conclusions.
-                Example in Geometry:
-                    Axioms like "The whole is greater than the part" must be accepted without proof.
-                    From such axioms, we derive theorems in Euclidean geometry.
+                Example in Geometry: Axioms like "The whole is greater than the part" must be accepted without proof.
+
 ## **~CODE(), REASON:**
     : COMMAND:
     : LOGIC-ARITHMETIC = -1, 0, +1
     : NOW-SPACE: Same Plane/Continuance of Evidence
-    : GOLDEN MEAN:
-        ~1: The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a community (polis).
-        ~2: Virtue (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
-            Intellectual Virtues developed through reason and education. Reason governs all aspects of life.
-            Deficiency (too little of a trait)
-            Excess (too much of a trait)
-        Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
-    : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
-    : PUBLIC-SAFETY, POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW, 
+    : HAPPINESS & THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+        : The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a community (polis).
+        : Virtue (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
+            : Intellectual Virtues developed through reason and education. Reason governs all aspects of life.
+    : PUBLIC-SAFETY, 
+    : POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW, 
+        : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
     : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
         ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
@@ -418,10 +380,10 @@
             : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
             : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
             : THESIS:                   This speech shares that we have free will — the ability to choose.”
-                                        : The Three Kinds of Rhetoric (Based on Purpose)
-                                        : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-                                        : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-                                        : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
+                                        The Three Kinds of Rhetoric (Based on Purpose)
+                                            : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                                            : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                                            : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
             : TRANSITION:               First: why are we slaves of our passions? 
         ~2: NARRATION (Narratio): Presents background information and context.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
@@ -511,4 +473,3 @@
                 Point 2:                Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
                 Point 3:                Addressing counterarguments reveals the balance between instinct and choice.
             : CLOSING:                  Ultimately, the power to choose defines what it means to be human. 
-    
