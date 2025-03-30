@@ -67,9 +67,7 @@
                 : Ad Hominem: Attacking the person instead of the argument itself.
                 : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
         : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle). Undistributed Middle Fallacy, Incorrect reasoning
-                All dogs are animals.
-                All cats are animals.
-                Therefore, all dogs are cats.
+                All dogs are animals. All cats are animals. Therefore, all dogs are cats.
         : Uncertainty: inability to have perfect knowledge about the world, 
             
     : Induction (Epagōgē): We observe patterns in nature. Example: Seeing multiple instances of fire being hot.
@@ -84,10 +82,9 @@
             : Resolve them to create new clauses.
             : Repeat until empty clause (∅) is derived (indicating a contradiction).
         ~4: If an empty clause is found, the query is true; otherwise, it's false.
-
-        : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
-            : Direct reduction: Rearranging premises to match known valid syllogisms.
-            : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.  
+    : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
+        : Direct reduction: Rearranging premises to match known valid syllogisms.
+        : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.  
  
     : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
@@ -111,28 +108,7 @@
                     ~2: Check Goal State: Verify if the current state meets the goal criteria.
                     ~3: Expand Nodes: Generate possible next states from the current state.
                     ~4: Store in Frontier: Maintain a list of unexplored nodes.
-                        : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
-                        : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
-                        : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
                     ~5: Use Search Strategy: Choose the next state based on the algorithm.
-                        : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                            : Pop the last added node.
-                            : If goal state, return solution.
-                            : Otherwise, expand node and push new nodes into the stack.
-                            : Backtrack when dead ends are reached.
-                        : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                            : Dequeue the first added node.
-                            : If goal state, return solution.
-                            : Otherwise, expand node and enqueue new nodes.
-                        : A* SEARCH: Loop until Solution or Empty Frontier:
-                            : Remove the node with the lowest f(n) = g(n) + h(n).
-                            : If goal state, return solution.
-                            : Otherwise, expand node and add new nodes with updated f(n).    
-                        : MINIMAX ALGORITHM (For Adversarial Search) 
-                            ~1: Recursively Explore Possible Moves.
-                            ~2: If Terminal State, Return Utility.
-                            ~3: If Max Player, Choose Move with Maximum Utility.
-                            ~4: If Min Player, Choose Move with Minimum Utility. 
                     ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
    
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
