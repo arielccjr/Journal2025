@@ -1,49 +1,58 @@
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
-    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O FUNCTION 
-        ~1: PHYSICAL: Data is sent as electrical/optical signals through the wire.
-        ~2: DATA LINK: Packets are framed with Media Access Control (MAC) addresses. 
-        ~3: NETWORK: Packets are assigned IP addresses and routed. Internet Protocol (IP)?
-        ~4: TRANSPORT: Data is split into packets. Transmission Control Protocol (TCP): TCP Header = Software Port + Checksum?
-        ~5: SESSION: A session is established. DomainNameSystem (DNS) + UniformResourceLocator(URL), HypertextMarkUpLanguage(HTML)?
-        ~6: PRESENTATION: Data is encrypted. Data Payload (UDP): Data?
-        ~7: APPLICATION: Data is created in a format users can understand. HypertextTransferProtocol(HTTP)+CSS?
-    ~CENTRAL PROCESSING UNIT (CPU) & OPERATING SYSTEM
-        : CLOCK
+    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
+        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
+        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
+    ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+        : CLOCK & CLOCK-CYCLE
         : TEMPORARY MEMORY REGISTERS:
-            : INSTRUCTION-ADDRESS REGISTER & MEMORY ADDRESS: Pointer(Next Address Reference) -> Index
-                : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
-                    : NOT (in=sel, out=NOTsel)
-                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
-                    : AND (in=sel, in=b, out=selANDb)
-                    : OR (in=aANDNOTsel, in=selANDb, out=out)
-                : MATRIX >>> GATES:
-                    : AND (in=column, in=row, out=columnANDrow)
-                        : AND (in=data, in=write-enable, out=set)
-                        : NOT (in=data, out=NOTdata)
-                        : AND (in=NOTdata, in=write-enable, out=reset)
-                            : OR (in=set, in=outLOOP, out=setORoutLoop)
-                            : NOT (in=reset, out=NOTreset)
-                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : AND-OR LATCH/MEMORY REGISTER & MEMORY BIT(0/1): 
-                    : OR-LOOP (in=a, in=b, out=1)
-                    : AND-LOOP (in=a, in=b, out=0)
+            : INSTRUCTION-ADDRESS-REGISTER & MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
+                : RANDOM-ACCESS-MEMORY(RAM) & DATA
+                    : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
+                        : NOT (in=sel, out=NOTsel)
+                        : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                        : AND (in=sel, in=b, out=selANDb)
+                        : OR (in=aANDNOTsel, in=selANDb, out=out)
+                    : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
+                        : AND (in=column, in=row, out=columnANDrow)
+                            : AND (in=data, in=write-enable, out=set)
+                            : NOT (in=data, out=NOTdata)
+                            : AND (in=NOTdata, in=write-enable, out=reset)
+                                : OR (in=set, in=outLOOP, out=setORoutLoop)
+                                : NOT (in=reset, out=NOTreset)
+                                : AND (in=setORoutLOOP, in=NOTreset, out=out)
+                    : AND-OR-LATCH/MEMORY-REGISTER & MEMORY-BIT(0/1): 
+                        : OR-LOOP (in=a, in=b, out=1)
+                        : AND-LOOP (in=a, in=b, out=0)
             : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-                : ARITHMETIC UNIT = Half>Full>Multi-bit Adder:
-                    : XOR (in=a, in=b, out=abSUM)
-                        : AND (in=a, in=b, out=aANDb);
-                        : NOT (in=aANDb, out=NOTaANDb);
-                        : OR (in=a, in=b, out=aORb);
-                        : AND (in=NOTaANDb, in=aORb, out=out);
-                    : AND (in=a, in=b, out=abCARRY)
-                        : >XOR (in=abSUM, in=c, out=abcSUM)
-                        : >AND (in=abSUM, in=c, out=abcCARRY)
-                            ; >OR (in=abCARRY, in=abcBARRY, out=out)
-                : LOGIC UNIT: Mux/DMux >>> Xor >>> Or/Nor >>> And/Nand >>> Not
-            : REGISTERS A, B, C... for holding values temporarily. 
-        : FLAGS OF BITS:
-            : OVERFLOW(>)
-            : NEGATIVE(<)
-            : ZERO(=)
+                : MEMORY-INSTRUCTION:
+                    : WRITE/INPUT
+                    : READ/OUTPUT
+                : ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION
+                    : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
+                        : XOR (in=a, in=b, out=abSUM)
+                            : AND (in=a, in=b, out=aANDb);
+                            : NOT (in=aANDb, out=NOTaANDb);
+                            : OR (in=a, in=b, out=aORb);
+                            : AND (in=NOTaANDb, in=aORb, out=out);
+                        : AND (in=a, in=b, out=abCARRY)
+                            : >XOR (in=abSUM, in=c, out=abcSUM)
+                            : >AND (in=abSUM, in=c, out=abcCARRY)
+                                ; >OR (in=abCARRY, in=abcBARRY, out=out)
+                    : LOGIC-UNIT: 
+                        : XOR 
+                        : OR
+                        : AND
+                        : NOT
+                    : BIT-FLAGS:
+                        : OVERFLOW(>)
+                        : NEGATIVE(<)
+                        : ZERO(=)
+            : REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
 
 # **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
 ## **~DECODE(UNKNOWN), KNOWN**
@@ -100,23 +109,19 @@
         ~7: Optimization and Training
             Uses the Adam optimizer with learning rate scheduling.
             Dropout and Label Smoothing are applied for regularization.
-            Beam Search is used for better sentence generation.
-                ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-                    ~1: Define Initial State: Start with a known state.
-                    ~2: Check Goal State: Verify if the current state meets the goal criteria.
-                    ~3: Expand Nodes: Generate possible next states from the current state.
-                    ~4: Store in Frontier: Maintain a list of unexplored nodes.
-                    ~5: Use Search Strategy: Choose the next state based on the algorithm.
-                    ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+            Beam Search is used for better sentence generation. ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+                ~1: Define Initial State: Start with a known state.
+                ~2: Check Goal State: Verify if the current state meets the goal criteria.
+                ~3: Expand Nodes: Generate possible next states from the current state.
+                ~4: Store in Frontier: Maintain a list of unexplored nodes.
+                ~5: Use Search Strategy: Choose the next state based on the algorithm.
+                ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
    
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
         : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
-            : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)"
-                All humans are mortal. (Universal and necessary premise)
-            : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)"
-                Socrates is a human. (Particular known fact)
-            : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)"
-                Therefore, Socrates is mortal. (Demonstrated conclusion)
+            : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
+            : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
+            : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
         : Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
             : Figure 2: Middle term is predicate in both premises.
@@ -157,8 +162,8 @@
             : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
             : WHAT: FORM, Weights&Measures, Metals/Conductors, Flags, Letters/Spells, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                 : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
-                : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Action – What it is doing (e.g., "running," "writing").
+                : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
                 : SEEING-SHOWING, NOT-SEEING/BLINDING-NOT-SHOWING/HIDING
                 : HEARING-SOUNDING, NOT-HEARING/DEFEANING-NOT-SOUNDING/MUTING
@@ -224,7 +229,7 @@
     : HAPPINESS & THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
         : The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a 
         : Virtue (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
-    : COMMUNITY (polis): PUBLIC-SAFETY, 
+        : COMMUNITY (polis): PUBLIC-SAFETY, 
     : POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
     : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
@@ -242,11 +247,12 @@
         : OF THE TERMS:
         : WITH THE CONTRACT:
         : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
+            : David-WM, Russell-JG.
             : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
             : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-    : COMPUTER LANGUAGES:
+    : COMPUTER LANGUAGES: ASSEMBLY
         : FETCH / INPUT STATEMENTS: 
             : IMPORT Library/Package
             : DECLARE/INITIALIZE Variables
@@ -271,7 +277,7 @@
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
 
 # **~RHETORIC: QUESTION-PLAN**
-    ~TITLE:                         How do we know each other? How do we find closure?
+    ~0: TITLE:                      How do we know each other? How do we find closure?
     ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
         : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
         : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
