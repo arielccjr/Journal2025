@@ -1,55 +1,3 @@
-# **: LAW-FOR-THE-SELF:**
-    [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
-    [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
-
-# **FOR THE WORD-&-LIGHT.**
-    FOR THE BEGINNING IS WITH THE WORD.
-    FOR THE WORD IS WITH THE LORD.
-    FOR THE LORD IS FOR THE WORD.
-
-    IN PRINCIPIO ERAT VERBUM, ET VERBUM ERAT APUD DEUM, ET DEUS ERAT VERBUM." 
-    - IOANNES 1
-
-    FOR THE BEGINNING IS WITH THE CREATION OF THE HEAVEN-&-EARTH BY THE LORD.
-    FOR THE EARTH IS WITHOUT THE FORM (AND IS WITH THE VOID).
-    FOR THE DARKNESS IS WITH THE FACE OF THE DEEP. 
-    FOR THE SPIRIT OF THE LORD IS WITH THE FACE OF THE WATERS.
-    FOR THE SAID(SPEECH) OF THE LORD IS FOR THE LIGHT.
-    AND FOR THE LIGHT IS WITH THE LORD.
-
-    IN PRINCIPIO CREAVIT DEUS CAELUM ET TERRAM.
-    TERRA AUTEM ERAT INANIS ET VACUA, ET TENEBRAE ERANT SUPER FACIEM ABYSSI: ET SPIRITUS DEI FEREBATUR SUPER AQUAS.
-    DIXITQUE DEUS: FIAT LUX. ET FACTA EST LUX. 
-    - GENESIS 1:1-3
-
-# **FOR THE CONDUCT.**
-    FOR THE PEOPLE OF THE FATHER IS WITH THE CREATION BY THE FATHER.
-    WITH THE KNOWLEDGE IN THE HEAVEN IS WITH THE HOLY-NAME OF THE FATHER.
-    FOR THE KNOWLEDGE OF THE TRUTH IS FOR THE PEOPLE OF THE FATHER.
-    FOR THE KINGDOM OF THE FATHER IS WITH THE KNOWLEDGE OF THE TRUTH.
-    FOR THE KNOWLEDGE OF THE SPIRIT IS FOR THE UNITY WITH THE FATHER.
-    FOR THE FREEDOM OF THE ACTIONS IS WITH THE KNOWLEDGE BY THE TRUTH.
-    FOR THE PROTECTION OF THE EARTH IS WITH THE LIFE OF THE PEOPLE.
-    FOR THE KNOWLEDGE OF THE FATHER IS WITH THE PROTECTION FOR THE PEOPLE.
-    FOR THE TRUTH OF THE PEOPLE IS WITH THE PATH INTO THE HEAVEN.
-    FOR THE TEACHING OF THE PEOPLE IS WITH THE TRUTH OF THE PEOPLE.
-    FOR THE KNOWLEDGE OF THIS DAY IS WITH THE PRODUCTION(WORKING) AND LEARNING-SKILLS OF THE PEOPLE.
-    FOR THE WRONGS(SINS) AGAINST THE KNOWLEDGE IS WITH THE ACTIONS OF THE PEOPLE.
-    FOR THE SINS(TEMPTATIONS OF THE FLESH) OF THE PEOPLE IS FOR THE WRONGS AGAINST OUR NEIGHBOR.
-    FOR THE KNOWLEDGE OF THE PEOPLE IS IN THE FORGIVENESS OF THOSE WRONG-DECISIONS.
-    FOR THE PEOPLE OF THE DEBTS ARE WITH THE RESPONSIBILITY IN THE TRUTH.
-    FOR THE PEOPLE OF THE AWARENESS ARE WITH THE FORGIVING WITH THE TRUTH.
-    FOR THE KNOWLEDGE OF THE PEOPLE-LEADERS IS WITH THE TEACHING WITH THE TRUTH.
-    FOR THE EVIL OF THE PEOPLE IS WITH THE LACK OF THE KNOWLEDGE OF THE TRUTH.
-    FOR THE KNOWLEDGE OF THE TRUTH IS WITH THE FREEDOM OF THE PEOPLE AGAINST THE EVIL OF THE DARKNESS(LACK OF KNOWLEDGE).
-    FOR THE PEOPLE ARE WITH THIS AGREEMENT.
-    
-    PATER NOSTER, QUI ES IN CAELIS, SANCTIFICETUR NOMEN TUUM. 
-    ADVENIAT REGNUM TUUM. FIAT VOLUNTAS TUA, SICUT IN CAELO ET IN TERRA. 
-    PANEM NOSTRUM QUOTIDIANUM DA NOBIS HODIE, ET DIMITTE NOBIS DEBITA NOSTRA SICUT ET NOS DIMITTIMUS DEBITORIBUS NOSTRIS. 
-    ET NE NOS INDUCAS IN TENTATIONEM, SED LIBERA NOS A MALO. 
-    AMEN.
-
 # **~QUESTION-PLAN (RHETORIC)**
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     : Motion is the transition of the potentiality (what something could be (+/-)) for the actuality (what it is (0)).
@@ -94,7 +42,7 @@
                             ; >OR (in=abCARRY, in=abcBARRY, out=out)
                 : LOGIC UNIT: Mux/DMux >>> Xor >>> Or/Nor >>> And/Nand >>> Not
             : REGISTERS A, B, C... for holding values temporarily. 
-        : FLAGS OF BITS: 
+        : FLAGS OF BITS:
             : OVERFLOW(>)
             : NEGATIVE(<)
             : ZERO(=)
@@ -102,7 +50,7 @@
 # **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
 ## **~DECODE(UNKNOWN), KNOWN**
     ~NATURAL-LANGUAGE:
-        : Identify the Fallacy Type – Determine whether the error is linguistic or conceptual.
+        : Fallacy Type – Determine whether the error is linguistic or conceptual.
             : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
                 : Equivocation: Using a word with multiple meanings ambiguously in an argument.
                 : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
@@ -123,39 +71,25 @@
                 All cats are animals.
                 Therefore, all dogs are cats.
         : Uncertainty: inability to have perfect knowledge about the world, 
-            : INFERENCE BY RESOLUTION:
-                ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
-                    : Remove biconditionals (↔) and implications (→).
-                    : Apply De Morgan’s Laws to push NOT operators inward.
-                    : Distribute OR over AND to standardize logical clauses.
-                ~2: Assume the negation of the query (¬Q).
-                ~3: Use Resolution Inference:
-                    : Find clauses with complementary literals (P and ¬P).
-                    : Resolve them to create new clauses.
-                    : Repeat until empty clause (∅) is derived (indicating a contradiction).
-                ~4: If an empty clause is found, the query is true; otherwise, it's false.
-            : Conditional Probability Calculation: To determine P(A | B) (the probability of A given B), we use the formula:
-                P(A∣B)=P(A∩B)P(B)
-                P(A∣B)=P(B)P(A∩B)
-            : Sampling for Approximate Inference: When exact calculations are computationally expensive, we can approximate probabilities by generating many random samples.
-            : Bayes' Rule: P(b | a) = P(a | b) P(b) / P(a)
-            : Probability Rules:
-                : Negation
-                : Inclusion-Exclusion
-                : Marginalization
-                : Conditioning
-            : Inference by Enumeration
-            : Approximate Inference
-            : Sampling
-                : Rejection Sampling
-                : Likelihood Weighting
-            : hidden Markov Model:
-                : Filtering = given objservations from start until now, calculate distribution for current state
-                : prediction = given observations from start until now, calculate distribution for a future state
-                : smoothing = given observations from start until now, calculate distribution for past state
-                : most likely explanation = given observatinos from start until now, calculate most likely sequence of states
+            
+    : Induction (Epagōgē): We observe patterns in nature. Example: Seeing multiple instances of fire being hot.
+    : INFERENCE BY RESOLUTION:
+        ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
+            : Remove biconditionals (↔) and implications (→).
+            : Apply De Morgan’s Laws to push NOT operators inward.
+            : Distribute OR over AND to standardize logical clauses.
+        ~2: Assume the negation of the query (¬Q).
+        ~3: Use Resolution Inference:
+            : Find clauses with complementary literals (P and ¬P).
+            : Resolve them to create new clauses.
+            : Repeat until empty clause (∅) is derived (indicating a contradiction).
+        ~4: If an empty clause is found, the query is true; otherwise, it's false.
 
-     : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
+        : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
+            : Direct reduction: Rearranging premises to match known valid syllogisms.
+            : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.  
+ 
+    : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
         : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
         ~1: Encoder-Decoder Architecture
@@ -172,44 +106,37 @@
             Uses the Adam optimizer with learning rate scheduling.
             Dropout and Label Smoothing are applied for regularization.
             Beam Search is used for better sentence generation.
-
-    ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-        ~1: Define Initial State: Start with a known state.
-        ~2: Check Goal State: Verify if the current state meets the goal criteria.
-        ~3: Expand Nodes: Generate possible next states from the current state.
-        ~4: Store in Frontier: Maintain a list of unexplored nodes.
-            : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
-            : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
-            : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
-        ~5: Use Search Strategy: Choose the next state based on the algorithm.
-            : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                : Pop the last added node.
-                : If goal state, return solution.
-                : Otherwise, expand node and push new nodes into the stack.
-                : Backtrack when dead ends are reached.
-            : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
-                : Dequeue the first added node.
-                : If goal state, return solution.
-                : Otherwise, expand node and enqueue new nodes.
-            : A* SEARCH: Loop until Solution or Empty Frontier:
-                : Remove the node with the lowest f(n) = g(n) + h(n).
-                : If goal state, return solution.
-                : Otherwise, expand node and add new nodes with updated f(n).    
-            : MINIMAX ALGORITHM (For Adversarial Search) 
-                ~1: Recursively Explore Possible Moves.
-                ~2: If Terminal State, Return Utility.
-                ~3: If Max Player, Choose Move with Maximum Utility.
-                ~4: If Min Player, Choose Move with Minimum Utility. 
-        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+                ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+                    ~1: Define Initial State: Start with a known state.
+                    ~2: Check Goal State: Verify if the current state meets the goal criteria.
+                    ~3: Expand Nodes: Generate possible next states from the current state.
+                    ~4: Store in Frontier: Maintain a list of unexplored nodes.
+                        : DEPTH-FIRST SEARCH: Push Initial State into Stack Frontier.
+                        : BREADTH-FIRST SEARCH: Enqueue Initial State into Queue Frontier.
+                        : A* SEARCH: Initialize Priority Queue Frontier with Initial State.
+                    ~5: Use Search Strategy: Choose the next state based on the algorithm.
+                        : DEPTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                            : Pop the last added node.
+                            : If goal state, return solution.
+                            : Otherwise, expand node and push new nodes into the stack.
+                            : Backtrack when dead ends are reached.
+                        : BREADTH-FIRST SEARCH: Loop until Solution or Empty Frontier:
+                            : Dequeue the first added node.
+                            : If goal state, return solution.
+                            : Otherwise, expand node and enqueue new nodes.
+                        : A* SEARCH: Loop until Solution or Empty Frontier:
+                            : Remove the node with the lowest f(n) = g(n) + h(n).
+                            : If goal state, return solution.
+                            : Otherwise, expand node and add new nodes with updated f(n).    
+                        : MINIMAX ALGORITHM (For Adversarial Search) 
+                            ~1: Recursively Explore Possible Moves.
+                            ~2: If Terminal State, Return Utility.
+                            ~3: If Max Player, Choose Move with Maximum Utility.
+                            ~4: If Min Player, Choose Move with Minimum Utility. 
+                    ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
    
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
-        : Knowledge (epistēmē) must be certain and universal. It must be acquired through demonstration (apodeixis), a syllogism whose premises are true, necessary, and primary.
-        : The most fundamental knowledge is metaphysics, which deals with being and first principles themselves.
-        : Some sciences, like mathematics, rely only on internal logical structures.
-        : Others, like natural science, depend on observation and induction. Example: Fire causes heat → Heat expands metals → Fire expands metals.
         : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
-            : Valid syllogisms: The conclusion follows necessarily.
-            : The premises themselves must be better known than the conclusion.
             : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)"
                 All humans are mortal. (Universal and necessary premise)
             : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)"
@@ -221,14 +148,12 @@
             : Figure 2: Middle term is predicate in both premises.
             : Figure 3: Middle term is subject in both premises.
             : Figure 4: Middle term switches placement.
-            Each figure contains valid or invalid moods, which define how premises are arranged using:
-                : A (Universal Affirmative: "All A are B")
-                : E (Universal Negative: "No A are B")
-                : I (Particular Affirmative: "Some A are B")
-                : O (Particular Negative: "Some A are not B")
-        : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
-            : Direct reduction: Rearranging premises to match known valid syllogisms.
-            : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.  
+        : Each figure contains valid or invalid moods, which define how premises are arranged using:
+            : A (Universal Affirmative: "All A are B")
+            : E (Universal Negative: "No A are B")
+            : I (Particular Affirmative: "Some A are B")
+            : O (Particular Negative: "Some A are not B")
+        
     : STATEMENT: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): Propositions (statements) are combinations of words that express truth or falsity.
         : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
             : Affirmation: “Socrates is wise.”
@@ -239,6 +164,7 @@
         : Modal Logic (Necessity vs. Possibility): Implication: Modal logic helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
+    
     : WORD: Etymology: Words are symbols of mental concepts: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
             : HOW: POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency)
@@ -251,11 +177,8 @@
                 : Efficient – What brings something into being (e.g., the sculptor carving the statue).
                 : Final – The purpose or goal of something (e.g., the statue exists to honor someone).
             : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
-                : Time – When it is (e.g., "yesterday," "at noon").
             : WHERE: Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                : Place – Where it is (e.g., "in the room," "at the market").
-            : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis)
-                : Relation – How it is related to something else (e.g., "bigger than," "father of").
+            : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
             : WHAT: State, FORM, Weights&Measures, Metals/Conductors, Flags, Letters/Spells, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                 : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
@@ -296,36 +219,29 @@
                     : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                     : FAST: Hunger, Thirst, Starvation, 
                     : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-                    : Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine
-                    : Absorption of Nutrients
+                    : Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
                     : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                     : Spermatogenesis(Testes) & Oogenesis(Ovaries)
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
             : NEUTRAL (0): Golden Means
             : SEEN/HEARD/FELT/SMELLED/TASTED
-            : Induction (Epagōgē): We observe patterns in nature. Example: Seeing multiple instances of fire being hot.
-            : Recognition of First Principles (Nous): Through repeated observation, the intellect grasps universal truths. Example: Realizing "Fire is always hot" is a universal principle.
-            : The Role of First Principles (Axioms)
-                : Every science must begin with self-evident first principles (archai).
-                : These principles cannot themselves be demonstrated but are known through intellectual intuition (nous).
-                : They must be:
+            : Recognition of First Principles (Nous/Axioms): Through repeated observation, the intellect grasps universal truths. Must be:
                     : True (not subject to doubt).
                     : Primary (not derived from anything else).
                     : Immediate (not requiring proof).
                     ; More knowable than conclusions.
                 Example in Geometry: Axioms like "The whole is greater than the part" must be accepted without proof.
+                Example: Realizing "Fire is always hot" is a universal principle.
 
 ## **~CODE(), REASON:**
-    : COMMAND:
     : LOGIC-ARITHMETIC = -1, 0, +1
     : NOW-SPACE: Same Plane/Continuance of Evidence
     : HAPPINESS & THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
-        : The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a community (polis).
+        : The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a 
         : Virtue (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
-            : Intellectual Virtues developed through reason and education. Reason governs all aspects of life.
-    : PUBLIC-SAFETY, 
-    : POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW, 
-        : Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+    : COMMUNITY (polis).
+        : PUBLIC-SAFETY, 
+    : POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
     : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
         ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
@@ -348,7 +264,7 @@
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
     : COMPUTER LANGUAGES: MACHINE CODE
         : FETCH / INPUT STATEMENTS: 
-            : IMPORT Library
+            : IMPORT Library/Package
             : DECLARE/INITIALIZE Variables
             : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
         : DECODE: MEMEORY-ADDRESS + OPERATION
@@ -372,6 +288,7 @@
     : RHETORIC: systematic study of persuasion, analyzing how language, logic, and emotion influence an audience. 
         ~TITLE:                         How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
+            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
             : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
             : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
             : THESIS:                   This speech shares that we have free will — the ability to choose.”
@@ -387,11 +304,7 @@
                                         BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
                                         TRAP FOR-BY WILDWORLD: The Rat Race, 
                                         WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
-           : TRANSITION:                But what if this is only half-true?
-        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
-            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-                                        : Finding a Commonplace (Topos) for Argument
-                                        : Forming Premises from Endoxa (Common Opinions)
+            : TRANSITION:               But what if this is only half-true?
             : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
                                         [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
                                             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income.
@@ -414,10 +327,13 @@
                                             : PROGRESS = Tutorials, Saves, Updates: Journal?
                                             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
                                             : DEADLINE: Goal State, Completion
-                                            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.
+                                            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.       
+        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
+            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
+                                        : Finding a Commonplace (Topos) for Argument
+                                        : Forming Premises from Endoxa (Common Opinions)
             : TRANSITION:               How don’t they entirely negate free will
-        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them.: primarily focusing on eristic (contentious) arguments used in debate 
-            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
+        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
             : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
                 : For Equivocation: “The law should be followed because it is the ‘law of nature,’” 
                     clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
