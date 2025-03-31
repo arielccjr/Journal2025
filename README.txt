@@ -1,64 +1,9 @@
-# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
-    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
-        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
-        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
-        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
-        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
-        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
-        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
-        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
-    ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-        : TEMPORARY MEMORY REGISTERS & TERMPORARY-MEMORY-BITS:
-            : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-            : INSTRUCTION-ADDRESS-REGISTER & MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
-                : RANDOM-ACCESS-MEMORY(RAM) & DATA
-                    : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
-                        : NOT (in=sel, out=NOTsel)
-                        : AND (in=a, in=NOTsel, out=aANDNOTsel)
-                        : AND (in=sel, in=b, out=selANDb)
-                        : OR (in=aANDNOTsel, in=selANDb, out=out)
-                    : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
-                        : AND (in=column, in=row, out=columnANDrow)
-                            : AND (in=data, in=write-enable, out=set)
-                            : NOT (in=data, out=NOTdata)
-                            : AND (in=NOTdata, in=write-enable, out=reset)
-                                : OR (in=set, in=outLOOP, out=setORoutLoop)
-                                : NOT (in=reset, out=NOTreset)
-                                : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                    : AND-OR-LATCH/MEMORY-REGISTER & MEMORY-BIT(0/1): 
-                        : OR-LOOP (in=a, in=b, out=1)
-                        : AND-LOOP (in=a, in=b, out=0)
-            : INSTRUCTION-REGISTER & OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-                : MEMORY-INSTRUCTION:
-                    : WRITE/INPUT
-                    : READ/OUTPUT
-                : ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION
-                    : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
-                        : XOR (in=a, in=b, out=abSUM)
-                            : AND (in=a, in=b, out=aANDb);
-                            : NOT (in=aANDb, out=NOTaANDb);
-                            : OR (in=a, in=b, out=aORb);
-                            : AND (in=NOTaANDb, in=aORb, out=out);
-                        : AND (in=a, in=b, out=abCARRY)
-                            : >XOR (in=abSUM, in=c, out=abcSUM)
-                            : >AND (in=abSUM, in=c, out=abcCARRY)
-                                ; >OR (in=abCARRY, in=abcBARRY, out=out)
-                    : LOGIC-UNIT:
-                        : XOR 
-                        : OR
-                        : AND
-                        : NOT
-                : BIT-FLAGS:
-                    : OVERFLOW(>)
-                    : NEGATIVE(<)
-                    : ZERO(=)
-        : CLOCK & CLOCK-CYCLE
-
-# **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
-## **~DECODE(UNKNOWN), KNOWN**
+# **~DECODE(UNKNOWN), KNOWN**
+    ~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
     ~NATURAL-LANGUAGE:
+        : Uncertainty: inability to have perfect knowledge about the world, 
         : Fallacy Type – Determine whether the error is linguistic or conceptual.
-            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+            : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
                 : Equivocation: Using a word with multiple meanings ambiguously in an argument.
                 : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
                 : Accent: Changing the meaning of a statement by emphasizing different words.
@@ -73,32 +18,10 @@
                 : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
                 : Ad Hominem: Attacking the person instead of the argument itself.
                 : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-        : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle). Undistributed Middle Fallacy, Incorrect reasoning
-                All dogs are animals. All cats are animals. Therefore, all dogs are cats.
-        : Uncertainty: inability to have perfect knowledge about the world, 
-            
-    : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
-        ~1: Encoder-Decoder Architecture
-            : Encoder: Processes the input sentence into a fixed representation. Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-            : Decoder: Generates the output sequence, one word at a time. Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
-        ~2: Self-Attention Mechanism
-            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
-            Multi-Head Attention enables different aspects of word relationships to be captured.
-        ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
-        ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
-        ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
-        ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
-        ~7: Optimization and Training
-            Uses the Adam optimizer with learning rate scheduling.
-            Dropout and Label Smoothing are applied for regularization.
-            Beam Search is used for better sentence generation. ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-                ~1: Define Initial State: Start with a known state.
-                ~2: Check Goal State: Verify if the current state meets the goal criteria.
-                ~3: Expand Nodes: Generate possible next states from the current state.
-                ~4: Store in Frontier: Maintain a list of unexplored nodes.
-                ~5: Use Search Strategy: Choose the next state based on the algorithm.
-                ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
-   
+            : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle). Undistributed Middle Fallacy, Incorrect reasoning
+                : All dogs are animals. All cats are animals. Therefore, all dogs are cats.
+    
+# **~CLASSIFY(), CATERGORIES**
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
         : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
@@ -114,8 +37,7 @@
             : E (Universal Negative: "No A are B")
             : I (Particular Affirmative: "Some A are B"). Socrates is a human. (Particular known fact)
             : O (Particular Negative: "Some A are not B")
-        
-    : STATEMENT: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): Propositions (statements) are combinations of words that express truth or falsity.
+    ~STATEMENT: Propositions (statements) are combinations of words that express truth or falsity.
         : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
             : Affirmation: “Socrates is wise.”
             : Negation: “Socrates is not wise.”
@@ -125,8 +47,8 @@
         : Modal Logic (Necessity vs. Possibility): Implication: Modal logic helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
-    
-    : WORD: Etymology: Words are symbols of mental concepts: 
+    ~WORD: Etymology: Words are symbols of mental concepts: 
+        ~PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): 
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
             : HOW: POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), NEUTRAL (0): Golden Means
                 : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
@@ -200,41 +122,73 @@
                 : Immediate (not requiring proof).
                 : More knowable than conclusions.
 
-## **~CODE(), REASON:**
-    : NOW-SPACE: Same Plane/Continuance of Evidence
-        : LOGIC-ARITHMETIC = -1, 0, +1
-    : HAPPINESS & THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
-        : The Highest Good is Happiness (Eudaimonia), worth pursuing for its own sake, contemplative, and is lived within a 
-        : Virtue (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
+# **~CODE(), REASON/CORRECTNESS**
+    ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
+        : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
         : COMMUNITY (polis): PUBLIC-SAFETY, 
-    : POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
-    : ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
-        ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
-        ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
-        ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
-        ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
-        ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
-        ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
-        ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-    : CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-        : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-        : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
-        : IS/ARE-THINKING:
-        : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
-        : OF THE TERMS:
-        : WITH THE CONTRACT:
-        : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
-            : David-WM, Russell-JG.
-            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
-            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-            : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-    : COMPUTER LANGUAGES: ASSEMBLY
+        : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
+        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
+    ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+        : CLOCK[TIME-SEQUENCE]: NOW-SPACE: Same Plane/Continuance of Evidence
+        : INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]:
+            : RANDOM-ACCESS-MEMORY[DATA]:
+                : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
+                    : NOT (in=sel, out=NOTsel)
+                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                    : AND (in=sel, in=b, out=selANDb)
+                    : OR (in=aANDNOTsel, in=selANDb, out=out)
+                : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
+                    : AND (in=column, in=row, out=columnANDrow)
+                        : AND (in=data, in=write-enable, out=set)
+                        : NOT (in=data, out=NOTdata)
+                        : AND (in=NOTdata, in=write-enable, out=reset)
+                            : OR (in=set, in=outLOOP, out=setORoutLoop)
+                            : NOT (in=reset, out=NOTreset)
+                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
+                : AND-OR-LATCH/MEMORY-REGISTER & MEMORY-BIT(0/1): 
+                    : OR-LOOP (in=a, in=b, out=1)
+                    : AND-LOOP (in=a, in=b, out=0)
+        : INSTRUCTION-REGISTER[INSTRUCTIONS:
+            : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
+                : READ/OUTPUT
+                : WRITE/INPUT
+            : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
+                : 
+        : ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION
+            : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
+                : XOR (in=a, in=b, out=abSUM)
+                    : AND (in=a, in=b, out=aANDb);
+                    : NOT (in=aANDb, out=NOTaANDb);
+                    : OR (in=a, in=b, out=aORb);
+                    : AND (in=NOTaANDb, in=aORb, out=out);
+                : AND (in=a, in=b, out=abCARRY)
+                    : >XOR (in=abSUM, in=c, out=abcSUM)
+                    : >AND (in=abSUM, in=c, out=abcCARRY)
+                        ; >OR (in=abCARRY, in=abcBARRY, out=out)
+            : LOGIC-UNIT:
+                : XOR 
+                : OR
+                : AND
+                : NOT
+        : BIT-FLAGS:
+            : OVERFLOW(>): +1
+            : NEGATIVE(<): -1
+            : ZERO(=): 0
+        : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+   
+    : PROGRAMMING:
         : FETCH / INPUT STATEMENTS: 
             : IMPORT Library/Package
             : DECLARE/INITIALIZE Variables
             : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-        : DECODE: MEMEORY-ADDRESS + OPERATION
+        : INSTRUCTIONS: MEMEORY-ADDRESS + OPERATION
             : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
             : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
             : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
@@ -252,6 +206,50 @@
                 : Then/Else/Next...  
                 : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
+           
+    ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
+        ~1: Encoder-Decoder Architecture
+            : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+            : Decoder: Generates the output sequence, one word at a time. Previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+        ~2: Self-Attention Mechanism
+            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+            Multi-Head Attention enables different aspects of word relationships to be captured.
+        ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+        ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
+        ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
+        ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
+        ~7: Optimization and Training
+            Uses the Adam optimizer with learning rate scheduling.
+            Dropout and Label Smoothing are applied for regularization.
+            Beam Search is used for better sentence generation. ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+                ~1: Define Initial State: Start with a known state.
+                ~2: Check Goal State: Verify if the current state meets the goal criteria.
+                ~3: Expand Nodes: Generate possible next states from the current state.
+                ~4: Store in Frontier: Maintain a list of unexplored nodes.
+                ~5: Use Search Strategy: Choose the next state based on the algorithm.
+                ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+    ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+    ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
+        ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
+        ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
+        ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
+        ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
+        ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
+        ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
+        ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
+    ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+        : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
+        : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
+        : IS/ARE-THINKING:
+        : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
+        : OF THE TERMS:
+        : WITH THE CONTRACT:
+        : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
+            : David-WM, Russell-JG.
+            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
+            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+            : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
 
 # **~RHETORIC: QUESTION-PLAN**
     ~0: TITLE:                      How do we know each other? How do we find closure?
