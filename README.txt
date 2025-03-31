@@ -43,7 +43,7 @@
                             : >XOR (in=abSUM, in=c, out=abcSUM)
                             : >AND (in=abSUM, in=c, out=abcCARRY)
                                 ; >OR (in=abCARRY, in=abcBARRY, out=out)
-                    : LOGIC-UNIT: 
+                    : LOGIC-UNIT:
                         : XOR 
                         : OR
                         : AND
@@ -77,28 +77,10 @@
                 All dogs are animals. All cats are animals. Therefore, all dogs are cats.
         : Uncertainty: inability to have perfect knowledge about the world, 
             
-    : Induction (Epagōgē): We observe patterns in nature. Example: Seeing multiple instances of fire being hot.
-    : INFERENCE BY RESOLUTION:
-        ~1: Convert all knowledge into Conjunctive Normal Form (CNF):
-            : Remove biconditionals (↔) and implications (→).
-            : Apply De Morgan’s Laws to push NOT operators inward.
-            : Distribute OR over AND to standardize logical clauses.
-        ~2: Assume the negation of the query (¬Q).
-        ~3: Use Resolution Inference:
-            : Find clauses with complementary literals (P and ¬P).
-            : Resolve them to create new clauses.
-            : Repeat until empty clause (∅) is derived (indicating a contradiction).
-        ~4: If an empty clause is found, the query is true; otherwise, it's false.
-    : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
-        : Direct reduction: Rearranging premises to match known valid syllogisms.
-        : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.
- 
     : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
-        : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-        : Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
         ~1: Encoder-Decoder Architecture
-            : Encoder: Processes the input sentence into a fixed representation.
-            : Decoder: Generates the output sequence, one word at a time.
+            : Encoder: Processes the input sentence into a fixed representation. Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+            : Decoder: Generates the output sequence, one word at a time. Decoder: previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
         ~2: Self-Attention Mechanism
             Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
             Multi-Head Attention enables different aspects of word relationships to be captured.
@@ -144,11 +126,9 @@
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     
-    : WORD: Etymology: Words are symbols of mental concepts: Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
+    : WORD: Etymology: Words are symbols of mental concepts: 
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
-            : HOW:
-                : POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency)
-                : NEUTRAL (0): Golden Means
+            : HOW: POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), NEUTRAL (0): Golden Means
                 : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
                 : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
             : WHY: CAUSE, EFFECT
@@ -162,7 +142,7 @@
             : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
             : WHAT:  Weights&Measures, Metals/Conductors, Flags, Letters/Spells, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                 : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
-                : Action – What it is doing (e.g., "running," "writing").
+                : Action – What it is doing 
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
                 : SEEING-SHOWING
@@ -213,6 +193,7 @@
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
+            : Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
             : Recognition of First Principles (Nous/Axioms): Through repeated observation, the intellect grasps universal truths. Must be:
                 : True (not subject to doubt).
                 : Primary (not derived from anything else).
@@ -298,12 +279,11 @@
                                         : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income.
                                         : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
                                     FRUIT FOR-BY SEEDWORD(+)
-                                        : Mental Library, pokedex, Map, Contact List,
-                                        : Skills / Experience Points, Abilities/Stats, New Moves, Karma, 
-                                        : Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                                        : Mental Library, pokedex, Map, 
+                                        : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
                                         : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-                                        : Testimonials, Reviews
                                     SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
+                                        : Contact List, Testimonials, Reviews
                                     WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
                                         : Build Structures/LEVELS: Balance scope budget, and schedule  
                                             : NAVIGATION, Maps, Atmosphere, Weather,
