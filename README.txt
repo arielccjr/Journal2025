@@ -1,15 +1,15 @@
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
-        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
-        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
-        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
-        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
-        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
-        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
         ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
     ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-        : CLOCK & CLOCK-CYCLE
-        : TEMPORARY MEMORY REGISTERS:
+        : TEMPORARY MEMORY REGISTERS & TERMPORARY-MEMORY-BITS:
+            : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
             : INSTRUCTION-ADDRESS-REGISTER & MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
                 : RANDOM-ACCESS-MEMORY(RAM) & DATA
                     : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
@@ -28,7 +28,7 @@
                     : AND-OR-LATCH/MEMORY-REGISTER & MEMORY-BIT(0/1): 
                         : OR-LOOP (in=a, in=b, out=1)
                         : AND-LOOP (in=a, in=b, out=0)
-            : INSTRUCTION REGISTER & OPERATIONS CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
+            : INSTRUCTION-REGISTER & OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
                 : MEMORY-INSTRUCTION:
                     : WRITE/INPUT
                     : READ/OUTPUT
@@ -48,11 +48,11 @@
                         : OR
                         : AND
                         : NOT
-                    : BIT-FLAGS:
-                        : OVERFLOW(>)
-                        : NEGATIVE(<)
-                        : ZERO(=)
-            : REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+                : BIT-FLAGS:
+                    : OVERFLOW(>)
+                    : NEGATIVE(<)
+                    : ZERO(=)
+        : CLOCK & CLOCK-CYCLE
 
 # **~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
 ## **~DECODE(UNKNOWN), KNOWN**
@@ -91,7 +91,7 @@
         ~4: If an empty clause is found, the query is true; otherwise, it's false.
     : Using Reduction & Proofs: Aristotle reduced complex arguments to basic valid forms using:
         : Direct reduction: Rearranging premises to match known valid syllogisms.
-        : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.  
+        : Indirect proof (reductio ad absurdum) to disprove invalid reasoning.
  
     : TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         : Encoder: input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
@@ -119,18 +119,18 @@
    
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
         : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
-            : Term 1 (Major term) – Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
-            : Term 2 (Minor term) – Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
-            : Term 3 (Middle term) – Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
+            : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
+            : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". 
+            : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
         : Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
             : Figure 2: Middle term is predicate in both premises.
             : Figure 3: Middle term is subject in both premises.
             : Figure 4: Middle term switches placement.
         : Each figure contains valid or invalid moods, which define how premises are arranged using:
-            : A (Universal Affirmative: "All A are B")
+            : A (Universal Affirmative: "All A are B"). All humans are mortal. (Universal and necessary premise)
             : E (Universal Negative: "No A are B")
-            : I (Particular Affirmative: "Some A are B")
+            : I (Particular Affirmative: "Some A are B"). Socrates is a human. (Particular known fact)
             : O (Particular Negative: "Some A are not B")
         
     : STATEMENT: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): Propositions (statements) are combinations of words that express truth or falsity.
@@ -160,68 +160,64 @@
             : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
             : WHERE: Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
             : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
-            : WHAT: FORM, Weights&Measures, Metals/Conductors, Flags, Letters/Spells, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+            : WHAT:  Weights&Measures, Metals/Conductors, Flags, Letters/Spells, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                 : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
                 : Action – What it is doing (e.g., "running," "writing").
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
-                : SEEING-SHOWING, NOT-SEEING/BLINDING-NOT-SHOWING/HIDING
-                : HEARING-SOUNDING, NOT-HEARING/DEFEANING-NOT-SOUNDING/MUTING
-                : FEELING-MOVING, NOT-FEELING/EVADING-NOT-MOVING/PAUSING
-                : SMELLING-EMITTING, NOT-SMELLING/BLOWING-NOT-EMITTING/FILTERING?
-                : EATING-CREATING, NOT-EATING/FASTING-NOT-CREATING/BREAKING
-
-                    : SHADOW(Terminator, Core, Occlusion, Cast), BLINK(Epilepsy, Autism), Void, Cover, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur
-                    : Eyes, Camera, Optical/Ocular System, Photoreceptor, Display: DellMonitor, WacomTablet, 
-                    : Light: GEOMETRY (EUCLID): Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-                    : Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
-                    : VIEW: 1st, 2nd (Possession), 3rd-Person (God View)
-                    : SHOT: Close-up, Medium, Long/Wide... 
-                    : ANGLE: Up-Down,  Right-Left
-                    : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Proportion, Ratio), 
+                : SEEING-SHOWING
+                    : EYES: Camera, Optical/Ocular System, Photoreceptor, 
+                    : VIEW: 1st, 2nd(Possess), 3rd(God View), 
+                    : SHOT: Close-up, Medium, Long/Wide.., 
+                    : ANGLE: Up-Down,  Right-Left, 
+                    : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
+                    : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
+                    : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                     : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-
-                    : EARS: Sound: MUSIC (BOETHIUS), Rode Mic, INSTRUMENT, Throat, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram... 
-                    : ~MUTE-DEAFEN: SILENCE, Ambience, NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion
-                    : ~HEAR-SOUND:
-                    : Amp, Volume
-                    : RHYTHM: Beat, SOUND EFFECTS
-                    : Length
-                    : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
-                
-                    /SKINS: Motion: PHYSICS (ARISTOTLE), SKINS:	Hands, Feet, Skin, Mouse, Keyboard, Controller
-                    ~AVOID-PAUSE: STILLNESS, Rest: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
-                    ~FEEL-MOVE: MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
-                    : EMOTION: Reaction, INERTIA, Love, Hate
+                    : NOT-SEEING/BLINDING-NOT-SHOWING/HIDING: 
+                        : BLINK/Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, 
+                        : SHADOW(Terminator, Core, Occlusion, Cast), 
+                : HEARING-SOUNDING:
+                    : EARS: Rode Mic, 
+                    : Sound: Throat, Instrument, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
+                    : RHYTHM: Beat, Amp/Volume
+                    : NOT-HEARING/DEFEANING-NOT-SOUNDING/MUTING
+                        : NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects
+                        : SILENCE, Ambience
+                : FEELING-MOVING:
+                    : SKINS: Hands, Feet, Mouse, Keyboard, Controller
+                    : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
                     : TEXTURE: Rough, Smooth
                     : MASS: Light, Heavy
                     : SPEED: Slow, Fast, 
                     : DISTANCE/ZOOM: In, Out
-                    : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
-                
+                    : EMOTION: Reaction, INERTIA, Love, Hate
+                    : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+                    : NOT-FEELING/EVADING-NOT-MOVING/PAUSING:
+                        : STILLNESS, Rest: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
+                : SMELLING-EMITTING:
                     : NOSE: Air, Diffusion
-                    : Inhaled: Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn, 
+                    : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn, 
                     : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
-                    : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
-                    : MASK/FILTER, BLOW: Fan, 
-                
+                    : NOT-SMELLING/BLOWING-NOT-EMITTING/FILTERING?:
+                        : MASK/FILTER, BLOW: Fan, 
+                        : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
+                : EATING-CREATING:
                     : TONGUE: Energy, Power, Heat
                     : EATEN: Throat, Stomach, Intestine, Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
-                    : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
-                    : FAST: Hunger, Thirst, Starvation, 
-                    : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
                     : Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
-                    : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
-                    : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-        
+                    : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+                        : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
+                        : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+                    : NOT-EATING/FASTING-NOT-CREATING/BREAKING:
+                        : FAST: Hunger, Thirst, Starvation, 
+                        : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
             : Recognition of First Principles (Nous/Axioms): Through repeated observation, the intellect grasps universal truths. Must be:
-                    : True (not subject to doubt).
-                    : Primary (not derived from anything else).
-                    : Immediate (not requiring proof).
-                    ; More knowable than conclusions.
-                Example in Geometry: Axioms like "The whole is greater than the part" must be accepted without proof.
-                Example: Realizing "Fire is always hot" is a universal principle.
+                : True (not subject to doubt).
+                : Primary (not derived from anything else).
+                : Immediate (not requiring proof).
+                : More knowable than conclusions.
 
 ## **~CODE(), REASON:**
     : NOW-SPACE: Same Plane/Continuance of Evidence
@@ -359,6 +355,7 @@
         : TRANSITION:
 
     ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.
+        : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
         : QUESTION:                 So, are we simply animals flowing along the current of passion, or do we have free will? 
         : THESIS:                   We are capable of both — of habits, but empowered to rise above them.
         : MEANING:                  This question matters because it shows how If we believe we have no choice, 
