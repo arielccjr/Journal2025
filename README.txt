@@ -27,7 +27,7 @@
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
             : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". 
             : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
-        : Identifying Syllogistic Figures & Moods: Aristotle categorized syllogisms into different figures and moods based on how terms are positioned.
+        : Identifying Syllogistic Figures & Moods: based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
             : Figure 2: Middle term is predicate in both premises.
             : Figure 3: Middle term is subject in both premises.
@@ -41,10 +41,10 @@
         : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
             : Affirmation: “Socrates is wise.”
             : Negation: “Socrates is not wise.”
-        : Contradictions & Opposites (Square of Opposition)
+        : Square of Opposition
             : Contradictory statements: One must be true, the other false. “It is day.” vs. “It is not day.”
             : Contrary statements: Both cannot be true, but both can be false. “All men are wise.” vs. “No man is wise.”
-        : Modal Logic (Necessity vs. Possibility): Implication: Modal logic helps in predicting future truths without contradiction.
+        : Modal Logic: Implication: Modal logic helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD: Etymology: Words are symbols of mental concepts: 
@@ -62,11 +62,16 @@
             : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
             : WHERE: Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
             : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
-            : WHAT:  Weights&Measures, Metals/Conductors, Flags, Letters/Spells, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+            : WHAT:  
                 : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
-                : Action – What it is doing 
+                : Action – What it is doing
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
+                : READING-WRITING:
+                    : Weights&Measures, Letters/Spells, 
+                    : Metals/Conductors, 
+                    : Flags, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                    : NOT-READING/FORGETTING-NOT-WRITING/ERASING
                 : SEEING-SHOWING
                     : EYES: Camera, Optical/Ocular System, Photoreceptor, 
                     : VIEW: 1st, 2nd(Possess), 3rd(God View), 
