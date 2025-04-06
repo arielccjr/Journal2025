@@ -1,27 +1,27 @@
 # **~DECODE(UNKNOWN), KNOWN**
     ~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
-    ~NATURAL-LANGUAGE:
-        : Uncertainty: inability to have perfect knowledge about the world, 
-        : Fallacy Type – Determine whether the error is linguistic or conceptual.
-            : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-                : Equivocation: Using a word with multiple meanings ambiguously in an argument.
-                : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
-                : Accent: Changing the meaning of a statement by emphasizing different words.
-                : Composition: Assuming what is true of parts is true for the whole.
-                : Division: Assuming what is true of the whole is true for each part.
-            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-                : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
-                : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
-                : Accident: Misapplying a general rule to an exception or specific case.
-                : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
-                : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
-                : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
-                : Ad Hominem: Attacking the person instead of the argument itself.
-                : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-            : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle). Undistributed Middle Fallacy, Incorrect reasoning
-                : All dogs are animals. All cats are animals. Therefore, all dogs are cats.
-    
+    ~DIVIDE-&-CONQUER:
+    ~NATURAL-LANGUAGE: Uncertainty: inability to have perfect knowledge about the world, 
+   
 # **~CLASSIFY(), CATERGORIES**
+    ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
+        : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+            : Equivocation: Using a word with multiple meanings ambiguously in an argument.
+            : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
+            : Accent: Changing the meaning of a statement by emphasizing different words.
+            : Composition: Assuming what is true of parts is true for the whole.
+            : Division: Assuming what is true of the whole is true for each part.
+        : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
+            : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
+            : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
+            : Accident: Misapplying a general rule to an exception or specific case.
+            : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
+            : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
+            : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
+            : Ad Hominem: Attacking the person instead of the argument itself.
+            : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
+        : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle). Undistributed Middle Fallacy, Incorrect reasoning
+            : All dogs are animals. All cats are animals. Therefore, all dogs are cats.
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
         : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
@@ -41,7 +41,7 @@
         : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
             : Affirmation: “Socrates is wise.”
             : Negation: “Socrates is not wise.”
-        : Square of Opposition
+        : Square of Opposition:
             : Contradictory statements: One must be true, the other false. “It is day.” vs. “It is not day.”
             : Contrary statements: Both cannot be true, but both can be false. “All men are wise.” vs. “No man is wise.”
         : Modal Logic: Implication: Modal logic helps in predicting future truths without contradiction.
@@ -103,15 +103,15 @@
                     : NOT-FEELING/EVADING-NOT-MOVING/PAUSING:
                         : STILLNESS, Rest: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
                 : SMELLING-EMITTING:
-                    : NOSE: Air, Diffusion
+                    : NOSE: Lungs, Air, Diffusion
                     : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn, 
                     : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
                     : NOT-SMELLING/BLOWING-NOT-EMITTING/FILTERING?:
                         : MASK/FILTER, BLOW: Fan, 
                         : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
                 : EATING-CREATING:
-                    : TONGUE: Energy, Power, Heat
-                    : EATEN: Throat, Stomach, Intestine, Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
+                    : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat
+                    : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
                     : Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
                     : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                         : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
@@ -165,7 +165,6 @@
                 : READ/OUTPUT
                 : WRITE/INPUT
             : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-                : 
         : ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION
             : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
                 : XOR (in=a, in=b, out=abSUM)
@@ -187,8 +186,7 @@
             : NEGATIVE(<): -1
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-   
-    : PROGRAMMING:
+    ~PROGRAMMING:
         : FETCH / INPUT STATEMENTS: 
             : IMPORT Library/Package
             : DECLARE/INITIALIZE Variables
