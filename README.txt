@@ -55,6 +55,7 @@
                 : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
             : WHY: CAUSE, EFFECT
                 : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
+                    : Void? Golden mean? Beyond cause and effect?
                 : Material – What something is made of (e.g., a statue is made of marble).
                 : Formal – The essence or shape of something (e.g., the design of the statue).
                 : Efficient – What brings something into being (e.g., the sculptor carving the statue).
