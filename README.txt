@@ -1,9 +1,9 @@
 # **~DECODE(UNKNOWN), KNOWN**
-    ~STOP-&-CORRECT = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
-    ~DIVIDE-&-CONQUER:
-    ~NATURAL-LANGUAGE: Uncertainty: inability to have perfect knowledge about the world, 
+    ~STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
+    : Uncertainty: inability to have perfect knowledge about the world, 
    
 # **~CLASSIFY(), CATERGORIES**
+    ~NATURAL-LANGUAGE & PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): 
     ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
         : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument.
@@ -20,8 +20,7 @@
             : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
             : Ad Hominem: Attacking the person instead of the argument itself.
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-        : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle). Undistributed Middle Fallacy, Incorrect reasoning
-            : All dogs are animals. All cats are animals. Therefore, all dogs are cats.
+        : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle), ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
     ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
         : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
@@ -48,14 +47,11 @@
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD: Etymology: Words are symbols of mental concepts: 
-        ~PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): 
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
-            : HOW: POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), NEUTRAL (0): Golden Means
+            : HOW: POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), 
                 : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
                 : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
             : WHY: CAUSE, EFFECT
-                : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
-                    : Void? Golden mean? Beyond cause and effect?
                 : Material – What something is made of (e.g., a statue is made of marble).
                 : Formal – The essence or shape of something (e.g., the design of the statue).
                 : Efficient – What brings something into being (e.g., the sculptor carving the statue).
@@ -63,7 +59,7 @@
             : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
             : WHERE: Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
             : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
-            : WHAT:  
+            : WHAT:
                 : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
                 : Action – What it is doing
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
@@ -102,7 +98,8 @@
                     : EMOTION: Reaction, INERTIA, Love, Hate
                     : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
                     : NOT-FEELING/EVADING-NOT-MOVING/PAUSING:
-                        : STILLNESS, Rest: EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
+                        : EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
+                        : STILLNESS, Rest
                 : SMELLING-EMITTING:
                     : NOSE: Lungs, Air, Diffusion
                     : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn, 
@@ -111,9 +108,8 @@
                         : MASK/FILTER, BLOW: Fan, 
                         : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
                 : EATING-CREATING:
-                    : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat
+                    : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
                     : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
-                    : Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
                     : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                         : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                         : Spermatogenesis(Testes) & Oogenesis(Ovaries)
@@ -121,12 +117,12 @@
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
-            : Identify the Subject, the Primary substance, that is the individual entities (e.g., Socrates, this particular tree).
-            : Recognition of First Principles (Nous/Axioms): Through repeated observation, the intellect grasps universal truths. Must be:
+            : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
                 : True (not subject to doubt).
                 : Primary (not derived from anything else).
                 : Immediate (not requiring proof).
                 : More knowable than conclusions.
+            : NEUTRAL (0): Golden Means
 
 # **~CODE(), REASON/CORRECTNESS**
     ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
@@ -210,7 +206,6 @@
                 : Then/Else/Next...  
                 : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
-           
     ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         ~1: Encoder-Decoder Architecture
             : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
@@ -232,6 +227,7 @@
                 ~4: Store in Frontier: Maintain a list of unexplored nodes.
                 ~5: Use Search Strategy: Choose the next state based on the algorithm.
                 ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+    
     ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
     ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
@@ -254,95 +250,94 @@
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
             : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+    ~RHETORIC: QUESTION-PLAN**
+        ~0: TITLE:                      How do we know each other? How do we find closure?
+        ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
+            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
+            : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
+            : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+            : THESIS:                   This speech shares that we have free will — the ability to choose.”
+                                        The Three Kinds of Rhetoric (Based on Purpose)
+                                            : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                                            : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                                            : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
+            : TRANSITION:               First: why are we slaves of our passions? 
 
-# **~RHETORIC: QUESTION-PLAN**
-    ~0: TITLE:                      How do we know each other? How do we find closure?
-    ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
-        : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
-        : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
-        : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-        : THESIS:                   This speech shares that we have free will — the ability to choose.”
-                                    The Three Kinds of Rhetoric (Based on Purpose)
-                                        : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-                                        : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-                                        : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
-        : TRANSITION:               First: why are we slaves of our passions? 
+        ~2: NARRATION (Narratio): Presents background information and context.
+            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
+            : Support:                  You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
+                                        SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
+                                        BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
+                                        TRAP FOR-BY WILDWORLD: The Rat Race, 
+                                        WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
+            : TRANSITION:               But what if this is only half-true?
+            : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+                                        [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
+                                            : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income.
+                                            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+                                        FRUIT FOR-BY SEEDWORD(+)
+                                            : Mental Library, pokedex, Map, 
+                                            : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                                            : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+                                        SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
+                                            : Contact List, Testimonials, Reviews
+                                        WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
+                                            : Build Structures/LEVELS: Balance scope budget, and schedule  
+                                                : NAVIGATION, Maps, Atmosphere, Weather,
+                                                : Progressing the game storyline and accessing new areas.
+                                                : better positioning on the map, better territory
+                                        CHANCE FOR-BY DEATHEND
+                                            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+                                            : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+                                            : PROGRESS = Tutorials, Saves, Updates: Journal?
+                                            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
+                                            : DEADLINE: Goal State, Completion
+                                            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.       
 
-    ~2: NARRATION (Narratio): Presents background information and context.
-        : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-        : Support:                  You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
-                                    SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
-                                    BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-                                    TRAP FOR-BY WILDWORLD: The Rat Race, 
-                                    WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
-        : TRANSITION:               But what if this is only half-true?
-        : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
-                                    [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
-                                        : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income.
-                                        : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
-                                    FRUIT FOR-BY SEEDWORD(+)
-                                        : Mental Library, pokedex, Map, 
-                                        : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-                                        : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-                                    SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
-                                        : Contact List, Testimonials, Reviews
-                                    WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
-                                        : Build Structures/LEVELS: Balance scope budget, and schedule  
-                                            : NAVIGATION, Maps, Atmosphere, Weather,
-                                            : Progressing the game storyline and accessing new areas.
-                                            : better positioning on the map, better territory
-                                    CHANCE FOR-BY DEATHEND
-                                        : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-                                        : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
-                                        : PROGRESS = Tutorials, Saves, Updates: Journal?
-                                        : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
-                                        : DEADLINE: Goal State, Completion
-                                        : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.       
+        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
+            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
+                                        : Finding a Commonplace (Topos) for Argument
+                                        : Forming Premises from Endoxa (Common Opinions)
+            : TRANSITION:               How don’t they entirely negate free will
 
-    ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
-        : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-                                    : Finding a Commonplace (Topos) for Argument
-                                    : Forming Premises from Endoxa (Common Opinions)
-        : TRANSITION:               How don’t they entirely negate free will
+        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
+            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+                : For Equivocation: “The law should be followed because it is the ‘law of nature,’” 
+                    clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+                : For Amphiboly: If someone says, “Flying planes can be dangerous,” 
+                    clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+                : For Accent: “I didn’t say she stole the money,” 
+                    show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+                : For Composition: “All parts of the car are lightweight, so the whole car must be lightweight,” 
+                    show that a car’s total weight differs from its individual parts.
+                : For Division: “The team is successful, so every team member is successful,” 
+                    point out that team success doesn’t imply each member’s personal success.
+            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
+                : For Begging the Question (Petitio Principii): “Reading is beneficial because it’s good for you,” 
+                    query if “good for you” is simply restating “beneficial” without further evidence.
+                : For False Cause (Post Hoc Ergo Propter Hoc): “I started wearing my lucky charm, and my grades improved,” 
+                    query if improved grades may be due to other factors, like studying harder.
+                : For Accident: “Cutting people is wrong, so surgeons are immoral,” 
+                    query if surgery is a controlled, beneficial exception to the general rule against cutting.
+                : For Converse Accident (Hasty Generalization): “One politician lied, so all politicians are liars,” 
+                    query if one instance doesn’t justify generalizing about all politicians.
+                : For False Analogy: “Employees are like nails; you have to hit them on the head to make them work,” 
+                    query if employees and nails are different and shouldn’t be treated the same way.
+                : For Slippery Slope: “If we let students redo assignments, they’ll expect to retake exams,” 
+                    query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+                : For Ad Hominem: “You shouldn’t listen to her because she’s not a scientist,” 
+                    query if the person’s background doesn’t inherently disprove their argument’s validity.
+                : For Appeal to Authority (Ad Verecundiam): If a celebrity endorses a health product, 
+                    query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
+            : TRANSITION:
 
-    ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
-        : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-            : For Equivocation: “The law should be followed because it is the ‘law of nature,’” 
-                clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
-            : For Amphiboly: If someone says, “Flying planes can be dangerous,” 
-                clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
-            : For Accent: “I didn’t say she stole the money,” 
-                show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
-            : For Composition: “All parts of the car are lightweight, so the whole car must be lightweight,” 
-                show that a car’s total weight differs from its individual parts.
-            : For Division: “The team is successful, so every team member is successful,” 
-                point out that team success doesn’t imply each member’s personal success.
-        : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-            : For Begging the Question (Petitio Principii): “Reading is beneficial because it’s good for you,” 
-                query if “good for you” is simply restating “beneficial” without further evidence.
-            : For False Cause (Post Hoc Ergo Propter Hoc): “I started wearing my lucky charm, and my grades improved,” 
-                query if improved grades may be due to other factors, like studying harder.
-            : For Accident: “Cutting people is wrong, so surgeons are immoral,” 
-                query if surgery is a controlled, beneficial exception to the general rule against cutting.
-            : For Converse Accident (Hasty Generalization): “One politician lied, so all politicians are liars,” 
-                query if one instance doesn’t justify generalizing about all politicians.
-            : For False Analogy: “Employees are like nails; you have to hit them on the head to make them work,” 
-                query if employees and nails are different and shouldn’t be treated the same way.
-            : For Slippery Slope: “If we let students redo assignments, they’ll expect to retake exams,” 
-                query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
-            : For Ad Hominem: “You shouldn’t listen to her because she’s not a scientist,” 
-                query if the person’s background doesn’t inherently disprove their argument’s validity.
-            : For Appeal to Authority (Ad Verecundiam): If a celebrity endorses a health product, 
-                query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
-        : TRANSITION:
-
-    ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.
-        : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-        : QUESTION:                 So, are we simply animals flowing along the current of passion, or do we have free will? 
-        : THESIS:                   We are capable of both — of habits, but empowered to rise above them.
-        : MEANING:                  This question matters because it shows how If we believe we have no choice, 
-        : REVIEW POINTS:
-            Point 1:                Habits and instincts strongly influence our behavior.
-            Point 2:                Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-            Point 3:                Addressing counterarguments reveals the balance between instinct and choice.
-        : CLOSING:                  Ultimately, the power to choose defines what it means to be human.
+        ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.
+            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
+            : QUESTION:                 So, are we simply animals flowing along the current of passion, or do we have free will? 
+            : THESIS:                   We are capable of both — of habits, but empowered to rise above them.
+            : MEANING:                  This question matters because it shows how If we believe we have no choice, 
+            : REVIEW POINTS:
+                Point 1:                Habits and instincts strongly influence our behavior.
+                Point 2:                Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+                Point 3:                Addressing counterarguments reveals the balance between instinct and choice.
+            : CLOSING:                  Ultimately, the power to choose defines what it means to be human.
