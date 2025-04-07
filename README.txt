@@ -1,6 +1,5 @@
 # **~DECODE(UNKNOWN), KNOWN**
     ~STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
-    : Uncertainty: inability to have perfect knowledge about the world, 
    
 # **~CLASSIFY(), CATERGORIES**
     ~NATURAL-LANGUAGE & PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): 
@@ -20,9 +19,9 @@
             : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
             : Ad Hominem: Attacking the person instead of the argument itself.
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
-        : Invalid syllogisms: A logical error occurs (e.g., fallacies, undistributed middle), ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
-    ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): From these first principles, we derive further necessary truths using logical reasoning.
-        : Defining the Syllogism: A syllogism is a logical argument where a conclusion follows necessarily from two premises. It has three parts:
+        : Invalid syllogisms: A logical error occurs, ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
+    ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): A syllogism is a logical argument where a conclusion follows necessarily from two premises. 
+        : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
             : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". 
             : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
@@ -36,7 +35,7 @@
             : E (Universal Negative: "No A are B")
             : I (Particular Affirmative: "Some A are B"). Socrates is a human. (Particular known fact)
             : O (Particular Negative: "Some A are not B")
-    ~STATEMENT: Propositions (statements) are combinations of words that express truth or falsity.
+    ~STATEMENT: Propositions are combinations of words that express truth or falsity.
         : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
             : Affirmation: “Socrates is wise.”
             : Negation: “Socrates is not wise.”
@@ -46,21 +45,21 @@
         : Modal Logic: Implication: Modal logic helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
-    ~WORD: Etymology: Words are symbols of mental concepts: 
-        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories
-            : HOW: POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), 
+    ~WORD/ETYMOLOGY: Words are symbols of mental concepts. 
+        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories, POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), 
+            : HOW:
                 : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
                 : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
-            : WHY: CAUSE, EFFECT
+            : WHY:
                 : Material – What something is made of (e.g., a statue is made of marble).
                 : Formal – The essence or shape of something (e.g., the design of the statue).
                 : Efficient – What brings something into being (e.g., the sculptor carving the statue).
                 : Final – The purpose or goal of something (e.g., the statue exists to honor someone).
             : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
             : WHERE: Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-            : WHO: Relations, FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), (e.g., "bigger than," "father of").
-            : WHAT:
-                : State/Condition – What condition it is in (e.g., "armed," "healthy," "wet").
+            : WHO: Relations (e.g., "bigger than," "father of"), FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), .
+            : WHAT: 
+                : State – What condition it is in (e.g., "armed," "healthy," "wet").
                 : Action – What it is doing
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
@@ -102,11 +101,11 @@
                         : STILLNESS, Rest
                 : SMELLING-EMITTING:
                     : NOSE: Lungs, Air, Diffusion
-                    : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn, 
+                    : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
                     : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
                     : NOT-SMELLING/BLOWING-NOT-EMITTING/FILTERING?:
-                        : MASK/FILTER, BLOW: Fan, 
-                        : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding, 
+                        : MASK/FILTER, BLOW: Fan
+                        : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
                 : EATING-CREATING:
                     : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
                     : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
@@ -129,6 +128,31 @@
         : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
         : COMMUNITY (polis): PUBLIC-SAFETY, 
         : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+     
+    ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
+        ~1: Encoder-Decoder Architecture
+            : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
+            : Decoder: Generates the output sequence, one word at a time. Previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+        ~2: Self-Attention Mechanism
+            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+            Multi-Head Attention enables different aspects of word relationships to be captured.
+        ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+        ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
+        ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
+        ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
+        ~7: Optimization and Training
+            Uses the Adam optimizer with learning rate scheduling.
+            Dropout and Label Smoothing are applied for regularization.
+            Beam Search is used for better sentence generation. 
+
+    ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+        ~1: Define Initial State: Start with a known state.
+        ~2: Check Goal State: Verify if the current state meets the goal criteria.
+        ~3: Expand Nodes: Generate possible next states from the current state.
+        ~4: Store in Frontier: Maintain a list of unexplored nodes.
+        ~5: Use Search Strategy: Choose the next state based on the algorithm.
+        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+ 
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
         ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
         ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
@@ -137,6 +161,7 @@
         ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
         ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
         ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
+
     ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
         : CLOCK[TIME-SEQUENCE]: NOW-SPACE: Same Plane/Continuance of Evidence
         : INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]:
@@ -157,7 +182,7 @@
                 : AND-OR-LATCH/MEMORY-REGISTER & MEMORY-BIT(0/1): 
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0)
-        : INSTRUCTION-REGISTER[INSTRUCTIONS:
+        : INSTRUCTION-REGISTER[INSTRUCTIONS]:
             : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
                 : READ/OUTPUT
                 : WRITE/INPUT
@@ -183,6 +208,7 @@
             : NEGATIVE(<): -1
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+
     ~PROGRAMMING:
         : FETCH / INPUT STATEMENTS: 
             : IMPORT Library/Package
@@ -206,28 +232,7 @@
                 : Then/Else/Next...  
                 : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
-    ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
-        ~1: Encoder-Decoder Architecture
-            : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-            : Decoder: Generates the output sequence, one word at a time. Previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
-        ~2: Self-Attention Mechanism
-            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
-            Multi-Head Attention enables different aspects of word relationships to be captured.
-        ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
-        ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
-        ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
-        ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
-        ~7: Optimization and Training
-            Uses the Adam optimizer with learning rate scheduling.
-            Dropout and Label Smoothing are applied for regularization.
-            Beam Search is used for better sentence generation. ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-                ~1: Define Initial State: Start with a known state.
-                ~2: Check Goal State: Verify if the current state meets the goal criteria.
-                ~3: Expand Nodes: Generate possible next states from the current state.
-                ~4: Store in Frontier: Maintain a list of unexplored nodes.
-                ~5: Use Search Strategy: Choose the next state based on the algorithm.
-                ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
-    
+   
     ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
     ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
@@ -250,7 +255,7 @@
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
             : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-    ~RHETORIC: QUESTION-PLAN**
+    ~RHETORIC: QUESTION-PLAN
         ~0: TITLE:                      How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
             : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
