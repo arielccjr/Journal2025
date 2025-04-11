@@ -1,8 +1,8 @@
-# **~DECODE(UNKNOWN), KNOWN**
-    ~STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), TheLeastCommonDenominatorOf1**
-   
-# **~CLASSIFY(), CATERGORIES**
-    ~NATURAL-LANGUAGE & PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES (1, 2, 3, 4, 8, 9): 
+# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GOLDEN-MEAN-0**
+# **~STOP: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), LEAST-COMMON-DENOMINATOR-1**
+
+## **~CLASSIFY(UNKNOWN/STIMULUS), KNOWN/CATERGORIES**
+    ~NATURAL-LANGUAGE & PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES: 
     ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
         : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument.
@@ -20,7 +20,7 @@
             : Ad Hominem: Attacking the person instead of the argument itself.
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
         : Invalid syllogisms: A logical error occurs, ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
-    ~SYLLOGISM/DEMONSTRATION(Apodeixis): Deduction (Syllogismos): A syllogism is a logical argument where a conclusion follows necessarily from two premises. 
+    ~SYLLOGISM: A syllogism is a logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
             : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". 
@@ -123,12 +123,35 @@
                 : More knowable than conclusions.
             : NEUTRAL (0): Golden Means
 
-# **~CODE(), REASON/CORRECTNESS**
+## **~CODE(CATEGORIES), REASON/CORRECTNESS**
     ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
         : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
         : COMMUNITY (polis): PUBLIC-SAFETY, 
         : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
-     
+    ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+        : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
+        : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
+        : IS/ARE-THINKING:
+        : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
+        : OF THE TERMS:
+        : WITH THE CONTRACT:
+        : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
+            : David-WM, Russell-JG.
+            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
+            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+            : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
+            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+    ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+    ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
+        ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
+        ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
+        ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
+        ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
+        ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
+        ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
+        ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
+
+    
     ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         ~1: Encoder-Decoder Architecture
             : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
@@ -232,30 +255,8 @@
                 : Then/Else/Next...  
                 : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
                 : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
-   
-    ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
-    ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
-        ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
-        ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
-        ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
-        ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
-        ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
-        ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
-        ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-    ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-        : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-        : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
-        : IS/ARE-THINKING:
-        : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
-        : OF THE TERMS:
-        : WITH THE CONTRACT:
-        : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
-            : David-WM, Russell-JG.
-            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
-            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-            : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
-    ~RHETORIC: QUESTION-PLAN
+
+   ~RHETORIC: QUESTION-PLAN
         ~0: TITLE:                      How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
             : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
