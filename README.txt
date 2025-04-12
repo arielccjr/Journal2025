@@ -1,5 +1,5 @@
-# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GOLDEN-MEAN-0**
-# **~STOP: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() - NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), LEAST-COMMON-DENOMINATOR-1**
+# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GOLDEN-MEAN-0**
+# **~STOP: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() & NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), LEAST-COMMON-DENOMINATOR-1**
 
 ## **~CLASSIFY(UNKNOWN/STIMULUS), KNOWN/CATERGORIES**
     ~NATURAL-LANGUAGE & PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES: 
@@ -22,8 +22,8 @@
         : Invalid syllogisms: A logical error occurs, ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
     ~SYLLOGISM: A syllogism is a logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
-            : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" 
-            : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". 
+            : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
+            : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
             : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
         : Identifying Syllogistic Figures & Moods: based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
@@ -31,9 +31,9 @@
             : Figure 3: Middle term is subject in both premises.
             : Figure 4: Middle term switches placement.
         : Each figure contains valid or invalid moods, which define how premises are arranged using:
-            : A (Universal Affirmative: "All A are B"). All humans are mortal. (Universal and necessary premise)
+            : A (Universal Affirmative: "All A are B"). 
             : E (Universal Negative: "No A are B")
-            : I (Particular Affirmative: "Some A are B"). Socrates is a human. (Particular known fact)
+            : I (Particular Affirmative: "Some A are B"). 
             : O (Particular Negative: "Some A are not B")
     ~STATEMENT: Propositions are combinations of words that express truth or falsity.
         : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
@@ -45,11 +45,8 @@
         : Modal Logic: Implication: Modal logic helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
-    ~WORD/ETYMOLOGY: Words are symbols of mental concepts. 
-        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, Using the Remaining Nine Categories, POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), 
-            : HOW:
-                : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
-                : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
+    ~WORD/TERMS: Words are symbols of mental concepts. 
+        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), 
             : WHY:
                 : Material – What something is made of (e.g., a statue is made of marble).
                 : Formal – The essence or shape of something (e.g., the design of the statue).
@@ -58,7 +55,9 @@
             : WHEN: Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
             : WHERE: Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
             : WHO: Relations (e.g., "bigger than," "father of"), FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), .
-            : WHAT: 
+            : HOW:
+                : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
+                : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
                 : State – What condition it is in (e.g., "armed," "healthy," "wet").
                 : Action – What it is doing
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
@@ -66,9 +65,9 @@
                 : READING-WRITING:
                     : Weights&Measures, Letters/Spells, 
                     : Metals/Conductors, 
-                    : Flags, File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                    : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                     : NOT-READING/FORGETTING-NOT-WRITING/ERASING
-                : SEEING-SHOWING
+                : SEEING-SHOWING:
                     : EYES: Camera, Optical/Ocular System, Photoreceptor, 
                     : VIEW: 1st, 2nd(Possess), 3rd(God View), 
                     : SHOT: Close-up, Medium, Long/Wide.., 
@@ -124,10 +123,29 @@
             : NEUTRAL (0): Golden Means
 
 ## **~CODE(CATEGORIES), REASON/CORRECTNESS**
-    ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
+    ~HAPPINESS
         : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
-        : COMMUNITY (polis): PUBLIC-SAFETY, 
         : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+    ~SYNTAX-KEY-CODES:
+        0=CONJUNCTION= AND, OR, &, /, 
+        1=ADVERB = 
+        2=VERB = IS/ARE,
+        3=ADJECTIVE
+        4=PRONOUN
+        5=POSITION
+        6=LODIAL
+        7=FACT
+        8=PAST-TENSE:
+        9=FUTURE-TENSE:
+        NC=NEGATIVE-CONTEXT:
+        DPV=DANGLING-PARTICIPLE-VERB.
+        BS=LAW OF THE BOXING/BRACKETS.
+        ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+        FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+        PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+        QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+        LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+        VC=VOID-CONTINUANCE = ".", ",", "?", "!", 
     ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
         : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
         : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
@@ -135,13 +153,13 @@
         : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
         : OF THE TERMS:
         : WITH THE CONTRACT:
-        : BY THE AUTHORITY: ~AGENT/PLAYER/CORPORATION: BODY/I/HERE/NOW: knowledge-based agent(s) that reason by operating on knowledge        
-            : David-WM, Russell-JG.
-            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, Rivermaya, Bamboo, JuanKarlos, LanadelRey, ZackBryan, MidwestPenPals, Hillsong
+        : BY THE AUTHORITY: AGENT/PLAYER/CORPORATION: knowledge-based agent(s) that reason by operating on knowledge        
+            : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
+            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-            : Dusk&Dawn, Nerdwriter, MrMorj, Sawyer7mage, Werb
-            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, Mr. Morj
+            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, 
     ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+        : COMMUNITY (polis): PUBLIC-SAFETY, 
     ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
         ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
@@ -150,8 +168,30 @@
         ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
         ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
         ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-
     
+    ~PROGRAMMING:
+        : FETCH / INPUT STATEMENTS: 
+            : IMPORT Library/Package
+            : DECLARE/INITIALIZE Variables
+            : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+        : INSTRUCTIONS: MEMEORY-ADDRESS + OPERATION
+            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+        : EXECUTE / OUTPUT STATEMENTS:
+            : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
+                : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+                : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+                : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
+            : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+                : While: Repeats while a condition is true. To handle indefinite iteration.
+                : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+                : For: Iterates a specific number of times. To handle definite iteration.
+            : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
+                : Then/Else/Next...  
+                : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
+                : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
     ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         ~1: Encoder-Decoder Architecture
             : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
@@ -167,7 +207,6 @@
             Uses the Adam optimizer with learning rate scheduling.
             Dropout and Label Smoothing are applied for regularization.
             Beam Search is used for better sentence generation. 
-
     ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
         ~1: Define Initial State: Start with a known state.
         ~2: Check Goal State: Verify if the current state meets the goal criteria.
@@ -175,7 +214,6 @@
         ~4: Store in Frontier: Maintain a list of unexplored nodes.
         ~5: Use Search Strategy: Choose the next state based on the algorithm.
         ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
- 
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
         ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
         ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
@@ -184,7 +222,6 @@
         ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
         ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
         ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
-
     ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
         : CLOCK[TIME-SEQUENCE]: NOW-SPACE: Same Plane/Continuance of Evidence
         : INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]:
@@ -231,30 +268,6 @@
             : NEGATIVE(<): -1
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-
-    ~PROGRAMMING:
-        : FETCH / INPUT STATEMENTS: 
-            : IMPORT Library/Package
-            : DECLARE/INITIALIZE Variables
-            : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-        : INSTRUCTIONS: MEMEORY-ADDRESS + OPERATION
-            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-        : EXECUTE / OUTPUT STATEMENTS:
-            : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
-                : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-                : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-                : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
-            : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-                : While: Repeats while a condition is true. To handle indefinite iteration.
-                : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-                : For: Iterates a specific number of times. To handle definite iteration.
-            : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
-                : Then/Else/Next...  
-                : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
-                : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
 
    ~RHETORIC: QUESTION-PLAN
         ~0: TITLE:                      How do we know each other? How do we find closure?
