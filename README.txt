@@ -46,7 +46,9 @@
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD/TERMS: Words are symbols of mental concepts. 
-        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, POSITIVE (+1/Vice of Excess), NEGATIVE (-1/Vice of Deficiency), 
+        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
+        : POSITIVE (+1/Vice of Excess), 
+        : NEGATIVE (-1/Vice of Deficiency), 
             : WHY:
                 : Material – What something is made of (e.g., a statue is made of marble).
                 : Formal – The essence or shape of something (e.g., the design of the statue).
@@ -64,7 +66,6 @@
                 : Position – How it is arranged (e.g., "sitting," "lying down").
                 : READING-WRITING:
                     : Weights&Measures, Letters/Spells, 
-                    : Metals/Conductors, 
                     : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
                     : NOT-READING/FORGETTING-NOT-WRITING/ERASING
                 : SEEING-SHOWING:
@@ -111,6 +112,7 @@
                     : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                         : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                         : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+                        : Elements, Metals/Conductors, 
                     : NOT-EATING/FASTING-NOT-CREATING/BREAKING:
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
@@ -123,7 +125,7 @@
             : NEUTRAL (0): Golden Means
 
 ## **~CODE(CATEGORIES), REASON/CORRECTNESS**
-    ~HAPPINESS
+    ~~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION
         : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
         : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
     ~SYNTAX-KEY-CODES:
