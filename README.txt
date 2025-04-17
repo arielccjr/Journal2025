@@ -127,6 +127,7 @@
                 : Primary (not derived from anything else).
                 : Immediate (not requiring proof).
                 : More knowable than conclusions.
+            : Void, Empty, Void of Substance
 
 # **~CODE(), REASON/CORRECTNESS**
     ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) = OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
