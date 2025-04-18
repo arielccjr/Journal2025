@@ -1,8 +1,27 @@
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
 
 # **~STOP: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() & NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), FREE-WILL**
-## **~CLASSIFY(UNKNOWN/STIMULUS), KNOWN/CATERGORIES/LEAST-COMMON-DENOMINATOR-1/GOLDEN-MEAN-0**
-    ~NATURAL-LANGUAGE & PARTS OF SPEECH: ADVERB, VERB, ADJECTIVE, PRONOUN, PAST-FUTURE TENSES: 
+## **~CLASSIFY/READ(UNKNOWN/STIMULUS), KNOWN/CATERGORIES/LEAST-COMMON-DENOMINATOR-1/GOLDEN-MEAN-0**
+    ~SYNTAX-KEY-CODES: PARTS OF NATURAL-LANGUAGE
+        0=CONJUNCTION= AND, OR, &, /, 
+        1=ADVERB
+        2=VERB = IS/ARE,
+        3=ADJECTIVE
+        4=PRONOUN
+        5=POSITION
+        6=LODIAL
+        7=FACT
+        8=PAST-TENSE
+        9=FUTURE-TENSE
+        NC=NEGATIVE-CONTEXT:
+        DPV=DANGLING-PARTICIPLE-VERB.
+        BS=LAW OF THE BOXING/BRACKETS.
+        ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+        FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+        PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+        QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+        LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+        VC=VOID-CONTINUANCE = ".", ",", "?", "!", 
     ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
         : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument.
@@ -124,30 +143,10 @@
                 : More knowable than conclusions.
             : NEUTRAL (0): Golden Means
 
-## **~CODE(CATEGORIES), REASON/CORRECTNESS**
-    ~~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION
+# **~CODE/WRITE(CATEGORIES), REASON/CORRECTNESS**
+    ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION
         : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
         : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
-    ~SYNTAX-KEY-CODES:
-        0=CONJUNCTION= AND, OR, &, /, 
-        1=ADVERB = 
-        2=VERB = IS/ARE,
-        3=ADJECTIVE
-        4=PRONOUN
-        5=POSITION
-        6=LODIAL
-        7=FACT
-        8=PAST-TENSE:
-        9=FUTURE-TENSE:
-        NC=NEGATIVE-CONTEXT:
-        DPV=DANGLING-PARTICIPLE-VERB.
-        BS=LAW OF THE BOXING/BRACKETS.
-        ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
-        FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
-        PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
-        QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
-        LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-        VC=VOID-CONTINUANCE = ".", ",", "?", "!", 
     ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
         : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
         : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
@@ -171,33 +170,10 @@
         ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
         ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
     
-    ~PROGRAMMING:
-        : FETCH / INPUT STATEMENTS: 
-            : IMPORT Library/Package
-            : DECLARE/INITIALIZE Variables
-            : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-        : INSTRUCTIONS: MEMEORY-ADDRESS + OPERATION
-            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-        : EXECUTE / OUTPUT STATEMENTS:
-            : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
-                : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-                : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-                : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
-            : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-                : While: Repeats while a condition is true. To handle indefinite iteration.
-                : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-                : For: Iterates a specific number of times. To handle definite iteration.
-            : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
-                : Then/Else/Next...  
-                : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
-                : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.        
     ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         ~1: Encoder-Decoder Architecture
-            : Encoder: Processes the input sentence into a fixed representation. Input word + positional encoding >>> (multi-head self attention >>> neural network) * Number >>> encoded representation
-            : Decoder: Generates the output sequence, one word at a time. Previous output word + positional encoding >>> (multi-head self attention >>> (encoded representations) attention >>> neural network) * Number >>> encoded representation
+            : Encoder: Processes the input sentence into a fixed representation. 
+            : Decoder: Generates the output sequence, one word at a time. 
         ~2: Self-Attention Mechanism
             Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
             Multi-Head Attention enables different aspects of word relationships to be captured.
@@ -224,10 +200,10 @@
         ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
         ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
         ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
-    ~COMPUTER-HARDWARE & SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-        : CLOCK[TIME-SEQUENCE]: NOW-SPACE: Same Plane/Continuance of Evidence
-        : INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]:
-            : RANDOM-ACCESS-MEMORY[DATA]:
+    ~COMPUTER-HARDWARE & SOFTWARE-PROGRAM: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+        ~0: CLOCK[TIME-SEQUENCE]: NOW-SPACE: Same Plane/Continuance of Evidence
+        ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
+            : RANDOM-ACCESS-MEMORY[DATA]: 
                 : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                     : NOT (in=sel, out=NOTsel)
                     : AND (in=a, in=NOTsel, out=aANDNOTsel)
@@ -244,12 +220,32 @@
                 : AND-OR-LATCH/MEMORY-REGISTER & MEMORY-BIT(0/1): 
                     : OR-LOOP (in=a, in=b, out=1)
                     : AND-LOOP (in=a, in=b, out=0)
-        : INSTRUCTION-REGISTER[INSTRUCTIONS]:
-            : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
-                : READ/OUTPUT
-                : WRITE/INPUT
+        ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
+            : MEMORY-ADDRESS: 
+                : Pointer(Next Address Reference) -> Index
             : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-        : ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION
+                : INPUT-STATEMENTS: 
+                    : IMPORT Library/Package
+                    : DECLARE/INITIALIZE Variables
+                    : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+                : OUTPUT-STATEMENTS:
+                    : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
+                        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+                        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+                        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
+                    : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+                        : While: Repeats while a condition is true. To handle indefinite iteration.
+                        : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+                        : For: Iterates a specific number of times. To handle definite iteration.
+                    : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
+                        : Then/Else/Next...  
+                        : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
+                        : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
+                : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+                : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+                : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+                : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+        ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
             : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
                 : XOR (in=a, in=b, out=abSUM)
                     : AND (in=a, in=b, out=aANDb);
@@ -271,7 +267,7 @@
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
 
-   ~RHETORIC: QUESTION-PLAN
+    ~RHETORIC: QUESTION-PLAN
         ~0: TITLE:                      How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
             : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
@@ -294,8 +290,7 @@
             : TRANSITION:               But what if this is only half-true?
             : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
                                         [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
-                                            : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income.
-                                            : Winning rounds builds your team’s momentum, giving you both an economic and psychological edge in the match.
+                                            : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
                                         FRUIT FOR-BY SEEDWORD(+)
                                             : Mental Library, pokedex, Map, 
                                             : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
@@ -303,17 +298,17 @@
                                         SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
                                             : Contact List, Testimonials, Reviews
                                         WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
-                                            : Build Structures/LEVELS: Balance scope budget, and schedule  
+                                            : Build Structures/LEVELS: Balance scope budget, and schedule
                                                 : NAVIGATION, Maps, Atmosphere, Weather,
                                                 : Progressing the game storyline and accessing new areas.
                                                 : better positioning on the map, better territory
                                         CHANCE FOR-BY DEATHEND
                                             : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
                                             : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+                                            : DEADLINE: Goal State, Completion
                                             : PROGRESS = Tutorials, Saves, Updates: Journal?
                                             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
-                                            : DEADLINE: Goal State, Completion
-                                            : Fast Track, Here, they focus on making larger investments and fulfilling their dream, which is a personal goal they select at the start of the game.       
+                                            : Fast Track, they focus on making larger investments and fulfilling their dream
 
         ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
             : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
