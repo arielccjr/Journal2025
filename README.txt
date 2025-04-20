@@ -1,7 +1,7 @@
-# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION**
+# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
 
 # **~STOP: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() & NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), FREE-WILL**
-## **~CLASSIFY/READ(UNKNOWN/STIMULUS), KNOWN/CATERGORIES/LEAST-COMMON-DENOMINATOR-1/GOLDEN-MEAN-0**
+## **~DECODE/READ(), LEAST-COMMON-DENOMINATOR-1**
     ~SYNTAX-KEY-CODES: PARTS OF NATURAL-LANGUAGE
         0=CONJUNCTION= AND, OR, &, /, 
         1=ADVERB
@@ -43,7 +43,7 @@
         : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
             : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
-            : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". Therefore, Socrates is mortal. (Demonstrated conclusion)
+            : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". (Demonstrated conclusion)
         : Identifying Syllogistic Figures & Moods: based on how terms are positioned.
             : Figure 1: Middle term is subject in one premise, predicate in another.
             : Figure 2: Middle term is predicate in both premises.
@@ -93,7 +93,8 @@
                     : SHOT: Close-up, Medium, Long/Wide.., 
                     : ANGLE: Up-Down,  Right-Left, 
                     : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
-                    : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, GUI/DesktopMetaphor, 3DProjection,    
+                    : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, 
+                        : GUI/DesktopMetaphor, 3DProjection,    
                     : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                     : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
                     : NOT-SEEING/BLINDING-NOT-SHOWING/HIDING: 
@@ -141,16 +142,13 @@
                 : Primary (not derived from anything else).
                 : Immediate (not requiring proof).
                 : More knowable than conclusions.
-<<<<<<< HEAD
             : Void, Empty, Void of Substance
-=======
             : NEUTRAL (0): Golden Means
->>>>>>> refs/remotes/origin/main
 
-# **~CODE/WRITE(CATEGORIES), REASON/CORRECTNESS**
-    ~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), HAPPINESS/GRATIFICATION
-        : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
-        : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
+# **~CODE/WRITE(), GOLDEN-MEAN-0*
+    : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
+    : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
     ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
         : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
         : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
@@ -272,53 +270,53 @@
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
 
     ~RHETORIC: QUESTION-PLAN
-        ~0: TITLE:                      How do we know each other? How do we find closure?
+        ~0: TITLE:              How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
             : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
-            : HOOK QUESTION:            Have you ever cursed, like that? Is this by instinct, or by choice?
-            : MEANING:                  Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-            : THESIS:                   This speech shares that we have free will — the ability to choose.”
-                                        The Three Kinds of Rhetoric (Based on Purpose)
-                                            : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-                                            : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-                                            : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
-            : TRANSITION:               First: why are we slaves of our passions? 
-
+            : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
+            : MEANING:          Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+            : THESIS:           This speech shares that we have free will — the ability to choose.”
+                                The Three Kinds of Rhetoric (Based on Purpose)
+                                    : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                                    : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                                    : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
+            : TRANSITION:       First: why are we slaves of our passions? 
         ~2: NARRATION (Narratio): Presents background information and context.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : Support:                  You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
-                                        SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Resource Scarcity/Finity, Bankruptcy
-                                        BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-                                        TRAP FOR-BY WILDWORLD: The Rat Race, 
-                                        WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
-            : TRANSITION:               But what if this is only half-true?
-            : Introduction:             AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
-                                        [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
-                                            : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
-                                        FRUIT FOR-BY SEEDWORD(+)
-                                            : Mental Library, pokedex, Map, 
-                                            : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-                                            : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-                                        SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
-                                            : Contact List, Testimonials, Reviews
-                                        WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
-                                            : Build Structures/LEVELS: Balance scope budget, and schedule
-                                                : NAVIGATION, Maps, Atmosphere, Weather,
-                                                : Progressing the game storyline and accessing new areas.
-                                                : better positioning on the map, better territory
-                                        CHANCE FOR-BY DEATHEND
-                                            : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-                                            : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
-                                            : DEADLINE: Goal State, Completion
-                                            : PROGRESS = Tutorials, Saves, Updates: Journal?
-                                            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
-                                            : Fast Track, they focus on making larger investments and fulfilling their dream
+            : Support:          You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, 
+                                [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
+                                SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Scarcity/Finity, Bankruptcy
+                                BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
+                                TRAP FOR-BY WILDWORLD: The Rat Race, 
+                                WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
+            : TRANSITION:       But what if this is only half-true?
+            : Introduction:     AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
+                                [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
+                                    : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
+                                FRUIT FOR-BY SEEDWORD(+)
+                                    : Mental Library, pokedex, Map, 
+                                    : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                                    : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+                                SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
+                                    : Contact List, Testimonials, Reviews
+                                WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
+                                    : Build Structures/LEVELS: Balance scope budget, and schedule
+                                        : NAVIGATION, Maps, Atmosphere, Weather,
+                                        : Progressing the game storyline and accessing new areas.
+                                        : better positioning on the map, better territory
+                                CHANCE FOR-BY DEATHEND
+                                    : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+                                    : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+                                    : DEADLINE: Goal State, Completion
+                                    : PROGRESS = Tutorials, Saves, Updates: Journal?
+                                    : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
+                                    : Fast Track, they focus on making larger investments and fulfilling their dream
 
         ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
             : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-                                        : Finding a Commonplace (Topos) for Argument
-                                        : Forming Premises from Endoxa (Common Opinions)
-            : TRANSITION:               How don’t they entirely negate free will
+                                : Finding a Commonplace (Topos) for Argument
+                                : Forming Premises from Endoxa (Common Opinions)
+            : TRANSITION:       How don’t they entirely negate free will
 
         ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
             : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
@@ -353,11 +351,11 @@
 
         ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : QUESTION:                 So, are we simply animals flowing along the current of passion, or do we have free will? 
-            : THESIS:                   We are capable of both — of habits, but empowered to rise above them.
-            : MEANING:                  This question matters because it shows how If we believe we have no choice, 
+            : QUESTION:         So, are we simply animals flowing along the current of passion, or do we have free will? 
+            : THESIS:           We are capable of both — of habits, but empowered to rise above them.
+            : MEANING:          This question matters because it shows how If we believe we have no choice, 
             : REVIEW POINTS:
-                Point 1:                Habits and instincts strongly influence our behavior.
-                Point 2:                Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-                Point 3:                Addressing counterarguments reveals the balance between instinct and choice.
-            : CLOSING:                  Ultimately, the power to choose defines what it means to be human.
+                Point 1:        Habits and instincts strongly influence our behavior.
+                Point 2:        Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+                Point 3:        Addressing counterarguments reveals the balance between instinct and choice.
+            : CLOSING:          Ultimately, the power to choose defines what it means to be human.
