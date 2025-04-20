@@ -1,5 +1,3 @@
-# **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
-
 # **~STOP: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() & NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), FREE-WILL**
 ## **~DECODE/READ(), LEAST-COMMON-DENOMINATOR-1**
     ~SYNTAX-KEY-CODES: PARTS OF NATURAL-LANGUAGE
@@ -21,7 +19,7 @@
         PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
         QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
         LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-        VC=VOID-CONTINUANCE = ".", ",", "?", "!", 
+        VC=VOID-CONTINUANCE = ".", ",", "?", "!" 
     ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
         : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument.
@@ -66,8 +64,6 @@
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD/TERMS: Words are symbols of mental concepts. 
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
-        : POSITIVE (+1/Vice of Excess), 
-        : NEGATIVE (-1/Vice of Deficiency), 
             : WHY:
                 : Material – What something is made of (e.g., a statue is made of marble).
                 : Formal – The essence or shape of something (e.g., the design of the statue).
@@ -136,17 +132,18 @@
                     : NOT-EATING/FASTING-NOT-CREATING/BREAKING:
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
+            : POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency), 
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
             : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
                 : True (not subject to doubt).
-                : Primary (not derived from anything else).
-                : Immediate (not requiring proof).
+                : Primary (not from anything else).
+                : Immediate (not needing proof).
                 : More knowable than conclusions.
-            : Void, Empty, Void of Substance
+            : Empty, Void of Substance
             : NEUTRAL (0): Golden Means
 
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
-# **~CODE/WRITE(), GOLDEN-MEAN-0*
+## **~CODE/WRITE(), GOLDEN-MEAN-0**
     : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
     : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
     ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
@@ -157,11 +154,7 @@
         : OF THE TERMS:
         : WITH THE CONTRACT:
         : BY THE AUTHORITY: AGENT/PLAYER/CORPORATION: knowledge-based agent(s) that reason by operating on knowledge        
-            : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
-            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
-            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya, 
-    ~POSTAL MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
+    ~POSTAL-MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
         : COMMUNITY (polis): PUBLIC-SAFETY, 
     ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
@@ -171,7 +164,6 @@
         ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
         ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
         ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-    
     ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
         ~1: Encoder-Decoder Architecture
             : Encoder: Processes the input sentence into a fixed representation. 
@@ -258,17 +250,12 @@
                     : >XOR (in=abSUM, in=c, out=abcSUM)
                     : >AND (in=abSUM, in=c, out=abcCARRY)
                         ; >OR (in=abCARRY, in=abcBARRY, out=out)
-            : LOGIC-UNIT:
-                : XOR 
-                : OR
-                : AND
-                : NOT
+            : LOGIC-UNIT: NOT, AND, OR... 
         : BIT-FLAGS:
             : OVERFLOW(>): +1
             : NEGATIVE(<): -1
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-
     ~RHETORIC: QUESTION-PLAN
         ~0: TITLE:              How do we know each other? How do we find closure?
         ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
@@ -283,15 +270,15 @@
             : TRANSITION:       First: why are we slaves of our passions? 
         ~2: NARRATION (Narratio): Presents background information and context.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : Support:          You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, 
+            : Support:          You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE
                                 [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
                                 SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Scarcity/Finity, Bankruptcy
                                 BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
                                 TRAP FOR-BY WILDWORLD: The Rat Race, 
                                 WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
             : TRANSITION:       But what if this is only half-true?
-            : Introduction:     AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT!
-                                [FAIRNESS = KNOW AND BE KNOWN. READ-WRITE ARITHMETIC-&-LOGIC, SENSES IN LATIN-&-GREEK]
+            : Introduction:     AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
+                                [FAIRNESS = KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK]
                                     : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
                                 FRUIT FOR-BY SEEDWORD(+)
                                     : Mental Library, pokedex, Map, 
@@ -299,6 +286,10 @@
                                     : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
                                 SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
                                     : Contact List, Testimonials, Reviews
+                                    : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
+                                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
+                                    : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+                                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya,
                                 WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
                                     : Build Structures/LEVELS: Balance scope budget, and schedule
                                         : NAVIGATION, Maps, Atmosphere, Weather,
@@ -317,7 +308,6 @@
                                 : Finding a Commonplace (Topos) for Argument
                                 : Forming Premises from Endoxa (Common Opinions)
             : TRANSITION:       How don’t they entirely negate free will
-
         ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
             : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
                 : For Equivocation: “The law should be followed because it is the ‘law of nature,’” 
@@ -348,14 +338,12 @@
                 : For Appeal to Authority (Ad Verecundiam): If a celebrity endorses a health product, 
                     query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
             : TRANSITION:
-
         ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : QUESTION:         So, are we simply animals flowing along the current of passion, or do we have free will? 
-            : THESIS:           We are capable of both — of habits, but empowered to rise above them.
+            : QUESTION:         Natural Language vs Computer Language
+            : THESIS:           We are capable of both, but empowered to rise above them.
             : MEANING:          This question matters because it shows how If we believe we have no choice, 
-            : REVIEW POINTS:
-                Point 1:        Habits and instincts strongly influence our behavior.
-                Point 2:        Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-                Point 3:        Addressing counterarguments reveals the balance between instinct and choice.
+            : Re-Point 1:       Habits and instincts strongly influence our behavior.
+            : Re-Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+            : Re-Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
             : CLOSING:          Ultimately, the power to choose defines what it means to be human.
