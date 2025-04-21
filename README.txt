@@ -22,22 +22,22 @@
         VC=VOID-CONTINUANCE = ".", ",", "?", "!" 
     ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
         : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-            : Equivocation: Using a word with multiple meanings ambiguously in an argument.
-            : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing.
-            : Accent: Changing the meaning of a statement by emphasizing different words.
-            : Composition: Assuming what is true of parts is true for the whole.
-            : Division: Assuming what is true of the whole is true for each part.
+            : Equivocation: Using a word with multiple meanings ambiguously in an argument. “The law should be followed because it is the ‘law of nature,’” 
+            : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing. “Flying planes can be dangerous,” 
+            : Accent: Changing the meaning of a statement by emphasizing different words. “I didn’t say she stole the money,” 
+            : Composition: Assuming what is true of parts is true for the whole. “All parts of the car are lightweight, so the whole car must be lightweight,” 
+            : Division: Assuming what is true of the whole is true for each part. “The team is successful, so every team member is successful,” 
         : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-            : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove.
-            : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second.
-            : Accident: Misapplying a general rule to an exception or specific case.
-            : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample.
-            : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects.
-            : Slippery Slope: Assuming a small first step will lead to a chain of extreme events.
-            : Ad Hominem: Attacking the person instead of the argument itself.
-            : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise.
+            : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove. “Reading is beneficial because it’s good for you,” 
+            : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second. “I wear my lucky charm, and my grades improved,” 
+            : Accident: Misapplying a general rule to an exception or specific case. “Cutting people is wrong, so surgeons are immoral,” 
+            : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample. “One politician lied, so all politicians are liars,” 
+            : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects. “Employees are like nails; you have to hit them on the head to make them work,” 
+            : Slippery Slope: Assuming a small first step will lead to a chain of extreme events. “If we let students redo assignments, they’ll expect to retake exams,” 
+            : Ad Hominem: Attacking the person instead of the argument itself. “You shouldn’t listen to her because she’s not a scientist,” 
+            : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise. ei. a celebrity endorses a health product, 
         : Invalid syllogisms: A logical error occurs, ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
-    ~SYLLOGISM: A syllogism is a logical argument where a conclusion follows necessarily from two premises. 
+    ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
             : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
@@ -53,13 +53,13 @@
             : I (Particular Affirmative: "Some A are B"). 
             : O (Particular Negative: "Some A are not B")
     ~STATEMENT: Propositions are combinations of words that express truth or falsity.
-        : Affirmation & Negation: Every proposition affirms or denies something. A proposition and its negation cannot both be true at the same time (Law of Non-Contradiction).
+        : Contradictory statements: One must be true, the other false.
             : Affirmation: “Socrates is wise.”
             : Negation: “Socrates is not wise.”
-        : Square of Opposition:
-            : Contradictory statements: One must be true, the other false. “It is day.” vs. “It is not day.”
-            : Contrary statements: Both cannot be true, but both can be false. “All men are wise.” vs. “No man is wise.”
-        : Modal Logic: Implication: Modal logic helps in predicting future truths without contradiction.
+        : Contrary statements: Both cannot be true, but both can be false. 
+            : “All men are wise.” 
+            : “No man is wise.”
+        : Modal Logic/Implication: Helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD/TERMS: Words are symbols of mental concepts. 
@@ -79,6 +79,7 @@
                 : Action – What it is doing
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
+                
                 : READING-WRITING:
                     : Weights&Measures, Letters/Spells, 
                     : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
@@ -86,11 +87,10 @@
                 : SEEING-SHOWING:
                     : EYES: Camera, Optical/Ocular System, Photoreceptor, 
                     : VIEW: 1st, 2nd(Possess), 3rd(God View), 
-                    : SHOT: Close-up, Medium, Long/Wide.., 
-                    : ANGLE: Up-Down,  Right-Left, 
+                    : SHOT: Close-up, Medium, Long/Wide...
+                    : ANGLE: Up-Down,  Right-Left
                     : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
-                    : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential, 
-                        : GUI/DesktopMetaphor, 3DProjection,    
+                    : Display: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential
                     : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                     : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
                     : NOT-SEEING/BLINDING-NOT-SHOWING/HIDING: 
@@ -124,11 +124,11 @@
                         : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
                 : EATING-CREATING:
                     : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
-                    : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...) HautCuisin
+                    : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
                     : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                         : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                         : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-                        : Elements, Metals/Conductors, 
+                        : Elements, Metals/Conductors
                     : NOT-EATING/FASTING-NOT-CREATING/BREAKING:
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
@@ -140,19 +140,19 @@
                 : Immediate (not needing proof).
                 : More knowable than conclusions.
             : Empty, Void of Substance
-            : NEUTRAL (0): Golden Means
+            : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Ei. Courage is the mean between cowardice (deficiency) and recklessness (excess).
 
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
 ## **~CODE/WRITE(), GOLDEN-MEAN-0**
-    : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Example: Courage is the mean between cowardice (deficiency) and recklessness (excess).
-    : VIRTUE (arete): Moral Virtues developed through habit. needs Practical Wisdom (Phronesis), the ability to judge what is virtuous in different situations.
+    ~VIRTUE (arete): Moral & Intellectual Virtues developed through habit. needs Practical Wisdom (Phronesis), 
+    ~NOW-SPACE: Same Plane/Continuance of Evidence
     ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
-        : FOR THE CAUSE: START-STATE = UNKNOWING|UNBEING(DIVIDE): starting knowledge base | empty assignment
-        : OF THE EFFECT: GOAL-STATE = FOR THE KNOWING-BEING(ONENESS/NEUTRALITY): Eudaimonia
-        : IS/ARE-THINKING:
-        : WITH THE DUTY/PERFORMANCE: Moral & Intellectual Virtues, Phronesis
-        : OF THE TERMS:
-        : WITH THE CONTRACT:
+        : FOR THE CAUSE
+        : OF THE EFFECT
+        : IS/ARE-THINKING
+        : WITH THE DUTY/PERFORMANCE
+        : OF THE TERMS
+        : WITH THE CONTRACT
         : BY THE AUTHORITY: AGENT/PLAYER/CORPORATION: knowledge-based agent(s) that reason by operating on knowledge        
     ~POSTAL-MECHANICS, MARITIME LAW, SEE-PASS, SEA-TREATY, DRYDOCK, DROGUE LAW: Flags, International Beaureau of Weights and Measures in France, Stamps, Autograph
         : COMMUNITY (polis): PUBLIC-SAFETY, 
@@ -164,28 +164,7 @@
         ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
         ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
         ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
-    ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
-        ~1: Encoder-Decoder Architecture
-            : Encoder: Processes the input sentence into a fixed representation. 
-            : Decoder: Generates the output sequence, one word at a time. 
-        ~2: Self-Attention Mechanism
-            Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
-            Multi-Head Attention enables different aspects of word relationships to be captured.
-        ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
-        ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
-        ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
-        ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
-        ~7: Optimization and Training
-            Uses the Adam optimizer with learning rate scheduling.
-            Dropout and Label Smoothing are applied for regularization.
-            Beam Search is used for better sentence generation. 
-    ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
-        ~1: Define Initial State: Start with a known state.
-        ~2: Check Goal State: Verify if the current state meets the goal criteria.
-        ~3: Expand Nodes: Generate possible next states from the current state.
-        ~4: Store in Frontier: Maintain a list of unexplored nodes.
-        ~5: Use Search Strategy: Choose the next state based on the algorithm.
-        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS
         ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
         ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
@@ -195,7 +174,7 @@
         ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
         ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
     ~COMPUTER-HARDWARE & SOFTWARE-PROGRAM: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-        ~0: CLOCK[TIME-SEQUENCE]: NOW-SPACE: Same Plane/Continuance of Evidence
+        ~0: CLOCK[TIME-SEQUENCE]: 
         ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
             : RANDOM-ACCESS-MEMORY[DATA]: 
                 : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
@@ -239,6 +218,28 @@
                 : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
                 : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
                 : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+                ~TRANSFORMERS ARCHITECTURE: "Attention is all needed." 
+                    ~1: Encoder-Decoder Architecture
+                        : Encoder: Processes the input sentence into a fixed representation. 
+                        : Decoder: Generates the output sequence, one word at a time. 
+                    ~2: Self-Attention Mechanism
+                        Instead of using RNNs, the Transformer calculates attention scores for all words in a sentence simultaneously.
+                        Multi-Head Attention enables different aspects of word relationships to be captured.
+                    ~3: Positional Encoding: Since Transformers do not process sequences sequentially, positional encoding is added to retain information about word order.
+                    ~4: Feed-Forward Layers: Each word's representation is passed through fully connected layers to extract deeper features.
+                    ~5: Masked Self-Attention in the Decoder: Prevents words from attending to future words (maintains causality).
+                    ~6: Output Prediction: The decoder predicts the next word using a softmax function, generating the final output.
+                    ~7: Optimization and Training
+                        Uses the Adam optimizer with learning rate scheduling.
+                        Dropout and Label Smoothing are applied for regularization.
+                        Beam Search is used for better sentence generation. 
+                ~SEARCH/Queries: Retrieves specific data from the database. To access and analyze stored information.
+                    ~1: Define Initial State: Start with a known state.
+                    ~2: Check Goal State: Verify if the current state meets the goal criteria.
+                    ~3: Expand Nodes: Generate possible next states from the current state.
+                    ~4: Store in Frontier: Maintain a list of unexplored nodes.
+                    ~5: Use Search Strategy: Choose the next state based on the algorithm.
+                    ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
         ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
             : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
                 : XOR (in=a, in=b, out=abSUM)
@@ -256,31 +257,26 @@
             : NEGATIVE(<): -1
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+    
     ~RHETORIC: QUESTION-PLAN
-        ~0: TITLE:              How do we know each other? How do we find closure?
-        ~1: INTRODUCTION (Exordium): Establishes credibility (ethos) and engages the audience.
-            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
-            : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice?
-            : MEANING:          Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-            : THESIS:           This speech shares that we have free will — the ability to choose.”
-                                The Three Kinds of Rhetoric (Based on Purpose)
-                                    : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-                                    : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-                                    : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
-            : TRANSITION:       First: why are we slaves of our passions? 
+        ~0: TITLE:              Why? How do we know each other? How do we find closure?
         ~2: NARRATION (Narratio): Presents background information and context.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
             : Support:          You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE
                                 [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
-                                SPOIL FOR-BY SOILVOID(-): Disruptions, Damages, Uncontrolled Elements (Dice), Expenses, taxes, and liabilities, Low Health, Scarcity/Finity, Bankruptcy
+                                SPOIL FOR-BY SOILVOID: Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
                                 BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-                                TRAP FOR-BY WILDWORLD: The Rat Race, 
+                                TRAP FOR-BY WILDWORLD: The Rat Race, Hierarchy
                                 WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
             : TRANSITION:       But what if this is only half-true?
+        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
+            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
+            : Finding a Commonplace (Topos) for Argument
+            : Forming Premises from Endoxa (Common Opinions)
             : Introduction:     AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
                                 [FAIRNESS = KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK]
                                     : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
-                                FRUIT FOR-BY SEEDWORD(+)
+                                FRUIT FOR-BY SEEDWORD
                                     : Mental Library, pokedex, Map, 
                                     : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
                                     : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
@@ -289,12 +285,11 @@
                                     : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
                                     : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
                                     : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-                                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya,
+                                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
                                 WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
                                     : Build Structures/LEVELS: Balance scope budget, and schedule
-                                        : NAVIGATION, Maps, Atmosphere, Weather,
-                                        : Progressing the game storyline and accessing new areas.
-                                        : better positioning on the map, better territory
+                                    : NAVIGATION, Maps, Atmosphere, Weather,
+                                    : Progressing the game storyline and accessing new areas, better positioning on the map, better territory
                                 CHANCE FOR-BY DEATHEND
                                     : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
                                     : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
@@ -302,47 +297,34 @@
                                     : PROGRESS = Tutorials, Saves, Updates: Journal?
                                     : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
                                     : Fast Track, they focus on making larger investments and fulfilling their dream
-
-        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
-            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-                                : Finding a Commonplace (Topos) for Argument
-                                : Forming Premises from Endoxa (Common Opinions)
             : TRANSITION:       How don’t they entirely negate free will
         ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
             : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-                : For Equivocation: “The law should be followed because it is the ‘law of nature,’” 
-                    clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
-                : For Amphiboly: If someone says, “Flying planes can be dangerous,” 
-                    clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
-                : For Accent: “I didn’t say she stole the money,” 
-                    show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
-                : For Composition: “All parts of the car are lightweight, so the whole car must be lightweight,” 
-                    show that a car’s total weight differs from its individual parts.
-                : For Division: “The team is successful, so every team member is successful,” 
-                    point out that team success doesn’t imply each member’s personal success.
+                : For Equivocation: clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+                : For Amphiboly: clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+                : For Accent: show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+                : For Composition: show that a car’s total weight differs from its individual parts.
+                : For Division: point out that team success doesn’t imply each member’s personal success.
             : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-                : For Begging the Question (Petitio Principii): “Reading is beneficial because it’s good for you,” 
-                    query if “good for you” is simply restating “beneficial” without further evidence.
-                : For False Cause (Post Hoc Ergo Propter Hoc): “I started wearing my lucky charm, and my grades improved,” 
-                    query if improved grades may be due to other factors, like studying harder.
-                : For Accident: “Cutting people is wrong, so surgeons are immoral,” 
-                    query if surgery is a controlled, beneficial exception to the general rule against cutting.
-                : For Converse Accident (Hasty Generalization): “One politician lied, so all politicians are liars,” 
-                    query if one instance doesn’t justify generalizing about all politicians.
-                : For False Analogy: “Employees are like nails; you have to hit them on the head to make them work,” 
-                    query if employees and nails are different and shouldn’t be treated the same way.
-                : For Slippery Slope: “If we let students redo assignments, they’ll expect to retake exams,” 
-                    query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
-                : For Ad Hominem: “You shouldn’t listen to her because she’s not a scientist,” 
-                    query if the person’s background doesn’t inherently disprove their argument’s validity.
-                : For Appeal to Authority (Ad Verecundiam): If a celebrity endorses a health product, 
-                    query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
+                : For Begging the Question (Petitio Principii): query if “good for you” is simply restating “beneficial” without further evidence.
+                : For False Cause (Post Hoc Ergo Propter Hoc): query if improved grades may be due to other factors, like studying harder.
+                : For Accident: query if surgery is a controlled, beneficial exception to the general rule against cutting.
+                : For Converse Accident (Hasty Generalization): query if one instance doesn’t justify generalizing about all politicians.
+                : For False Analogy: query if employees and nails are different and shouldn’t be treated the same way.
+                : For Slippery Slope: query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+                : For Ad Hominem: query if the person’s background doesn’t inherently disprove their argument’s validity.
+                : For Appeal to Authority (Ad Verecundiam): query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
             : TRANSITION:
-        ~5: CONCLUSION (Peroratio): Reinforces key points and leaves a lasting impression, often with pathos.
+        ~1: INTRODUCTION (Exordium) & CONCLUSION (Peroratio): Establishes credibility (ethos) and leaves a lasting first impression with pathos.
+            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : QUESTION:         Natural Language vs Computer Language
+            : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice? Natural Language vs Computer Language
+            : MEANING:          Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
             : THESIS:           We are capable of both, but empowered to rise above them.
-            : MEANING:          This question matters because it shows how If we believe we have no choice, 
+                                The Three Kinds of Rhetoric (Based on Purpose)
+                                    : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                                    : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                                    : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
             : Re-Point 1:       Habits and instincts strongly influence our behavior.
             : Re-Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
             : Re-Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
