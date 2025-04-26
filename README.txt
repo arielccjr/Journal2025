@@ -20,7 +20,7 @@
         QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
         LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
         VC=VOID-CONTINUANCE = ".", ",", "?", "!" 
-    ~FALLACY TYPE – Determine whether the error is linguistic or conceptual.
+    ~FALLACY: A linguistic error 
         : Fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
             : Equivocation: Using a word with multiple meanings ambiguously in an argument. “The law should be followed because it is the ‘law of nature,’” 
             : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing. “Flying planes can be dangerous,” 
@@ -36,7 +36,6 @@
             : Slippery Slope: Assuming a small first step will lead to a chain of extreme events. “If we let students redo assignments, they’ll expect to retake exams,” 
             : Ad Hominem: Attacking the person instead of the argument itself. “You shouldn’t listen to her because she’s not a scientist,” 
             : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise. ei. a celebrity endorses a health product, 
-        : Invalid syllogisms: A logical error occurs, ei. "All dogs are animals. All cats are animals. Therefore, all dogs are cats."
     ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
@@ -52,7 +51,7 @@
             : E (Universal Negative: "No A are B")
             : I (Particular Affirmative: "Some A are B"). 
             : O (Particular Negative: "Some A are not B")
-    ~STATEMENT: Propositions are combinations of words that express truth or falsity.
+    ~STATEMENT: are combinations of words that express truth or falsity.
         : Contradictory statements: One must be true, the other false.
             : Affirmation: “Socrates is wise.”
             : Negation: “Socrates is not wise.”
@@ -62,7 +61,8 @@
         : Modal Logic/Implication: Helps in predicting future truths without contradiction.
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
-    ~WORD/TERMS: Words are symbols of mental concepts. 
+    ~WORD/TERM: Symbol of mental concepts. 
+        : POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency), 
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
             : WHY:
                 : Material – What something is made of (e.g., a statue is made of marble).
@@ -132,15 +132,14 @@
                     : NOT-EATING/FASTING-NOT-CREATING/BREAKING:
                         : FAST: Hunger, Thirst, Starvation, 
                         : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-            : POSITIVE (+1/Vice of Excess) & NEGATIVE (-1/Vice of Deficiency), 
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
-            : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
-                : True (not subject to doubt).
-                : Primary (not from anything else).
-                : Immediate (not needing proof).
-                : More knowable than conclusions.
-            : Empty, Void of Substance
-            : THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait). Ei. Courage is the mean between cowardice (deficiency) and recklessness (excess).
+    ~THE GOLDEN MEAN: Deficiency (too little of a trait) vs Excess (too much of a trait), ei. Courage is the mean between cowardice (deficiency) and recklessness (excess).
+        : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
+            : True (not subject to doubt).
+            : Primary (not from anything else).
+            : Immediate (not needing proof).
+            : More knowable than conclusions.
+        : Empty, Void of Substance
 
 # **~FLOW: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION**
 ## **~CODE/WRITE(), GOLDEN-MEAN-0**
