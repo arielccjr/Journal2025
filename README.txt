@@ -325,4 +325,3 @@
             : Immediate (not needing proof).
             : More knowable than conclusions.
         : Empty, Void of Substance
-
