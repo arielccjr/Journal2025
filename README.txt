@@ -1,4 +1,76 @@
 # **~FLOW/CODE: IN:SEE/HEAR/FEEL/SMELL/TASTE(STIMULUS) & OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED), GRATIFICATION/GOLDEN-MEAN-0**
+    ~1: GAIN RAPPORT WITH THE SENSES
+        ~0: TITLE:              Why? How do we know each other? How do we find closure?
+        ~1: INTRODUCTION (Exordium) & CONCLUSION (Peroratio): Establishes credibility (ethos) and leaves a lasting first impression with pathos.
+            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
+            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
+            : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice? Natural Language vs Computer Language
+            : MEANING:          Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
+            : THESIS:           We are capable of both, but empowered to rise above them.
+                                The Three Kinds of Rhetoric (Based on Purpose)
+                                    : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                                    : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                                    : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
+            : Re-Point 1:       Habits and instincts strongly influence our behavior.
+            : Re-Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
+            : Re-Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
+            : CLOSING:          Ultimately, the power to choose defines what it means to be human.
+    ~RHETORIC: QUESTION-PLAN = WHAT>WHO>WHERE>WHEN>WHY>HOW
+        ~2: NARRATION (Narratio): Presents background information and context.
+            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
+            : Support:          You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE
+                                [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
+                                SPOIL FOR-BY SOILVOID: Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
+                                BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
+                                TRAP FOR-BY WILDWORLD: The Rat Race, Hierarchy
+                                WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
+            : TRANSITION:       But what if this is only half-true?
+        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
+            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
+            : Finding a Commonplace (Topos) for Argument
+            : Forming Premises from Endoxa (Common Opinions)
+            : Introduction:     AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
+                                [FAIRNESS = KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK]
+                                    : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
+                                FRUIT FOR-BY SEEDWORD
+                                    : Mental Library, pokedex, Map, 
+                                    : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                                    : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+                                SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
+                                    : Contact List, Testimonials, Reviews
+                                    : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
+                                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
+                                    : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+                                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+                                WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
+                                    : Build Structures/LEVELS: Balance scope budget, and schedule
+                                    : NAVIGATION, Maps, Atmosphere, Weather,
+                                    : Progressing the game storyline and accessing new areas, better positioning on the map, better territory
+                                CHANCE FOR-BY DEATHEND
+                                    : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
+                                    : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+                                    : DEADLINE: Goal State, Completion
+                                    : PROGRESS = Tutorials, Saves, Updates: Journal?
+                                    : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
+                                    : Fast Track, they focus on making larger investments and fulfilling their dream
+            : TRANSITION:       How don’t they entirely negate free will
+        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
+            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
+                : For Equivocation: clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+                : For Amphiboly: clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+                : For Accent: show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+                : For Composition: show that a car’s total weight differs from its individual parts.
+                : For Division: point out that team success doesn’t imply each member’s personal success.
+            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
+                : For Begging the Question (Petitio Principii): query if “good for you” is simply restating “beneficial” without further evidence.
+                : For False Cause (Post Hoc Ergo Propter Hoc): query if improved grades may be due to other factors, like studying harder.
+                : For Accident: query if surgery is a controlled, beneficial exception to the general rule against cutting.
+                : For Converse Accident (Hasty Generalization): query if one instance doesn’t justify generalizing about all politicians.
+                : For False Analogy: query if employees and nails are different and shouldn’t be treated the same way.
+                : For Slippery Slope: query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+                : For Ad Hominem: query if the person’s background doesn’t inherently disprove their argument’s validity.
+                : For Appeal to Authority (Ad Verecundiam): query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
+
     ~VIRTUE (arete): Moral & Intellectual Virtues developed through habit. needs Practical Wisdom (Phronesis), 
     ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
         : FOR THE CAUSE
@@ -112,78 +184,6 @@
             : ZERO(=): 0
         : MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
     
-    ~RHETORIC: QUESTION-PLAN
-        ~0: TITLE:              Why? How do we know each other? How do we find closure?
-        ~2: NARRATION (Narratio): Presents background information and context.
-            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : Support:          You are right: SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE
-                                [HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.]
-                                SPOIL FOR-BY SOILVOID: Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
-                                BAIT/SACRIFICE FOR-BY MOTHERBEAST.": NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-                                TRAP FOR-BY WILDWORLD: The Rat Race, Hierarchy
-                                WAIT FOR-BY BIRTHSTART: Initial State, Beginning Again
-            : TRANSITION:       But what if this is only half-true?
-        ~3: PROOF (Confirmatio): Develops logical (logos) arguments with supporting evidence.
-            : Logos (Logical Argument): Uses deductive (enthymeme) and inductive reasoning (example-based proof).
-            : Finding a Commonplace (Topos) for Argument
-            : Forming Premises from Endoxa (Common Opinions)
-            : Introduction:     AWAKENING FOR-BY REALITY. "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
-                                [FAIRNESS = KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK]
-                                    : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
-                                FRUIT FOR-BY SEEDWORD
-                                    : Mental Library, pokedex, Map, 
-                                    : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-                                    : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-                                SON FOR-BY FATHERGOD: Team: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”
-                                    : Contact List, Testimonials, Reviews
-                                    : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
-                                    : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
-                                    : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-                                    : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
-                                WAY FOR-BY KINGDOMHEAVEN: Creative Directing Studio: Channels/Web/Store
-                                    : Build Structures/LEVELS: Balance scope budget, and schedule
-                                    : NAVIGATION, Maps, Atmosphere, Weather,
-                                    : Progressing the game storyline and accessing new areas, better positioning on the map, better territory
-                                CHANCE FOR-BY DEATHEND
-                                    : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-                                    : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
-                                    : DEADLINE: Goal State, Completion
-                                    : PROGRESS = Tutorials, Saves, Updates: Journal?
-                                    : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
-                                    : Fast Track, they focus on making larger investments and fulfilling their dream
-            : TRANSITION:       How don’t they entirely negate free will
-        ~4: REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
-            : For fallacies in language, clarifying ambiguous terms, sentence structure, or assumptions usually suffices. 
-                : For Equivocation: clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
-                : For Amphiboly: clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
-                : For Accent: show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
-                : For Composition: show that a car’s total weight differs from its individual parts.
-                : For Division: point out that team success doesn’t imply each member’s personal success.
-            : Fallacies Outside Language: focusing on the logical structure, causation, or evidentiary support is essential. 
-                : For Begging the Question (Petitio Principii): query if “good for you” is simply restating “beneficial” without further evidence.
-                : For False Cause (Post Hoc Ergo Propter Hoc): query if improved grades may be due to other factors, like studying harder.
-                : For Accident: query if surgery is a controlled, beneficial exception to the general rule against cutting.
-                : For Converse Accident (Hasty Generalization): query if one instance doesn’t justify generalizing about all politicians.
-                : For False Analogy: query if employees and nails are different and shouldn’t be treated the same way.
-                : For Slippery Slope: query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
-                : For Ad Hominem: query if the person’s background doesn’t inherently disprove their argument’s validity.
-                : For Appeal to Authority (Ad Verecundiam): query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
-            : TRANSITION:
-        ~1: INTRODUCTION (Exordium) & CONCLUSION (Peroratio): Establishes credibility (ethos) and leaves a lasting first impression with pathos.
-            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
-            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception.
-            : HOOK QUESTION:    Have you ever cursed, like that? Is this by instinct, or by choice? Natural Language vs Computer Language
-            : MEANING:          Let me ask a bigger question: Are we bound by our habits or do we act out of our free will?
-            : THESIS:           We are capable of both, but empowered to rise above them.
-                                The Three Kinds of Rhetoric (Based on Purpose)
-                                    : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-                                    : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-                                    : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
-            : Re-Point 1:       Habits and instincts strongly influence our behavior.
-            : Re-Point 2:       Self-awareness, delayed gratification, and cultural evolution prove our capacity for free will.
-            : Re-Point 3:       Addressing counterarguments reveals the balance between instinct and choice.
-            : CLOSING:          Ultimately, the power to choose defines what it means to be human.
-
 # **~STOP/DECODE: NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() & NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), LEAST-COMMON-DENOMINATOR-1**
     ~SYNTAX-KEY-CODES: PARTS OF NATURAL-LANGUAGE
         0=CONJUNCTION= AND, OR, &, /, 
