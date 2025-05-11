@@ -1,77 +1,78 @@
-# **~FLOW = IN:SEE/HEAR/FEEL/SMELL/TASTE() & OUT:BE(), SEEN/HEARD/FELT/SMELLED/TASTED:**
-# **~STOP = NOT-IN:BLINK/DEAFEN/FLEE/MASK/FAST() & NOT-OUT:HIDE/MUTE/PAUSE/BLOW/SPIT(), IMAGINATION**
-    ~NOT-SEEN/HEARD/FELT/SMELLED/TASTED:
-        ~NOT-SEEN:
-            : BLINK/Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, 
-            : SHADOW(Terminator, Core, Occlusion, Cast), 
-        ~NOT-HEARING/DEFEANING-NOT-SOUNDING/MUTING
-            : NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects
-            : SILENCE, Ambience
-        ~NOT-FEELING/EVADING-NOT-MOVING/PAUSING:
-            : EVASION, Clothes, Armour, Fear, Shyness, Rejection, 
-            : STILLNESS, Rest
-        ~NOT-SMELLING/BLOWING-NOT-EMITTING/FILTERING?:
-            : MASK/FILTER, BLOW: Fan
-            : CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
-        ~NOT-EATING/FASTING-NOT-CREATING/BREAKING:
-            : FAST: Hunger, Thirst, Starvation, 
-            : SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
+# **~NOT() & IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE(), SEEN/HEARD/FELT/SMELLED/TASTED**
+    ~NOT & SEEN/HEARD/FELT/SMELLED/TASTED:
+        ~NOT-SEEN: Blinked/Hidden, Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
+            : EYES: Camera, Optical/Ocular System, Photoreceptor, 
+            : VIEW: 1st, 2nd(Possess), 3rd(God View), 
+            : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
+            : ANGLE: Up-Down,  Right-Left
+            : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
+            : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential
+            : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
+            : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
+        ~NOT-HEARD: Deafened/Muted: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
+            : EARS: RodeMic, 
+            : RHYTHM: Beat, Amp/Volume
+            : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
+            : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
+        ~NOT-FELT: Fled/Paused, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
+            : SKINS: Hands, Feet, Mouse, Keyboard, Controller
+            : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
+            : TEXTURE: Rough, Smooth
+            : MASS: Light, Heavy
+            : SPEED: Slow, Fast, 
+            : PAN:
+            : TILT:
+            : ZOOM: In, Out
+            : EMOTION: Reaction, INERTIA, Love, Hate
+            : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
+        ~NOT-SMELLED: MASKed/Blown, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
+            : NOSE: Lungs, Air, Diffusion
+            : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
+            : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
+        ~NOT-TASTED: FASTed: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination    
+            : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
+            : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
+            : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+                : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
+                : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+                : Elements, Metals/Conductors
+    
+    ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
+        ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
+            : INTRODUCTION (Exordium)
+        ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
+        ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
+            : NARRATION (Narratio): Presents background information and context.
+            : THESIS/MEANING: The Three Kinds of Rhetoric (Based on Purpose): WHAT IF... this is only half-true? DO YOU CHOOSE... OR... ?
+                : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
+                : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
+                : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
+        ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
+            : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
+        ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
+        ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
+        ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.  
+            : CONCLUSION (Peroratio): 
+            : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception and leave a lasting first impression with pathos.
+
+    ~PROOF (Confirmatio)
+        : Develops logical (logos) arguments with deductive (enthymeme) and inductive reasoning (example-based proof).
+        : Forming Premises from Endoxa (Common Opinions), a Commonplace (Topos) for Argument
+    
     ~SYNTAX-KEY-CODES: OF THE NATURAL-LANGUAGE:
         0=CONJUNCTION= AND, OR, &, /, 
-        1=ADVERB
-        2=VERB= IS/ARE,
-        3=ADJECTIVE
-        4=PRONOUN
-        5=POSITION
-        6=LODIAL
-        7=FACT
-        8=PAST-TENSE
-        9=FUTURE-TENSE
-        NC=NEGATIVE-CONTEXT:
-        DPV=DANGLING-PARTICIPLE-VERB.
+        1=ADVERB, 2=VERB= IS/ARE, 3=ADJECTIVE, 4=PRONOUN
+        8=PAST-TENSE, 9=FUTURE-TENSE, DPV=DANGLING-PARTICIPLE-VERB.
+        NC=NEGATIVE-CONTEXT.
         BS=LAW OF THE BOXING/BRACKETS.
         ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
         FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
         PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
         QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
         LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-        VC=VOID-CONTINUANCE = ".", ",", "?", "!" 
-    ~FALLACY: A linguistic error 
-        : Fallacies in language: 
-            : Equivocation: Using a word with multiple meanings ambiguously in an argument. “The law should be followed because it is the ‘law of nature,’” 
-            : Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing. “Flying planes can be dangerous,” 
-            : Accent: Changing the meaning of a statement by emphasizing different words. “I didn’t say she stole the money,” 
-            : Composition: Assuming what is true of parts is true for the whole. “All parts of the car are lightweight, so the whole car must be lightweight,” 
-            : Division: Assuming what is true of the whole is true for each part. “The team is successful, so every team member is successful,” 
-        : Fallacies Outside Language: 
-            : Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove. “Reading is beneficial because it’s good for you,” 
-            : False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second. “I wear my lucky charm, and my grades improved,” 
-            : Accident: Misapplying a general rule to an exception or specific case. “Cutting people is wrong, so surgeons are immoral,” 
-            : Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample. “One politician lied, so all politicians are liars,” 
-            : False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects. “Employees are like nails; you have to hit them on the head to make them work,” 
-            : Slippery Slope: Assuming a small first step will lead to a chain of extreme events. “If we let students redo assignments, they’ll expect to retake exams,” 
-            : Ad Hominem: Attacking the person instead of the argument itself. “You shouldn’t listen to her because she’s not a scientist,” 
-            : Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise. ei. a celebrity endorses a health product, 
-   
-    ~PROOF (Confirmatio) & REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
-        : Develops logical (logos) arguments with deductive (enthymeme) and inductive reasoning (example-based proof).
-        : Forming Premises from Endoxa (Common Opinions), a Commonplace (Topos) for Argument
-        : For fallacies in language, clarify ambiguous terms, sentence structure, or assumptions usually suffices. 
-            : For Equivocation: clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
-            : For Amphiboly: clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
-            : For Accent: show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
-            : For Composition: show that a car’s total weight differs from its individual parts.
-            : For Division: point out that team success doesn’t imply each member’s personal success.
-        : Fallacies Outside Language: focus on the logical structure, causation, or evidentiary support is essential. 
-            : For Begging the Question (Petitio Principii): query if “good for you” is simply restating “beneficial” without further evidence.
-            : For False Cause (Post Hoc Ergo Propter Hoc): query if improved grades may be due to other factors, like studying harder.
-            : For Accident: query if surgery is a controlled, beneficial exception to the general rule against cutting.
-            : For Converse Accident (Hasty Generalization): query if one instance doesn’t justify generalizing about all politicians.
-            : For False Analogy: query if employees and nails are different and shouldn’t be treated the same way.
-            : For Slippery Slope: query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
-            : For Ad Hominem: query if the person’s background doesn’t inherently disprove their argument’s validity.
-            : For Appeal to Authority (Ad Verecundiam): query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
-    ~CORRECT-PARSE-SYNTAX-GRAMMAR: POSITION-LODIAL-FACT
+        VC=VOID-CONTINUANCE = ".", ",", "?", "!"
+    
+    ~CORRECT-PARSE-SYNTAX-GRAMMAR: 5=POSITION, 6=LODIAL, 7=FACT
         : FOR THE CAUSE
         : OF THE EFFECT
         : IS/ARE-THINKING
@@ -79,94 +80,37 @@
         : OF THE TERMS
         : WITH THE CONTRACT
         : BY THE AUTHORITY: AGENT/PLAYER/CORPORATION: knowledge-based agent(s) that reason by operating on knowledge        
-    ~NOW-SPACE: Same Plane/Continuance of Evidence, POSTAL-MECHANICS, International Beaureau of Weights and Measures in France, Stamps, Autograph
-    ~COMMUNITY (polis): PUBLIC-SAFETY
-    ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
-        ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
-        ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
-        ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
-        ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
-        ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
-        ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
-        ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.
 
-    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
-        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
-        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
-        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
-        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
-        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
-        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
-        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
-    ~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-        ~0: CLOCK[TIME-SEQUENCE]: 
-        ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
-            : RANDOM-ACCESS-MEMORY[DATA]: 
-                : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
-                    : NOT (in=sel, out=NOTsel)
-                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
-                    : AND (in=sel, in=b, out=selANDb)
-                    : OR (in=aANDNOTsel, in=selANDb, out=out)
-                : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
-                    : AND (in=column, in=row, out=columnANDrow)
-                        : AND (in=data, in=write-enable, out=set)
-                        : NOT (in=data, out=NOTdata)
-                        : AND (in=NOTdata, in=write-enable, out=reset)
-                            : OR (in=set, in=outLOOP, out=setORoutLoop)
-                            : NOT (in=reset, out=NOTreset)
-                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : AND-OR-LATCH/MEMORY-REGISTER[MEMORY-BIT(0/1)]: 
-                    : OR-LOOP (in=a, in=b, out=1)
-                    : AND-LOOP (in=a, in=b, out=0)
-        ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
-            : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
-            : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-                : INPUT-STATEMENTS: 
-                    : IMPORT Library/Package
-                    : DECLARE/INITIALIZE Variables
-                    : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
-                    : SEARCH: Retrieves specific data from the database. To access and analyze stored information.
-                        ~1: Define Initial State: Start with a known state.
-                        ~2: Check Goal State: Verify if the current state meets the goal criteria.
-                        ~3: Expand Nodes: Generate possible next states from the current state.
-                        ~4: Store in Frontier: Maintain a list of unexplored nodes.
-                        ~5: Use Search Strategy: Choose the next state based on the algorithm.
-                        ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
-                : OUTPUT-STATEMENTS:
-                    : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
-                        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-                        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-                        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
-                    : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-                        : While: Repeats while a condition is true. To handle indefinite iteration.
-                        : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-                        : For: Iterates a specific number of times. To handle definite iteration.
-                    : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
-                        : Then/Else/Next...  
-                        : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
-                        : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
-                : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-                : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-                    : STORE IN MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-                : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-                : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-        ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
-            : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
-                : XOR (in=a, in=b, out=abSUM)
-                    : AND (in=a, in=b, out=aANDb);
-                    : NOT (in=aANDb, out=NOTaANDb);
-                    : OR (in=a, in=b, out=aORb);
-                    : AND (in=NOTaANDb, in=aORb, out=out);
-                : AND (in=a, in=b, out=abCARRY)
-                    : >XOR (in=abSUM, in=c, out=abcSUM)
-                    : >AND (in=abSUM, in=c, out=abcCARRY)
-                        ; >OR (in=abCARRY, in=abcBARRY, out=out)
-            : LOGIC-UNIT: NOT, AND, OR... 
-            : BIT-FLAGS:
-                : OVERFLOW(>): +1
-                : NEGATIVE(<): -1
-                : ZERO(=): 0
-
+    ~FALLACIES & REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
+        : For fallacies in language, clarify ambiguous terms, sentence structure, or assumptions usually suffices. 
+            : For Equivocation: Using a word with multiple meanings ambiguously in an argument. “The law should be followed because it is the ‘law of nature,’” 
+                : clarify that legal law and natural law are distinct concepts, thus invalidating the argument’s logic.
+            : For Amphiboly: Ambiguity arising from poor sentence structure or unclear phrasing. “Flying planes can be dangerous,” 
+                : clarify whether they mean that piloting planes is dangerous or that planes in flight are hazardous.
+            : For Accent: Changing the meaning of a statement by emphasizing different words. “I didn’t say she stole the money,” 
+                : show how different emphases change the implied meaning and that no conclusion can be reliably drawn.
+            : For Composition: Assuming what is true of parts is true for the whole. “All parts of the car are lightweight, so the whole car must be lightweight,” 
+                : show that a car’s total weight differs from its individual parts.
+            : For Division: Assuming what is true of the whole is true for each part. “The team is successful, so every team member is successful,”
+                : point out that team success doesn’t imply each member’s personal success.
+        : Fallacies Outside Language: focus on the logical structure, causation, or evidentiary support is essential. 
+            : For Begging the Question (Petitio Principii): Assuming the truth of what the argument is supposed to prove. “Reading is beneficial because it’s good for you,” 
+                : query if “good for you” is simply restating “beneficial” without further evidence.
+            : For False Cause (Post Hoc Ergo Propter Hoc): Assuming that because one event follows another, the first caused the second. “I wear my lucky charm, and my grades improved,” 
+                : query if improved grades may be due to other factors, like studying harder.
+            : For Accident: Misapplying a general rule to an exception or specific case. “Cutting people is wrong, so surgeons are immoral,” 
+                : query if surgery is a controlled, beneficial exception to the general rule against cutting.
+            : For Converse Accident (Hasty Generalization): Drawing a broad conclusion from a limited sample. “One politician lied, so all politicians are liars,” 
+                : query if one instance doesn’t justify generalizing about all politicians.
+            : For False Analogy: Comparing two things that aren’t sufficiently similar in relevant aspects. “Employees are like nails; you have to hit them on the head to make them work,” 
+                : query if employees and nails are different and shouldn’t be treated the same way.
+            : For Slippery Slope: Assuming a small first step will lead to a chain of extreme events. “If we let students redo assignments, they’ll expect to retake exams,” 
+                : query if that allowing assignment revisions doesn’t logically lead to redoing all assessments.
+            : For Ad Hominem: Attacking the person instead of the argument itself. “You shouldn’t listen to her because she’s not a scientist,” 
+                : query if the person’s background doesn’t inherently disprove their argument’s validity.
+            : For Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise. ei. a celebrity endorses a health product, 
+                : query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
+ 
     ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
@@ -193,7 +137,9 @@
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD/TERM: Symbol of mental concepts. 
-        ~RHETORIC/QUESTIONS: WHAT IF... this is only half-true? DO YOU CHOOSE... OR... ?
+        ~LEAST-COMMON-DENOMINATOR-(+/-)1: 
+            : POSITIVE (+1/Excess)
+            : NEGATIVE (-1/Deficiency),       
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
             : WHY-HOW/FOR-BY: SLEEPING FOR-BY DREAM OR AWAKENING FOR-BY REALITY?
                 : Material – What something is made of (e.g., a statue is made of marble).
@@ -209,11 +155,7 @@
                 : Action – What it is doing
                 : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
                 : Position – How it is arranged (e.g., "sitting," "lying down").
-                : READING-WRITING:
-                    : Weights&Measures, Letters/Spells, 
-                    : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-                    : NOT-READING/FORGETTING-NOT-WRITING/ERASING
-            : WHEN/NOW: WAIT FOR-BY BIRTHSTART OR CHANCE FOR-BY DEATHEND?
+           : WHEN/NOW: WAIT FOR-BY BIRTHSTART OR CHANCE FOR-BY DEATHEND?
                 : Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
                 : Initial State, Beginning Again
                 : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
@@ -238,65 +180,95 @@
                 : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
                 : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
             : WHAT/BODY: SPOIL FOR-BY SOILVOID OR FRUIT FOR-BY SEEDWORD?
-                    : Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
-                    : Mental Library, pokedex, Map, 
-                    : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-                    : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges            
-       : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
-            ~SEEN:
-                : EYES: Camera, Optical/Ocular System, Photoreceptor, 
-                : VIEW: 1st, 2nd(Possess), 3rd(God View), 
-                : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
-                : ANGLE: Up-Down,  Right-Left
-                : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
-                : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential
-                : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-                : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-            ~HEARD:
-                : EARS: RodeMic, 
-                : RHYTHM: Beat, Amp/Volume
-                : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
-                : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
-            ~FELT:
-                : SKINS: Hands, Feet, Mouse, Keyboard, Controller
-                : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
-                : TEXTURE: Rough, Smooth
-                : MASS: Light, Heavy
-                : SPEED: Slow, Fast, 
-                : PAN:
-                : TILT:
-                : ZOOM: In, Out
-                : EMOTION: Reaction, INERTIA, Love, Hate
-                : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor
-            ~SMELLED:
-                : NOSE: Lungs, Air, Diffusion
-                : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
-                : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide
-            ~TASTED:
-                : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
-                : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
-                : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
-                    : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
-                    : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-                    : Elements, Metals/Conductors
+                : Weights&Measures, Letters/Spells, 
+                : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+                : Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
+                : Mental Library, pokedex, Map, 
+                : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+                : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges            
+        : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
+            ~GRATIFICATION/GOLDEN-MEAN-0: The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+                : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
+                    : True (not subject to doubt).
+                    : Primary (not from anything else).
+                    : Immediate (not needing proof).
+                    : More knowable than conclusions.
+                : Empty, Void of Substance
 
-    ~LEAST-COMMON-DENOMINATOR-(+/-)1: 
-        : POSITIVE (+1/Excess)
-        : NEGATIVE (-1/Deficiency), 
-    ~GRATIFICATION/GOLDEN-MEAN-0: The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
-        : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
-            : True (not subject to doubt).
-            : Primary (not from anything else).
-            : Immediate (not needing proof).
-            : More knowable than conclusions.
-        : Empty, Void of Substance
-    ~NARRATION (Narratio): Presents background information and context.
-    ~INTRODUCTION (Exordium) & CONCLUSION (Peroratio): 
-        : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
-        : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception and leave a lasting first impression with pathos.
-        : THESIS/MEANING:   The Three Kinds of Rhetoric (Based on Purpose)
-            : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
-            : Forensic (Judicial) Rhetoric – Concerned with past actions (e.g., guilt or innocence in legal cases).
-            : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
-
-# **~FLOW = IN:SEE/HEAR/FEEL/SMELL/TASTE() & OUT:BE(), SEEN/HEARD/FELT/SMELLED/TASTED:**
+   ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS: POSTAL-MECHANICS, NOW-SPACE?
+        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire.
+    ~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+        ~0: CLOCK[TIME-SEQUENCE]:
+        ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
+            : RANDOM-ACCESS-MEMORY[DATA]: 
+                : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
+                    : NOT (in=sel, out=NOTsel)
+                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                    : AND (in=sel, in=b, out=selANDb)
+                    : OR (in=aANDNOTsel, in=selANDb, out=out)
+                : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
+                    : AND (in=column, in=row, out=columnANDrow)
+                        : AND (in=data, in=write-enable, out=set)
+                        : NOT (in=data, out=NOTdata)
+                        : AND (in=NOTdata, in=write-enable, out=reset)
+                            : OR (in=set, in=outLOOP, out=setORoutLoop)
+                            : NOT (in=reset, out=NOTreset)
+                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
+                : AND-OR-LATCH/MEMORY-REGISTER[MEMORY-BIT(0/1)]: 
+                    : OR-LOOP (in=a, in=b, out=1)
+                    : AND-LOOP (in=a, in=b, out=0)
+        ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
+            : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
+            : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
+                : INPUT-STATEMENTS: 
+                    : IMPORT Library/Package
+                    : DECLARE/INITIALIZE Variables
+                    : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Extract insights and support decision-making.
+                    : Queue vs Stack
+                : OUTPUT-STATEMENTS:
+                    : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
+                        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+                        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+                        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
+                    : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+                        : While: Repeats while a condition is true. To handle indefinite iteration.
+                        : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+                        : For: Iterates a specific number of times. To handle definite iteration.
+                    : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
+                        : Then/Else/Next...  
+                        : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
+                        : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
+                : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+                : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+                    : STORE IN MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+                : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+                : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+                : SEARCH: Retrieves specific data from the database. To access and analyze stored information.
+                    ~1: Define Initial State: Start with a known state.
+                    ~2: Check Goal State: Verify if the current state meets the goal criteria.
+                    ~3: Expand Nodes: Generate possible next states from the current state.
+                    ~4: Store in Frontier: Maintain a list of unexplored nodes.
+                    ~5: Use Search Strategy: Choose the next state based on the algorithm.
+                    ~6: Avoid Infinite Loops: Track visited states to prevent redundant exploration.
+        ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
+            : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
+                : XOR (in=a, in=b, out=abSUM)
+                    : AND (in=a, in=b, out=aANDb);
+                    : NOT (in=aANDb, out=NOTaANDb);
+                    : OR (in=a, in=b, out=aORb);
+                    : AND (in=NOTaANDb, in=aORb, out=out);
+                : AND (in=a, in=b, out=abCARRY)
+                    : >XOR (in=abSUM, in=c, out=abcSUM)
+                    : >AND (in=abSUM, in=c, out=abcCARRY)
+                        ; >OR (in=abCARRY, in=abcBARRY, out=out)
+            : LOGIC-UNIT: NOT, AND, OR... 
+            : BIT-FLAGS:
+                : OVERFLOW(>): +1
+                : NEGATIVE(<): -1
+                : ZERO(=): 0
