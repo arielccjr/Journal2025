@@ -1,4 +1,46 @@
 # **~NOT() & IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE(), SEEN/HEARD/FELT/SMELLED/TASTED**
+    ~WHAT/WHO/WHERE/WHEN/WHY-HOW & BODY/I/HERE/NOW/FOR-BY... : 
+        : WHY-HOW? WHAT-IF?: SLEEPING FOR-BY DREAM OR AWAKENING FOR-BY REALITY?
+            : FOR-BY... 
+            : Material – What something is made of (e.g., a statue is made of marble).
+            : Formal – The essence or shape of something (e.g., the design of the statue).
+            : Efficient – What brings something into being (e.g., the sculptor carving the statue).
+            : Final – The purpose or goal of something (e.g., the statue exists to honor someone).
+            : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
+            : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
+            : State – What condition it is in (e.g., "armed," "healthy," "wet").
+            : Action – What it is doing
+            : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
+            : Position – How it is arranged (e.g., "sitting," "lying down").
+        : WHEN?: IS WAIT FOR-BY BIRTHSTART OR CHANCE FOR-BY DEATHEND?
+            : Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
+            : Initial State, Beginning Again
+            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: Every time the player passes "Payday" on the board, they receive their paycheck. 
+            : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+            : DEADLINE: Completion
+            : PROGRESS = Tutorials, Saves, Updates: Journal?
+            : Fast Track, they focus on making larger investments and fulfilling their dream           
+        : WHERE?: IS TRAP FOR-BY WILDWORLD OR WAY FOR-BY KINGDOMHEAVEN?
+            : Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+            : The Rat Race, Hierarchy
+            : Creative Directing Studio: Channels/Web/Store
+            : Build Structures/LEVELS: Progressing the game storyline and accessing new areas, better positioning on the map, better territory
+            : NAVIGATION, Maps, Atmosphere, Weather,
+        : WHO?: IS BAIT/SACRIFICE FOR-BY MOTHERBEAST OR SON FOR-BY FATHERGOD?
+            : Relations (e.g., "bigger than," "father of"), FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), .
+            : NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
+            : Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
+            : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
+            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
+            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
+            : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
+        : WHAT?: IS SPOIL FOR-BY SOILVOID OR FRUIT FOR-BY SEEDWORD?
+            : Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
+            : Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
+                : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+            : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+            : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
+    
     ~NOT & SEEN/HEARD/FELT/SMELLED/TASTED:
         ~NOT-SEEN: Blinked/Hidden, Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
             : EYES: Camera, Optical/Ocular System, Photoreceptor, 
@@ -35,13 +77,17 @@
             : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
                 : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                 : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-                : Elements, Metals/Conductors
-    
+                : Elements, Metals/Conductors       
+        
+        : "YOU'RE RIGHT." MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE, HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.
+        : "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
+            : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
+
     ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~1: Call to Order: The chairperson calls the meeting to order, marking the official start.
-            : INTRODUCTION (Exordium)
         ~2: Quorum Check: A record of who is present and absent is taken (optional for smaller meetings).
         ~3: Reading and Approval of Minutes: The minutes from the last meeting are read & proved by members.
+            : INTRODUCTION (Exordium)
             : NARRATION (Narratio): Presents background information and context.
             : THESIS/MEANING: The Three Kinds of Rhetoric (Based on Purpose): WHAT IF... this is only half-true? DO YOU CHOOSE... OR... ?
                 : Deliberative (Political) Rhetoric – Concerned with future actions (e.g., laws, policies).
@@ -49,16 +95,15 @@
                 : Epideictic (Ceremonial) Rhetoric – Concerned with praise or blame (e.g., speeches at events, eulogies).  
         ~4: Reports of Officers, Boards, and Standing Committees: Matters carried over from previous meetings are discussed.
             : Ethos (Character & Credibility): Achieved through expertise, moral character, and goodwill toward the audience.
+            : PROOF (Confirmatio)
+                : Forming Premises from Endoxa (Common Opinions), a Commonplace (Topos) for Argument
+                : Develops logical (logos) arguments with deductive (enthymeme) and inductive reasoning (example-based proof).
         ~7: New Business: New topics, proposals, or motions are introduced for discussion and decision-making.
         ~8: Announcements: Members share relevant updates, reminders, or upcoming events.
         ~9: Adjournment: The meeting is formally closed after a motion to adjourn is passed.  
             : CONCLUSION (Peroratio): 
             : Pathos (Emotional Appeal): Uses vivid storytelling, analogies, and emotional triggers to influence perception and leave a lasting first impression with pathos.
-
-    ~PROOF (Confirmatio)
-        : Develops logical (logos) arguments with deductive (enthymeme) and inductive reasoning (example-based proof).
-        : Forming Premises from Endoxa (Common Opinions), a Commonplace (Topos) for Argument
-    
+   
     ~SYNTAX-KEY-CODES: OF THE NATURAL-LANGUAGE:
         0=CONJUNCTION= AND, OR, &, /, 
         1=ADVERB, 2=VERB= IS/ARE, 3=ADJECTIVE, 4=PRONOUN
@@ -71,16 +116,6 @@
         QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
         LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
         VC=VOID-CONTINUANCE = ".", ",", "?", "!"
-    
-    ~CORRECT-PARSE-SYNTAX-GRAMMAR: 5=POSITION, 6=LODIAL, 7=FACT
-        : FOR THE CAUSE
-        : OF THE EFFECT
-        : IS/ARE-THINKING
-        : WITH THE DUTY/PERFORMANCE
-        : OF THE TERMS
-        : WITH THE CONTRACT
-        : BY THE AUTHORITY: AGENT/PLAYER/CORPORATION: knowledge-based agent(s) that reason by operating on knowledge        
-
     ~FALLACIES & REFUTATION (Refutatio): Anticipates counterarguments and disproves them. Primarily focusing on eristic (contentious) arguments used in debate 
         : For fallacies in language, clarify ambiguous terms, sentence structure, or assumptions usually suffices. 
             : For Equivocation: Using a word with multiple meanings ambiguously in an argument. “The law should be followed because it is the ‘law of nature,’” 
@@ -110,7 +145,7 @@
                 : query if the person’s background doesn’t inherently disprove their argument’s validity.
             : For Appeal to Authority (Ad Verecundiam): Relying on an authority figure outside their area of expertise. ei. a celebrity endorses a health product, 
                 : query if fame does not qualify them as a medical expert, and scientific evidence is required for credibility.
- 
+        
     ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
             : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
@@ -137,55 +172,8 @@
             : Necessity: Something must be true. “The sun must rise.”
             : Possibility: Something may or may not be true. “It may rain tomorrow.”
     ~WORD/TERM: Symbol of mental concepts. 
-        ~LEAST-COMMON-DENOMINATOR-(+/-)1: 
-            : POSITIVE (+1/Excess)
-            : NEGATIVE (-1/Deficiency),       
+        ~LEAST-COMMON-DENOMINATOR-(+/-)1: POSITIVE (+1/Excess) VS NEGATIVE (-1/Deficiency),       
         : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
-            : WHY-HOW/FOR-BY: SLEEPING FOR-BY DREAM OR AWAKENING FOR-BY REALITY?
-                : Material – What something is made of (e.g., a statue is made of marble).
-                : Formal – The essence or shape of something (e.g., the design of the statue).
-                : Efficient – What brings something into being (e.g., the sculptor carving the statue).
-                : Final – The purpose or goal of something (e.g., the statue exists to honor someone).
-                    : "YOU'RE RIGHT." MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE, HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.
-                    : "I KNOW! THAT'S RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
-                        : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
-                : Quality – What kind of thing it is (e.g., "red," "brave," "intelligent").
-                : Quantity – How much or how big something is (e.g., "five feet tall," "three liters").
-                : State – What condition it is in (e.g., "armed," "healthy," "wet").
-                : Action – What it is doing
-                : Passion (Being Acted Upon) – What is being done to it (e.g., "being burned," "being pushed").
-                : Position – How it is arranged (e.g., "sitting," "lying down").
-           : WHEN/NOW: WAIT FOR-BY BIRTHSTART OR CHANCE FOR-BY DEATHEND?
-                : Time, SCHEDULE= BirthStart*DeathFinish... ClockCycle/Hertz/Second/Minute/Hour/Day/Month/Season/Year...: CHRONOLOGY, measure of motion in relation to before and after.
-                : Initial State, Beginning Again
-                : Timeline: Every time the player passes "Payday" on the board, they receive their paycheck.
-                : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
-                : DEADLINE: Goal State, Completion
-                : PROGRESS = Tutorials, Saves, Updates: Journal?
-                : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes
-                : Fast Track, they focus on making larger investments and fulfilling their dream           
-            : WHERE/HERE: TRAP FOR-BY WILDWORLD OR WAY FOR-BY KINGDOMHEAVEN?
-                : Space, HOME= Earth*Heaven... Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-                : The Rat Race, Hierarchy
-                : Creative Directing Studio: Channels/Web/Store
-                : Build Structures/LEVELS: Balance scope budget, and schedule
-                : NAVIGATION, Maps, Atmosphere, Weather,
-                : Progressing the game storyline and accessing new areas, better positioning on the map, better territory
-            : WHO/I: BAIT/SACRIFICE FOR-BY MOTHERBEAST OR SON FOR-BY FATHERGOD?
-                : Relations (e.g., "bigger than," "father of"), FAMILIAR= Mother*Father... Blood/Tribe/Race/Specie/Genus/Status...: Personality, Community (Polis), .
-                : NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-                : Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
-                : JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
-                : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya
-                : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa
-                : David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb
-            : WHAT/BODY: SPOIL FOR-BY SOILVOID OR FRUIT FOR-BY SEEDWORD?
-                : Weights&Measures, Letters/Spells, 
-                : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-                : Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy
-                : Mental Library, pokedex, Map, 
-                : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
-                : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges            
         : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
             ~GRATIFICATION/GOLDEN-MEAN-0: The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
                 : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
@@ -194,6 +182,14 @@
                     : Immediate (not needing proof).
                     : More knowable than conclusions.
                 : Empty, Void of Substance
+    ~CORRECT-PARSE-SYNTAX-GRAMMAR: 5=POSITION, 6=LODIAL, 7=FACT
+        : FOR THE CAUSE
+        : OF THE EFFECT
+        : IS/ARE-THINKING
+        : WITH THE DUTY/PERFORMANCE
+        : OF THE TERMS
+        : WITH THE CONTRACT
+        : BY THE AUTHORITY: AGENT/PLAYER/CORPORATION: knowledge-based agent(s) that reason by operating on knowledge
 
    ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS: POSTAL-MECHANICS, NOW-SPACE?
         ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
