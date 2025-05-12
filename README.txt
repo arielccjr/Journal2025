@@ -1,16 +1,5 @@
 # **~NOT() >>> IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE(), SEEN/HEARD/FELT/SMELLED/TASTED**
     ~SYNTAX-KEY-CODES: OF THE NATURAL-LANGUAGE/FALLACIES:
-        0=CONJUNCTION= AND, OR, &, /
-        1=ADVERB, 3=ADJECTIVE, 4=PRONOUN
-        2=VERB= IS/ARE, 8=PAST-TENSE, 9=FUTURE-TENSE, DPV=DANGLING-PARTICIPLE-VERB.
-        NC=NEGATIVE-CONTEXT.
-        BS=LAW OF THE BOXING/BRACKETS.
-        ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
-        FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
-        PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
-        QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
-        LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-        VC=VOID-CONTINUANCE = ".", ",", "?", "!"
     ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
     ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
         : It has three parts:
@@ -18,10 +7,6 @@
             : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
             : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". (Demonstrated conclusion)
         : Identifying Syllogistic Figures & Moods: based on how terms are positioned.
-            : Figure 1: Middle term is subject in one premise, predicate in another.
-            : Figure 2: Middle term is predicate in both premises.
-            : Figure 3: Middle term is subject in both premises.
-            : Figure 4: Middle term switches placement.
         : Each figure contains valid or invalid moods, which define how premises are arranged using:
             : A (Universal Affirmative: "All A are B"). “All men are wise.” 
             : E (Universal Negative: "No A are B"). “No man is wise.”
