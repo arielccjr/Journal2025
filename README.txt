@@ -1,39 +1,4 @@
 # **~NOT() >>> IN:SEE/HEAR/FEEL/SMELL/TASTE()-OUT:BE(), SEEN/HEARD/FELT/SMELLED/TASTED**
-    ~SYNTAX-KEY-CODES: OF THE NATURAL-LANGUAGE/FALLACIES:
-    ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
-    ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
-        : It has three parts:
-            : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
-            : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
-            : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". (Demonstrated conclusion)
-        : Identifying Syllogistic Figures & Moods: based on how terms are positioned.
-        : Each figure contains valid or invalid moods, which define how premises are arranged using:
-            : A (Universal Affirmative: "All A are B"). “All men are wise.” 
-            : E (Universal Negative: "No A are B"). “No man is wise.”
-            : I (Particular Affirmative: "Some A are B"). 
-            : O (Particular Negative: "Some A are not B")
-    ~STATEMENT: are combinations of words that express truth or falsity.
-        : Contradictory statements: One must be true, the other false.
-            : Affirmation: “Socrates is wise.”
-            : Negation: “Socrates is not wise.”
-        : Contrary statements: Both cannot be true, but both can be false. 
-        : Modal Logic/Implication: Helps in predicting future truths without contradiction.
-            : Necessity: Something must be true. “The sun must rise.”
-            : Possibility: Something may or may not be true. “It may rain tomorrow.”
-    ~WORD/TERM: Symbol of mental concepts. 
-        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
-            ~LEAST-COMMON-DENOMINATOR-(+/-)1: POSITIVE (+1/Excess) VS NEGATIVE (-1/Deficiency)
-        : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
-            ~GRATIFICATION/GOLDEN-MEAN-0: The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
-                : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
-                    : True (not subject to doubt).
-                    : Primary (not from anything else).
-                    : Immediate (not needing proof).
-                    : More knowable than conclusions.
-                : Empty, Void of Substance
-    ~CORRECT-PARSE-SYNTAX-GRAMMAR: 5=POSITION, 6=LODIAL, 7=FACT
-        : FOR THE CAUSE OF THE EFFECT IS/ARE-THINKING WITH THE DUTY/PERFORMANCE OF THE TERMS WITH THE CONTRACT BY THE AUTHORITY
-    
     ~WHAT-IF...? WHY-HOW?: Cause & Effect:
         ~FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
         : Material – What something is made of (e.g., a statue is made of marble).
@@ -113,6 +78,41 @@
                 : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                 : Spermatogenesis(Testes) & Oogenesis(Ovaries)
                 : Elements, Metals/Conductors       
+ 
+    ~SYNTAX-KEY-CODES: OF THE NATURAL-LANGUAGE/FALLACIES.
+    ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
+    ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
+        : It has three parts:
+            : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
+            : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
+            : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". (Demonstrated conclusion)
+        : Identifying Syllogistic Figures & Moods: based on how terms are positioned.
+        : Each figure contains valid or invalid moods, which define how premises are arranged using:
+            : A (Universal Affirmative: "All A are B"). “All men are wise.” 
+            : E (Universal Negative: "No A are B"). “No man is wise.”
+            : I (Particular Affirmative: "Some A are B"). 
+            : O (Particular Negative: "Some A are not B")
+    ~STATEMENT: are combinations of words that express truth or falsity.
+        : Contradictory statements: One must be true, the other false.
+            : Affirmation: “Socrates is wise.”
+            : Negation: “Socrates is not wise.”
+        : Contrary statements: Both cannot be true, but both can be false. 
+        : Modal Logic/Implication: Helps in predicting future truths without contradiction.
+            : Necessity: Something must be true. “The sun must rise.”
+            : Possibility: Something may or may not be true. “It may rain tomorrow.”
+    ~WORD/TERM: Symbol of mental concepts. 
+        : FIXES: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
+            ~LEAST-COMMON-DENOMINATOR-(+/-)1: POSITIVE (+1/Excess) VS NEGATIVE (-1/Deficiency)
+        : ROOTS: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
+            ~GRATIFICATION/GOLDEN-MEAN-0: The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+                : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
+                    : True (not subject to doubt).
+                    : Primary (not from anything else).
+                    : Immediate (not needing proof).
+                    : More knowable than conclusions.
+                : Empty, Void of Substance
+    ~CORRECT-PARSE-SYNTAX-GRAMMAR: 5=POSITION, 6=LODIAL, 7=FACT
+        : FOR THE CAUSE OF THE EFFECT IS/ARE-THINKING WITH THE DUTY/PERFORMANCE OF THE TERMS WITH THE CONTRACT BY THE AUTHORITY
        
     ~LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS: POSTAL-MECHANICS, NOW-SPACE?
         ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
