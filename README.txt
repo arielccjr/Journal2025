@@ -1,24 +1,25 @@
 Why-How do we [KNOW(), BE(KNOWN)], if not[IN(), OUT()]? 
     : SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL-LANGUAGE, HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.
-    : AWAKENING FOR-BY REALITY?: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
         : SURPRISE: WAIT FOR-BY BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
-        : SCHEDULE: WHEN/Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
-            : CHANCE FOR-BY DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
-            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
         : FOREIGN: TRAP FOR-BY WILDWORLD = The Rat Race, Hierarchy
-        : HOME: WHERE/Space: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-            : WAY FOR-BY KINGDOMHEAVEN = Creative Directing Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: Progressing the game storyline and accessing new areas, better positioning on the map, better territory
         : STRANGER: BAIT/SACRIFICE FOR-BY MOTHERBEAST = NPCs/Requests/Puzzles, Alone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-        : FAMILIAR: WHO/Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
-            : SON FOR-BY FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
-            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
-            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
         : UNKNOWN: SPOIL FOR-BY SOILVOID = Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy; NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
             : not[SEE, BE(SEEN)] / Blinking/Hiding, Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
             : not[HEAR, BE(HEARD)] / Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
             : not[FEEL, BE(FELT)] / Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
             : not[SMELL, BE(SMELLED)] / MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
             : not[TASTE, BE(TASTED)] / FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
+    : AWAKENING FOR-BY REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
+        : SCHEDULE: WHEN/Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
+            : CHANCE FOR-BY DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
+            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+        : HOME: WHERE/Space: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+            : WAY FOR-BY KINGDOMHEAVEN = Creative Directing Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: Progressing the game storyline and accessing new areas, better positioning on the map, better territory
+        : FAMILIAR: WHO/Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
+            : SON FOR-BY FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
+            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
+            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
+
         : KNOWN: WHAT, Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT FOR-BY SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 

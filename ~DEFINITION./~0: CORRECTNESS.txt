@@ -1,57 +1,3 @@
-: SYNTAX-KEY CODES:
-    0=CONJUNCTION= AND, OR, &, /, 
-	1=ADVERB = 
-		: suffix: -LY
-		: ADVERBS-GUIDE-LIST:
-		: [NOT APPLY ON THESE WORDS = JULY, ITALY, AND WORDS-ENDING WITH THE -PLY: APPLY, COMPLY, SUPPLY, MULTIPLY]	
-    2=VERB = IS/ARE,
-    3=ADJECTIVE
-    4=PRONOUN
-    5=POSITION
-    6=LODIAL
-    7=FACT
-    8=PAST-TENSE:
-		: SUFFIX: -ed, -en
-		: been, had, has, have, past, was, were, voted
-	9=FUTURE-TENSE:
-		: can, could, may, shall, should, to, will, would
-	NC=NEGATIVE-CONTEXT:
-		: PREFIX:
-			: VOWELS: A-/a-, E-/e-, I-/i-, O-/o-, U-/u-
-			: VOWEL+TWO CONSONANTS: Abb-, Acc-, Add-, Env-, Ill-, Itc...  
-			: DE- DIS-, IN, NO/NON
-			: PRE-, PRO-, PUR-, RE-. UN-
-			: ANTE-, CIRCUM-, COUNTER-, INTER-, INTRA-, SUB-, SUPER-, UNDER-, ULTRA-
-	DPV=DANGLING-PARTICIPLE-VERB.
-	BS=LAW OF THE BOXING/BRACKETS.
-	ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
-	FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
-	PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
-	QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
-	LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-	VC=VOID-CONTINUANCE = ".", ",", "?", "!",
-
-: SYNTAX-CHECKLIST:
-    ~1: Look for a place to put your BASIC-SYNTAX-KEY-CODE, place it.
-    ~2: Scan/check document for the following F.-S.-G. & add each one to BASIC-SYNTAX-KEY-CODE, that you find in the document.
-    ~3: SYNTAX ONLY THE FIRST SENTENCE OF EVERY PARAGRAPH.
-
-    ~12: Place FULL-SIZE FENCE at all places where there is PUNCTUATION of VOID-CONTINUANCE.
-    ~13: Find & mark all ADVERBS=1, -ly=1, & mark all CONJUNCTIONS=0. 
-        Place FULL-SIZE-FENCE both sides of the CONJUNCTIONS 
-        : & HALF-FENCES/MARKS left of the THREE-ADVERBS in a row or TWO-ADVERBS in a row or ONE-SINGLE-ADVERB.
-    ~14: Check for THREE-ADVERBS in a row? 
-        ANSWER=NO, GOTO STEP-15, 
-        ASNWER=YES, START-HERE>:
-            THREE-ADVERBS convert to 1 2 1
-            FOUR ADVERBS convert 1 1 2 1 OR 1 2 1 1
-    ~15: Now SYNTAX what is left with>: 
-        PRONOUN=4
-        VERB=2
-        ADJECTIVE+PRONOUN=3>4
-        : NOTE: An ADVERB-WORD NOT ending in -ly(suffix)=THE or a WORD, isolated by itself, by punctuation or by void-continuance/spaces, converts to a PRONOUN=4, 
-            but not an ADVERB-WORD-ENDING in an -ly(suffix)=GRAMMARLY=1, stays an ADVERB=1 (ALWAYS).
-
 : ADVERB-SYNTAX-RULES:
     : RULE-1: For the -ly-ADVERBS stay an ADVERB-ALWAYS.
     : RULE-2: NO MORE THAN THREE-ADVERBS IN A ROW. 
@@ -83,28 +29,6 @@
     : RULE-10: An adverb before a conjunction remains an adverb, 
         because it’s not the end of a sentence or punctuation. 
 
-: SYNTAX-SEQUENCE-KEY:
-    : Fence =           |
-    : Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
-    : Punctuation=		|[Punctuation]|
-    : and, &, or, /=	|0|
-    : -ly word=		    |1(-ly)|
-    : Adverb-List word=	|1 1|
-                        |1 1 1|
-                        |1 1(-ly) 1|
-    Verb: =			    |1 2|
-                        |1 2 1|
-                        |1 1 2 1(-ly)|
-    Adjective-Pronoun=	|1| >>> |4|
-                        |1 3 4|
-                        |1 3... 3 4|
-                        |3 4|
-                        |3... 3 4|
-                        |4|
-                        |4 1|
-    End of Sentence=	|1(.?!)| >>> |4|
-                        |1 1(.?!)| >>> |1 2DPV[End](.?!))|	
-
 ###################################################################################################################################
 : CHAPTER-~0:
     :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
@@ -116,15 +40,25 @@
         : SYNTAX-KEY-CODE:
             0=CONJUNCTION=AND, OR, &, /, 
             1=ADVERB = MODIFIER
+                : suffix: -LY
+                : ADVERBS-GUIDE-LIST:
+                : [NOT APPLY ON THESE WORDS = JULY, ITALY, AND WORDS-ENDING WITH THE -PLY: APPLY, COMPLY, SUPPLY, MULTIPLY]	
             2=VERB = IS/ARE,
             3=ADJECTIVE = COLOR-OPINION-MODIFIER,
             4=PRONOUN = NO-NO-NO,
             5=POSITION = ABC, WORD-SPELLING-TERM,
             6=LODIAL = OWNERSHIP [ARTICLE],
             7=FACT [NOUN],
-            8=PAST-TENSE=FROM, -ED,
+            8=PAST-TENSE=FROM, -ED, -EN
+		        : been, had, has, have, past, was, were, voted
             9=FUTURE-TENSE=PRE, TO = FICTION,
-            NC=NEGATIVE-CONTEXT,
+		        : can, could, may, shall, should, to, will, would
+            NC=NEGATIVE-CONTEXT, : PREFIX:
+                : VOWELS: A-/a-, E-/e-, I-/i-, O-/o-, U-/u-
+                : VOWEL+TWO CONSONANTS: Abb-, Acc-, Add-, Env-, Ill-, Itc...  
+                : DE- DIS-, IN, NO/NON
+                : PRE-, PRO-, PUR-, RE-. UN-
+                : ANTE-, CIRCUM-, COUNTER-, INTER-, INTRA-, SUB-, SUPER-, UNDER-, ULTRA-
             DPV=DANGLING-PARTICIPLE-VERB.
             BS=LAW OF THE BOXING/BRACKETS.
             ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
@@ -132,8 +66,8 @@
             PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
             QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
             LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
-            VC=VOID-CONTINUANCE
-                
+            VC=VOID-CONTINUANCE = ".", ",", "?", "!"
+               
             [NO-FLAG][FICTION-FLAG-SAMPLE]
             NO	LAW	OR	FACT	SHALL	BE	TRIED	IN	COURT.
             1	2	0	2		4.9		1	2.8		1	2 DPV
