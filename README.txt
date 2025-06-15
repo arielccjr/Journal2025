@@ -1,10 +1,5 @@
-~what-if not[IN(), OUT()]:
-    : not[SEE, BE(SEEN)] / Blinking/Hiding, Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
-    : not[HEAR, BE(HEARD)] / Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
-    : not[FEEL, BE(FELT)] / Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
-    : not[SMELL, BE(SMELLED)] /  MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
-    : not[TASTE, BE(TASTED)] / FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
-~why-how do we KNOW(), BE(KNOWN)? / SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL LANGUAGE, HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.
+Why-How do we [KNOW(), BE(KNOWN)], if not[IN(), OUT()]? 
+    : SLEEPING FOR-BY DREAM: MADNESS, NIGHTMARE, Worst Case, FALLACIES: DIVISION, LACKING, NATURAL-LANGUAGE, HIERARCHY = EAT AND BE EATEN. FORGET-ERASE NATURAL-ENGLISH.
     : AWAKENING FOR-BY REALITY?: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
         : SURPRISE: WAIT FOR-BY BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
         : SCHEDULE: WHEN/Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
@@ -19,48 +14,54 @@
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
         : UNKNOWN: SPOIL FOR-BY SOILVOID = Disruptions, Damages, Anomalies (Dice), liabilities, Low Health, Scarcity/Finity, Bankruptcy; NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
+            : not[SEE, BE(SEEN)] / Blinking/Hiding, Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
+            : not[HEAR, BE(HEARD)] / Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
+            : not[FEEL, BE(FELT)] / Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
+            : not[SMELL, BE(SMELLED)] / MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
+            : not[TASTE, BE(TASTED)] / FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination
         : KNOWN: WHAT, Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT FOR-BY SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
             : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
             : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
             : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
-        : SEEN:
-            : EYES: Camera, Optical/Ocular System, Photoreceptor, 
-            : VIEW: 1st, 2nd(Possess), 3rd(God View), 
-            : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
-            : ANGLE: Up-Down, Right-Left
-            : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
-            : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential
-            : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-            : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-        : HEARD: 
-            : EARS: RodeMic, 
-            : RHYTHM: Beat, Amp/Volume
-            : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
-            : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
-        : FELT: 
-            : SKINS: Hands, Feet, Mouse, Keyboard, Controller
-            : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
-            : TEXTURE: Rough, Smooth
-            : MASS: Light, Heavy
-            : SPEED: Slow, Fast, 
-            : PAN:
-            : TILT:
-            : ZOOM: In, Out
-            : EMOTION: Reaction, INERTIA, Love, Hate
-            : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor       
-        : SMELLED:
-            : NOSE: Lungs, Air, Diffusion
-            : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
-            : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
-        : TASTED: 
-            : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
-            : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
-            : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
-                : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
-                : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-                : Elements, Metals/Conductors       
+            : SEEN:
+                : EYES: Camera, Optical/Ocular System, Photoreceptor, 
+                : VIEW: 1st, 2nd(Possess), 3rd(God View), 
+                : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
+                : ANGLE: Up-Down, Right-Left
+                : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
+                : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential
+                : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
+                : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
+            : HEARD: 
+                : EARS: RodeMic, 
+                : RHYTHM: Beat, Amp/Volume
+                : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
+                : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
+            : FELT: 
+                : SKINS: Hands, Feet, Mouse, Keyboard, Controller
+                : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
+                : TEXTURE: Rough, Smooth
+                : MASS: Light, Heavy
+                : SPEED: Slow, Fast, 
+                : PAN:
+                : TILT:
+                : ZOOM: In, Out
+                : EMOTION: Reaction, INERTIA, Love, Hate
+                : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor       
+            : SMELLED:
+                : NOSE: Lungs, Air, Diffusion
+                : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
+                : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
+            : TASTED: 
+                : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
+                : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
+                : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+                    : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
+                    : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+                    : Elements, Metals/Conductors       
+        
         ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
             ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
