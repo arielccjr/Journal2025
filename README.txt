@@ -19,30 +19,30 @@ Why-How do we [KNOW(), BE(KNOWN)], if not[IN(), OUT()]?
             : SON FOR-BY FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
-
         : KNOWN: WHAT, Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT FOR-BY SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
-            : Skills / Experience Points, Abilities/Stats, New Moves, Karma, Art & Design: Color, Logo, Web, Comics, Video, Audio, Game, Store Set Up
+            : Skills / Experience Points, Abilities/Stats, New Moves, Karma,
             : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
-            : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix... 
+            : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix...
             : SEEN:
                 : EYES: Camera, Optical/Ocular System, Photoreceptor, 
                 : VIEW: 1st, 2nd(Possess), 3rd(God View), 
                 : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
                 : ANGLE: Up-Down, Right-Left
-                : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio)
-                : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag, Media: Comics, Shows, Movies, Physique+Beauty, Portrait/Figure, Character, Concept/Sequential
+                : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio), 
+                : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, t Store-Set-Up
                 : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
                 : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
             : HEARD: 
                 : EARS: RodeMic, 
-                : RHYTHM: Beat, Amp/Volume
+                : RHYTHM: Beat, Note
+                : VOLUME/AMP:
                 : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
                 : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
             : FELT: 
                 : SKINS: Hands, Feet, Mouse, Keyboard, Controller
-                : TEMPERATURE: Cold, Warm, Hot, Weather:  Humidity, Pressure
+                : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
                 : TEXTURE: Rough, Smooth
                 : MASS: Light, Heavy
                 : SPEED: Slow, Fast, 
@@ -58,7 +58,7 @@ Why-How do we [KNOW(), BE(KNOWN)], if not[IN(), OUT()]?
             : TASTED: 
                 : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
                 : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
-                : CREATED: BODY/Flesh/Blood, Physique/Health(CAFBasicTraining), Seed(TaoistNoNut)
+                : CREATED: BODY/HEALTH, Flesh/Blood, Seed(TaoistNoNut)
                     : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
                     : Spermatogenesis(Testes) & Oogenesis(Ovaries)
                     : Elements, Metals/Conductors       
