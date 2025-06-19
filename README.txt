@@ -42,24 +42,24 @@
             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
     : WHERE?: FOREIGN: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
         : HOME: Space: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-            : WAY for-by KINGDOMHEAVEN = Creative Directing Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: Progressing the game storyline and accessing new areas, better positioning on the map, better territory    : WHO?: STRANGER: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
+            : WAY for-by KINGDOMHEAVEN = Creative Directing Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: Progressing the game storyline and accessing new areas, better positioning on the map, better territory    
+    : WHO?: STRANGER: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
         : FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
             : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
     : WHAT?: UNKNOWN: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Dream/Nightmare, Division, Madness
+        : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
         : KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
+        : AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
             : Skills / Experience Points, Abilities/Stats, New Moves, Karma,
             : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
             : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix...
-: AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
-
-NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
-
-    ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
-    ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
+        ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
+        ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
+        
         ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
             : It has three parts:
                 : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
