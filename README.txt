@@ -1,5 +1,6 @@
-: MIRROR/LABEL?: 
-    : SEEN?: It seems like...: not[SEE, BE(SEEN)] / Blinking/Hiding, Cover, Void, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
+FOR THE BEING-ONE WITH THE LORD. 
+: MIRROR: [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
+    : SEE, BE(SEEN)?: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
         : EYES: Camera, Optical/Ocular System, Photoreceptor, 
         : VIEW: 1st, 2nd(Possess), 3rd(God View), 
         : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
@@ -8,12 +9,12 @@
         : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, t Store-Set-Up
         : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
         : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-    : HEARD?: It sounds like...: not[HEAR, BE(HEARD)] / Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
+    : HEAR, BE(HEARD)?: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
         : RHYTHM: Beat, Note
         : VOLUME/AMP:
         : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
         : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
-    : FELT?: It feels like...: not[FEEL, BE(FELT)] / Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
+    : FEEL, BE(FELT)?: Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
         : SKINS: Hands, Feet, Mouse, Keyboard, Controller
         : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
         : TEXTURE: Rough, Smooth
@@ -24,18 +25,18 @@
         : ZOOM: In, Out
         : EMOTION: Reaction, INERTIA, Love, Hate
         : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor       
-    : SMELLED?: It smells like...: not[SMELL, BE(SMELLED)] / MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
+    : SMELL, BE(SMELLED)?: MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
         : NOSE: Lungs, Air, Diffusion
         : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
         : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
-    : TASTED?: It tastes like...: not[TASTE, BE(TASTED)] / FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination       : EARS: RodeMic, 
+    : TASTE, BE(TASTED)?: FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination       : EARS: RodeMic, 
         : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
         : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
         : CREATED: BODY/HEALTH, Flesh/Blood, Seed(TaoistNoNut)
             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
             : Elements, Metals/Conductors       
-: WHY-HOW do we [KNOW(), BE(KNOWN)], if not[IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?: SLEEPING for-by DREAM:  FORGETING-TERMINATING
+: WHY-HOW do we [KNOW(), BE(KNOWN)]: SLEEPING for-by DREAM:  FORGETING-TERMINATING
     : WHEN?: SURPRISE: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
         : SCHEDULE: Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
             : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
@@ -51,14 +52,14 @@
     : WHAT?: UNKNOWN: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Dream/Nightmare, Division, Madness
         : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
         : KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
-        : AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS! KNOW AND BE KNOWN. SENSES IN LATIN-&-GREEK: 
+        : AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
             : Skills / Experience Points, Abilities/Stats, New Moves, Karma,
             : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
             : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix...
         ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
-        ~REFUTATION (Refutatio): Anticipates counterarguments and disproves them. clarify ambiguous terms, sentence structure, or assumptions usually suffices & focus on the logical structure, causation, or evidentiary support is essential. 
+        ~REFUTATION (Refutatio): clarify ambiguous terms, sentence structure, or assumptions & focus on the logical structure, causation, or evidentiary support is essential. 
         
         ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
             : It has three parts:
@@ -87,74 +88,1097 @@
                 : Prime Mover (God), a being that causes motion without itself being moved. To avoid infinite regress, there must be a first, unmoved mover.
                     : True, Primary, Immediate, More knowable than conclusions.
                 : Empty, Void of Substance
-   
-    ~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-        ~0: CLOCK[TIME-SEQUENCE]: 
-        ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
-            : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
-                ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
-                ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
-                ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
-                ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
-                ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
-                ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
-                ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
-            : RANDOM-ACCESS-MEMORY[DATA]: 
-                : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
-                    : NOT (in=sel, out=NOTsel)
-                    : AND (in=a, in=NOTsel, out=aANDNOTsel)
-                    : AND (in=sel, in=b, out=selANDb)
-                    : OR (in=aANDNOTsel, in=selANDb, out=out)
-                : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
-                    : AND (in=column, in=row, out=columnANDrow)
-                        : AND (in=data, in=write-enable, out=set)
-                        : NOT (in=data, out=NOTdata)
-                        : AND (in=NOTdata, in=write-enable, out=reset)
-                            : OR (in=set, in=outLOOP, out=setORoutLoop)
-                            : NOT (in=reset, out=NOTreset)
-                            : AND (in=setORoutLOOP, in=NOTreset, out=out)
-                : AND-OR-LATCH/MEMORY-REGISTER[MEMORY-BIT(0/1)]: 
-                    : OR-LOOP (in=a, in=b, out=1)
-                    : AND-LOOP (in=a, in=b, out=0)
-        ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
-            : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
-            : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-                : INPUT-STATEMENTS: 
-                    : IMPORT Library/Package
-                    : DECLARE/INITIALIZE Variables
-                    : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Retrieve data from the database. To access and analyze stored information.
-                : OUTPUT-STATEMENTS:
-                    : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
-                        : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-                        : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-                        : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
-                    : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-                        : While: Repeats while a condition is true. To handle indefinite iteration.
-                        : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-                        : For: Iterates a specific number of times. To handle definite iteration.
-                    : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
-                        : Then/Else/Next...  
-                        : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
-                        : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
-                : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-                : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-                    : STORE IN MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-                : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-                : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-                : SEARCH, ATTENTION ARCHITECTURE...
-        ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
-            : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
-                : XOR (in=a, in=b, out=abSUM)
-                    : AND (in=a, in=b, out=aANDb);
-                    : NOT (in=aANDb, out=NOTaANDb);
-                    : OR (in=a, in=b, out=aORb);
-                    : AND (in=NOTaANDb, in=aORb, out=out);
-                : AND (in=a, in=b, out=abCARRY)
-                    : >XOR (in=abSUM, in=c, out=abcSUM)
-                    : >AND (in=abSUM, in=c, out=abcCARRY)
-                        ; >OR (in=abCARRY, in=abcBARRY, out=out)
-            : LOGIC-UNIT: NOT, AND, OR... 
-            : BIT-FLAGS: LEAST-COMMON-DENOMINATOR: 
-                : OVERFLOW/EXCESS(>): +1
-                : NEGATIVE/DEFICIENCY(<): -1
-                : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+
+: NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
+    : -ion, -ation (noun suffix added to verbs)
+: VERB: -ate, -ize, -fy (verb suffix)
+    : -ize, -ate (verb suffix)
+        : -ment (noun suffix attached to verbs)
+    : -y (practice, custom)
+: ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
+    : -osis (abnormal, diseased condition)
+    : dis- (pejorative prefix)
+    : -itis (inflammation)
+: ADVERB: -ly
+ 
+    ~WHY-HOW: ACTIONS/OPERATIONS/BEING:
+        : par, aequus, equ- (equal)
+            : homos (the same)
+            : similis, -ine (like, similar to, characteristic of, descriptive of)
+        : magnus, mega (big, large, great)
+            : grandis (grand)
+            : potens, potentis (powerful)
+            : sophos (wise)
+            : opulentus (wealthy)
+        : mikros (small)
+            : pusillus (tiny)
+        : a-, an-, ana-, im- in-, un-, ne-, dis-, de- (not, negative)
+            : mis-, mix- (wrongly, badly)
+            : miser (wretched)
+            : pejor (worse)
+        : bon, bona, bonus, bene, eu- (good, well)
+        
+        : scio (to know)
+            : sciens, gnostos (knowing)
+            : credo (to believe)
+            : mancy (fortelling, prediction)
+            : fides (faith), fidelis (faithful)
+            : moros (foolish)
+            : clam (secretly)
+            : sophos (wise)
+        : scribe (write)
+        
+        : ovum (to give birth, produce)
+            : facio, factus, fec-, fic, fy (to do, make)
+            : verto, versus (to turn)
+                : -ible (can be, able to be) 
+            : opero, ergon (to work)
+            : vivo (to live)
+            : -esce (begin to)
+            : -escent (growing, becoming)
+            : coctus (cook)
+        
+        : opsis, optikos (sight or vision)
+            : scopein (see)
+            : specio, specto, spectus (to look)
+            : phanein (to show)
+            : clarus (clear, bright, distinct, or evident)
+            : graphein, scribo, scriptus (to write)
+            : simulo (to copy)
+            : vanesco (to vanish)
+            : kallos (beauty)
+            : kakos, malus (bad, harsh, evil, ugly)
+        
+        : audi (hear)
+        : dico, dictus (to say, tell)
+            : sonus, phone (sound)
+            : loquere (speak)
+            : loquor (to speak)
+            : garrio (to chatter)
+            : strepo (to make a noise)
+            : queror (to complain)
+            : taceo (to be silent)
+            : terpido (to treble)
+        
+        : sensus, sentio (feel)
+            : tactus (touch)
+            : gage ()
+            : pathos (disease, suffering, feeling)
+            : misein (hate)
+            : phobia (fear, morbid dread)
+            : cura (care)
+                : iatreia (medical healing)
+                : philein, philos (love, loving)
+                : plac- (to please, appease, soothe, pacify)
+                : orthos (straight, correct)
+            : prurio (to itch, to long for)
+            : volo (to wish, to will, to be willing)
+        : obstetrix (to stand)
+            : sedeo, sess-, sid- (sit)
+            : fero (to bear, carry)
+            : haero (stick)
+            : lactus (gather)
+            : -ple, -plex, pli-, plic-, plico-, -ply (fold)
+        : cedo, itus (go)
+            : veni (come)
+            : ambulo (to walk)
+            : vale (farewell)
+            : fugio (flee)
+            : volvo, volutus (to roll)
+            : flu-, fluct-, fluo-, fluv-, flux- (flow)
+            : cado (to fall)
+            : archein (to rule)
+            : agogos (leading)
+            : sequor (to follow)
+            : nostos (return, home)
+            : dono (to give)
+            : nego (to deny)
+            : vacillo (to swing back and forth)
+                : oscillum (a swing)
+            : dipsa (thirst)
+        
+        : claudo, claus-, claustro-, clausus-, clois-, clud-, clus- (shut) 
+            : seco, sectus (cut)
+            : acuo (to sharpen)
+            : tome (a cutting)
+            : pungo (to pierce sharply)
+        : -cide (killing)
+            : voro (to devour)
+            : insidia (ambush)
+            : incendo, incensus (to set fire)
+            : ardo, arsus (to burn)
+        : klaein (to break)
+            : jacio, ject- (throw)
+
+    ~WHAT: KNOWN THINGS
+       : bios, vita (life)
+        : soma (body)
+            : osteon (bone)
+            : carnis (flesh)
+            : caput, capitis (head), capitulum (little head, chapter heading)
+                : neuron, nervus (nerve)
+                    : algos, odyne (pain)
+                    : phobia (morbid dread)
+                    : penuria (need, neediness)
+                    : amo (love)
+                : cheir, chiro-, manus (hand)
+                    : dexter, droit (right hand)
+                    : sinister, gauche (left hand)
+                    : derma (skin)
+                    : therme (heat)
+                : kardia (heart)
+                    : sphygmos (pulse)
+            : ophthalmos, oculus (eye)
+                : optikos (vision)
+                : photos, levis (light)
+                    : scintilla (a spark)
+                    : pyros (fire)
+                : cilium (eyelid)
+            : auris (ear)
+                : phone (sound)
+            : pedis, pous, pod-, podos (foot)
+                : pyge (buttocks)
+            : lingua, glotta (tongue, language)
+                : Anglus (English)
+                : vox, vocis (voice)
+                : pheme (voice)
+                : odontos (tooth)
+                : dipsa (thirst)
+                : venter, ventris (belly)
+        : baros (weight)
+            : libra (balance, weight, pound)
+        : kyklos (wheel)
+        : alma (soul)
+            : psyche (spirit, soul, mind)
+            : animus (mind)
+            : anima (soul, spirit, life, principle)
+            : fides (faith)
+        : logos (science, study, word, speech)
+            : gnostos (known), gnosis (knowledge)
+            : litteras (letters)
+            : verbum (word)
+            : onyma (name)
+            : biblion (book)
+            : eikon (religious image)
+            : mania (madness)
+            : opus (work)
+        : somnus, sopor (sleep)
+        : panis (bread)
+        : pareo (egg)
+        : cornu (horn)
+        : dendron (tree)
+            : valva (leaf)
+            : herba (herb)
+            : xylon, boscus (wood)
+            : sykon (fig)
+
+    ~WHO: PERSONALITIES
+        : sine (without)
+        : ego (self, I): "egoist"
+            : autos (self)
+            : unus (one)
+            : sui (of oneself)
+            : solus (alone)
+            : asketes (monk) "ascetic"
+        : alter (other): "alter ego"
+            : co-, col- com-, con-, cor-, cum-, syn-, sym- (with, together)
+            : socius (companion)
+            : gamos (marriage)
+                : -phile (lover)
+            : grex, gregis (herd, flock)
+            : polis (community)
+            : genos (race, kind)
+                : anthropos (mankind)
+                    : homo (person, human)
+                    : paidos, ped- (child)
+                        : infans, infantis (baby)
+                        : -ac, -er (noun suffix, one who)
+                        : -ist (person/one who)
+                        : -ician (expert)
+                        : theos, deus (God)
+                        : klepte (thief)
+                    : demos (people)
+            : omnis, pan (all)
+        : andros (male)
+            : puer (boy)
+            : vir (man)
+            : pater, patris (father)
+            : frater, fratis (brother)
+            : adelphos (brother)
+            : rex, regis (king)
+            : maritus (husband)
+            : geron (old man)
+            : militis (soldier)
+            : nautes (sailor)
+            : avanculus (uncle)
+            : Laconia (Sparta)
+        : gyne (woman)
+            : mater, matris (mother)
+            : soror (sister)
+            : nymphe (bride)
+            : uxor (wife)
+            : obstetrix (midwife) "obstetrician"
+        : zoion (animal)
+            : satyros (satyr)
+            : leo (lion)
+            : felis (cat)
+            : porcus (pig)
+            : canis (dog)
+            : vulpus (fox)
+            : ursus (bear)
+            : lupus (wolf)
+            : equus, cheval, hippos (horse)
+                : callabus, caval- (inferior horse)
+            : piscis (fish)
+            : pecus (cattle)
+            : (bird)
+            : (lizard)
+            : ephemera (dayfly)
+
+    ~WHERE: SPACE
+        : platys, broad (flat)
+        : metron, -meter (measure)
+            : tele- (distance)
+            : gonia (angle)
+        : centrum, kentron (center)
+            : punctus (point)
+            : -ium, -ory (place where...)
+        : ad-, ag-, af-, al-, ap- (to, toward)
+            : pro- (forward, ahead, before)
+            : per-, dia- (through)
+            : inter- (between)
+            : trans- (across)
+        : ambi- (in/out)
+        : intro- (inward)
+            : en-, em-, in-, im- (in, into)
+            : internus (inside, within)
+            : endo- (inner, within)
+            : intra- (within, inside)
+            : intimus (innermost)
+        : extro- (outward)
+            : e-, ef-, ex- (out)
+            : epi (outermost)
+            : extra- (outside, beyond)
+        : epi-, ob- (on, upon)
+            : ana- (up)
+            : hyper (over)
+            : super (above)
+            : akros (top, highest)
+        : de- (down)
+            : hypos, sub- (under)
+            : sub (near, close to, under)
+        : peri-, circum- (around, surrounding)
+            : nostos (a return)
+        : anti-, dis, contra- (against, opposite)
+            : se-, dis-, ab- (apart, away)
+        : later- latus, lateris (side)
+        : dorsum (back)
+            : retro- (backward)
+        : via (road)
+        : murus (wall)
+        : claustrum (enclosed place)
+        : agora (market place)
+            : rus, ruris (country, farmlands)
+            : urbs (city)
+        : stoa (porch)
+        : astron (star)
+        : naus (ship)
+        : nomos (arrangement, law, order)
+        : ubique (everywhere)
+
+    ~WHEN: TIME
+        : chronos (time)
+            : annus, enn- (year)
+        : nihil (nothing)
+        : semi- (one-half)
+        : mono-, monos, unus (one)
+            : sesqui- (one and one-half)
+        : bi-, duo (two)
+            : ambi- (both)
+            : dicha- (in two)
+            : bini (two by two)
+        : tri- (three)
+        : quadr- (four)
+            : quartus (fourth)
+        : penta (five)
+            : quintus (fifth)
+        : sextus (sixth)
+        : septem (seven)
+        : okto (eight)
+        : decem, deka (ten)
+        : septuaginta (seventy)
+        : nonaginta (ninety)
+        : centum (hundred)
+        : mille (one thousand)
+        : poly-, polys, multus (many)
+        : geras (old age)
+            : senex (old)
+        : pre-, pro- (before, beforehand)
+            : genesis (birth, origin)
+        : post (after)
+            : thanatos (death)
+        : nox, noctis (night)
+        : re- (again, back)
+
+~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+    ~0: CLOCK[TIME-SEQUENCE]: 
+    ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
+        : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
+            ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
+            ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+            ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+            ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+            ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+            ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+            ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
+        : RANDOM-ACCESS-MEMORY[DATA]: 
+            : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
+                : NOT (in=sel, out=NOTsel)
+                : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                : AND (in=sel, in=b, out=selANDb)
+                : OR (in=aANDNOTsel, in=selANDb, out=out)
+            : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
+                : AND (in=column, in=row, out=columnANDrow)
+                    : AND (in=data, in=write-enable, out=set)
+                    : NOT (in=data, out=NOTdata)
+                    : AND (in=NOTdata, in=write-enable, out=reset)
+                        : OR (in=set, in=outLOOP, out=setORoutLoop)
+                        : NOT (in=reset, out=NOTreset)
+                        : AND (in=setORoutLOOP, in=NOTreset, out=out)
+            : AND-OR-LATCH/MEMORY-REGISTER[MEMORY-BIT(0/1)]: 
+                : OR-LOOP (in=a, in=b, out=1)
+                : AND-LOOP (in=a, in=b, out=0)
+    ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
+        : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
+        : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
+            : INPUT-STATEMENTS: 
+                : IMPORT Library/Package
+                : DECLARE/INITIALIZE Variables
+                : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Retrieve data from the database. To access and analyze stored information.
+            : OUTPUT-STATEMENTS:
+                : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
+                    : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+                    : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+                    : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
+                : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+                    : While: Repeats while a condition is true. To handle indefinite iteration.
+                    : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+                    : For: Iterates a specific number of times. To handle definite iteration.
+                : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
+                    : Then/Else/Next...  
+                    : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
+                    : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
+            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+                : STORE IN MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+            : SEARCH, ATTENTION ARCHITECTURE...
+    ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
+        : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
+            : XOR (in=a, in=b, out=abSUM)
+                : AND (in=a, in=b, out=aANDb);
+                : NOT (in=aANDb, out=NOTaANDb);
+                : OR (in=a, in=b, out=aORb);
+                : AND (in=NOTaANDb, in=aORb, out=out);
+            : AND (in=a, in=b, out=abCARRY)
+                : >XOR (in=abSUM, in=c, out=abcSUM)
+                : >AND (in=abSUM, in=c, out=abcCARRY)
+                    ; >OR (in=abCARRY, in=abcBARRY, out=out)
+        : LOGIC-UNIT: NOT, AND, OR... 
+        : BIT-FLAGS: LEAST-COMMON-DENOMINATOR: 
+            : OVERFLOW/EXCESS(>): +1
+            : NEGATIVE/DEFICIENCY(<): -1
+            : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+
+
+
+: ADVERB-SYNTAX-RULES:
+    : RULE-1: For the -ly-ADVERBS stay an ADVERB-ALWAYS.
+    : RULE-2: NO MORE THAN THREE-ADVERBS IN A ROW. 
+        SAMPLE= 1 1 1
+    : RULE-3: If there is only one word to the RIGHT of an ADVERB it will always be MODIFIED into a VERB=2. 
+        SAMPLE= 1 2.
+    : RULE-4: If there is only one word to the LEFT of an ADVERB it will always be MODIFIED into a PRONOUN=4.
+        SAMPLE= 4 1
+    : RULE-5: If there are TWO or more words to the LEFT of an ADVERB, 
+        it will always be MODIFIED into this ADJECTIVE>PRONOUN= 3 4 1
+        SAMPLE= 3 4 1
+    : RULE-6: If there are TWO or more words to the RIGHT of an ADVERB, 
+        it will always be  MODIFIED into this ADJECTIVE>PRONOUN= 3 4.
+        SAMPLE= 1 3 4
+    : RULE-7: An ADVERB farthest to the right, at the end of the sentence(full-fence, punctuation), will convert to a VERB=2, FIRST.
+        SAMPLE= 1 1 1 1. converts to 1 1 1 2.
+    : RULE-8: you would write if there was only one adverb and it was at the very end of the sentence 
+        you're going to convert it to a 4 with the exception or a note for yourself 
+        if that word the last word before the period or the question mark of the explanation mark 
+        if it was an -ly suffix word like family or sincerely then it will not convert to a two or four 
+        i'm sorry a four because l y always stays a one oh it and that would be your rule eight.
+    : RULE-8: It there are two adverbs at the end of a sentence, the last adverb gets converted to a verb. 
+        ( The rule only applies if the sentence ends with a (.), (?) or (!)
+        and doesn’t end with a (,), (:), (;), ([]) or (). 
+    : RULE-9: If the last word at the end of a sentence is an adverb, 
+        it’ll be converted into a pronoun, unless it ended in (-ly). 
+        A conjunction stays a conjunction. 
+        The word before the last (-ly) word would convert to a pronoun. 	
+    : RULE-10: An adverb before a conjunction remains an adverb, 
+        because it’s not the end of a sentence or punctuation. 
+
+###################################################################################################################################
+: CHAPTER-~0:
+    :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
+    :SYNTAX: fact= FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
+
+    ~0 Is for the WHY of the PARSE &: SYNTAXING with the FICTION-SYNTAX-GRAMMAR-WRONGS by the SYNTAX-KEY-CODE?
+        : WHAT GOES IN MUST COME OUT! 
+    ~1 Is for the HOW of the PARSE &: SYNTAXING with the showing of the wrong-grammar-methods withing the fiction-writing?
+        : SYNTAX-KEY-CODE:
+            0=CONJUNCTION=AND, OR, &, /, 
+            1=ADVERB = MODIFIER
+                : suffix: -LY
+                : ADVERBS-GUIDE-LIST:
+                : [NOT APPLY ON THESE WORDS = JULY, ITALY, AND WORDS-ENDING WITH THE -PLY: APPLY, COMPLY, SUPPLY, MULTIPLY]	
+            2=VERB = IS/ARE,
+            3=ADJECTIVE = COLOR-OPINION-MODIFIER,
+            4=PRONOUN = NO-NO-NO,
+            5=POSITION = ABC, WORD-SPELLING-TERM,
+            6=LODIAL = OWNERSHIP [ARTICLE],
+            7=FACT [NOUN],
+            8=PAST-TENSE=FROM, -ED, -EN
+		        : been, had, has, have, past, was, were, voted
+            9=FUTURE-TENSE=PRE, TO = FICTION,
+		        : can, could, may, shall, should, to, will, would
+            NC=NEGATIVE-CONTEXT, : PREFIX:
+                : VOWELS: A-/a-, E-/e-, I-/i-, O-/o-, U-/u-
+                : VOWEL+TWO CONSONANTS: Abb-, Acc-, Add-, Env-, Ill-, Itc...  
+                : DE- DIS-, IN, NO/NON
+                : PRE-, PRO-, PUR-, RE-. UN-
+                : ANTE-, CIRCUM-, COUNTER-, INTER-, INTRA-, SUB-, SUPER-, UNDER-, ULTRA-
+            DPV=DANGLING-PARTICIPLE-VERB.
+            BS=LAW OF THE BOXING/BRACKETS.
+            ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+            FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+            PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+            QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+            LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+            VC=VOID-CONTINUANCE = ".", ",", "?", "!"
+               
+            [NO-FLAG][FICTION-FLAG-SAMPLE]
+            NO	LAW	OR	FACT	SHALL	BE	TRIED	IN	COURT.
+            1	2	0	2		4.9		1	2.8		1	2 DPV
+
+            : For the Flag: C.-S.-S.-C.-P.-S.-G.-P.-FLAG.
+            For	the	words	of	the	Truth	are	with	the	facts	in	this	learning-module.
+            5	6	7		5	6	7		2	5		6	7		5	6		7 
+            For	the	cause	of	the	effect	is	with	the	performance	by	the	authority.
+
+        FOR THE CLAIMANT'S KNOWLEDGE (CAUSE)
+        OF THE FACTS (EFFECT)
+        IS/ARE (THINKING/ACTION)
+        WITH THE CLAIM-POSSESSIVE
+        OF THE TERMS (+/-)
+        WITH THE CONTRACT
+        BY THE AUTHOR.
+
+    : QUANTUM-TERMS:
+        ~CORRECT-PARSE-SYNTAX
+        : PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
+        : SYNTAX: fact=FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
+            : CONJUNCTION: FACT= ALSO, COMMAND, OR OPTION, EITHER.
+            : CLOSURE: FOR THESE WORD-TERM-CLAIMS OF THIS 
+            : ADVERBS-GUIDE-LIST: [FICTION]
+                : suffix: -LY
+                : ... (refer to the Guide-List)
+            : NOT-ADVERBS-GUIDE-LIST:
+                : Between parenthesis, brackets, quotation marks
+                : -PLY
+            : TECHNIQUE OF THE KEEPING-IT-SIMPLE:
+                : 1=ADVERB becomes 4=PRONOUN when isolated by fences: |1>4|
+                : 1=ADVERB becomes 2=VERB when preceded by 1=ADVERB and followed by fence: |1 4>2|
+            : VERB: FACTS=: IS=SINGULAR-SYNTAX-TENSE, ARE=PLURAL-SYNTAX-TENSE, THINKING-MOTION.
+            :F.-S.-G: COMPOUND-FACT=:FRAUDULENT-SYNTAX-GRAMMAR OF THE VACANCY-CLOSURE.
+
+    : SYNTAX-CHECKLIST:
+        ~1: Look for a place to put your BASIC-SYNTAX-KEY-CODE, place it.
+        ~2: Scan/check document for the following F.-S.-G. & add each one to BASIC-SYNTAX-KEY-CODE, that you find in the document.
+        ~3: SYNTAX ONLY THE FIRST SENTENCE OF EVERY PARAGRAPH.
+        ~4: BS=LAW OF THE BOXING/BRACKETS.
+        ~5: ISS=VACATERS-WORDS/CHARACTERS IN THE ITALICS-FONT.
+        ~6: FS=CHANGING-FONTS-SIZES/VACATES-CONTINUANCE.
+        ~7: PS=VACATES-WORDS/CHARACTERS BETWEEN THE PARENTHESES.
+        ~8: QS=VACATES-WORDS/CHARACTERS BETWEEN THE QUOTATIONS.
+        ~9: LDS=VACATES-WORDS BETWEEN THE LONG-DASHES OR CHARACTERS-TOUCHING
+        ~10: VC=VOID-CONTINUANCE, AT THE SAMETIME, YOU DO THE FOLLOWING STEPS. [OPTIONAL]
+        ~11: NC=NEGATIVE-CONTEXT,
+            8=PAST-TENSE,
+            9=FUTURE-TENSE,
+            DPV=DANGLING-PARTICIPLE-VERB.
+            AT THE SAMETIME, YOU DO THE FOLLOWING STEPS.
+        ~12: Place FULL-SIZE-FENCE at all places where there is PUNCTUATION or VOID-CONTINUANCE.
+        ~13: Find & mark all ADVERBS=1 & mark all CONJUNCTIONS=0. 
+            Place FULL-SIZE-FENCE both sides of the CONJUNCTIONS 
+            & HALF-FENCES/MARKS left of the THREE-ADVERBS in a row 
+            or TWO-ADVERBS in a row or ONE-SINGLE-ADVERB.
+        ~14: Check for THREE-ADVERBS in a row? 
+            ANSWER=NO, GOTO STEP-4, 
+            ASNWER=YES, START-HERE>:
+                THREE-ADVERBS convert to 1 2 1
+                FOUR-ADVERBS convert 1 1 2 1 OR 1 2 1 1
+            : NOTE: An ADVERB farthest to the right, at the end of the sentence(full-fence) convert to a VERB=2, FIRST. 
+                SAMPLE= 1 1 1 1. converts to= 1 1 1 2.
+        ~15: STEP-4: Now SYNTAX what is left with: 
+            PRONOUN= 4
+            VERB= 2
+            ADJECTIVE+PRONOUN= 3 4
+            : NOTE: An ADVERB-WORD NOT ending in -ly(suffix)=THE 
+            or a WORD, isolated by itself, by punctuation 
+            or by void-continuance/spaces, converts to a PRONOUN=4, 
+            but not an ADVERB-WORD-ENDING in an -ly(suffix)=GRAMMARLY=1, stays an ADVERB=1 (ALWAYS).
+        ~16: Stamp or write out :FACTUAL-FORENSICS: in empty space, bottom of document.
+        ~17: Place of a Dollar-Postal-Stamp, top right & Autograph & seal.
+
+    : SYNTAX-SEQUENCE-KEY:
+        : Fence =           |
+        : Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
+        : Punctuation=		|[Punctuation]|
+        : and, &, or, /=	|0|
+        : -ly word=		    |1(-ly)|
+        : Adverb-List word=	|1 1|
+                            |1 1 1|
+        Verb: =			    |1 2|
+                            |1 2 1|
+        Adjective-Pronoun=	|1| >>> |4|
+                            |1 3 4|
+                            |1 3... 3 4|
+                            |3 4|
+                            |3... 3 4|
+                            |4|
+        End of Sentence=	|1(.?!)| >>> |4|
+                            |1 1(.?!)| >>> |1 2DPV[End](.?!))|
+
+###############################################################################################################
+: CLASS-~1:
+    : C.-S.-S.-C.-P.-S.-G.-P. : CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE.
+    : CORRECT=COMPREHENSION/KNOWLEDGE OF THE MATH-[IN]TERFACE.
+    : SENTENCE=BRINGING-THOUGHTS-JOINING-THROUGH THE THOUGHT-COMPREHENSION WITH THE COMMUNICATIONS BETWEEN THE TWO-AND-MORE-PERSONS/PARTIES/CITIZENS.
+    : STRUCTURE=METHOD OF THE COMMUNICATIONS.
+    : COMMUNICATION=CARGO-WORD/SYMBOL-COMPREHENSION-KNOWLEDGE.
+    : PARSE=BREAKING-DOWN-WORDS-PRE-FIXES/ROOT-WORDS/SUFFIXES.
+    : SYNTAX=CLOSURE OF THE [O]PERATIONS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
+    : GRAMMAR=STYLE OF THE SYMBOL-CHARACTER-COMMUNICATIONS.
+    : PERFORMANCE: CORRECT=CONVEYANCE OF THE COMPREHENSION/KNOWLEDGE OF THE MATH-[IN]TERFACE & FACT-CONVEYANCE.
+
+    FOR THE LEARN OF THE CONTRACT-WRITING IS WITH THE LEARN-TEMPLATE BY THE LEARNER.
+        : CONTRACT-SCENARIOS/TYPES OF THE PERFORMANCE-CONTRACT,
+            : FILING-C.-O.-L-COMMAND. [LICENSE, PASSPORT]
+            : VOLUNTARY-WITHDRAW-COMMAND. [MARRIAGE CERTIFICATE]
+            : AUTHORIZATION-COMMAND. [BANK, INSURANCE]
+            : STOP & CORRECT. [FCC LETTER, AMICUS]
+            : MARKET-TRADE-PORT. [BUSINESS-STRUCTURES]
+            : TREATY. [DIALOGUE-TREATY]
+        : TITLE-~4-GRAMMAR-FLAG-PLACEMENT:
+        : FLAG-CAPTION.
+            : TITLE-IV-FLAG, 1:1.9 [DI]MENSION/RATIO.
+            : LOCATION: ~TOP-LEFT:
+            : HIGHEST-POINT ON THE PAGE.
+            : SETS-VENUE: Need-Venue For The Contracting-Rights-Location.
+            : C.-S.-S.-C.-P.-S.-G.-P. : CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE-FLAG.
+        : STAMP-PLACEMENT,
+        : STAMP-MECHANICS AND [RE]QUIREMENTS,
+            : WHOLE-DOLLAR-STAMP, TOP-RIGHT OF THE PAGE.
+            : AUTOGRAPH THROUGH THE STAMP.
+            : WRITE-C.-O.-L./VESSEL-NUMBER.
+            : SEAL-FINGERPRINT.
+            : COLON, AUTOGRAPH. [NO SPACE]
+        : CAPTIONS: DOCUMENT-NAME/TITLES:
+            ~1: FIRST-CAPTION: CORPORATE-USURY/CAPTION AND VENUE/LOCATION.
+                : GLOBAL-POSTAL-[U]NION-TREATY:
+            ~2: SECOND-CAPTION: CONTRACT_NAME AND WHAT-CONTRACTS-IS.
+                : SAMPLES:
+                    :VOLUNTARY-WITHDRAW:
+                    :PERFORMANCE CONTRACT-~TEXAS-TERRITORY:
+                    :NOTE: [PLACE A COLON AFTER EACH CAPTION TO CONTINUE THOUGHT TO NEXT LINE.] 
+        : CAPTIONS: CONTRACT-NAME/TITLE:
+            : GLOBAL-POSTAL-[U]NION-TREATY:
+            : PERFORMANCE-CONTRACT-~TEXAS-TERRITORY:
+                :NOTE: [WE USE TILDES FOR LOCATIONS. ~TEXAS IS A LOCATION.]
+        : PARAGRAPH-NUMBERING-METHOD: 
+            ~0, ~1, ~2, ~3)
+            :NOTE: [USE TILDES FOR LOCATIONS. ~0 IS A LOCATION ON THE PAGE.]
+            :NOTE: [WE DO NOT PUT A COLON AFTER THE NUMBER ~0, ~1 SINCE A PRE-PROSITION FOLLOW. REMEMBER THE FULL- FOR, WITH, BY ON, AT, ARE POSITIONS/PREPOSITIONS]
+            :YES: ~0 FOR, ~1 FOR, ~2 FOR
+            (:VOID: ~0: FOR, ~1: FOR, ~2: FOR.)
+        : SENTENCE/PARAGRAPH-CONTENT:
+            :STATEMENT OF THE CLAIM.
+            :DAMAGES/DUTIES-STATEMENT,
+            :COMMAND/PERFORMANCE-STATEMENT,
+            :VOLITION-STATEMENT.
+            
+    : QUANTUM-GRAMMAR BASICS.
+        :WRITING WITH THE FACTS.
+            :FACT=FACT.
+            :FACTUAL-PHRASES FOR THE FACTUAL-SENTENCES.
+            :POSITION (5), LODIAL/POST/SET (6), FACT (7)
+        :13-WORD, FACTUAL-SENTENCE-SAMPLE.
+            :SAMPLE:
+            FOR THE LEARNING OF THE LEARNER'S-LEARNING IS WITH THE LEARNING-DUTY BY THE LEARNER.
+                FOR THE LEARNING (5, 6, 7)
+                OF THE LEARNER'S-LEARNING (5, 6, 7)
+                IS/ARE = VERB (2)
+                WITH THE LEARNING-DUTY (5, 6, 7)
+                BY THE LEARNER'S-AUTHORIZATION (5, 6, 7)
+    : FIVE-CONNECTORS OF A FACTUAL-SENTENCE:
+        FOR THE LEARNING OF THE LEARNER'S-LEARNING IS WITH THE LEARNING-DUTY BY THE LEARNER.
+            FOR THE LEARNING: CAUSE.
+            OF THE LEARNER'S-LEARNING: CONSEQUENCE.
+            IS: VERB.
+            WITH THE LEARNING-DUTY: POSSESSION.
+            BY THE LEARNER: AUTHORITY/AUTHORIZZTION.
+        FOR THE LEARNING-CAUSE OF THE LEARNER'S-LEARNING-CONSEQUENCE IS WITH THE LEARNING-DUTY/POSSESSION BY THE LEARNER'S-AUTHORIZATION.
+        
+        ~1: CAUSE: KNOWLEDGE OF A POSTMASTER/WITNESS
+            WITNESS HAS CAPACITY TO WITNESS.
+            WITNESS HAS KNOWLEDGE OF WHO THEY ARE.
+            WITNESS' CAPACITY OF KNOWLEDGE-TO COMPREHEND THAT WHICH HE/SHE WITNESSED.
+            I'M WITNESSING, MYSELF-WITNESSING A YELLOW FRINGE FLAG.
+                (A Claimant has a Capacity to Witness.)
+                (Each State/Claim of The Life Being is a Witness of Something.)
+                FOR THE WITNESS: Jane-Sally: Smith's-KNOWLEDGE OF THIS WINTESSING IS WITH THE DAMAGE OF TEH YELLOW-FRINGE-FLAG WITH THE VENUE BY THE AACTOR-JUDGE-LIABLE.
+            HOW CAN SOMEONE'S KNOWLEDGE WITNESS? 
+                MUST HAVE KNOWLEDGE TO COMPREHEND
+                WITHOUT KNOWLEDGE YOU CAN'T BE IN POSITION FOR THE WITNESSING OF ANYTHING
+                WE ARE WITNESS OF LIFE HERE
+                YOUR CAPACITY OF KNOWLEDGE TO COMPREHEND THAT WHICH YOU WITNESSED.
+            :CLAIMANT'S CAPACITY. 
+                MUST HAVE KNOWLEDGE OF WHO YOU ARE.
+                MUST BE A POSTMASTER TO MAKE A CLAIM.
+            :SAMPLES:
+                FOR THE LEARNING
+                FOR THE CAUSE
+                FOR THE CLAIM
+                FOR THE CHICKEN-LAYING 
+            :VOLUNTARY-WITHDRAW-LETTER-SAMPLES:
+                FOR THIS WITNESS, CLAIMANT AND POSTMASTER: Jane-Sally: Smith's KNOWLEDGE
+                FOR THE WITNESS-POSTMASTER-KNOWLEDGE
+                FOR HIS WITNESS, CLAIMANT AND POSTMASTER: Jane-Sally: Smith's-KNOWLEDGE
+        
+        ~2: CONSEQUENCE/[E]FFECT: WHAT THEY'RE WITNESSING:
+            PERFORMANCE OR DAMAGE/OUTCOME. 
+            CAPACITY-OR-WITNESSING-SOMETHING.
+            THE WINTESS-WITNESSING-BEING-A-VICTIM.
+            THE WITNESS-WINTESSING-A-PERFORMANCE.
+            (CAN BE POSITIVE OR NEGATIVE.)
+            :SAMPLES:
+                OF THE LEARNER'S-LEARNING
+                OF THE CONSEQUENCE
+                OF THE CLAIM
+                OF THE CHICKEN'S-EGG 
+            :VOLUNTARY-WITHDRAW-LETTER-SAMPLES:
+                OF THIS THREE-DAY-[RE]CISSION
+                OF THIS CONTRACT
+                OF THIS WITNESSING
+
+        ~3: VERB:
+            : SINGULAR-VERB=IS.
+            : PLURAL-VERB=ARE. 
+        
+        ~4: POSSESSION/DUTY:
+            FOR THE WITNESS'-KNOWLEDGE OF THIS WITNESSING IS WITH THE DAMAGE OF TEH YELLOW-FRINGE-FLAG WITH THE VENUE BY THE ACTOR-JUDGE-LIABLE.
+            WHICH ONE CAUSED THE DAMAGE IN THE COURTROOM?
+                YELLOW FRINGE FLAG
+                JUDGE
+                THE JUDGE IS LIABLE!
+                THE JUDGE IS IN POSSESSION OF THE KNOWLEDGE AND HE IS LIABLE FOR THE DAMAGES HE CONVEYED.
+                THE YELLOW FRINGE FLAG HAS NO AUTHORIZATION AND DIDN'T CUASE THE DAMAGE BECAUSE IT HAS NO ASSIGNMENT OF AUTHORITY.
+            :SAMPLES:
+                WITH THE LEARNING-DUTY
+                WITH THE POSSESSION
+                WITH THE CLAIM
+                WITH THE CHICKEN'S-LAYING-DUTY 
+            : POSSESSION< PLACING-TITLES/CIVIL-CODES:
+                IS WITH THE PERFORMANCE OF THE DOCUMENT-CONTRACT-CLAIM [FEDERAL RULES OF CIVIL-PROCEDURE]-~41-a:
+            : HOW DO WE PLACE TITLES INSIDE OUR SENTENCE AND WHY?
+                FOR THE FORENSICS.
+                TIES IT TO A DAMAGE BY ARTIBULATING KNOWLEDGE BY WHOEVER USED IT.
+                IT MAKES A CONNECTION OF LIABILITY THROUGH SHOWING KNOWLEDGE ARTICULATED IN A TITLE CODE.
+
+        ~5: AUTHORITY/AUTHORIZATION
+            :SAMPLES:
+                BY THE LEARNER'S-AUTHORIZATION
+                BY THE LEARNER
+                BY THE AUTHORITY
+                BY THE CLAIM
+                BY THE CHICKEN
+
+        : CONTRACT-TYPE: PERFORMANCE-CONTRACT.
+        : TITLE-~4-GRAMMAR-FLAG-PLACEMENT,
+        : FLAG-CAPTION,
+        : STAMP-PLACEMENT,
+        : TWO-CAPTION: DOCUMENT-NAME & DOCUMENT TITLE,
+        : NUMBERING-METHOD: (~0, ~1, ~2, ~3.),
+        : CONTENT: (:CLAIMS-STATEMENT, DAMAGES/DUTIES-STATEMENT, COMMAND/PERFORMANCE-STATEMENT & VOLITION-STATEMENT.)
+        : QUANTUM-GRAMMAR-BASICS: 13-WORD SENTENCES.
+
+    : CONTRACT-CONTENT:
+        : POSTMASTER-POSITION/STATUS:
+            : FREIGHT-FORWARDER:
+            : DIRECT-CONTRACTS WITH THE STAMP & YOUR AUTOGRAPH/SEAL.
+        : STATEMENT OF A CLAIM:
+            : FICTION-VERSUS-FACT.
+            : KNOWLEDGE. 
+            FOR THIS WTINESS/POSTMASTER: Russell-Jay: Gould's-KNOWLEDGE OF THIS CLAIM IS WITH THE HAPPINESS BY THIS WITNESS/POSTMASTER: Russell-Jay: Gould's-KNOWLEDGE.
+        : DAMAGES/DUTY-STATEMENTS:
+            : DAMAGES: LOSS/HARM.
+            : DUTIES: CONTRACT-CLOSURES.
+        : PERFORMANCES-STATEMENTS/COMMAND-STATEMENTS,
+            : COMMAND-STATEMENT:
+                FOR THE COMPLIANCE.
+                FOR THE ENFORCEMENT-POSITION ON A DAMAGE OR SETTLEMENT.
+            : PERFORMANCE-STATEMENT:
+                :FULFILLMENT OF A CLAIM.
+                :POSITIVE-PERFORMANCE.
+            : DIRECT-FACTS & CLAIMS.
+            IS WITH THE ___ OF THE ___ WITH THE ___ OF THE ___ WITH THE ___ OF THE WITH THE POSSESSION: BY THE AUTHORITY/LIABLE. 
+        : VOLITION-STATEMENTS.
+            : CHOICE. 
+            IS FOR YOUR VOLITION OF THE SAFEGUARD WITH THE GLOBAL-POSTAL-CORPORATION-CONSTRUCT BY THE LIABLE PERSON's-KNOWLEDGE?
+            If the Volition is not the Safeguard, Change to:
+                IS FOR THE WHY OF YOUR VOLITION WITH THE CAUSE-DAMAGE?
+
+    : VOID-CONTRACT-WORDS AND CONTRACT-WORDS.
+        : PARSE-WHAT?
+            PARSE: BREAKING WORDS DOWN IN TO ROOT WORDS.
+            PREFIXES & SUFFIXES AND OTHER GRAMMAR-RULES
+
+            TO AND FROM ARE NOT IN THE NOW-SPACE!
+                I'M FROM ENGLAND. -PAST TENSE
+                I CAME FROM THE HOSPITAL. -PAST TENSE
+
+                GO TO YOUR ROOM. - FUTURE TENSE
+                I'M GOING TO THE STORE. -FUTURE TENSE.
+        : VOID-CONTRACT-[PRE]FIXES.
+            : SINGLE VOWEL: A-, E-, I-, O-, U-
+            : VOWEL+TWO CONSONANTS: Abb-, Acc-, Add-, Env-, Ill-, Itc...  
+            : DE- DIS-, IN, NO/NON
+            : PRE-, PRO-, PUR-, RE-. UN-
+            : ANTE, CIRCUM, COUNTER, INTER, INTRA, SUB, SUPER, UNDER, ULTRA
+            : [BRACKETS]
+            : ITALICS
+        : VOID-CONTRACT-[SUF]FIXES.
+            : -LY, -ED, -EN
+        : QUANTUM-GRAMMAR-FRIENDLI-WORDS:
+            : NOW-SPACE.
+            : STAYING WITH THE NOW-TENSE AND GERUNDS(:ING).
+                : FLY, FLYING.
+                : TAKE, TAKING.
+                : LOVE, LOVING.
+                : PERFORM, PERFORMING. 
+        : CONTRACT-NOW-SPACE-WORDS AND [PRE]FIXES.
+            : CONTRACTUAL-[PRE]FIXES:
+                : BE/DI-, FOR/FORE-, PAR-, PER-, PIR-, POR/POST-
+                : CO/CON/CONTRA/CAT-, MET/MOT-, TRANS-
+                : AID/HELP.
+                : PRIOR.
+                ON THE MORROW.
+                : MEMORY-MINDER.
+                : CHOICE/CHOOSE.
+                : WIN.
+                : COMPREHEND.
+                : CHANCE.
+                : SOON.
+                : VOID.
+                : EACH.
+                : SAMPLE.
+
+    : CLASS-1-FLASHBACK:
+    FOR THE LEARNER'S-KNOWLEDGE OF THE CONTRACT-WRITING-BASIC-COURSE IS WITH THE CLOSURE BY THE LEARNER.
+        : CONTRACT-SCENARIOES/TYPES OF THE PERFORMANCE-CONTRACT,
+        : TITLE-4-GRAMMAR_FLAG-PLACEMENT,
+        : FLAG-CAPTION,
+        : STAMP-PLACEMENT,
+        : STAMP-MECHANICS AND QUIREMENTS,
+        : CAPTIONS: DOCUMENT-NAME/TITLE,
+        : PARAGRAPH-NUMBERING-METHOD, 
+        : SENTENCE/PARAGRAPH-CONTENT,
+        : QUANTUM-GRAMMAR-BASICS.
+    : CLASS-~1-COMPOUNDING-KNOWLEDGE:
+        : ESTABLISHED THE WITNESS, WHICH IS THE CLAIMANT-POSTMASTER
+        : ESTABLISHED A WITNESS HAS CAPACITY TO THINK AND KNOWLEDGE
+        : CLAIMANT-POSTMASTER IS A WITNESS WINTESSING THINGS
+        : YOUR CLAIM OF THE LIFE POSITIONS YOU TO STATE A CLAIM
+        : IT'S YOUR OWRLD, POSTMASTER
+        : UP TO THE POSTMASTER TO MAKE A VIABLE STATEMENT OF A CLAIM ON CONTRACT
+        : WITNESS MUST DEMONSTRATE KNOWLEDGE AND COMPREHENSION IN CONTRACT
+        : CONTRACT ARE JOINDERS BETWEEN PARTIES
+        : WRITTEN FACTS ARE WORDS POSITIONED CORRECTLY IN A 567 SYNTAX FORMAT
+        : FIVE CONNECTORS SET THE FOUNDATION FOR A FACTUAL QUANTUM SENTENCE FLOW
+        : CONTRACTS CONTAIN CLAIM-STATEMENT. DUTIES AND/OR DAMAGES, COMMMAND AND/OR PERFORMANCES, VOLITION
+        : THERE ARE SEVERAL STYLES OF PERFORMANCE CONTRACTS.
+
+###############################################################################################################
+: CLASS-~2: 
+    : CONTRACT-WRITING-BASICS: CLASS-~2A:
+        : BOLD:
+            FOR THE POSTMASTER'S-KNOWLEDGE OF THE BOLD-FONT-METHOD IS WITH THE DUTY BY THE POSTMASTER.
+                :BOLDING OF THE NEW-SECTION:
+                :CAPTION,
+                :NOTES-SECTION,
+                :WORD-TERMS-SECTION,
+                :NOTARY-SEAL-SECTION,
+                :COPYCLAIM.
+        : VERB: IS/ARE.
+            FOR THE POSTMASTER'S-KNOWLEDGE OF THIS CONTRACT IS WITH THE CLOSURE BY THE POSTMASTER.
+            FOR THE POSTMASTERS'-KNOWLEDGE OF THIS CONTRACT ARE WITH THE CLOSURE BY THE POSTMASTERS.
+        : HYPHENS:
+            : COMPOUND-FACTS.
+            : SAMPLES:
+                : DOCUMENT-CONTRACT-CLAIM-SECTION.
+                : YELLOW-FRINGE-FLAG.
+                : POSTAGE-STAMP-CONTRACT.
+                : THIRTY-FIVE.
+        : FOR THE UNDERLINE,
+            :[EM]PHASIS OF THE COMPOUND-FACTS/STATEMENTS.
+            : NOT WITH PUNCTUATION.
+        : COLON.
+            : Jane-Sally: Smith.
+            : GLOBAL-POSTAL-[U]NION-TREATY:
+            [COLONS ARE NOT NEEDED] 
+                FOR THE WITNESS.
+                FOR THE FACTS.
+                ON MY WAY.
+                AT THE HOTEL.
+                BY THE WAY.
+        : TILDE.
+            : LOCATIONS:
+            : LOCATION ON THE PAGE,
+            : [AD]DRESS, DATES.
+            : SAMPLE:
+                ~123: APPLE-LANE,
+                [~FORT-WAYNE],
+                [~ILLINOIS],[~12345].
+        : CAPITAL-LETTERS/LOWER-CASE-LETTERS.
+            : CAPITAL-LETTERS:
+                FOR THE SHOUT. FOR THE READ. FOR THE VESSEL-NAMES.
+            : LOWER-CASE-LETTERS:
+            : CLAIMANT/POSTMASTER-NAME: Jane-Sally: Smith.
+        : ITALICS.
+            : FICTION-VASALLEE-NAME,
+            : CORPORATION-NAME.
+            : SAMPLES:
+                JOHN DOWNING
+                [A]MICUS: MARK ZUCKERBERG/FACEBOOK
+        : BRACKETS.
+            []:SQUARE-BRACKETS.
+            {}:VOID-USE.
+            ():PARENTHESIS.
+        : JUSTIFY-TEXT.
+            : JUSTIFY OF THE MARGINS.
+
+    : QUANTUM-GRAMMAR-BASICS:
+        : CAUSE: Jane-Sally: Smith's-KNOWLEDGE.
+            ~1: SOMEONE'S-KNOWLEDGE/ CORPORATION'S-KNOWLEDGE
+            ~2: KNOWLEDGE-MOVES THROUGH THE WITNESSING.
+                : MOVES-THROUGH=COMPREHENSION OF A FACT AND/OR PERFORMANCE AND/OR EVIDENCES-PRIMA-FACIE IN YOUR COMPREHENSION.
+                KNOWLEDGE OF A POSTMASTER/WITNESS
+            : PRIMA-FACIE: [based on the first comprehension; accepted as correct until proved otherwise.]
+        : CONSEQUENCE: 
+            :CONTRACT-SAMPLES:
+                ~0 & 1: DAMAGE-PUBLICATION.
+                ~2: DAMAGE-SOLUTION.
+                ~3: WILL-BE WITH THEIR CORRESPONDENCE-BACK OF THE QUESTION.
+                ~4: CONTRACT-PUBLICATION.
+            ~1: VOLITION:
+                ~A: MOVES-KNOWLEDGE AS A CONCLUSION: CONSEQUENCE.
+                ~B: YOU-MAKE-CHOICE ON YOUR KNOWLEDGE-DI-RECTIONAL AND THAT-CREATES: CONSEQUENCE.
+            ~2: WITNESS-WITNESSES-SOMETHING.
+            ~3: CONSEQUENCE-VARIES-BASING ON THE AUTHORS-CONTROL WITH THE WRITING ON THE CONTRACT.
+        : VERB:
+            : CONTRACT-SAMPLE: IS         
+            ~1: TWO-VERBS: IS=SINGULAR AND ARE=PLURAL.
+            ~2: THINKING=CONCEPT-COMTION WITHIN THE MATH-FORMULA WITH THE THINKING-NEVER-CHANGE-CONDITION OF THE FACTS/PERFORMANCES AND VERB-QUALIFIES-AS-A-[NOUN] FACT=SAMPLE=FOR THIS IS OF THE IS WITH THE IS BY THE IS.
+        : POSSESSION:         
+            :CONTRACT-SAMPLE:
+                ~0 WITH THE CLAIM OF MY CAR-BEING-HIT WITH THE DRIVING PERFORMANCES
+                ~1 WITH THE CLAIM OF MY CAR-DAMAGE: TWO-THOUSAND- FEDERAL RESERVE NOTES-WORTHLESS-THINGS WITH THE CARL'S-BODY-SHOP-[E]STIMATE
+            ~1:[EX]PLAINS-DAMAGES.
+            ~2:[OFFERS] TERNDER'S-COMMANDS.
+            ~3:TAKES-OWNERSHIP/CONTROL
+            ~4:OR [AS]SIGNING-OWNERSHIP OF A LIABLE/ COUNTABLE-PERSON.
+            : VERB, POSSESSION(WITH), AUTHORITY(OF), POSSESSION(WITH), AUTHORITY(OF/BY).
+                IS WITH THE ___, OF THE ___, WITH THE ___, BY THE ___.
+                IS WITH THE ___, OF THE ___, WITH THE ___, OF THE ___, WITH THE ___, BY THE ___.
+        : AUTHORTY: 
+            : CONTRACT-SAMPLE:
+                ~0,1,4: Jane-Sally: Smiths-KNOWLEDGE
+                ~2,3: LIABLE: Tom: Kittle's-KNOWLEDGE
+            ~1: CHANGES-PENDING ON THE WHETHER: YOU-ARE WITH THE AUTHORITY AND/OR LIABLE/COUNTABLE.
+            ~2: WHEN-LIABLE'S-VOID-CLAIM OF THE LIFE-CONTRACT, WRITE-NAME IN THE ALL CAPITALS AND ITALICS: TOM KITTLE'S-KNOWLEDGE.
+            : VOLUNTARY-WITHDRAW-LETTER-SAMPLES:
+                :CAUSE:
+                    FOR THIS WITNESS, CLAIMANT AND POSTMASTER: Jane-Sally: Smith's-KNOWLEDGE
+                    FOR THE WITNESS-POSTMASTER-KNOWLEDGE
+                    FOR THIS WITNESS, CLAIMANT AND POSTMASTER: Jane-Sally: Smith's-KNOWLEDGE
+                :CONSEQUENCE:
+                    OF THIS THREE-DAY-[RE]CESSION
+                    OF THIS CONTRACT
+                    OF THIS WITNESSING
+
+    : QUANTUM-GRAMMAR-BASICS: CONTRACT-CONTENTS:
+        : STATEMENT OF A CLAIM. (: Closure of Your Rights/Plan.)
+            ~0 FOR THE DRIVER-POSTMASTER-WITNESS; Jane-Salley: Smith's-KNOWLEDGE OF THIS DAMAGE-PUBLICATION IS WITH THE CLAIM OF MY CAR-BEING-HIT WITH THE DRIVING-PERFORMANCES OF A DIFFERENT-DRIVER/LIABLE: Tom: Kittle's-KNOWLEDGE WITH THE LAST-FRIDAY BY THE DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE.
+        : DAMAGES AND/OR DUTIES-STATEMENT. (: Liability of a Damage/Duty-Closure.)
+        : COMMAND AND/OR PERFORMANCE-STATEMENT. (Directing-Facts/Claims.)
+            ~1 FOR THE DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE OF THIS DAMAGE-PUBLICATION IS WITH THE CLAIM OF MY CAR-DAMAGE: TWO-THOUSAND-FEDERAL RSERNVE NOTES-WORTHLESS-THINGS WITH THE CARL'S-BODY-SHOP-[E]STIMATE BY THIS DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE-PUBLICATION.
+            ~2 FOR THE DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE OF THIS DAMAGE-SOLUTION IS WITH THE PERFORMANCE-COMMANDS OF THIS PAYMENT WITH THIS CAR-DAMAGE: TWO-THOUSAND-FEDERAL RESERVE NOTES-WORTHLESS-THINGS WITHIN THIS CONTRACT-CLOSURE WITH THE CARL'S-BODY-SHOP-[E]STIMATE-DAMATE-COSTS OF THIS PAYMENT-DUTY WITH THE CLOSURE BY THIS LIABLE: Tom: Kittle's-KNOWLEDGE.
+        : VOLITION-STATEMENT. (: Converance of a Condition-of-Mind.)
+            ~3 IS FOR THE VOLITION OF THE PAY WITH THE CARL'S-BODY-SHOP-[E]STIMATE-DAMAGE-COSTS BY THE LIABLE: Tom: Kittle's-KNOWLEDGE?
+            ~4 FOR THE DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE OF THIS DAMAGE-PUBLICATION IS WITH THE CLAIM OF THIS VOLITION WITH THE COVERY OF THE DAMAGES WITH THE LIBERY OF THE FIX-CAR WITH THE COMPLETE-PERFORMANCSE OF THE CARL'S-BODY-SHOP-WORKER'S-CRAFTSMANSHIP WITH THE CLOSURE BY THIS DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE.
+
+################################################################################################################
+: CLASS-~3:
+    : WORD-TERMS:
+        : AUTHOR'S-CAPACITY OF THE CONTROL-WORDS IN THE CONTRACT.
+        : [DI]RECTING-FACTS.
+        : FACT-CLAIMS, CLAIM-WORDS, [DE]FINE-WORDS.
+        : [PRE]VENTS-[SUB]JECTIVE-[IN]TERPRETATION.
+        : CAN-CHANGE-CONTRACT-TO-CONTRACT.
+    : SYMBOLS:
+        : AUTHOR'S-CAPACITY OF THE CLAIM/CONTROL-WORDS.
+        : VOID-[RE]QUIREMENT. [NOT REQUIRED]
+            & = AND
+            / = AND
+            = SAME-AS
+            ~ = LOCATION
+            . = STOP-THOUGHT
+    : PERSONAL-DATA:
+        : WRITE IN THE QUANTUM-GRAMMAR.
+        : MAILING-LOCATOIN FOR THE CORRESPONDENCE BACK.
+        : DRIVER'S-LICENSE/PASSPORT-NUMBER.
+        : PHONE-NUMBER/[E]MAIL. WEBSITE.
+            : SEAL.
+            : Jane-Salley: Smith AS THIS WITNESS/POSTMASTER/DRIVER.
+            : OREGON-DRIVER'S-LICENSE-NUMBER: ?????.
+            ~11: MARKET-STREET, -~BEND, -~OREGON[00000].
+        : VESSEL-NAME & VESSEL-NUMBER:
+            : CORPORATION-NUMBER/SELF-MAILER:
+            GET A REGISTER MAIL LABEL AT THE POST OFFICE AHEAD OF TIME OR ELSE WHILE THERE WRITE THE NUMBER DOWN ON YOUR CONTRACT. MAIL IT OUT FROM-YOURSELF-TO-YOURSELF, MAIL ONE MORE TO THE OTHER PERSON.
+            :VESSEL-NAME-SAMPLE: FIX-CAR
+            :VESSEL-NAME-SAMPLE: 01
+            :VESSEL-NUMBER-SELF-MAIL-NUMBER-SAMPLES; OU812 OR RR991122US [NO PUNCTUATION]
+            :C.-O.-L.-VESSEL-NUMBER (ON YOUR CLAIM-CONTRACT-SELF-MAILER RR123356US.)
+                : DATE-~20-~JANUARY-~2023, VESSEL-NAME: FIC-CAR AND VESSEL-NUMBER: OU812.
+    : AUTOGRAPHING, FINGERPRINTING, [IN]ITIALS, STAMP AND SEAL-LINES,
+        FOR THE POSTMASTER-STATUS, AUTOGRAPH ON THE TOP FO THE STAMP AND FINGERPRINT.
+        :[EN]DORSE-BACK-PAGE WIITH THE AUTOGRAPH AND FINGERPRINT.
+        :[IN]ITIAL-BOTTOM-RIGHT AND FINGERPRINT.
+            : SEAL.
+            __________________________________________________
+            : Jane-Salley: Smith AS THIS WITNESS/POSTMASTER/DRIVER.
+    : WITNESS & WITNESS-SEAL-LINE:
+        : CONTRACT-NEEDS-TWO-POSTMASTER-AUTOGRAPHS FOR THE WITNESSING.
+        : AUTOGRAPH ON THE WITNESS-SEAL-LINE & FINGERPRINT.
+    : LIABLE-NAME & SEAL-LINE:
+        : CREATE-SEAL-LOCATION FOR THEIR AUTOGRAPH ON THE SAME-LINE.
+        : NOTE:
+        [ON THE SAMPLE CONTRACT, THERE IS NO LIABLE SEAL LINE, SINCE THIS IS JUST Jane GIVING CLOSURE]
+    : DATES:
+        : DATE-~2O-~JANUARY-~2023.
+        ~1300-~PACIFIC.
+            : DATE-~20-~JANUARY-~2023,
+    : NOTARY/JURAT:
+        FOR THE NOTARY'S-ONLI WITH THE WITNESSING-AUTHENTICITY OF YOUR AUTOGRAPHING.
+        : NOTARY'S-SEAL: NOTARY/JURAT-SECTION IN THE QUANTUM-GRAMMAR.
+        : NOTARY'S-SEAL: NOTARY-SEAL-LINE-IN THE ITALICS.
+        : AUTOGRAPH ON THE TOP OF THE NOTARY-STAMP FOR THE POSTMASTER-JURISDICTION. [WHEN YOU LEAVE].
+            : NOTARY-SEAL:
+            FOR THE NOTARY-PUBLIC AND SEAL OF THIS STATE: OREGON IS WITH THIS CLAIM OF THIS WITNESSING WITH THE AUTOGRAPH: Jane-Salley: Smith's-AUTHORIZATION OF THIS CONTRACT WITH THE CLAIM OF THE STATE: OREGON-NOTARY-[EX]PIRATION-DATE:___ WITH THE CONTRACT-AUTHORIZATION-WITNESSING BY THE NOTARY-PUBLIC: ___.
+            :NOTARY'S-SEAL:
+    : COPYRIGHT/COPYCLAIM-FOOTER.
+        ON THE STEP-~SEVEN: QUANTUM-CLAIMANT'S-COPYRIGHT.
+        : SHOWS-JOINDER AS A TENANT WITH THE GLOBAL-POSTAL-[U]NION & POSTMASTER-GENERAL: Russell-Jay: Gould.
+        : TOOL FOR THE TAKE-CONTROL OF YOUR CONTRACT.
+        : CHIEF'S-SAMPLE:
+            FOR THIS COPYRIGHT-COPYCLAIM-~1-~JULY-~1775 THROUGH THIS NOW-DATE IS WITH THIS QUANTUM-GRAMMAR-TEACHING-TREATY-PERFORMANCE OF THIS CLAIMANT-POSTMASTER-GENERAL, POSTAL-IN-SPECTOR, CLAIMANT-CHIEF-FEDERAL-POSTAL-JUDGE, VATICAN-CITY-KEY-MASTER, SOVEREIGN, COMPTROLLER OF THE GLOBAL-POSTAL-CURRENCIES, PLENIPOTENTIARY-JUDGE, CLAIMANT-DIRECTOR, CLAIMANT-MUSTER-MASTER, PAY-MASTER-GENERAL, SOVEREIGN, QUANTUM-GRAMMAR-POSTAL-BANKING-SYSTEM-SOLITARY-OWNER/CREDITOR-CREATOR, QUANTUM-GRAMMAR-SOLITARY-COPYRIGHT-OWNER, POSTMASTER-GENERAL OF OUR WORLD & FOREIGN-POSTMASTER-BANK-BANKER: Russell-Jay: Gould's-KNOWLEDGE WITH THIS NOW-SPACE-CLAIM BY THIS FOREIGN-POSTAL-POSTAGE-STAMP-CORPORATION-CLAIM-NUMBERS: RR385460312US/RR294568221US. 
+
+    : MEANING OF THE WORD: STRUCTURE IN THE CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE. 
+        1 + 2 = 3 | 3 - 2 = 1 = FRONTWARDS-BACKWARDS-MATH-CERTIFICATIONS.
+        1       |   +           |   2   | =     |   3   |   3   |   -           |   2   |   =   |   1
+        FACT    |PREPOSITION    |VERB   |SET    |FACT   |FACT   |PREPOSITION    |VERB   |SET    |FACT
+        : VERB-FACT, BUT, IT'S-THINKING WITHIN THE FORMULA AND THINKING, NEVER-CHANGES-CONDITION OF THE FACTS/PERFORMANCES.
+        : MEANING, EVERY-FACT-WORD, CAN-BE-FACT AND VERB, BUT, MATH-FORMULA-SHOWS, EACH-FACT AS A FACT, FACTS AS A VERBS=FRAUD, CAUSE, FACTS-DON'T-EXIST AS A VERB, THAT: CREATES: FICTION/FRAUD.
+
+        PREPOSITION |SET/ARTICLE    |NOUN/FACT
+        FOR         |THE            |CLAIMANT-WITNESSES'KNOWLEDGE 
+        OF          |THE            |CLAIM 
+        IS = VERB
+        WITH        |THE            |CLAIM 
+        BY          |THE            |CLAIMANT-WITNESS.
+        
+        FOR THE CLAIMANT-WITNESSES'-KNOWLEDGE   OF THE CLAIM    IS  WITH THE CLAIM  BY THE CLAIMANT-WITNESS.
+        CAUSE'S-KNOWLEDGE                       >CONSEQUENCE    >IS >POSSESSION     >AUTHORITY
+
+        AUTHORITY                   >POSSESSION     >IS >CONSEQUENCE    > CAUSE'S-KNOWLEDGE
+        FOR THE CLAIMANT-WITNESS    OF THE CLAIM    IS  WITH THE CLAIM  BY THE CLAIMANT-WITNESS-KNOWLEDGE.
+
+        : CORRECT: 1 + 2 = 3 | 3 - 2 = 1 = FRONTWARDS-BACKWARDS-MATH-CERTIFICATIONS.
+         AND THE [INTER]CHANGEABLE-SETS OF THE QUANTUM-GRAMMAR-MATH-CERTIFICATION[WITH THE, OF THE, WITH THE ,OF THE, +, -, +,  -].
+
+    : WRITING-METHODS OF THE POSSESSION-AUTHORITY:
+        : ARTICLES: THE, THIS, THESE, OUR, A, HIS, HERS
+        : POSSESSION:
+            WITH
+            THROUGH
+        : AUTHORITY:
+            BY
+            OF
+            AS [NOT BECAUSE]
+            IN [VALUE OF POSITION]
+            WITHIN [VALUE OF CONTAINMENT AND CLOSURE]
+            THROUGH [PASSAGE, POSSESSION OR AUTHORITY. NOT THROUGH THE THROUGH THE]
+            AT [MOTION/POSITION]
+
+    : PARENTHESIS:
+        : PRIOR-VERB-: SAMPLE 1:
+            FOR THE CLAIMANT-WITNESSES'-KNOWLEDGE OF THE CLAIM(: FIRST-HAND-WITNESS OF THE CAR-WRECK) IS WITH THE CLAIM BY THE CLAIMANT-WITNESS.
+        : POST-VERB: SAMPLE 2:
+            FOR THE CLAIMANT-WITNESSES'-KNOWLEDGE OF THE CLAIM IS WITH THE CLAIM BY THE CLAIMANT-WITNESS(: FACT: MANY-WITNESSES OF THE CLAIM=CAR-WRECK).
+        : POST-VERB: SAMPLE 3:
+            FOR THE CLAIMANT-WITNESSES'-KNOWLEDGE OF THE CLAIM IS WITH THE CLAIM BY THE CLAIMANT-WITNESS. (: NOTE: DRUNK-DRIVER WITH THE CAR-WRECK BY THIS WITNESSES-WITNESSINGS.)
+
+        : PLACEMENT WITHIN THE SENTENCE: [POST-NOUNS]
+        : [CAN USE BOTH POSSESSION/AUTHORITY INSIDE PARENTHESES. CAN PUT WHOLE NEW SENTENCE OF ADD PARTIAL SENTENCE, OR A CONTINUATION OF THOUGHT FROM OUTSIDE PARENTHESES OR SIDE-NOTE]
+
+##############################################################################################################
+: CLASS-4:
+    : FUNCTIONS OF THE [AT]TACHMENTS, [E]VIDENCE/FORENSICS AND SYNTAX-FRAUD-FICTION.
+        [Gluing the Top-Left-Corner keeps the continuance of evidence.]
+        Place Syntax Key Code
+        Number Page
+        FICTION CANNOT MAKE CLAIM
+    : MAIL-SLIPS & [EN]VELOPE-MAILING-MECHANICS, 
+    : [AD]DRESSING, [RE]CEIPTS & CORPORATE-[OF]FICE-LOCATION,
+    : [O]RIGINALS & COPIES:
+    : FILING-METHODS AND [PROOF] OF THE [DE]LIVERY.
+        : CONTRACT-PACKETS: [MAKE 2-3 ORIGINALS, ONE FOR THE SENDER AND THE OTHERS FOR YOU.]
+        : MAILING-DUTY: WHEN-DATE AND AUTOGRAPH(: OR NOTARY) OF YOUR CONTRACT, YOU'VE-THREE-DAYS FOR THE MAIL-OUT FO YOUR [E]NVELOPE. [BEST TO MAIL SAME DAY.]
+        : FILE AND PRINT-OUT-SCREENSHOT OF THE TRACKING-LIVERY [WHEN DELIVERED] AND START-TIMELINE, WITH THEIR 3-DAY[RE]CISSION [SINCE THEY ARE PERMITTED 3 DAYS TO RESCIND].
+    : 3-DAY-TIMELINES & TIMELINES.
+
+    : CLASS-~4A:
+    : TITLE-CODES:
+    : SYSTEMS AND PRINCIPLES/RULES ON OUR FINDS, CONTRACT-BREACHES AND COMMANDS.
+    : CLOSURE AND SETS-TERMS.
+    FORENSICS FOR THE LEGAL-RIGHTS AND CLAIMS.
+    FOR THE STOPPING AND CORRECTING-WRONGS.
+    FOR THE ARTICULATING OF OUR KNOWLEDGE.
+    FOR THE CLAIMANT'S-KNOWLEDGE OF THE CLOSURE-CLAUSES: DOCUMENT-CLAIMS-~26-~e: CLOSURE-PORTING IS WITH THE PUBLICATION OF THE D.-C.-C.-~60-~b: COVERY-EVIDENCE-FACTS WITH THE AUTHORITY OF THE TITLE-~42: D.-C.-C.-S.-~1986: KNOWLEDGE OF THE CONTRACT, STOPPING AND CORRECTING-WRONGS WITH THE DUTY KNOWLEDGE OF THE C.-S.-S.-C.-P.-S.-G.-P. WITH THE FRAUD-SYNTAX-PAPERPWORK-DOCUMENTS BY THE LIABLES/VASALLEES.
+
+    : TITLE-CODE-CLOSURE(: SEE-STEP-SEVEN).
+    FOR THE CLAIMANT'S-KNOWLEDGE OF THE CLOSURE-CLAUSES: DOCUMENT-CLAIMS-~26-~e: CLOSURE-PORTING IS WITH THE PUBLICATION OF THE D.-C.-C.-~60-~b: COVERY-EVIDENCE-FACTS WITH THE AUTHORITY OF THE TITLE-~42: D.-C.-C.-S.-~1986: KNOWLEDGE OF THE CONTRACT, STOPPING AND CORRECTING-WRONGS WITH THE DUTY KNOWLEDGE OF THE C.-S.-S.-C.-P.-S.-G.-P. WITH THE FRAUD-SYNTAX-PAPERPWORK-DOCUMENTS BY THE LIABLES/VASALLEES.
+
+    : TITLE CODES:
+        : D.-C.-C.=FOR THE DOCUMENT-CONTRACT-CLAIM BY THIS CLAIM.
+        : D.-C.-C.-S.=FOR THE DOCUMENT-CONTRACT-CLAIM-SECTION OF THIS PARSE-SYNTAX-GRAMMAR-COMMUNICATION-WORD-CORRECTIONS WITH THE CORRECTION-CLAIM OF THE FRAUDULENT-FEDERAL-TITLES-PARSE-SYNTAX-GRAMMAR AND FEDERAL-CODES-FRAUDULENT-PARSE-SYNTAX-GRAMMAR.
+
+    : TITLE-CODE-PLACEMENT:
+        FOR THE DRIVER-POSTMASTER-WITNESS: Ariel-Cabutija: Casapao's-KNOWLEDGE OF THIS DAMAGE-PUBLICATION IS WITH THE CLAIM OF THE MY-CAR-BEING-HIT WITH THE DRIVING-PERFORMANCES OF A DIFFERENT-DRIVER/LIABLE: Tom: Kittle's-KNOWLEDGE WITH THIS [FEDERAL RULES OF CIVIL PROCEDURE]DOCUMENT-CONTRACT-CLAIM-~26-~E: PUBLICATION OF THIS DAMAGE-PUBLICATION-CLOSURE WITH THE LAST-FRIDAY BY THE DRIER_POSTMASTER-WITNESS: Ariel-Cabutija: Casapao's-KNOWLEDGE.
