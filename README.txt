@@ -41,14 +41,17 @@ FOR THE BEING-ONE WITH THE LORD.
         : SCHEDULE: Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
             : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+
     : WHERE?: FOREIGN: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
         : HOME: Space: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
             : WAY for-by KINGDOMHEAVEN = Creative Directing Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: Progressing the game storyline and accessing new areas, better positioning on the map, better territory    
+
     : WHO?: STRANGER: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
         : FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
             : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
+
     : WHAT?: UNKNOWN: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Dream/Nightmare, Division, Madness
         : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
         : KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
