@@ -19,7 +19,6 @@ FOR THE BEING-ONE WITH THE LORD.
             : vanesco (to vanish)
             : kallos (beauty)
             : kakos, malus (bad, harsh, evil, ugly)
- 
     : HEAR, BE(HEARD)?: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
         : RHYTHM: Beat, Note
         : VOLUME/AMP:
@@ -35,7 +34,6 @@ FOR THE BEING-ONE WITH THE LORD.
             : queror (to complain)
             : taceo (to be silent)
             : terpido (to treble)
- 
     : FEEL, BE(FELT)?: Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
         : SKINS: Hands, Feet, Mouse, Keyboard, Controller
         : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
@@ -118,7 +116,7 @@ FOR THE BEING-ONE WITH THE LORD.
 : WHY-HOW do we [KNOW(), BE(KNOWN)]: SLEEPING for-by DREAM:  FORGETING-TERMINATING
     : WHEN?: SURPRISE: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
         : SCHEDULE: Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
-            : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
+        : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
             : chronos (time)
                 : annus, enn- (year)
@@ -154,7 +152,7 @@ FOR THE BEING-ONE WITH THE LORD.
             : re- (again, back)
     : WHERE?: FOREIGN: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
         : HOME: Space: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
-            : WAY for-by KINGDOMHEAVEN = Creative Directing Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: Progressing the game storyline and accessing new areas, better positioning on the map, better territory    
+        : WAY for-by KINGDOMHEAVEN = Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: new areas, better positioning, better territory    
             : platys, broad (flat)
             : metron, -meter (measure)
                 : tele- (distance)
@@ -207,7 +205,7 @@ FOR THE BEING-ONE WITH THE LORD.
 
     : WHO?: STRANGER: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
         : FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
-            : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
+        : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
         : PERSONALITIES
@@ -241,8 +239,7 @@ FOR THE BEING-ONE WITH THE LORD.
                 : puer (boy)
                 : vir (man)
                 : pater, patris (father)
-                : frater, fratis (brother)
-                : adelphos (brother)
+                : frater, fratis; adelphos (brother)
                 : rex, regis (king)
                 : maritus (husband)
                 : geron (old man)
@@ -284,8 +281,7 @@ FOR THE BEING-ONE WITH THE LORD.
             : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix...
         ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~REFUTATION (Refutatio): clarify ambiguous terms, sentence structure, or assumptions & focus on the logical structure, causation, or evidentiary support is essential. 
-        : scio (to know)
-            : sciens, gnostos (knowing)
+        : scio (to know), sciens, gnostos (knowing)
             : credo (to believe)
             : mancy (fortelling, prediction)
             : fides (faith), fidelis (faithful)
@@ -332,23 +328,23 @@ FOR THE BEING-ONE WITH THE LORD.
     : dis- (pejorative prefix)
     : -itis (inflammation)
 : ADVERB: -ly
+ 
  ~WHY-HOW: ACTIONS/OPERATIONS/BEING:
-
-        : par, aequus, equ- (equal)
-            : homos (the same)
-            : similis, -ine (like, similar to, characteristic of, descriptive of)
-        : magnus, mega (big, large, great)
-            : grandis (grand)
-            : potens, potentis (powerful)
-            : sophos (wise)
-            : opulentus (wealthy)
-        : mikros (small)
-            : pusillus (tiny)
-        : a-, an-, ana-, im- in-, un-, ne-, dis-, de- (not, negative)
-            : mis-, mix- (wrongly, badly)
-            : miser (wretched)
-            : pejor (worse)
-        : bon, bona, bonus, bene, eu- (good, well)
+    : par, aequus, equ- (equal)
+        : homos (the same)
+        : similis, -ine (like, similar to, characteristic of, descriptive of)
+    : magnus, mega (big, large, great)
+        : grandis (grand)
+        : potens, potentis (powerful)
+        : sophos (wise)
+        : opulentus (wealthy)
+    : mikros (small)
+        : pusillus (tiny)
+    : a-, an-, ana-, im- in-, un-, ne-, dis-, de- (not, negative)
+        : mis-, mix- (wrongly, badly)
+        : miser (wretched)
+        : pejor (worse)
+    : bon, bona, bonus, bene, eu- (good, well)
         
     ~WHAT: KNOWN THINGS
        : bios, vita (life)
@@ -484,39 +480,6 @@ FOR THE BEING-ONE WITH THE LORD.
             : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
 
 
-
-: ADVERB-SYNTAX-RULES:
-    : RULE-1: For the -ly-ADVERBS stay an ADVERB-ALWAYS.
-    : RULE-2: NO MORE THAN THREE-ADVERBS IN A ROW. 
-        SAMPLE= 1 1 1
-    : RULE-3: If there is only one word to the RIGHT of an ADVERB it will always be MODIFIED into a VERB=2. 
-        SAMPLE= 1 2.
-    : RULE-4: If there is only one word to the LEFT of an ADVERB it will always be MODIFIED into a PRONOUN=4.
-        SAMPLE= 4 1
-    : RULE-5: If there are TWO or more words to the LEFT of an ADVERB, 
-        it will always be MODIFIED into this ADJECTIVE>PRONOUN= 3 4 1
-        SAMPLE= 3 4 1
-    : RULE-6: If there are TWO or more words to the RIGHT of an ADVERB, 
-        it will always be  MODIFIED into this ADJECTIVE>PRONOUN= 3 4.
-        SAMPLE= 1 3 4
-    : RULE-7: An ADVERB farthest to the right, at the end of the sentence(full-fence, punctuation), will convert to a VERB=2, FIRST.
-        SAMPLE= 1 1 1 1. converts to 1 1 1 2.
-    : RULE-8: you would write if there was only one adverb and it was at the very end of the sentence 
-        you're going to convert it to a 4 with the exception or a note for yourself 
-        if that word the last word before the period or the question mark of the explanation mark 
-        if it was an -ly suffix word like family or sincerely then it will not convert to a two or four 
-        i'm sorry a four because l y always stays a one oh it and that would be your rule eight.
-    : RULE-8: It there are two adverbs at the end of a sentence, the last adverb gets converted to a verb. 
-        ( The rule only applies if the sentence ends with a (.), (?) or (!)
-        and doesn’t end with a (,), (:), (;), ([]) or (). 
-    : RULE-9: If the last word at the end of a sentence is an adverb, 
-        it’ll be converted into a pronoun, unless it ended in (-ly). 
-        A conjunction stays a conjunction. 
-        The word before the last (-ly) word would convert to a pronoun. 	
-    : RULE-10: An adverb before a conjunction remains an adverb, 
-        because it’s not the end of a sentence or punctuation. 
-
-###################################################################################################################################
 : CHAPTER-~0:
     :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
     :SYNTAX: fact= FOR THE CLOSURE OF THE [O]PERATIONS IS WITH THE WORDS/SYMBOLS AS A COMPREHENSIVE-COMPLETE-THOUGHT.
@@ -629,6 +592,37 @@ FOR THE BEING-ONE WITH THE LORD.
         ~16: Stamp or write out :FACTUAL-FORENSICS: in empty space, bottom of document.
         ~17: Place of a Dollar-Postal-Stamp, top right & Autograph & seal.
 
+    : ADVERB-SYNTAX-RULES:
+        : RULE-1: For the -ly-ADVERBS stay an ADVERB-ALWAYS.
+        : RULE-2: NO MORE THAN THREE-ADVERBS IN A ROW. 
+            SAMPLE= 1 1 1
+        : RULE-3: If there is only one word to the RIGHT of an ADVERB it will always be MODIFIED into a VERB=2. 
+            SAMPLE= 1 2.
+        : RULE-4: If there is only one word to the LEFT of an ADVERB it will always be MODIFIED into a PRONOUN=4.
+            SAMPLE= 4 1
+        : RULE-5: If there are TWO or more words to the LEFT of an ADVERB, 
+            it will always be MODIFIED into this ADJECTIVE>PRONOUN= 3 4 1
+            SAMPLE= 3 4 1
+        : RULE-6: If there are TWO or more words to the RIGHT of an ADVERB, 
+            it will always be  MODIFIED into this ADJECTIVE>PRONOUN= 3 4.
+            SAMPLE= 1 3 4
+        : RULE-7: An ADVERB farthest to the right, at the end of the sentence(full-fence, punctuation), will convert to a VERB=2, FIRST.
+            SAMPLE= 1 1 1 1. converts to 1 1 1 2.
+        : RULE-8: you would write if there was only one adverb and it was at the very end of the sentence 
+            you're going to convert it to a 4 with the exception or a note for yourself 
+            if that word the last word before the period or the question mark of the explanation mark 
+            if it was an -ly suffix word like family or sincerely then it will not convert to a two or four 
+            i'm sorry a four because l y always stays a one oh it and that would be your rule eight.
+        : RULE-8: It there are two adverbs at the end of a sentence, the last adverb gets converted to a verb. 
+            ( The rule only applies if the sentence ends with a (.), (?) or (!)
+            and doesn’t end with a (,), (:), (;), ([]) or (). 
+        : RULE-9: If the last word at the end of a sentence is an adverb, 
+            it’ll be converted into a pronoun, unless it ended in (-ly). 
+            A conjunction stays a conjunction. 
+            The word before the last (-ly) word would convert to a pronoun. 	
+        : RULE-10: An adverb before a conjunction remains an adverb, 
+            because it’s not the end of a sentence or punctuation. 
+
     : SYNTAX-SEQUENCE-KEY:
         : Fence =           |
         : Sentence= 		|[Beginning of Sentence]... [End of Sentence(./?/!)]|
@@ -648,7 +642,6 @@ FOR THE BEING-ONE WITH THE LORD.
         End of Sentence=	|1(.?!)| >>> |4|
                             |1 1(.?!)| >>> |1 2DPV[End](.?!))|
 
-###############################################################################################################
 : CLASS-~1:
     : C.-S.-S.-C.-P.-S.-G.-P. : CORRECT-SENTENCE-STRUCTURE-COMMUNICATION-PARSE-SYNTAX-GRAMMAR-PERFORMANCE.
     : CORRECT=COMPREHENSION/KNOWLEDGE OF THE MATH-[IN]TERFACE.
@@ -769,11 +762,9 @@ FOR THE BEING-ONE WITH THE LORD.
                 OF THIS THREE-DAY-[RE]CISSION
                 OF THIS CONTRACT
                 OF THIS WITNESSING
-
         ~3: VERB:
             : SINGULAR-VERB=IS.
             : PLURAL-VERB=ARE. 
-        
         ~4: POSSESSION/DUTY:
             FOR THE WITNESS'-KNOWLEDGE OF THIS WITNESSING IS WITH THE DAMAGE OF TEH YELLOW-FRINGE-FLAG WITH THE VENUE BY THE ACTOR-JUDGE-LIABLE.
             WHICH ONE CAUSED THE DAMAGE IN THE COURTROOM?
@@ -793,7 +784,6 @@ FOR THE BEING-ONE WITH THE LORD.
                 FOR THE FORENSICS.
                 TIES IT TO A DAMAGE BY ARTIBULATING KNOWLEDGE BY WHOEVER USED IT.
                 IT MAKES A CONNECTION OF LIABILITY THROUGH SHOWING KNOWLEDGE ARTICULATED IN A TITLE CODE.
-
         ~5: AUTHORITY/AUTHORIZATION
             :SAMPLES:
                 BY THE LEARNER'S-AUTHORIZATION
@@ -801,7 +791,6 @@ FOR THE BEING-ONE WITH THE LORD.
                 BY THE AUTHORITY
                 BY THE CLAIM
                 BY THE CHICKEN
-
         : CONTRACT-TYPE: PERFORMANCE-CONTRACT.
         : TITLE-~4-GRAMMAR-FLAG-PLACEMENT,
         : FLAG-CAPTION,
@@ -810,7 +799,6 @@ FOR THE BEING-ONE WITH THE LORD.
         : NUMBERING-METHOD: (~0, ~1, ~2, ~3.),
         : CONTENT: (:CLAIMS-STATEMENT, DAMAGES/DUTIES-STATEMENT, COMMAND/PERFORMANCE-STATEMENT & VOLITION-STATEMENT.)
         : QUANTUM-GRAMMAR-BASICS: 13-WORD SENTENCES.
-
     : CONTRACT-CONTENT:
         : POSTMASTER-POSITION/STATUS:
             : FREIGHT-FORWARDER:
@@ -836,16 +824,13 @@ FOR THE BEING-ONE WITH THE LORD.
             IS FOR YOUR VOLITION OF THE SAFEGUARD WITH THE GLOBAL-POSTAL-CORPORATION-CONSTRUCT BY THE LIABLE PERSON's-KNOWLEDGE?
             If the Volition is not the Safeguard, Change to:
                 IS FOR THE WHY OF YOUR VOLITION WITH THE CAUSE-DAMAGE?
-
     : VOID-CONTRACT-WORDS AND CONTRACT-WORDS.
         : PARSE-WHAT?
             PARSE: BREAKING WORDS DOWN IN TO ROOT WORDS.
             PREFIXES & SUFFIXES AND OTHER GRAMMAR-RULES
-
             TO AND FROM ARE NOT IN THE NOW-SPACE!
                 I'M FROM ENGLAND. -PAST TENSE
                 I CAME FROM THE HOSPITAL. -PAST TENSE
-
                 GO TO YOUR ROOM. - FUTURE TENSE
                 I'M GOING TO THE STORE. -FUTURE TENSE.
         : VOID-CONTRACT-[PRE]FIXES.
@@ -882,8 +867,7 @@ FOR THE BEING-ONE WITH THE LORD.
                 : EACH.
                 : SAMPLE.
 
-    : CLASS-1-FLASHBACK:
-    FOR THE LEARNER'S-KNOWLEDGE OF THE CONTRACT-WRITING-BASIC-COURSE IS WITH THE CLOSURE BY THE LEARNER.
+    : CLASS-1-FLASHBACK: FOR THE LEARNER'S-KNOWLEDGE OF THE CONTRACT-WRITING-BASIC-COURSE IS WITH THE CLOSURE BY THE LEARNER.
         : CONTRACT-SCENARIOES/TYPES OF THE PERFORMANCE-CONTRACT,
         : TITLE-4-GRAMMAR_FLAG-PLACEMENT,
         : FLAG-CAPTION,
@@ -907,7 +891,6 @@ FOR THE BEING-ONE WITH THE LORD.
         : CONTRACTS CONTAIN CLAIM-STATEMENT. DUTIES AND/OR DAMAGES, COMMMAND AND/OR PERFORMANCES, VOLITION
         : THERE ARE SEVERAL STYLES OF PERFORMANCE CONTRACTS.
 
-###############################################################################################################
 : CLASS-~2: 
     : CONTRACT-WRITING-BASICS: CLASS-~2A:
         : BOLD:
@@ -965,7 +948,6 @@ FOR THE BEING-ONE WITH THE LORD.
             ():PARENTHESIS.
         : JUSTIFY-TEXT.
             : JUSTIFY OF THE MARGINS.
-
     : QUANTUM-GRAMMAR-BASICS:
         : CAUSE: Jane-Sally: Smith's-KNOWLEDGE.
             ~1: SOMEONE'S-KNOWLEDGE/ CORPORATION'S-KNOWLEDGE
@@ -1014,7 +996,6 @@ FOR THE BEING-ONE WITH THE LORD.
                     OF THIS THREE-DAY-[RE]CESSION
                     OF THIS CONTRACT
                     OF THIS WITNESSING
-
     : QUANTUM-GRAMMAR-BASICS: CONTRACT-CONTENTS:
         : STATEMENT OF A CLAIM. (: Closure of Your Rights/Plan.)
             ~0 FOR THE DRIVER-POSTMASTER-WITNESS; Jane-Salley: Smith's-KNOWLEDGE OF THIS DAMAGE-PUBLICATION IS WITH THE CLAIM OF MY CAR-BEING-HIT WITH THE DRIVING-PERFORMANCES OF A DIFFERENT-DRIVER/LIABLE: Tom: Kittle's-KNOWLEDGE WITH THE LAST-FRIDAY BY THE DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE.
@@ -1026,7 +1007,6 @@ FOR THE BEING-ONE WITH THE LORD.
             ~3 IS FOR THE VOLITION OF THE PAY WITH THE CARL'S-BODY-SHOP-[E]STIMATE-DAMAGE-COSTS BY THE LIABLE: Tom: Kittle's-KNOWLEDGE?
             ~4 FOR THE DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE OF THIS DAMAGE-PUBLICATION IS WITH THE CLAIM OF THIS VOLITION WITH THE COVERY OF THE DAMAGES WITH THE LIBERY OF THE FIX-CAR WITH THE COMPLETE-PERFORMANCSE OF THE CARL'S-BODY-SHOP-WORKER'S-CRAFTSMANSHIP WITH THE CLOSURE BY THIS DRIVER-POSTMASTER-WITNESS: Jane-Salley: Smith's-KNOWLEDGE.
 
-################################################################################################################
 : CLASS-~3:
     : WORD-TERMS:
         : AUTHOR'S-CAPACITY OF THE CONTROL-WORDS IN THE CONTRACT.
@@ -1140,7 +1120,6 @@ FOR THE BEING-ONE WITH THE LORD.
         : PLACEMENT WITHIN THE SENTENCE: [POST-NOUNS]
         : [CAN USE BOTH POSSESSION/AUTHORITY INSIDE PARENTHESES. CAN PUT WHOLE NEW SENTENCE OF ADD PARTIAL SENTENCE, OR A CONTINUATION OF THOUGHT FROM OUTSIDE PARENTHESES OR SIDE-NOTE]
 
-##############################################################################################################
 : CLASS-4:
     : FUNCTIONS OF THE [AT]TACHMENTS, [E]VIDENCE/FORENSICS AND SYNTAX-FRAUD-FICTION.
         [Gluing the Top-Left-Corner keeps the continuance of evidence.]
