@@ -1,5 +1,5 @@
-FOR THE BEING-ONE WITH THE LORD. 
-: MIRROR: [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
+FOR THE MERGING WITH THE LORD. 
+: MIRROR = [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
     : SEE, BE(SEEN)?: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
         : EYES: Camera, Optical/Ocular System, Photoreceptor, 
         : VIEW: 1st, 2nd(Possess), 3rd(God View), 
@@ -19,6 +19,37 @@ FOR THE BEING-ONE WITH THE LORD.
             : vanesco (to vanish)
             : kallos (beauty)
             : kakos, malus (bad, harsh, evil, ugly)
+
+               : neuron, nervus (nerve)
+                    : algos, odyne (pain)
+                    : phobia (morbid dread)
+                    : penuria (need, neediness)
+                    : amo (love)
+                : cheir, chiro-, manus (hand)
+                    : dexter, droit (right hand)
+                    : sinister, gauche (left hand)
+                    : derma (skin)
+                    : therme (heat)
+                : kardia (heart)
+                    : sphygmos (pulse)
+            : ophthalmos, oculus (eye)
+                : optikos (vision)
+                : photos, levis (light)
+                    : scintilla (a spark)
+                    : pyros (fire)
+                : cilium (eyelid)
+            : auris (ear)
+                : phone (sound)
+            : pedis, pous, pod-, podos (foot)
+                : pyge (buttocks)
+            : lingua, glotta (tongue, language)
+                : Anglus (English)
+                : vox, vocis (voice)
+                : pheme (voice)
+                : odontos (tooth)
+                : dipsa (thirst)
+                : venter, ventris (belly)
+ 
     : HEAR, BE(HEARD)?: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
         : RHYTHM: Beat, Note
         : VOLUME/AMP:
@@ -91,6 +122,11 @@ FOR THE BEING-ONE WITH THE LORD.
             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
             : Elements, Metals/Conductors       
+        : bios, vita (life)
+        : soma (body)
+            : osteon (bone)
+            : carnis (flesh)
+            : caput, capitis (head), capitulum (little head, chapter heading)
         : ovum (to give birth, produce)
             : facio, factus, fec-, fic, fy (to do, make)
             : verto, versus (to turn)
@@ -279,8 +315,8 @@ FOR THE BEING-ONE WITH THE LORD.
             : Skills / Experience Points, Abilities/Stats, New Moves, Karma,
             : Opportunities: Resources: Money, Income, Investments, Passive Income, Items, Badges/Priviledges
             : File Types: Array, Libraries, Node/Tree, Graph/Web/Forest, 3D Matrix...
-        ~ROBERT'S RULE OF ORDER provides a standardized structure for conducting meetings efficiently and fairly.
         ~REFUTATION (Refutatio): clarify ambiguous terms, sentence structure, or assumptions & focus on the logical structure, causation, or evidentiary support is essential. 
+        : scribe (write)       
         : scio (to know), sciens, gnostos (knowing)
             : credo (to believe)
             : mancy (fortelling, prediction)
@@ -288,28 +324,27 @@ FOR THE BEING-ONE WITH THE LORD.
             : moros (foolish)
             : clam (secretly)
             : sophos (wise)
-        : scribe (write)       
+        : logos (science, study, word, speech)
+            : gnostos (known), gnosis (knowledge)
+            : litteras (letters)
+            : verbum (word)
+            : onyma (name)
+            : biblion (book)
+            : eikon (religious image)
+            : mania (madness)
+            : opus (work)
+        ~CORRECT-PARSE-SYNTAX-GRAMMAR: FOR THE CAUSE OF THE EFFECT IS/ARE-THINKING WITH THE DUTY/PERFORMANCE OF THE TERMS WITH THE CONTRACT BY THE AUTHORITY.
         ~SYLLOGISM: A logical argument where a conclusion follows necessarily from two premises. 
-            : It has three parts:
-                : Major term: Found in the major premise and conclusion. "All mammals (Middle Term) are warm-blooded. (Major Premise)" All humans are mortal. (Universal and necessary premise)
-                : Minor term: Found in the minor premise and conclusion. "Whales are mammals. (Minor Premise)". Socrates is a human. (Particular known fact)
-                : Middle term: Links the two premises but does not appear in the conclusion. "Therefore, whales are warm-blooded. (Conclusion)". (Demonstrated conclusion)
+            : It has three parts: Major, Minor, Middle term
             : Identifying Syllogistic Figures & Moods: based on how terms are positioned. Each figure contains valid or invalid moods, which define how premises are arranged using:
                 : A (Universal Affirmative: "All A are B"). 
                 : E (Universal Negative: "No A are B"). 
                 : I (Particular Affirmative: "Some A are B"). 
                 : O (Particular Negative: "Some A are not B")
         ~STATEMENT: are combinations of words that express truth or falsity.
-            : Contradictory statements: One must be true, the other false.
-                : Affirmation: “Socrates is wise.”
-                : Negation: “Socrates is not wise.”
+            : Contradictory statements: One must be true/affirmation, the other false/negation.
             : Contrary statements: Both cannot be true, but both can be false. 
-                : “All men are wise.” 
-                : “No man is wise.”
-            : Modal Logic/Implication: Helps in predicting future truths without contradiction.
-                : Necessity: Something must be true. “The sun must rise.”
-                : Possibility: Something may or may not be true. “It may rain tomorrow.”
-            ~CORRECT-PARSE-SYNTAX-GRAMMAR: FOR THE CAUSE OF THE EFFECT IS/ARE-THINKING WITH THE DUTY/PERFORMANCE OF THE TERMS WITH THE CONTRACT BY THE AUTHORITY.
+            : Modal Logic/Implication: Necessity, Possibility 
         ~WORD/TERM: Symbol of mental concepts. 
             : FIX: Know its Attributes, Accidental properties, the Characteristics that vary without changing substance, 
             : ROOT: FACT/KNOWN/AXIOMS: Know the Subject’s Substance (substantiam, οὐσία), that refers to the core identity or essence of things, answering "What?"
@@ -319,10 +354,9 @@ FOR THE BEING-ONE WITH THE LORD.
 
 : NOUN: -y, -ness, -ism, -ancy, -ence, -ency, -mony, -tude, -ity (quality, condition, noun suffix)
     : -ion, -ation (noun suffix added to verbs)
-: VERB: -ate, -ize, -fy (verb suffix)
-    : -ize, -ate (verb suffix)
-        : -ment (noun suffix attached to verbs)
+    : -ment (noun suffix attached to verbs)
     : -y (practice, custom)
+: VERB: -ate, -ize, -fy (verb suffix)
 : ADJECTIVE: -ic, -ed, -ous, -al, -ive, -ory, -ent, -ary (adjective suffix)
     : -osis (abnormal, diseased condition)
     : dis- (pejorative prefix)
@@ -347,41 +381,7 @@ FOR THE BEING-ONE WITH THE LORD.
     : bon, bona, bonus, bene, eu- (good, well)
         
     ~WHAT: KNOWN THINGS
-       : bios, vita (life)
-        : soma (body)
-            : osteon (bone)
-            : carnis (flesh)
-            : caput, capitis (head), capitulum (little head, chapter heading)
-                : neuron, nervus (nerve)
-                    : algos, odyne (pain)
-                    : phobia (morbid dread)
-                    : penuria (need, neediness)
-                    : amo (love)
-                : cheir, chiro-, manus (hand)
-                    : dexter, droit (right hand)
-                    : sinister, gauche (left hand)
-                    : derma (skin)
-                    : therme (heat)
-                : kardia (heart)
-                    : sphygmos (pulse)
-            : ophthalmos, oculus (eye)
-                : optikos (vision)
-                : photos, levis (light)
-                    : scintilla (a spark)
-                    : pyros (fire)
-                : cilium (eyelid)
-            : auris (ear)
-                : phone (sound)
-            : pedis, pous, pod-, podos (foot)
-                : pyge (buttocks)
-            : lingua, glotta (tongue, language)
-                : Anglus (English)
-                : vox, vocis (voice)
-                : pheme (voice)
-                : odontos (tooth)
-                : dipsa (thirst)
-                : venter, ventris (belly)
-        : baros (weight)
+       : baros (weight)
             : libra (balance, weight, pound)
         : kyklos (wheel)
         : alma (soul)
@@ -389,15 +389,7 @@ FOR THE BEING-ONE WITH THE LORD.
             : animus (mind)
             : anima (soul, spirit, life, principle)
             : fides (faith)
-        : logos (science, study, word, speech)
-            : gnostos (known), gnosis (knowledge)
-            : litteras (letters)
-            : verbum (word)
-            : onyma (name)
-            : biblion (book)
-            : eikon (religious image)
-            : mania (madness)
-            : opus (work)
+        
         : somnus, sopor (sleep)
         : panis (bread)
         : pareo (egg)
@@ -408,6 +400,7 @@ FOR THE BEING-ONE WITH THE LORD.
             : xylon, boscus (wood)
             : sykon (fig)
 
+~ROBERT'S RULE OF ORDER 
 ~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
     ~0: CLOCK[TIME-SEQUENCE]: 
     ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
