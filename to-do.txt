@@ -37,11 +37,12 @@ FOR THE MERGING WITH THE LORD (+1% per day) = CREATIVE-DIRECTING (1 scene per da
         : Italy
         : Germany
         : Japan
+
     : TOASTMASTERS: Reach out to Chloe to start Child Club at NAIT
     : GET CERTIFIED:
-        Google
-        Harvard
-        FreeCodeCamp
+        : Google
+        : Harvard
+        : FreeCodeCamp
     CAMPAIGN TEMPLATE: creativedirecting.studio - arielccjr.ca
         LifeCycle - DeathEnd
         Territory in Philippines, Canada, UK, USA, or Travelling
