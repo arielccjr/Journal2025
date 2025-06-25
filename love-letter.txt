@@ -1,46 +1,39 @@
 FOR THE MERGING WITH THE LORD. 
 : MIRROR = [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
     : SEE, BE(SEEN)?: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
-        : EYES: Camera, Optical/Ocular System, Photoreceptor, 
-            : ophthalmos, oculus (eye)
-            : optikos (vision)
+        : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
             : photos, levis (light)
                 : scintilla (a spark)
                 : pyros (fire)
             : cilium (eyelid)
+            : opsis, optikos (sight or vision)
+                : scopein (see)
+                : specio, specto, spectus (to look)
+                : phanein (to show)
+                : clarus (clear, bright, distinct, or evident)
+                : graphein, scribo, scriptus (to write)
+                : simulo (to copy)
+                : vanesco (to vanish)
+                : kallos (beauty)
+                : kakos, malus (bad, harsh, evil, ugly)
         : VIEW: 1st, 2nd(Possess), 3rd(God View), 
         : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
-        : ANGLE: Up-Down, Right-Left
+        : ANGLE (gonia): Up-Down, Right-Left
         : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio), 
         : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, t Store-Set-Up
         : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
         : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-        : opsis, optikos (sight or vision)
-            : scopein (see)
-            : specio, specto, spectus (to look)
-            : phanein (to show)
-            : clarus (clear, bright, distinct, or evident)
-            : graphein, scribo, scriptus (to write)
-            : simulo (to copy)
-            : vanesco (to vanish)
-            : kallos (beauty)
-            : kakos, malus (bad, harsh, evil, ugly)
-
-
     : HEAR, BE(HEARD)?: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
-        :EARS
-           : auris (ear)
-                : phone (sound)
-            : vox, vocis (voice), pheme (voice)
+        : EARS (auris):
         : RHYTHM: Beat, Note
         : VOLUME/AMP:
         : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
         : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
         : audi (hear)
         : dico, dictus (to say, tell)
-            : sonus, phone (sound)
-            : loquere (speak)
-            : loquor (to speak)
+            : vox, vocis (voice), pheme (voice)
+            : sonus, phone (sound),
+            : loquere (speak), loquor (to speak)
             : garrio (to chatter)
             : strepo (to make a noise)
             : queror (to complain)
@@ -57,14 +50,13 @@ FOR THE MERGING WITH THE LORD.
                 : dexter, droit (right hand)
                 : sinister, gauche (left hand)
                 : derma (skin)
-                : therme (heat)
             : kardia (heart)
                 : sphygmos (pulse)
             : pedis, pous, pod-, podos (foot)
                 : pyge (buttocks)
         : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
-        : TEXTURE: Rough, Smooth
-        : MASS: Light, Heavy
+        : TEXTURE, HEAT (therme): Rough, Smooth
+        : MASS/WEIGHT (baros, libra): Light, Heavy
         : SPEED: Slow, Fast, 
         : PAN:
         : TILT:
@@ -111,21 +103,19 @@ FOR THE MERGING WITH THE LORD.
         : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
         : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
     : TASTE, BE(TASTED)?: FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination       : EARS: RodeMic, 
-        : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
-           : lingua, glotta (tongue, language)
+        : TONGUE (glotta): Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
+           : lingua (language)
                 : Anglus (English)
                 : odontos (tooth)
                 : dipsa (thirst)
                 : venter, ventris (belly)
         : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
-        : CREATED: BODY/HEALTH, Flesh/Blood, Seed(TaoistNoNut)
+        : CREATED
+            : BODY (soma), /HEALTH, BONE (osteon), Flesh (CARNIS) Blood, Seed(TaoistNoNut)
             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
             : Elements, Metals/Conductors       
         : bios, vita (life)
-        : soma (body)
-            : osteon (bone)
-            : carnis (flesh)
             : caput, capitis (head), capitulum (little head, chapter heading)
         : ovum (to give birth, produce)
             : facio, factus, fec-, fic, fy (to do, make)
@@ -148,13 +138,26 @@ FOR THE MERGING WITH THE LORD.
             : insidia (ambush)
         : incendo, incensus (to set fire)
             : ardo, arsus (to burn)
-
-: WHY-HOW do we [KNOW(), BE(KNOWN)]: SLEEPING for-by DREAM:  FORGETING-TERMINATING
+        : kyklos (wheel)
+        : alma (soul)
+            : psyche (spirit, soul, mind)
+            : animus (mind)
+            : anima (soul, spirit, life, principle)
+            : fides (faith)
+        : somnus, sopor (sleep)
+        : panis (bread)
+        : pareo (egg)
+        : cornu (horn)
+        : dendron (tree)
+            : valva (leaf)
+            : herba (herb)
+            : xylon, boscus (wood)
+            : sykon (fig)
+: WHY-HOW do we [KNOW(), BE(KNOWN)]?: SLEEPING for-by DREAM:  FORGETING-TERMINATING
     : WHEN?: SURPRISE: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
-        : SCHEDULE: Time: Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
+        : SCHEDULE, TIME (chronos): Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
         : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
-            : chronos (time)
                 : annus, enn- (year)
             : nihil (nothing)
             : semi- (one-half)
@@ -165,10 +168,8 @@ FOR THE MERGING WITH THE LORD.
                 : dicha- (in two)
                 : bini (two by two)
             : tri- (three)
-            : quadr- (four)
-                : quartus (fourth)
-            : penta (five)
-                : quintus (fifth)
+            : quadr- (four), quartus (fourth)
+            : penta (five), quintus (fifth)
             : sextus (sixth)
             : septem (seven)
             : okto (eight)
@@ -192,7 +193,6 @@ FOR THE MERGING WITH THE LORD.
             : platys, broad (flat)
             : metron, -meter (measure)
                 : tele- (distance)
-                : gonia (angle)
             : centrum, kentron (center)
                 : punctus (point)
                 : -ium, -ory (place where...)
@@ -274,10 +274,10 @@ FOR THE MERGING WITH THE LORD.
             : andros (male)
                 : puer (boy)
                 : vir (man)
+                : maritus (husband)
                 : pater, patris (father)
                 : frater, fratis; adelphos (brother)
                 : rex, regis (king)
-                : maritus (husband)
                 : geron (old man)
                 : militis (soldier)
                 : nautes (sailor)
@@ -380,39 +380,19 @@ FOR THE MERGING WITH THE LORD.
         : pejor (worse)
     : bon, bona, bonus, bene, eu- (good, well)
         
-    ~WHAT: KNOWN THINGS
-       : baros (weight)
-            : libra (balance, weight, pound)
-        : kyklos (wheel)
-        : alma (soul)
-            : psyche (spirit, soul, mind)
-            : animus (mind)
-            : anima (soul, spirit, life, principle)
-            : fides (faith)
-        
-        : somnus, sopor (sleep)
-        : panis (bread)
-        : pareo (egg)
-        : cornu (horn)
-        : dendron (tree)
-            : valva (leaf)
-            : herba (herb)
-            : xylon, boscus (wood)
-            : sykon (fig)
-
 ~ROBERT'S RULE OF ORDER 
 ~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
+        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
     ~0: CLOCK[TIME-SEQUENCE]: 
     ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
-        : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
-            ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
-            ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
-            ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
-            ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
-            ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
-            ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
-            ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
-        : RANDOM-ACCESS-MEMORY[DATA]: 
+       : RANDOM-ACCESS-MEMORY[DATA]: 
             : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                 : NOT (in=sel, out=NOTsel)
                 : AND (in=a, in=NOTsel, out=aANDNOTsel)
@@ -471,7 +451,6 @@ FOR THE MERGING WITH THE LORD.
             : OVERFLOW/EXCESS(>): +1
             : NEGATIVE/DEFICIENCY(<): -1
             : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
-
 
 : CHAPTER-~0:
     :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
