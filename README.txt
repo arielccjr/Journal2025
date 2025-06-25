@@ -2,6 +2,12 @@ FOR THE MERGING WITH THE LORD.
 : MIRROR = [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
     : SEE, BE(SEEN)?: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
         : EYES: Camera, Optical/Ocular System, Photoreceptor, 
+            : ophthalmos, oculus (eye)
+            : optikos (vision)
+            : photos, levis (light)
+                : scintilla (a spark)
+                : pyros (fire)
+            : cilium (eyelid)
         : VIEW: 1st, 2nd(Possess), 3rd(God View), 
         : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
         : ANGLE: Up-Down, Right-Left
@@ -20,37 +26,12 @@ FOR THE MERGING WITH THE LORD.
             : kallos (beauty)
             : kakos, malus (bad, harsh, evil, ugly)
 
-               : neuron, nervus (nerve)
-                    : algos, odyne (pain)
-                    : phobia (morbid dread)
-                    : penuria (need, neediness)
-                    : amo (love)
-                : cheir, chiro-, manus (hand)
-                    : dexter, droit (right hand)
-                    : sinister, gauche (left hand)
-                    : derma (skin)
-                    : therme (heat)
-                : kardia (heart)
-                    : sphygmos (pulse)
-            : ophthalmos, oculus (eye)
-                : optikos (vision)
-                : photos, levis (light)
-                    : scintilla (a spark)
-                    : pyros (fire)
-                : cilium (eyelid)
-            : auris (ear)
-                : phone (sound)
-            : pedis, pous, pod-, podos (foot)
-                : pyge (buttocks)
-            : lingua, glotta (tongue, language)
-                : Anglus (English)
-                : vox, vocis (voice)
-                : pheme (voice)
-                : odontos (tooth)
-                : dipsa (thirst)
-                : venter, ventris (belly)
- 
+
     : HEAR, BE(HEARD)?: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
+        :EARS
+           : auris (ear)
+                : phone (sound)
+            : vox, vocis (voice), pheme (voice)
         : RHYTHM: Beat, Note
         : VOLUME/AMP:
         : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
@@ -67,6 +48,20 @@ FOR THE MERGING WITH THE LORD.
             : terpido (to treble)
     : FEEL, BE(FELT)?: Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
         : SKINS: Hands, Feet, Mouse, Keyboard, Controller
+            : neuron, nervus (nerve)
+                : algos, odyne (pain)
+                : phobia (morbid dread)
+                : penuria (need, neediness)
+                : amo (love)
+            : cheir, chiro-, manus (hand)
+                : dexter, droit (right hand)
+                : sinister, gauche (left hand)
+                : derma (skin)
+                : therme (heat)
+            : kardia (heart)
+                : sphygmos (pulse)
+            : pedis, pous, pod-, podos (foot)
+                : pyge (buttocks)
         : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
         : TEXTURE: Rough, Smooth
         : MASS: Light, Heavy
@@ -117,6 +112,11 @@ FOR THE MERGING WITH THE LORD.
         : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
     : TASTE, BE(TASTED)?: FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination       : EARS: RodeMic, 
         : TONGUE: Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
+           : lingua, glotta (tongue, language)
+                : Anglus (English)
+                : odontos (tooth)
+                : dipsa (thirst)
+                : venter, ventris (belly)
         : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
         : CREATED: BODY/HEALTH, Flesh/Blood, Seed(TaoistNoNut)
             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 

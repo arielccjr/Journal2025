@@ -55,26 +55,26 @@
     Ω	Omega	"End" or "Great"; symbolizes completion, finality, or the ultimate limit.
 
 ~HEBREW-Alphabet (Aleph-Bet) consists of 22 consonantal letters. Each letter has deep symbolic, spiritual, and numerical significance.
-: Letter	Name	Meaning (Symbolism or Concept)
-    א	    Aleph	Ox, strength, leadership, unity.
-    ב	    Bet	House, shelter, creation.
-    ג	    Gimel	Camel, movement, giving, prosperity.
-    ד	    Daleth	Door, humility, transition.
-    ה	    Hei	Window, breath, revelation, divinity.
-    ו	    Vav	Nail, hook, connection, unity.
-    ז	    Zayin	Weapon, sustenance, struggle, defense.
-    ח	    Chet	Fence, life, protection, boundaries.
-    ט	    Tet	Basket, goodness, hidden potential.
-    י	    Yod	Hand, power, creation, divine spark.
-    כ / ך   Kaf	Palm, bending, receiving, submission.
-    ל	    Lamed	Staff, learning, guidance, elevation.
-    מ / ם   Mem	Water, wisdom, transformation, flow.
-    נ / ן   Nun	Fish, life, faithfulness, continuity.
-    ס	    Samekh	Support, protection, cycles.
-    ע	    Ayin	Eye, perception, insight, vision.
-    פ / ף	Pe	Mouth, speech, expression, communication.
-    צ / ץ	Tzadi	Hook, righteousness, humility.
-    ק	    Qof	Needle, holiness, cycles of time.
-    ר	    Resh	Head, leadership, beginnings.
-    ש	    Shin	Tooth, fire, divine presence, transformation.
-    ת	    Tav	Mark, truth, completion, covenant.
+: Letter	Name    Meaning (Symbolism or Concept)
+    א	    Aleph   Ox, strength, leadership, unity.
+    ב	    Bet	    House, shelter, creation.
+    ג	    Gimel   Camel, movement, giving, prosperity.
+    ד	    Daleth  Door, humility, transition.
+    ה	    Hei	    Window, breath, revelation, divinity.
+    ו	    Vav	    Nail, hook, connection, unity.
+    ז	    Zayin   Weapon, sustenance, struggle, defense.
+    ח	    Chet    Fence, life, protection, boundaries.
+    ט	    Tet	    Basket, goodness, hidden potential.
+    י	    Yod	    Hand, power, creation, divine spark.
+    כ / ך   Kaf	    Palm, bending, receiving, submission.
+    ל	    Lamed   Staff, learning, guidance, elevation.
+    מ / ם   Mem     Water, wisdom, transformation, flow.
+    נ / ן   Nun     Fish, life, faithfulness, continuity.
+    ס	    Samekh  Support, protection, cycles.
+    ע	    Ayin    Eye, perception, insight, vision.
+    פ / ף	Pe	    Mouth, speech, expression, communication.
+    צ / ץ	Tzadi   Hook, righteousness, humility.
+    ק	    Qof	    Needle, holiness, cycles of time.
+    ר	    Resh    Head, leadership, beginnings.
+    ש	    Shin    Tooth, fire, divine presence, transformation.
+    ת	    Tav	    Mark, truth, completion, covenant.
