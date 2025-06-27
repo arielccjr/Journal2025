@@ -62,11 +62,12 @@ FOR THE MERGING WITH THE LORD (+1% per day) = CREATIVE-DIRECTING (1 scene per da
     SOFTWARE + GAME DEV + STORY CREATION: LEARN...
         : KRITA
         : BLENDER
+        : GODOT
         : Proko
-        : jhtis Hold
         : FullTimeGameDev
     CONVERT C.-S.-S.-C.-P.-S.-G.-P.'S INTO PYTHON/C
     PUBLISH TO FANPAGES:
         : FanPages
         : Website
         : SocialMedia
+    
