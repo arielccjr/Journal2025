@@ -1,25 +1,25 @@
 FOR THE MERGING WITH THE LORD (+1% per day) = CREATIVE-DIRECTING (1 scene per day).
     : GAMIFY WORK: Daily Agenda / To Do Streamline
-        Write Search Paper + Creation Plan
-    Set Up Remote Work:
-        Set up Remote Desktop: Turn on PC in the morning?
-        Meal Prep
-        Gym at NAIT / Kingsway
-        Terminate porn, have sex
-        Fast
-    FOR THE CLAIM OF THE LIFE: Step-7
-        Driver's License
-        Passport
-        Living-Space
-        Banking
-        Neutralize Student Loans
-    Prepare for the WORST CASE SCENARIO
-        Logins:
-            -Correct Syntax Grammar
-            -Computer
-            -Bank
-    Enrol with Keira for First Aid / CPR
-    LEARN LANGUAGES:
+        : Write Search Paper + Creation Plan
+        : Set Up Remote Work:
+            : Set up Remote Desktop: Turn on PC in the morning?
+            : Meal Prep
+            : Gym at NAIT / Kingsway
+            : Terminate porn, have sex
+            : Fast
+    : FOR THE CLAIM OF THE LIFE: Step-7
+        : Driver's License
+        : Passport
+        : Living-Space
+        : Banking
+        : Neutralize Student Loans
+    : READY FOR THE WORST CASE SCENARIO
+        : LOGINS:
+            : CORRECT SYNTAX GRAMMAR
+            : COMPUTER
+            : BANK
+    : ENROL WITH KEIRA FOR THE FIRST-AID/CPR
+    : LEARN LANGUAGES:
         : Latin
         : Greek
         : German
@@ -31,7 +31,7 @@ FOR THE MERGING WITH THE LORD (+1% per day) = CREATIVE-DIRECTING (1 scene per da
         : Russian
         : Vietnamese
         : Chinese
-    TRAVEL:
+    : TRAVEL:
         : Canada (VIA RAIL): Quebec
         : London
         : Italy
@@ -40,34 +40,33 @@ FOR THE MERGING WITH THE LORD (+1% per day) = CREATIVE-DIRECTING (1 scene per da
 
     : TOASTMASTERS: Reach out to Chloe to start Child Club at NAIT
     : GET CERTIFIED:
-        : Google
-        : Harvard
-        : FreeCodeCamp
-    CAMPAIGN TEMPLATE: creativedirecting.studio - arielccjr.ca
+        : GOOGLE
+        : HARVARD
+        : FREECODECAMP
+
+    : CAMPAIGN TEMPLATE: creativedirecting.studio - arielccjr.ca
         LifeCycle - DeathEnd
         Territory in Philippines, Canada, UK, USA, or Travelling
         Being Together with the Clan
         Investing on Clan's Ventures
         Update Financial Statement, Life Insurance
         October 31, 2024
-    OFFER FREE CAMPAIGN SCRIPT PDF
-    CORPORATE:
-        + Set LLC
-        ▪ Get liability insurance to protect yourself and your clients in case of accidents or damage.
-    CORRECT LEGAL POLICIES
-    Replace ChatGPT & MidJourney with tinygrad
-    START LIVESTREAMING 
-        Eventbrite/MeetUp
-        Telegram
-    SOFTWARE + GAME DEV + STORY CREATION: LEARN...
+    : OFFER FREE CAMPAIGN SCRIPT PDF
+    : CORPORATE:
+        : Set LLC
+        : Get liability insurance
+    : CORRECT LEGAL POLICIES
+    : Replace ChatGPT & MidJourney with tinygrad
+    : START LIVESTREAMING: PUBLISH TO FANPAGES:
+        : Eventbrite/MeetUp
+        : Telegram
+        : FanPages
+        : Website
+        : SocialMedia
+    : SOFTWARE + GAME DEV + STORY CREATION: LEARN...
         : KRITA
         : BLENDER
         : GODOT
         : Proko
         : FullTimeGameDev
-    CONVERT C.-S.-S.-C.-P.-S.-G.-P.'S INTO PYTHON/C
-    PUBLISH TO FANPAGES:
-        : FanPages
-        : Website
-        : SocialMedia
-    
+    : CONVERT C.-S.-S.-C.-P.-S.-G.-P.'S INTO C
