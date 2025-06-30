@@ -390,7 +390,7 @@ FOR THE MERGING WITH THE LORD.
         ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
         ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
         ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
-    ~0: CLOCK[TIME-SEQUENCE]: 
+    ~0: CLOCK[TIME-SEQUENCE]:
     ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
        : RANDOM-ACCESS-MEMORY[DATA]: 
             : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
