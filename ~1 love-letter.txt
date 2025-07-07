@@ -2,7 +2,7 @@ FOR THE MERGING WITH THE LORD.
 : MIRROR = [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
     : SEE, BE(SEEN)?: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
         : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
-            : photos, levis (light)
+            : light (photos, levis)
                 : scintilla (a spark)
                 : pyros (fire)
             : cilium (eyelid)
@@ -80,7 +80,7 @@ FOR THE MERGING WITH THE LORD.
             : fero (to bear, carry)
             : haero (stick)
             : lactus (gather)
-        : -ple, -plex, pli-, plic-, plico-, -ply (fold)
+        : pli-, plic-, plico-, -ply, -ple, -plex (fold)
         : cedo, itus (go)
             : veni (come)
             : ambulo (to walk)
@@ -111,7 +111,7 @@ FOR THE MERGING WITH THE LORD.
                 : venter, ventris (belly)
         : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
         : CREATED
-            : BODY (soma), /HEALTH, BONE (osteon), Flesh (CARNIS) Blood, Seed(TaoistNoNut)
+            : BODY (soma), /HEALTH, BONE (osteon), Flesh (CARNIS) Blood, Seed
             : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
             : Spermatogenesis(Testes) & Oogenesis(Ovaries)
             : Elements, Metals/Conductors       
@@ -271,20 +271,13 @@ FOR THE MERGING WITH THE LORD.
                             : klepte (thief)
                         : demos (people)
                 : omnis, pan (all)
-            : andros (male)
-                : puer (boy)
-                : vir (man)
-                : maritus (husband)
-                : pater, patris (father)
-                : frater, fratis; adelphos (brother)
+            : andros (male): puer (boy), frater, fratis; adelphos (brother), vir (man), maritus (husband), pater, patris (father), avanculus (uncle)
                 : rex, regis (king)
                 : geron (old man)
                 : militis (soldier)
                 : nautes (sailor)
-                : avanculus (uncle)
                 : Laconia (Sparta)
-            : gyne (woman)
-                : mater, matris (mother)
+            : gyne (woman), mater, matris (mother)
                 : soror (sister)
                 : nymphe (bride)
                 : uxor (wife)
@@ -294,10 +287,8 @@ FOR THE MERGING WITH THE LORD.
                 : leo (lion)
                 : felis (cat)
                 : porcus (pig)
-                : canis (dog)
-                : vulpus (fox)
+                : canis (dog), vulpus (fox), lupus (wolf)
                 : ursus (bear)
-                : lupus (wolf)
                 : equus, cheval, hippos (horse)
                     : callabus, caval- (inferior horse)
                 : piscis (fish)
