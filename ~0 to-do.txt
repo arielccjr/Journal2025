@@ -3,17 +3,17 @@ IS
 WITH THE CLAIM-POSSESSIVE OF THE TERMS (-/+)  (+1% / scene per day).
 WITH THE CONTRACT C-S-S-C-S-L BY THE CLAIMANT: Ariel-Cabutija: Casapao.
     : DEFINE:
-        
     : GAMIFY WORK: Daily Agenda / To Do Streamline
         : UPDATE FINANCIAL STATEMENT
         : Set up Remote Desktop: Turn on PC in the morning?
             : Meal Prep & Fast
-            : Gym
+            : Gym:
+        : Take SISTER out for adventure
     : GET CERTIFIED:
         : FREECODECAMP
         : GOOGLE / MICROSOFT
         : HARVARD
-        : SOFTWARE + GAME DEV + STORY CREATION: LEARN... Proko, FullTimeGameDev
+        : SOFTWARE + GAME DEV + STORY CREATION: LEARN... Proko, FullTimeGameDev, Tattooing101, Udemy,
             : KRITA
             : BLENDER
             : GODOT
@@ -60,3 +60,6 @@ WITH THE CONTRACT C-S-S-C-S-L BY THE CLAIMANT: Ariel-Cabutija: Casapao.
         : Canada (VIA RAIL): Quebec
         : London, Italy, Germany
         : Japan
+
+
+
