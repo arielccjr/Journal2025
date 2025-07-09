@@ -17,9 +17,9 @@ FOR THE MERGING WITH THE LORD.
                     : scopein (see), look (specio, specto, spectus) 
                     : phanein (to show)
                     : clarus (clear, bright, distinct, or evident)
-                    : graphein, scribo, scriptus (to write)
-                    : simulo (to copy)
-                    : vanesco (to vanish)
+                    : write (graphein, scribo, scriptus)
+                    : copy (simulo)
+                    : vanish (vanesco)
                     : kallos (beauty)
                     : kakos, malus (bad, harsh, evil, ugly)
             : VIEW: 1st, 2nd(Possess), 3rd(God View), 
@@ -86,15 +86,15 @@ FOR THE MERGING WITH THE LORD.
                 : fero (to bear, carry)
                 : haero (stick)
                 : lactus (gather)
-            : pli-, plic-, plico-, -ply, -ple, -plex (fold)
-            : cedo, itus (go)
+            : fold (pli-, plic-, plico-, -ply, -ple, -plex)
+            : go (cedo, itus)
                 : veni (come)
                 : ambulo (to walk)
                 : vale (farewell)
                 : fugio (flee)
                 : volvo, volutus (to roll)
-                : flu-, fluct-, fluo-, fluv-, flux- (flow)
-                : cado (to fall)
+                : flow (flu-, fluct-, fluo-, fluv-, flux-)
+                : fall (cado)
                 : archein (to rule)
                 : agogos (leading)
                 : sequor (to follow)
@@ -156,6 +156,7 @@ FOR THE MERGING WITH THE LORD.
             : cornu (horn)
             : dendron (tree), valva (leaf), herba (herb), xylon, boscus (wood), sykon (fig)
     ~FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
+        : AUTHORITY:
         : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
@@ -209,6 +210,7 @@ FOR THE MERGING WITH THE LORD.
                 : (lizard)
                 : ephemera (dayfly)
     ~HOME/SPACE: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+        : HERE
         : WAY for-by KINGDOMHEAVEN = Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: new areas, better positioning, better territory    
             : platys, broad (flat)
             : metron, -meter (measure)
@@ -259,6 +261,7 @@ FOR THE MERGING WITH THE LORD.
             : nomos (arrangement, law, order)
             : ubique (everywhere)
     ~SCHEDULE, TIME (chronos): Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
+        : NOW
         : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
             : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
                 : annus, enn- (year)
