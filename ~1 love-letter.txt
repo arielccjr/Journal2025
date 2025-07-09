@@ -6,9 +6,8 @@ FOR THE MERGING WITH THE LORD.
     ~WHEN/SURPRISE?: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
     ~WHY-HOW/DREAM-SLEEP?: do we [KNOW(), BE(KNOWN)]?: FORGETING-TERMINATING
         : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
-
-~1: DECODE: 
-   : KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
+~1: DECODE: KNOW()-BE(KNOWN)
+   ~KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
         ~SEEN: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
             : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
                 : light (photos, levis), spark (scintilla), fire (pyros)
@@ -17,8 +16,7 @@ FOR THE MERGING WITH THE LORD.
                     : scopein (see), look (specio, specto, spectus) 
                     : phanein (to show)
                     : clarus (clear, bright, distinct, or evident)
-                    : write (graphein, scribo, scriptus)
-                    : copy (simulo)
+                   : copy (simulo)
                     : vanish (vanesco)
                     : kallos (beauty)
                     : kakos, malus (bad, harsh, evil, ugly)
@@ -49,7 +47,7 @@ FOR THE MERGING WITH THE LORD.
             : SKINS: Hands, Feet, Mouse, Keyboard, Controller
                 : neuron, nervus (nerve)
                     : algos, odyne (pain)
-                    : phobia (morbid dread)
+                    : fear, morbid dread (phobia)
                     : penuria (need, neediness)
                     : amo (love)
                 : cheir, chiro-, manus (hand)
@@ -72,7 +70,6 @@ FOR THE MERGING WITH THE LORD.
             : sensus, sentio (feel)
                 : pathos (disease, suffering, feeling)
                 : misein (hate)
-                : phobia (fear, morbid dread)
                 : prurio (to itch, to long for)
                 : tactus (touch), gage ()
                 : cura (care)
@@ -82,7 +79,7 @@ FOR THE MERGING WITH THE LORD.
                     : orthos (straight, correct)
                 : volo (to wish, to will, to be willing)
             : obstetrix (to stand)
-                : sedeo, sess-, sid- (sit)
+                : sit (sedeo, sess-, sid-)
                 : fero (to bear, carry)
                 : haero (stick)
                 : lactus (gather)
@@ -157,7 +154,7 @@ FOR THE MERGING WITH THE LORD.
             : dendron (tree), valva (leaf), herba (herb), xylon, boscus (wood), sykon (fig)
     ~FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
         : AUTHORITY:
-        : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
+        : SONHERO for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
             : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
             : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
         : PERSONALITIES
@@ -184,16 +181,16 @@ FOR THE MERGING WITH THE LORD.
                             : klepte (thief)
                         : demos (people)
                 : omnis, pan (all)
-            : andros (male): puer (boy), frater, fratis; adelphos (brother), vir (man), maritus (husband), pater, patris (father), avanculus (uncle)
+            : male (andros), man (vir), hustaband (maritus), father (pater, patris), puer (boy), frater, fratis; adelphos (brother), avanculus (uncle)
                 : rex, regis (king)
                 : geron (old man)
                 : militis (soldier)
                 : nautes (sailor)
                 : Laconia (Sparta)
             : gyne (woman), mater, matris (mother)
+                : uxor (wife)
                 : soror (sister)
                 : nymphe (bride)
-                : uxor (wife)
                 : obstetrix (midwife) "obstetrician"
             : zoion (animal)
                 : satyros (satyr)
@@ -293,8 +290,7 @@ FOR THE MERGING WITH THE LORD.
                 : thanatos (death)
             : nox, noctis (night)
             : re- (again, back)
-
-    : AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
+    ~AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
             : Skills / Experience Points, Abilities/Stats, New Moves, Karma,
