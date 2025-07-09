@@ -1,194 +1,214 @@
 FOR THE MERGING WITH THE LORD. 
-: MIRROR = [IN:SEE/HEAR/FEEL/SMELL/TASTE(), OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)]?
-    : SEE, BE(SEEN)?: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
-        : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
-            : light (photos, levis)
-                : scintilla (a spark)
-                : pyros (fire)
-            : cilium (eyelid)
-            : opsis, optikos (sight or vision)
-                : scopein (see)
-                : specio, specto, spectus (to look)
-                : phanein (to show)
-                : clarus (clear, bright, distinct, or evident)
-                : graphein, scribo, scriptus (to write)
-                : simulo (to copy)
-                : vanesco (to vanish)
-                : kallos (beauty)
-                : kakos, malus (bad, harsh, evil, ugly)
-        : VIEW: 1st, 2nd(Possess), 3rd(God View), 
-        : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
-        : ANGLE (gonia): Up-Down, Right-Left
-        : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio), 
-        : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, t Store-Set-Up
-        : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
-        : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
-    : HEAR, BE(HEARD)?: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
-        : EARS (auris):
-        : RHYTHM: Beat, Note
-        : VOLUME/AMP:
-        : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
-        : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
-        : audi (hear)
-        : dico, dictus (to say, tell)
-            : vox, vocis (voice), pheme (voice)
-            : sonus, phone (sound),
-            : loquere (speak), loquor (to speak)
-            : garrio (to chatter)
-            : strepo (to make a noise)
-            : queror (to complain)
-            : taceo (to be silent)
-            : terpido (to treble)
-    : FEEL, BE(FELT)?: Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
-        : SKINS: Hands, Feet, Mouse, Keyboard, Controller
-            : neuron, nervus (nerve)
-                : algos, odyne (pain)
-                : phobia (morbid dread)
-                : penuria (need, neediness)
-                : amo (love)
-            : cheir, chiro-, manus (hand)
-                : dexter, droit (right hand)
-                : sinister, gauche (left hand)
-                : derma (skin)
-            : kardia (heart)
-                : sphygmos (pulse)
-            : pedis, pous, pod-, podos (foot)
-                : pyge (buttocks)
-        : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
-        : TEXTURE, HEAT (therme): Rough, Smooth
-        : MASS/WEIGHT (baros, libra): Light, Heavy
-        : SPEED: Slow, Fast, 
-        : PAN:
-        : TILT:
-        : ZOOM: In, Out
-        : EMOTION: Reaction, INERTIA, Love, Hate
-        : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor       
-        : sensus, sentio (feel)
-            : pathos (disease, suffering, feeling)
-            : misein (hate)
-            : phobia (fear, morbid dread)
-            : prurio (to itch, to long for)
-            : tactus (touch), gage ()
-            : cura (care)
-                : iatreia (medical healing)
-                : philein, philos (love, loving)
-                : plac- (to please, appease, soothe, pacify)
-                : orthos (straight, correct)
-            : volo (to wish, to will, to be willing)
-        : obstetrix (to stand)
-            : sedeo, sess-, sid- (sit)
-            : fero (to bear, carry)
-            : haero (stick)
-            : lactus (gather)
-        : pli-, plic-, plico-, -ply, -ple, -plex (fold)
-        : cedo, itus (go)
-            : veni (come)
-            : ambulo (to walk)
-            : vale (farewell)
-            : fugio (flee)
-            : volvo, volutus (to roll)
-            : flu-, fluct-, fluo-, fluv-, flux- (flow)
-            : cado (to fall)
-            : archein (to rule)
-            : agogos (leading)
-            : sequor (to follow)
-            : nostos (return, home)
-            : dono (to give)
-            : nego (to deny)
-            : vacillo (to swing back and forth)
-                : oscillum (a swing)
-            : jacio, ject- (throw)
-    : SMELL, BE(SMELLED)?: MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
-        : NOSE: Lungs, Air, Diffusion
-        : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
-        : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
-    : TASTE, BE(TASTED)?: FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination       : EARS: RodeMic, 
-        : TONGUE (glotta): Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
-           : lingua (language)
-                : Anglus (English)
-                : odontos (tooth)
-                : dipsa (thirst)
-                : venter, ventris (belly)
-        : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
-        : CREATED
-            : BODY (soma), /HEALTH, BONE (osteon), Flesh (CARNIS) Blood, Seed
-            : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
-            : Spermatogenesis(Testes) & Oogenesis(Ovaries)
-            : Elements, Metals/Conductors       
-        : bios, vita (life)
-            : caput, capitis (head), capitulum (little head, chapter heading)
-        : ovum (to give birth, produce)
-            : facio, factus, fec-, fic, fy (to do, make)
-            : verto, versus (to turn)
-                : -ible (can be, able to be) 
-            : opero, ergon (to work)
-            : vivo (to live)
-            : -esce (begin to)
-            : -escent (growing, becoming)
-            : coctus (cook)
-        : dipsa (thirst)
-        : claudo, claus-, claustro-, clausus-, clois-, clud-, clus- (shut) 
-            : seco, sectus (cut)
-            : acuo (to sharpen)
-            : tome (a cutting)
-            : pungo (to pierce sharply)
-        : klaein (to break)
-        : -cide (killing)
-            : voro (to devour)
-            : insidia (ambush)
-        : incendo, incensus (to set fire)
-            : ardo, arsus (to burn)
-        : kyklos (wheel)
-        : alma (soul)
-            : psyche (spirit, soul, mind)
-            : animus (mind)
-            : anima (soul, spirit, life, principle)
-            : fides (faith)
-        : somnus, sopor (sleep)
-        : panis (bread)
-        : pareo (egg)
-        : cornu (horn)
-        : dendron (tree)
-            : valva (leaf)
-            : herba (herb)
-            : xylon, boscus (wood)
-            : sykon (fig)
-: WHY-HOW do we [KNOW(), BE(KNOWN)]?: SLEEPING for-by DREAM:  FORGETING-TERMINATING
-    : WHEN?: SURPRISE: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
-        : SCHEDULE, TIME (chronos): Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
-        : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
-            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
-                : annus, enn- (year)
-            : nihil (nothing)
-            : semi- (one-half)
-            : mono-, monos, unus (one)
-                : sesqui- (one and one-half)
-            : bi-, duo (two)
-                : ambi- (both)
-                : dicha- (in two)
-                : bini (two by two)
-            : tri- (three)
-            : quadr- (four), quartus (fourth)
-            : penta (five), quintus (fifth)
-            : sextus (sixth)
-            : septem (seven)
-            : okto (eight)
-            : decem, deka (ten)
-            : septuaginta (seventy)
-            : nonaginta (ninety)
-            : centum (hundred)
-            : mille (one thousand)
-            : poly-, polys, multus (many)
-            : geras (old age)
-                : senex (old)
-            : pre-, pro- (before, beforehand)
-                : genesis (birth, origin)
-            : post (after)
-                : thanatos (death)
-            : nox, noctis (night)
-            : re- (again, back)
-    : WHERE?: FOREIGN: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
-        : HOME: Space: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
+~0: FETCH: IN:SEE/HEAR/FEEL/SMELL/TASTE()
+    ~WHAT/UNKNOWN?: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Division
+    ~WHO/STRANGER?: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
+    ~WHERE/FOREIGN?: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
+    ~WHEN/SURPRISE?: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
+    ~WHY-HOW/DREAM-SLEEP?: do we [KNOW(), BE(KNOWN)]?: FORGETING-TERMINATING
+        : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
+
+~1: DECODE: 
+   : KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
+        ~SEEN: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
+            : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
+                : light (photos, levis), spark (scintilla), fire (pyros)
+                : cilium (eyelid)
+                : opsis, optikos (sight or vision)
+                    : scopein (see), look (specio, specto, spectus) 
+                    : phanein (to show)
+                    : clarus (clear, bright, distinct, or evident)
+                    : graphein, scribo, scriptus (to write)
+                    : simulo (to copy)
+                    : vanesco (to vanish)
+                    : kallos (beauty)
+                    : kakos, malus (bad, harsh, evil, ugly)
+            : VIEW: 1st, 2nd(Possess), 3rd(God View), 
+            : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
+            : ANGLE (gonia): Up-Down, Right-Left
+            : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio), 
+            : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, t Store-Set-Up
+            : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
+            : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
+        ~HEARD: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
+            : EARS (auris):
+            : RHYTHM: Beat, Note
+            : VOLUME/AMP:
+            : GENRES: Alt, Post-Rock, Country, Gregorian Chant, Foreign
+            : INSTRUMENT: VocalChord, RealtekSpeakers: Wave/Audio: Amplitude, Spectogram..., 
+            : audi (hear)
+            : dico, dictus (to say, tell)
+                : vox, vocis (voice), pheme (voice)
+                : sonus, phone (sound),
+                : loquere (speak), loquor (to speak)
+                : garrio (to chatter)
+                : strepo (to make a noise)
+                : queror (to complain)
+                : taceo (to be silent)
+                : terpido (to treble)
+        ~FELT: Fleeing/Pausing, EVASION, Clothes, Armour, Fear, Shyness, Rejection, STILLNESS, Rest
+            : SKINS: Hands, Feet, Mouse, Keyboard, Controller
+                : neuron, nervus (nerve)
+                    : algos, odyne (pain)
+                    : phobia (morbid dread)
+                    : penuria (need, neediness)
+                    : amo (love)
+                : cheir, chiro-, manus (hand)
+                    : dexter, droit (right hand)
+                    : sinister, gauche (left hand)
+                    : derma (skin)
+                : kardia (heart)
+                    : sphygmos (pulse)
+                : pedis, pous, pod-, podos (foot)
+                    : pyge (buttocks)
+            : TEMPERATURE: Cold, Warm, Hot, Weather: Humidity, Pressure
+            : TEXTURE, HEAT (therme): Rough, Smooth
+            : MASS/WEIGHT (baros, libra): Light, Heavy
+            : SPEED: Slow, Fast, 
+            : PAN:
+            : TILT:
+            : ZOOM: In, Out
+            : EMOTION: Reaction, INERTIA, Love, Hate
+            : MOTION: MartialArts, eSports, Dance, Animation/GUI, Robotics, Driving, Pokemon, Counter-Strike, BattleRealms, OnePiece, BannerSaga, Transistor       
+            : sensus, sentio (feel)
+                : pathos (disease, suffering, feeling)
+                : misein (hate)
+                : phobia (fear, morbid dread)
+                : prurio (to itch, to long for)
+                : tactus (touch), gage ()
+                : cura (care)
+                    : iatreia (medical healing)
+                    : philein, philos (love, loving)
+                    : plac- (to please, appease, soothe, pacify)
+                    : orthos (straight, correct)
+                : volo (to wish, to will, to be willing)
+            : obstetrix (to stand)
+                : sedeo, sess-, sid- (sit)
+                : fero (to bear, carry)
+                : haero (stick)
+                : lactus (gather)
+            : pli-, plic-, plico-, -ply, -ple, -plex (fold)
+            : cedo, itus (go)
+                : veni (come)
+                : ambulo (to walk)
+                : vale (farewell)
+                : fugio (flee)
+                : volvo, volutus (to roll)
+                : flu-, fluct-, fluo-, fluv-, flux- (flow)
+                : cado (to fall)
+                : archein (to rule)
+                : agogos (leading)
+                : sequor (to follow)
+                : nostos (return, home)
+                : dono (to give)
+                : nego (to deny)
+                : vacillo (to swing back and forth)
+                    : oscillum (a swing)
+                : jacio, ject- (throw)
+        ~SMELLED: MASKing/Blowing, Fan, CHOKE: Suffocate, Hiccup, Cold, Asthma, Breath-Holding
+            : NOSE: Lungs, Air, Diffusion
+            : Smells(Floral, Fruity, Earthy, Spicy, Woody, Musky, Sweet...), Yawn
+            : Emitted/Exhaled: EXHAUST, Sigh, Sneeze/Cough, Burp, Fart, Vent/Purifyer, Cig, CarbonDioxide       
+        ~TASTED: FASTing: Hunger, Thirst, Starvation, SOIL: Spit, Shit, Piss, Poison/Pollution, Disease, Waste Elimination       : EARS: RodeMic, 
+            : TONGUE (glotta): Throat, Stomach, Intestine, Energy, Power, Heat, Ingestion (Chewing & Swallowing), Enzyme Activity in the Small Intestine, Absorption of Nutrients
+            : lingua (language)
+                    : Anglus (English)
+                    : odontos (tooth)
+                    : dipsa (thirst)
+                    : venter, ventris (belly)
+            : EATEN: Flavors(Bitter, Salty, Sour, Sweet, Savory...), HautCuisin
+            : CREATED
+                : BODY (soma), /HEALTH, BONE (osteon), Flesh (CARNIS) Blood, Seed
+                : GnRH (Gonadotropin-releasing hormone) from the hypothalamus triggers the release of LH (luteinizing hormone) and FSH (follicle-stimulating hormone), 
+                : Spermatogenesis(Testes) & Oogenesis(Ovaries)
+                : Elements, Metals/Conductors       
+            : bios, vita (life)
+                : caput, capitis (head), capitulum (little head, chapter heading)
+            : ovum (to give birth, produce)
+                : facio, factus, fec-, fic, fy (to do, make)
+                : verto, versus (to turn)
+                    : -ible (can be, able to be) 
+                : opero, ergon (to work)
+                : vivo (to live)
+                : -esce (begin to)
+                : -escent (growing, becoming)
+                : coctus (cook)
+            : dipsa (thirst)
+            : claudo, claus-, claustro-, clausus-, clois-, clud-, clus- (shut) 
+                : seco, sectus (cut)
+                : acuo (to sharpen)
+                : tome (a cutting)
+                : pungo (to pierce sharply)
+            : klaein (to break)
+            : -cide (killing)
+                : voro (to devour)
+                : insidia (ambush)
+            : incendo, incensus (to set fire)
+                : ardo, arsus (to burn)
+            : kyklos (wheel)
+            : alma (soul)
+                : psyche (spirit, soul, mind)
+                : animus (mind)
+                : anima (soul, spirit, life, principle)
+                : fides (faith)
+            : somnus, sopor (sleep)
+            : panis (bread)
+            : pareo (egg)
+            : cornu (horn)
+            : dendron (tree), valva (leaf), herba (herb), xylon, boscus (wood), sykon (fig)
+    ~FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
+        : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
+            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
+            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
+        : PERSONALITIES
+            : sine (without)
+            : self, I (ego, autos)
+                : one (unus), of oneself (sui), alone (solus)
+                : asketes (monk) "ascetic"
+            : alter (other): "alter ego"
+                : co-, col- com-, con-, cor-, cum-, syn-, sym- (with, together)
+                : socius (companion)
+                : gamos (marriage)
+                    : -phile (lover)
+                : grex, gregis (herd, flock)
+                : polis (community)
+                : genos (race, kind)
+                    : anthropos (mankind)
+                        : homo (person, human)
+                        : paidos, ped- (child)
+                            : infans, infantis (baby)
+                            : -ac, -er (noun suffix, one who)
+                            : -ist (person/one who)
+                            : -ician (expert)
+                            : theos, deus (God)
+                            : klepte (thief)
+                        : demos (people)
+                : omnis, pan (all)
+            : andros (male): puer (boy), frater, fratis; adelphos (brother), vir (man), maritus (husband), pater, patris (father), avanculus (uncle)
+                : rex, regis (king)
+                : geron (old man)
+                : militis (soldier)
+                : nautes (sailor)
+                : Laconia (Sparta)
+            : gyne (woman), mater, matris (mother)
+                : soror (sister)
+                : nymphe (bride)
+                : uxor (wife)
+                : obstetrix (midwife) "obstetrician"
+            : zoion (animal)
+                : satyros (satyr)
+                : leo (lion)
+                : felis (cat)
+                : porcus (pig)
+                : canis (dog), vulpus (fox), lupus (wolf)
+                : ursus (bear)
+                : equus, cheval, hippos (horse)
+                    : callabus, caval- (inferior horse)
+                : piscis (fish)
+                : pecus (cattle)
+                : (bird)
+                : (lizard)
+                : ephemera (dayfly)
+    ~HOME/SPACE: Point/Index/DomainNameSystem/FileDirectory/Position/Location/Continent/Sea/Climate...: ASTRONOMY (PTOLEMY), GEOGRAPHY
         : WAY for-by KINGDOMHEAVEN = Studio: Channels/Web/Store, Structures/LEVELS/NAVIGATION: new areas, better positioning, better territory    
             : platys, broad (flat)
             : metron, -meter (measure)
@@ -238,69 +258,40 @@ FOR THE MERGING WITH THE LORD.
             : naus (ship)
             : nomos (arrangement, law, order)
             : ubique (everywhere)
+    ~SCHEDULE, TIME (chronos): Hertz(ClockCycle)/Second/Minute/Hour/Day/Month/Season/Year...: measure of motion in relation to before and after.
+        : CHANCE for-by DEATHFINISH = Chronology, Tutorials, Saves, Updates: Journal? Fast Track, they focus on making larger investments and fulfilling their dream           
+            : Battle Cycle: 1 move/turn at a time: Best of 7 Rounds: Round-Time: 3 minutes: paycheck every "Payday". : Incorporation/Fiscal Year: December 1, 2024... 1-2 days per project
+                : annus, enn- (year)
+            : nihil (nothing)
+            : semi- (one-half)
+            : mono-, monos, unus (one)
+                : sesqui- (one and one-half)
+            : bi-, duo (two)
+                : ambi- (both)
+                : dicha- (in two)
+                : bini (two by two)
+            : tri- (three)
+            : quadr- (four), quartus (fourth)
+            : penta (five), quintus (fifth)
+            : sextus (sixth)
+            : septem (seven)
+            : okto (eight)
+            : decem, deka (ten)
+            : septuaginta (seventy)
+            : nonaginta (ninety)
+            : centum (hundred)
+            : mille (one thousand)
+            : poly-, polys, multus (many)
+            : geras (old age)
+                : senex (old)
+            : pre-, pro- (before, beforehand)
+                : genesis (birth, origin)
+            : post (after)
+                : thanatos (death)
+            : nox, noctis (night)
+            : re- (again, back)
 
-    : WHO?: STRANGER: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
-        : FAMILIAR: Relations: Blood/Tribe/Race/Specie/Genus/Status/Personality...
-        : SON for-by FATHERGOD = Team/Contacts: Accountant/ComputerScientist, Investors, Publishers, Fathers, Brotherhoods, Gentlemen, the “New Rich”, Testimonials/Reviews
-            : Proko, Steve H, Norman R, Alex R, Rene G, J.C. Leyendecker, Takeshi Obata, Jiraiya; JoeHisaishi, Rivermaya/Bamboo, LanaDR, ZackB, MidwestPenPals, Locomotora, KidC, RyX, X, JuanKarlos
-            : DavidF, WesA, DenisV, TinaF, DanH, MatthewW, EiichiroO, HajimeI, Urusawa; David-WM, Russell-JG., WilliamM., MILO Y, Wurze, George H, Dusk&Dawn, Nerdwriter, MrMorj, Werb, Russell-B
-        : PERSONALITIES
-            : sine (without)
-            : ego (self, I): "egoist"
-                : autos (self)
-                : unus (one)
-                : sui (of oneself)
-                : solus (alone)
-                : asketes (monk) "ascetic"
-            : alter (other): "alter ego"
-                : co-, col- com-, con-, cor-, cum-, syn-, sym- (with, together)
-                : socius (companion)
-                : gamos (marriage)
-                    : -phile (lover)
-                : grex, gregis (herd, flock)
-                : polis (community)
-                : genos (race, kind)
-                    : anthropos (mankind)
-                        : homo (person, human)
-                        : paidos, ped- (child)
-                            : infans, infantis (baby)
-                            : -ac, -er (noun suffix, one who)
-                            : -ist (person/one who)
-                            : -ician (expert)
-                            : theos, deus (God)
-                            : klepte (thief)
-                        : demos (people)
-                : omnis, pan (all)
-            : andros (male): puer (boy), frater, fratis; adelphos (brother), vir (man), maritus (husband), pater, patris (father), avanculus (uncle)
-                : rex, regis (king)
-                : geron (old man)
-                : militis (soldier)
-                : nautes (sailor)
-                : Laconia (Sparta)
-            : gyne (woman), mater, matris (mother)
-                : soror (sister)
-                : nymphe (bride)
-                : uxor (wife)
-                : obstetrix (midwife) "obstetrician"
-            : zoion (animal)
-                : satyros (satyr)
-                : leo (lion)
-                : felis (cat)
-                : porcus (pig)
-                : canis (dog), vulpus (fox), lupus (wolf)
-                : ursus (bear)
-                : equus, cheval, hippos (horse)
-                    : callabus, caval- (inferior horse)
-                : piscis (fish)
-                : pecus (cattle)
-                : (bird)
-                : (lizard)
-                : ephemera (dayfly)
-
-    : WHAT?: UNKNOWN: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Dream/Nightmare, Division, Madness
-        : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
-        : KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
-        : AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
+    : AWAKENING for-by REALITY: "I KNOW! THAT'S/YOU'RE RIGHT!": REASON: ARITHMETIC+LOGIC, REALIZATION OF THE DREAM, ONENESS, COMPLETENESS/FULFILLMENT, FAIRNESS!
             : Cause & Consequence; Material, Formal, Efficient, Final
             : Win Condition: players must fulfill their dream on the Fast Track or reach a certain level of passive income, 
             : Skills / Experience Points, Abilities/Stats, New Moves, Karma,
@@ -442,6 +433,7 @@ FOR THE MERGING WITH THE LORD.
             : OVERFLOW/EXCESS(>): +1
             : NEGATIVE/DEFICIENCY(<): -1
             : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+~2: EXECUTE: OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)
 
 : CHAPTER-~0:
     :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
