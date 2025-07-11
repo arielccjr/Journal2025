@@ -1,13 +1,12 @@
 FOR THE MERGING WITH THE LORD. 
-~0: FETCH: IN:SEE/HEAR/FEEL/SMELL/TASTE()
+~0: FETCH: IN:SEE/HEAR/FEEL/SMELL/TASTE().
     ~WHAT/UNKNOWN?: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Division
     ~WHO/STRANGER?: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, WildEncounters + EnemyRaids/Ambush, Rivals, SocialLadder
     ~WHERE/FOREIGN?: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
     ~WHEN/SURPRISE?: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
-    ~WHY-HOW/DREAM-SLEEP?: do we [KNOW(), BE(KNOWN)]?: FORGETING-TERMINATING
-        : NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
-~1: DECODE: KNOW()-BE(KNOWN)
-   ~KNOWN: Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells, 
+    ~WHY-HOW/DREAM-SLEEP?: NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
+~1: DECODE:
+    ~KNOWN: FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells; Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; 
         ~SEEN: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
             : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
                 : light (photos, levis), spark (scintilla), fire (pyros)
@@ -364,8 +363,8 @@ FOR THE MERGING WITH THE LORD.
 ~ROBERT'S RULE OF ORDER 
 ~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
     : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
-        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP): Data is created in a format users can understand.
-        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP) : Data is encrypted with Software Port + Checksum
+        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP)+CSS: Data is created in a format users can understand.
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP)+JAVASCRIPT?+SQL?: Data is encrypted with Software Port + Checksum
         ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
         ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
         ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
@@ -373,7 +372,7 @@ FOR THE MERGING WITH THE LORD.
         ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
     ~0: CLOCK[TIME-SEQUENCE]:
     ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
-       : RANDOM-ACCESS-MEMORY[DATA]: 
+       : RANDOM-ACCESS-MEMORY[DATA]:
             : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
                 : NOT (in=sel, out=NOTsel)
                 : AND (in=a, in=NOTsel, out=aANDNOTsel)
@@ -433,6 +432,7 @@ FOR THE MERGING WITH THE LORD.
             : NEGATIVE/DEFICIENCY(<): -1
             : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
 ~2: EXECUTE: OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)
+    : FORGETING-TERMINATING
 
 : CHAPTER-~0:
     :PARSE: fact= For the breaking-down of a word is with the PARSE/PARSING of a word with the word-parts-break-down = -PREFIX, ROOT, -SUFFIX.
