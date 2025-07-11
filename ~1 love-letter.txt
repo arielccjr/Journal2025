@@ -1,3 +1,78 @@
+~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
+    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
+        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP)+CSS: Data is created in a format users can understand.
+        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP)+JAVASCRIPT?+SQL?: Data is encrypted with Software Port + Checksum
+        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
+        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
+        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
+        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
+        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
+
+    ~0: CLOCK[TIME-SEQUENCE]:
+    ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
+       : RANDOM-ACCESS-MEMORY[DATA]:
+            : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
+                : NOT (in=sel, out=NOTsel)
+                : AND (in=a, in=NOTsel, out=aANDNOTsel)
+                : AND (in=sel, in=b, out=selANDb)
+                : OR (in=aANDNOTsel, in=selANDb, out=out)
+            : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
+                : AND (in=column, in=row, out=columnANDrow)
+                    : AND (in=data, in=write-enable, out=set)
+                    : NOT (in=data, out=NOTdata)
+                    : AND (in=NOTdata, in=write-enable, out=reset)
+                        : OR (in=set, in=outLOOP, out=setORoutLoop)
+                        : NOT (in=reset, out=NOTreset)
+                        : AND (in=setORoutLOOP, in=NOTreset, out=out)
+            : AND-OR-LATCH/MEMORY-REGISTER[MEMORY-BIT(0/1)]: 
+                : OR-LOOP (in=a, in=b, out=1)
+                : AND-LOOP (in=a, in=b, out=0)
+    ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
+        : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
+        : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
+ 
+            : INPUT-STATEMENTS: 
+                : IMPORT Library/Package
+                : DECLARE/INITIALIZE Variables
+                : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Retrieve data from the database. To access and analyze stored information.
+
+            : OUTPUT-STATEMENTS:
+                : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
+                    : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
+                    : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
+                    : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
+                : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
+                    : While: Repeats while a condition is true. To handle indefinite iteration.
+                    : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
+                    : For: Iterates a specific number of times. To handle definite iteration.
+                : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
+                    : Then/Else/Next...  
+                    : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
+                    : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
+
+            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
+            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
+                : STORE IN MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
+            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
+            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
+            : SEARCH, ATTENTION ARCHITECTURE...
+    ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
+        : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
+            : XOR (in=a, in=b, out=abSUM)
+                : AND (in=a, in=b, out=aANDb);
+                : NOT (in=aANDb, out=NOTaANDb);
+                : OR (in=a, in=b, out=aORb);
+                : AND (in=NOTaANDb, in=aORb, out=out);
+            : AND (in=a, in=b, out=abCARRY)
+                : >XOR (in=abSUM, in=c, out=abcSUM)
+                : >AND (in=abSUM, in=c, out=abcCARRY)
+                    ; >OR (in=abCARRY, in=abcBARRY, out=out)
+        : LOGIC-UNIT: NOT, AND, OR... 
+        : BIT-FLAGS: LEAST-COMMON-DENOMINATOR: 
+            : OVERFLOW/EXCESS(>): +1
+            : NEGATIVE/DEFICIENCY(<): -1
+            : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+
 FOR THE MERGING WITH THE LORD. 
 ~0: FETCH: IN:SEE/HEAR/FEEL/SMELL/TASTE().
     ~WHAT/UNKNOWN?: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Division
@@ -5,25 +80,24 @@ FOR THE MERGING WITH THE LORD.
     ~WHERE/FOREIGN?: TRAP for-by WILDWORLD = The Rat Race, Hierarchy
     ~WHEN/SURPRISE?: WAIT for-by BIRTHSTART = Initial State, Beginning Again, DEADLINE: Completion
     ~WHY-HOW/DREAM-SLEEP?: NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam): 
-~1: DECODE:
+~1: DE-CODE: KNOW/READ()-BE(KNOWN)/WRITE().
     ~KNOWN: FRUIT for-by SEEDWORD = Mental Library, pokedex, Map, Weights&Measures, Letters/Spells; Quality, Quantity, State, Action, Passion (Being Acted Upon), Position; 
         ~SEEN: Blinking/Hiding, Opacity(Clear-Opaque), Absorption, Refraction/Distortion (Water, Mirage), Blur, SHADOW(Terminator, Core, Occlusion, Cast), 
             : EYES (ophthalmos, oculus): Camera, Optical/Ocular System, Photoreceptor, 
                 : light (photos, levis), spark (scintilla), fire (pyros)
                 : cilium (eyelid)
-                : opsis, optikos (sight or vision)
-                    : scopein (see), look (specio, specto, spectus) 
+                : scopein (see), look (specio, specto, spectus) 
                     : phanein (to show)
                     : clarus (clear, bright, distinct, or evident)
-                   : copy (simulo)
+                    : copy (simulo)
                     : vanish (vanesco)
                     : kallos (beauty)
                     : kakos, malus (bad, harsh, evil, ugly)
-            : VIEW: 1st, 2nd(Possess), 3rd(God View), 
+            : VIEW/VISION/SIGHT (opsis, optikos): 1st, 2nd(Possess), 3rd(God View), 
             : SHOT/DISTANCE: Close-up, Medium, Long/Wide...
             : ANGLE (gonia): Up-Down, Right-Left
             : FORM: Dot(), Line(Straight, Curve), Shape(), Size(Ratio), 
-            : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, t Store-Set-Up
+            : DISPLAY: DellMonitor, WacomTablet, Web, Letter, Flag/Logo, Media: Comics, Shows, Movies, Game, Physique/Beauty Portrait, Character, Concept/Sequential, Store-Set-Up
             : GEOMETRY: Bitmap: GraphicsGenerator>ScreenBuffer(ImageWidthxHeight): Character/Text/List/String = ASCII>UNICODE
             : LIGHT: SOURCE(Sun, Moon, Stars, Lamp...), White(High, Center, Halftone, Reflected(Shine, Matte)), COLOR(Red/Magenta, Green/Yellow, Blue/Cyan)
         ~HEARD: Deafening/Muting: NOISE, Mumble, Stutter, Cry, Explode, Whisper, Introversion, Effects, SILENCE, Ambience
@@ -361,76 +435,8 @@ FOR THE MERGING WITH THE LORD.
     : bon, bona, bonus, bene, eu- (good, well)
         
 ~ROBERT'S RULE OF ORDER 
-~COMPUTER-HARDWARE-&-SOFTWARE: CENTRAL-PROCESSING-UNIT(CPU) & ASSEMBLY(FETCH-DECODE-EXECUTE)
-    : LAYERS OF THE OPEN SYSTEM INTERCONNECTION (OSI) MODEL & I/O PROTOCOLS:
-        ~7: APPLICATION & HYPERTEXT-TRANSFER-PROTOCOL(HTTP)+CSS: Data is created in a format users can understand.
-        ~6: PRESENTATION & USER-DATAGRAM-PROTOCOL(UDP)+JAVASCRIPT?+SQL?: Data is encrypted with Software Port + Checksum
-        ~5: SESSION & DOMAIN-NAME-SYSTEM(DNS): A session is established. UniformResourceLocator(URL)
-        ~4: TRANSPORT & TRANSMISSION-CONTROL-PROTOCOL(TCP): Data is split into packets and congestion is controlled. 
-        ~3: NETWORK & INTERNET-PROTOCOL(IP): Packets are assigned IP(Header) addresses, switched, and routed.
-        ~2: DATA LINK & MEDIA-ACCESS-CONTROL(MAC) ADDRESS: Packets are framed with Media Access Control (MAC) addresses. 
-        ~1: PHYSICAL & POWER: Data is sent as electrical/optical signals through the wire. 
-    ~0: CLOCK[TIME-SEQUENCE]:
-    ~1: INSTRUCTION-ADDRESS-REGISTER[MEMORY-ADDRESS]: FETCH-PHASE
-       : RANDOM-ACCESS-MEMORY[DATA]:
-            : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
-                : NOT (in=sel, out=NOTsel)
-                : AND (in=a, in=NOTsel, out=aANDNOTsel)
-                : AND (in=sel, in=b, out=selANDb)
-                : OR (in=aANDNOTsel, in=selANDb, out=out)
-            : MATRIX >>> GATES: READ/WRITE-ENABLE-FUNCTION
-                : AND (in=column, in=row, out=columnANDrow)
-                    : AND (in=data, in=write-enable, out=set)
-                    : NOT (in=data, out=NOTdata)
-                    : AND (in=NOTdata, in=write-enable, out=reset)
-                        : OR (in=set, in=outLOOP, out=setORoutLoop)
-                        : NOT (in=reset, out=NOTreset)
-                        : AND (in=setORoutLOOP, in=NOTreset, out=out)
-            : AND-OR-LATCH/MEMORY-REGISTER[MEMORY-BIT(0/1)]: 
-                : OR-LOOP (in=a, in=b, out=1)
-                : AND-LOOP (in=a, in=b, out=0)
-    ~2: INSTRUCTION-REGISTER[INSTRUCTIONS]: DECODE-PHASE
-        : MEMORY-ADDRESS: Pointer(Next Address Reference) -> Index
-        : OPERATIONS-CODE (OPCODE): Algorithms= BruteForce, Selection, Merge, Dijkstra, Divide&Conquer
-            : INPUT-STATEMENTS: 
-                : IMPORT Library/Package
-                : DECLARE/INITIALIZE Variables
-                : Queries (SELECT, WHERE, JOIN, AGGREGATE functions): Retrieve data from the database. To access and analyze stored information.
-            : OUTPUT-STATEMENTS:
-                : TRIGGERS/CONDITIONALS: Perform actions based on conditions.
-                    : If/ElseIf/Else: Executes code based on logical conditions. To handle multiple outcomes.
-                    : Switch: Simplifies multi-condition branching. To streamline complex conditional logic.
-                    : Exception Handling: Manages runtime errors. To handle errors gracefully and ensure program stability.        
-                : LOOPS: Repeats code execution based on conditions. To perform repetitive tasks.
-                    : While: Repeats while a condition is true. To handle indefinite iteration.
-                    : Do-While: Executes at least once before checking conditions. To ensure at least one iteration.
-                    : For: Iterates a specific number of times. To handle definite iteration.
-                : RETURN: Exits a function and optionally returns a value. To end execution and provide a result.
-                    : Then/Else/Next...  
-                    : Continue: Skips to the next iteration. To bypass unnecessary code in specific cases.
-                    : Break: Exits a loop or switch statement early. To terminate iterations based on conditions.
-            : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
-            : DATA MANIPULATION LANGUAGE (INSERT, UPDATE, DELETE statements): Keep datacase data updated and accurate.
-                : STORE IN MORE-REGISTERS-A, -B, -C... & TEMPORARY-MEMORY-BITS
-            : STORED PROCEDURES (CREATE, PROCEDURE, parameters, transactions, and error handling): Improve performance and handle business logic efficiently.
-            : TRIGGERS (CREATE TIGGER for INSERT, UPDATE, DELETE): Enforce rules and log/audit changes automatically.
-            : SEARCH, ATTENTION ARCHITECTURE...
-    ~3: ARITHMETIC-&-LOGIC-UNIT(ALU) & ARITHMETIC-&-LOGIC-FUNCTION: EXECUTE-PHASE
-        : ARITHMETIC-UNIT = Half>Full>Multi-bit Adder:
-            : XOR (in=a, in=b, out=abSUM)
-                : AND (in=a, in=b, out=aANDb);
-                : NOT (in=aANDb, out=NOTaANDb);
-                : OR (in=a, in=b, out=aORb);
-                : AND (in=NOTaANDb, in=aORb, out=out);
-            : AND (in=a, in=b, out=abCARRY)
-                : >XOR (in=abSUM, in=c, out=abcSUM)
-                : >AND (in=abSUM, in=c, out=abcCARRY)
-                    ; >OR (in=abCARRY, in=abcBARRY, out=out)
-        : LOGIC-UNIT: NOT, AND, OR... 
-        : BIT-FLAGS: LEAST-COMMON-DENOMINATOR: 
-            : OVERFLOW/EXCESS(>): +1
-            : NEGATIVE/DEFICIENCY(<): -1
-            : ZERO/GRATIFICATION/GOLDEN-MEAN(=): 0; The mean between deficiency and excess, ei. Courage is the mean between cowardice and recklessness.
+
+
 ~2: EXECUTE: OUT:BE(SEEN/HEARD/FELT/SMELLED/TASTED)
     : FORGETING-TERMINATING
 
