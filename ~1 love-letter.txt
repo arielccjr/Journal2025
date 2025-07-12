@@ -50,6 +50,7 @@
 FOR THE MERGING WITH THE LORD. 
 ~0: FETCH: IN:SEE/HEAR/FEEL/SMELL/TASTE(). : INPUT-STATEMENTS: 
     : IMPORT Library/Package
+    : DECLARE/INITIALIZE Variables, STORE Values
     : QUERIES (SELECT, WHERE, JOIN, AGGREGATE functions): Get data from the database.
     ~WHAT/UNKNOWN?: SPOIL for-by SOILVOID = Damages, Anomalies (Dice), liabilities, Scarcity/Finity, Bankruptcy, Lacking, Division
     ~WHO/STRANGER?: BAIT/SACRIFICE for-by MOTHERBEAST = NPCs/Requests/Puzzles, Lone/LowPopulation, EnemyRaids/Ambush, Rivals
@@ -58,8 +59,7 @@ FOR THE MERGING WITH THE LORD.
     ~WHY-HOW/DREAM-SLEEP?: NATURAL-LANGUAGE/FALLACIES: Equivocation, Amphiboly, Accent, Composition, Division, Begging the Question (Petitio Principii), False Cause (Post Hoc Ergo Propter Hoc), Accident, Converse Accident (Hasty Generalization), False Analogy, Slippery Slope, Ad Hominem, Appeal to Authority (Ad Verecundiam)
 
 ~1: DE-CODE: KNOW/READ()-BE(KNOWN)/WRITE().
-    : DECLARE/INITIALIZE Variables
-    : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.   
+    : DATA DEFINITION LANGUAGE (CREATE, ALTER, DROP commands): Sets up the database structure for efficient storage.
     : RANDOM-ACCESS-MEMORY[DATA]:
         : MULTIPLEXER: MUX = (a AND NOTsel) OR (sel AND b)
             : NOT (in=sel, out=NOTsel)
